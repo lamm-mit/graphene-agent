@@ -66,7 +66,7 @@ def classify_mode_class(mode):
 
 
 def spec(campaign, stage, batch_name, structures, aqs):
-    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "mps", "dtype": "float32", "aqs": aqs, "structures": structures}
+    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "auto", "dtype": "float32", "aqs": aqs, "structures": structures}
 
 
 def write_specs(stage_dir, batches):

@@ -3,7 +3,7 @@ experiment database.
 
 spec = {
   "campaign": str, "stage": str, "batch_name": str,
-  "device": "mps"|"cpu", "dtype": "float32"|"float64",
+  "device": "auto"|"cuda"|"cuda:k"|"mps"|"cpu", "dtype": "float32"|"float64",
   "aqs": {AQSConfig overrides},
   "structures": [ {"name", "family", "params": {...}, "seed", "reason", "hypothesis", "prediction", "parent", "tags"} ... ]
 }
@@ -113,6 +113,7 @@ def main():
         print(s, flush=True)
         log_lines.append(s)
     eng = TorchRebo2Scr(device=device, dtype=dtype)
+    device = str(eng.device)                        # "auto" -> the device actually used (cuda[:k] > mps > cpu); recorded in every record
     env = db.environment_record()
     code = db.code_version()
     cfg = AQSConfig(**spec.get("aqs", {}))

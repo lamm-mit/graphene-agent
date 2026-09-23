@@ -153,6 +153,15 @@ To rerun the campaign itself, the batch specifications are in `carbon_discovery/
 `scripts/run_batch.py` or the queue `scripts/run_queue.py` (one process per structure, several sharing the GPU); each
 stage took hours to a day on one machine.
 
+### Running on other hardware
+The engine selects the device automatically (`--device auto`: CUDA if available, otherwise Apple MPS, otherwise CPU) and
+records the device actually used in every run record. On a machine with several GPUs, `scripts/run_queue.py --device
+cuda:0,cuda:1 --workers 4` assigns workers to the listed devices in turn. CUDA supports float64 as well, so the
+float64 reference checks of the validation suite can run on the GPU there; MPS is float32 only. The CUDA code path is
+identical to the MPS path but was not benchmarked in this work: before launching a campaign on a new machine, run
+`pytest -q tests/` and `python validation/suite.py` (TESTs 1, 2, 5–8, 18 and 19 need the Atomistica reference
+implementation, `pip install atomistica`, which requires a Fortran compiler; the remaining tests run without it).
+
 ## Integrity and pre-registration
 
 - Every simulation record stores device, precision, force-field parameter checksum, boundary conditions, minimiser

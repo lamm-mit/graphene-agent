@@ -42,7 +42,7 @@ def match(family, params, target, key, lo, hi, increasing=True, tol=0.008, it=18
 
 
 def spec(campaign, stage, batch_name, structures, aqs=AQS):
-    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "mps", "dtype": "float32", "aqs": aqs, "structures": structures}
+    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "auto", "dtype": "float32", "aqs": aqs, "structures": structures}
 
 
 def S(name, family, params, seed=0, reason="", hypothesis="", tags=None, parent=None, prediction=None, notes=None):
