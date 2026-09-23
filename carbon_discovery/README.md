@@ -32,6 +32,7 @@ $PY validation/suite.py                      # validation table (fast tests) -> 
 $PY scripts/run_batch.py experiments/specs/stage1/stage1_b0.json    # run one batch spec
 $PY scripts/run_queue.py experiments/specs/stage2 --workers 3       # run a queue of specs concurrently (MPS)
 $PY scripts/reproduce_run.py <run_id>        # reproduce a stored run from its record
+$PY scripts/merge_runs_from.py <other_tree> --apply   # copy-only merge of runs made in another copy of the tree (never overwrites)
 $PY analysis/campaign_analysis.py            # campaign figures from the database
 $PY final_designs/select_top.py              # top structures, progression panels, movies
 $PY report/results_body_template.py && $PY report/build_report.py   # compile the report
