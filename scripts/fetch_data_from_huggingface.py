@@ -3,7 +3,7 @@
     python scripts/fetch_data_from_huggingface.py --what all            # trajectories + large SVG figures
     python scripts/fetch_data_from_huggingface.py --what trajectories   # 132 npz files -> carbon_discovery/trajectories/
     python scripts/fetch_data_from_huggingface.py --what svg            # 47 SVG files  -> their original locations
-    python scripts/fetch_data_from_huggingface.py --what movies         # fracture movies (mp4) -> paper_analysis/movies_hq/
+    python scripts/fetch_data_from_huggingface.py --what movies         # fracture movies (mp4) -> paper_analysis/movies_hq/ and movies_social/
 
 Requires `pip install huggingface_hub`.  The dataset id can be overridden with --repo.
 Trajectory format (npz): positions, cells, peratom_energy, peratom_virial, coordination, eps_x, eps_y, sigma_xx, sigma_yy,
@@ -29,7 +29,7 @@ def main():
     patterns = []
     if a.what in ("all", "trajectories"): patterns.append("trajectories/*.npz")
     if a.what in ("all", "svg"): patterns.append("large_svg_figures/**")
-    if a.what in ("all", "movies"): patterns.append("movies/*")
+    if a.what in ("all", "movies"): patterns.append("movies/**")
     patterns.append("SHA256SUMS.txt")
     local = snapshot_download(repo_id=a.repo, repo_type="dataset", allow_patterns=patterns)
     n = 0
@@ -51,10 +51,11 @@ def main():
         print(f"large SVG figures: {m} files restored to their original locations")
     mdir = os.path.join(local, "movies")
     if os.path.isdir(mdir) and a.what in ("all", "movies"):
-        dst = os.path.join(ROOT, "paper_analysis", "movies_hq"); os.makedirs(dst, exist_ok=True); k = 0
-        for f in sorted(os.listdir(mdir)):
-            if f.endswith((".mp4", ".png")): shutil.copy2(os.path.join(mdir, f), os.path.join(dst, f)); k += 1
-        print(f"movies: {k} files -> {dst}")
+        for sub, dstname in (("", "movies_hq"), ("social", "movies_social")):
+            src = os.path.join(mdir, sub); dst = os.path.join(ROOT, "paper_analysis", dstname); os.makedirs(dst, exist_ok=True); k = 0
+            for f in sorted(os.listdir(src)):
+                if f.endswith((".mp4", ".png")): shutil.copy2(os.path.join(src, f), os.path.join(dst, f)); k += 1
+            print(f"movies{'/' + sub if sub else ''}: {k} files -> {dst}")
     print("done. Verify with:  (cd <dataset snapshot> && shasum -a 256 -c SHA256SUMS.txt)  ->", local)
 
 
