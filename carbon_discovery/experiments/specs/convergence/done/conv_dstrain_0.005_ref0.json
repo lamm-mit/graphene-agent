@@ -1,0 +1,29 @@
+{
+ "campaign": "validation",
+ "stage": "convergence",
+ "batch_name": "conv_dstrain_0.005_ref0",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_min": 0.005,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 200,
+  "refine_first_damage": false
+ },
+ "structures": [
+  {
+   "name": "mesh64_ds0.005_ref0",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 64,
+    "Ly": 64,
+    "pore_d": 8,
+    "period": 16
+   },
+   "seed": 0,
+   "reason": "TEST14 strain increment"
+  }
+ ]
+}

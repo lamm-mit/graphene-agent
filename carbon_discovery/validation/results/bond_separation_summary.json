@@ -1,0 +1,52 @@
+{
+  "A_dimer": {
+    "maxabs_dE_torch_cpu64": 2.842170943040401e-14,
+    "maxabs_dF_torch_cpu64": 3.410605131648481e-13,
+    "maxabs_dE_torch_fast32": 3.525783802160731e-05,
+    "maxabs_dF_torch_fast32": 0.00019404338786443986,
+    "max_force_jump_between_samples": 13.182520116536466,
+    "sample_step": 0.010000000000000009,
+    "max_force": 182.7459619394383,
+    "tail_max_restiffening": 0.563327838169414
+  },
+  "B_bond_in_graphene": {
+    "maxabs_dE_torch_cpu64": 2.5011104298755527e-12,
+    "maxabs_dF_torch_cpu64": 1.1908696251339279e-11,
+    "maxabs_dE_torch_fast32": 0.0010209814654444926,
+    "maxabs_dF_torch_fast32": 0.009465805690808793,
+    "max_force_jump_between_samples": 174.84120326748106,
+    "sample_step": 0.009947259890421778,
+    "max_force": 512.6741583475102,
+    "tail_max_restiffening": 0.0
+  },
+  "C_stretch_zigzag": {
+    "maxabs_dE_torch_cpu64": 1.9539925233402755e-14,
+    "maxabs_dS_torch_cpu64": 3.552713678800501e-13,
+    "maxabs_dE_torch_fast32": 5.195521215028975e-06,
+    "maxabs_dS_torch_fast32": 0.0001305661087016574,
+    "max_force_jump_between_samples": 2.8792360277693803,
+    "sample_step": 0.005,
+    "max_force": 36.90506464423977,
+    "tail_max_restiffening": 2.8792360277693803
+  },
+  "C_stretch_armchair": {
+    "maxabs_dE_torch_cpu64": 1.865174681370263e-14,
+    "maxabs_dS_torch_cpu64": 1.4921397450962104e-13,
+    "maxabs_dE_torch_fast32": 2.8176503175103562e-06,
+    "maxabs_dS_torch_fast32": 8.058643155450795e-05,
+    "max_force_jump_between_samples": 1.7312505936723257,
+    "sample_step": 0.005,
+    "max_force": 36.93273141146393,
+    "tail_max_restiffening": -0.013229879388092058
+  },
+  "D_cracktip_pull": {
+    "maxabs_dE_torch_cpu64": 3.3651303965598345e-11,
+    "maxabs_dF_torch_cpu64": 1.3642420526593924e-12,
+    "maxabs_dE_torch_fast32": 0.0018057635215882328,
+    "maxabs_dF_torch_fast32": 0.01302991899638073,
+    "max_force_jump_between_samples": 113.65949978914978,
+    "sample_step": 0.01,
+    "max_force": 1768.5884615695873,
+    "tail_max_restiffening": 0.0
+  }
+}

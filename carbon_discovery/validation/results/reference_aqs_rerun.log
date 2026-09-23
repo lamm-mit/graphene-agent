@@ -1,0 +1,5 @@
+precrack torch_cpu64_batched_fire max|dsigma| all: 0.25548975904596927 pre-peak: 0.09078061676893867
+precrack torch_mps32_batched_fire max|dsigma| all: 0.13927365602104158 pre-peak: 0.06618718331754536
+nanomesh torch_cpu64_batched_fire max|dsigma| all: 0.3603574421025506 pre-peak: 0.06665487427583017
+nanomesh torch_mps32_batched_fire max|dsigma| all: 0.07755761214828283 pre-peak: 0.06620830500930808
+saved

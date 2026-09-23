@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Carbon architecture discovery platform (REBO2+S)</title>
+<link rel="stylesheet" href="/static/style.css">
+<script type="importmap">{ "imports": { "three": "/static/vendor/three.module.js", "three/addons/controls/OrbitControls.js": "/static/vendor/OrbitControls.js" } }</script>
+</head>
+<body>
+<header>
+  <h1>Carbon architecture &amp; fracture discovery</h1>
+  <div class="engine" id="engine">
+    <span>FORCE ENGINE: <b id="e-pot">…</b></span><span>impl: <b id="e-impl">…</b></span><span>device: <b id="e-dev">…</b></span>
+    <span>precision: <b id="e-prec">…</b></span><span>atoms loaded: <b id="e-atoms">–</b></span><span id="e-status" class="badge warn">connecting</span>
+    <span id="e-val" class="badge warn">validation ?</span>
+  </div>
+</header>
+<main>
+<nav>
+  <button data-p="interp" class="active">Reference images</button>
+  <button data-p="generate">Geometry generation</button>
+  <button data-p="simulate">Simulation</button>
+  <button data-p="physics">Physics / model</button>
+  <button data-p="validation">Validation</button>
+  <button data-p="performance">Performance</button>
+  <button data-p="results">Results</button>
+  <button data-p="top">Top structures</button>
+  <button data-p="fracture">Fracture progression</button>
+  <button data-p="database">Experiment database</button>
+</nav>
+
+<section class="panel active" id="p-interp">
+  <h2>Reference-image interpretation (editable)</h2>
+  <div class="card"><div class="imgs" id="ref-imgs"></div></div>
+  <div class="row"><div class="col card"><h3>Images → principles</h3><div id="img-list"></div></div>
+  <div class="col card"><h3>Design principles (edit and save)</h3><div id="principles"></div>
+  <button class="primary" id="save-interp">Save interpretation</button> <span class="muted" id="interp-msg"></span></div></div>
+</section>
+
+<section class="panel" id="p-generate">
+  <h2>Carbon architecture generation (ASE Atoms, explicit atoms)</h2>
+  <div class="row">
+    <div class="col card" style="max-width:380px"><h3>Family &amp; parameters</h3>
+      <label>Family</label><select id="family"></select><div class="muted" id="family-principles"></div>
+      <div id="params"></div>
+      <button class="primary" id="gen-btn">Generate structure</button>
+      <div id="gen-msg" class="muted"></div>
+      <h3>Viability pre-check</h3><div class="kv" id="precheck"></div>
+    </div>
+    <div class="col card"><h3>Top view (atoms and bonds &lt; 1.9 Å)</h3><canvas id="preview" width="800" height="700"></canvas>
+      <button class="secondary" id="to-sim">Send to simulation →</button></div>
+    <div class="col card" style="max-width:360px"><h3>Structural descriptors</h3><div class="kv" id="descriptors"></div></div>
+  </div>
+</section>
+
+<section class="panel" id="p-simulate">
+  <h2>Athermal quasi-static tensile simulation</h2>
+  <div class="row"><div class="col card" style="max-width:420px"><h3>Settings</h3>
+    <div class="kv" id="sim-struct"><div>structure</div><div>none generated</div></div>
+    <label>name</label><input id="s-name" value="app_run">
+    <label>strain increment (base; first damage bisected to 1/4)</label><input id="s-ds" value="0.005">
+    <label>max strain</label><input id="s-max" value="0.35">
+    <label>FIRE force tolerance (eV/Å)</label><input id="s-fmax" value="0.02">
+    <label>transverse relaxation (σ_yy → 0)</label><select id="s-tr"><option value="true">yes (uniaxial stress)</option><option value="false">no (uniaxial strain)</option></select>
+    <label>device / precision</label><select id="s-dev"><option value="auto|float32">auto (MPS/CUDA) float32 – fast discovery mode</option><option value="cpu|float64">cpu float64 – reference mode</option></select>
+    <button class="primary" id="sim-btn">Launch simulation</button><div class="muted" id="sim-msg"></div></div>
+  <div class="col card"><h3>Jobs</h3><div id="jobs"></div></div></div>
+</section>
+
+<section class="panel" id="p-physics"><h2>Physics and model description</h2><div id="physics"></div></section>
+<section class="panel" id="p-validation"><h2>Validation suite</h2><div class="card"><table id="val-table"></table></div>
+ <div class="card figgrid" id="val-figs"></div></section>
+<section class="panel" id="p-performance"><h2>Computational performance</h2><div id="perf"></div></section>
+
+<section class="panel" id="p-results">
+  <h2>Results</h2>
+  <div class="card toolbar">filter campaign <select id="r-camp"></select> stage <select id="r-stage"></select> family <select id="r-fam"></select>
+   <span class="muted" id="r-count"></span></div>
+  <div class="row"><div class="col card" style="min-width:520px;max-height:520px;overflow:auto"><table id="runs"></table></div>
+  <div class="col card"><h3>Stress–strain (selected runs)</h3><canvas class="plot" id="ss" width="900" height="480"></canvas><div class="legend" id="ss-legend"></div></div></div>
+  <div class="row"><div class="col card"><h3>Pareto / property map</h3>
+    <div class="toolbar">x <select id="px"></select> y <select id="py"></select> colour by <select id="pc"><option value="family">family</option><option value="hierarchy_levels">hierarchy levels</option><option value="stage">stage</option></select></div>
+    <canvas class="plot" id="pareto" width="900" height="520"></canvas><div class="legend" id="pareto-legend"></div></div>
+  <div class="col card" style="max-width:420px"><h3>Selected run metrics</h3><div class="kv" id="run-metrics"></div></div></div>
+</section>
+
+<section class="panel" id="p-top"><h2>Top scientifically informative structures</h2><div id="top"></div></section>
+
+<section class="panel" id="p-fracture">
+  <h2>Fracture progression viewer</h2>
+  <div class="card toolbar">run <select id="f-run"></select> colour <select id="f-mode"><option value="energy_rel">energy change per atom</option><option value="energy">energy per atom</option><option value="virial">virial xx per atom</option><option value="disp">non-affine displacement</option><option value="coord">coordination</option><option value="damage">damage (time of first bond loss)</option></select>
+   <button class="secondary" id="f-top">top view</button><button class="secondary" id="f-persp">perspective</button><button class="secondary" id="f-play">▶ play</button>
+   <label style="display:inline">bonds <input type="checkbox" id="f-bonds" checked style="width:auto"></label> <span class="muted" id="f-info"></span></div>
+  <div class="row"><div class="col" style="flex:2"><div id="viewer"></div><input type="range" class="slider" id="f-slider" min="0" max="0" value="0"></div>
+  <div class="col card" style="flex:1;min-width:360px"><h3>Synchronised stress–strain</h3><canvas class="plot" id="f-ss" width="600" height="380"></canvas>
+   <div class="kv" id="f-frame"></div><h3>Event frames</h3><div id="f-events" class="muted"></div></div></div>
+</section>
+
+<section class="panel" id="p-database"><h2>Experiment database</h2>
+ <div class="card muted">index: <a href="/files/experiments/database/index.jsonl" target="_blank">index.jsonl</a> · <a href="/files/experiments/database/summary.csv" target="_blank">summary.csv</a> · one directory per run under <code>experiments/database/runs/&lt;run_id&gt;/</code> (record.json, stress_strain.csv, initial/relaxed/final.extxyz) · trajectories under <code>trajectories/&lt;run_id&gt;.npz</code></div>
+ <div class="row"><div class="col card" style="max-width:420px"><h3>Select run</h3><select id="d-run"></select><h3>Exports</h3><div id="d-exports"></div></div>
+ <div class="col card"><h3>Record</h3><pre id="d-record"></pre></div></div>
+ <div class="card"><h3>Hypotheses, discriminating experiments, holdout predictions</h3><pre id="d-hyp"></pre></div>
+</section>
+</main>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>

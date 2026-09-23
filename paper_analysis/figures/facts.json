@@ -1,0 +1,38 @@
+{
+ "discovery": {
+  "n": 96,
+  "first": "2026-09-04 23:36",
+  "last": "2026-09-06 01:50",
+  "wall_h": 245.59870710574233,
+  "atoms": 345460
+ },
+ "paper": {
+  "n": 18,
+  "first": "2026-09-09 05:48",
+  "last": "2026-09-09 10:34",
+  "wall_h": 20.676017428402766,
+  "atoms": 62693
+ },
+ "other": {
+  "n": 18,
+  "first": "2026-09-04 21:39",
+  "last": "2026-09-06 05:53",
+  "wall_h": 20.390097476029865,
+  "atoms": 25318
+ },
+ "loc": {
+  "force-field kernel": 571,
+  "parameters and tables": 451,
+  "neighbour list, FIRE, AQS, MD": 872,
+  "generators, descriptors, I/O": 773,
+  "analysis and figures": 1273,
+  "campaign, database, queue": 1360,
+  "validation suite": 982,
+  "browser app": 771
+ },
+ "loc_total": 7053,
+ "n_tests": 20,
+ "n_pass": 20,
+ "total_wall_h": 286.664822010175,
+ "total_runs": 132
+}

@@ -1,0 +1,48 @@
+batch paper_P3_alignment_06: 1 structures, N = [4414], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0011 0.0055]], sigma = [[ 0.025 -0.013]] N/m
+step   1 P3_H2_square_W: e=0.0100 s=  1.33N/m nb=  0  fire_it=220 t=104s
+step   2 P3_H2_square_W: e=0.0200 s=  2.55N/m nb=  0  fire_it=260 t=134s
+step   3 P3_H2_square_W: e=0.0300 s=  3.43N/m nb=  0  fire_it=210 t=159s
+step   4 P3_H2_square_W: e=0.0400 s=  4.35N/m nb=  0  fire_it=330 t=198s
+step   5 P3_H2_square_W: e=0.0500 s=  5.24N/m nb=  0  fire_it=150 t=267s
+step   6 P3_H2_square_W: e=0.0600 s=  6.27N/m nb=  0  fire_it=170 t=288s
+step   7 P3_H2_square_W: e=0.0700 s=  7.18N/m nb=  0  fire_it=190 t=355s
+step   8 P3_H2_square_W: e=0.0800 s=  7.92N/m nb=  0  fire_it=550 t=462s
+step   9 P3_H2_square_W: e=0.0900 s=  8.59N/m nb=  0  fire_it=620 t=596s
+step  10 P3_H2_square_W: e=0.1000 s=  9.27N/m nb=  0  fire_it=230 t=669s
+step  11 P3_H2_square_W: e=0.1100 s=  9.91N/m nb=  0  fire_it=230 t=744s
+step  12 P3_H2_square_W: e=0.1200 s= 10.49N/m nb=  0  fire_it=100 t=803s
+  step 13: early bisection for [0] -> d_eps=[0.005]
+  step 14: bisection for [0] -> d_eps=[0.0025]
+step  15 P3_H2_square_W: e=0.1225 s= 10.62N/m nb=  0  fire_it=80 t=974s
+step  16 P3_H2_square_W: e=0.1250 s= 10.78N/m nb=  0  fire_it=20 t=1021s
+  step 17: early bisection for [0] -> d_eps=[0.00125]
+step  18 P3_H2_square_W: e=0.1262 s= 10.81N/m nb=  1  fire_it=150 t=1132s
+step  19 P3_H2_square_W: e=0.1312 s= 11.00N/m nb=  4  fire_it=350 t=1223s
+step  20 P3_H2_square_W: e=0.1362 s= 11.23N/m nb=  1  fire_it=620 t=1345s
+step  21 P3_H2_square_W: e=0.1412 s=  9.65N/m nb= 19  fire_it=1090 t=1785s
+step  22 P3_H2_square_W: e=0.1462 s=  7.42N/m nb= 15  fire_it=2000 t=2202s
+step  23 P3_H2_square_W: e=0.1512 s=  6.27N/m nb=  2  fire_it=2000 t=2702s
+step  24 P3_H2_square_W: e=0.1562 s=  5.06N/m nb=  2  fire_it=2000 t=3391s
+step  25 P3_H2_square_W: e=0.1613 s=  4.36N/m nb=  0  fire_it=1020 t=3762s
+step  26 P3_H2_square_W: e=0.1663 s=  3.91N/m nb=  0  fire_it=1520 t=4048s
+step  27 P3_H2_square_W: e=0.1713 s=  2.91N/m nb=  2  fire_it=950 t=4357s
+step  28 P3_H2_square_W: e=0.1763 s=  2.13N/m nb=  3  fire_it=570 t=4615s
+step  29 P3_H2_square_W: e=0.1813 s=  2.32N/m nb=  0  fire_it=630 t=4668s
+step  30 P3_H2_square_W: e=0.1863 s=  2.16N/m nb=  0  fire_it=950 t=4758s
+step  31 P3_H2_square_W: e=0.1913 s=  1.90N/m nb=  0  fire_it=1360 t=4869s
+step  32 P3_H2_square_W: e=0.1963 s=  1.85N/m nb=  0  fire_it=780 t=4950s
+step  33 P3_H2_square_W: e=0.2013 s=  1.94N/m nb=  0  fire_it=660 t=5004s
+step  34 P3_H2_square_W: e=0.2063 s=  1.90N/m nb=  0  fire_it=730 t=5082s
+step  35 P3_H2_square_W: e=0.2113 s=  1.96N/m nb=  0  fire_it=680 t=5138s
+step  36 P3_H2_square_W: e=0.2163 s=  2.02N/m nb=  0  fire_it=670 t=5192s
+step  37 P3_H2_square_W: e=0.2213 s=  2.06N/m nb=  0  fire_it=670 t=5247s
+step  38 P3_H2_square_W: e=0.2263 s=  1.98N/m nb=  0  fire_it=1180 t=5327s
+step  39 P3_H2_square_W: e=0.2313 s=  2.06N/m nb=  0  fire_it=610 t=5378s
+step  40 P3_H2_square_W: e=0.2363 s=  1.59N/m nb=  1  fire_it=710 t=5549s
+step  41 P3_H2_square_W: e=0.2413 s=  1.61N/m nb=  0  fire_it=540 t=5639s
+step  42 P3_H2_square_W: e=0.2463 s=  1.61N/m nb=  0  fire_it=960 t=5716s
+step  43 P3_H2_square_W: e=0.2513 s=  1.63N/m nb=  0  fire_it=850 t=5790s
+[done] P3_H2_square_W8_ellipse_30deg -> run_20260909_103406_61de19: reconstructed but viable; strength 11.23 N/m @ 0.136, fail 0.256, mode stepwise (few events), post-peak strain limit reached (load still carried)
+step  44 P3_H2_square_W: e=0.2563 s=  1.67N/m nb=  0*  fire_it=1030 t=5853s
+batch finished in 6431s (simulation 6431s); evaluations {'n_evaluations': 60682, 'fire_iterations': 60390, 'n_rebuilds': 513, 'n_reverts': 3, 'n_soft_converged': 21}

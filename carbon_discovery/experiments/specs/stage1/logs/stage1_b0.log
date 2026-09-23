@@ -1,0 +1,43 @@
+batch stage1_b0: 3 structures, N = [3772, 3772, 3691], device=mps torch.float32
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: divide by zero encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: overflow encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: invalid value encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+  zero-stress relaxation: eps0 = [[0.     0.    ]
+ [0.     0.    ]
+ [0.0004 0.0008]], sigma = [[8.616e-05 5.725e-06]
+ [7.129e-07 8.976e-05]
+ [7.403e-02 2.108e-02]] N/m
+step   1 S1_pristine_zz: e=0.0050 s=  1.26N/m nb=  0 | S1_pristine_ac: e=0.0050 s=  1.32N/m nb=  0 | S1_vac_random_: e=0.0050 s=  1.35N/m nb=  0  fire_it=110 t=74s
+step   2 S1_pristine_zz: e=0.0100 s=  2.49N/m nb=  0 | S1_pristine_ac: e=0.0100 s=  2.74N/m nb=  0 | S1_vac_random_: e=0.0100 s=  2.60N/m nb=  0  fire_it=40 t=90s
+step   3 S1_pristine_zz: e=0.0150 s=  3.71N/m nb=  0 | S1_pristine_ac: e=0.0150 s=  4.22N/m nb=  0 | S1_vac_random_: e=0.0150 s=  3.83N/m nb=  0  fire_it=40 t=105s
+step   4 S1_pristine_zz: e=0.0200 s=  4.98N/m nb=  0 | S1_pristine_ac: e=0.0200 s=  5.73N/m nb=  0 | S1_vac_random_: e=0.0200 s=  5.01N/m nb=  0  fire_it=200 t=170s
+step   5 S1_pristine_zz: e=0.0250 s=  6.23N/m nb=  0 | S1_pristine_ac: e=0.0250 s=  7.23N/m nb=  0 | S1_vac_random_: e=0.0250 s=  6.19N/m nb=  0  fire_it=110 t=206s
+step   6 S1_pristine_zz: e=0.0300 s=  7.53N/m nb=  0 | S1_pristine_ac: e=0.0300 s=  8.71N/m nb=  0 | S1_vac_random_: e=0.0300 s=  7.37N/m nb=  0  fire_it=150 t=259s
+step   7 S1_pristine_zz: e=0.0350 s=  8.77N/m nb=  0 | S1_pristine_ac: e=0.0350 s= 10.17N/m nb=  0 | S1_vac_random_: e=0.0350 s=  8.54N/m nb=  0  fire_it=100 t=292s
+step   8 S1_pristine_zz: e=0.0400 s=  9.98N/m nb=  0 | S1_pristine_ac: e=0.0400 s= 11.58N/m nb=  0 | S1_vac_random_: e=0.0400 s=  9.70N/m nb=  0  fire_it=100 t=326s
+step   9 S1_pristine_zz: e=0.0450 s= 11.18N/m nb=  0 | S1_pristine_ac: e=0.0450 s= 12.94N/m nb=  0 | S1_vac_random_: e=0.0450 s= 10.70N/m nb=  0  fire_it=110 t=363s
+step  10 S1_pristine_zz: e=0.0500 s= 12.37N/m nb=  0 | S1_pristine_ac: e=0.0500 s= 14.26N/m nb=  0 | S1_vac_random_: e=0.0500 s= 11.71N/m nb=  0  fire_it=110 t=401s
+step  11 S1_pristine_zz: e=0.0550 s= 13.53N/m nb=  0 | S1_pristine_ac: e=0.0550 s= 15.54N/m nb=  0 | S1_vac_random_: e=0.0550 s= 12.74N/m nb=  0  fire_it=150 t=449s
+step  12 S1_pristine_zz: e=0.0600 s= 14.65N/m nb=  0 | S1_pristine_ac: e=0.0600 s= 16.76N/m nb=  0 | S1_vac_random_: e=0.0600 s= 13.78N/m nb=  0  fire_it=140 t=495s
+step  13 S1_pristine_zz: e=0.0650 s= 15.74N/m nb=  0 | S1_pristine_ac: e=0.0650 s= 17.93N/m nb=  0 | S1_vac_random_: e=0.0650 s= 14.77N/m nb=  0  fire_it=280 t=583s
+step  14 S1_pristine_zz: e=0.0700 s= 16.81N/m nb=  0 | S1_pristine_ac: e=0.0700 s= 19.04N/m nb=  0 | S1_vac_random_: e=0.0700 s= 15.78N/m nb=  0  fire_it=100 t=615s
+step  15 S1_pristine_zz: e=0.0750 s= 17.85N/m nb=  0 | S1_pristine_ac: e=0.0750 s= 20.11N/m nb=  0 | S1_vac_random_: e=0.0750 s= 16.61N/m nb=  0  fire_it=260 t=925s
+step  16 S1_pristine_zz: e=0.0800 s= 18.85N/m nb=  0 | S1_pristine_ac: e=0.0800 s= 21.12N/m nb=  0 | S1_vac_random_: e=0.0800 s= 17.51N/m nb=  0  fire_it=20 t=1062s
+step  17 S1_pristine_zz: e=0.0850 s= 19.84N/m nb=  0 | S1_pristine_ac: e=0.0850 s= 22.08N/m nb=  0 | S1_vac_random_: e=0.0850 s= 18.40N/m nb=  0  fire_it=390 t=1188s
+step  18 S1_pristine_zz: e=0.0900 s= 20.79N/m nb=  0 | S1_pristine_ac: e=0.0900 s= 22.98N/m nb=  0 | S1_vac_random_: e=0.0900 s= 19.22N/m nb=  0  fire_it=330 t=1295s
+step  19 S1_pristine_zz: e=0.0950 s= 21.70N/m nb=  0 | S1_pristine_ac: e=0.0950 s= 23.82N/m nb=  0 | S1_vac_random_: e=0.0950 s= 19.99N/m nb=  0  fire_it=200 t=1504s
+  step 20: early bisection for [2] -> d_eps=[0.0025]
+step  20 S1_pristine_zz: e=0.1000 s= 22.59N/m nb=  0 | S1_pristine_ac: e=0.1000 s= 24.63N/m nb=  0 | S1_vac_random_: e=0.0950 s= 19.99N/m nb=  0  fire_it=400 t=1639s
+  step 21: early bisection for [2] -> d_eps=[0.00125]
+step  21 S1_pristine_zz: e=0.1050 s= 23.44N/m nb=  0 | S1_pristine_ac: e=0.1050 s= 25.38N/m nb=  0 | S1_vac_random_: e=0.0950 s= 19.99N/m nb=  0  fire_it=380 t=1759s
+step  22 S1_pristine_zz: e=0.1100 s= 24.26N/m nb=  0 | S1_pristine_ac: e=0.1100 s= 26.07N/m nb=  0 | S1_vac_random_: e=0.0963 s= 20.22N/m nb=  0  fire_it=30 t=1771s
+step  23 S1_pristine_zz: e=0.1150 s= 25.04N/m nb=  0 | S1_pristine_ac: e=0.1150 s= 26.70N/m nb=  0 | S1_vac_random_: e=0.0975 s= 20.33N/m nb=  1  fire_it=300 t=1866s
+step  24 S1_pristine_zz: e=0.1200 s= 25.80N/m nb=  0 | S1_pristine_ac: e=0.1200 s= 27.29N/m nb=  0 | S1_vac_random_: e=0.1025 s= 21.05N/m nb=  1  fire_it=50 t=2003s
+step  25 S1_pristine_zz: e=0.1250 s= 26.53N/m nb=  0 | S1_pristine_ac: e=0.1250 s= 27.84N/m nb=  0 | S1_vac_random_: e=0.1075 s= 21.63N/m nb=  1  fire_it=340 t=2225s
+step  26 S1_pristine_zz: e=0.1300 s= 27.25N/m nb=  0 | S1_pristine_ac: e=0.1300 s= 28.34N/m nb=  0 | S1_vac_random_: e=0.1125 s= 22.17N/m nb=  4  fire_it=140 t=2392s
+step  27 S1_pristine_zz: e=0.1350 s= 27.97N/m nb=  0 | S1_pristine_ac: e=0.1350 s= 28.77N/m nb=  0 | S1_vac_random_: e=0.1175 s= 22.66N/m nb=  2  fire_it=60 t=2536s
+step  28 S1_pristine_zz: e=0.1400 s= 28.71N/m nb=  0 | S1_pristine_ac: e=0.1400 s= 29.15N/m nb=  0 | S1_vac_random_: e=0.1225 s= 23.25N/m nb=  2  fire_it=220 t=2605s
+step  29 S1_pristine_zz: e=0.1450 s= 29.46N/m nb=  0 | S1_pristine_ac: e=0.1450 s= 29.50N/m nb=  0 | S1_vac_random_: e=0.1275 s= 23.59N/m nb=  7  fire_it=430 t=2851s

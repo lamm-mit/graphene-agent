@@ -1,0 +1,50 @@
+{
+ "run_id": "run_20260905_022450_bb0a88",
+ "name": "S1_precrack_L30",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": -0.004101852871896073,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 9,
+   "eps": 0.07750000000000001,
+   "sigma_Nm": 15.61565312959851,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage",
+   "frame": 10,
+   "eps": 0.07875000000000001,
+   "sigma_Nm": 15.69672736107834,
+   "n_broken": 2
+  },
+  {
+   "label": "damage_event",
+   "frame": 11,
+   "eps": 0.08375000000000002,
+   "sigma_Nm": 16.292594361053002,
+   "n_broken": 4
+  },
+  {
+   "label": "peak_load",
+   "frame": 14,
+   "eps": 0.09875000000000003,
+   "sigma_Nm": 18.72430371079246,
+   "n_broken": 4
+  },
+  {
+   "label": "major_propagation = post_peak = final",
+   "frame": 15,
+   "eps": 0.10375000000000004,
+   "sigma_Nm": 1.1689992276925607,
+   "n_broken": 45
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S1_precrack_L30_energy_rel.png"
+}

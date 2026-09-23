@@ -1,0 +1,1 @@
+Stage 1 baselines. Left: stress-strain curves of pristine zigzag/armchair graphene, distributed and clustered vacancies (2%), central cracks of 10/20/30 A, a 20 A circular hole and the reference nanomesh. Right: strength versus flaw size for the cracks with a power-law fit (a Griffith-type scaling would give an exponent of -0.5), compared with the hole and the vacancy structures.

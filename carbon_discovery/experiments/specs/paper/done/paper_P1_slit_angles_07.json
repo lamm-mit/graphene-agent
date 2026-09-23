@@ -1,0 +1,46 @@
+{
+ "campaign": "paper",
+ "stage": "paper_sweeps",
+ "batch_name": "paper_P1_slit_angles_07",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "P1_slit_75deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 75,
+    "slit_len": 25.344
+   },
+   "seed": 0,
+   "reason": "angle sweep of the slit array at matched porosity (alignment cliff)",
+   "hypothesis": "",
+   "tags": [
+    "paper",
+    "slit_angle"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm_rule": 18.6,
+    "strength_Nm_mechanism": 16.8
+   },
+   "notes": "no tip overlap (O = -10.3 A): isolated inclined slits, net-section rule with a mild stress-concentration knock-down"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+batch test_batch: 3 structures, N = [336, 704, 561], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.     0.    ]
+ [0.0045 0.0044]
+ [0.0001 0.0003]], sigma = [[-5.411e-06  1.387e-06]
+ [ 7.915e-03  6.661e-03]
+ [ 2.301e-02  5.026e-04]] N/m
+step   1 test_pristine_: e=0.0100 s=  2.51N/m nb=  0 | test_mesh: e=0.0100 s=  1.51N/m nb=  0 | test_precrack: e=0.0100 s=  2.22N/m nb=  0  fire_it=70 t=6s
+step   2 test_pristine_: e=0.0200 s=  5.00N/m nb=  0 | test_mesh: e=0.0200 s=  2.72N/m nb=  0 | test_precrack: e=0.0200 s=  4.42N/m nb=  0  fire_it=80 t=8s
+step   3 test_pristine_: e=0.0300 s=  7.51N/m nb=  0 | test_mesh: e=0.0300 s=  3.99N/m nb=  0 | test_precrack: e=0.0300 s=  6.56N/m nb=  0  fire_it=60 t=10s
+step   4 test_pristine_: e=0.0400 s=  9.95N/m nb=  0 | test_mesh: e=0.0400 s=  5.29N/m nb=  0 | test_precrack: e=0.0400 s=  8.72N/m nb=  0  fire_it=60 t=12s
+step   5 test_pristine_: e=0.0500 s= 12.33N/m nb=  0 | test_mesh: e=0.0500 s=  6.56N/m nb=  0 | test_precrack: e=0.0500 s= 10.78N/m nb=  0  fire_it=70 t=14s
+step   6 test_pristine_: e=0.0600 s= 14.62N/m nb=  0 | test_mesh: e=0.0600 s=  7.81N/m nb=  0 | test_precrack: e=0.0600 s= 12.78N/m nb=  0  fire_it=60 t=15s
+step   7 test_pristine_: e=0.0700 s= 16.81N/m nb=  0 | test_mesh: e=0.0700 s=  8.93N/m nb=  0 | test_precrack: e=0.0700 s= 14.65N/m nb=  0  fire_it=60 t=17s
+step   8 test_pristine_: e=0.0800 s= 18.86N/m nb=  0 | test_mesh: e=0.0800 s=  9.94N/m nb=  0 | test_precrack: e=0.0800 s= 16.07N/m nb=  0  fire_it=120 t=23s
+step   9 test_pristine_: e=0.0900 s= 20.78N/m nb=  0 | test_mesh: e=0.0900 s= 10.94N/m nb=  0 | test_precrack: e=0.0900 s= 17.66N/m nb=  0  fire_it=170 t=28s
+step  10 test_pristine_: e=0.1000 s= 22.59N/m nb=  0 | test_mesh: e=0.1000 s= 11.90N/m nb=  0 | test_precrack: e=0.1000 s= 19.23N/m nb=  0  fire_it=70 t=30s
+step  11 test_pristine_: e=0.1100 s= 24.26N/m nb=  0 | test_mesh: e=0.1100 s= 12.70N/m nb=  0 | test_precrack: e=0.1100 s= 20.61N/m nb=  0  fire_it=70 t=32s
+  step 12: bisection for [1] -> d_eps=[0.005]
+step  12 test_pristine_: e=0.1200 s= 25.81N/m nb=  0 | test_mesh: e=0.1100 s= 12.70N/m nb=  2 | test_precrack: e=0.1200 s= 21.77N/m nb=  0  fire_it=210 t=38s
+  step 13: bisection for [2] -> d_eps=[0.005]
+step  13 test_pristine_: e=0.1300 s= 27.24N/m nb=  0 | test_mesh: e=0.1150 s= 12.84N/m nb=  0 | test_precrack: e=0.1200 s= 21.77N/m nb=  3  fire_it=150 t=42s
+  step 14: bisection for [1, 2] -> d_eps=[0.0025 0.0025]
+step  14 test_pristine_: e=0.1400 s= 28.70N/m nb=  0 | test_mesh: e=0.1150 s= 12.84N/m nb=  2 | test_precrack: e=0.1200 s= 21.77N/m nb=  3  fire_it=200 t=46s
+step  15 test_pristine_: e=0.1500 s= 30.20N/m nb=  0 | test_mesh: e=0.1175 s= 12.91N/m nb=  0 | test_precrack: e=0.1225 s= 21.52N/m nb=  2  fire_it=150 t=50s
+step  16 test_pristine_: e=0.1600 s= 31.64N/m nb=  0 | test_mesh: e=0.1200 s= 12.84N/m nb=  2 | test_precrack: e=0.1325 s=  1.15N/m nb= 13*  fire_it=910 t=80s
+step  17 test_pristine_: e=0.1700 s= 32.95N/m nb=  0 | test_mesh: e=0.1300 s= 13.45N/m nb=  0 | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=80 t=83s
+step  18 test_pristine_: e=0.1800 s= 34.08N/m nb=  0 | test_mesh: e=0.1400 s= 11.24N/m nb=  8 | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=410 t=105s
+step  19 test_pristine_: e=0.1900 s= 31.67N/m nb=  0 | test_mesh: e=0.1500 s= 11.52N/m nb=  2 | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=410 t=118s
+step  20 test_pristine_: e=0.2000 s= 33.06N/m nb=  0 | test_mesh: e=0.1600 s= 11.79N/m nb=  2 | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=240 t=125s
+step  21 test_pristine_: e=0.2100 s= 34.37N/m nb=  0 | test_mesh: e=0.1700 s=  2.86N/m nb= 11 | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=3000 t=314s
+step  22 test_pristine_: e=0.2200 s= 35.51N/m nb=  0 | test_mesh: e=0.1800 s=  3.18N/m nb=  0 | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=1080 t=349s
+step  23 test_pristine_: e=0.2300 s= 36.52N/m nb=  0 | test_mesh: e=0.1900 s=  3.53N/m nb=  0 | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=470 t=363s
+step  24 test_pristine_: e=0.2400 s= 37.32N/m nb=  0 | test_mesh: e=0.2000 s=  2.71N/m nb=  2* | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=1810 t=408s
+step  25 test_pristine_: e=0.2500 s= 37.97N/m nb=  0 | test_mesh: e=0.2000 s=  2.71N/m nb=  0* | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=10 t=409s
+  step 26: bisection for [0] -> d_eps=[0.005]
+step  26 test_pristine_: e=0.2500 s= 37.97N/m nb= 28 | test_mesh: e=0.2000 s=  2.71N/m nb=  0* | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=270 t=420s
+  step 27: bisection for [0] -> d_eps=[0.0025]
+step  27 test_pristine_: e=0.2500 s= 37.97N/m nb= 28 | test_mesh: e=0.2000 s=  2.71N/m nb=  0* | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=10 t=436s
+step  28 test_pristine_: e=0.2525 s= 35.22N/m nb=  0 | test_mesh: e=0.2000 s=  2.71N/m nb=  0* | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=10 t=441s
+step  29 test_pristine_: e=0.2550 s=  0.03N/m nb= 28* | test_mesh: e=0.2000 s=  2.71N/m nb=  0* | test_precrack: e=0.1325 s=  1.15N/m nb=  0*  fire_it=290 t=456s
+[done] test_pristine_zz -> run_20260904_211440_d1145a: stable; strength 37.97 N/m @ 0.250, fail 0.255, mode abrupt brittle (single avalanche), not spanning (fractured)
+[done] test_mesh -> run_20260904_211440_8ebb0f: stable; strength 13.45 N/m @ 0.130, fail 0.200, mode progressive (multiple events, load retained), not spanning (fractured)
+[done] test_precrack -> run_20260904_211440_9d5875: stable; strength 21.77 N/m @ 0.120, fail 0.132, mode stepwise (few events), not spanning (fractured)
+batch finished in 457s (simulation 457s); evaluations {'n_evaluations': 17376, 'fire_iterations': 17060, 'n_rebuilds': 316, 'n_reverts': 6}

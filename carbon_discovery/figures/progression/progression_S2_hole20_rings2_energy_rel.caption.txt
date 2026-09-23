@@ -1,0 +1,1 @@
+Fracture progression of S2_hole20_rings2 (ring_around_hole, N=3382, porosity 0.10): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.

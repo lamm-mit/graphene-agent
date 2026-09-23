@@ -1,0 +1,42 @@
+batch stage2_b11: 1 structures, N = [2998], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.005  0.0053]], sigma = [[-0.009 -0.018]] N/m
+step   1 S2_mesh_p16_ar: e=0.0100 s=  1.54N/m nb=  0  fire_it=50 t=22s
+step   2 S2_mesh_p16_ar: e=0.0200 s=  3.00N/m nb=  0  fire_it=70 t=27s
+step   3 S2_mesh_p16_ar: e=0.0300 s=  4.29N/m nb=  0  fire_it=120 t=42s
+step   4 S2_mesh_p16_ar: e=0.0400 s=  5.50N/m nb=  0  fire_it=150 t=53s
+step   5 S2_mesh_p16_ar: e=0.0500 s=  6.84N/m nb=  0  fire_it=60 t=59s
+step   6 S2_mesh_p16_ar: e=0.0600 s=  7.94N/m nb=  0  fire_it=190 t=72s
+step   7 S2_mesh_p16_ar: e=0.0700 s=  8.95N/m nb=  0  fire_it=70 t=78s
+step   8 S2_mesh_p16_ar: e=0.0800 s=  9.94N/m nb=  0  fire_it=50 t=82s
+step   9 S2_mesh_p16_ar: e=0.0900 s= 10.76N/m nb=  0  fire_it=100 t=90s
+step  10 S2_mesh_p16_ar: e=0.1000 s= 11.34N/m nb=  0  fire_it=160 t=100s
+  step 11: early bisection for [0] -> d_eps=[0.005]
+  step 12: early bisection for [0] -> d_eps=[0.0025]
+  step 13: early bisection for [0] -> d_eps=[0.00125]
+step  14 S2_mesh_p16_ar: e=0.1012 s= 11.14N/m nb=  8  fire_it=280 t=193s
+step  15 S2_mesh_p16_ar: e=0.1062 s= 11.03N/m nb= 14  fire_it=380 t=218s
+step  16 S2_mesh_p16_ar: e=0.1113 s= 11.15N/m nb=  7  fire_it=280 t=248s
+step  17 S2_mesh_p16_ar: e=0.1163 s=  8.48N/m nb= 23  fire_it=760 t=539s
+step  18 S2_mesh_p16_ar: e=0.1213 s=  8.53N/m nb=  5  fire_it=350 t=612s
+step  19 S2_mesh_p16_ar: e=0.1263 s=  8.56N/m nb=  4  fire_it=180 t=736s
+step  20 S2_mesh_p16_ar: e=0.1313 s=  5.58N/m nb= 17  fire_it=940 t=1475s
+step  21 S2_mesh_p16_ar: e=0.1363 s=  3.61N/m nb=  9  fire_it=1360 t=2207s
+step  22 S2_mesh_p16_ar: e=0.1413 s=  3.08N/m nb=  4  fire_it=1330 t=2636s
+step  23 S2_mesh_p16_ar: e=0.1463 s=  3.48N/m nb=  0  fire_it=120 t=2666s
+step  24 S2_mesh_p16_ar: e=0.1513 s=  3.52N/m nb=  0  fire_it=390 t=2857s
+step  25 S2_mesh_p16_ar: e=0.1563 s=  3.58N/m nb=  1  fire_it=560 t=3092s
+step  26 S2_mesh_p16_ar: e=0.1613 s=  3.70N/m nb=  1  fire_it=280 t=3289s
+step  27 S2_mesh_p16_ar: e=0.1663 s=  4.08N/m nb=  0  fire_it=240 t=3340s
+step  28 S2_mesh_p16_ar: e=0.1713 s=  4.31N/m nb=  0  fire_it=20 t=3427s
+step  29 S2_mesh_p16_ar: e=0.1763 s=  4.44N/m nb=  0  fire_it=190 t=3560s
+step  30 S2_mesh_p16_ar: e=0.1813 s=  3.80N/m nb=  5  fire_it=710 t=3873s
+step  31 S2_mesh_p16_ar: e=0.1863 s=  4.18N/m nb=  0  fire_it=260 t=3915s
+step  32 S2_mesh_p16_ar: e=0.1913 s=  3.47N/m nb=  3  fire_it=530 t=4366s
+step  33 S2_mesh_p16_ar: e=0.1963 s=  2.90N/m nb=  3  fire_it=700 t=4976s
+step  34 S2_mesh_p16_ar: e=0.2013 s=  3.16N/m nb=  0  fire_it=360 t=5126s
+step  35 S2_mesh_p16_ar: e=0.2063 s=  3.10N/m nb=  2  fire_it=570 t=5672s
+step  36 S2_mesh_p16_ar: e=0.2113 s=  3.27N/m nb=  1  fire_it=930 t=5911s
+step  37 S2_mesh_p16_ar: e=0.2163 s=  3.63N/m nb=  0  fire_it=300 t=5962s
+[done] S2_mesh_p16_armchair -> run_20260905_131351_4387ad: reconstructed but viable; strength 11.34 N/m @ 0.100, fail 0.221, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  38 S2_mesh_p16_ar: e=0.2213 s=  3.73N/m nb=  0*  fire_it=780 t=6197s
+batch finished in 6199s (simulation 6199s); evaluations {'n_evaluations': 34119, 'fire_iterations': 33860, 'n_rebuilds': 499, 'n_reverts': 3, 'n_soft_converged': 9}

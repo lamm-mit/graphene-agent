@@ -1,0 +1,1 @@
+Deep study of disorder. Left/middle: strength and work to failure of periodic Voronoi networks versus seed regularity (dots: individual seeds; black: mean ± standard deviation). Right: individual runs of the ordered reference mesh (including lattice-registry replicates) and of jittered / size-dispersed meshes.

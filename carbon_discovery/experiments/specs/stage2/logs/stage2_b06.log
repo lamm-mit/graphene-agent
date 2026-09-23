@@ -1,0 +1,77 @@
+batch stage2_b06: 4 structures, N = [3036, 3000, 3088, 3068], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0033  0.0021]
+ [ 0.0119 -0.0111]
+ [ 0.0064  0.0065]
+ [-0.0055  0.0061]], sigma = [[-4.259e-02  4.780e-05]
+ [-3.254e-02 -8.339e-03]
+ [-3.119e-03 -3.270e-02]
+ [-4.276e-02 -5.231e-02]] N/m
+step   1 S2_voronoi_n50: e=0.0100 s=  1.41N/m nb=  0 | S2_slit_0deg: e=0.0100 s=  1.99N/m nb=  0 | S2_slit_45deg: e=0.0100 s=  0.22N/m nb=  0 | S2_slit_90deg: e=0.0100 s=  0.48N/m nb=  0  fire_it=120 t=140s
+step   2 S2_voronoi_n50: e=0.0200 s=  2.64N/m nb=  0 | S2_slit_0deg: e=0.0200 s=  3.96N/m nb=  0 | S2_slit_45deg: e=0.0200 s=  0.04N/m nb=  0 | S2_slit_90deg: e=0.0200 s=  0.83N/m nb=  0  fire_it=170 t=214s
+step   3 S2_voronoi_n50: e=0.0300 s=  3.78N/m nb=  0 | S2_slit_0deg: e=0.0300 s=  5.88N/m nb=  0 | S2_slit_45deg: e=0.0300 s=  0.13N/m nb=  0 | S2_slit_90deg: e=0.0300 s=  1.16N/m nb=  0  fire_it=150 t=278s
+step   4 S2_voronoi_n50: e=0.0400 s=  4.92N/m nb=  0 | S2_slit_0deg: e=0.0400 s=  7.74N/m nb=  0 | S2_slit_45deg: e=0.0400 s=  0.52N/m nb=  0 | S2_slit_90deg: e=0.0400 s=  1.40N/m nb=  0  fire_it=350 t=347s
+step   5 S2_voronoi_n50: e=0.0500 s=  6.07N/m nb=  0 | S2_slit_0deg: e=0.0500 s=  9.54N/m nb=  0 | S2_slit_45deg: e=0.0500 s=  0.38N/m nb=  0 | S2_slit_90deg: e=0.0500 s=  1.60N/m nb=  0  fire_it=200 t=411s
+step   6 S2_voronoi_n50: e=0.0600 s=  7.11N/m nb=  0 | S2_slit_0deg: e=0.0600 s= 11.26N/m nb=  0 | S2_slit_45deg: e=0.0600 s=  0.49N/m nb=  0 | S2_slit_90deg: e=0.0600 s=  1.91N/m nb=  0  fire_it=320 t=480s
+  step 7: early bisection for [0] -> d_eps=[0.005]
+step   7 S2_voronoi_n50: e=0.0600 s=  7.11N/m nb=  0 | S2_slit_0deg: e=0.0700 s= 12.95N/m nb=  0 | S2_slit_45deg: e=0.0700 s=  0.76N/m nb=  0 | S2_slit_90deg: e=0.0700 s=  2.10N/m nb=  0  fire_it=240 t=541s
+  step 8: bisection for [0] -> d_eps=[0.0025]
+step   8 S2_voronoi_n50: e=0.0600 s=  7.11N/m nb=  1 | S2_slit_0deg: e=0.0800 s= 14.59N/m nb=  0 | S2_slit_45deg: e=0.0800 s=  0.35N/m nb=  0 | S2_slit_90deg: e=0.0800 s=  2.42N/m nb=  0  fire_it=230 t=644s
+step   9 S2_voronoi_n50: e=0.0625 s=  7.34N/m nb=  0 | S2_slit_0deg: e=0.0900 s= 16.17N/m nb=  0 | S2_slit_45deg: e=0.0900 s=  0.37N/m nb=  0 | S2_slit_90deg: e=0.0900 s=  2.55N/m nb=  0  fire_it=180 t=716s
+step  10 S2_voronoi_n50: e=0.0650 s=  7.62N/m nb=  0 | S2_slit_0deg: e=0.1000 s= 17.65N/m nb=  0 | S2_slit_45deg: e=0.1000 s=  0.61N/m nb=  0 | S2_slit_90deg: e=0.1000 s=  2.86N/m nb=  0  fire_it=140 t=754s
+  step 11: early bisection for [0] -> d_eps=[0.00125]
+step  11 S2_voronoi_n50: e=0.0650 s=  7.62N/m nb=  0 | S2_slit_0deg: e=0.1100 s= 19.00N/m nb=  0 | S2_slit_45deg: e=0.1100 s=  0.69N/m nb=  0 | S2_slit_90deg: e=0.1100 s=  3.10N/m nb=  0  fire_it=280 t=834s
+step  12 S2_voronoi_n50: e=0.0663 s=  7.67N/m nb=  1 | S2_slit_0deg: e=0.1200 s= 19.80N/m nb=  0 | S2_slit_45deg: e=0.1200 s=  0.69N/m nb=  0 | S2_slit_90deg: e=0.1200 s=  3.36N/m nb=  0  fire_it=290 t=978s
+step  13 S2_voronoi_n50: e=0.0713 s=  8.19N/m nb=  0 | S2_slit_0deg: e=0.1300 s= 20.44N/m nb=  0 | S2_slit_45deg: e=0.1300 s=  1.13N/m nb=  0 | S2_slit_90deg: e=0.1300 s=  3.47N/m nb=  0  fire_it=100 t=1110s
+step  14 S2_voronoi_n50: e=0.0763 s=  6.53N/m nb=  5 | S2_slit_0deg: e=0.1400 s= 21.26N/m nb=  0 | S2_slit_45deg: e=0.1400 s=  1.37N/m nb=  0 | S2_slit_90deg: e=0.1400 s=  3.72N/m nb=  0  fire_it=920 t=1611s
+step  15 S2_voronoi_n50: e=0.0813 s=  6.75N/m nb=  3 | S2_slit_0deg: e=0.1500 s= 21.90N/m nb=  0 | S2_slit_45deg: e=0.1500 s=  1.62N/m nb=  0 | S2_slit_90deg: e=0.1500 s=  3.96N/m nb=  0  fire_it=740 t=1888s
+step  16 S2_voronoi_n50: e=0.0863 s=  7.01N/m nb=  3 | S2_slit_0deg: e=0.1600 s= 22.73N/m nb=  0 | S2_slit_45deg: e=0.1600 s=  2.14N/m nb=  0 | S2_slit_90deg: e=0.1600 s=  3.97N/m nb=  0  fire_it=340 t=2074s
+  step 17: early bisection for [3] -> d_eps=[0.005]
+  step 17: bisection for [2] -> d_eps=[0.005]
+step  17 S2_voronoi_n50: e=0.0913 s=  5.86N/m nb=  4 | S2_slit_0deg: e=0.1700 s= 23.49N/m nb=  0 | S2_slit_45deg: e=0.1600 s=  2.14N/m nb=  4 | S2_slit_90deg: e=0.1600 s=  3.97N/m nb=  0  fire_it=910 t=2593s
+step  18 S2_voronoi_n50: e=0.0963 s=  5.63N/m nb=  3 | S2_slit_0deg: e=0.1800 s= 24.23N/m nb=  0 | S2_slit_45deg: e=0.1650 s=  2.08N/m nb=  0 | S2_slit_90deg: e=0.1650 s=  3.89N/m nb=  0  fire_it=1200 t=3035s
+  step 19: early bisection for [3] -> d_eps=[0.0025]
+step  19 S2_voronoi_n50: e=0.1013 s=  4.62N/m nb=  9 | S2_slit_0deg: e=0.1900 s= 24.91N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.58N/m nb=  0 | S2_slit_90deg: e=0.1650 s=  3.89N/m nb=  0  fire_it=1200 t=3593s
+  step 20: early bisection for [1, 2, 3] -> d_eps=[0.005   0.0025  0.00125]
+step  20 S2_voronoi_n50: e=0.1063 s=  3.92N/m nb=  4 | S2_slit_0deg: e=0.1900 s= 24.91N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.58N/m nb=  0 | S2_slit_90deg: e=0.1650 s=  3.89N/m nb=  0  fire_it=960 t=3906s
+  step 21: early bisection for [2] -> d_eps=[0.00125]
+[done] S2_voronoi_n50_reg0.0 -> run_20260905_062906_d8b95e: reconstructed but viable; strength 8.19 N/m @ 0.071, fail 0.111, mode progressive (multiple events, load retained), not spanning (fractured)
+step  21 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  4* | S2_slit_0deg: e=0.1950 s= 25.22N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.58N/m nb=  0 | S2_slit_90deg: e=0.1663 s=  3.41N/m nb= 16  fire_it=900 t=4632s
+step  22 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2000 s= 25.33N/m nb=  0 | S2_slit_45deg: e=0.1713 s=  2.64N/m nb=  0 | S2_slit_90deg: e=0.1713 s=  2.61N/m nb=  7  fire_it=1050 t=5095s
+  step 23: early bisection for [1] -> d_eps=[0.0025]
+step  23 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2000 s= 25.33N/m nb=  0 | S2_slit_45deg: e=0.1725 s=  2.75N/m nb=  0 | S2_slit_90deg: e=0.1763 s=  2.59N/m nb=  1  fire_it=1040 t=5437s
+step  24 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2025 s= 25.40N/m nb=  0 | S2_slit_45deg: e=0.1738 s=  1.51N/m nb=  4 | S2_slit_90deg: e=0.1813 s=  2.23N/m nb=  3  fire_it=1500 t=5889s
+  step 25: early bisection for [1] -> d_eps=[0.00125]
+step  25 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2025 s= 25.40N/m nb=  0 | S2_slit_45deg: e=0.1788 s=  2.44N/m nb=  4 | S2_slit_90deg: e=0.1863 s=  2.26N/m nb=  0  fire_it=1500 t=6447s
+step  26 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2038 s=  4.97N/m nb=125 | S2_slit_45deg: e=0.1838 s=  2.77N/m nb=  0 | S2_slit_90deg: e=0.1913 s=  2.37N/m nb=  0  fire_it=1500 t=7065s
+step  27 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2088 s=  3.24N/m nb=  2 | S2_slit_45deg: e=0.1888 s=  3.58N/m nb=  0 | S2_slit_90deg: e=0.1963 s=  2.44N/m nb=  0  fire_it=1500 t=7644s
+step  28 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2138 s=  3.07N/m nb=  0 | S2_slit_45deg: e=0.1938 s=  2.91N/m nb=  0 | S2_slit_90deg: e=0.2013 s=  2.51N/m nb=  0  fire_it=1070 t=8041s
+[done] S2_slit_0deg -> run_20260905_073634_1a440a: reconstructed but viable; strength 25.40 N/m @ 0.203, fail 0.219, mode stepwise (few events), stress collapsed
+step  29 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  2* | S2_slit_45deg: e=0.1988 s=  3.23N/m nb=  0 | S2_slit_90deg: e=0.2063 s=  2.24N/m nb=  1  fire_it=1500 t=8679s
+step  30 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2038 s=  3.46N/m nb=  0 | S2_slit_90deg: e=0.2113 s=  2.32N/m nb=  0  fire_it=860 t=8937s
+step  31 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2088 s=  3.92N/m nb=  0 | S2_slit_90deg: e=0.2163 s=  2.33N/m nb=  1  fire_it=550 t=9136s
+step  32 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2138 s=  4.13N/m nb=  0 | S2_slit_90deg: e=0.2213 s=  1.70N/m nb=  2  fire_it=600 t=9735s
+step  33 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2188 s=  4.31N/m nb=  0 | S2_slit_90deg: e=0.2263 s=  1.70N/m nb=  0  fire_it=860 t=10118s
+step  34 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2238 s=  4.59N/m nb=  0 | S2_slit_90deg: e=0.2313 s=  1.76N/m nb=  0  fire_it=590 t=10476s
+step  35 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2288 s=  4.79N/m nb=  0 | S2_slit_90deg: e=0.2363 s=  1.53N/m nb=  0  fire_it=820 t=10871s
+step  36 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2338 s=  5.12N/m nb=  0 | S2_slit_90deg: e=0.2413 s=  1.52N/m nb=  0  fire_it=840 t=11203s
+step  37 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2388 s=  5.43N/m nb=  0 | S2_slit_90deg: e=0.2463 s=  1.61N/m nb=  0  fire_it=980 t=11508s
+step  38 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2438 s=  5.49N/m nb=  0 | S2_slit_90deg: e=0.2513 s=  1.59N/m nb=  0  fire_it=620 t=11889s
+step  39 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2488 s=  5.78N/m nb=  0 | S2_slit_90deg: e=0.2563 s=  1.64N/m nb=  0  fire_it=1070 t=12304s
+step  40 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2538 s=  6.05N/m nb=  0 | S2_slit_90deg: e=0.2613 s=  1.50N/m nb=  1  fire_it=740 t=12696s
+step  41 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2588 s=  6.35N/m nb=  0 | S2_slit_90deg: e=0.2663 s=  1.56N/m nb=  0  fire_it=540 t=13028s
+step  42 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2638 s=  6.72N/m nb=  0 | S2_slit_90deg: e=0.2713 s=  1.51N/m nb=  2  fire_it=670 t=13387s
+step  43 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2688 s=  7.63N/m nb=  0 | S2_slit_90deg: e=0.2763 s=  1.56N/m nb=  0  fire_it=900 t=13818s
+[done] S2_slit_90deg -> run_20260905_090915_c4509a: reconstructed but viable; strength 3.97 N/m @ 0.160, fail 0.281, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  44 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2738 s=  9.17N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=1270 t=14241s
+step  45 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2788 s= 10.25N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=200 t=14304s
+step  46 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2838 s= 11.29N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=120 t=14338s
+step  47 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2888 s= 12.30N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=90 t=14355s
+step  48 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2938 s= 13.23N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=230 t=14397s
+step  49 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.2988 s= 14.19N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=100 t=14415s
+step  50 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.3038 s= 15.12N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=60 t=14427s
+step  51 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.3088 s= 16.02N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=120 t=14448s
+step  52 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.3138 s= 16.89N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=120 t=14476s
+step  53 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.3188 s= 17.73N/m nb=  0 | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=120 t=14498s
+[done] S2_slit_45deg -> run_20260905_091359_4df2c2: reconstructed but viable; strength 18.54 N/m @ 0.324, fail 0.324, mode stepwise (few events), max strain reached
+step  54 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2188 s=  1.97N/m nb=  0* | S2_slit_45deg: e=0.3238 s= 18.54N/m nb=  0* | S2_slit_90deg: e=0.2813 s=  1.61N/m nb=  0*  fire_it=110 t=14525s
+batch finished in 14529s (simulation 14529s); evaluations {'n_evaluations': 82146, 'fire_iterations': 81580, 'n_rebuilds': 1076, 'n_reverts': 12, 'n_soft_converged': 22}

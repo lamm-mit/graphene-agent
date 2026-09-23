@@ -1,0 +1,51 @@
+{
+ "campaign": "paper",
+ "stage": "paper_sweeps",
+ "batch_name": "paper_P3_alignment_07",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "P3_H2_square_W8_ellipse_60deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "vein_dirs": "xy",
+    "aspect": 2.0,
+    "angle_deg": 60,
+    "pore_d": 4.875
+   },
+   "seed": 0,
+   "reason": "two-level mesh with square veins, elongated fine pores rotated (alignment sweep)",
+   "hypothesis": "",
+   "tags": [
+    "paper",
+    "alignment",
+    "H2",
+    "veins_xy"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm_rule": 13.4,
+    "strength_Nm_mechanism": 13.8
+   },
+   "notes": "linear in the alignment index A between the series anchors S2_H2_D40_W8 (A=0.13, 12.8 N/m) and S5_H2_D40_W8_ellipseX (A=0.37, 17.5 N/m); hypothesis: no hierarchy premium at equal A"
+  }
+ ]
+}

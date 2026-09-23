@@ -1,0 +1,41 @@
+  zero-stress relaxation: eps0 = [[0. 0.]], sigma = [[2.451e-05 2.491e-05]] N/m
+step   1 S1_pristine_zz: e=0.0100 s=  2.51N/m nb=  0  fire_it=20 t=2s
+step   2 S1_pristine_zz: e=0.0200 s=  5.00N/m nb=  0  fire_it=20 t=2s
+step   3 S1_pristine_zz: e=0.0300 s=  7.51N/m nb=  0  fire_it=20 t=3s
+step   4 S1_pristine_zz: e=0.0400 s=  9.95N/m nb=  0  fire_it=20 t=3s
+step   5 S1_pristine_zz: e=0.0500 s= 12.33N/m nb=  0  fire_it=20 t=4s
+step   6 S1_pristine_zz: e=0.0600 s= 14.62N/m nb=  0  fire_it=20 t=4s
+step   7 S1_pristine_zz: e=0.0700 s= 16.81N/m nb=  0  fire_it=10 t=5s
+step   8 S1_pristine_zz: e=0.0800 s= 18.86N/m nb=  0  fire_it=10 t=5s
+step   9 S1_pristine_zz: e=0.0900 s= 20.78N/m nb=  0  fire_it=10 t=5s
+step  10 S1_pristine_zz: e=0.1000 s= 22.59N/m nb=  0  fire_it=10 t=6s
+step  11 S1_pristine_zz: e=0.1100 s= 24.26N/m nb=  0  fire_it=10 t=6s
+step  12 S1_pristine_zz: e=0.1200 s= 25.81N/m nb=  0  fire_it=10 t=6s
+step  13 S1_pristine_zz: e=0.1300 s= 27.24N/m nb=  0  fire_it=10 t=7s
+step  14 S1_pristine_zz: e=0.1400 s= 28.70N/m nb=  0  fire_it=10 t=7s
+step  15 S1_pristine_zz: e=0.1500 s= 30.20N/m nb=  0  fire_it=10 t=7s
+step  16 S1_pristine_zz: e=0.1600 s= 31.64N/m nb=  0  fire_it=10 t=8s
+step  17 S1_pristine_zz: e=0.1700 s= 32.95N/m nb=  0  fire_it=10 t=8s
+step  18 S1_pristine_zz: e=0.1800 s= 34.08N/m nb=  0  fire_it=10 t=8s
+step  19 S1_pristine_zz: e=0.1900 s= 31.06N/m nb=  0  fire_it=0 t=9s
+step  20 S1_pristine_zz: e=0.2000 s= 33.09N/m nb=  0  fire_it=20 t=11s
+step  21 S1_pristine_zz: e=0.2100 s= 34.38N/m nb=  0  fire_it=20 t=12s
+step  22 S1_pristine_zz: e=0.2200 s= 35.51N/m nb=  0  fire_it=20 t=12s
+step  23 S1_pristine_zz: e=0.2300 s= 36.51N/m nb=  0  fire_it=10 t=12s
+step  24 S1_pristine_zz: e=0.2400 s= 37.31N/m nb=  0  fire_it=10 t=13s
+step  25 S1_pristine_zz: e=0.2500 s= 37.95N/m nb=  0  fire_it=10 t=13s
+step  26 S1_pristine_zz: e=0.2600 s= 38.47N/m nb=  0  fire_it=10 t=13s
+  step 27: early bisection for [0] -> d_eps=[0.005]
+  step 28: early bisection for [0] -> d_eps=[0.0025]
+  step 29: early bisection for [0] -> d_eps=[0.00125]
+step  30 S1_pristine_zz: e=0.2613 s=  0.05N/m nb= 36*  fire_it=310 t=45s
+
+metric                     stored        reproduced
+modulus_2d_Nm                  250.0738     250.0739
+strength_Nm                     38.7946      38.4722
+strain_at_peak                   0.2700       0.2600
+first_damage_strain              0.2713       0.2613
+failure_strain                   0.2713       0.2613
+work_to_failure_J_m2             6.7257       6.3329
+damage_localization              0.3140       0.3375
+stored fracture mode: abrupt brittle (single avalanche) | reproduced: abrupt brittle (single avalanche)

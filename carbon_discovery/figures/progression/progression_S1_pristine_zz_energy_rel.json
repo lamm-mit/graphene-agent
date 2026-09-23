@@ -1,0 +1,29 @@
+{
+ "run_id": "run_20260905_000440_9f82a7",
+ "name": "S1_pristine_zz",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": 2.4505329301196466e-05,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage = peak_load",
+   "frame": 27,
+   "eps": 0.2700000000000001,
+   "sigma_Nm": 38.7945827189091,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage = major_propagation = post_peak = final",
+   "frame": 28,
+   "eps": 0.27125000000000005,
+   "sigma_Nm": 0.2274438912010002,
+   "n_broken": 38
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S1_pristine_zz_energy_rel.png"
+}

@@ -1,0 +1,46 @@
+batch paper_P3_alignment_00: 1 structures, N = [3031], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0014 0.0069]], sigma = [[0.065 0.012]] N/m
+step   1 P3_H1_ellipse_: e=0.0100 s=  1.29N/m nb=  0  fire_it=60 t=22s
+step   2 P3_H1_ellipse_: e=0.0200 s=  2.19N/m nb=  0  fire_it=190 t=33s
+step   3 P3_H1_ellipse_: e=0.0300 s=  3.04N/m nb=  0  fire_it=130 t=40s
+step   4 P3_H1_ellipse_: e=0.0400 s=  4.05N/m nb=  0  fire_it=90 t=45s
+step   5 P3_H1_ellipse_: e=0.0500 s=  4.95N/m nb=  0  fire_it=100 t=52s
+step   6 P3_H1_ellipse_: e=0.0600 s=  5.94N/m nb=  0  fire_it=80 t=56s
+step   7 P3_H1_ellipse_: e=0.0700 s=  6.86N/m nb=  0  fire_it=230 t=69s
+step   8 P3_H1_ellipse_: e=0.0800 s=  7.60N/m nb=  0  fire_it=290 t=84s
+step   9 P3_H1_ellipse_: e=0.0900 s=  8.21N/m nb=  0  fire_it=310 t=101s
+  step 10: early bisection for [0] -> d_eps=[0.005]
+step  11 P3_H1_ellipse_: e=0.0950 s=  8.61N/m nb=  0  fire_it=80 t=127s
+  step 12: early bisection for [0] -> d_eps=[0.0025]
+step  13 P3_H1_ellipse_: e=0.0975 s=  8.75N/m nb=  0  fire_it=220 t=160s
+  step 14: early bisection for [0] -> d_eps=[0.00125]
+step  15 P3_H1_ellipse_: e=0.0988 s=  8.76N/m nb=  2  fire_it=510 t=232s
+step  16 P3_H1_ellipse_: e=0.1038 s=  9.13N/m nb=  0  fire_it=120 t=245s
+step  17 P3_H1_ellipse_: e=0.1088 s=  9.49N/m nb=  0  fire_it=170 t=254s
+step  18 P3_H1_ellipse_: e=0.1138 s=  9.76N/m nb=  1  fire_it=370 t=274s
+step  19 P3_H1_ellipse_: e=0.1188 s=  8.85N/m nb=  7  fire_it=810 t=465s
+step  20 P3_H1_ellipse_: e=0.1238 s=  8.32N/m nb=  5  fire_it=2000 t=594s
+step  21 P3_H1_ellipse_: e=0.1288 s=  6.80N/m nb=  7  fire_it=2000 t=743s
+step  22 P3_H1_ellipse_: e=0.1338 s=  4.79N/m nb=  8  fire_it=1720 t=1012s
+step  23 P3_H1_ellipse_: e=0.1388 s=  4.45N/m nb=  1  fire_it=530 t=1205s
+step  24 P3_H1_ellipse_: e=0.1438 s=  4.68N/m nb=  0  fire_it=540 t=1266s
+step  25 P3_H1_ellipse_: e=0.1488 s=  3.79N/m nb=  4  fire_it=1680 t=1481s
+step  26 P3_H1_ellipse_: e=0.1538 s=  4.05N/m nb=  0  fire_it=180 t=1517s
+step  27 P3_H1_ellipse_: e=0.1588 s=  3.84N/m nb=  4  fire_it=1010 t=1600s
+step  28 P3_H1_ellipse_: e=0.1638 s=  3.33N/m nb=  1  fire_it=870 t=1717s
+step  29 P3_H1_ellipse_: e=0.1688 s=  3.11N/m nb=  0  fire_it=680 t=1779s
+step  30 P3_H1_ellipse_: e=0.1738 s=  3.13N/m nb=  0  fire_it=530 t=1841s
+step  31 P3_H1_ellipse_: e=0.1788 s=  3.41N/m nb=  0  fire_it=210 t=1855s
+step  32 P3_H1_ellipse_: e=0.1838 s=  2.66N/m nb=  4  fire_it=680 t=1926s
+step  33 P3_H1_ellipse_: e=0.1888 s=  2.64N/m nb=  0  fire_it=40 t=1968s
+step  34 P3_H1_ellipse_: e=0.1938 s=  2.71N/m nb=  1  fire_it=150 t=2002s
+step  35 P3_H1_ellipse_: e=0.1988 s=  2.78N/m nb=  1  fire_it=230 t=2035s
+step  36 P3_H1_ellipse_: e=0.2038 s=  3.01N/m nb=  0  fire_it=230 t=2048s
+step  37 P3_H1_ellipse_: e=0.2088 s=  1.89N/m nb=  6  fire_it=1590 t=2199s
+step  38 P3_H1_ellipse_: e=0.2138 s=  2.06N/m nb=  0  fire_it=220 t=2216s
+step  39 P3_H1_ellipse_: e=0.2188 s=  2.27N/m nb=  0  fire_it=210 t=2228s
+step  40 P3_H1_ellipse_: e=0.2238 s=  1.75N/m nb=  1  fire_it=1000 t=2314s
+step  41 P3_H1_ellipse_: e=0.2288 s=  1.39N/m nb=  1  fire_it=560 t=2414s
+[done] P3_H1_ellipse_30deg -> run_20260909_080335_cdef88: reconstructed but viable; strength 9.76 N/m @ 0.114, fail 0.234, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  42 P3_H1_ellipse_: e=0.2338 s=  1.40N/m nb=  1*  fire_it=40 t=2450s
+batch finished in 2452s (simulation 2452s); evaluations {'n_evaluations': 43365, 'fire_iterations': 43080, 'n_rebuilds': 462, 'n_reverts': 3, 'n_soft_converged': 7}

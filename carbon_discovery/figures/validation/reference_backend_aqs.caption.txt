@@ -1,0 +1,1 @@
+TEST 18: complete AQS stress-strain curves (uniaxial strain, fixed transverse, 1% increments, FIRE fmax = 0.02 eV/A) for a precracked sheet and a nanomesh obtained with the authoritative backend (Atomistica + ASE FIRE) and with the Torch engine in three configurations (ASE FIRE / batched FIRE driver, cpu float64 and mps float32).

@@ -1,0 +1,35 @@
+{
+ "run_id": "run_20260905_170819_0771d0",
+ "frames_rendered": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "event_frames": {
+  "relaxed": 0,
+  "pre_damage = peak_load": 17,
+  "first_damage = major_propagation": 18,
+  "post_peak = final": 19
+ },
+ "fps": 8,
+ "mode": "energy_rel",
+ "trajectory": "trajectories/run_20260905_170819_0771d0.npz",
+ "movie": "movies/S5_slit0_phi0.1.mp4"
+}

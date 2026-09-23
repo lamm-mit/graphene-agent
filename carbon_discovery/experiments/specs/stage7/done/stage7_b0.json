@@ -1,0 +1,118 @@
+{
+ "campaign": "discovery",
+ "stage": "stage7_holdouts",
+ "batch_name": "stage7_b0",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S7_H2_veinsX_W12_ellipseX",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "pore_d": 4.812
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen interaction: load-parallel veins (12 A) + fine pores elongated along the load",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 13.3,
+    "modulus_2d_Nm": 133.0,
+    "failure_strain": 0.234,
+    "work_to_failure_J_m2": 1.5,
+    "damage_localization": 0.25,
+    "fracture_mode_class": "progressive",
+    "basis": "class=fine_round, minSF=0.78, sigma_net(median of 36)=17.0 N/m; kNN: ['S5_H2_D40_W8_ellipseX', 'S4_H2_D40_W8_veins_x', 'S2_ellipse_0deg']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_slit_20deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 20,
+    "slit_len": 26.5
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen orientation between 0 and 45 degrees",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 23.9,
+    "modulus_2d_Nm": 188.0,
+    "failure_strain": 0.194,
+    "work_to_failure_J_m2": 2.64,
+    "damage_localization": 0.21,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=straight, minSF=0.79, sigma_net(median of 7)=30.3 N/m; kNN: ['S2_ellipse_90deg', 'S2_slit_0deg', 'S5_slit0_phi0.1']",
+    "crack_path_or_mechanism": "load-parallel strips fail together at the bridges/corners (single avalanche)"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_square_D40_staggered",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "square",
+    "stagger": true,
+    "pore_d": 17.594
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen: staggered (brick-like) coarse square pores",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 19.3,
+    "modulus_2d_Nm": 152.0,
+    "failure_strain": 0.161,
+    "work_to_failure_J_m2": 1.87,
+    "damage_localization": 0.22,
+    "fracture_mode_class": "abrupt",
+    "basis": "class=coarse_round, minSF=0.63, sigma_net(median of 9)=30.5 N/m; kNN: ['S2_H1_square_D40', 'S4_square_D40', 'S4_square_D40_dispersed']",
+    "crack_path_or_mechanism": "damage at pore poles, sequential row failure with load retention"
+   },
+   "notes": null
+  }
+ ]
+}

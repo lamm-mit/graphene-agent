@@ -1,0 +1,1 @@
+Pareto analysis of all simulated structures: non-dominated sets (black lines, labelled) for six objective pairs; each point is one simulated architecture. The fronts are structurally diverse by construction of the design space (no optimiser was used to collapse onto one family).

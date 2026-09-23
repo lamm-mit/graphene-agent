@@ -1,0 +1,28 @@
+batch stage2_b03: 1 structures, N = [4410], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.002  0.0022]], sigma = [[0.001 0.001]] N/m
+step   1 S2_H3_D30_120: e=0.0100 s=  1.40N/m nb=  0  fire_it=90 t=40s
+step   2 S2_H3_D30_120: e=0.0200 s=  2.57N/m nb=  0  fire_it=150 t=53s
+step   3 S2_H3_D30_120: e=0.0300 s=  3.76N/m nb=  0  fire_it=110 t=63s
+step   4 S2_H3_D30_120: e=0.0400 s=  4.95N/m nb=  0  fire_it=110 t=73s
+step   5 S2_H3_D30_120: e=0.0500 s=  6.16N/m nb=  0  fire_it=70 t=80s
+step   6 S2_H3_D30_120: e=0.0600 s=  7.24N/m nb=  0  fire_it=70 t=89s
+step   7 S2_H3_D30_120: e=0.0700 s=  8.25N/m nb=  0  fire_it=90 t=96s
+step   8 S2_H3_D30_120: e=0.0800 s=  9.22N/m nb=  0  fire_it=150 t=113s
+step   9 S2_H3_D30_120: e=0.0900 s= 10.07N/m nb=  0  fire_it=10 t=149s
+step  10 S2_H3_D30_120: e=0.1000 s= 10.84N/m nb=  0  fire_it=350 t=184s
+step  11 S2_H3_D30_120: e=0.1100 s= 11.48N/m nb=  0  fire_it=390 t=216s
+  step 12: early bisection for [0] -> d_eps=[0.005]
+step  13 S2_H3_D30_120: e=0.1150 s= 11.80N/m nb=  0  fire_it=330 t=279s
+  step 14: early bisection for [0] -> d_eps=[0.0025]
+  step 15: early bisection for [0] -> d_eps=[0.00125]
+step  16 S2_H3_D30_120: e=0.1162 s= 11.88N/m nb=  0  fire_it=120 t=355s
+step  17 S2_H3_D30_120: e=0.1175 s= 11.91N/m nb=  2  fire_it=400 t=391s
+step  18 S2_H3_D30_120: e=0.1225 s= 12.17N/m nb=  0  fire_it=350 t=423s
+step  19 S2_H3_D30_120: e=0.1275 s= 12.33N/m nb=  4  fire_it=410 t=495s
+step  20 S2_H3_D30_120: e=0.1325 s= 12.48N/m nb=  8  fire_it=540 t=585s
+step  21 S2_H3_D30_120: e=0.1375 s= 12.76N/m nb=  0  fire_it=180 t=602s
+step  22 S2_H3_D30_120: e=0.1425 s= 12.98N/m nb=  2  fire_it=240 t=624s
+step  23 S2_H3_D30_120: e=0.1475 s= 11.00N/m nb= 32  fire_it=1250 t=901s
+[done] S2_H3_D30_120 -> run_20260905_041909_c1c0d1: reconstructed but viable; strength 12.98 N/m @ 0.143, fail 0.153, mode progressive (multiple events, load retained), not spanning (fractured)
+step  24 S2_H3_D30_120: e=0.1525 s=  5.45N/m nb= 26*  fire_it=1500 t=1221s
+batch finished in 1223s (simulation 1223s); evaluations {'n_evaluations': 13012, 'fire_iterations': 12870, 'n_rebuilds': 285, 'n_reverts': 3, 'n_soft_converged': 2}

@@ -1,0 +1,45 @@
+{
+ "campaign": "discovery",
+ "stage": "stage2_reconnaissance",
+ "batch_name": "stage2_b03",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12,
+  "d_strain_elastic": 0.01,
+  "max_fire_steps": 1500
+ },
+ "structures": [
+  {
+   "name": "S2_H3_D30_120",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 3,
+    "period": 10,
+    "domain": 30,
+    "vein_w": 5,
+    "level3_domain": 120,
+    "level3_vein": 12,
+    "pore_d": 5.625
+   },
+   "seed": 0,
+   "reason": "hierarchy ladder: three-level (period 10 / domain 30 vein 5 / domain 120 vein 12)",
+   "hypothesis": "",
+   "tags": [
+    "hierarchy",
+    "H3"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.196"
+  }
+ ]
+}

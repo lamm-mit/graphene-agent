@@ -1,0 +1,1 @@
+Before/after comparison for S5_H2_D40_W8_ellipseX: relaxed, peak-load and final configurations (colour: energy change per atom relative to the relaxed state; red circles: atoms that lost a bond). Model result (screened REBO2, athermal quasi-static tension).

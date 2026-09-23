@@ -1,0 +1,44 @@
+batch paper_P1_slit_angles_01: 1 structures, N = [3032], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0085 -0.0099]], sigma = [[0.025 0.046]] N/m
+step   1 P1_slit_10deg: e=0.0100 s=  1.85N/m nb=  0  fire_it=60 t=27s
+step   2 P1_slit_10deg: e=0.0200 s=  3.65N/m nb=  0  fire_it=60 t=33s
+step   3 P1_slit_10deg: e=0.0300 s=  5.34N/m nb=  0  fire_it=80 t=38s
+step   4 P1_slit_10deg: e=0.0400 s=  6.86N/m nb=  0  fire_it=100 t=44s
+step   5 P1_slit_10deg: e=0.0500 s=  8.50N/m nb=  0  fire_it=60 t=47s
+step   6 P1_slit_10deg: e=0.0600 s= 10.05N/m nb=  0  fire_it=90 t=52s
+step   7 P1_slit_10deg: e=0.0700 s= 11.56N/m nb=  0  fire_it=110 t=58s
+step   8 P1_slit_10deg: e=0.0800 s= 12.97N/m nb=  0  fire_it=70 t=62s
+step   9 P1_slit_10deg: e=0.0900 s= 14.31N/m nb=  0  fire_it=90 t=67s
+step  10 P1_slit_10deg: e=0.1000 s= 15.11N/m nb=  0  fire_it=220 t=84s
+  step 11: early bisection for [0] -> d_eps=[0.005]
+step  12 P1_slit_10deg: e=0.1050 s= 15.72N/m nb=  0  fire_it=40 t=96s
+  step 13: early bisection for [0] -> d_eps=[0.0025]
+  step 14: early bisection for [0] -> d_eps=[0.00125]
+step  15 P1_slit_10deg: e=0.1062 s= 15.82N/m nb=  0  fire_it=90 t=123s
+step  16 P1_slit_10deg: e=0.1075 s= 15.80N/m nb=  4  fire_it=150 t=131s
+step  17 P1_slit_10deg: e=0.1125 s= 12.56N/m nb= 12  fire_it=1070 t=359s
+step  18 P1_slit_10deg: e=0.1175 s= 13.09N/m nb=  8  fire_it=30 t=426s
+step  19 P1_slit_10deg: e=0.1225 s= 13.53N/m nb=  0  fire_it=260 t=440s
+step  20 P1_slit_10deg: e=0.1275 s=  9.67N/m nb= 32  fire_it=1700 t=635s
+step  21 P1_slit_10deg: e=0.1325 s= 10.31N/m nb=  0  fire_it=290 t=673s
+step  22 P1_slit_10deg: e=0.1375 s= 10.88N/m nb=  0  fire_it=20 t=701s
+step  23 P1_slit_10deg: e=0.1425 s= 11.40N/m nb=  0  fire_it=300 t=717s
+step  24 P1_slit_10deg: e=0.1475 s= 11.23N/m nb=  4  fire_it=870 t=792s
+step  25 P1_slit_10deg: e=0.1525 s= 11.75N/m nb=  0  fire_it=230 t=809s
+step  26 P1_slit_10deg: e=0.1575 s= 11.24N/m nb=  3  fire_it=2000 t=940s
+step  27 P1_slit_10deg: e=0.1625 s=  9.60N/m nb= 10  fire_it=2000 t=1096s
+step  28 P1_slit_10deg: e=0.1675 s=  9.90N/m nb=  2  fire_it=1280 t=1238s
+step  29 P1_slit_10deg: e=0.1725 s= 10.33N/m nb=  0  fire_it=500 t=1298s
+step  30 P1_slit_10deg: e=0.1775 s= 10.09N/m nb=  1  fire_it=1250 t=1517s
+step  31 P1_slit_10deg: e=0.1825 s=  9.68N/m nb=  6  fire_it=950 t=1700s
+step  32 P1_slit_10deg: e=0.1875 s=  8.29N/m nb=  7  fire_it=2000 t=1854s
+step  33 P1_slit_10deg: e=0.1925 s=  5.31N/m nb= 10  fire_it=2000 t=2012s
+step  34 P1_slit_10deg: e=0.1975 s=  4.07N/m nb=  3  fire_it=2000 t=2209s
+step  35 P1_slit_10deg: e=0.2025 s=  3.21N/m nb=  2  fire_it=1290 t=2461s
+step  36 P1_slit_10deg: e=0.2075 s=  2.62N/m nb=  2  fire_it=1260 t=2656s
+step  37 P1_slit_10deg: e=0.2125 s=  2.38N/m nb=  0  fire_it=1190 t=2781s
+step  38 P1_slit_10deg: e=0.2175 s=  2.08N/m nb=  1  fire_it=1250 t=2971s
+step  39 P1_slit_10deg: e=0.2225 s=  1.88N/m nb=  1  fire_it=1330 t=3163s
+[done] P1_slit_10deg -> run_20260909_054916_09197e: reconstructed but viable; strength 15.82 N/m @ 0.106, fail 0.228, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  40 P1_slit_10deg: e=0.2275 s=  1.97N/m nb=  0*  fire_it=2000 t=3286s
+batch finished in 3288s (simulation 3288s); evaluations {'n_evaluations': 58797, 'fire_iterations': 58510, 'n_rebuilds': 594, 'n_reverts': 3, 'n_soft_converged': 10}

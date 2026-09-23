@@ -1,0 +1,62 @@
+batch stage2_b02: 3 structures, N = [4368, 4368, 4408], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0032 0.0041]
+ [0.0036 0.0019]
+ [0.0048 0.0037]], sigma = [[ 0.015 -0.007]
+ [-0.025  0.03 ]
+ [ 0.014  0.03 ]] N/m
+step   1 S2_H2_D60_W8: e=0.0100 s=  1.36N/m nb=  0 | S2_H2_D40_W4: e=0.0100 s=  1.33N/m nb=  0 | S2_H2_D40_W12: e=0.0100 s=  1.52N/m nb=  0  fire_it=180 t=205s
+step   2 S2_H2_D60_W8: e=0.0200 s=  2.53N/m nb=  0 | S2_H2_D40_W4: e=0.0200 s=  2.60N/m nb=  0 | S2_H2_D40_W12: e=0.0200 s=  2.92N/m nb=  0  fire_it=150 t=254s
+step   3 S2_H2_D60_W8: e=0.0300 s=  3.77N/m nb=  0 | S2_H2_D40_W4: e=0.0300 s=  3.79N/m nb=  0 | S2_H2_D40_W12: e=0.0300 s=  4.27N/m nb=  0  fire_it=160 t=310s
+step   4 S2_H2_D60_W8: e=0.0400 s=  4.95N/m nb=  0 | S2_H2_D40_W4: e=0.0400 s=  5.08N/m nb=  0 | S2_H2_D40_W12: e=0.0400 s=  5.52N/m nb=  0  fire_it=180 t=367s
+step   5 S2_H2_D60_W8: e=0.0500 s=  6.13N/m nb=  0 | S2_H2_D40_W4: e=0.0500 s=  6.28N/m nb=  0 | S2_H2_D40_W12: e=0.0500 s=  6.80N/m nb=  0  fire_it=160 t=418s
+step   6 S2_H2_D60_W8: e=0.0600 s=  7.28N/m nb=  0 | S2_H2_D40_W4: e=0.0600 s=  7.36N/m nb=  0 | S2_H2_D40_W12: e=0.0600 s=  8.02N/m nb=  0  fire_it=160 t=465s
+step   7 S2_H2_D60_W8: e=0.0700 s=  8.30N/m nb=  0 | S2_H2_D40_W4: e=0.0700 s=  8.41N/m nb=  0 | S2_H2_D40_W12: e=0.0700 s=  9.20N/m nb=  0  fire_it=200 t=529s
+step   8 S2_H2_D60_W8: e=0.0800 s=  9.26N/m nb=  0 | S2_H2_D40_W4: e=0.0800 s=  9.49N/m nb=  0 | S2_H2_D40_W12: e=0.0800 s= 10.29N/m nb=  0  fire_it=200 t=590s
+step   9 S2_H2_D60_W8: e=0.0900 s= 10.29N/m nb=  0 | S2_H2_D40_W4: e=0.0900 s= 10.47N/m nb=  0 | S2_H2_D40_W12: e=0.0900 s= 11.28N/m nb=  0  fire_it=190 t=706s
+step  10 S2_H2_D60_W8: e=0.1000 s= 11.17N/m nb=  0 | S2_H2_D40_W4: e=0.1000 s= 11.34N/m nb=  0 | S2_H2_D40_W12: e=0.1000 s= 12.16N/m nb=  0  fire_it=330 t=801s
+  step 11: early bisection for [2] -> d_eps=[0.005]
+step  11 S2_H2_D60_W8: e=0.1100 s= 11.92N/m nb=  0 | S2_H2_D40_W4: e=0.1100 s= 12.11N/m nb=  0 | S2_H2_D40_W12: e=0.1000 s= 12.16N/m nb=  0  fire_it=400 t=917s
+  step 12: early bisection for [0] -> d_eps=[0.005]
+step  12 S2_H2_D60_W8: e=0.1100 s= 11.92N/m nb=  0 | S2_H2_D40_W4: e=0.1200 s= 12.74N/m nb=  0 | S2_H2_D40_W12: e=0.1050 s= 12.52N/m nb=  0  fire_it=400 t=1079s
+  step 13: early bisection for [0, 1, 2] -> d_eps=[0.0025 0.005  0.0025]
+  step 14: early bisection for [2] -> d_eps=[0.00125]
+  step 14: bisection for [1] -> d_eps=[0.0025]
+step  14 S2_H2_D60_W8: e=0.1125 s= 12.10N/m nb=  0 | S2_H2_D40_W4: e=0.1200 s= 12.74N/m nb=  2 | S2_H2_D40_W12: e=0.1050 s= 12.52N/m nb=  0  fire_it=420 t=1451s
+  step 15: early bisection for [0] -> d_eps=[0.00125]
+step  15 S2_H2_D60_W8: e=0.1125 s= 12.10N/m nb=  0 | S2_H2_D40_W4: e=0.1225 s= 12.93N/m nb=  0 | S2_H2_D40_W12: e=0.1062 s= 12.64N/m nb=  0  fire_it=400 t=1566s
+  step 16: early bisection for [1] -> d_eps=[0.00125]
+step  16 S2_H2_D60_W8: e=0.1137 s= 12.11N/m nb=  4 | S2_H2_D40_W4: e=0.1225 s= 12.93N/m nb=  0 | S2_H2_D40_W12: e=0.1075 s= 12.70N/m nb=  2  fire_it=400 t=1687s
+step  17 S2_H2_D60_W8: e=0.1187 s= 12.35N/m nb=  6 | S2_H2_D40_W4: e=0.1237 s= 12.98N/m nb=  0 | S2_H2_D40_W12: e=0.1125 s= 12.91N/m nb=  4  fire_it=450 t=1944s
+step  18 S2_H2_D60_W8: e=0.1237 s= 12.74N/m nb=  0 | S2_H2_D40_W4: e=0.1250 s= 13.08N/m nb=  0 | S2_H2_D40_W12: e=0.1175 s= 13.29N/m nb=  0  fire_it=280 t=2035s
+step  19 S2_H2_D60_W8: e=0.1288 s= 10.17N/m nb= 20 | S2_H2_D40_W4: e=0.1262 s= 13.12N/m nb=  2 | S2_H2_D40_W12: e=0.1225 s= 13.43N/m nb=  8  fire_it=1490 t=2750s
+step  20 S2_H2_D60_W8: e=0.1338 s=  4.78N/m nb= 27 | S2_H2_D40_W4: e=0.1312 s= 12.74N/m nb= 14 | S2_H2_D40_W12: e=0.1275 s= 13.74N/m nb=  0  fire_it=2000 t=3744s
+[done] S2_H2_D60_W8 -> run_20260905_020648_a7f3af: reconstructed but viable; strength 12.74 N/m @ 0.124, fail 0.139, mode progressive (multiple events, load retained), not spanning (fractured)
+step  21 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  3* | S2_H2_D40_W4: e=0.1362 s= 13.04N/m nb=  2 | S2_H2_D40_W12: e=0.1325 s= 11.99N/m nb= 20  fire_it=2000 t=4774s
+step  22 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1412 s= 13.22N/m nb=  6 | S2_H2_D40_W12: e=0.1375 s= 10.81N/m nb= 10  fire_it=2000 t=5549s
+step  23 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1462 s=  7.73N/m nb= 40 | S2_H2_D40_W12: e=0.1425 s=  6.25N/m nb= 22  fire_it=2000 t=6438s
+step  24 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1512 s=  3.30N/m nb= 24 | S2_H2_D40_W12: e=0.1475 s=  4.98N/m nb=  4  fire_it=2000 t=7251s
+step  25 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1562 s=  2.93N/m nb=  0 | S2_H2_D40_W12: e=0.1525 s=  3.90N/m nb=  1  fire_it=2000 t=7941s
+step  26 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1613 s=  2.77N/m nb=  6 | S2_H2_D40_W12: e=0.1575 s=  3.28N/m nb=  1  fire_it=2000 t=8599s
+step  27 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1663 s=  2.95N/m nb=  0 | S2_H2_D40_W12: e=0.1625 s=  3.10N/m nb=  1  fire_it=1020 t=9022s
+step  28 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1713 s=  1.94N/m nb=  4 | S2_H2_D40_W12: e=0.1675 s=  2.91N/m nb=  0  fire_it=1240 t=9716s
+step  29 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1763 s=  1.82N/m nb=  0 | S2_H2_D40_W12: e=0.1725 s=  2.98N/m nb=  1  fire_it=900 t=10193s
+step  30 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1813 s=  2.21N/m nb=  0 | S2_H2_D40_W12: e=0.1775 s=  2.67N/m nb=  1  fire_it=1930 t=10740s
+step  31 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1863 s=  2.36N/m nb=  0 | S2_H2_D40_W12: e=0.1825 s=  2.76N/m nb=  0  fire_it=1030 t=11030s
+step  32 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1913 s=  2.55N/m nb=  0 | S2_H2_D40_W12: e=0.1875 s=  2.53N/m nb=  2  fire_it=1520 t=11469s
+step  33 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.1963 s=  2.48N/m nb=  2 | S2_H2_D40_W12: e=0.1925 s=  2.48N/m nb=  1  fire_it=1080 t=11863s
+step  34 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2013 s=  2.25N/m nb=  4 | S2_H2_D40_W12: e=0.1975 s=  2.55N/m nb=  0  fire_it=1470 t=12287s
+step  35 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2063 s=  2.36N/m nb=  0 | S2_H2_D40_W12: e=0.2025 s=  2.65N/m nb=  0  fire_it=820 t=12592s
+step  36 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2113 s=  2.45N/m nb=  2 | S2_H2_D40_W12: e=0.2075 s=  2.61N/m nb=  0  fire_it=1590 t=13053s
+[done] S2_H2_D40_W12 -> run_20260905_043137_30624b: reconstructed but viable; strength 13.74 N/m @ 0.128, fail 0.213, mode progressive (multiple events, load retained), not spanning (fractured)
+step  37 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2163 s=  2.58N/m nb=  0 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  1*  fire_it=1370 t=13462s
+step  38 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2213 s=  2.61N/m nb=  2 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=770 t=13723s
+step  39 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2263 s=  2.70N/m nb=  0 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=660 t=13969s
+step  40 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2313 s=  3.01N/m nb=  0 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=10 t=14068s
+step  41 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2363 s=  3.12N/m nb=  0 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=60 t=14293s
+step  42 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2413 s=  2.93N/m nb=  2 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=1280 t=14749s
+step  43 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2463 s=  3.07N/m nb=  0 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=490 t=14970s
+step  44 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2513 s=  3.25N/m nb=  0 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=290 t=15151s
+step  45 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2563 s=  3.29N/m nb=  2 | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=1180 t=15504s
+[done] S2_H2_D40_W4 -> run_20260905_051142_6cf812: reconstructed but viable; strength 13.22 N/m @ 0.141, fail 0.261, mode stepwise (few events), post-peak strain limit reached (load still carried)
+step  46 S2_H2_D60_W8: e=0.1388 s=  3.51N/m nb=  0* | S2_H2_D40_W4: e=0.2613 s=  3.16N/m nb=  3* | S2_H2_D40_W12: e=0.2125 s=  2.54N/m nb=  0*  fire_it=1030 t=15867s
+batch finished in 15876s (simulation 15876s); evaluations {'n_evaluations': 62770, 'fire_iterations': 62440, 'n_rebuilds': 1204, 'n_reverts': 9, 'n_soft_converged': 22}

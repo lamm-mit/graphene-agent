@@ -1,0 +1,456 @@
+{
+ "name": "paper_sweeps_predictions",
+ "written": "2026-09-09 04:54:27",
+ "notes": "Pre-registered predictions for the paper sweeps, written before the specs were launched. sigma_net(straight) = 31.77 N/m (median of 4 load-parallel zigzag slit arrays). Two rules are recorded: the net-section rule of the Stage 7 predictor and the mechanism rule with the en-echelon knock-down when slit tips of adjacent rows overlap (O > 0) and the slits are inclined. Alignment series: linear interpolation in the alignment index A between the existing anchors of each series; hypothesis under test: no hierarchy premium at equal A.",
+ "predictions": [
+  {
+   "name": "P1_slit_05deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 5,
+    "slit_len": 24.188
+   },
+   "porosity": 0.2004,
+   "minSF": 0.7806,
+   "alignment_A": 0.5599,
+   "slit_tip_overlap_A": 7.28,
+   "slit_row_clearance_A": 14.23,
+   "predicted": {
+    "strength_Nm_rule": 24.8,
+    "strength_Nm_mechanism": 21.0
+   },
+   "rationale": "tips of adjacent rows overlap (O = 7.3 A) and the slits are inclined: en-echelon linking, knock-down growing with the angle up to the 20-deg level",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P1_slit_10deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 10,
+    "slit_len": 24.188
+   },
+   "porosity": 0.1962,
+   "minSF": 0.7857,
+   "alignment_A": 0.4978,
+   "slit_tip_overlap_A": 7.01,
+   "slit_row_clearance_A": 12.13,
+   "predicted": {
+    "strength_Nm_rule": 25.0,
+    "strength_Nm_mechanism": 17.2
+   },
+   "rationale": "tips of adjacent rows overlap (O = 7.0 A) and the slits are inclined: en-echelon linking, knock-down growing with the angle up to the 20-deg level",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P1_slit_15deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 15,
+    "slit_len": 25.344
+   },
+   "porosity": 0.2025,
+   "minSF": 0.7755,
+   "alignment_A": 0.4194,
+   "slit_tip_overlap_A": 7.67,
+   "slit_row_clearance_A": 9.77,
+   "predicted": {
+    "strength_Nm_rule": 24.6,
+    "strength_Nm_mechanism": 13.2
+   },
+   "rationale": "tips of adjacent rows overlap (O = 7.7 A) and the slits are inclined: en-echelon linking, knock-down growing with the angle up to the 20-deg level",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P1_slit_25deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 25,
+    "slit_len": 26.5
+   },
+   "porosity": 0.1994,
+   "minSF": 0.7448,
+   "alignment_A": 0.233,
+   "slit_tip_overlap_A": 7.21,
+   "slit_row_clearance_A": 5.14,
+   "predicted": {
+    "strength_Nm_rule": 23.7,
+    "strength_Nm_mechanism": 9.0
+   },
+   "rationale": "tips of adjacent rows overlap (O = 7.2 A) and the slits are inclined: en-echelon linking, knock-down growing with the angle up to the 20-deg level",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P1_slit_30deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 30,
+    "slit_len": 28.812
+   },
+   "porosity": 0.2057,
+   "minSF": 0.7397,
+   "alignment_A": 0.1419,
+   "slit_tip_overlap_A": 8.14,
+   "slit_row_clearance_A": 1.93,
+   "predicted": {
+    "strength_Nm_rule": 23.5,
+    "strength_Nm_mechanism": 8.9
+   },
+   "rationale": "tips of adjacent rows overlap (O = 8.1 A) and the slits are inclined: en-echelon linking, knock-down growing with the angle up to the 20-deg level",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P1_slit_35deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 35,
+    "slit_len": 23.068
+   },
+   "porosity": 0.1782,
+   "minSF": 0.7448,
+   "alignment_A": 0.0635,
+   "slit_tip_overlap_A": 2.08,
+   "slit_row_clearance_A": 3.1,
+   "predicted": {
+    "strength_Nm_rule": 23.7,
+    "strength_Nm_mechanism": 9.0
+   },
+   "rationale": "tips of adjacent rows overlap (O = 2.1 A) and the slits are inclined: en-echelon linking, knock-down growing with the angle up to the 20-deg level",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P1_slit_60deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 60,
+    "slit_len": 26.5
+   },
+   "porosity": 0.2047,
+   "minSF": 0.7857,
+   "alignment_A": -0.1413,
+   "slit_tip_overlap_A": -3.56,
+   "slit_row_clearance_A": -6.62,
+   "predicted": {
+    "strength_Nm_rule": 25.0,
+    "strength_Nm_mechanism": 22.5
+   },
+   "rationale": "no tip overlap (O = -3.6 A): isolated inclined slits, net-section rule with a mild stress-concentration knock-down",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P1_slit_75deg",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 75,
+    "slit_len": 25.344
+   },
+   "porosity": 0.2025,
+   "minSF": 0.5867,
+   "alignment_A": -0.3612,
+   "slit_tip_overlap_A": -10.25,
+   "slit_row_clearance_A": -8.15,
+   "predicted": {
+    "strength_Nm_rule": 18.6,
+    "strength_Nm_mechanism": 16.8
+   },
+   "rationale": "no tip overlap (O = -10.3 A): isolated inclined slits, net-section rule with a mild stress-concentration knock-down",
+   "series": "angle_sweep"
+  },
+  {
+   "name": "P2_slit_20deg_phi0.10",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 20,
+    "slit_len": 11.875
+   },
+   "porosity": 0.0944,
+   "minSF": 0.8724,
+   "alignment_A": 0.1416,
+   "slit_tip_overlap_A": -5.65,
+   "slit_row_clearance_A": 12.27,
+   "predicted": {
+    "strength_Nm_rule": 27.7,
+    "strength_Nm_mechanism": 24.9
+   },
+   "rationale": "no tip overlap (O = -5.7 A): isolated inclined slits, net-section rule with a mild stress-concentration knock-down",
+   "series": "overlap_control"
+  },
+  {
+   "name": "P2_slit_20deg_phi0.30",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 20,
+    "slit_len": 39.375
+   },
+   "porosity": 0.3043,
+   "minSF": 0.6887,
+   "alignment_A": 0.3312,
+   "slit_tip_overlap_A": 20.19,
+   "slit_row_clearance_A": 2.87,
+   "predicted": {
+    "strength_Nm_rule": 21.9,
+    "strength_Nm_mechanism": 8.3
+   },
+   "rationale": "tips of adjacent rows overlap (O = 20.2 A) and the slits are inclined: en-echelon linking, knock-down growing with the angle up to the 20-deg level",
+   "series": "overlap_control"
+  },
+  {
+   "name": "P3_H1_ellipse_30deg",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 30,
+    "pore_d": 5.25
+   },
+   "porosity": 0.1964,
+   "minSF": 0.7244,
+   "alignment_A": -0.1265,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 12.7,
+    "strength_Nm_mechanism": 10.5
+   },
+   "rationale": "linear in the alignment index A between the series anchors S2_ellipse_0deg (A=-0.24, 8.6 N/m) and S2_ellipse_90deg (A=0.35, 19.0 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H1_ellipse"
+  },
+  {
+   "name": "P3_H1_ellipse_60deg",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 60,
+    "pore_d": 5.25
+   },
+   "porosity": 0.1933,
+   "minSF": 0.7959,
+   "alignment_A": 0.1511,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 13.9,
+    "strength_Nm_mechanism": 15.4
+   },
+   "rationale": "linear in the alignment index A between the series anchors S2_ellipse_0deg (A=-0.24, 8.6 N/m) and S2_ellipse_90deg (A=0.35, 19.0 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H1_ellipse"
+  },
+  {
+   "name": "P3_H2_veinsX_W12_ellipse_00deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 0,
+    "pore_d": 4.719
+   },
+   "porosity": 0.1972,
+   "minSF": 0.6747,
+   "alignment_A": -0.0164,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 11.8,
+    "strength_Nm_mechanism": 14.3
+   },
+   "rationale": "linear in the alignment index A between the series anchors S4_H2_D40_W8_veins_x (A=0.19, 16.0 N/m) and S7_H2_veinsX_W12_ellipseX (A=0.58, 19.4 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H2_veinsX_ellipse"
+  },
+  {
+   "name": "P3_H2_veinsX_W12_ellipse_30deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 30,
+    "pore_d": 4.719
+   },
+   "porosity": 0.1997,
+   "minSF": 0.725,
+   "alignment_A": 0.0813,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 12.7,
+    "strength_Nm_mechanism": 15.1
+   },
+   "rationale": "linear in the alignment index A between the series anchors S4_H2_D40_W8_veins_x (A=0.19, 16.0 N/m) and S7_H2_veinsX_W12_ellipseX (A=0.58, 19.4 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H2_veinsX_ellipse"
+  },
+  {
+   "name": "P3_H2_veinsX_W12_ellipse_60deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 60,
+    "pore_d": 4.875
+   },
+   "porosity": 0.2072,
+   "minSF": 0.7837,
+   "alignment_A": 0.3236,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 13.7,
+    "strength_Nm_mechanism": 17.2
+   },
+   "rationale": "linear in the alignment index A between the series anchors S4_H2_D40_W8_veins_x (A=0.19, 16.0 N/m) and S7_H2_veinsX_W12_ellipseX (A=0.58, 19.4 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H2_veinsX_ellipse"
+  },
+  {
+   "name": "P3_H2_square_W8_ellipse_00deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "vein_dirs": "xy",
+    "aspect": 2.0,
+    "angle_deg": 0,
+    "pore_d": 4.875
+   },
+   "porosity": 0.1975,
+   "minSF": 0.6873,
+   "alignment_A": -0.1276,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 12.0,
+    "strength_Nm_mechanism": 8.0
+   },
+   "rationale": "linear in the alignment index A between the series anchors S2_H2_D40_W8 (A=0.13, 12.8 N/m) and S5_H2_D40_W8_ellipseX (A=0.37, 17.5 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H2_square_ellipse"
+  },
+  {
+   "name": "P3_H2_square_W8_ellipse_30deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "vein_dirs": "xy",
+    "aspect": 2.0,
+    "angle_deg": 30,
+    "pore_d": 4.875
+   },
+   "porosity": 0.1957,
+   "minSF": 0.7753,
+   "alignment_A": -0.0197,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 13.5,
+    "strength_Nm_mechanism": 10.0
+   },
+   "rationale": "linear in the alignment index A between the series anchors S2_H2_D40_W8 (A=0.13, 12.8 N/m) and S5_H2_D40_W8_ellipseX (A=0.37, 17.5 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H2_square_ellipse"
+  },
+  {
+   "name": "P3_H2_square_W8_ellipse_60deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "vein_dirs": "xy",
+    "aspect": 2.0,
+    "angle_deg": 60,
+    "pore_d": 4.875
+   },
+   "porosity": 0.1924,
+   "minSF": 0.7669,
+   "alignment_A": 0.1802,
+   "slit_tip_overlap_A": NaN,
+   "slit_row_clearance_A": NaN,
+   "predicted": {
+    "strength_Nm_rule": 13.4,
+    "strength_Nm_mechanism": 13.8
+   },
+   "rationale": "linear in the alignment index A between the series anchors S2_H2_D40_W8 (A=0.13, 12.8 N/m) and S5_H2_D40_W8_ellipseX (A=0.37, 17.5 N/m); hypothesis: no hierarchy premium at equal A",
+   "series": "H2_square_ellipse"
+  }
+ ],
+ "sha256_of_content": "51891202f55a0fdf122472c465535f5d3137ae6c125b44b703fbb1fe6b3a7258"
+}

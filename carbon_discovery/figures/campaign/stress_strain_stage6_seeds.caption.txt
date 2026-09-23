@@ -1,0 +1,1 @@
+stress-strain curves, stage6_seeds (13 simulations). Every curve is an individual AQS simulation (uniaxial stress, REBO2+S); dots mark the peak stress.

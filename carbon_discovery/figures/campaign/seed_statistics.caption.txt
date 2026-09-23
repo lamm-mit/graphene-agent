@@ -1,0 +1,1 @@
+Random-seed statistics (Stage 6): individual simulations (dots) and mean +- standard deviation (black) of strength, failure strain, work to failure and damage localisation for stochastic architectures replicated with independent seeds.

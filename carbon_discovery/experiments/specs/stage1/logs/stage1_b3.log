@@ -1,0 +1,45 @@
+batch stage1_b3: 2 structures, N = [576, 576], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0. 0.]
+ [0. 0.]], sigma = [[2.451e-05 2.491e-05]
+ [2.206e-05 2.779e-05]] N/m
+step   1 S1_pristine_zz: e=0.0100 s=  2.51N/m nb=  0 | S1_pristine_ac: e=0.0100 s=  2.75N/m nb=  0  fire_it=20 t=6s
+step   2 S1_pristine_zz: e=0.0200 s=  5.00N/m nb=  0 | S1_pristine_ac: e=0.0200 s=  5.74N/m nb=  0  fire_it=20 t=11s
+step   3 S1_pristine_zz: e=0.0300 s=  7.51N/m nb=  0 | S1_pristine_ac: e=0.0300 s=  8.71N/m nb=  0  fire_it=20 t=16s
+step   4 S1_pristine_zz: e=0.0400 s=  9.95N/m nb=  0 | S1_pristine_ac: e=0.0400 s= 11.58N/m nb=  0  fire_it=20 t=19s
+step   5 S1_pristine_zz: e=0.0500 s= 12.33N/m nb=  0 | S1_pristine_ac: e=0.0500 s= 14.27N/m nb=  0  fire_it=20 t=23s
+step   6 S1_pristine_zz: e=0.0600 s= 14.62N/m nb=  0 | S1_pristine_ac: e=0.0600 s= 16.76N/m nb=  0  fire_it=20 t=27s
+step   7 S1_pristine_zz: e=0.0700 s= 16.81N/m nb=  0 | S1_pristine_ac: e=0.0700 s= 19.04N/m nb=  0  fire_it=10 t=29s
+step   8 S1_pristine_zz: e=0.0800 s= 18.86N/m nb=  0 | S1_pristine_ac: e=0.0800 s= 21.12N/m nb=  0  fire_it=10 t=32s
+step   9 S1_pristine_zz: e=0.0900 s= 20.78N/m nb=  0 | S1_pristine_ac: e=0.0900 s= 22.98N/m nb=  0  fire_it=10 t=34s
+step  10 S1_pristine_zz: e=0.1000 s= 22.59N/m nb=  0 | S1_pristine_ac: e=0.1000 s= 24.63N/m nb=  0  fire_it=10 t=36s
+step  11 S1_pristine_zz: e=0.1100 s= 24.26N/m nb=  0 | S1_pristine_ac: e=0.1100 s= 26.07N/m nb=  0  fire_it=10 t=38s
+step  12 S1_pristine_zz: e=0.1200 s= 25.81N/m nb=  0 | S1_pristine_ac: e=0.1200 s= 27.30N/m nb=  0  fire_it=10 t=40s
+step  13 S1_pristine_zz: e=0.1300 s= 27.24N/m nb=  0 | S1_pristine_ac: e=0.1300 s= 28.32N/m nb=  0  fire_it=10 t=42s
+step  14 S1_pristine_zz: e=0.1400 s= 28.70N/m nb=  0 | S1_pristine_ac: e=0.1400 s= 29.15N/m nb=  0  fire_it=10 t=44s
+step  15 S1_pristine_zz: e=0.1500 s= 30.20N/m nb=  0 | S1_pristine_ac: e=0.1500 s= 29.79N/m nb=  0  fire_it=10 t=47s
+step  16 S1_pristine_zz: e=0.1600 s= 31.64N/m nb=  0 | S1_pristine_ac: e=0.1600 s= 30.25N/m nb=  0  fire_it=10 t=49s
+step  17 S1_pristine_zz: e=0.1700 s= 32.95N/m nb=  0 | S1_pristine_ac: e=0.1700 s= 30.55N/m nb=  0  fire_it=10 t=51s
+step  18 S1_pristine_zz: e=0.1800 s= 34.08N/m nb=  0 | S1_pristine_ac: e=0.1800 s= 30.66N/m nb=  0  fire_it=10 t=53s
+step  19 S1_pristine_zz: e=0.1900 s= 31.72N/m nb=  0 | S1_pristine_ac: e=0.1900 s= 30.63N/m nb=  0  fire_it=10 t=65s
+step  20 S1_pristine_zz: e=0.2000 s= 33.06N/m nb=  0 | S1_pristine_ac: e=0.2000 s= 30.47N/m nb=  0  fire_it=30 t=76s
+step  21 S1_pristine_zz: e=0.2100 s= 34.39N/m nb=  0 | S1_pristine_ac: e=0.2100 s= 30.20N/m nb=  0  fire_it=20 t=79s
+step  22 S1_pristine_zz: e=0.2200 s= 35.49N/m nb=  0 | S1_pristine_ac: e=0.2200 s= 29.82N/m nb=  0  fire_it=20 t=82s
+step  23 S1_pristine_zz: e=0.2300 s= 36.48N/m nb=  0 | S1_pristine_ac: e=0.2300 s= 29.34N/m nb=  0  fire_it=10 t=84s
+step  24 S1_pristine_zz: e=0.2400 s= 37.32N/m nb=  0 | S1_pristine_ac: e=0.2400 s= 28.81N/m nb=  0  fire_it=10 t=86s
+step  25 S1_pristine_zz: e=0.2500 s= 37.97N/m nb=  0 | S1_pristine_ac: e=0.2500 s= 28.23N/m nb=  0  fire_it=10 t=88s
+step  26 S1_pristine_zz: e=0.2600 s= 38.46N/m nb=  0 | S1_pristine_ac: e=0.2600 s= 27.59N/m nb=  0  fire_it=10 t=90s
+step  27 S1_pristine_zz: e=0.2700 s= 38.79N/m nb=  0 | S1_pristine_ac: e=0.2700 s= 26.92N/m nb=  0  fire_it=10 t=92s
+  step 28: early bisection for [0] -> d_eps=[0.005]
+step  28 S1_pristine_zz: e=0.2700 s= 38.79N/m nb=  0 | S1_pristine_ac: e=0.2800 s= 26.22N/m nb=  0  fire_it=400 t=146s
+  step 29: early bisection for [0] -> d_eps=[0.0025]
+step  29 S1_pristine_zz: e=0.2700 s= 38.79N/m nb=  0 | S1_pristine_ac: e=0.2900 s= 25.30N/m nb=  0  fire_it=400 t=200s
+  step 30: early bisection for [0, 1] -> d_eps=[0.00125 0.005  ]
+step  31 S1_pristine_zz: e=0.2713 s=  0.23N/m nb= 38* | S1_pristine_ac: e=0.2950 s= 24.46N/m nb=  0  fire_it=440 t=381s
+  step 32: early bisection for [1] -> d_eps=[0.0025]
+step  33 S1_pristine_zz: e=0.2713 s=  0.23N/m nb=  0* | S1_pristine_ac: e=0.2975 s= 23.64N/m nb=  0  fire_it=10 t=385s
+  step 34: early bisection for [1] -> d_eps=[0.00125]
+step  35 S1_pristine_zz: e=0.2713 s=  0.23N/m nb=  0* | S1_pristine_ac: e=0.2988 s= 23.16N/m nb=  0  fire_it=10 t=388s
+step  36 S1_pristine_zz: e=0.2713 s=  0.23N/m nb=  0* | S1_pristine_ac: e=0.3000 s= 26.23N/m nb=167*  fire_it=260 t=423s
+[done] S1_pristine_zz -> run_20260905_000440_9f82a7: stable; strength 38.79 N/m @ 0.270, fail 0.271, mode abrupt brittle (single avalanche), not spanning (fractured)
+[done] S1_pristine_ac -> run_20260905_000441_c2d30f: stable; strength 30.66 N/m @ 0.180, fail 0.300, mode abrupt brittle, not spanning (fractured)
+batch finished in 429s (simulation 428s); evaluations {'n_evaluations': 3342, 'fire_iterations': 3060, 'n_rebuilds': 201, 'n_reverts': 6, 'n_soft_converged': 0}

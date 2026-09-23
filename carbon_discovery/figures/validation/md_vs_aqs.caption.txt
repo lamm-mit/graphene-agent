@@ -1,0 +1,1 @@
+Optional finite-temperature check: constant-strain-rate MD (Langevin, 300 K, 5/ns, fixed transverse strain) of the reference nanomesh compared with the AQS curve of the same structure (uniaxial stress). Peak stress MD (running mean) 12.0 N/m vs AQS 13.5 N/m; thermal activation and the biaxial stress state of the fixed-transverse MD both lower the peak.

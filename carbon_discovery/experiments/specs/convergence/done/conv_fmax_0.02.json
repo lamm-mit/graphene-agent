@@ -1,0 +1,28 @@
+{
+ "campaign": "validation",
+ "stage": "convergence",
+ "batch_name": "conv_fmax_0.02",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 200
+ },
+ "structures": [
+  {
+   "name": "mesh64_fmax0.02",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 64,
+    "Ly": 64,
+    "pore_d": 8,
+    "period": 16
+   },
+   "seed": 0,
+   "reason": "TEST13 minimizer tolerance"
+  }
+ ]
+}

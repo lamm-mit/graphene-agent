@@ -1,0 +1,15 @@
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: divide by zero encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s @ np.asarray(cells[b], float)
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: overflow encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s @ np.asarray(cells[b], float)
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: invalid value encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s @ np.asarray(cells[b], float)
+precrack torch_cpu64_ase_fire: max|dsigma| = 3.429e-13 N/m  (peak ref 22.74)
+precrack torch_cpu64_batched_fire: max|dsigma| = 2.265e+01 N/m  (peak ref 22.74)
+precrack torch_mps32_batched_fire: max|dsigma| = 2.221e+01 N/m  (peak ref 22.74)
+precrack timings {'atomistica': 3.0026497840881348, 'torch_ase': 69.35458111763, 'torch64': 511.39658403396606, 'torch32': 206.72214102745056}
+nanomesh torch_cpu64_ase_fire: max|dsigma| = 2.029e-10 N/m  (peak ref 13.16)
+nanomesh torch_cpu64_batched_fire: max|dsigma| = 4.369e-01 N/m  (peak ref 13.16)
+nanomesh torch_mps32_batched_fire: max|dsigma| = 4.345e-01 N/m  (peak ref 13.16)
+nanomesh timings {'atomistica': 25.922300100326538, 'torch_ase': 800.752858877182, 'torch64': 1265.8403000831604, 'torch32': 445.18970584869385}
+saved

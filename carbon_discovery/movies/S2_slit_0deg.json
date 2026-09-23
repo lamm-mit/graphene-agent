@@ -1,0 +1,43 @@
+{
+ "run_id": "run_20260905_073634_1a440a",
+ "frames_rendered": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26
+ ],
+ "event_frames": {
+  "relaxed": 0,
+  "pre_damage = peak_load": 22,
+  "first_damage = major_propagation": 23,
+  "post_peak": 24,
+  "final": 26
+ },
+ "fps": 8,
+ "mode": "energy_rel",
+ "trajectory": "trajectories/run_20260905_073634_1a440a.npz",
+ "movie": "movies/S2_slit_0deg.mp4"
+}

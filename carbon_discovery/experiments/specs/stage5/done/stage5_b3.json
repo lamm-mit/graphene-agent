@@ -1,0 +1,90 @@
+{
+ "campaign": "discovery",
+ "stage": "stage5_deep",
+ "batch_name": "stage5_b3",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S5_slit0_phi0.3",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "slit_len": 29.0
+   },
+   "seed": 0,
+   "reason": "porosity scaling of the load-parallel slit architecture (H-A: sigma = minSF x 31): phi=0.3",
+   "hypothesis": "H-A",
+   "tags": [
+    "stage5",
+    "porosity",
+    "loadpath"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.222"
+  },
+  {
+   "name": "S5_slit0_phi0.4",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "slit_len": 29.0
+   },
+   "seed": 0,
+   "reason": "porosity scaling of the load-parallel slit architecture (H-A: sigma = minSF x 31): phi=0.4",
+   "hypothesis": "H-A",
+   "tags": [
+    "stage5",
+    "porosity",
+    "loadpath"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.222"
+  },
+  {
+   "name": "S5_square_D40_phi0.1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "square",
+    "stagger": false,
+    "pore_d": 12.281
+   },
+   "seed": 0,
+   "reason": "porosity scaling of the coarse square mesh (H-A): phi=0.1",
+   "hypothesis": "H-A",
+   "tags": [
+    "stage5",
+    "porosity"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.094"
+  }
+ ]
+}

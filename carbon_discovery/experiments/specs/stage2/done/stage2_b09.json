@@ -1,0 +1,108 @@
+{
+ "campaign": "discovery",
+ "stage": "stage2_reconnaissance",
+ "batch_name": "stage2_b09",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12,
+  "d_strain_elastic": 0.01,
+  "max_fire_steps": 1500
+ },
+ "structures": [
+  {
+   "name": "S2_graded_x",
+   "family": "graded_pores",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "pore_d_min": 4.0,
+    "mode": "x",
+    "pore_d_max": 10.875
+   },
+   "seed": 0,
+   "reason": "gradient: pore size graded (x)",
+   "hypothesis": "",
+   "tags": [
+    "gradient"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.204"
+  },
+  {
+   "name": "S2_graded_radial",
+   "family": "graded_pores",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "pore_d_min": 4.0,
+    "mode": "radial",
+    "pore_d_max": 15.0
+   },
+   "seed": 0,
+   "reason": "gradient: pore size graded (radial)",
+   "hypothesis": "",
+   "tags": [
+    "gradient"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.183"
+  },
+  {
+   "name": "S2_hole20_rings2",
+   "family": "ring_around_hole",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "hole_d": 20,
+    "n_rings": 2,
+    "ring_pore_d": 5.0,
+    "ring_gap": 8.0
+   },
+   "seed": 0,
+   "reason": "flaw halo: hole 20 A + 2 rings of 5 A pores",
+   "hypothesis": "",
+   "tags": [
+    "flaw",
+    "gradient"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": null
+  },
+  {
+   "name": "S2_hole20_background",
+   "family": "ring_around_hole",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "hole_d": 20,
+    "n_rings": 0,
+    "background": {
+     "pore_d": 4.75,
+     "period": 16
+    }
+   },
+   "seed": 0,
+   "reason": "flaw halo control: hole 20 A + uniform far-field pores at the same porosity (0.103)",
+   "hypothesis": "",
+   "tags": [
+    "flaw",
+    "gradient"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.104"
+  }
+ ]
+}

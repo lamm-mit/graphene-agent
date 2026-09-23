@@ -1,0 +1,39 @@
+{
+ "strength vs failure strain": [
+  "S2_slit_45deg",
+  "S2_mesh_phi0.1",
+  "S7_slit_0deg_armchair",
+  "S2_slit_0deg",
+  "S5_slit0_phi0.1"
+ ],
+ "strength vs work to failure": [
+  "S2_slit_0deg",
+  "S5_slit0_phi0.1"
+ ],
+ "specific work (per atom) vs porosity (mass saving)": [
+  "S2_strut_060120",
+  "S2_strut_090",
+  "S5_slit0_phi0.4"
+ ],
+ "stiffness vs failure strain": [
+  "S2_slit_45deg",
+  "S2_strut_090",
+  "S7_strut_090_phi0.3",
+  "S2_mesh_phi0.1",
+  "S5_H2_D40_W8_ellipseX",
+  "S7_slit_0deg_armchair"
+ ],
+ "strength vs delocalised damage (low L)": [
+  "S7_slit_0deg_armchair",
+  "S5_square_D40_phi0.1",
+  "S2_slit_0deg",
+  "S5_slit0_phi0.1"
+ ],
+ "work vs post-peak load retention": [
+  "S7_slit_20deg",
+  "S2_H1_square_D40",
+  "S7_slit_0deg_armchair",
+  "S5_slit0_phi0.4",
+  "S2_slit_0deg"
+ ]
+}

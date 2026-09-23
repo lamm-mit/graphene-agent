@@ -1,0 +1,89 @@
+{
+ "campaign": "discovery",
+ "stage": "stage5_deep",
+ "batch_name": "stage5_b0",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S5_H2_D40_W16",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 16,
+    "pore_d": 9.312
+   },
+   "seed": 0,
+   "reason": "vein-width sweep (H-F/H-A rule of mixtures): W=16 A",
+   "hypothesis": "H-F",
+   "tags": [
+    "stage5",
+    "hierarchy"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.195"
+  },
+  {
+   "name": "S5_H2_D40_W20",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 20,
+    "pore_d": 10.438
+   },
+   "seed": 0,
+   "reason": "vein-width sweep (H-F/H-A rule of mixtures): W=20 A",
+   "hypothesis": "H-F",
+   "tags": [
+    "stage5",
+    "hierarchy"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.197"
+  },
+  {
+   "name": "S5_H2_D60_W12",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 60,
+    "vein_w": 12,
+    "pore_d": 6.781
+   },
+   "seed": 0,
+   "reason": "scale ratio x vein width interaction (D60, W12)",
+   "hypothesis": "H-F",
+   "tags": [
+    "stage5",
+    "hierarchy"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.195"
+  }
+ ]
+}

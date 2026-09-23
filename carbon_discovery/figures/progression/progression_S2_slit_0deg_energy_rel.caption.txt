@@ -1,0 +1,1 @@
+Fracture progression of S2_slit_0deg: event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked. Model result (screened REBO2, athermal quasi-static tension).

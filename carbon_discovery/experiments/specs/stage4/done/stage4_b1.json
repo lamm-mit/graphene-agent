@@ -1,0 +1,99 @@
+{
+ "campaign": "discovery",
+ "stage": "stage4_discriminating",
+ "batch_name": "stage4_b1",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S4_square_D40_dispersed",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "square",
+    "stagger": false,
+    "pore_d": 16.625,
+    "size_disorder": 0.15,
+    "seed": 1
+   },
+   "seed": 1,
+   "reason": "pair 3 (H-C): square coarse mesh with +-15% pore-size dispersion (non-equivalent rows) at the same porosity",
+   "hypothesis": "H-C",
+   "tags": [
+    "stage4",
+    "pairC"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 14.7,
+    "fracture_mode_class": "progressive",
+    "basis": "weakest row ~10% below mean; H-C: multi-step; H-C': single avalanche"
+   },
+   "notes": null
+  },
+  {
+   "name": "S4_p32_dispersed",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 32,
+    "size_disorder": 0.15,
+    "seed": 1,
+    "pore_d": 14.25
+   },
+   "seed": 1,
+   "reason": "pair 4 (H-C): period-32 round-pore mesh with +-15% size dispersion",
+   "hypothesis": "H-C",
+   "tags": [
+    "stage4",
+    "pairC"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 14.4,
+    "fracture_mode_class": "progressive",
+    "basis": "necked + non-equivalent"
+   },
+   "notes": null
+  },
+  {
+   "name": "S4_precrack_L30_cell150",
+   "family": "precrack",
+   "params": {
+    "Lx": 150,
+    "Ly": 150,
+    "crack_len": 30,
+    "crack_w": 3.0,
+    "angle_deg": 90
+   },
+   "seed": 0,
+   "reason": "H-E: 30 A crack in a 150 A cell (image interaction removed)",
+   "hypothesis": "H-E",
+   "tags": [
+    "stage4",
+    "flaw"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 18.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "lattice-trapping plateau (H-E); Griffith alternative 13.9"
+   },
+   "notes": null
+  }
+ ]
+}

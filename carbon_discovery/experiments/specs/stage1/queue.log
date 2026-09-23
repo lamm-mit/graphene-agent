@@ -1,0 +1,5 @@
+[queue] launched stage1_b3.json (pid 61687); running=1
+[queue] launched stage1_b4.json (pid 61688); running=2
+[queue] finished stage1_b3.json.running rc=0 in 436s
+[queue] finished stage1_b4.json.running rc=0 in 2725s
+[queue] all done

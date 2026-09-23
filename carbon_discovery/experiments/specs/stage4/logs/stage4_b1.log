@@ -1,0 +1,38 @@
+batch stage4_b1: 3 structures, N = [4408, 4431, 8495], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0031 0.0016]
+ [0.0038 0.004 ]
+ [0.     0.    ]], sigma = [[-0.001  0.032]
+ [ 0.008 -0.008]
+ [-0.002 -0.033]] N/m
+step   1 S4_square_D40_: e=0.0100 s=  1.48N/m nb=  0 | S4_p32_dispers: e=0.0100 s=  1.55N/m nb=  0 | S4_precrack_L3: e=0.0100 s=  2.41N/m nb=  0  fire_it=120 t=174s
+step   2 S4_square_D40_: e=0.0200 s=  3.05N/m nb=  0 | S4_p32_dispers: e=0.0200 s=  3.01N/m nb=  0 | S4_precrack_L3: e=0.0200 s=  4.77N/m nb=  0  fire_it=150 t=254s
+step   3 S4_square_D40_: e=0.0300 s=  4.55N/m nb=  0 | S4_p32_dispers: e=0.0300 s=  4.39N/m nb=  0 | S4_precrack_L3: e=0.0300 s=  7.13N/m nb=  0  fire_it=140 t=334s
+step   4 S4_square_D40_: e=0.0400 s=  6.02N/m nb=  0 | S4_p32_dispers: e=0.0400 s=  5.81N/m nb=  0 | S4_precrack_L3: e=0.0400 s=  9.38N/m nb=  0  fire_it=260 t=475s
+step   5 S4_square_D40_: e=0.0500 s=  7.45N/m nb=  0 | S4_p32_dispers: e=0.0500 s=  7.21N/m nb=  0 | S4_precrack_L3: e=0.0500 s= 11.55N/m nb=  0  fire_it=310 t=637s
+step   6 S4_square_D40_: e=0.0600 s=  8.76N/m nb=  0 | S4_p32_dispers: e=0.0600 s=  8.55N/m nb=  0 | S4_precrack_L3: e=0.0600 s= 13.66N/m nb=  0  fire_it=360 t=987s
+step   7 S4_square_D40_: e=0.0700 s= 10.02N/m nb=  0 | S4_p32_dispers: e=0.0700 s=  9.84N/m nb=  0 | S4_precrack_L3: e=0.0700 s= 15.69N/m nb=  0  fire_it=180 t=1080s
+  step 8: early bisection for [2] -> d_eps=[0.005]
+step   8 S4_square_D40_: e=0.0800 s= 11.22N/m nb=  0 | S4_p32_dispers: e=0.0800 s= 10.99N/m nb=  0 | S4_precrack_L3: e=0.0700 s= 15.69N/m nb=  0  fire_it=300 t=1239s
+step   9 S4_square_D40_: e=0.0900 s= 12.31N/m nb=  0 | S4_p32_dispers: e=0.0900 s= 12.06N/m nb=  0 | S4_precrack_L3: e=0.0750 s= 16.65N/m nb=  0  fire_it=370 t=1422s
+  step 10: early bisection for [1, 2] -> d_eps=[0.005  0.0025]
+step  10 S4_square_D40_: e=0.1000 s= 13.32N/m nb=  0 | S4_p32_dispers: e=0.0900 s= 12.06N/m nb=  0 | S4_precrack_L3: e=0.0750 s= 16.65N/m nb=  0  fire_it=100 t=1692s
+  step 11: early bisection for [2] -> d_eps=[0.00125]
+step  11 S4_square_D40_: e=0.1100 s= 14.22N/m nb=  0 | S4_p32_dispers: e=0.0950 s= 12.55N/m nb=  0 | S4_precrack_L3: e=0.0750 s= 16.65N/m nb=  0  fire_it=260 t=1839s
+  step 12: early bisection for [0, 1] -> d_eps=[0.005  0.0025]
+step  12 S4_square_D40_: e=0.1100 s= 14.22N/m nb=  0 | S4_p32_dispers: e=0.0950 s= 12.55N/m nb=  0 | S4_precrack_L3: e=0.0763 s= 16.77N/m nb=  2  fire_it=400 t=2061s
+  step 13: early bisection for [0, 1] -> d_eps=[0.0025  0.00125]
+step  13 S4_square_D40_: e=0.1100 s= 14.22N/m nb=  0 | S4_p32_dispers: e=0.0950 s= 12.55N/m nb=  0 | S4_precrack_L3: e=0.0813 s= 17.62N/m nb=  2  fire_it=400 t=2262s
+step  14 S4_square_D40_: e=0.1125 s= 14.41N/m nb=  0 | S4_p32_dispers: e=0.0963 s= 12.60N/m nb=  1 | S4_precrack_L3: e=0.0863 s= 18.56N/m nb=  0  fire_it=320 t=2406s
+  step 15: early bisection for [0] -> d_eps=[0.00125]
+step  15 S4_square_D40_: e=0.1125 s= 14.41N/m nb=  0 | S4_p32_dispers: e=0.1013 s= 12.99N/m nb=  0 | S4_precrack_L3: e=0.0913 s= 19.45N/m nb=  0  fire_it=250 t=2520s
+[done] S4_precrack_L30_cell150 -> run_20260905_125037_61a235: stable; strength 19.45 N/m @ 0.091, fail 0.096, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  16 S4_square_D40_: e=0.1137 s= 14.52N/m nb=  0 | S4_p32_dispers: e=0.1063 s= 13.41N/m nb=  0 | S4_precrack_L3: e=0.0963 s=  1.36N/m nb= 53*  fire_it=2000 t=4580s
+step  17 S4_square_D40_: e=0.1150 s= 14.58N/m nb=  1 | S4_p32_dispers: e=0.1113 s= 13.76N/m nb=  4 | S4_precrack_L3: e=0.0963 s=  1.36N/m nb=  0*  fire_it=260 t=4722s
+step  18 S4_square_D40_: e=0.1200 s= 14.91N/m nb=  3 | S4_p32_dispers: e=0.1163 s=  7.73N/m nb= 29 | S4_precrack_L3: e=0.0963 s=  1.36N/m nb=  0*  fire_it=1770 t=7209s
+step  19 S4_square_D40_: e=0.1250 s= 15.30N/m nb=  1 | S4_p32_dispers: e=0.1213 s=  3.27N/m nb= 11 | S4_precrack_L3: e=0.0963 s=  1.36N/m nb=  0*  fire_it=2000 t=8644s
+[done] S4_p32_dispersed -> run_20260905_142144_c52529: reconstructed but viable; strength 13.76 N/m @ 0.111, fail 0.126, mode progressive (multiple events, load retained), stress collapsed
+step  20 S4_square_D40_: e=0.1300 s= 15.51N/m nb=  7 | S4_p32_dispers: e=0.1263 s=  0.97N/m nb=  1* | S4_precrack_L3: e=0.0963 s=  1.36N/m nb=  0*  fire_it=1010 t=10043s
+step  21 S4_square_D40_: e=0.1350 s= 15.81N/m nb=  1 | S4_p32_dispers: e=0.1263 s=  0.97N/m nb=  0* | S4_precrack_L3: e=0.0963 s=  1.36N/m nb=  0*  fire_it=110 t=10212s
+[done] S4_square_D40_dispersed -> run_20260905_150004_631da6: stable; strength 15.81 N/m @ 0.135, fail 0.140, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  22 S4_square_D40_: e=0.1400 s=  0.49N/m nb= 39* | S4_p32_dispers: e=0.1263 s=  0.97N/m nb=  0* | S4_precrack_L3: e=0.0963 s=  1.36N/m nb=  0*  fire_it=2000 t=12343s
+batch finished in 12349s (simulation 12349s); evaluations {'n_evaluations': 27569, 'fire_iterations': 27380, 'n_rebuilds': 836, 'n_reverts': 9, 'n_soft_converged': 2}

@@ -1,0 +1,51 @@
+{
+ "campaign": "paper",
+ "stage": "paper_sweeps",
+ "batch_name": "paper_P3_alignment_03",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "P3_H2_veinsX_W12_ellipse_30deg",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 30,
+    "pore_d": 4.719
+   },
+   "seed": 0,
+   "reason": "two-level mesh with veins along the load, elongated fine pores rotated (alignment sweep)",
+   "hypothesis": "",
+   "tags": [
+    "paper",
+    "alignment",
+    "H2",
+    "veins_x"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm_rule": 12.7,
+    "strength_Nm_mechanism": 15.1
+   },
+   "notes": "linear in the alignment index A between the series anchors S4_H2_D40_W8_veins_x (A=0.19, 16.0 N/m) and S7_H2_veinsX_W12_ellipseX (A=0.58, 19.4 N/m); hypothesis: no hierarchy premium at equal A"
+  }
+ ]
+}

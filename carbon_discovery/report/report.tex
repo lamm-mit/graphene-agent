@@ -1,0 +1,27 @@
+\input{preamble}
+\input{generated/numbers}
+\title{Autonomous discovery of architecture--fracture relationships in graphene-derived carbon nanomaterials with a validated GPU implementation of screened REBO2}
+\author{Carbon architecture discovery platform (automated study)\\ \small generated from the experiment database; see \texttt{manifest.json} for provenance}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{generated/abstract}
+\end{abstract}
+\tableofcontents
+\input{sections_methods}
+\input{sections_results}
+\input{sections_discussion}
+\appendix
+\section{Validation table}
+\input{generated/validation_table}
+\section{Experiment database}
+\label{app:database}
+The complete machine-readable database (one JSON record per run, stress--strain CSV files, structures and trajectories) is part of the deliverable (\texttt{experiments/database/}, \texttt{trajectories/}). Table~\ref{tab:database} lists every completed discovery simulation.
+\input{generated/runs_table}
+\section{Reproducibility}
+\label{app:repro}
+Environment: \envOS; CPU \envCPU; GPU \envGPU; Python \envPython; PyTorch \envTorch; ASE \envASE; Atomistica \envAtomistica. Every run record stores the device, precision, force-field checksum, boundary conditions, minimisation settings, strain increments, random seeds, geometry and hierarchy parameters, numerical tolerances and dates; a run is reproduced from its record with \texttt{scripts/reproduce\_run.py <run\_id>}. A reproduction check of the pristine zigzag baseline (float32 on the GPU) regenerated the structure with the same atom count and reproduced the 2D modulus to five digits (250.07\,N/m), the strength to 0.8\% (38.47 vs 38.79\,N/m), the fracture mode, and the failure strain to within one strain increment (0.261 vs 0.271); the residual difference comes from the non-deterministic float32 reductions on the GPU (TEST~17) amplified at the intrinsic instability of the perfect lattice (log: \path{validation/results/reproduce_check_S1_pristine_zz.txt}).
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\end{document}

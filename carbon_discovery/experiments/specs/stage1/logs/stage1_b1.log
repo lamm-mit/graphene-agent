@@ -1,0 +1,51 @@
+batch stage1_b1: 3 structures, N = [3724, 3757, 3744], device=mps torch.float32
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: divide by zero encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: overflow encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: invalid value encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+  zero-stress relaxation: eps0 = [[-0.001  -0.0009]
+ [ 0.      0.    ]
+ [ 0.      0.    ]], sigma = [[-0.05  -0.074]
+ [-0.005 -0.014]
+ [ 0.056 -0.029]] N/m
+step   1 S1_vac_cluster: e=0.0050 s=  1.25N/m nb=  0 | S1_precrack_L1: e=0.0050 s=  1.23N/m nb=  0 | S1_precrack_L2: e=0.0050 s=  1.27N/m nb=  0  fire_it=50 t=76s
+step   2 S1_vac_cluster: e=0.0100 s=  2.43N/m nb=  0 | S1_precrack_L1: e=0.0100 s=  2.46N/m nb=  0 | S1_precrack_L2: e=0.0100 s=  2.47N/m nb=  0  fire_it=60 t=101s
+step   3 S1_vac_cluster: e=0.0150 s=  3.64N/m nb=  0 | S1_precrack_L1: e=0.0150 s=  3.68N/m nb=  0 | S1_precrack_L2: e=0.0150 s=  3.59N/m nb=  0  fire_it=170 t=161s
+step   4 S1_vac_cluster: e=0.0200 s=  4.84N/m nb=  0 | S1_precrack_L1: e=0.0200 s=  4.90N/m nb=  0 | S1_precrack_L2: e=0.0200 s=  4.77N/m nb=  0  fire_it=70 t=184s
+step   5 S1_vac_cluster: e=0.0250 s=  5.84N/m nb=  0 | S1_precrack_L1: e=0.0250 s=  6.11N/m nb=  0 | S1_precrack_L2: e=0.0250 s=  5.94N/m nb=  0  fire_it=160 t=235s
+step   6 S1_vac_cluster: e=0.0300 s=  7.05N/m nb=  0 | S1_precrack_L1: e=0.0300 s=  7.36N/m nb=  0 | S1_precrack_L2: e=0.0300 s=  7.13N/m nb=  0  fire_it=70 t=263s
+step   7 S1_vac_cluster: e=0.0350 s=  8.25N/m nb=  0 | S1_precrack_L1: e=0.0350 s=  8.58N/m nb=  0 | S1_precrack_L2: e=0.0350 s=  8.25N/m nb=  0  fire_it=170 t=318s
+step   8 S1_vac_cluster: e=0.0400 s=  9.43N/m nb=  0 | S1_precrack_L1: e=0.0400 s=  9.78N/m nb=  0 | S1_precrack_L2: e=0.0400 s=  9.40N/m nb=  0  fire_it=70 t=342s
+step   9 S1_vac_cluster: e=0.0450 s= 10.58N/m nb=  0 | S1_precrack_L1: e=0.0450 s= 10.94N/m nb=  0 | S1_precrack_L2: e=0.0450 s= 10.50N/m nb=  0  fire_it=130 t=389s
+step  10 S1_vac_cluster: e=0.0500 s= 11.68N/m nb=  0 | S1_precrack_L1: e=0.0500 s= 12.08N/m nb=  0 | S1_precrack_L2: e=0.0500 s= 11.52N/m nb=  0  fire_it=120 t=429s
+step  11 S1_vac_cluster: e=0.0550 s= 12.74N/m nb=  0 | S1_precrack_L1: e=0.0550 s= 13.22N/m nb=  0 | S1_precrack_L2: e=0.0550 s= 12.54N/m nb=  0  fire_it=180 t=509s
+step  12 S1_vac_cluster: e=0.0600 s= 13.75N/m nb=  0 | S1_precrack_L1: e=0.0600 s= 14.31N/m nb=  0 | S1_precrack_L2: e=0.0600 s= 13.61N/m nb=  0  fire_it=170 t=563s
+step  13 S1_vac_cluster: e=0.0650 s= 14.81N/m nb=  0 | S1_precrack_L1: e=0.0650 s= 15.39N/m nb=  0 | S1_precrack_L2: e=0.0650 s= 14.63N/m nb=  0  fire_it=210 t=633s
+step  14 S1_vac_cluster: e=0.0700 s= 15.85N/m nb=  0 | S1_precrack_L1: e=0.0700 s= 16.40N/m nb=  0 | S1_precrack_L2: e=0.0700 s= 15.59N/m nb=  0  fire_it=240 t=712s
+step  15 S1_vac_cluster: e=0.0750 s= 16.80N/m nb=  0 | S1_precrack_L1: e=0.0750 s= 17.42N/m nb=  0 | S1_precrack_L2: e=0.0750 s= 16.54N/m nb=  0  fire_it=150 t=766s
+  step 16: bisection for [2] -> d_eps=[0.0025]
+step  16 S1_vac_cluster: e=0.0800 s= 17.76N/m nb=  0 | S1_precrack_L1: e=0.0800 s= 18.40N/m nb=  0 | S1_precrack_L2: e=0.0750 s= 16.54N/m nb=  1  fire_it=150 t=855s
+step  17 S1_vac_cluster: e=0.0850 s= 18.70N/m nb=  0 | S1_precrack_L1: e=0.0850 s= 19.35N/m nb=  0 | S1_precrack_L2: e=0.0775 s= 17.01N/m nb=  0  fire_it=130 t=896s
+step  18 S1_vac_cluster: e=0.0900 s= 19.54N/m nb=  0 | S1_precrack_L1: e=0.0900 s= 20.26N/m nb=  0 | S1_precrack_L2: e=0.0800 s= 17.47N/m nb=  0  fire_it=360 t=995s
+  step 19: early bisection for [2] -> d_eps=[0.00125]
+step  19 S1_vac_cluster: e=0.0950 s= 20.34N/m nb=  0 | S1_precrack_L1: e=0.0950 s= 21.16N/m nb=  0 | S1_precrack_L2: e=0.0800 s= 17.47N/m nb=  0  fire_it=190 t=1058s
+step  20 S1_vac_cluster: e=0.1000 s= 21.08N/m nb=  0 | S1_precrack_L1: e=0.1000 s= 22.02N/m nb=  0 | S1_precrack_L2: e=0.0813 s= 17.62N/m nb=  1  fire_it=240 t=1138s
+step  21 S1_vac_cluster: e=0.1050 s= 21.82N/m nb=  0 | S1_precrack_L1: e=0.1050 s= 22.85N/m nb=  0 | S1_precrack_L2: e=0.0863 s= 18.53N/m nb=  0  fire_it=240 t=1253s
+  step 22: early bisection for [0] -> d_eps=[0.0025]
+step  22 S1_vac_cluster: e=0.1050 s= 21.82N/m nb=  0 | S1_precrack_L1: e=0.1100 s= 23.65N/m nb=  0 | S1_precrack_L2: e=0.0913 s=  1.10N/m nb= 38*  fire_it=2000 t=2892s
+  step 23: early bisection for [1] -> d_eps=[0.0025]
+step  23 S1_vac_cluster: e=0.1075 s= 22.17N/m nb=  0 | S1_precrack_L1: e=0.1100 s= 23.65N/m nb=  0 | S1_precrack_L2: e=0.0913 s=  1.10N/m nb=  0*  fire_it=280 t=2982s
+  step 24: early bisection for [0] -> d_eps=[0.00125]
+step  24 S1_vac_cluster: e=0.1075 s= 22.17N/m nb=  0 | S1_precrack_L1: e=0.1125 s= 24.00N/m nb=  0 | S1_precrack_L2: e=0.0913 s=  1.10N/m nb=  0*  fire_it=400 t=3105s
+  step 25: early bisection for [1] -> d_eps=[0.00125]
+step  25 S1_vac_cluster: e=0.1088 s= 22.32N/m nb=  1 | S1_precrack_L1: e=0.1125 s= 24.00N/m nb=  0 | S1_precrack_L2: e=0.0913 s=  1.10N/m nb=  0*  fire_it=320 t=3204s
+step  26 S1_vac_cluster: e=0.1138 s= 23.02N/m nb=  1 | S1_precrack_L1: e=0.1138 s= 24.08N/m nb=  3 | S1_precrack_L2: e=0.0913 s=  1.10N/m nb=  0*  fire_it=60 t=3346s
+step  27 S1_vac_cluster: e=0.1188 s= 23.69N/m nb=  1 | S1_precrack_L1: e=0.1188 s=  1.03N/m nb= 39* | S1_precrack_L2: e=0.0913 s=  1.10N/m nb=  0*  fire_it=2000 t=4531s
+step  28 S1_vac_cluster: e=0.1238 s= 24.39N/m nb=  0 | S1_precrack_L1: e=0.1188 s=  1.03N/m nb=  0* | S1_precrack_L2: e=0.0913 s=  1.10N/m nb=  0*  fire_it=240 t=4602s
+step  29 S1_vac_cluster: e=0.1288 s=  1.09N/m nb= 50* | S1_precrack_L1: e=0.1188 s=  1.03N/m nb=  0* | S1_precrack_L2: e=0.0913 s=  1.10N/m nb=  0*  fire_it=2000 t=6404s
+[done] S1_vac_clustered_2pct -> run_20260904_233632_604371: reconstructed but viable; strength 24.39 N/m @ 0.124, fail 0.129, mode abrupt brittle (single avalanche), stress collapsed
+[done] S1_precrack_L10 -> run_20260904_233633_bcd91c: stable; strength 24.08 N/m @ 0.114, fail 0.119, mode abrupt brittle (single avalanche), not spanning (fractured)
+[done] S1_precrack_L20 -> run_20260904_233634_41365e: stable; strength 18.53 N/m @ 0.086, fail 0.091, mode abrupt brittle (single avalanche), stress collapsed
+batch finished in 6414s (simulation 6410s); evaluations {'n_evaluations': 19634, 'fire_iterations': 19400, 'n_rebuilds': 601, 'n_reverts': 6}

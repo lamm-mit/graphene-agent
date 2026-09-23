@@ -1,0 +1,71 @@
+{
+ "run_id": "run_20260905_050158_ac989f",
+ "name": "S2_H1_p32",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": 0.0328405139518172,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 14,
+   "eps": 0.13249999999999998,
+   "sigma_Nm": 15.541845277700173,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage",
+   "frame": 15,
+   "eps": 0.13374999999999998,
+   "sigma_Nm": 15.549260632865149,
+   "n_broken": 4
+  },
+  {
+   "label": "damage_event",
+   "frame": 16,
+   "eps": 0.13874999999999998,
+   "sigma_Nm": 15.75527763030175,
+   "n_broken": 12
+  },
+  {
+   "label": "damage_event",
+   "frame": 20,
+   "eps": 0.15875,
+   "sigma_Nm": 16.36422487750045,
+   "n_broken": 52
+  },
+  {
+   "label": "peak_load",
+   "frame": 21,
+   "eps": 0.16375,
+   "sigma_Nm": 16.442301452848554,
+   "n_broken": 60
+  },
+  {
+   "label": "major_propagation",
+   "frame": 22,
+   "eps": 0.16875,
+   "sigma_Nm": 3.933007927362114,
+   "n_broken": 141
+  },
+  {
+   "label": "post_peak",
+   "frame": 23,
+   "eps": 0.17375000000000002,
+   "sigma_Nm": 3.27574436504502,
+   "n_broken": 145
+  },
+  {
+   "label": "damage_event",
+   "frame": 30,
+   "eps": 0.20875000000000005,
+   "sigma_Nm": 2.496742205530624,
+   "n_broken": 153
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S2_H1_p32_energy_rel.png"
+}

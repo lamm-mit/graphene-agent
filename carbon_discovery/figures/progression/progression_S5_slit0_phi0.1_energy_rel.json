@@ -1,0 +1,36 @@
+{
+ "run_id": "run_20260905_170819_0771d0",
+ "name": "S5_slit0_phi0.1",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": 0.04585135786228736,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage = peak_load",
+   "frame": 17,
+   "eps": 0.1625,
+   "sigma_Nm": 25.605061904386364,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage = major_propagation",
+   "frame": 18,
+   "eps": 0.16375,
+   "sigma_Nm": 4.713544010151943,
+   "n_broken": 84
+  },
+  {
+   "label": "post_peak = final",
+   "frame": 19,
+   "eps": 0.16875,
+   "sigma_Nm": 2.37460061028057,
+   "n_broken": 92
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S5_slit0_phi0.1_energy_rel.png"
+}

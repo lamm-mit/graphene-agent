@@ -1,0 +1,42 @@
+batch stage1_b2: 3 structures, N = [3727, 3648, 2934], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.     0.    ]
+ [0.0003 0.0003]
+ [0.0054 0.0056]], sigma = [[-0.004 -0.074]
+ [ 0.016  0.016]
+ [-0.008 -0.009]] N/m
+step   1 S1_precrack_L3: e=0.0100 s=  2.28N/m nb=  0 | S1_hole_d20: e=0.0100 s=  2.31N/m nb=  0 | S1_mesh_p16_ph: e=0.0100 s=  1.30N/m nb=  0  fire_it=130 t=105s
+step   2 S1_precrack_L3: e=0.0200 s=  4.47N/m nb=  0 | S1_hole_d20: e=0.0200 s=  4.61N/m nb=  0 | S1_mesh_p16_ph: e=0.0200 s=  2.37N/m nb=  0  fire_it=180 t=159s
+step   3 S1_precrack_L3: e=0.0300 s=  6.63N/m nb=  0 | S1_hole_d20: e=0.0300 s=  6.94N/m nb=  0 | S1_mesh_p16_ph: e=0.0300 s=  3.45N/m nb=  0  fire_it=150 t=207s
+step   4 S1_precrack_L3: e=0.0400 s=  8.65N/m nb=  0 | S1_hole_d20: e=0.0400 s=  9.13N/m nb=  0 | S1_mesh_p16_ph: e=0.0400 s=  4.54N/m nb=  0  fire_it=240 t=289s
+step   5 S1_precrack_L3: e=0.0500 s= 10.63N/m nb=  0 | S1_hole_d20: e=0.0500 s= 11.30N/m nb=  0 | S1_mesh_p16_ph: e=0.0500 s=  5.66N/m nb=  0  fire_it=220 t=348s
+step   6 S1_precrack_L3: e=0.0600 s= 12.63N/m nb=  0 | S1_hole_d20: e=0.0600 s= 13.39N/m nb=  0 | S1_mesh_p16_ph: e=0.0600 s=  6.77N/m nb=  0  fire_it=340 t=448s
+step   7 S1_precrack_L3: e=0.0700 s= 14.34N/m nb=  0 | S1_hole_d20: e=0.0700 s= 15.35N/m nb=  0 | S1_mesh_p16_ph: e=0.0700 s=  7.77N/m nb=  0  fire_it=310 t=547s
+  step 8: early bisection for [0] -> d_eps=[0.005]
+step   8 S1_precrack_L3: e=0.0700 s= 14.34N/m nb=  0 | S1_hole_d20: e=0.0800 s= 17.17N/m nb=  0 | S1_mesh_p16_ph: e=0.0800 s=  8.71N/m nb=  0  fire_it=380 t=653s
+step   9 S1_precrack_L3: e=0.0750 s= 15.23N/m nb=  0 | S1_hole_d20: e=0.0900 s= 18.86N/m nb=  0 | S1_mesh_p16_ph: e=0.0900 s=  9.63N/m nb=  0  fire_it=160 t=702s
+  step 10: early bisection for [0, 1] -> d_eps=[0.0025 0.005 ]
+step  10 S1_precrack_L3: e=0.0750 s= 15.23N/m nb=  0 | S1_hole_d20: e=0.0900 s= 18.86N/m nb=  0 | S1_mesh_p16_ph: e=0.1000 s= 10.46N/m nb=  0  fire_it=350 t=800s
+  step 11: early bisection for [1, 2] -> d_eps=[0.0025 0.005 ]
+step  11 S1_precrack_L3: e=0.0775 s= 15.62N/m nb=  0 | S1_hole_d20: e=0.0900 s= 18.86N/m nb=  0 | S1_mesh_p16_ph: e=0.1000 s= 10.46N/m nb=  0  fire_it=400 t=913s
+  step 12: early bisection for [0, 1, 2] -> d_eps=[0.00125 0.00125 0.0025 ]
+  step 13: early bisection for [2] -> d_eps=[0.00125]
+step  13 S1_precrack_L3: e=0.0788 s= 15.70N/m nb=  2 | S1_hole_d20: e=0.0912 s= 19.02N/m nb=  0 | S1_mesh_p16_ph: e=0.1000 s= 10.46N/m nb=  0  fire_it=180 t=1054s
+step  14 S1_precrack_L3: e=0.0838 s= 16.29N/m nb=  2 | S1_hole_d20: e=0.0925 s= 19.06N/m nb=  3 | S1_mesh_p16_ph: e=0.1012 s= 10.49N/m nb=  2  fire_it=280 t=1141s
+step  15 S1_precrack_L3: e=0.0888 s= 17.15N/m nb=  0 | S1_hole_d20: e=0.0975 s=  0.75N/m nb= 35* | S1_mesh_p16_ph: e=0.1062 s= 10.87N/m nb=  0  fire_it=2000 t=2436s
+step  16 S1_precrack_L3: e=0.0938 s= 17.95N/m nb=  0 | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1113 s= 10.71N/m nb=  2  fire_it=200 t=2597s
+step  17 S1_precrack_L3: e=0.0988 s= 18.72N/m nb=  0 | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1163 s= 11.09N/m nb=  0  fire_it=80 t=2618s
+step  18 S1_precrack_L3: e=0.1038 s=  1.17N/m nb= 41* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1213 s= 11.35N/m nb=  2  fire_it=2000 t=4271s
+step  19 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1263 s= 11.62N/m nb=  0  fire_it=140 t=4303s
+step  20 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1313 s= 11.52N/m nb=  8  fire_it=90 t=4431s
+step  21 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1363 s= 11.79N/m nb=  2  fire_it=180 t=4473s
+step  22 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1413 s= 11.95N/m nb=  6  fire_it=320 t=4549s
+step  23 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1463 s=  6.92N/m nb= 22  fire_it=2000 t=5652s
+step  24 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1513 s=  2.37N/m nb= 14  fire_it=2000 t=7094s
+step  25 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1563 s=  1.67N/m nb=  0  fire_it=2000 t=8709s
+step  26 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1613 s=  1.46N/m nb=  1  fire_it=2000 t=9232s
+step  27 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1663 s=  1.22N/m nb=  0  fire_it=2000 t=9749s
+step  28 S1_precrack_L3: e=0.1038 s=  1.17N/m nb=  0* | S1_hole_d20: e=0.0975 s=  0.75N/m nb=  0* | S1_mesh_p16_ph: e=0.1713 s=  1.13N/m nb=  0*  fire_it=440 t=10076s
+[done] S1_precrack_L30 -> run_20260905_022450_bb0a88: stable; strength 18.72 N/m @ 0.099, fail 0.104, mode abrupt brittle (single avalanche), stress collapsed
+[done] S1_hole_d20 -> run_20260905_022451_45aa60: stable; strength 19.06 N/m @ 0.092, fail 0.098, mode abrupt brittle (single avalanche), not spanning (fractured)
+[done] S1_mesh_p16_phi0.2 -> run_20260905_022451_06904f: reconstructed but viable; strength 11.95 N/m @ 0.141, fail 0.171, mode progressive (multiple events, load retained), stress collapsed
+batch finished in 10084s (simulation 10081s); evaluations {'n_evaluations': 41188, 'fire_iterations': 40960, 'n_rebuilds': 748, 'n_reverts': 9}

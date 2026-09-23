@@ -1,0 +1,84 @@
+batch conv_size2: 3 structures, N = [338, 1352, 3042], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0025 0.0069]
+ [0.0025 0.0069]
+ [0.0025 0.0069]], sigma = [[0.034 0.007]
+ [0.034 0.007]
+ [0.034 0.007]] N/m
+step   1 mesh_rep1: e=0.0050 s=  0.86N/m nb=  0 | mesh_rep2: e=0.0050 s=  0.86N/m nb=  0 | mesh_rep3: e=0.0050 s=  0.86N/m nb=  0  fire_it=50 t=24s
+step   2 mesh_rep1: e=0.0100 s=  1.69N/m nb=  0 | mesh_rep2: e=0.0100 s=  1.69N/m nb=  0 | mesh_rep3: e=0.0100 s=  1.69N/m nb=  0  fire_it=40 t=29s
+step   3 mesh_rep1: e=0.0150 s=  2.43N/m nb=  0 | mesh_rep2: e=0.0150 s=  2.43N/m nb=  0 | mesh_rep3: e=0.0150 s=  2.43N/m nb=  0  fire_it=50 t=34s
+step   4 mesh_rep1: e=0.0200 s=  2.83N/m nb=  0 | mesh_rep2: e=0.0200 s=  2.83N/m nb=  0 | mesh_rep3: e=0.0200 s=  2.83N/m nb=  0  fire_it=60 t=40s
+step   5 mesh_rep1: e=0.0250 s=  3.62N/m nb=  0 | mesh_rep2: e=0.0250 s=  3.62N/m nb=  0 | mesh_rep3: e=0.0250 s=  3.62N/m nb=  0  fire_it=40 t=44s
+step   6 mesh_rep1: e=0.0300 s=  4.38N/m nb=  0 | mesh_rep2: e=0.0300 s=  4.38N/m nb=  0 | mesh_rep3: e=0.0300 s=  4.38N/m nb=  0  fire_it=40 t=49s
+step   7 mesh_rep1: e=0.0350 s=  5.14N/m nb=  0 | mesh_rep2: e=0.0350 s=  5.14N/m nb=  0 | mesh_rep3: e=0.0350 s=  5.14N/m nb=  0  fire_it=40 t=53s
+step   8 mesh_rep1: e=0.0400 s=  5.49N/m nb=  0 | mesh_rep2: e=0.0400 s=  5.49N/m nb=  0 | mesh_rep3: e=0.0400 s=  5.49N/m nb=  0  fire_it=90 t=62s
+step   9 mesh_rep1: e=0.0450 s=  6.22N/m nb=  0 | mesh_rep2: e=0.0450 s=  6.22N/m nb=  0 | mesh_rep3: e=0.0450 s=  6.22N/m nb=  0  fire_it=40 t=66s
+step  10 mesh_rep1: e=0.0500 s=  6.82N/m nb=  0 | mesh_rep2: e=0.0500 s=  6.82N/m nb=  0 | mesh_rep3: e=0.0500 s=  6.82N/m nb=  0  fire_it=50 t=71s
+step  11 mesh_rep1: e=0.0550 s=  7.54N/m nb=  0 | mesh_rep2: e=0.0550 s=  7.54N/m nb=  0 | mesh_rep3: e=0.0550 s=  7.54N/m nb=  0  fire_it=40 t=77s
+step  12 mesh_rep1: e=0.0600 s=  8.20N/m nb=  0 | mesh_rep2: e=0.0600 s=  8.20N/m nb=  0 | mesh_rep3: e=0.0600 s=  8.20N/m nb=  0  fire_it=40 t=81s
+step  13 mesh_rep1: e=0.0650 s=  8.85N/m nb=  0 | mesh_rep2: e=0.0650 s=  8.85N/m nb=  0 | mesh_rep3: e=0.0650 s=  8.85N/m nb=  0  fire_it=40 t=85s
+step  14 mesh_rep1: e=0.0700 s=  9.47N/m nb=  0 | mesh_rep2: e=0.0700 s=  9.47N/m nb=  0 | mesh_rep3: e=0.0700 s=  9.47N/m nb=  0  fire_it=40 t=90s
+step  15 mesh_rep1: e=0.0750 s=  9.96N/m nb=  0 | mesh_rep2: e=0.0750 s=  9.96N/m nb=  0 | mesh_rep3: e=0.0750 s=  9.96N/m nb=  0  fire_it=50 t=95s
+step  16 mesh_rep1: e=0.0800 s= 10.47N/m nb=  0 | mesh_rep2: e=0.0800 s= 10.47N/m nb=  0 | mesh_rep3: e=0.0800 s= 10.47N/m nb=  0  fire_it=40 t=99s
+step  17 mesh_rep1: e=0.0850 s= 11.05N/m nb=  0 | mesh_rep2: e=0.0850 s= 11.05N/m nb=  0 | mesh_rep3: e=0.0850 s= 11.05N/m nb=  0  fire_it=40 t=103s
+step  18 mesh_rep1: e=0.0900 s= 11.58N/m nb=  0 | mesh_rep2: e=0.0900 s= 11.58N/m nb=  0 | mesh_rep3: e=0.0900 s= 11.58N/m nb=  0  fire_it=40 t=107s
+step  19 mesh_rep1: e=0.0950 s= 12.06N/m nb=  0 | mesh_rep2: e=0.0950 s= 12.06N/m nb=  0 | mesh_rep3: e=0.0950 s= 12.06N/m nb=  0  fire_it=50 t=112s
+step  20 mesh_rep1: e=0.1000 s= 12.58N/m nb=  0 | mesh_rep2: e=0.1000 s= 12.58N/m nb=  0 | mesh_rep3: e=0.1000 s= 12.58N/m nb=  0  fire_it=40 t=117s
+step  21 mesh_rep1: e=0.1050 s= 13.06N/m nb=  0 | mesh_rep2: e=0.1050 s= 13.06N/m nb=  0 | mesh_rep3: e=0.1050 s= 13.06N/m nb=  0  fire_it=40 t=121s
+step  22 mesh_rep1: e=0.1100 s= 13.45N/m nb=  0 | mesh_rep2: e=0.1100 s= 13.45N/m nb=  0 | mesh_rep3: e=0.1100 s= 13.45N/m nb=  0  fire_it=60 t=127s
+step  23 mesh_rep1: e=0.1150 s= 13.88N/m nb=  0 | mesh_rep2: e=0.1150 s= 13.88N/m nb=  0 | mesh_rep3: e=0.1150 s= 13.88N/m nb=  0  fire_it=40 t=131s
+step  24 mesh_rep1: e=0.1200 s= 13.77N/m nb=  0 | mesh_rep2: e=0.1200 s= 13.77N/m nb=  0 | mesh_rep3: e=0.1200 s= 13.77N/m nb=  0  fire_it=100 t=141s
+step  25 mesh_rep1: e=0.1250 s= 14.22N/m nb=  0 | mesh_rep2: e=0.1250 s= 14.22N/m nb=  0 | mesh_rep3: e=0.1250 s= 14.22N/m nb=  0  fire_it=40 t=145s
+step  26 mesh_rep1: e=0.1300 s= 14.60N/m nb=  0 | mesh_rep2: e=0.1300 s= 14.60N/m nb=  0 | mesh_rep3: e=0.1300 s= 14.59N/m nb=  0  fire_it=50 t=152s
+  step 27: early bisection for [0, 1, 2] -> d_eps=[0.0025 0.0025 0.0025]
+step  28 mesh_rep1: e=0.1325 s= 14.74N/m nb=  0 | mesh_rep2: e=0.1325 s= 14.74N/m nb=  0 | mesh_rep3: e=0.1325 s= 14.75N/m nb=  0  fire_it=40 t=176s
+  step 29: early bisection for [0, 1, 2] -> d_eps=[0.00125 0.00125 0.00125]
+step  30 mesh_rep1: e=0.1338 s= 14.73N/m nb=  0 | mesh_rep2: e=0.1338 s= 14.73N/m nb=  0 | mesh_rep3: e=0.1338 s= 14.35N/m nb= 18  fire_it=180 t=209s
+step  31 mesh_rep1: e=0.1350 s= 14.45N/m nb=  2 | mesh_rep2: e=0.1350 s= 14.45N/m nb=  8 | mesh_rep3: e=0.1388 s= 14.78N/m nb=  0  fire_it=100 t=224s
+step  32 mesh_rep1: e=0.1400 s= 14.88N/m nb=  0 | mesh_rep2: e=0.1400 s= 14.88N/m nb=  0 | mesh_rep3: e=0.1438 s= 15.18N/m nb=  0  fire_it=40 t=233s
+step  33 mesh_rep1: e=0.1450 s= 15.25N/m nb=  0 | mesh_rep2: e=0.1450 s= 15.25N/m nb=  0 | mesh_rep3: e=0.1488 s= 15.52N/m nb=  0  fire_it=50 t=238s
+step  34 mesh_rep1: e=0.1500 s= 15.62N/m nb=  0 | mesh_rep2: e=0.1500 s= 15.62N/m nb=  0 | mesh_rep3: e=0.1538 s= 15.84N/m nb=  0  fire_it=60 t=244s
+step  35 mesh_rep1: e=0.1550 s= 15.92N/m nb=  0 | mesh_rep2: e=0.1550 s= 15.92N/m nb=  0 | mesh_rep3: e=0.1588 s= 16.01N/m nb=  9  fire_it=180 t=262s
+step  36 mesh_rep1: e=0.1600 s= 16.08N/m nb=  1 | mesh_rep2: e=0.1600 s= 16.07N/m nb=  4 | mesh_rep3: e=0.1638 s=  5.31N/m nb= 84  fire_it=1200 t=497s
+step  37 mesh_rep1: e=0.1650 s=  7.06N/m nb=  9 | mesh_rep2: e=0.1650 s=  4.02N/m nb= 36 | mesh_rep3: e=0.1688 s=  5.28N/m nb=  2  fire_it=1190 t=708s
+step  38 mesh_rep1: e=0.1700 s=  7.21N/m nb=  0 | mesh_rep2: e=0.1700 s=  4.01N/m nb=  0 | mesh_rep3: e=0.1738 s=  5.40N/m nb=  2  fire_it=650 t=808s
+step  39 mesh_rep1: e=0.1750 s=  1.31N/m nb=  3 | mesh_rep2: e=0.1750 s=  4.28N/m nb=  0 | mesh_rep3: e=0.1788 s=  4.84N/m nb=  3  fire_it=990 t=995s
+step  40 mesh_rep1: e=0.1800 s=  1.46N/m nb=  0 | mesh_rep2: e=0.1800 s=  4.60N/m nb=  0 | mesh_rep3: e=0.1838 s=  4.14N/m nb=  6  fire_it=1010 t=1138s
+step  41 mesh_rep1: e=0.1850 s=  1.48N/m nb=  0 | mesh_rep2: e=0.1850 s=  4.82N/m nb=  0 | mesh_rep3: e=0.1888 s=  3.75N/m nb=  3  fire_it=550 t=1299s
+step  42 mesh_rep1: e=0.1900 s=  1.66N/m nb=  0 | mesh_rep2: e=0.1900 s=  4.85N/m nb=  0 | mesh_rep3: e=0.1938 s=  3.37N/m nb=  5  fire_it=1200 t=1561s
+[done] mesh_rep1 -> run_20260905_042025_536ad9: stable; strength 16.08 N/m @ 0.160, fail 0.175, mode progressive (multiple events, load retained), stress collapsed
+step  43 mesh_rep1: e=0.1950 s=  0.68N/m nb=  1* | mesh_rep2: e=0.1950 s=  4.76N/m nb=  4 | mesh_rep3: e=0.1988 s=  2.93N/m nb=  2  fire_it=1200 t=1726s
+step  44 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2000 s=  3.60N/m nb=  4 | mesh_rep3: e=0.2038 s=  2.93N/m nb=  2  fire_it=1200 t=1939s
+step  45 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2050 s=  3.84N/m nb=  0 | mesh_rep3: e=0.2088 s=  2.99N/m nb=  0  fire_it=140 t=2037s
+step  46 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2100 s=  2.96N/m nb=  4 | mesh_rep3: e=0.2138 s=  2.97N/m nb=  2  fire_it=870 t=2207s
+step  47 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2150 s=  2.82N/m nb=  0 | mesh_rep3: e=0.2188 s=  3.12N/m nb=  0  fire_it=670 t=2315s
+step  48 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2200 s=  2.66N/m nb=  0 | mesh_rep3: e=0.2238 s=  2.56N/m nb=  3  fire_it=1090 t=2497s
+step  49 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2250 s=  1.67N/m nb=  2 | mesh_rep3: e=0.2288 s=  2.26N/m nb=  4  fire_it=1200 t=2664s
+step  50 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2300 s=  1.80N/m nb=  0 | mesh_rep3: e=0.2338 s=  1.85N/m nb=  0  fire_it=1200 t=2873s
+step  51 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2350 s=  1.75N/m nb=  0 | mesh_rep3: e=0.2388 s=  1.92N/m nb=  0  fire_it=980 t=3132s
+step  52 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2400 s=  1.85N/m nb=  0 | mesh_rep3: e=0.2438 s=  1.75N/m nb=  1  fire_it=690 t=3337s
+step  53 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2450 s=  1.96N/m nb=  0 | mesh_rep3: e=0.2488 s=  1.66N/m nb=  1  fire_it=810 t=3485s
+step  54 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2500 s=  1.47N/m nb=  2 | mesh_rep3: e=0.2538 s=  1.52N/m nb=  1  fire_it=1090 t=3666s
+step  55 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2550 s=  1.60N/m nb=  0 | mesh_rep3: e=0.2588 s=  1.51N/m nb=  0  fire_it=1200 t=3899s
+step  56 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2600 s=  1.82N/m nb=  0 | mesh_rep3: e=0.2638 s=  1.59N/m nb=  0  fire_it=580 t=4021s
+step  57 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2650 s=  1.69N/m nb=  0 | mesh_rep3: e=0.2688 s=  1.58N/m nb=  0  fire_it=740 t=4188s
+[done] mesh_rep3 -> run_20260905_050302_a76edc: reconstructed but viable; strength 16.01 N/m @ 0.159, fail 0.254, mode stepwise (few events), not spanning (fractured)
+step  58 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2700 s=  1.90N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  1*  fire_it=680 t=4283s
+step  59 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2750 s=  2.02N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=90 t=4291s
+step  60 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2800 s=  2.16N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=90 t=4300s
+step  61 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2850 s=  2.28N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=90 t=4308s
+step  62 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2900 s=  2.35N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=90 t=4323s
+step  63 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.2950 s=  2.51N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=90 t=4331s
+step  64 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3000 s=  2.62N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=120 t=4345s
+step  65 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3050 s=  2.77N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=180 t=4361s
+step  66 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3100 s=  2.97N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=100 t=4371s
+step  67 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3150 s=  2.97N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=270 t=4411s
+step  68 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3200 s=  3.22N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=70 t=4418s
+step  69 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3250 s=  3.34N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=140 t=4430s
+step  70 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3300 s=  3.46N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=140 t=4443s
+step  71 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3350 s=  3.55N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=170 t=4462s
+step  72 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3400 s=  3.68N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=110 t=4472s
+step  73 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3450 s=  3.66N/m nb=  0 | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=270 t=4500s
+[done] mesh_rep2 -> run_20260905_050702_219e12: reconstructed but viable; strength 16.07 N/m @ 0.160, fail 0.250, mode stepwise (few events), max strain reached
+step  74 mesh_rep1: e=0.1950 s=  0.68N/m nb=  0* | mesh_rep2: e=0.3500 s=  3.73N/m nb=  0* | mesh_rep3: e=0.2738 s=  1.63N/m nb=  0*  fire_it=220 t=4523s
+batch finished in 4526s (simulation 4526s); evaluations {'n_evaluations': 44339, 'fire_iterations': 43880, 'n_rebuilds': 711, 'n_reverts': 6, 'n_soft_converged': 13}

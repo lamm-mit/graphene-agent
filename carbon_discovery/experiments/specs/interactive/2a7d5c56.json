@@ -1,0 +1,36 @@
+{
+ "campaign": "interactive",
+ "stage": "app",
+ "batch_name": "app_2a7d5c56",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "transverse_relax": true,
+  "refine_first_damage": true,
+  "d_strain_min": 0.00125
+ },
+ "structures": [
+  {
+   "name": "app_run",
+   "family": "strut_lattice",
+   "params": {
+    "strut_w": 6,
+    "spacing": 25,
+    "angles_deg": [
+     0,
+     60,
+     120
+    ],
+    "orientation": "zigzag",
+    "seed": 0,
+    "Lx": 100.867257,
+    "Ly": 98.00648587108469
+   },
+   "seed": 0,
+   "reason": "interactive run from the application"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+batch stage2_b10: 4 structures, N = [3733, 3748, 3649, 3698], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0005  0.0005]
+ [-0.0006 -0.0006]
+ [ 0.0008  0.0006]
+ [-0.0012 -0.0011]], sigma = [[ 0.042  0.036]
+ [-0.04  -0.04 ]
+ [-0.006  0.005]
+ [ 0.004 -0.003]] N/m
+step   1 S2_vac_random_: e=0.0100 s=  2.53N/m nb=  0 | S2_vac_cluster: e=0.0100 s=  2.45N/m nb=  0 | S2_vac_random_: e=0.0100 s=  2.51N/m nb=  0 | S2_vac_cluster: e=0.0100 s=  2.44N/m nb=  0  fire_it=60 t=71s
+step   2 S2_vac_random_: e=0.0200 s=  5.03N/m nb=  0 | S2_vac_cluster: e=0.0200 s=  4.90N/m nb=  0 | S2_vac_random_: e=0.0200 s=  4.91N/m nb=  0 | S2_vac_cluster: e=0.0200 s=  4.75N/m nb=  0  fire_it=130 t=114s
+step   3 S2_vac_random_: e=0.0300 s=  7.52N/m nb=  0 | S2_vac_cluster: e=0.0300 s=  7.26N/m nb=  0 | S2_vac_random_: e=0.0300 s=  7.19N/m nb=  0 | S2_vac_cluster: e=0.0300 s=  6.84N/m nb=  0  fire_it=160 t=233s
+step   4 S2_vac_random_: e=0.0400 s=  9.92N/m nb=  0 | S2_vac_cluster: e=0.0400 s=  9.68N/m nb=  0 | S2_vac_random_: e=0.0400 s=  9.48N/m nb=  0 | S2_vac_cluster: e=0.0400 s=  9.16N/m nb=  0  fire_it=360 t=350s
+step   5 S2_vac_random_: e=0.0500 s= 12.08N/m nb=  0 | S2_vac_cluster: e=0.0500 s= 12.02N/m nb=  0 | S2_vac_random_: e=0.0500 s= 11.38N/m nb=  0 | S2_vac_cluster: e=0.0500 s= 11.38N/m nb=  0  fire_it=240 t=456s
+step   6 S2_vac_random_: e=0.0600 s= 14.27N/m nb=  0 | S2_vac_cluster: e=0.0600 s= 14.18N/m nb=  0 | S2_vac_random_: e=0.0600 s= 13.35N/m nb=  0 | S2_vac_cluster: e=0.0600 s= 13.40N/m nb=  0  fire_it=240 t=559s
+step   7 S2_vac_random_: e=0.0700 s= 16.37N/m nb=  0 | S2_vac_cluster: e=0.0700 s= 16.32N/m nb=  0 | S2_vac_random_: e=0.0700 s= 15.24N/m nb=  0 | S2_vac_cluster: e=0.0700 s= 15.44N/m nb=  0  fire_it=160 t=815s
+step   8 S2_vac_random_: e=0.0800 s= 18.32N/m nb=  0 | S2_vac_cluster: e=0.0800 s= 18.34N/m nb=  0 | S2_vac_random_: e=0.0800 s= 17.05N/m nb=  0 | S2_vac_cluster: e=0.0800 s= 17.33N/m nb=  0  fire_it=170 t=1096s
+step   9 S2_vac_random_: e=0.0900 s= 20.13N/m nb=  0 | S2_vac_cluster: e=0.0900 s= 20.23N/m nb=  0 | S2_vac_random_: e=0.0900 s= 18.70N/m nb=  0 | S2_vac_cluster: e=0.0900 s= 19.05N/m nb=  0  fire_it=100 t=1421s
+step  10 S2_vac_random_: e=0.1000 s= 21.86N/m nb=  0 | S2_vac_cluster: e=0.1000 s= 21.82N/m nb=  0 | S2_vac_random_: e=0.1000 s= 20.25N/m nb=  0 | S2_vac_cluster: e=0.1000 s= 20.48N/m nb=  0  fire_it=50 t=1656s
+  step 11: early bisection for [2, 3] -> d_eps=[0.005 0.005]
+step  11 S2_vac_random_: e=0.1100 s= 23.48N/m nb=  0 | S2_vac_cluster: e=0.1100 s= 23.39N/m nb=  0 | S2_vac_random_: e=0.1000 s= 20.25N/m nb=  0 | S2_vac_cluster: e=0.1000 s= 20.48N/m nb=  0  fire_it=400 t=1865s
+  step 12: early bisection for [0] -> d_eps=[0.005]
+step  12 S2_vac_random_: e=0.1100 s= 23.48N/m nb=  0 | S2_vac_cluster: e=0.1200 s= 24.87N/m nb=  0 | S2_vac_random_: e=0.1050 s= 20.91N/m nb=  0 | S2_vac_cluster: e=0.1050 s= 21.18N/m nb=  0  fire_it=120 t=2139s
+  step 13: early bisection for [0, 2, 3] -> d_eps=[0.0025 0.0025 0.0025]
+step  13 S2_vac_random_: e=0.1100 s= 23.48N/m nb=  0 | S2_vac_cluster: e=0.1300 s= 26.29N/m nb=  0 | S2_vac_random_: e=0.1050 s= 20.91N/m nb=  0 | S2_vac_cluster: e=0.1050 s= 21.18N/m nb=  0  fire_it=370 t=2326s
+  step 14: early bisection for [1, 2, 3] -> d_eps=[0.005   0.00125 0.00125]
+step  14 S2_vac_random_: e=0.1125 s= 23.73N/m nb=  0 | S2_vac_cluster: e=0.1300 s= 26.29N/m nb=  0 | S2_vac_random_: e=0.1050 s= 20.91N/m nb=  0 | S2_vac_cluster: e=0.1050 s= 21.18N/m nb=  0  fire_it=400 t=2506s
+  step 15: early bisection for [0] -> d_eps=[0.00125]
+step  15 S2_vac_random_: e=0.1125 s= 23.73N/m nb=  0 | S2_vac_cluster: e=0.1350 s= 26.99N/m nb=  0 | S2_vac_random_: e=0.1062 s= 21.03N/m nb=  1 | S2_vac_cluster: e=0.1062 s= 21.37N/m nb=  0  fire_it=370 t=2667s
+  step 16: early bisection for [1] -> d_eps=[0.0025]
+step  16 S2_vac_random_: e=0.1137 s= 23.79N/m nb=  1 | S2_vac_cluster: e=0.1350 s= 26.99N/m nb=  0 | S2_vac_random_: e=0.1113 s= 21.63N/m nb=  0 | S2_vac_cluster: e=0.1075 s= 21.50N/m nb=  1  fire_it=20 t=2847s
+  step 17: early bisection for [1] -> d_eps=[0.00125]
+step  17 S2_vac_random_: e=0.1187 s= 24.44N/m nb=  1 | S2_vac_cluster: e=0.1350 s= 26.99N/m nb=  0 | S2_vac_random_: e=0.1163 s= 22.07N/m nb=  1 | S2_vac_cluster: e=0.1125 s= 22.08N/m nb=  2  fire_it=110 t=3055s
+step  18 S2_vac_random_: e=0.1237 s= 25.05N/m nb=  0 | S2_vac_cluster: e=0.1362 s= 27.15N/m nb=  0 | S2_vac_random_: e=0.1213 s= 22.39N/m nb=  4 | S2_vac_cluster: e=0.1175 s= 22.71N/m nb=  2  fire_it=470 t=3532s
+step  19 S2_vac_random_: e=0.1288 s= 25.74N/m nb=  2 | S2_vac_cluster: e=0.1375 s= 27.21N/m nb=  3 | S2_vac_random_: e=0.1263 s= 11.91N/m nb= 43 | S2_vac_cluster: e=0.1225 s= 23.40N/m nb=  0  fire_it=1500 t=4951s
+[done] S2_vac_clustered_0.01 -> run_20260905_132423_b3a0e7: stable; strength 27.21 N/m @ 0.137, fail 0.142, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  20 S2_vac_random_: e=0.1338 s= 26.40N/m nb=  0 | S2_vac_cluster: e=0.1425 s=  0.42N/m nb= 88* | S2_vac_random_: e=0.1313 s=  4.15N/m nb=  3 | S2_vac_cluster: e=0.1275 s=  6.70N/m nb= 43  fire_it=1500 t=6867s
+[done] S2_vac_random_0.03 -> run_20260905_134250_719428: stable; strength 22.39 N/m @ 0.121, fail 0.136, mode progressive (multiple events, load retained), not spanning (fractured)
+[done] S2_vac_clustered_0.03 -> run_20260905_134250_3e022f: stable; strength 23.40 N/m @ 0.123, fail 0.133, mode abrupt brittle (single avalanche), stress collapsed
+step  21 S2_vac_random_: e=0.1388 s= 27.06N/m nb=  1 | S2_vac_cluster: e=0.1425 s=  0.42N/m nb=  0* | S2_vac_random_: e=0.1363 s=  0.97N/m nb=  1* | S2_vac_cluster: e=0.1325 s=  1.91N/m nb=  1*  fire_it=1500 t=7971s
+step  22 S2_vac_random_: e=0.1438 s= 27.52N/m nb=  3 | S2_vac_cluster: e=0.1425 s=  0.42N/m nb=  0* | S2_vac_random_: e=0.1363 s=  0.97N/m nb=  0* | S2_vac_cluster: e=0.1325 s=  1.91N/m nb=  0*  fire_it=210 t=8181s
+step  23 S2_vac_random_: e=0.1488 s=  7.75N/m nb= 81 | S2_vac_cluster: e=0.1425 s=  0.42N/m nb=  0* | S2_vac_random_: e=0.1363 s=  0.97N/m nb=  0* | S2_vac_cluster: e=0.1325 s=  1.91N/m nb=  0*  fire_it=1500 t=9319s
+step  24 S2_vac_random_: e=0.1538 s=  4.18N/m nb=  5 | S2_vac_cluster: e=0.1425 s=  0.42N/m nb=  0* | S2_vac_random_: e=0.1363 s=  0.97N/m nb=  0* | S2_vac_cluster: e=0.1325 s=  1.91N/m nb=  0*  fire_it=1500 t=10058s
+[done] S2_vac_random_0.01 -> run_20260905_143704_97a9bc: stable; strength 27.52 N/m @ 0.144, fail 0.159, mode progressive (multiple events, load retained), stress collapsed
+step  25 S2_vac_random_: e=0.1588 s=  2.51N/m nb=  2* | S2_vac_cluster: e=0.1425 s=  0.42N/m nb=  0* | S2_vac_random_: e=0.1363 s=  0.97N/m nb=  0* | S2_vac_cluster: e=0.1325 s=  1.91N/m nb=  0*  fire_it=1460 t=11225s
+batch finished in 11228s (simulation 11228s); evaluations {'n_evaluations': 28248, 'fire_iterations': 28030, 'n_rebuilds': 918, 'n_reverts': 12, 'n_soft_converged': 1}

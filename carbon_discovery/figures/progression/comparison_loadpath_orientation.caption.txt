@@ -1,0 +1,1 @@
+Load-path organisation at identical porosity: slits parallel to the load (top, 25.4 N/m) leave straight continuous ligaments and fail at 22% strain; slits perpendicular to the load (bottom, 4.0 N/m) leave only short bridges between slit tips and fail progressively from 17% strain.

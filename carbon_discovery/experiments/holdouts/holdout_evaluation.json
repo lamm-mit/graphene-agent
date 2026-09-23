@@ -1,0 +1,634 @@
+{
+ "prediction_file": "experiments/predictions/holdout_predictions.json",
+ "prediction_written": "2026-09-05 21:20:34",
+ "prediction_sha256": "2eb2d80ae41ff32bf945515e09d60b76373513625cc6780290937dfae70d5fe4",
+ "evaluated": "2026-09-06 01:52:23",
+ "rows": [
+  {
+   "name": "S7_H2_veinsX_W12_ellipseX",
+   "family": "nanomesh_hier",
+   "predicted": {
+    "strength_Nm": 13.3,
+    "modulus_2d_Nm": 133.0,
+    "failure_strain": 0.234,
+    "work_to_failure_J_m2": 1.5,
+    "damage_localization": 0.25,
+    "fracture_mode_class": "progressive",
+    "basis": "class=fine_round, minSF=0.78, sigma_net(median of 36)=17.0 N/m; kNN: ['S5_H2_D40_W8_ellipseX', 'S4_H2_D40_W8_veins_x', 'S2_ellipse_0deg']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "rationale": "unseen interaction: load-parallel veins (12 A) + fine pores elongated along the load",
+   "run_id": "run_20260906_011440_050f0e",
+   "observed": {
+    "modulus_2d_Nm": 178.10765587376716,
+    "strength_Nm": 19.382607714764703,
+    "failure_strain": 0.22125000000000006,
+    "work_to_failure_J_m2": 1.9824250674001356,
+    "damage_localization": 0.2340473613031231,
+    "fracture_mode": "stepwise (few events)",
+    "first_damage_strain": 0.14125,
+    "viability": "strongly reconstructed"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": 45.10765587376716,
+     "rel": 0.2532606229219982
+    },
+    "strength_Nm": {
+     "abs": 6.082607714764702,
+     "rel": 0.31381782081527015
+    },
+    "failure_strain": {
+     "abs": -0.012749999999999956,
+     "rel": -0.05762711864406758
+    },
+    "work_to_failure_J_m2": {
+     "abs": 0.4824250674001356,
+     "rel": 0.2433509721670414
+    },
+    "damage_localization": {
+     "abs": -0.01595263869687691,
+     "rel": -0.06815987417271531
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S7_slit_20deg",
+   "family": "slit_array",
+   "predicted": {
+    "strength_Nm": 23.9,
+    "modulus_2d_Nm": 188.0,
+    "failure_strain": 0.194,
+    "work_to_failure_J_m2": 2.64,
+    "damage_localization": 0.21,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=straight, minSF=0.79, sigma_net(median of 7)=30.3 N/m; kNN: ['S2_ellipse_90deg', 'S2_slit_0deg', 'S5_slit0_phi0.1']",
+    "crack_path_or_mechanism": "load-parallel strips fail together at the bridges/corners (single avalanche)"
+   },
+   "rationale": "unseen orientation between 0 and 45 degrees",
+   "run_id": "run_20260906_012602_320a91",
+   "observed": {
+    "modulus_2d_Nm": 140.80874095081668,
+    "strength_Nm": 8.937497909653079,
+    "failure_strain": 0.19500000000000012,
+    "work_to_failure_J_m2": 1.2304997431051625,
+    "damage_localization": 0.20165437126713326,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.065,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": -47.191259049183316,
+     "rel": -0.33514438614053677
+    },
+    "strength_Nm": {
+     "abs": -14.96250209034692,
+     "rel": -1.6741264995638707
+    },
+    "failure_strain": {
+     "abs": 0.001000000000000112,
+     "rel": 0.005128205128205699
+    },
+    "work_to_failure_J_m2": {
+     "abs": -1.4095002568948376,
+     "rel": -1.1454697693296285
+    },
+    "damage_localization": {
+     "abs": -0.008345628732866733,
+     "rel": -0.04138580622093834
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S7_square_D40_staggered",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 19.3,
+    "modulus_2d_Nm": 152.0,
+    "failure_strain": 0.161,
+    "work_to_failure_J_m2": 1.87,
+    "damage_localization": 0.22,
+    "fracture_mode_class": "abrupt",
+    "basis": "class=coarse_round, minSF=0.63, sigma_net(median of 9)=30.5 N/m; kNN: ['S2_H1_square_D40', 'S4_square_D40', 'S4_square_D40_dispersed']",
+    "crack_path_or_mechanism": "damage at pore poles, sequential row failure with load retention"
+   },
+   "rationale": "unseen: staggered (brick-like) coarse square pores",
+   "run_id": "run_20260906_001924_c3c4eb",
+   "observed": {
+    "modulus_2d_Nm": 149.69680290819247,
+    "strength_Nm": 17.72507863373903,
+    "failure_strain": 0.18000000000000002,
+    "work_to_failure_J_m2": 1.9446418247641395,
+    "damage_localization": 0.19841884267623544,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "first_damage_strain": 0.13999999999999999,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": -2.303197091807533,
+     "rel": -0.015385746703087977
+    },
+    "strength_Nm": {
+     "abs": -1.5749213662609698,
+     "rel": -0.08885271534215737
+    },
+    "failure_strain": {
+     "abs": 0.019000000000000017,
+     "rel": 0.10555555555555564
+    },
+    "work_to_failure_J_m2": {
+     "abs": 0.07464182476413939,
+     "rel": 0.03838332787745759
+    },
+    "damage_localization": {
+     "abs": -0.02158115732376456,
+     "rel": -0.10876566475583686
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S7_voronoi_n35_reg0.8_s7",
+   "family": "voronoi_network",
+   "predicted": {
+    "strength_Nm": 12.1,
+    "modulus_2d_Nm": 138.0,
+    "failure_strain": 0.174,
+    "work_to_failure_J_m2": 0.87,
+    "damage_localization": 0.45,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=random, minSF=0.59, sigma_net(median of 11)=20.4 N/m; kNN: ['S2_voronoi_n25_reg0.0', 'S6_voronoi_n25_reg0.0_s2', 'S5_voronoi_n25_reg0.8']",
+    "crack_path_or_mechanism": "weakest thin ligament fails first, crack follows the thinnest path (localised)"
+   },
+   "rationale": "unseen network (35 cells, regularity 0.8, new seed)",
+   "run_id": "run_20260906_004402_d0292e",
+   "observed": {
+    "modulus_2d_Nm": 128.06056815849306,
+    "strength_Nm": 7.332762528509611,
+    "failure_strain": 0.1862500000000001,
+    "work_to_failure_J_m2": 0.6515296674170622,
+    "damage_localization": 0.35085921124156016,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.06625,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": -9.939431841506945,
+     "rel": -0.07761508467778694
+    },
+    "strength_Nm": {
+     "abs": -4.767237471490389,
+     "rel": -0.6501284410828088
+    },
+    "failure_strain": {
+     "abs": 0.012250000000000122,
+     "rel": 0.06577181208053753
+    },
+    "work_to_failure_J_m2": {
+     "abs": -0.2184703325829378,
+     "rel": -0.33531908600424315
+    },
+    "damage_localization": {
+     "abs": -0.09914078875843985,
+     "rel": -0.2825657288791635
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S7_H3_D30_60_wideveins",
+   "family": "nanomesh_hier",
+   "predicted": {
+    "strength_Nm": 11.7,
+    "modulus_2d_Nm": 136.0,
+    "failure_strain": 0.185,
+    "work_to_failure_J_m2": 1.12,
+    "damage_localization": 0.23,
+    "fracture_mode_class": "progressive",
+    "basis": "class=fine_round, minSF=0.69, sigma_net(median of 36)=17.0 N/m; kNN: ['S4_H2_D40_W8_veins_y', 'S2_H1_p12', 'S2_H3_D30_120']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "rationale": "unseen three-level mesh with wide veins (8/16 A)",
+   "run_id": "run_20260906_000853_1472a1",
+   "observed": {
+    "modulus_2d_Nm": 119.3730434479006,
+    "strength_Nm": 12.329458031875074,
+    "failure_strain": 0.15625000000000003,
+    "work_to_failure_J_m2": 1.1816352094875993,
+    "damage_localization": 0.2993431315764701,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.10625,
+    "viability": "strongly reconstructed"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": -16.6269565520994,
+     "rel": -0.13928568855962947
+    },
+    "strength_Nm": {
+     "abs": 0.6294580318750747,
+     "rel": 0.05105317932448862
+    },
+    "failure_strain": {
+     "abs": -0.02874999999999997,
+     "rel": -0.18399999999999977
+    },
+    "work_to_failure_J_m2": {
+     "abs": 0.06163520948759915,
+     "rel": 0.05216094526696311
+    },
+    "damage_localization": {
+     "abs": 0.06934313157647007,
+     "rel": 0.23165098598146955
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S7_hole30_rings3",
+   "family": "ring_around_hole",
+   "predicted": {
+    "strength_Nm": 13.1,
+    "modulus_2d_Nm": 117.0,
+    "failure_strain": 0.139,
+    "work_to_failure_J_m2": 0.83,
+    "damage_localization": 0.44,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=flawed_sheet, minSF=0.54, sigma_net(median of 19)=24.5 N/m; kNN: ['S2_graded_x', 'S2_hole20_rings2', 'S2_graded_radial']",
+    "crack_path_or_mechanism": "crack nucleates at the flaw tip / largest defect and runs across the sheet"
+   },
+   "rationale": "unseen flaw halo: 30 A hole + 3 rings",
+   "run_id": "run_20260906_003914_2004b5",
+   "observed": {
+    "modulus_2d_Nm": 122.66225103739018,
+    "strength_Nm": 8.916578299834155,
+    "failure_strain": 0.18250000000000008,
+    "work_to_failure_J_m2": 0.6826776718576737,
+    "damage_localization": 0.4830075797819571,
+    "fracture_mode": "stepwise (few events)",
+    "first_damage_strain": 0.08750000000000001,
+    "viability": "strongly reconstructed"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": 5.6622510373901775,
+     "rel": 0.046161316864013834
+    },
+    "strength_Nm": {
+     "abs": -4.1834217001658445,
+     "rel": -0.4691734384526915
+    },
+    "failure_strain": {
+     "abs": 0.043500000000000066,
+     "rel": 0.2383561643835619
+    },
+    "work_to_failure_J_m2": {
+     "abs": -0.14732232814232626,
+     "rel": -0.2158007127162061
+    },
+    "damage_localization": {
+     "abs": 0.04300757978195707,
+     "rel": 0.08904121090888859
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S7_mesh_p24_phi0.3",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 10.4,
+    "modulus_2d_Nm": 84.0,
+    "failure_strain": 0.172,
+    "work_to_failure_J_m2": 0.9,
+    "damage_localization": 0.34,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=fine_round, minSF=0.61, sigma_net(median of 36)=17.0 N/m; kNN: ['S5_H2_D40_W20', 'S6_mesh_jitter2.0_s3', 'S2_mesh_phi0.3']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "rationale": "unseen period/porosity combination (24 A, phi 0.3)",
+   "run_id": "run_20260906_015019_56673a",
+   "observed": {
+    "modulus_2d_Nm": 99.77981180678769,
+    "strength_Nm": 9.91042975119366,
+    "failure_strain": 0.25000000000000006,
+    "work_to_failure_J_m2": 1.0853507887778693,
+    "damage_localization": 0.23736054024224817,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.12499999999999999,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": 15.779811806787691,
+     "rel": 0.15814633763133878
+    },
+    "strength_Nm": {
+     "abs": -0.4895702488063396,
+     "rel": -0.0493994974080083
+    },
+    "failure_strain": {
+     "abs": 0.07800000000000007,
+     "rel": 0.3120000000000002
+    },
+    "work_to_failure_J_m2": {
+     "abs": 0.18535078877786926,
+     "rel": 0.17077500720903205
+    },
+    "damage_localization": {
+     "abs": -0.10263945975775185,
+     "rel": -0.4324200629683387
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S7_precrack_L50_cell150",
+   "family": "precrack",
+   "predicted": {
+    "strength_Nm": 16.3,
+    "modulus_2d_Nm": 244.0,
+    "failure_strain": 0.105,
+    "work_to_failure_J_m2": 0.96,
+    "damage_localization": 0.48,
+    "fracture_mode_class": "abrupt",
+    "basis": "class=flawed_sheet, minSF=0.67, sigma_net(median of 19)=24.5 N/m; kNN: ['S4_precrack_L40_cell150', 'S4_precrack_L30_cell150', 'S2_vac_random_0.01']",
+    "crack_path_or_mechanism": "crack nucleates at the flaw tip / largest defect and runs across the sheet"
+   },
+   "rationale": "unseen: 50 A crack (plateau test)",
+   "run_id": "run_20260905_231328_ea6938",
+   "observed": {
+    "modulus_2d_Nm": 224.72016897803607,
+    "strength_Nm": 16.137879397720408,
+    "failure_strain": 0.11125000000000004,
+    "work_to_failure_J_m2": 0.8083055296266801,
+    "damage_localization": 0.5052162592057006,
+    "fracture_mode": "stepwise (few events)",
+    "first_damage_strain": 0.06625,
+    "viability": "stable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": -19.27983102196393,
+     "rel": -0.08579484035475392
+    },
+    "strength_Nm": {
+     "abs": -0.16212060227959313,
+     "rel": -0.01004596690086145
+    },
+    "failure_strain": {
+     "abs": 0.006250000000000047,
+     "rel": 0.05617977528089928
+    },
+    "work_to_failure_J_m2": {
+     "abs": -0.15169447037331985,
+     "rel": -0.18766971746856748
+    },
+    "damage_localization": {
+     "abs": 0.025216259205700586,
+     "rel": 0.04991181250846026
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S7_graded_x_weak",
+   "family": "graded_pores",
+   "predicted": {
+    "strength_Nm": 15.4,
+    "modulus_2d_Nm": 131.0,
+    "failure_strain": 0.145,
+    "work_to_failure_J_m2": 1.0,
+    "damage_localization": 0.45,
+    "fracture_mode_class": "progressive",
+    "basis": "class=flawed_sheet, minSF=0.63, sigma_net(median of 19)=24.5 N/m; kNN: ['S2_graded_radial', 'S2_graded_x', 'S2_hole20_background']",
+    "crack_path_or_mechanism": "crack nucleates at the flaw tip / largest defect and runs across the sheet"
+   },
+   "rationale": "unseen: weaker gradient (5 A minimum pore)",
+   "run_id": "run_20260906_010927_81093d",
+   "observed": {
+    "modulus_2d_Nm": 133.60056969153584,
+    "strength_Nm": 10.606103707299297,
+    "failure_strain": 0.18250000000000008,
+    "work_to_failure_J_m2": 0.8310315962440205,
+    "damage_localization": 0.4102808718654194,
+    "fracture_mode": "stepwise (few events)",
+    "first_damage_strain": 0.0925,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": 2.6005696915358385,
+     "rel": 0.019465258999569936
+    },
+    "strength_Nm": {
+     "abs": -4.793896292700703,
+     "rel": -0.45199409934125606
+    },
+    "failure_strain": {
+     "abs": 0.03750000000000009,
+     "rel": 0.20547945205479493
+    },
+    "work_to_failure_J_m2": {
+     "abs": -0.16896840375597955,
+     "rel": -0.2033236816983363
+    },
+    "damage_localization": {
+     "abs": -0.03971912813458062,
+     "rel": -0.09680960253884152
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S7_slit_0deg_armchair",
+   "family": "slit_array",
+   "predicted": {
+    "strength_Nm": 24.0,
+    "modulus_2d_Nm": 195.0,
+    "failure_strain": 0.215,
+    "work_to_failure_J_m2": 3.08,
+    "damage_localization": 0.2,
+    "fracture_mode_class": "abrupt",
+    "basis": "class=straight, minSF=0.79, sigma_net(median of 7)=30.3 N/m; kNN: ['S2_slit_0deg', 'S5_slit0_phi0.4', 'S5_slit0_phi0.3']",
+    "crack_path_or_mechanism": "load-parallel strips fail together at the bridges/corners (single avalanche)"
+   },
+   "rationale": "unseen: parallel slits with armchair lattice along the load",
+   "run_id": "run_20260905_235534_a5e0cc",
+   "observed": {
+    "modulus_2d_Nm": 223.0449049499082,
+    "strength_Nm": 20.218295800022684,
+    "failure_strain": 0.2537500000000001,
+    "work_to_failure_J_m2": 2.9634223509550464,
+    "damage_localization": 0.1130667201294937,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.13374999999999998,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": 28.044904949908187,
+     "rel": 0.12573658634438012
+    },
+    "strength_Nm": {
+     "abs": -3.781704199977316,
+     "rel": -0.1870436676454735
+    },
+    "failure_strain": {
+     "abs": 0.03875000000000009,
+     "rel": 0.15270935960591164
+    },
+    "work_to_failure_J_m2": {
+     "abs": -0.11657764904495371,
+     "rel": -0.03933885732061894
+    },
+    "damage_localization": {
+     "abs": -0.08693327987050631,
+     "rel": -0.7688670881311748
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S7_strut_090_phi0.3",
+   "family": "strut_lattice",
+   "predicted": {
+    "strength_Nm": 14.4,
+    "modulus_2d_Nm": 147.0,
+    "failure_strain": 0.229,
+    "work_to_failure_J_m2": 1.69,
+    "damage_localization": 0.3,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=straight, minSF=0.47, sigma_net(median of 7)=30.3 N/m; kNN: ['S2_strut_090', 'S2_strut_060120', 'S2_ellipse_90deg']",
+    "crack_path_or_mechanism": "load-parallel strips fail together at the bridges/corners (single avalanche)"
+   },
+   "rationale": "unseen: 0/90 strut lattice at porosity 0.30",
+   "run_id": "run_20260906_001619_c8351b",
+   "observed": {
+    "modulus_2d_Nm": 121.35306999721563,
+    "strength_Nm": 14.43180528585683,
+    "failure_strain": 0.2962500000000001,
+    "work_to_failure_J_m2": 1.7875573886704468,
+    "damage_localization": 0.22111485977220524,
+    "fracture_mode": "stepwise (few events)",
+    "first_damage_strain": 0.17625000000000002,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": -25.646930002784373,
+     "rel": -0.21134141891402358
+    },
+    "strength_Nm": {
+     "abs": 0.03180528585683007,
+     "rel": 0.002203832800321887
+    },
+    "failure_strain": {
+     "abs": 0.06725000000000012,
+     "rel": 0.227004219409283
+    },
+    "work_to_failure_J_m2": {
+     "abs": 0.09755738867044683,
+     "rel": 0.0545758079090307
+    },
+    "damage_localization": {
+     "abs": -0.07888514022779475,
+     "rel": -0.35676091742121274
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S7_mesh_jitter1.5_sd0.1_s11",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 12.3,
+    "modulus_2d_Nm": 137.0,
+    "failure_strain": 0.193,
+    "work_to_failure_J_m2": 1.14,
+    "damage_localization": 0.28,
+    "fracture_mode_class": "progressive",
+    "basis": "class=fine_round, minSF=0.72, sigma_net(median of 36)=17.0 N/m; kNN: ['S6_mesh_sizedis0.15_s3', 'S6_mesh_jitter2.0_s2', 'S6_mesh_p16_offset3']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "rationale": "unseen combined disorder (jitter 1.5 A + 10% size dispersion, new seed)",
+   "run_id": "run_20260905_215225_93748d",
+   "observed": {
+    "modulus_2d_Nm": 129.356318323889,
+    "strength_Nm": 11.946784641579741,
+    "failure_strain": 0.12625,
+    "work_to_failure_J_m2": 0.8685400512601377,
+    "damage_localization": 0.28986197146259063,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.10124999999999999,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "modulus_2d_Nm": {
+     "abs": -7.643681676110987,
+     "rel": -0.059090130077545516
+    },
+    "strength_Nm": {
+     "abs": -0.3532153584202593,
+     "rel": -0.029565725759458664
+    },
+    "failure_strain": {
+     "abs": -0.06675,
+     "rel": -0.5287128712871287
+    },
+    "work_to_failure_J_m2": {
+     "abs": -0.27145994873986223,
+     "rel": -0.31254741602993374
+    },
+    "damage_localization": {
+     "abs": 0.009861971462590602,
+     "rel": 0.03402299174613659
+    }
+   },
+   "mode_match": true
+  }
+ ],
+ "summary": {
+  "modulus_2d_Nm": {
+   "median_abs_rel_error": 0.10576571334956703,
+   "mean_abs_rel_error": 0.1272022848490554,
+   "max_abs_rel_error": 0.33514438614053677,
+   "mean_abs_error": 18.818873382903792,
+   "n": 12
+  },
+  "strength_Nm": {
+   "median_abs_rel_error": 0.13794819149381543,
+   "mean_abs_rel_error": 0.3314504070363889,
+   "max_abs_rel_error": 1.6741264995638707,
+   "mean_abs_error": 3.484371696912079,
+   "n": 12
+  },
+  "failure_strain": {
+   "median_abs_rel_error": 0.1683546798029557,
+   "mean_abs_rel_error": 0.17821037778582882,
+   "max_abs_rel_error": 0.5287128712871287,
+   "mean_abs_error": 0.03431250000000005,
+   "n": 12
+  },
+  "work_to_failure_J_m2": {
+   "median_abs_rel_error": 0.1954966995834519,
+   "mean_abs_rel_error": 0.24989294174975493,
+   "max_abs_rel_error": 1.1454697693296285,
+   "mean_abs_error": 0.2821336390528672,
+   "n": 12
+  },
+  "damage_localization": {
+   "median_abs_rel_error": 0.1027876336473392,
+   "mean_abs_rel_error": 0.21336347885276474,
+   "max_abs_rel_error": 0.7688670881311748,
+   "mean_abs_error": 0.05005218029410832,
+   "n": 12
+  },
+  "fracture_mode_class_accuracy": 0.4166666666666667
+ }
+}

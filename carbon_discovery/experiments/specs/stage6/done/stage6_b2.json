@@ -1,0 +1,86 @@
+{
+ "campaign": "discovery",
+ "stage": "stage6_seeds",
+ "batch_name": "stage6_b2",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S6_mesh_sizedis0.15_s3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "size_disorder": 0.15,
+    "seed": 3,
+    "pore_d": 7.469
+   },
+   "seed": 3,
+   "reason": "seed replicate of S2_mesh_sizedis0.15",
+   "hypothesis": "",
+   "tags": [
+    "stage6",
+    "disorder"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "mesh_sizedis0.15"
+  },
+  {
+   "name": "S6_voronoi_n25_reg0.0_s3",
+   "family": "voronoi_network",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "n_cells": 25,
+    "regularity": 0.0,
+    "seed": 3,
+    "ligament_w": 8.188
+   },
+   "seed": 3,
+   "reason": "seed replicate of S2_voronoi_n25_reg0.0",
+   "hypothesis": "",
+   "tags": [
+    "stage6",
+    "disorder"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "voronoi_n25_reg0.0"
+  },
+  {
+   "name": "S6_voronoi_n25_reg0.6_s3",
+   "family": "voronoi_network",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "n_cells": 25,
+    "regularity": 0.6,
+    "seed": 3,
+    "ligament_w": 9.875
+   },
+   "seed": 3,
+   "reason": "seed replicate of S2_voronoi_n25_reg0.6",
+   "hypothesis": "",
+   "tags": [
+    "stage6",
+    "disorder"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "voronoi_n25_reg0.6"
+  }
+ ]
+}

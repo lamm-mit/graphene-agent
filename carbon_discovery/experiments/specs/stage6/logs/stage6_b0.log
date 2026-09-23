@@ -1,0 +1,53 @@
+batch stage6_b0: 3 structures, N = [3033, 3002, 3043], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0038 0.0032]
+ [0.0052 0.0051]
+ [0.0027 0.0024]], sigma = [[-0.027  0.009]
+ [-0.019 -0.008]
+ [-0.001  0.004]] N/m
+step   1 S6_mesh_jitter: e=0.0100 s=  1.35N/m nb=  0 | S6_mesh_sizedi: e=0.0100 s=  1.37N/m nb=  0 | S6_voronoi_n25: e=0.0100 s=  1.51N/m nb=  0  fire_it=90 t=175s
+step   2 S6_mesh_jitter: e=0.0200 s=  2.56N/m nb=  0 | S6_mesh_sizedi: e=0.0200 s=  2.62N/m nb=  0 | S6_voronoi_n25: e=0.0200 s=  2.80N/m nb=  0  fire_it=130 t=226s
+step   3 S6_mesh_jitter: e=0.0300 s=  3.68N/m nb=  0 | S6_mesh_sizedi: e=0.0300 s=  3.82N/m nb=  0 | S6_voronoi_n25: e=0.0300 s=  4.06N/m nb=  0  fire_it=210 t=299s
+step   4 S6_mesh_jitter: e=0.0400 s=  4.83N/m nb=  0 | S6_mesh_sizedi: e=0.0400 s=  4.87N/m nb=  0 | S6_voronoi_n25: e=0.0400 s=  5.27N/m nb=  0  fire_it=210 t=378s
+step   5 S6_mesh_jitter: e=0.0500 s=  5.99N/m nb=  0 | S6_mesh_sizedi: e=0.0500 s=  6.05N/m nb=  0 | S6_voronoi_n25: e=0.0500 s=  6.47N/m nb=  0  fire_it=150 t=434s
+step   6 S6_mesh_jitter: e=0.0600 s=  7.10N/m nb=  0 | S6_mesh_sizedi: e=0.0600 s=  7.20N/m nb=  0 | S6_voronoi_n25: e=0.0600 s=  7.58N/m nb=  0  fire_it=200 t=499s
+step   7 S6_mesh_jitter: e=0.0700 s=  8.13N/m nb=  0 | S6_mesh_sizedi: e=0.0700 s=  8.17N/m nb=  0 | S6_voronoi_n25: e=0.0700 s=  8.65N/m nb=  0  fire_it=250 t=589s
+  step 8: early bisection for [0, 2] -> d_eps=[0.005 0.005]
+step   8 S6_mesh_jitter: e=0.0700 s=  8.13N/m nb=  0 | S6_mesh_sizedi: e=0.0800 s=  9.19N/m nb=  0 | S6_voronoi_n25: e=0.0700 s=  8.65N/m nb=  0  fire_it=400 t=725s
+  step 9: early bisection for [2] -> d_eps=[0.0025]
+step   9 S6_mesh_jitter: e=0.0750 s=  8.61N/m nb=  0 | S6_mesh_sizedi: e=0.0900 s= 10.14N/m nb=  0 | S6_voronoi_n25: e=0.0700 s=  8.65N/m nb=  0  fire_it=320 t=842s
+  step 10: early bisection for [0, 1] -> d_eps=[0.0025 0.005 ]
+step  10 S6_mesh_jitter: e=0.0750 s=  8.61N/m nb=  0 | S6_mesh_sizedi: e=0.0900 s= 10.14N/m nb=  0 | S6_voronoi_n25: e=0.0725 s=  8.87N/m nb=  0  fire_it=310 t=971s
+  step 11: early bisection for [2] -> d_eps=[0.00125]
+step  11 S6_mesh_jitter: e=0.0775 s=  8.83N/m nb=  0 | S6_mesh_sizedi: e=0.0950 s= 10.60N/m nb=  0 | S6_voronoi_n25: e=0.0725 s=  8.87N/m nb=  0  fire_it=130 t=1017s
+  step 12: early bisection for [0, 1] -> d_eps=[0.00125 0.0025 ]
+step  12 S6_mesh_jitter: e=0.0775 s=  8.83N/m nb=  0 | S6_mesh_sizedi: e=0.0950 s= 10.60N/m nb=  0 | S6_voronoi_n25: e=0.0738 s=  8.95N/m nb=  1  fire_it=210 t=1093s
+  step 13: early bisection for [1] -> d_eps=[0.00125]
+step  13 S6_mesh_jitter: e=0.0788 s=  8.95N/m nb=  0 | S6_mesh_sizedi: e=0.0950 s= 10.60N/m nb=  0 | S6_voronoi_n25: e=0.0788 s=  9.27N/m nb=  3  fire_it=170 t=1296s
+step  14 S6_mesh_jitter: e=0.0800 s=  9.01N/m nb=  1 | S6_mesh_sizedi: e=0.0963 s= 10.58N/m nb=  2 | S6_voronoi_n25: e=0.0838 s=  4.61N/m nb= 13  fire_it=990 t=2809s
+step  15 S6_mesh_jitter: e=0.0850 s=  9.50N/m nb=  0 | S6_mesh_sizedi: e=0.1013 s= 11.03N/m nb=  0 | S6_voronoi_n25: e=0.0888 s=  4.70N/m nb=  2  fire_it=300 t=3104s
+step  16 S6_mesh_jitter: e=0.0900 s=  9.72N/m nb=  0 | S6_mesh_sizedi: e=0.1063 s= 11.03N/m nb=  5 | S6_voronoi_n25: e=0.0938 s=  5.13N/m nb=  0  fire_it=1110 t=3719s
+step  17 S6_mesh_jitter: e=0.0950 s= 10.16N/m nb=  0 | S6_mesh_sizedi: e=0.1113 s= 11.34N/m nb=  2 | S6_voronoi_n25: e=0.0988 s=  3.55N/m nb=  5  fire_it=2000 t=4685s
+step  18 S6_mesh_jitter: e=0.1000 s= 10.51N/m nb=  0 | S6_mesh_sizedi: e=0.1163 s=  7.07N/m nb= 22 | S6_voronoi_n25: e=0.1038 s=  2.72N/m nb=  4  fire_it=2000 t=6100s
+step  19 S6_mesh_jitter: e=0.1050 s=  9.44N/m nb= 12 | S6_mesh_sizedi: e=0.1213 s=  2.50N/m nb= 11 | S6_voronoi_n25: e=0.1088 s=  2.20N/m nb=  1  fire_it=1970 t=7552s
+step  20 S6_mesh_jitter: e=0.1100 s=  9.84N/m nb=  1 | S6_mesh_sizedi: e=0.1263 s=  2.00N/m nb=  2 | S6_voronoi_n25: e=0.1138 s=  1.88N/m nb=  1  fire_it=1130 t=8599s
+step  21 S6_mesh_jitter: e=0.1150 s= 10.02N/m nb=  3 | S6_mesh_sizedi: e=0.1313 s=  2.23N/m nb=  0 | S6_voronoi_n25: e=0.1188 s=  2.02N/m nb=  1  fire_it=380 t=8985s
+step  22 S6_mesh_jitter: e=0.1200 s=  7.63N/m nb= 14 | S6_mesh_sizedi: e=0.1363 s=  2.52N/m nb=  0 | S6_voronoi_n25: e=0.1238 s=  2.34N/m nb=  0  fire_it=860 t=9833s
+step  23 S6_mesh_jitter: e=0.1250 s=  7.77N/m nb=  1 | S6_mesh_sizedi: e=0.1413 s=  2.81N/m nb=  0 | S6_voronoi_n25: e=0.1288 s=  1.57N/m nb=  0  fire_it=1360 t=10211s
+step  24 S6_mesh_jitter: e=0.1300 s=  5.76N/m nb= 10 | S6_mesh_sizedi: e=0.1463 s=  2.84N/m nb=  0 | S6_voronoi_n25: e=0.1338 s=  1.63N/m nb=  1  fire_it=1850 t=11096s
+step  25 S6_mesh_jitter: e=0.1350 s=  5.64N/m nb=  2 | S6_mesh_sizedi: e=0.1513 s=  2.96N/m nb=  1 | S6_voronoi_n25: e=0.1388 s=  1.86N/m nb=  0  fire_it=2000 t=12094s
+step  26 S6_mesh_jitter: e=0.1400 s=  4.34N/m nb= 10 | S6_mesh_sizedi: e=0.1563 s=  2.75N/m nb=  1 | S6_voronoi_n25: e=0.1438 s=  2.08N/m nb=  0  fire_it=2000 t=13519s
+[done] S6_mesh_jitter2.0_s2 -> run_20260905_153953_d74317: reconstructed but viable; strength 10.51 N/m @ 0.100, fail 0.145, mode progressive (multiple events, load retained), not spanning (fractured)
+step  27 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  5* | S6_mesh_sizedi: e=0.1613 s=  2.68N/m nb=  1 | S6_voronoi_n25: e=0.1488 s=  2.03N/m nb=  0  fire_it=1190 t=14700s
+step  28 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1663 s=  2.87N/m nb=  1 | S6_voronoi_n25: e=0.1538 s=  2.17N/m nb=  1  fire_it=1040 t=15230s
+step  29 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1713 s=  3.28N/m nb=  0 | S6_voronoi_n25: e=0.1588 s=  2.30N/m nb=  0  fire_it=30 t=15409s
+step  30 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1763 s=  2.29N/m nb=  1 | S6_voronoi_n25: e=0.1638 s=  1.35N/m nb=  1  fire_it=1630 t=16530s
+step  31 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1813 s=  2.37N/m nb=  1 | S6_voronoi_n25: e=0.1688 s=  1.39N/m nb=  0  fire_it=920 t=17232s
+step  32 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1863 s=  1.76N/m nb=  1 | S6_voronoi_n25: e=0.1738 s=  1.20N/m nb=  1  fire_it=2000 t=18077s
+step  33 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1913 s=  1.81N/m nb=  0 | S6_voronoi_n25: e=0.1788 s=  1.27N/m nb=  0  fire_it=1100 t=18642s
+[done] S6_mesh_sizedis0.15_s2 -> run_20260905_170326_068433: reconstructed but viable; strength 11.34 N/m @ 0.111, fail 0.196, mode stepwise (few events), not spanning (fractured)
+step  34 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1963 s=  1.04N/m nb=  1* | S6_voronoi_n25: e=0.1838 s=  1.51N/m nb=  0  fire_it=1070 t=19713s
+step  35 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1963 s=  1.04N/m nb=  0* | S6_voronoi_n25: e=0.1888 s=  1.68N/m nb=  0  fire_it=30 t=19829s
+step  36 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1963 s=  1.04N/m nb=  0* | S6_voronoi_n25: e=0.1938 s=  1.70N/m nb=  0  fire_it=120 t=19962s
+[done] S6_voronoi_n25_reg0.0_s2 -> run_20260905_170917_2b5cdc: reconstructed but viable; strength 9.27 N/m @ 0.079, fail 0.199, mode stepwise (few events), post-peak strain limit reached (load still carried)
+step  37 S6_mesh_jitter: e=0.1450 s=  1.79N/m nb=  0* | S6_mesh_sizedi: e=0.1963 s=  1.04N/m nb=  0* | S6_voronoi_n25: e=0.1988 s=  1.84N/m nb=  0*  fire_it=400 t=20064s
+batch finished in 20072s (simulation 20072s); evaluations {'n_evaluations': 70429, 'fire_iterations': 70100, 'n_rebuilds': 1043, 'n_reverts': 9, 'n_soft_converged': 19}

@@ -1,0 +1,67 @@
+batch paper_P1_slit_angles_03: 1 structures, N = [3020], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0094 -0.0071]], sigma = [[-0.015  0.028]] N/m
+step   1 P1_slit_25deg: e=0.0100 s=  1.28N/m nb=  0  fire_it=70 t=40s
+step   2 P1_slit_25deg: e=0.0200 s=  2.56N/m nb=  0  fire_it=60 t=44s
+step   3 P1_slit_25deg: e=0.0300 s=  3.49N/m nb=  0  fire_it=90 t=49s
+step   4 P1_slit_25deg: e=0.0400 s=  4.46N/m nb=  0  fire_it=100 t=54s
+step   5 P1_slit_25deg: e=0.0500 s=  5.19N/m nb=  0  fire_it=350 t=73s
+step   6 P1_slit_25deg: e=0.0600 s=  5.74N/m nb=  0  fire_it=70 t=110s
+  step 7: early bisection for [0] -> d_eps=[0.005]
+step   8 P1_slit_25deg: e=0.0650 s=  6.19N/m nb=  0  fire_it=170 t=141s
+  step 9: early bisection for [0] -> d_eps=[0.0025]
+  step 10: bisection for [0] -> d_eps=[0.00125]
+step  11 P1_slit_25deg: e=0.0663 s=  6.29N/m nb=  0  fire_it=100 t=296s
+step  12 P1_slit_25deg: e=0.0675 s=  5.72N/m nb=  4  fire_it=140 t=353s
+step  13 P1_slit_25deg: e=0.0725 s=  6.08N/m nb=  0  fire_it=300 t=375s
+step  14 P1_slit_25deg: e=0.0775 s=  6.59N/m nb=  0  fire_it=220 t=390s
+step  15 P1_slit_25deg: e=0.0825 s=  6.54N/m nb=  2  fire_it=250 t=438s
+step  16 P1_slit_25deg: e=0.0875 s=  2.98N/m nb=  8  fire_it=580 t=662s
+step  17 P1_slit_25deg: e=0.0925 s=  3.33N/m nb=  0  fire_it=260 t=743s
+step  18 P1_slit_25deg: e=0.0975 s=  3.12N/m nb=  6  fire_it=1640 t=1033s
+step  19 P1_slit_25deg: e=0.1025 s=  3.61N/m nb=  2  fire_it=240 t=1087s
+step  20 P1_slit_25deg: e=0.1075 s=  4.13N/m nb=  0  fire_it=1370 t=1180s
+step  21 P1_slit_25deg: e=0.1125 s=  4.58N/m nb=  4  fire_it=570 t=1234s
+step  22 P1_slit_25deg: e=0.1175 s=  5.10N/m nb=  0  fire_it=150 t=1279s
+step  23 P1_slit_25deg: e=0.1225 s=  4.99N/m nb=  2  fire_it=1830 t=1418s
+step  24 P1_slit_25deg: e=0.1275 s=  5.48N/m nb=  0  fire_it=260 t=1464s
+step  25 P1_slit_25deg: e=0.1325 s=  5.93N/m nb=  0  fire_it=580 t=1516s
+step  26 P1_slit_25deg: e=0.1375 s=  4.87N/m nb=  4  fire_it=1280 t=1622s
+step  27 P1_slit_25deg: e=0.1425 s=  3.51N/m nb=  0  fire_it=600 t=1744s
+step  28 P1_slit_25deg: e=0.1475 s=  3.32N/m nb=  0  fire_it=760 t=1829s
+step  29 P1_slit_25deg: e=0.1525 s=  3.23N/m nb=  0  fire_it=430 t=1917s
+step  30 P1_slit_25deg: e=0.1575 s=  3.60N/m nb=  0  fire_it=810 t=2053s
+step  31 P1_slit_25deg: e=0.1625 s=  4.09N/m nb=  0  fire_it=890 t=2204s
+step  32 P1_slit_25deg: e=0.1675 s=  4.72N/m nb=  0  fire_it=1110 t=2378s
+step  33 P1_slit_25deg: e=0.1725 s=  5.46N/m nb=  0  fire_it=550 t=2450s
+step  34 P1_slit_25deg: e=0.1775 s=  6.23N/m nb=  0  fire_it=160 t=2462s
+step  35 P1_slit_25deg: e=0.1825 s=  6.97N/m nb=  0  fire_it=270 t=2476s
+step  36 P1_slit_25deg: e=0.1875 s=  7.64N/m nb=  1  fire_it=1060 t=2554s
+step  37 P1_slit_25deg: e=0.1925 s=  8.34N/m nb=  0  fire_it=250 t=2567s
+step  38 P1_slit_25deg: e=0.1975 s=  9.01N/m nb=  0  fire_it=150 t=2575s
+step  39 P1_slit_25deg: e=0.2025 s=  9.69N/m nb=  0  fire_it=160 t=2584s
+step  40 P1_slit_25deg: e=0.2075 s= 10.12N/m nb=  1  fire_it=870 t=2651s
+step  41 P1_slit_25deg: e=0.2125 s= 10.73N/m nb=  0  fire_it=290 t=2687s
+step  42 P1_slit_25deg: e=0.2175 s= 11.37N/m nb=  0  fire_it=310 t=2703s
+step  43 P1_slit_25deg: e=0.2225 s= 11.88N/m nb=  2  fire_it=230 t=2736s
+step  44 P1_slit_25deg: e=0.2275 s= 12.48N/m nb=  0  fire_it=320 t=2754s
+step  45 P1_slit_25deg: e=0.2325 s= 13.09N/m nb=  0  fire_it=200 t=2765s
+step  46 P1_slit_25deg: e=0.2375 s= 13.58N/m nb=  1  fire_it=330 t=2805s
+step  47 P1_slit_25deg: e=0.2425 s= 13.93N/m nb=  3  fire_it=760 t=2865s
+step  48 P1_slit_25deg: e=0.2475 s= 13.23N/m nb=  3  fire_it=2000 t=3030s
+step  49 P1_slit_25deg: e=0.2525 s= 12.54N/m nb=  6  fire_it=920 t=3221s
+step  50 P1_slit_25deg: e=0.2575 s= 11.29N/m nb=  8  fire_it=2000 t=3363s
+step  51 P1_slit_25deg: e=0.2625 s=  7.76N/m nb= 15  fire_it=2000 t=3509s
+step  52 P1_slit_25deg: e=0.2675 s=  6.15N/m nb=  5  fire_it=2000 t=3675s
+step  53 P1_slit_25deg: e=0.2725 s=  3.25N/m nb=  7  fire_it=1810 t=3916s
+step  54 P1_slit_25deg: e=0.2775 s=  3.06N/m nb=  1  fire_it=2000 t=4086s
+step  55 P1_slit_25deg: e=0.2825 s=  2.39N/m nb=  1  fire_it=710 t=4299s
+step  56 P1_slit_25deg: e=0.2875 s=  2.05N/m nb=  1  fire_it=1240 t=4518s
+step  57 P1_slit_25deg: e=0.2925 s=  2.25N/m nb=  0  fire_it=790 t=4706s
+step  58 P1_slit_25deg: e=0.2975 s=  1.83N/m nb=  1  fire_it=1400 t=5243s
+step  59 P1_slit_25deg: e=0.3025 s=  2.14N/m nb=  0  fire_it=570 t=5338s
+step  60 P1_slit_25deg: e=0.3075 s=  1.98N/m nb=  0  fire_it=1880 t=5534s
+step  61 P1_slit_25deg: e=0.3125 s=  2.09N/m nb=  0  fire_it=1140 t=5621s
+step  62 P1_slit_25deg: e=0.3175 s=  2.32N/m nb=  0  fire_it=590 t=5675s
+[done] P1_slit_25deg -> run_20260909_063152_fffdc5: reconstructed but viable; strength 13.93 N/m @ 0.243, fail 0.323, mode progressive (multiple events, load retained), max strain reached
+step  63 P1_slit_25deg: e=0.3225 s=  2.36N/m nb=  0*  fire_it=870 t=5765s
+batch finished in 5844s (simulation 5844s); evaluations {'n_evaluations': 96222, 'fire_iterations': 95730, 'n_rebuilds': 845, 'n_reverts': 3, 'n_soft_converged': 22}

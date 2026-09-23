@@ -1,0 +1,212 @@
+{
+ "S1_pristine_zz": {
+  "n_atoms": 3772,
+  "porosity": 0.0,
+  "family": "pristine",
+  "hierarchy_levels": null
+ },
+ "S1_vac_clustered_2pct": {
+  "n_atoms": 3724,
+  "porosity": 0.012725344644750836,
+  "family": "vacancies",
+  "hierarchy_levels": 0
+ },
+ "S1_precrack_L20": {
+  "n_atoms": 3744,
+  "porosity": 0.007423117709437932,
+  "family": "precrack",
+  "hierarchy_levels": 0
+ },
+ "S1_hole_d20": {
+  "n_atoms": 3648,
+  "porosity": 0.0328738069989396,
+  "family": "ring_around_hole",
+  "hierarchy_levels": 1
+ },
+ "S1_mesh_p16_phi0.2": {
+  "n_atoms": 2934,
+  "porosity": 0.22216330858960764,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_H1_p12": {
+  "n_atoms": 4398,
+  "porosity": 0.19861516034985427,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_H1_p16": {
+  "n_atoms": 4352,
+  "porosity": 0.20699708454810495,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_H1_p32": {
+  "n_atoms": 4376,
+  "porosity": 0.20262390670553931,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_H1_square_D40": {
+  "n_atoms": 4378,
+  "porosity": 0.20225947521865895,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_H2_D24_W8": {
+  "n_atoms": 4425,
+  "porosity": 0.19369533527696792,
+  "family": "nanomesh_hier",
+  "hierarchy_levels": 2
+ },
+ "S2_H2_D40_W8": {
+  "n_atoms": 4377,
+  "porosity": 0.20244169096209907,
+  "family": "nanomesh_hier",
+  "hierarchy_levels": 2
+ },
+ "S2_H2_D60_W8": {
+  "n_atoms": 4368,
+  "porosity": 0.20408163265306123,
+  "family": "nanomesh_hier",
+  "hierarchy_levels": 2
+ },
+ "S2_H2_D40_W4": {
+  "n_atoms": 4368,
+  "porosity": 0.20408163265306123,
+  "family": "nanomesh_hier",
+  "hierarchy_levels": 2
+ },
+ "S2_H2_D40_W12": {
+  "n_atoms": 4408,
+  "porosity": 0.19679300291545188,
+  "family": "nanomesh_hier",
+  "hierarchy_levels": 2
+ },
+ "S2_H3_D30_120": {
+  "n_atoms": 4410,
+  "porosity": 0.1964285714285714,
+  "family": "nanomesh_hier",
+  "hierarchy_levels": 3
+ },
+ "S2_mesh_jitter2.0": {
+  "n_atoms": 3034,
+  "porosity": 0.19565217391304346,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_mesh_sizedis0.3": {
+  "n_atoms": 2993,
+  "porosity": 0.2065217391304348,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_voronoi_n25_reg0.0": {
+  "n_atoms": 3010,
+  "porosity": 0.20201484623541888,
+  "family": "voronoi_network",
+  "hierarchy_levels": 1
+ },
+ "S2_voronoi_n25_reg1.0": {
+  "n_atoms": 3025,
+  "porosity": 0.19803817603393425,
+  "family": "voronoi_network",
+  "hierarchy_levels": 1
+ },
+ "S2_voronoi_n50_reg0.0": {
+  "n_atoms": 3036,
+  "porosity": 0.19512195121951215,
+  "family": "voronoi_network",
+  "hierarchy_levels": 1
+ },
+ "S2_slit_0deg": {
+  "n_atoms": 3000,
+  "porosity": 0.20466595970307533,
+  "family": "slit_array",
+  "hierarchy_levels": 1
+ },
+ "S2_slit_45deg": {
+  "n_atoms": 3088,
+  "porosity": 0.1813361611876988,
+  "family": "slit_array",
+  "hierarchy_levels": 1
+ },
+ "S2_slit_90deg": {
+  "n_atoms": 3068,
+  "porosity": 0.1866383881230117,
+  "family": "slit_array",
+  "hierarchy_levels": 1
+ },
+ "S2_ellipse_0deg": {
+  "n_atoms": 3008,
+  "porosity": 0.2025450689289502,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_ellipse_90deg": {
+  "n_atoms": 3040,
+  "porosity": 0.19406150583244963,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_strut_060120": {
+  "n_atoms": 2064,
+  "porosity": 0.45281018027571585,
+  "family": "strut_lattice",
+  "hierarchy_levels": 1
+ },
+ "S2_strut_090": {
+  "n_atoms": 2100,
+  "porosity": 0.44326617179215266,
+  "family": "strut_lattice",
+  "hierarchy_levels": 1
+ },
+ "S2_strut_3090150": {
+  "n_atoms": 2092,
+  "porosity": 0.4453870625662778,
+  "family": "strut_lattice",
+  "hierarchy_levels": 1
+ },
+ "S2_mesh_phi0.1": {
+  "n_atoms": 3411,
+  "porosity": 0.09570519618239659,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_mesh_phi0.4": {
+  "n_atoms": 2258,
+  "porosity": 0.4013785790031813,
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1
+ },
+ "S2_graded_x": {
+  "n_atoms": 3002,
+  "porosity": 0.20413573700954402,
+  "family": "graded_pores",
+  "hierarchy_levels": 1
+ },
+ "S2_graded_radial": {
+  "n_atoms": 3080,
+  "porosity": 0.18345705196182394,
+  "family": "graded_pores",
+  "hierarchy_levels": 1
+ },
+ "S2_hole20_rings2": {
+  "n_atoms": 3382,
+  "porosity": 0.10339342523860018,
+  "family": "ring_around_hole",
+  "hierarchy_levels": 2
+ },
+ "S2_hole20_background": {
+  "n_atoms": 3379,
+  "porosity": 0.10418875927889715,
+  "family": "ring_around_hole",
+  "hierarchy_levels": 1
+ },
+ "S2_vac_clustered_0.03": {
+  "n_atoms": 3700,
+  "porosity": 0.019088016967126142,
+  "family": "vacancies",
+  "hierarchy_levels": 0
+ }
+}

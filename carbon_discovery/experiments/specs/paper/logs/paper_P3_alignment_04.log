@@ -1,0 +1,31 @@
+batch paper_P3_alignment_04: 1 structures, N = [4351], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0068 -0.0002]], sigma = [[-0.019  0.032]] N/m
+step   1 P3_H2_veinsX_W: e=0.0100 s=  1.60N/m nb=  0  fire_it=60 t=57s
+step   2 P3_H2_veinsX_W: e=0.0200 s=  3.12N/m nb=  0  fire_it=130 t=66s
+step   3 P3_H2_veinsX_W: e=0.0300 s=  4.56N/m nb=  0  fire_it=290 t=88s
+step   4 P3_H2_veinsX_W: e=0.0400 s=  6.01N/m nb=  0  fire_it=190 t=102s
+step   5 P3_H2_veinsX_W: e=0.0500 s=  7.42N/m nb=  0  fire_it=70 t=109s
+step   6 P3_H2_veinsX_W: e=0.0600 s=  8.77N/m nb=  0  fire_it=140 t=120s
+step   7 P3_H2_veinsX_W: e=0.0700 s= 10.02N/m nb=  0  fire_it=270 t=139s
+step   8 P3_H2_veinsX_W: e=0.0800 s= 11.13N/m nb=  0  fire_it=150 t=179s
+step   9 P3_H2_veinsX_W: e=0.0900 s= 12.28N/m nb=  0  fire_it=180 t=224s
+step  10 P3_H2_veinsX_W: e=0.1000 s= 13.38N/m nb=  0  fire_it=330 t=248s
+  step 11: bisection for [0] -> d_eps=[0.005]
+step  12 P3_H2_veinsX_W: e=0.1050 s= 13.91N/m nb=  0  fire_it=270 t=342s
+  step 13: bisection for [0] -> d_eps=[0.0025]
+step  14 P3_H2_veinsX_W: e=0.1075 s= 14.13N/m nb=  0  fire_it=50 t=439s
+  step 15: early bisection for [0] -> d_eps=[0.00125]
+step  16 P3_H2_veinsX_W: e=0.1087 s= 14.18N/m nb=  1  fire_it=180 t=527s
+step  17 P3_H2_veinsX_W: e=0.1138 s= 14.61N/m nb=  0  fire_it=390 t=563s
+step  18 P3_H2_veinsX_W: e=0.1188 s= 14.89N/m nb=  1  fire_it=1130 t=726s
+step  19 P3_H2_veinsX_W: e=0.1238 s= 15.04N/m nb=  4  fire_it=770 t=911s
+step  20 P3_H2_veinsX_W: e=0.1288 s= 15.48N/m nb=  0  fire_it=350 t=938s
+step  21 P3_H2_veinsX_W: e=0.1338 s= 15.80N/m nb=  3  fire_it=860 t=1044s
+step  22 P3_H2_veinsX_W: e=0.1388 s= 13.55N/m nb= 20  fire_it=2000 t=1275s
+step  23 P3_H2_veinsX_W: e=0.1438 s=  5.56N/m nb= 27  fire_it=2000 t=1578s
+step  24 P3_H2_veinsX_W: e=0.1488 s=  3.55N/m nb=  1  fire_it=2000 t=1769s
+step  25 P3_H2_veinsX_W: e=0.1538 s=  1.76N/m nb=  3  fire_it=1000 t=2175s
+step  26 P3_H2_veinsX_W: e=0.1588 s=  1.67N/m nb=  0  fire_it=1540 t=2357s
+[done] P3_H2_veinsX_W12_ellipse_60deg -> run_20260909_084641_6a7efe: reconstructed but viable; strength 15.80 N/m @ 0.134, fail 0.164, mode progressive (multiple events, load retained), stress collapsed
+step  27 P3_H2_veinsX_W: e=0.1638 s=  1.10N/m nb=  0*  fire_it=1130 t=2575s
+batch finished in 2576s (simulation 2576s); evaluations {'n_evaluations': 30929, 'fire_iterations': 30730, 'n_rebuilds': 442, 'n_reverts': 3, 'n_soft_converged': 7}

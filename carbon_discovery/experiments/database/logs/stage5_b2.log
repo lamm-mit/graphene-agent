@@ -1,0 +1,41 @@
+batch stage5_b2: 3 structures, N = [3038, 3001, 3384], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0019  0.0017]
+ [ 0.0029  0.0025]
+ [ 0.0064 -0.005 ]], sigma = [[-0.077 -0.045]
+ [-0.019 -0.014]
+ [ 0.046 -0.039]] N/m
+step   1 S5_voronoi_n25: e=0.0100 s=  1.49N/m nb=  0 | S5_voronoi_n25: e=0.0100 s=  1.30N/m nb=  0 | S5_slit0_phi0.: e=0.0100 s=  2.21N/m nb=  0  fire_it=170 t=240s
+step   2 S5_voronoi_n25: e=0.0200 s=  2.79N/m nb=  0 | S5_voronoi_n25: e=0.0200 s=  2.57N/m nb=  0 | S5_slit0_phi0.: e=0.0200 s=  4.35N/m nb=  0  fire_it=190 t=312s
+step   3 S5_voronoi_n25: e=0.0300 s=  4.13N/m nb=  0 | S5_voronoi_n25: e=0.0300 s=  3.74N/m nb=  0 | S5_slit0_phi0.: e=0.0300 s=  6.42N/m nb=  0  fire_it=150 t=363s
+step   4 S5_voronoi_n25: e=0.0400 s=  5.36N/m nb=  0 | S5_voronoi_n25: e=0.0400 s=  4.73N/m nb=  0 | S5_slit0_phi0.: e=0.0400 s=  8.47N/m nb=  0  fire_it=300 t=498s
+  step 5: early bisection for [1] -> d_eps=[0.005]
+step   5 S5_voronoi_n25: e=0.0500 s=  6.68N/m nb=  0 | S5_voronoi_n25: e=0.0400 s=  4.73N/m nb=  0 | S5_slit0_phi0.: e=0.0500 s= 10.45N/m nb=  0  fire_it=360 t=621s
+step   6 S5_voronoi_n25: e=0.0600 s=  7.86N/m nb=  0 | S5_voronoi_n25: e=0.0450 s=  5.29N/m nb=  0 | S5_slit0_phi0.: e=0.0600 s= 12.38N/m nb=  0  fire_it=190 t=695s
+  step 7: early bisection for [1] -> d_eps=[0.0025]
+step   7 S5_voronoi_n25: e=0.0700 s=  8.95N/m nb=  0 | S5_voronoi_n25: e=0.0450 s=  5.29N/m nb=  0 | S5_slit0_phi0.: e=0.0700 s= 14.25N/m nb=  0  fire_it=380 t=828s
+  step 8: early bisection for [0] -> d_eps=[0.005]
+step   8 S5_voronoi_n25: e=0.0700 s=  8.95N/m nb=  0 | S5_voronoi_n25: e=0.0475 s=  5.47N/m nb=  0 | S5_slit0_phi0.: e=0.0800 s= 16.04N/m nb=  0  fire_it=240 t=910s
+  step 9: early bisection for [1] -> d_eps=[0.00125]
+step   9 S5_voronoi_n25: e=0.0750 s=  9.48N/m nb=  0 | S5_voronoi_n25: e=0.0475 s=  5.47N/m nb=  0 | S5_slit0_phi0.: e=0.0900 s= 17.75N/m nb=  0  fire_it=210 t=986s
+  step 10: early bisection for [0] -> d_eps=[0.0025]
+step  10 S5_voronoi_n25: e=0.0750 s=  9.48N/m nb=  0 | S5_voronoi_n25: e=0.0488 s=  5.42N/m nb=  1 | S5_slit0_phi0.: e=0.1000 s= 19.32N/m nb=  0  fire_it=260 t=1080s
+  step 11: early bisection for [0] -> d_eps=[0.00125]
+step  11 S5_voronoi_n25: e=0.0750 s=  9.48N/m nb=  0 | S5_voronoi_n25: e=0.0537 s=  5.82N/m nb=  1 | S5_slit0_phi0.: e=0.1100 s= 20.46N/m nb=  0  fire_it=340 t=1196s
+step  12 S5_voronoi_n25: e=0.0763 s=  9.51N/m nb=  1 | S5_voronoi_n25: e=0.0587 s=  6.39N/m nb=  0 | S5_slit0_phi0.: e=0.1200 s= 21.51N/m nb=  0  fire_it=180 t=1257s
+step  13 S5_voronoi_n25: e=0.0813 s= 10.11N/m nb=  0 | S5_voronoi_n25: e=0.0638 s=  6.53N/m nb=  1 | S5_slit0_phi0.: e=0.1300 s= 22.55N/m nb=  0  fire_it=10 t=1391s
+step  14 S5_voronoi_n25: e=0.0863 s= 10.45N/m nb=  0 | S5_voronoi_n25: e=0.0688 s=  6.61N/m nb=  1 | S5_slit0_phi0.: e=0.1400 s= 23.76N/m nb=  0  fire_it=190 t=1578s
+step  15 S5_voronoi_n25: e=0.0913 s=  5.86N/m nb= 13 | S5_voronoi_n25: e=0.0738 s=  4.44N/m nb=  4 | S5_slit0_phi0.: e=0.1500 s= 24.75N/m nb=  0  fire_it=1260 t=2341s
+step  16 S5_voronoi_n25: e=0.0963 s=  5.82N/m nb=  4 | S5_voronoi_n25: e=0.0788 s=  4.75N/m nb=  0 | S5_slit0_phi0.: e=0.1600 s= 25.43N/m nb=  0  fire_it=390 t=2532s
+  step 17: early bisection for [2] -> d_eps=[0.005]
+step  17 S5_voronoi_n25: e=0.1013 s=  3.07N/m nb= 13 | S5_voronoi_n25: e=0.0838 s=  5.08N/m nb=  1 | S5_slit0_phi0.: e=0.1600 s= 25.43N/m nb=  0  fire_it=1740 t=3891s
+  step 18: early bisection for [2] -> d_eps=[0.0025]
+step  18 S5_voronoi_n25: e=0.1063 s=  2.77N/m nb=  0 | S5_voronoi_n25: e=0.0888 s=  3.86N/m nb=  8 | S5_slit0_phi0.: e=0.1600 s= 25.43N/m nb=  0  fire_it=1450 t=4695s
+step  19 S5_voronoi_n25: e=0.1113 s=  1.43N/m nb=  2 | S5_voronoi_n25: e=0.0938 s=  3.93N/m nb=  1 | S5_slit0_phi0.: e=0.1625 s= 25.61N/m nb=  0  fire_it=1580 t=6075s
+  step 20: early bisection for [2] -> d_eps=[0.00125]
+[done] S5_voronoi_n25_reg0.8 -> run_20260905_164745_964df4: reconstructed but viable; strength 6.61 N/m @ 0.069, fail 0.099, mode progressive (multiple events, load retained), not spanning (fractured)
+step  20 S5_voronoi_n25: e=0.1163 s=  1.40N/m nb=  0 | S5_voronoi_n25: e=0.0988 s=  0.31N/m nb=  4* | S5_slit0_phi0.: e=0.1625 s= 25.61N/m nb=  0  fire_it=1430 t=7678s
+[done] S5_voronoi_n25_reg0.3 -> run_20260905_170101_2eb72e: reconstructed but viable; strength 10.45 N/m @ 0.086, fail 0.121, mode progressive (multiple events, load retained), stress collapsed
+step  21 S5_voronoi_n25: e=0.1213 s=  0.93N/m nb=  1* | S5_voronoi_n25: e=0.0988 s=  0.31N/m nb=  0* | S5_slit0_phi0.: e=0.1638 s=  4.71N/m nb= 84  fire_it=1110 t=8472s
+[done] S5_slit0_phi0.1 -> run_20260905_170819_0771d0: reconstructed but viable; strength 25.61 N/m @ 0.163, fail 0.169, mode abrupt brittle (single avalanche), stress collapsed
+step  22 S5_voronoi_n25: e=0.1213 s=  0.93N/m nb=  0* | S5_voronoi_n25: e=0.0988 s=  0.31N/m nb=  0* | S5_slit0_phi0.: e=0.1688 s=  2.37N/m nb=  8*  fire_it=750 t=8911s
+batch finished in 8915s (simulation 8915s); evaluations {'n_evaluations': 28537, 'fire_iterations': 28300, 'n_rebuilds': 608, 'n_reverts': 9, 'n_soft_converged': 6}

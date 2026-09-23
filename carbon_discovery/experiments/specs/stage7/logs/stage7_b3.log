@@ -1,0 +1,65 @@
+batch stage7_b3: 3 structures, N = [3068, 2636, 3026], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0061 -0.0055]
+ [ 0.0073  0.0036]
+ [ 0.0044  0.0038]], sigma = [[-0.052 -0.043]
+ [-0.02   0.053]
+ [-0.021  0.006]] N/m
+step   1 S7_slit_0deg_a: e=0.0100 s=  2.20N/m nb=  0 | S7_strut_090_p: e=0.0100 s=  1.20N/m nb=  0 | S7_mesh_jitter: e=0.0100 s=  1.31N/m nb=  0  fire_it=100 t=95s
+step   2 S7_slit_0deg_a: e=0.0200 s=  4.41N/m nb=  0 | S7_strut_090_p: e=0.0200 s=  2.41N/m nb=  0 | S7_mesh_jitter: e=0.0200 s=  2.57N/m nb=  0  fire_it=130 t=119s
+step   3 S7_slit_0deg_a: e=0.0300 s=  6.57N/m nb=  0 | S7_strut_090_p: e=0.0300 s=  3.60N/m nb=  0 | S7_mesh_jitter: e=0.0300 s=  3.72N/m nb=  0  fire_it=130 t=140s
+step   4 S7_slit_0deg_a: e=0.0400 s=  8.61N/m nb=  0 | S7_strut_090_p: e=0.0400 s=  4.76N/m nb=  0 | S7_mesh_jitter: e=0.0400 s=  4.94N/m nb=  0  fire_it=150 t=174s
+step   5 S7_slit_0deg_a: e=0.0500 s= 10.53N/m nb=  0 | S7_strut_090_p: e=0.0500 s=  5.87N/m nb=  0 | S7_mesh_jitter: e=0.0500 s=  6.08N/m nb=  0  fire_it=110 t=200s
+step   6 S7_slit_0deg_a: e=0.0600 s= 12.30N/m nb=  0 | S7_strut_090_p: e=0.0600 s=  6.93N/m nb=  0 | S7_mesh_jitter: e=0.0600 s=  7.25N/m nb=  0  fire_it=90 t=230s
+step   7 S7_slit_0deg_a: e=0.0700 s= 13.90N/m nb=  0 | S7_strut_090_p: e=0.0700 s=  7.97N/m nb=  0 | S7_mesh_jitter: e=0.0700 s=  8.30N/m nb=  0  fire_it=130 t=259s
+step   8 S7_slit_0deg_a: e=0.0800 s= 15.38N/m nb=  0 | S7_strut_090_p: e=0.0800 s=  8.97N/m nb=  0 | S7_mesh_jitter: e=0.0800 s=  9.27N/m nb=  0  fire_it=90 t=282s
+step   9 S7_slit_0deg_a: e=0.0900 s= 16.71N/m nb=  0 | S7_strut_090_p: e=0.0900 s=  9.90N/m nb=  0 | S7_mesh_jitter: e=0.0900 s= 10.23N/m nb=  0  fire_it=130 t=311s
+step  10 S7_slit_0deg_a: e=0.1000 s= 17.85N/m nb=  0 | S7_strut_090_p: e=0.1000 s= 10.34N/m nb=  0 | S7_mesh_jitter: e=0.1000 s= 11.09N/m nb=  0  fire_it=380 t=477s
+  step 11: early bisection for [2] -> d_eps=[0.005]
+step  11 S7_slit_0deg_a: e=0.1100 s= 18.81N/m nb=  0 | S7_strut_090_p: e=0.1100 s= 11.08N/m nb=  0 | S7_mesh_jitter: e=0.1000 s= 11.09N/m nb=  0  fire_it=400 t=577s
+  step 12: early bisection for [2] -> d_eps=[0.0025]
+step  12 S7_slit_0deg_a: e=0.1200 s= 19.52N/m nb=  0 | S7_strut_090_p: e=0.1200 s= 11.27N/m nb=  0 | S7_mesh_jitter: e=0.1000 s= 11.09N/m nb=  0  fire_it=390 t=652s
+  step 13: early bisection for [2] -> d_eps=[0.00125]
+step  13 S7_slit_0deg_a: e=0.1300 s= 20.11N/m nb=  0 | S7_strut_090_p: e=0.1300 s= 12.04N/m nb=  0 | S7_mesh_jitter: e=0.1000 s= 11.09N/m nb=  0  fire_it=200 t=690s
+  step 14: early bisection for [0] -> d_eps=[0.005]
+step  14 S7_slit_0deg_a: e=0.1300 s= 20.11N/m nb=  0 | S7_strut_090_p: e=0.1400 s= 12.69N/m nb=  0 | S7_mesh_jitter: e=0.1012 s= 11.11N/m nb=  2  fire_it=210 t=726s
+  step 15: early bisection for [0] -> d_eps=[0.0025]
+step  15 S7_slit_0deg_a: e=0.1300 s= 20.11N/m nb=  0 | S7_strut_090_p: e=0.1500 s= 13.33N/m nb=  0 | S7_mesh_jitter: e=0.1062 s= 11.46N/m nb=  1  fire_it=260 t=776s
+step  16 S7_slit_0deg_a: e=0.1325 s= 20.22N/m nb=  0 | S7_strut_090_p: e=0.1600 s= 13.88N/m nb=  0 | S7_mesh_jitter: e=0.1113 s= 11.71N/m nb=  3  fire_it=360 t=839s
+  step 17: early bisection for [0] -> d_eps=[0.00125]
+step  17 S7_slit_0deg_a: e=0.1325 s= 20.22N/m nb=  0 | S7_strut_090_p: e=0.1700 s= 14.24N/m nb=  0 | S7_mesh_jitter: e=0.1163 s= 11.95N/m nb=  4  fire_it=150 t=940s
+  step 18: early bisection for [1] -> d_eps=[0.005]
+step  18 S7_slit_0deg_a: e=0.1337 s= 19.61N/m nb= 48 | S7_strut_090_p: e=0.1700 s= 14.24N/m nb=  0 | S7_mesh_jitter: e=0.1213 s= 10.09N/m nb= 11  fire_it=2000 t=1384s
+[done] S7_mesh_jitter1.5_sd0.1_s11 -> run_20260905_215225_93748d: reconstructed but viable; strength 11.95 N/m @ 0.116, fail 0.126, mode progressive (multiple events, load retained), not spanning (fractured)
+step  19 S7_slit_0deg_a: e=0.1387 s= 19.92N/m nb=  0 | S7_strut_090_p: e=0.1750 s= 14.43N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb= 17*  fire_it=800 t=1909s
+  step 20: early bisection for [1] -> d_eps=[0.0025]
+step  20 S7_slit_0deg_a: e=0.1437 s= 19.90N/m nb= 16 | S7_strut_090_p: e=0.1750 s= 14.43N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=400 t=1988s
+  step 21: early bisection for [1] -> d_eps=[0.00125]
+step  21 S7_slit_0deg_a: e=0.1487 s= 19.67N/m nb= 40 | S7_strut_090_p: e=0.1750 s= 14.43N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=400 t=2063s
+step  22 S7_slit_0deg_a: e=0.1537 s= 19.94N/m nb=  0 | S7_strut_090_p: e=0.1763 s=  3.75N/m nb= 65 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=2000 t=2564s
+step  23 S7_slit_0deg_a: e=0.1588 s= 15.33N/m nb= 64 | S7_strut_090_p: e=0.1813 s=  2.73N/m nb=  1 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=1010 t=3169s
+step  24 S7_slit_0deg_a: e=0.1638 s=  7.17N/m nb= 32 | S7_strut_090_p: e=0.1863 s=  2.86N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=1180 t=3936s
+step  25 S7_slit_0deg_a: e=0.1688 s=  6.89N/m nb=  8 | S7_strut_090_p: e=0.1913 s=  2.92N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=490 t=4149s
+step  26 S7_slit_0deg_a: e=0.1738 s=  7.45N/m nb=  0 | S7_strut_090_p: e=0.1963 s=  3.09N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=50 t=4230s
+step  27 S7_slit_0deg_a: e=0.1788 s=  7.93N/m nb=  0 | S7_strut_090_p: e=0.2013 s=  3.22N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=140 t=4328s
+step  28 S7_slit_0deg_a: e=0.1838 s=  7.85N/m nb=  0 | S7_strut_090_p: e=0.2063 s=  2.44N/m nb=  5 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=970 t=5034s
+step  29 S7_slit_0deg_a: e=0.1888 s=  7.72N/m nb=  0 | S7_strut_090_p: e=0.2113 s=  2.45N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=740 t=5258s
+step  30 S7_slit_0deg_a: e=0.1938 s=  7.67N/m nb=  0 | S7_strut_090_p: e=0.2163 s=  2.05N/m nb=  2 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=800 t=5883s
+step  31 S7_slit_0deg_a: e=0.1988 s=  8.03N/m nb=  0 | S7_strut_090_p: e=0.2213 s=  2.04N/m nb=  1 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=990 t=6157s
+step  32 S7_slit_0deg_a: e=0.2038 s=  8.48N/m nb=  0 | S7_strut_090_p: e=0.2263 s=  2.08N/m nb=  1 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=530 t=6378s
+step  33 S7_slit_0deg_a: e=0.2088 s=  8.57N/m nb=  0 | S7_strut_090_p: e=0.2313 s=  2.26N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=580 t=6571s
+step  34 S7_slit_0deg_a: e=0.2138 s=  9.04N/m nb=  0 | S7_strut_090_p: e=0.2363 s=  2.35N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=180 t=6709s
+step  35 S7_slit_0deg_a: e=0.2188 s=  8.81N/m nb=  8 | S7_strut_090_p: e=0.2413 s=  2.21N/m nb=  2 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=1130 t=7040s
+step  36 S7_slit_0deg_a: e=0.2238 s=  9.09N/m nb=  0 | S7_strut_090_p: e=0.2463 s=  2.31N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=130 t=7170s
+step  37 S7_slit_0deg_a: e=0.2288 s=  9.56N/m nb=  0 | S7_strut_090_p: e=0.2513 s=  1.91N/m nb=  2 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=1920 t=7803s
+step  38 S7_slit_0deg_a: e=0.2338 s=  9.94N/m nb=  0 | S7_strut_090_p: e=0.2563 s=  1.89N/m nb=  1 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=1050 t=8093s
+step  39 S7_slit_0deg_a: e=0.2388 s= 10.34N/m nb=  0 | S7_strut_090_p: e=0.2613 s=  2.00N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=350 t=8235s
+step  40 S7_slit_0deg_a: e=0.2438 s= 10.57N/m nb=  0 | S7_strut_090_p: e=0.2663 s=  2.07N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=440 t=8393s
+step  41 S7_slit_0deg_a: e=0.2488 s=  9.74N/m nb= 16 | S7_strut_090_p: e=0.2713 s=  1.87N/m nb=  1 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=1390 t=8908s
+[done] S7_slit_0deg_armchair -> run_20260905_235534_a5e0cc: reconstructed but viable; strength 20.22 N/m @ 0.132, fail 0.254, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  42 S7_slit_0deg_a: e=0.2538 s=  9.18N/m nb=  8* | S7_strut_090_p: e=0.2763 s=  2.06N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=620 t=9298s
+step  43 S7_slit_0deg_a: e=0.2538 s=  9.18N/m nb=  0* | S7_strut_090_p: e=0.2813 s=  1.60N/m nb=  2 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=810 t=9803s
+step  44 S7_slit_0deg_a: e=0.2538 s=  9.18N/m nb=  0* | S7_strut_090_p: e=0.2863 s=  1.56N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=1260 t=10064s
+step  45 S7_slit_0deg_a: e=0.2538 s=  9.18N/m nb=  0* | S7_strut_090_p: e=0.2913 s=  1.57N/m nb=  0 | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=620 t=10289s
+[done] S7_strut_090_phi0.3 -> run_20260906_001619_c8351b: reconstructed but viable; strength 14.43 N/m @ 0.175, fail 0.296, mode stepwise (few events), post-peak strain limit reached (load still carried)
+step  46 S7_slit_0deg_a: e=0.2538 s=  9.18N/m nb=  0* | S7_strut_090_p: e=0.2963 s=  1.56N/m nb=  1* | S7_mesh_jitter: e=0.1263 s=  3.52N/m nb=  0*  fire_it=550 t=10543s
+batch finished in 10545s (simulation 10545s); evaluations {'n_evaluations': 60370, 'fire_iterations': 60000, 'n_rebuilds': 796, 'n_reverts': 9, 'n_soft_converged': 15}

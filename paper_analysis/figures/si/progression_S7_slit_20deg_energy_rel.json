@@ -1,0 +1,71 @@
+{
+ "run_id": "run_20260906_012602_320a91",
+ "name": "S7_slit_20deg",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": -0.0569696269423793,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 8,
+   "eps": 0.06375,
+   "sigma_Nm": 8.23024301187511,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage",
+   "frame": 9,
+   "eps": 0.065,
+   "sigma_Nm": 8.075620680796348,
+   "n_broken": 4
+  },
+  {
+   "label": "peak_load",
+   "frame": 11,
+   "eps": 0.07500000000000001,
+   "sigma_Nm": 8.937497909653079,
+   "n_broken": 8
+  },
+  {
+   "label": "major_propagation",
+   "frame": 12,
+   "eps": 0.08000000000000002,
+   "sigma_Nm": 4.8964187011635065,
+   "n_broken": 24
+  },
+  {
+   "label": "post_peak",
+   "frame": 13,
+   "eps": 0.08500000000000002,
+   "sigma_Nm": 5.115950935428479,
+   "n_broken": 24
+  },
+  {
+   "label": "damage_event",
+   "frame": 15,
+   "eps": 0.09500000000000003,
+   "sigma_Nm": 6.034961255522164,
+   "n_broken": 27
+  },
+  {
+   "label": "damage_event",
+   "frame": 21,
+   "eps": 0.12500000000000006,
+   "sigma_Nm": 8.10580733588519,
+   "n_broken": 40
+  },
+  {
+   "label": "damage_event",
+   "frame": 26,
+   "eps": 0.15000000000000008,
+   "sigma_Nm": 8.1042631466641,
+   "n_broken": 52
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "paper/figures/si/progression_S7_slit_20deg_energy_rel.png"
+}

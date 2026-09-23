@@ -1,0 +1,110 @@
+{
+ "campaign": "discovery",
+ "stage": "stage7_holdouts",
+ "batch_name": "stage7_b2",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S7_mesh_p24_phi0.3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 24,
+    "pore_d": 13.562
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen period/porosity combination (24 A, phi 0.3)",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 10.4,
+    "modulus_2d_Nm": 84.0,
+    "failure_strain": 0.172,
+    "work_to_failure_J_m2": 0.9,
+    "damage_localization": 0.34,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=fine_round, minSF=0.61, sigma_net(median of 36)=17.0 N/m; kNN: ['S5_H2_D40_W20', 'S6_mesh_jitter2.0_s3', 'S2_mesh_phi0.3']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_precrack_L50_cell150",
+   "family": "precrack",
+   "params": {
+    "Lx": 150,
+    "Ly": 150,
+    "crack_len": 50,
+    "crack_w": 3.0,
+    "angle_deg": 90
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen: 50 A crack (plateau test)",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 16.3,
+    "modulus_2d_Nm": 244.0,
+    "failure_strain": 0.105,
+    "work_to_failure_J_m2": 0.96,
+    "damage_localization": 0.48,
+    "fracture_mode_class": "abrupt",
+    "basis": "class=flawed_sheet, minSF=0.67, sigma_net(median of 19)=24.5 N/m; kNN: ['S4_precrack_L40_cell150', 'S4_precrack_L30_cell150', 'S2_vac_random_0.01']",
+    "crack_path_or_mechanism": "crack nucleates at the flaw tip / largest defect and runs across the sheet"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_graded_x_weak",
+   "family": "graded_pores",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "pore_d_min": 5.0,
+    "mode": "x",
+    "pore_d_max": 9.5
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen: weaker gradient (5 A minimum pore)",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 15.4,
+    "modulus_2d_Nm": 131.0,
+    "failure_strain": 0.145,
+    "work_to_failure_J_m2": 1.0,
+    "damage_localization": 0.45,
+    "fracture_mode_class": "progressive",
+    "basis": "class=flawed_sheet, minSF=0.63, sigma_net(median of 19)=24.5 N/m; kNN: ['S2_graded_radial', 'S2_graded_x', 'S2_hole20_background']",
+    "crack_path_or_mechanism": "crack nucleates at the flaw tip / largest defect and runs across the sheet"
+   },
+   "notes": null
+  }
+ ]
+}

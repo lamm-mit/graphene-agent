@@ -1,0 +1,59 @@
+batch stage2_b04: 4 structures, N = [3040, 3034, 3043, 3036], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0049 0.004 ]
+ [0.0037 0.005 ]
+ [0.0048 0.0048]
+ [0.005  0.0053]], sigma = [[-0.018  0.015]
+ [ 0.016 -0.035]
+ [-0.01  -0.009]
+ [-0.006 -0.014]] N/m
+step   1 S2_mesh_jitter: e=0.0100 s=  1.45N/m nb=  0 | S2_mesh_jitter: e=0.0100 s=  1.48N/m nb=  0 | S2_mesh_jitter: e=0.0100 s=  1.42N/m nb=  0 | S2_mesh_sizedi: e=0.0100 s=  1.40N/m nb=  0  fire_it=130 t=153s
+step   2 S2_mesh_jitter: e=0.0200 s=  2.52N/m nb=  0 | S2_mesh_jitter: e=0.0200 s=  2.69N/m nb=  0 | S2_mesh_jitter: e=0.0200 s=  2.64N/m nb=  0 | S2_mesh_sizedi: e=0.0200 s=  2.63N/m nb=  0  fire_it=160 t=189s
+step   3 S2_mesh_jitter: e=0.0300 s=  3.82N/m nb=  0 | S2_mesh_jitter: e=0.0300 s=  3.76N/m nb=  0 | S2_mesh_jitter: e=0.0300 s=  3.75N/m nb=  0 | S2_mesh_sizedi: e=0.0300 s=  3.93N/m nb=  0  fire_it=140 t=222s
+step   4 S2_mesh_jitter: e=0.0400 s=  5.05N/m nb=  0 | S2_mesh_jitter: e=0.0400 s=  4.71N/m nb=  0 | S2_mesh_jitter: e=0.0400 s=  4.91N/m nb=  0 | S2_mesh_sizedi: e=0.0400 s=  5.13N/m nb=  0  fire_it=230 t=297s
+step   5 S2_mesh_jitter: e=0.0500 s=  6.32N/m nb=  0 | S2_mesh_jitter: e=0.0500 s=  5.85N/m nb=  0 | S2_mesh_jitter: e=0.0500 s=  6.10N/m nb=  0 | S2_mesh_sizedi: e=0.0500 s=  6.33N/m nb=  0  fire_it=140 t=330s
+step   6 S2_mesh_jitter: e=0.0600 s=  7.54N/m nb=  0 | S2_mesh_jitter: e=0.0600 s=  7.01N/m nb=  0 | S2_mesh_jitter: e=0.0600 s=  7.24N/m nb=  0 | S2_mesh_sizedi: e=0.0600 s=  7.55N/m nb=  0  fire_it=200 t=381s
+step   7 S2_mesh_jitter: e=0.0700 s=  8.58N/m nb=  0 | S2_mesh_jitter: e=0.0700 s=  8.05N/m nb=  0 | S2_mesh_jitter: e=0.0700 s=  8.28N/m nb=  0 | S2_mesh_sizedi: e=0.0700 s=  8.64N/m nb=  0  fire_it=150 t=418s
+step   8 S2_mesh_jitter: e=0.0800 s=  9.60N/m nb=  0 | S2_mesh_jitter: e=0.0800 s=  8.98N/m nb=  0 | S2_mesh_jitter: e=0.0800 s=  9.30N/m nb=  0 | S2_mesh_sizedi: e=0.0800 s=  9.60N/m nb=  0  fire_it=230 t=469s
+step   9 S2_mesh_jitter: e=0.0900 s= 10.63N/m nb=  0 | S2_mesh_jitter: e=0.0900 s=  9.88N/m nb=  0 | S2_mesh_jitter: e=0.0900 s= 10.24N/m nb=  0 | S2_mesh_sizedi: e=0.0900 s= 10.62N/m nb=  0  fire_it=260 t=529s
+  step 10: early bisection for [0, 2, 3] -> d_eps=[0.005 0.005 0.005]
+step  10 S2_mesh_jitter: e=0.0900 s= 10.63N/m nb=  0 | S2_mesh_jitter: e=0.1000 s= 10.73N/m nb=  0 | S2_mesh_jitter: e=0.0900 s= 10.24N/m nb=  0 | S2_mesh_sizedi: e=0.0900 s= 10.62N/m nb=  0  fire_it=400 t=619s
+  step 11: early bisection for [2, 3] -> d_eps=[0.0025 0.0025]
+step  11 S2_mesh_jitter: e=0.0950 s= 11.12N/m nb=  0 | S2_mesh_jitter: e=0.1100 s= 11.45N/m nb=  0 | S2_mesh_jitter: e=0.0900 s= 10.24N/m nb=  0 | S2_mesh_sizedi: e=0.0900 s= 10.62N/m nb=  0  fire_it=30 t=714s
+  step 12: early bisection for [0, 1] -> d_eps=[0.0025 0.005 ]
+step  12 S2_mesh_jitter: e=0.0950 s= 11.12N/m nb=  0 | S2_mesh_jitter: e=0.1100 s= 11.45N/m nb=  0 | S2_mesh_jitter: e=0.0925 s= 10.45N/m nb=  0 | S2_mesh_sizedi: e=0.0925 s= 10.83N/m nb=  0  fire_it=400 t=804s
+  step 13: early bisection for [1, 2, 3] -> d_eps=[0.0025  0.00125 0.00125]
+step  13 S2_mesh_jitter: e=0.0975 s= 11.32N/m nb=  0 | S2_mesh_jitter: e=0.1100 s= 11.45N/m nb=  0 | S2_mesh_jitter: e=0.0925 s= 10.45N/m nb=  0 | S2_mesh_sizedi: e=0.0925 s= 10.83N/m nb=  0  fire_it=400 t=890s
+  step 14: early bisection for [0, 1] -> d_eps=[0.00125 0.00125]
+step  14 S2_mesh_jitter: e=0.0975 s= 11.32N/m nb=  0 | S2_mesh_jitter: e=0.1100 s= 11.45N/m nb=  0 | S2_mesh_jitter: e=0.0938 s= 10.48N/m nb=  1 | S2_mesh_sizedi: e=0.0938 s= 10.88N/m nb=  2  fire_it=90 t=1005s
+step  15 S2_mesh_jitter: e=0.0988 s= 11.25N/m nb=  2 | S2_mesh_jitter: e=0.1112 s= 11.49N/m nb=  1 | S2_mesh_jitter: e=0.0988 s= 10.88N/m nb=  0 | S2_mesh_sizedi: e=0.0988 s= 11.36N/m nb=  0  fire_it=70 t=1129s
+step  16 S2_mesh_jitter: e=0.1038 s= 11.65N/m nb=  0 | S2_mesh_jitter: e=0.1162 s= 11.53N/m nb=  7 | S2_mesh_jitter: e=0.1038 s= 11.09N/m nb=  4 | S2_mesh_sizedi: e=0.1038 s= 11.82N/m nb=  0  fire_it=330 t=1318s
+step  17 S2_mesh_jitter: e=0.1088 s= 11.98N/m nb=  2 | S2_mesh_jitter: e=0.1212 s= 11.80N/m nb=  4 | S2_mesh_jitter: e=0.1088 s= 10.41N/m nb= 10 | S2_mesh_sizedi: e=0.1088 s= 11.66N/m nb=  1  fire_it=1500 t=1912s
+step  18 S2_mesh_jitter: e=0.1138 s= 12.11N/m nb=  3 | S2_mesh_jitter: e=0.1263 s= 10.36N/m nb= 14 | S2_mesh_jitter: e=0.1138 s= 10.45N/m nb=  5 | S2_mesh_sizedi: e=0.1138 s= 11.97N/m nb=  1  fire_it=1410 t=2471s
+step  19 S2_mesh_jitter: e=0.1188 s= 12.26N/m nb=  6 | S2_mesh_jitter: e=0.1313 s=  6.82N/m nb= 17 | S2_mesh_jitter: e=0.1188 s=  6.20N/m nb= 17 | S2_mesh_sizedi: e=0.1188 s= 12.04N/m nb=  6  fire_it=1500 t=3082s
+step  20 S2_mesh_jitter: e=0.1238 s= 12.43N/m nb=  5 | S2_mesh_jitter: e=0.1363 s=  6.42N/m nb=  4 | S2_mesh_jitter: e=0.1238 s=  5.83N/m nb=  4 | S2_mesh_sizedi: e=0.1238 s=  4.51N/m nb= 22  fire_it=1500 t=3659s
+step  21 S2_mesh_jitter: e=0.1288 s= 12.66N/m nb=  4 | S2_mesh_jitter: e=0.1413 s=  5.91N/m nb=  3 | S2_mesh_jitter: e=0.1288 s=  5.95N/m nb=  3 | S2_mesh_sizedi: e=0.1288 s=  3.75N/m nb=  1  fire_it=1410 t=3983s
+step  22 S2_mesh_jitter: e=0.1338 s=  7.67N/m nb= 27 | S2_mesh_jitter: e=0.1463 s=  5.43N/m nb=  5 | S2_mesh_jitter: e=0.1338 s=  5.51N/m nb=  1 | S2_mesh_sizedi: e=0.1338 s=  3.12N/m nb=  2  fire_it=1500 t=4613s
+step  23 S2_mesh_jitter: e=0.1388 s=  4.04N/m nb= 10 | S2_mesh_jitter: e=0.1513 s=  5.17N/m nb=  2 | S2_mesh_jitter: e=0.1388 s=  5.15N/m nb=  2 | S2_mesh_sizedi: e=0.1388 s=  2.39N/m nb=  0  fire_it=1500 t=5133s
+step  24 S2_mesh_jitter: e=0.1438 s=  3.39N/m nb=  1 | S2_mesh_jitter: e=0.1563 s=  5.40N/m nb=  1 | S2_mesh_jitter: e=0.1438 s=  4.73N/m nb=  2 | S2_mesh_sizedi: e=0.1438 s=  2.01N/m nb=  0  fire_it=1450 t=5596s
+step  25 S2_mesh_jitter: e=0.1488 s=  2.80N/m nb=  1 | S2_mesh_jitter: e=0.1613 s=  5.46N/m nb=  0 | S2_mesh_jitter: e=0.1488 s=  4.51N/m nb=  3 | S2_mesh_sizedi: e=0.1488 s=  2.15N/m nb=  1  fire_it=1500 t=6137s
+step  26 S2_mesh_jitter: e=0.1538 s=  2.62N/m nb=  0 | S2_mesh_jitter: e=0.1663 s=  5.45N/m nb=  2 | S2_mesh_jitter: e=0.1538 s=  4.25N/m nb=  2 | S2_mesh_sizedi: e=0.1538 s=  2.44N/m nb=  0  fire_it=1500 t=6553s
+step  27 S2_mesh_jitter: e=0.1588 s=  2.53N/m nb=  1 | S2_mesh_jitter: e=0.1713 s=  5.62N/m nb=  0 | S2_mesh_jitter: e=0.1588 s=  4.02N/m nb=  3 | S2_mesh_sizedi: e=0.1588 s=  2.41N/m nb=  0  fire_it=1250 t=6976s
+step  28 S2_mesh_jitter: e=0.1638 s=  2.49N/m nb=  1 | S2_mesh_jitter: e=0.1763 s=  5.22N/m nb=  5 | S2_mesh_jitter: e=0.1638 s=  3.45N/m nb=  3 | S2_mesh_sizedi: e=0.1638 s=  1.82N/m nb=  1  fire_it=1500 t=7491s
+step  29 S2_mesh_jitter: e=0.1688 s=  2.58N/m nb=  0 | S2_mesh_jitter: e=0.1813 s=  5.10N/m nb=  1 | S2_mesh_jitter: e=0.1688 s=  3.34N/m nb=  1 | S2_mesh_sizedi: e=0.1688 s=  1.98N/m nb=  0  fire_it=1470 t=7886s
+step  30 S2_mesh_jitter: e=0.1738 s=  2.46N/m nb=  1 | S2_mesh_jitter: e=0.1863 s=  4.02N/m nb=  6 | S2_mesh_jitter: e=0.1738 s=  3.34N/m nb=  2 | S2_mesh_sizedi: e=0.1738 s=  2.19N/m nb=  1  fire_it=1500 t=8300s
+step  31 S2_mesh_jitter: e=0.1788 s=  2.30N/m nb=  1 | S2_mesh_jitter: e=0.1913 s=  3.77N/m nb=  2 | S2_mesh_jitter: e=0.1788 s=  3.45N/m nb=  2 | S2_mesh_sizedi: e=0.1788 s=  2.19N/m nb=  1  fire_it=1500 t=8710s
+step  32 S2_mesh_jitter: e=0.1838 s=  2.10N/m nb=  1 | S2_mesh_jitter: e=0.1963 s=  3.85N/m nb=  0 | S2_mesh_jitter: e=0.1838 s=  3.06N/m nb=  1 | S2_mesh_sizedi: e=0.1838 s=  2.37N/m nb=  0  fire_it=1500 t=9113s
+step  33 S2_mesh_jitter: e=0.1888 s=  1.87N/m nb=  2 | S2_mesh_jitter: e=0.2013 s=  3.91N/m nb=  1 | S2_mesh_jitter: e=0.1888 s=  2.96N/m nb=  0 | S2_mesh_sizedi: e=0.1888 s=  2.31N/m nb=  1  fire_it=1500 t=9588s
+step  34 S2_mesh_jitter: e=0.1938 s=  2.08N/m nb=  0 | S2_mesh_jitter: e=0.2063 s=  3.93N/m nb=  1 | S2_mesh_jitter: e=0.1938 s=  2.78N/m nb=  0 | S2_mesh_sizedi: e=0.1938 s=  2.44N/m nb=  0  fire_it=1360 t=10011s
+step  35 S2_mesh_jitter: e=0.1988 s=  2.09N/m nb=  0 | S2_mesh_jitter: e=0.2113 s=  3.90N/m nb=  1 | S2_mesh_jitter: e=0.1988 s=  2.75N/m nb=  1 | S2_mesh_sizedi: e=0.1988 s=  2.56N/m nb=  0  fire_it=1500 t=10424s
+step  36 S2_mesh_jitter: e=0.2038 s=  2.12N/m nb=  0 | S2_mesh_jitter: e=0.2163 s=  3.96N/m nb=  1 | S2_mesh_jitter: e=0.2038 s=  2.76N/m nb=  1 | S2_mesh_sizedi: e=0.2038 s=  2.35N/m nb=  1  fire_it=1500 t=10968s
+step  37 S2_mesh_jitter: e=0.2088 s=  1.51N/m nb=  2 | S2_mesh_jitter: e=0.2213 s=  3.75N/m nb=  2 | S2_mesh_jitter: e=0.2088 s=  2.66N/m nb=  1 | S2_mesh_sizedi: e=0.2088 s=  1.82N/m nb=  0  fire_it=1500 t=11457s
+[done] S2_mesh_jitter1.0 -> run_20260905_073820_8a1c2e: reconstructed but viable; strength 12.66 N/m @ 0.129, fail 0.214, mode stepwise (few events), stress collapsed
+step  38 S2_mesh_jitter: e=0.2138 s=  1.12N/m nb=  0* | S2_mesh_jitter: e=0.2263 s=  3.65N/m nb=  2 | S2_mesh_jitter: e=0.2138 s=  2.61N/m nb=  0 | S2_mesh_sizedi: e=0.2138 s=  1.54N/m nb=  1  fire_it=1500 t=11939s
+step  39 S2_mesh_jitter: e=0.2138 s=  1.12N/m nb=  0* | S2_mesh_jitter: e=0.2313 s=  3.53N/m nb=  2 | S2_mesh_jitter: e=0.2188 s=  2.43N/m nb=  0 | S2_mesh_sizedi: e=0.2188 s=  1.34N/m nb=  1  fire_it=1500 t=12346s
+[done] S2_mesh_jitter3.0 -> run_20260905_075245_04a0f9: reconstructed but viable; strength 11.09 N/m @ 0.104, fail 0.224, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+[done] S2_mesh_sizedis0.15 -> run_20260905_075246_a0708e: reconstructed but viable; strength 12.04 N/m @ 0.119, fail 0.224, mode stepwise (few events), stress collapsed
+step  40 S2_mesh_jitter: e=0.2138 s=  1.12N/m nb=  0* | S2_mesh_jitter: e=0.2363 s=  3.70N/m nb=  0 | S2_mesh_jitter: e=0.2238 s=  2.39N/m nb=  0* | S2_mesh_sizedi: e=0.2238 s=  1.10N/m nb=  0*  fire_it=1380 t=12805s
+[done] S2_mesh_jitter2.0 -> run_20260905_075603_4884d2: reconstructed but viable; strength 11.80 N/m @ 0.121, fail 0.241, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  41 S2_mesh_jitter: e=0.2138 s=  1.12N/m nb=  0* | S2_mesh_jitter: e=0.2413 s=  3.85N/m nb=  0* | S2_mesh_jitter: e=0.2238 s=  2.39N/m nb=  0* | S2_mesh_sizedi: e=0.2238 s=  1.10N/m nb=  0*  fire_it=700 t=13002s
+batch finished in 13005s (simulation 13005s); evaluations {'n_evaluations': 68671, 'fire_iterations': 68360, 'n_rebuilds': 1334, 'n_reverts': 12, 'n_soft_converged': 54}

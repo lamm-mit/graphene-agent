@@ -1,0 +1,61 @@
+batch stage2_b08: 4 structures, N = [2092, 3411, 2626, 2258], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0063  0.0082]
+ [ 0.0002 -0.0006]
+ [ 0.0089  0.0099]
+ [ 0.0131  0.013 ]], sigma = [[-0.009 -0.008]
+ [-0.05   0.055]
+ [-0.017 -0.038]
+ [-0.044 -0.023]] N/m
+step   1 S2_strut_30901: e=0.0100 s=  0.63N/m nb=  0 | S2_mesh_phi0.1: e=0.0100 s=  1.73N/m nb=  0 | S2_mesh_phi0.3: e=0.0100 s=  1.05N/m nb=  0 | S2_mesh_phi0.4: e=0.0100 s=  0.72N/m nb=  0  fire_it=120 t=80s
+step   2 S2_strut_30901: e=0.0200 s=  1.26N/m nb=  0 | S2_mesh_phi0.1: e=0.0200 s=  3.34N/m nb=  0 | S2_mesh_phi0.3: e=0.0200 s=  2.07N/m nb=  0 | S2_mesh_phi0.4: e=0.0200 s=  1.42N/m nb=  0  fire_it=90 t=102s
+step   3 S2_strut_30901: e=0.0300 s=  1.81N/m nb=  0 | S2_mesh_phi0.1: e=0.0300 s=  5.23N/m nb=  0 | S2_mesh_phi0.3: e=0.0300 s=  2.92N/m nb=  0 | S2_mesh_phi0.4: e=0.0300 s=  1.96N/m nb=  0  fire_it=130 t=129s
+step   4 S2_strut_30901: e=0.0400 s=  2.29N/m nb=  0 | S2_mesh_phi0.1: e=0.0400 s=  6.93N/m nb=  0 | S2_mesh_phi0.3: e=0.0400 s=  3.57N/m nb=  0 | S2_mesh_phi0.4: e=0.0400 s=  2.47N/m nb=  0  fire_it=120 t=149s
+step   5 S2_strut_30901: e=0.0500 s=  2.85N/m nb=  0 | S2_mesh_phi0.1: e=0.0500 s=  8.50N/m nb=  0 | S2_mesh_phi0.3: e=0.0500 s=  4.33N/m nb=  0 | S2_mesh_phi0.4: e=0.0500 s=  3.02N/m nb=  0  fire_it=130 t=186s
+step   6 S2_strut_30901: e=0.0600 s=  3.34N/m nb=  0 | S2_mesh_phi0.1: e=0.0600 s= 10.14N/m nb=  0 | S2_mesh_phi0.3: e=0.0600 s=  5.20N/m nb=  0 | S2_mesh_phi0.4: e=0.0600 s=  3.57N/m nb=  0  fire_it=180 t=222s
+step   7 S2_strut_30901: e=0.0700 s=  3.80N/m nb=  0 | S2_mesh_phi0.1: e=0.0700 s= 11.61N/m nb=  0 | S2_mesh_phi0.3: e=0.0700 s=  6.05N/m nb=  0 | S2_mesh_phi0.4: e=0.0700 s=  4.23N/m nb=  0  fire_it=180 t=255s
+step   8 S2_strut_30901: e=0.0800 s=  4.28N/m nb=  0 | S2_mesh_phi0.1: e=0.0800 s= 12.81N/m nb=  0 | S2_mesh_phi0.3: e=0.0800 s=  6.81N/m nb=  0 | S2_mesh_phi0.4: e=0.0800 s=  4.79N/m nb=  0  fire_it=120 t=287s
+step   9 S2_strut_30901: e=0.0900 s=  4.71N/m nb=  0 | S2_mesh_phi0.1: e=0.0900 s= 14.18N/m nb=  0 | S2_mesh_phi0.3: e=0.0900 s=  7.50N/m nb=  0 | S2_mesh_phi0.4: e=0.0900 s=  5.32N/m nb=  0  fire_it=140 t=314s
+step  10 S2_strut_30901: e=0.1000 s=  5.18N/m nb=  0 | S2_mesh_phi0.1: e=0.1000 s= 15.38N/m nb=  0 | S2_mesh_phi0.3: e=0.1000 s=  8.19N/m nb=  0 | S2_mesh_phi0.4: e=0.1000 s=  5.87N/m nb=  0  fire_it=350 t=378s
+step  11 S2_strut_30901: e=0.1100 s=  5.54N/m nb=  0 | S2_mesh_phi0.1: e=0.1100 s= 16.28N/m nb=  0 | S2_mesh_phi0.3: e=0.1100 s=  8.86N/m nb=  0 | S2_mesh_phi0.4: e=0.1100 s=  6.39N/m nb=  0  fire_it=220 t=427s
+  step 12: early bisection for [2, 3] -> d_eps=[0.005 0.005]
+step  12 S2_strut_30901: e=0.1200 s=  5.86N/m nb=  0 | S2_mesh_phi0.1: e=0.1200 s= 17.32N/m nb=  0 | S2_mesh_phi0.3: e=0.1100 s=  8.86N/m nb=  0 | S2_mesh_phi0.4: e=0.1100 s=  6.39N/m nb=  0  fire_it=400 t=494s
+  step 13: early bisection for [0, 1] -> d_eps=[0.005 0.005]
+step  13 S2_strut_30901: e=0.1200 s=  5.86N/m nb=  0 | S2_mesh_phi0.1: e=0.1200 s= 17.32N/m nb=  0 | S2_mesh_phi0.3: e=0.1150 s=  9.12N/m nb=  0 | S2_mesh_phi0.4: e=0.1150 s=  6.61N/m nb=  0  fire_it=400 t=552s
+  step 14: early bisection for [0, 1, 2, 3] -> d_eps=[0.0025 0.0025 0.0025 0.0025]
+  step 15: early bisection for [0, 1, 2, 3] -> d_eps=[0.00125 0.00125 0.00125 0.00125]
+step  16 S2_strut_30901: e=0.1212 s=  5.88N/m nb=  0 | S2_mesh_phi0.1: e=0.1212 s= 17.38N/m nb=  2 | S2_mesh_phi0.3: e=0.1162 s=  9.18N/m nb=  0 | S2_mesh_phi0.4: e=0.1162 s=  6.67N/m nb=  0  fire_it=270 t=702s
+step  17 S2_strut_30901: e=0.1225 s=  5.86N/m nb=  2 | S2_mesh_phi0.1: e=0.1262 s= 17.78N/m nb=  0 | S2_mesh_phi0.3: e=0.1175 s=  9.18N/m nb=  2 | S2_mesh_phi0.4: e=0.1175 s=  6.66N/m nb=  2  fire_it=250 t=741s
+step  18 S2_strut_30901: e=0.1275 s=  6.01N/m nb=  0 | S2_mesh_phi0.1: e=0.1312 s= 17.78N/m nb= 15 | S2_mesh_phi0.3: e=0.1225 s=  9.44N/m nb=  0 | S2_mesh_phi0.4: e=0.1225 s=  6.88N/m nb=  0  fire_it=240 t=835s
+step  19 S2_strut_30901: e=0.1325 s=  3.01N/m nb= 14 | S2_mesh_phi0.1: e=0.1362 s= 18.23N/m nb=  2 | S2_mesh_phi0.3: e=0.1275 s=  3.09N/m nb= 22 | S2_mesh_phi0.4: e=0.1275 s=  7.03N/m nb=  2  fire_it=1110 t=1513s
+step  20 S2_strut_30901: e=0.1375 s=  3.03N/m nb=  2 | S2_mesh_phi0.1: e=0.1412 s= 18.68N/m nb=  2 | S2_mesh_phi0.3: e=0.1325 s=  2.31N/m nb=  0 | S2_mesh_phi0.4: e=0.1325 s=  7.17N/m nb=  2  fire_it=1020 t=1906s
+step  21 S2_strut_30901: e=0.1425 s=  2.98N/m nb=  4 | S2_mesh_phi0.1: e=0.1462 s= 19.10N/m nb=  0 | S2_mesh_phi0.3: e=0.1375 s=  1.80N/m nb=  3 | S2_mesh_phi0.4: e=0.1375 s=  7.27N/m nb=  2  fire_it=1200 t=2391s
+step  22 S2_strut_30901: e=0.1475 s=  2.95N/m nb=  0 | S2_mesh_phi0.1: e=0.1512 s= 19.57N/m nb=  0 | S2_mesh_phi0.3: e=0.1425 s=  1.94N/m nb=  0 | S2_mesh_phi0.4: e=0.1425 s=  4.55N/m nb= 15  fire_it=1500 t=2758s
+step  23 S2_strut_30901: e=0.1525 s=  3.05N/m nb=  0 | S2_mesh_phi0.1: e=0.1562 s=  6.97N/m nb= 73 | S2_mesh_phi0.3: e=0.1475 s=  2.08N/m nb=  0 | S2_mesh_phi0.4: e=0.1475 s=  3.86N/m nb=  8  fire_it=1500 t=3508s
+step  24 S2_strut_30901: e=0.1575 s=  2.97N/m nb=  6 | S2_mesh_phi0.1: e=0.1613 s=  4.48N/m nb=  6 | S2_mesh_phi0.3: e=0.1525 s=  2.35N/m nb=  0 | S2_mesh_phi0.4: e=0.1525 s=  3.92N/m nb=  0  fire_it=1500 t=3994s
+step  25 S2_strut_30901: e=0.1625 s=  3.04N/m nb=  0 | S2_mesh_phi0.1: e=0.1663 s=  3.46N/m nb=  1 | S2_mesh_phi0.3: e=0.1575 s=  2.55N/m nb=  0 | S2_mesh_phi0.4: e=0.1575 s=  4.00N/m nb=  3  fire_it=1500 t=4418s
+step  26 S2_strut_30901: e=0.1675 s=  2.46N/m nb=  2 | S2_mesh_phi0.1: e=0.1713 s=  3.19N/m nb=  3 | S2_mesh_phi0.3: e=0.1625 s=  2.19N/m nb=  1 | S2_mesh_phi0.4: e=0.1625 s=  4.17N/m nb=  0  fire_it=1500 t=4834s
+[done] S2_strut_3090150 -> run_20260905_103535_0fd5e6: reconstructed but viable; strength 6.01 N/m @ 0.127, fail 0.173, mode progressive (multiple events, load retained), not spanning (fractured)
+step  27 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  2* | S2_mesh_phi0.1: e=0.1763 s=  2.75N/m nb=  2 | S2_mesh_phi0.3: e=0.1675 s=  2.50N/m nb=  0 | S2_mesh_phi0.4: e=0.1675 s=  4.01N/m nb=  0  fire_it=1500 t=5406s
+step  28 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.1813 s=  2.88N/m nb=  0 | S2_mesh_phi0.3: e=0.1725 s=  2.16N/m nb=  2 | S2_mesh_phi0.4: e=0.1725 s=  4.07N/m nb=  1  fire_it=1330 t=5729s
+step  29 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.1863 s=  2.86N/m nb=  0 | S2_mesh_phi0.3: e=0.1775 s=  2.21N/m nb=  0 | S2_mesh_phi0.4: e=0.1775 s=  3.63N/m nb=  4  fire_it=1500 t=6045s
+step  30 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.1913 s=  2.56N/m nb=  2 | S2_mesh_phi0.3: e=0.1825 s=  2.53N/m nb=  0 | S2_mesh_phi0.4: e=0.1825 s=  3.70N/m nb=  0  fire_it=1490 t=6618s
+step  31 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.1963 s=  2.59N/m nb=  0 | S2_mesh_phi0.3: e=0.1875 s=  2.46N/m nb=  1 | S2_mesh_phi0.4: e=0.1875 s=  3.87N/m nb=  0  fire_it=1500 t=6931s
+step  32 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2013 s=  2.60N/m nb=  0 | S2_mesh_phi0.3: e=0.1925 s=  2.70N/m nb=  0 | S2_mesh_phi0.4: e=0.1925 s=  4.03N/m nb=  0  fire_it=760 t=7181s
+step  33 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2063 s=  2.17N/m nb=  5 | S2_mesh_phi0.3: e=0.1975 s=  2.92N/m nb=  0 | S2_mesh_phi0.4: e=0.1975 s=  3.86N/m nb=  2  fire_it=1480 t=8064s
+step  34 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2113 s=  2.42N/m nb=  0 | S2_mesh_phi0.3: e=0.2025 s=  3.01N/m nb=  0 | S2_mesh_phi0.4: e=0.2025 s=  4.04N/m nb=  0  fire_it=700 t=8329s
+step  35 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2163 s=  2.39N/m nb=  0 | S2_mesh_phi0.3: e=0.2075 s=  3.25N/m nb=  0 | S2_mesh_phi0.4: e=0.2075 s=  3.97N/m nb=  2  fire_it=940 t=8912s
+[done] S2_mesh_phi0.3 -> run_20260905_115414_a54950: reconstructed but viable; strength 9.44 N/m @ 0.122, fail 0.213, mode stepwise (few events), not spanning (fractured)
+step  36 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2213 s=  2.28N/m nb=  1 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  3* | S2_mesh_phi0.4: e=0.2125 s=  4.12N/m nb=  0  fire_it=760 t=10127s
+step  37 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2263 s=  2.19N/m nb=  2 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2175 s=  3.69N/m nb=  4  fire_it=1500 t=10867s
+step  38 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2313 s=  2.17N/m nb=  0 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2225 s=  3.34N/m nb=  2  fire_it=1500 t=11647s
+step  39 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2363 s=  2.33N/m nb=  0 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2275 s=  3.37N/m nb=  0  fire_it=910 t=12225s
+step  40 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2413 s=  2.42N/m nb=  0 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2325 s=  3.50N/m nb=  1  fire_it=1330 t=12842s
+step  41 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2463 s=  2.77N/m nb=  0 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2375 s=  3.53N/m nb=  2  fire_it=590 t=13772s
+step  42 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2513 s=  2.81N/m nb=  0 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2425 s=  3.30N/m nb=  2  fire_it=1000 t=14704s
+step  43 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2563 s=  2.84N/m nb=  2 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2475 s=  3.06N/m nb=  1  fire_it=1500 t=15527s
+step  44 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2613 s=  3.07N/m nb=  0 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2525 s=  3.00N/m nb=  1  fire_it=820 t=16235s
+[done] S2_mesh_phi0.4 -> run_20260905_135635_afa95b: strongly reconstructed; strength 7.27 N/m @ 0.138, fail 0.258, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  45 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2663 s=  2.15N/m nb=  4 | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2575 s=  2.93N/m nb=  3*  fire_it=1500 t=17466s
+[done] S2_mesh_phi0.1 -> run_20260905_141348_0952f1: stable; strength 19.57 N/m @ 0.151, fail 0.271, mode stepwise (few events), stress collapsed
+step  46 S2_strut_30901: e=0.1725 s=  1.15N/m nb=  0* | S2_mesh_phi0.1: e=0.2713 s=  1.56N/m nb=  2* | S2_mesh_phi0.3: e=0.2125 s=  1.38N/m nb=  0* | S2_mesh_phi0.4: e=0.2575 s=  2.93N/m nb=  0*  fire_it=890 t=18500s
+batch finished in 18502s (simulation 18502s); evaluations {'n_evaluations': 86451, 'fire_iterations': 86080, 'n_rebuilds': 1271, 'n_reverts': 12, 'n_soft_converged': 33}

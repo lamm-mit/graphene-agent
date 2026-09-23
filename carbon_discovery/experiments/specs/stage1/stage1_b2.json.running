@@ -1,0 +1,81 @@
+{
+ "campaign": "discovery",
+ "stage": "stage1_baselines",
+ "batch_name": "stage1_b2",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12,
+  "d_strain_elastic": 0.01
+ },
+ "structures": [
+  {
+   "name": "S1_precrack_L30",
+   "family": "precrack",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "crack_len": 30,
+    "crack_w": 3.0,
+    "angle_deg": 90
+   },
+   "seed": 0,
+   "reason": "baseline: central slit crack 30 A perpendicular to load (flaw sensitivity)",
+   "hypothesis": "",
+   "tags": [
+    "baseline",
+    "flaw"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": null
+  },
+  {
+   "name": "S1_hole_d20",
+   "family": "ring_around_hole",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "hole_d": 20,
+    "n_rings": 0
+   },
+   "seed": 0,
+   "reason": "baseline: circular hole 20 A (blunt flaw)",
+   "hypothesis": "",
+   "tags": [
+    "baseline",
+    "flaw"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": null
+  },
+  {
+   "name": "S1_mesh_p16_phi0.2",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "pore_d": 8.0,
+    "period": 16
+   },
+   "seed": 0,
+   "reason": "baseline: reference single-scale nanomesh (period 16, phi~0.2)",
+   "hypothesis": "",
+   "tags": [
+    "baseline",
+    "mesh"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": null
+  }
+ ]
+}

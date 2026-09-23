@@ -1,0 +1,118 @@
+{
+ "campaign": "discovery",
+ "stage": "stage7_holdouts",
+ "batch_name": "stage7_b3",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S7_slit_0deg_armchair",
+   "family": "slit_array",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "orientation": "armchair",
+    "slit_len": 28.0
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen: parallel slits with armchair lattice along the load",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 24.0,
+    "modulus_2d_Nm": 195.0,
+    "failure_strain": 0.215,
+    "work_to_failure_J_m2": 3.08,
+    "damage_localization": 0.2,
+    "fracture_mode_class": "abrupt",
+    "basis": "class=straight, minSF=0.79, sigma_net(median of 7)=30.3 N/m; kNN: ['S2_slit_0deg', 'S5_slit0_phi0.4', 'S5_slit0_phi0.3']",
+    "crack_path_or_mechanism": "load-parallel strips fail together at the bridges/corners (single avalanche)"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_strut_090_phi0.3",
+   "family": "strut_lattice",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "spacing": 25,
+    "angles_deg": [
+     0,
+     90
+    ],
+    "strut_w": 11.312
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen: 0/90 strut lattice at porosity 0.30",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 14.4,
+    "modulus_2d_Nm": 147.0,
+    "failure_strain": 0.229,
+    "work_to_failure_J_m2": 1.69,
+    "damage_localization": 0.3,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=straight, minSF=0.47, sigma_net(median of 7)=30.3 N/m; kNN: ['S2_strut_090', 'S2_strut_060120', 'S2_ellipse_90deg']",
+    "crack_path_or_mechanism": "load-parallel strips fail together at the bridges/corners (single avalanche)"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_mesh_jitter1.5_sd0.1_s11",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "jitter": 1.5,
+    "size_disorder": 0.1,
+    "seed": 11,
+    "pore_d": 7.469
+   },
+   "seed": 11,
+   "reason": "Stage 7 holdout: unseen combined disorder (jitter 1.5 A + 10% size dispersion, new seed)",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 12.3,
+    "modulus_2d_Nm": 137.0,
+    "failure_strain": 0.193,
+    "work_to_failure_J_m2": 1.14,
+    "damage_localization": 0.28,
+    "fracture_mode_class": "progressive",
+    "basis": "class=fine_round, minSF=0.72, sigma_net(median of 36)=17.0 N/m; kNN: ['S6_mesh_sizedis0.15_s3', 'S6_mesh_jitter2.0_s2', 'S6_mesh_p16_offset3']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "notes": null
+  }
+ ]
+}

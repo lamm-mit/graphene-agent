@@ -1,0 +1,43 @@
+{
+ "run_id": "run_20260905_091359_4df2c2",
+ "name": "S2_slit_45deg",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": -0.0031188794825288365,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 20,
+   "eps": 0.17250000000000001,
+   "sigma_Nm": 2.746051650772786,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage = major_propagation",
+   "frame": 21,
+   "eps": 0.17375000000000002,
+   "sigma_Nm": 1.5067228168160975,
+   "n_broken": 4
+  },
+  {
+   "label": "damage_event",
+   "frame": 22,
+   "eps": 0.17875000000000002,
+   "sigma_Nm": 2.4409358087125925,
+   "n_broken": 8
+  },
+  {
+   "label": "peak_load = post_peak = final",
+   "frame": 51,
+   "eps": 0.32375000000000015,
+   "sigma_Nm": 18.542979416317962,
+   "n_broken": 8
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S2_slit_45deg_energy_rel.png"
+}

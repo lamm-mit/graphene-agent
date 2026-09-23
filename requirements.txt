@@ -1,0 +1,14 @@
+# Python 3.12.  Versions in comments are the ones the campaign ran with (Apple M4 Max, macOS, MPS backend).
+torch>=2.7            # 2.7.0
+ase>=3.23             # 3.27.0
+atomistica>=1.2.7     # 1.2.7  (Fortran reference implementation of screened REBO2; needed only by validation/)
+numpy>=2.0            # 2.2.6
+scipy>=1.13           # 1.13.1
+matplotlib>=3.9       # 3.11.1
+fastapi>=0.115        # 0.115.8 (browser app)
+uvicorn>=0.34         # 0.34.0  (browser app)
+pydantic>=2
+pytest>=8
+pymupdf>=1.24         # SVG export of the TikZ workflow figure (paper_analysis/build_figures.sh)
+huggingface_hub>=0.25 # scripts/fetch_data_from_huggingface.py
+# external tools: ffmpeg (movies), latexmk/pdflatex (report and TikZ figure), ghostscript (page rendering), node >= 18 (slides only)

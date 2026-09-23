@@ -1,0 +1,1 @@
+Fracture progression of S5_H2_D40_W8_jitter2 (nanomesh_hier, N=4357, porosity 0.21): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.

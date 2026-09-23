@@ -1,0 +1,40 @@
+batch stage6_b3: 3 structures, N = [3694, 3032, 3032], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0006 0.0009]
+ [0.0053 0.0047]
+ [0.0053 0.0047]], sigma = [[ 0.01  -0.007]
+ [-0.023  0.001]
+ [-0.023  0.001]] N/m
+step   1 S6_vac_random_: e=0.0100 s=  2.54N/m nb=  0 | S6_mesh_p16_of: e=0.0100 s=  1.44N/m nb=  0 | S6_mesh_p16_of: e=0.0100 s=  1.44N/m nb=  0  fire_it=60 t=43s
+step   2 S6_vac_random_: e=0.0200 s=  4.99N/m nb=  0 | S6_mesh_p16_of: e=0.0200 s=  2.58N/m nb=  0 | S6_mesh_p16_of: e=0.0200 s=  2.59N/m nb=  0  fire_it=160 t=67s
+step   3 S6_vac_random_: e=0.0300 s=  7.43N/m nb=  0 | S6_mesh_p16_of: e=0.0300 s=  3.86N/m nb=  0 | S6_mesh_p16_of: e=0.0300 s=  3.86N/m nb=  0  fire_it=120 t=86s
+step   4 S6_vac_random_: e=0.0400 s=  9.79N/m nb=  0 | S6_mesh_p16_of: e=0.0400 s=  5.08N/m nb=  0 | S6_mesh_p16_of: e=0.0400 s=  5.09N/m nb=  0  fire_it=150 t=107s
+step   5 S6_vac_random_: e=0.0500 s= 11.76N/m nb=  0 | S6_mesh_p16_of: e=0.0500 s=  6.30N/m nb=  0 | S6_mesh_p16_of: e=0.0500 s=  6.30N/m nb=  0  fire_it=140 t=130s
+step   6 S6_vac_random_: e=0.0600 s= 13.86N/m nb=  0 | S6_mesh_p16_of: e=0.0600 s=  7.52N/m nb=  0 | S6_mesh_p16_of: e=0.0600 s=  7.51N/m nb=  0  fire_it=90 t=143s
+step   7 S6_vac_random_: e=0.0700 s= 15.88N/m nb=  0 | S6_mesh_p16_of: e=0.0700 s=  8.62N/m nb=  0 | S6_mesh_p16_of: e=0.0700 s=  8.62N/m nb=  0  fire_it=140 t=217s
+step   8 S6_vac_random_: e=0.0800 s= 17.69N/m nb=  0 | S6_mesh_p16_of: e=0.0800 s=  9.63N/m nb=  0 | S6_mesh_p16_of: e=0.0800 s=  9.64N/m nb=  0  fire_it=220 t=316s
+step   9 S6_vac_random_: e=0.0900 s= 19.43N/m nb=  0 | S6_mesh_p16_of: e=0.0900 s= 10.61N/m nb=  0 | S6_mesh_p16_of: e=0.0900 s= 10.62N/m nb=  0  fire_it=260 t=360s
+  step 10: early bisection for [0] -> d_eps=[0.005]
+step  10 S6_vac_random_: e=0.0900 s= 19.43N/m nb=  0 | S6_mesh_p16_of: e=0.1000 s= 11.52N/m nb=  0 | S6_mesh_p16_of: e=0.1000 s= 11.53N/m nb=  0  fire_it=400 t=416s
+  step 11: early bisection for [1, 2] -> d_eps=[0.005 0.005]
+step  11 S6_vac_random_: e=0.0950 s= 20.26N/m nb=  0 | S6_mesh_p16_of: e=0.1000 s= 11.52N/m nb=  0 | S6_mesh_p16_of: e=0.1000 s= 11.53N/m nb=  0  fire_it=100 t=491s
+  step 12: early bisection for [0, 1, 2] -> d_eps=[0.0025 0.0025 0.0025]
+  step 13: early bisection for [0, 1, 2] -> d_eps=[0.00125 0.00125 0.00125]
+step  14 S6_vac_random_: e=0.0963 s= 20.44N/m nb=  1 | S6_mesh_p16_of: e=0.1012 s= 11.61N/m nb=  0 | S6_mesh_p16_of: e=0.1012 s= 11.61N/m nb=  0  fire_it=180 t=622s
+step  15 S6_vac_random_: e=0.1013 s= 21.18N/m nb=  1 | S6_mesh_p16_of: e=0.1025 s= 11.50N/m nb=  6 | S6_mesh_p16_of: e=0.1025 s= 11.63N/m nb=  2  fire_it=50 t=689s
+step  16 S6_vac_random_: e=0.1063 s= 21.91N/m nb=  1 | S6_mesh_p16_of: e=0.1075 s= 11.89N/m nb=  0 | S6_mesh_p16_of: e=0.1075 s= 11.89N/m nb=  4  fire_it=100 t=759s
+step  17 S6_vac_random_: e=0.1113 s= 22.58N/m nb=  2 | S6_mesh_p16_of: e=0.1125 s= 12.14N/m nb=  0 | S6_mesh_p16_of: e=0.1125 s= 12.14N/m nb=  0  fire_it=390 t=819s
+step  18 S6_vac_random_: e=0.1163 s= 23.25N/m nb=  0 | S6_mesh_p16_of: e=0.1175 s= 11.95N/m nb=  2 | S6_mesh_p16_of: e=0.1175 s= 11.97N/m nb=  2  fire_it=100 t=903s
+step  19 S6_vac_random_: e=0.1213 s= 23.71N/m nb=  0 | S6_mesh_p16_of: e=0.1225 s= 12.24N/m nb=  2 | S6_mesh_p16_of: e=0.1225 s= 12.22N/m nb=  2  fire_it=400 t=969s
+step  20 S6_vac_random_: e=0.1263 s= 23.82N/m nb=  9 | S6_mesh_p16_of: e=0.1275 s= 12.52N/m nb=  2 | S6_mesh_p16_of: e=0.1275 s= 12.50N/m nb=  2  fire_it=720 t=1210s
+step  21 S6_vac_random_: e=0.1313 s= 12.91N/m nb= 46 | S6_mesh_p16_of: e=0.1325 s= 12.85N/m nb=  0 | S6_mesh_p16_of: e=0.1325 s= 12.85N/m nb=  0  fire_it=2000 t=1722s
+step  22 S6_vac_random_: e=0.1363 s=  4.80N/m nb=  7 | S6_mesh_p16_of: e=0.1375 s= 12.70N/m nb= 12 | S6_mesh_p16_of: e=0.1375 s= 12.76N/m nb= 10  fire_it=2000 t=2215s
+[done] S6_vac_random_2pct_s3 -> run_20260905_185226_724055: stable; strength 23.82 N/m @ 0.126, fail 0.141, mode progressive (multiple events, load retained), stress collapsed
+step  23 S6_vac_random_: e=0.1413 s=  1.86N/m nb=  0* | S6_mesh_p16_of: e=0.1425 s= 13.04N/m nb=  0 | S6_mesh_p16_of: e=0.1425 s= 13.07N/m nb=  2  fire_it=2000 t=2694s
+step  24 S6_vac_random_: e=0.1413 s=  1.86N/m nb=  0* | S6_mesh_p16_of: e=0.1475 s= 13.13N/m nb=  7 | S6_mesh_p16_of: e=0.1475 s= 13.26N/m nb=  7  fire_it=360 t=2737s
+[done] S6_mesh_p16_offset1 -> run_20260905_190046_713502: reconstructed but viable; strength 13.13 N/m @ 0.148, fail 0.153, mode abrupt brittle (single avalanche), stress collapsed
+step  25 S6_vac_random_: e=0.1413 s=  1.86N/m nb=  0* | S6_mesh_p16_of: e=0.1525 s=  0.98N/m nb= 34* | S6_mesh_p16_of: e=0.1525 s=  3.75N/m nb= 25  fire_it=2000 t=3193s
+step  26 S6_vac_random_: e=0.1413 s=  1.86N/m nb=  0* | S6_mesh_p16_of: e=0.1525 s=  0.98N/m nb=  0* | S6_mesh_p16_of: e=0.1575 s=  2.50N/m nb=  1  fire_it=700 t=3611s
+step  27 S6_vac_random_: e=0.1413 s=  1.86N/m nb=  0* | S6_mesh_p16_of: e=0.1525 s=  0.98N/m nb=  0* | S6_mesh_p16_of: e=0.1625 s=  2.34N/m nb=  0  fire_it=810 t=3751s
+[done] S6_mesh_p16_offset2 -> run_20260905_191505_5a0528: reconstructed but viable; strength 13.26 N/m @ 0.148, fail 0.168, mode progressive (multiple events, load retained), not spanning (fractured)
+step  28 S6_vac_random_: e=0.1413 s=  1.86N/m nb=  0* | S6_mesh_p16_of: e=0.1525 s=  0.98N/m nb=  0* | S6_mesh_p16_of: e=0.1675 s=  1.95N/m nb=  1*  fire_it=1630 t=4053s
+batch finished in 4055s (simulation 4055s); evaluations {'n_evaluations': 30940, 'fire_iterations': 30720, 'n_rebuilds': 748, 'n_reverts': 9, 'n_soft_converged': 4}

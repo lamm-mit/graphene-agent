@@ -1,0 +1,75 @@
+batch conv_fmax_0.05: 1 structures, N = [1164], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.005  0.0095]], sigma = [[0.072 0.   ]] N/m
+step   1 mesh64_fmax0.0: e=0.0050 s=  0.82N/m nb=  0  fire_it=30 t=23s
+step   2 mesh64_fmax0.0: e=0.0100 s=  1.37N/m nb=  0  fire_it=30 t=28s
+step   3 mesh64_fmax0.0: e=0.0150 s=  2.01N/m nb=  0  fire_it=30 t=33s
+step   4 mesh64_fmax0.0: e=0.0200 s=  2.20N/m nb=  0  fire_it=50 t=41s
+step   5 mesh64_fmax0.0: e=0.0250 s=  2.80N/m nb=  0  fire_it=30 t=45s
+step   6 mesh64_fmax0.0: e=0.0300 s=  3.39N/m nb=  0  fire_it=30 t=49s
+step   7 mesh64_fmax0.0: e=0.0350 s=  3.97N/m nb=  0  fire_it=30 t=54s
+step   8 mesh64_fmax0.0: e=0.0400 s=  4.04N/m nb=  0  fire_it=100 t=66s
+step   9 mesh64_fmax0.0: e=0.0450 s=  4.47N/m nb=  0  fire_it=100 t=78s
+step  10 mesh64_fmax0.0: e=0.0500 s=  4.93N/m nb=  0  fire_it=40 t=83s
+step  11 mesh64_fmax0.0: e=0.0550 s=  5.46N/m nb=  0  fire_it=30 t=87s
+step  12 mesh64_fmax0.0: e=0.0600 s=  5.96N/m nb=  0  fire_it=40 t=92s
+step  13 mesh64_fmax0.0: e=0.0650 s=  6.42N/m nb=  0  fire_it=50 t=98s
+step  14 mesh64_fmax0.0: e=0.0700 s=  6.90N/m nb=  0  fire_it=30 t=104s
+step  15 mesh64_fmax0.0: e=0.0750 s=  7.21N/m nb=  0  fire_it=40 t=109s
+step  16 mesh64_fmax0.0: e=0.0800 s=  7.57N/m nb=  0  fire_it=30 t=113s
+step  17 mesh64_fmax0.0: e=0.0850 s=  8.02N/m nb=  0  fire_it=30 t=119s
+step  18 mesh64_fmax0.0: e=0.0900 s=  8.38N/m nb=  0  fire_it=50 t=126s
+step  19 mesh64_fmax0.0: e=0.0950 s=  8.70N/m nb=  0  fire_it=30 t=130s
+step  20 mesh64_fmax0.0: e=0.1000 s=  9.13N/m nb=  0  fire_it=40 t=137s
+step  21 mesh64_fmax0.0: e=0.1050 s=  9.57N/m nb=  0  fire_it=20 t=141s
+step  22 mesh64_fmax0.0: e=0.1100 s=  9.88N/m nb=  0  fire_it=30 t=147s
+step  23 mesh64_fmax0.0: e=0.1150 s= 10.19N/m nb=  0  fire_it=30 t=152s
+step  24 mesh64_fmax0.0: e=0.1200 s= 10.51N/m nb=  0  fire_it=30 t=156s
+step  25 mesh64_fmax0.0: e=0.1250 s= 10.81N/m nb=  0  fire_it=40 t=163s
+step  26 mesh64_fmax0.0: e=0.1300 s= 11.08N/m nb=  0  fire_it=30 t=169s
+step  27 mesh64_fmax0.0: e=0.1350 s= 11.42N/m nb=  0  fire_it=20 t=172s
+step  28 mesh64_fmax0.0: e=0.1400 s= 11.43N/m nb=  0  fire_it=70 t=183s
+  step 29: early bisection for [0] -> d_eps=[0.0025]
+  step 30: early bisection for [0] -> d_eps=[0.00125]
+step  31 mesh64_fmax0.0: e=0.1413 s=  9.73N/m nb= 14  fire_it=80 t=362s
+step  32 mesh64_fmax0.0: e=0.1463 s= 10.00N/m nb=  0  fire_it=40 t=386s
+step  33 mesh64_fmax0.0: e=0.1513 s=  8.85N/m nb=  6  fire_it=240 t=454s
+step  34 mesh64_fmax0.0: e=0.1563 s=  9.06N/m nb=  0  fire_it=300 t=489s
+step  35 mesh64_fmax0.0: e=0.1613 s=  6.05N/m nb= 12  fire_it=540 t=736s
+step  36 mesh64_fmax0.0: e=0.1663 s=  2.91N/m nb=  6  fire_it=1320 t=1065s
+step  37 mesh64_fmax0.0: e=0.1713 s=  2.35N/m nb=  0  fire_it=510 t=1173s
+step  38 mesh64_fmax0.0: e=0.1763 s=  2.45N/m nb=  0  fire_it=240 t=1217s
+step  39 mesh64_fmax0.0: e=0.1813 s=  2.57N/m nb=  0  fire_it=190 t=1251s
+step  40 mesh64_fmax0.0: e=0.1863 s=  2.65N/m nb=  0  fire_it=290 t=1286s
+step  41 mesh64_fmax0.0: e=0.1913 s=  2.52N/m nb=  1  fire_it=340 t=1333s
+step  42 mesh64_fmax0.0: e=0.1963 s=  2.35N/m nb=  0  fire_it=270 t=1413s
+step  43 mesh64_fmax0.0: e=0.2013 s=  1.56N/m nb=  1  fire_it=620 t=1673s
+step  44 mesh64_fmax0.0: e=0.2063 s=  1.61N/m nb=  0  fire_it=280 t=1740s
+step  45 mesh64_fmax0.0: e=0.2113 s=  1.78N/m nb=  0  fire_it=260 t=1766s
+step  46 mesh64_fmax0.0: e=0.2163 s=  1.87N/m nb=  0  fire_it=200 t=1793s
+step  47 mesh64_fmax0.0: e=0.2213 s=  2.07N/m nb=  0  fire_it=100 t=1804s
+step  48 mesh64_fmax0.0: e=0.2263 s=  2.08N/m nb=  0  fire_it=260 t=1837s
+step  49 mesh64_fmax0.0: e=0.2313 s=  2.36N/m nb=  0  fire_it=80 t=1846s
+step  50 mesh64_fmax0.0: e=0.2363 s=  2.35N/m nb=  0  fire_it=170 t=1874s
+step  51 mesh64_fmax0.0: e=0.2413 s=  2.44N/m nb=  0  fire_it=240 t=1899s
+step  52 mesh64_fmax0.0: e=0.2463 s=  2.56N/m nb=  0  fire_it=200 t=1925s
+step  53 mesh64_fmax0.0: e=0.2513 s=  2.34N/m nb=  1  fire_it=40 t=1991s
+step  54 mesh64_fmax0.0: e=0.2563 s=  1.95N/m nb=  1  fire_it=440 t=2131s
+step  55 mesh64_fmax0.0: e=0.2613 s=  2.05N/m nb=  0  fire_it=400 t=2203s
+step  56 mesh64_fmax0.0: e=0.2663 s=  2.21N/m nb=  0  fire_it=80 t=2239s
+step  57 mesh64_fmax0.0: e=0.2713 s=  2.41N/m nb=  0  fire_it=120 t=2253s
+step  58 mesh64_fmax0.0: e=0.2763 s=  2.63N/m nb=  0  fire_it=60 t=2260s
+step  59 mesh64_fmax0.0: e=0.2813 s=  2.53N/m nb=  0  fire_it=110 t=2321s
+step  60 mesh64_fmax0.0: e=0.2863 s=  2.65N/m nb=  0  fire_it=280 t=2359s
+step  61 mesh64_fmax0.0: e=0.2913 s=  2.38N/m nb=  1  fire_it=270 t=2448s
+step  62 mesh64_fmax0.0: e=0.2963 s=  2.31N/m nb=  1  fire_it=100 t=2506s
+step  63 mesh64_fmax0.0: e=0.3013 s=  2.34N/m nb=  0  fire_it=30 t=2554s
+step  64 mesh64_fmax0.0: e=0.3063 s=  2.42N/m nb=  0  fire_it=390 t=2605s
+step  65 mesh64_fmax0.0: e=0.3113 s=  2.59N/m nb=  0  fire_it=180 t=2623s
+step  66 mesh64_fmax0.0: e=0.3163 s=  2.76N/m nb=  0  fire_it=90 t=2634s
+step  67 mesh64_fmax0.0: e=0.3213 s=  2.98N/m nb=  1  fire_it=80 t=2643s
+step  68 mesh64_fmax0.0: e=0.3263 s=  2.90N/m nb=  0  fire_it=270 t=2672s
+step  69 mesh64_fmax0.0: e=0.3313 s=  2.91N/m nb=  0  fire_it=250 t=2723s
+step  70 mesh64_fmax0.0: e=0.3363 s=  3.07N/m nb=  0  fire_it=160 t=2744s
+step  71 mesh64_fmax0.0: e=0.3413 s=  2.83N/m nb=  2*  fire_it=70 t=2839s
+[done] mesh64_fmax0.05 -> run_20260904_235444_4d6404: reconstructed but viable; strength 11.43 N/m @ 0.140, fail 0.341, mode stepwise (few events), not spanning (fractured)
+batch finished in 2845s (simulation 2844s); evaluations {'n_evaluations': 24425, 'fire_iterations': 23980, 'n_rebuilds': 318, 'n_reverts': 2}

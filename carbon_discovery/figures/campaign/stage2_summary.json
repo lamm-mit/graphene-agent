@@ -1,0 +1,424 @@
+{
+ "hierarchy ladder (\u03c6=0.20, 120 \u00c5 cells)": {
+  "S2_H1_p12": {
+   "strength_Nm": 13.26169757477628,
+   "failure_strain": 0.22125000000000006,
+   "first_damage_strain": 0.12124999999999998,
+   "work_to_failure_J_m2": 1.4498308908654158,
+   "damage_localization": 0.245818152985964,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 123.54947699745577,
+   "post_peak_load_retention": 0.3275327185805925
+  },
+  "S2_H1_p16": {
+   "strength_Nm": 11.730279190083008,
+   "failure_strain": 0.1325,
+   "first_damage_strain": 0.1075,
+   "work_to_failure_J_m2": 0.8875342091287264,
+   "damage_localization": 0.4306205821546947,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 122.68601248628048,
+   "post_peak_load_retention": 0.5958648115066709
+  },
+  "S2_H1_p32": {
+   "strength_Nm": 16.442301452848554,
+   "failure_strain": 0.2637500000000001,
+   "first_damage_strain": 0.13374999999999998,
+   "work_to_failure_J_m2": 1.944318640913679,
+   "damage_localization": 0.11873363508613333,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 145.8244637726779,
+   "post_peak_load_retention": 0.19227576137711738
+  },
+  "S2_H1_square_D40": {
+   "strength_Nm": 17.02344565429412,
+   "failure_strain": 0.17,
+   "first_damage_strain": 0.13499999999999998,
+   "work_to_failure_J_m2": 1.767575390265568,
+   "damage_localization": 0.16917421892547468,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "modulus_2d_Nm": 150.53730407477715,
+   "post_peak_load_retention": 0.5805010578293904
+  },
+  "S2_H2_D24_W8": {
+   "strength_Nm": 14.343101785553694,
+   "failure_strain": 0.1575,
+   "first_damage_strain": 0.12249999999999998,
+   "work_to_failure_J_m2": 1.3110922492630566,
+   "damage_localization": 0.24435531278177658,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 149.3038826045279,
+   "post_peak_load_retention": 0.5468312016458713
+  },
+  "S2_H2_D40_W12": {
+   "strength_Nm": 13.739143310458255,
+   "failure_strain": 0.21250000000000008,
+   "first_damage_strain": 0.1075,
+   "work_to_failure_J_m2": 1.399629592046286,
+   "damage_localization": 0.23882211048533053,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 145.26556603214524,
+   "post_peak_load_retention": 0.3426613466422334
+  },
+  "S2_H2_D40_W4": {
+   "strength_Nm": 13.220040754731029,
+   "failure_strain": 0.2612500000000001,
+   "first_damage_strain": 0.12624999999999997,
+   "work_to_failure_J_m2": 1.4962551581131502,
+   "damage_localization": 0.23383081519526006,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 131.34843897413595,
+   "post_peak_load_retention": 0.25128869637014356
+  },
+  "S2_H2_D40_W8": {
+   "strength_Nm": 12.825362415333455,
+   "failure_strain": 0.20625000000000007,
+   "first_damage_strain": 0.11124999999999999,
+   "work_to_failure_J_m2": 1.3349724896230593,
+   "damage_localization": 0.20188930053691578,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 132.34409418236322,
+   "post_peak_load_retention": 0.408516764950526
+  },
+  "S2_H2_D60_W8": {
+   "strength_Nm": 12.736612121417558,
+   "failure_strain": 0.13875,
+   "first_damage_strain": 0.11374999999999999,
+   "work_to_failure_J_m2": 0.9946273074114191,
+   "damage_localization": 0.34882429207091525,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 125.56537718883004,
+   "post_peak_load_retention": 0.6121978901883324
+  },
+  "S2_H3_D30_120": {
+   "strength_Nm": 12.97840044838019,
+   "failure_strain": 0.15250000000000002,
+   "first_damage_strain": 0.1175,
+   "work_to_failure_J_m2": 1.2017900128744898,
+   "damage_localization": 0.15674332178661832,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 128.68169610105966,
+   "post_peak_load_retention": 0.75567503738498
+  }
+ },
+ "disorder (\u03c6=0.20)": {
+  "S2_mesh_jitter1.0": {
+   "strength_Nm": 12.661237160977596,
+   "failure_strain": 0.2137500000000001,
+   "first_damage_strain": 0.09875,
+   "work_to_failure_J_m2": 1.2176800354819433,
+   "damage_localization": 0.251080195899691,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 126.65129414816663,
+   "post_peak_load_retention": 0.25631054796500996
+  },
+  "S2_mesh_jitter2.0": {
+   "strength_Nm": 11.800956644784849,
+   "failure_strain": 0.2412500000000001,
+   "first_damage_strain": 0.11124999999999999,
+   "work_to_failure_J_m2": 1.4297499333135135,
+   "damage_localization": 0.2741999540225296,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 133.70299553442203,
+   "post_peak_load_retention": 0.440614553770218
+  },
+  "S2_mesh_jitter3.0": {
+   "strength_Nm": 11.090511186593979,
+   "failure_strain": 0.22375000000000012,
+   "first_damage_strain": 0.09375,
+   "work_to_failure_J_m2": 1.1816823447778526,
+   "damage_localization": 0.2920038862977088,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 132.7090472448299,
+   "post_peak_load_retention": 0.4186984344438709
+  },
+  "S2_mesh_sizedis0.15": {
+   "strength_Nm": 12.043702808351535,
+   "failure_strain": 0.22375000000000012,
+   "first_damage_strain": 0.09375,
+   "work_to_failure_J_m2": 1.108229955885177,
+   "damage_localization": 0.37561800971060966,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 131.67250742774158,
+   "post_peak_load_retention": 0.2295856041508054
+  },
+  "S2_mesh_sizedis0.3": {
+   "strength_Nm": 11.338211743283122,
+   "failure_strain": 0.2212500000000001,
+   "first_damage_strain": 0.09625,
+   "work_to_failure_J_m2": 0.9356668560622983,
+   "damage_localization": 0.40460901305109453,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 134.4657043773184,
+   "post_peak_load_retention": 0.2449683192500521
+  },
+  "S2_voronoi_n25_reg0.0": {
+   "strength_Nm": 9.656994589512157,
+   "failure_strain": 0.20750000000000013,
+   "first_damage_strain": 0.07750000000000001,
+   "work_to_failure_J_m2": 0.7362259498568242,
+   "damage_localization": 0.4229183649323638,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 130.52560654988895,
+   "post_peak_load_retention": 0.25614045063376056
+  },
+  "S2_voronoi_n25_reg0.6": {
+   "strength_Nm": 14.373978885173672,
+   "failure_strain": 0.23125000000000012,
+   "first_damage_strain": 0.08625000000000001,
+   "work_to_failure_J_m2": 1.563977884283391,
+   "damage_localization": 0.2735797314043633,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 160.86068279773113,
+   "post_peak_load_retention": 0.39135025249252026
+  },
+  "S2_voronoi_n25_reg1.0": {
+   "strength_Nm": 13.324087785161101,
+   "failure_strain": 0.15625000000000003,
+   "first_damage_strain": 0.11624999999999999,
+   "work_to_failure_J_m2": 1.2012742536654364,
+   "damage_localization": 0.17081946746029408,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 134.30781073149953,
+   "post_peak_load_retention": 0.6041620564775595
+  },
+  "S2_voronoi_n50_reg0.0": {
+   "strength_Nm": 8.190801726148306,
+   "failure_strain": 0.11125000000000004,
+   "first_damage_strain": 0.06625,
+   "work_to_failure_J_m2": 0.5343195018387942,
+   "damage_localization": 0.4013677956537507,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 133.91535894916248,
+   "post_peak_load_retention": 0.6728687324862885
+  }
+ },
+ "anisotropy / load path": {
+  "S2_ellipse_0deg": {
+   "strength_Nm": 8.608941810000884,
+   "failure_strain": 0.23625000000000007,
+   "first_damage_strain": 0.13624999999999998,
+   "work_to_failure_J_m2": 1.0717476160300716,
+   "damage_localization": 0.23707177718660777,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 87.68834562684711,
+   "post_peak_load_retention": 0.4630909849353279
+  },
+  "S2_ellipse_90deg": {
+   "strength_Nm": 18.95017743455814,
+   "failure_strain": 0.19125000000000003,
+   "first_damage_strain": 0.13124999999999998,
+   "work_to_failure_J_m2": 1.944738814878329,
+   "damage_localization": 0.21709871984746165,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 171.17514670492542,
+   "post_peak_load_retention": 0.3465953039467527
+  },
+  "S2_slit_0deg": {
+   "strength_Nm": 25.402063572458648,
+   "failure_strain": 0.21875000000000006,
+   "first_damage_strain": 0.20375000000000004,
+   "work_to_failure_J_m2": 3.253119386927841,
+   "damage_localization": 0.17879076850658404,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 199.62960214837233,
+   "post_peak_load_retention": 0.30439450352423597
+  },
+  "S2_slit_45deg": {
+   "strength_Nm": 18.542979416317962,
+   "failure_strain": 0.32375000000000015,
+   "first_damage_strain": 0.17375000000000002,
+   "work_to_failure_J_m2": 1.310311026159506,
+   "damage_localization": 0.625,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 2.1876734740583563,
+   "post_peak_load_retention": 0.0
+  },
+  "S2_slit_90deg": {
+   "strength_Nm": 3.972316949509993,
+   "failure_strain": 0.2812500000000001,
+   "first_damage_strain": 0.16625,
+   "work_to_failure_J_m2": 0.6210136062776522,
+   "damage_localization": 0.27103395050970014,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 43.417928847278965,
+   "post_peak_load_retention": 0.5418447752985424
+  },
+  "S2_strut_060120": {
+   "strength_Nm": 7.403231321897408,
+   "failure_strain": 0.15625,
+   "first_damage_strain": 0.15125,
+   "work_to_failure_J_m2": 0.6495185457025799,
+   "damage_localization": 0.5235902344426084,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "modulus_2d_Nm": 68.21925461650613,
+   "post_peak_load_retention": 0.676964862512818
+  },
+  "S2_strut_090": {
+   "strength_Nm": 11.51238616472218,
+   "failure_strain": 0.3200000000000001,
+   "first_damage_strain": 0.20500000000000004,
+   "work_to_failure_J_m2": 1.7440847023620305,
+   "damage_localization": 0.1511478600572127,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 94.43925937505294,
+   "post_peak_load_retention": 0.22556036675257143
+  },
+  "S2_strut_3090150": {
+   "strength_Nm": 6.005290285145375,
+   "failure_strain": 0.17250000000000001,
+   "first_damage_strain": 0.12249999999999998,
+   "work_to_failure_J_m2": 0.565827487739675,
+   "damage_localization": 0.42846178388797085,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 63.54202640590101,
+   "post_peak_load_retention": 0.5101340915012662
+  }
+ },
+ "porosity sweep + lattice orientation": {
+  "S1_mesh_p16_phi0.2": {
+   "strength_Nm": 11.952457173412316,
+   "failure_strain": 0.17125000000000004,
+   "first_damage_strain": 0.10124999999999999,
+   "work_to_failure_J_m2": 1.1190236139007597,
+   "damage_localization": 0.2601202700105165,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 118.66176346755539,
+   "post_peak_load_retention": 0.3192647382760975
+  },
+  "S2_mesh_p16_armchair": {
+   "strength_Nm": 11.34064405617497,
+   "failure_strain": 0.22125000000000009,
+   "first_damage_strain": 0.10124999999999999,
+   "work_to_failure_J_m2": 1.2688231930490435,
+   "damage_localization": 0.1520728259916383,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 150.26917036585806,
+   "post_peak_load_retention": 0.4777374569176249
+  },
+  "S2_mesh_phi0.1": {
+   "strength_Nm": 19.567245760999977,
+   "failure_strain": 0.2712500000000001,
+   "first_damage_strain": 0.12124999999999998,
+   "work_to_failure_J_m2": 2.1041482851514224,
+   "damage_localization": 0.19093721623360094,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 169.59666094394717,
+   "post_peak_load_retention": 0.17881439828559184
+  },
+  "S2_mesh_phi0.3": {
+   "strength_Nm": 9.435562439071948,
+   "failure_strain": 0.21250000000000008,
+   "first_damage_strain": 0.1175,
+   "work_to_failure_J_m2": 0.8726692124987216,
+   "damage_localization": 0.4076726906122847,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 104.11648484954802,
+   "post_peak_load_retention": 0.29481726104067024
+  },
+  "S2_mesh_phi0.4": {
+   "strength_Nm": 7.272984165694165,
+   "failure_strain": 0.2575000000000001,
+   "first_damage_strain": 0.1175,
+   "work_to_failure_J_m2": 1.013308368103517,
+   "damage_localization": 0.2243716202024556,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 73.2234444765617,
+   "post_peak_load_retention": 0.5322960140316674
+  }
+ },
+ "gradients and flaw halo": {
+  "S1_hole_d20": {
+   "strength_Nm": 19.06248592506963,
+   "failure_strain": 0.0975,
+   "first_damage_strain": 0.0925,
+   "work_to_failure_J_m2": 0.993441735915588,
+   "damage_localization": 0.5251634648474353,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "modulus_2d_Nm": 229.65404844130688,
+   "post_peak_load_retention": 0.5196910861561691
+  },
+  "S2_graded_radial": {
+   "strength_Nm": 9.967150294660973,
+   "failure_strain": 0.1987500000000001,
+   "first_damage_strain": 0.08375,
+   "work_to_failure_J_m2": 0.7637188881663172,
+   "damage_localization": 0.39288337975657195,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 134.94954358131167,
+   "post_peak_load_retention": 0.31883489557843375
+  },
+  "S2_graded_x": {
+   "strength_Nm": 10.093572311763984,
+   "failure_strain": 0.09625000000000002,
+   "first_damage_strain": 0.09125000000000001,
+   "work_to_failure_J_m2": 0.5099577096791301,
+   "damage_localization": 0.5026360467034684,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "modulus_2d_Nm": 131.31428782495706,
+   "post_peak_load_retention": 0.5802964856707021
+  },
+  "S2_hole20_background": {
+   "strength_Nm": 13.214099875853847,
+   "failure_strain": 0.12000000000000004,
+   "first_damage_strain": 0.085,
+   "work_to_failure_J_m2": 0.9158296051591206,
+   "damage_localization": 0.4633725235755425,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 171.08459393925014,
+   "post_peak_load_retention": 0.37339343772864153
+  },
+  "S2_hole20_rings2": {
+   "strength_Nm": 16.24465478226591,
+   "failure_strain": 0.12375000000000004,
+   "first_damage_strain": 0.08875000000000001,
+   "work_to_failure_J_m2": 1.0247833761839253,
+   "damage_localization": 0.4109206933457924,
+   "fracture_mode": "stepwise (few events)",
+   "modulus_2d_Nm": 177.57795713869683,
+   "post_peak_load_retention": 0.35047313419286336
+  }
+ },
+ "defect organisation": {
+  "S2_vac_clustered_0.01": {
+   "strength_Nm": 27.20924626686529,
+   "failure_strain": 0.1425,
+   "first_damage_strain": 0.13749999999999998,
+   "work_to_failure_J_m2": 2.155895143072417,
+   "damage_localization": 0.32190330254297583,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "modulus_2d_Nm": 246.82373059459212,
+   "post_peak_load_retention": 0.5076450627394471
+  },
+  "S2_vac_clustered_0.03": {
+   "strength_Nm": 23.400717944190788,
+   "failure_strain": 0.1325,
+   "first_damage_strain": 0.1075,
+   "work_to_failure_J_m2": 1.690771227814745,
+   "damage_localization": 0.4234766210242735,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "modulus_2d_Nm": 237.52389992956142,
+   "post_peak_load_retention": 0.45598574621973403
+  },
+  "S2_vac_random_0.01": {
+   "strength_Nm": 27.521416962277865,
+   "failure_strain": 0.15875000000000003,
+   "first_damage_strain": 0.11374999999999999,
+   "work_to_failure_J_m2": 2.393178532304967,
+   "damage_localization": 0.2638693727972756,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 249.31137831376054,
+   "post_peak_load_retention": 0.38118680795009086
+  },
+  "S2_vac_random_0.03": {
+   "strength_Nm": 22.386127372661576,
+   "failure_strain": 0.13625,
+   "first_damage_strain": 0.10625,
+   "work_to_failure_J_m2": 1.69421907139599,
+   "damage_localization": 0.3948794221664189,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "modulus_2d_Nm": 245.7848161947023,
+   "post_peak_load_retention": 0.44017640427092514
+  }
+ }
+}

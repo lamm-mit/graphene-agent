@@ -1,0 +1,52 @@
+batch stage7_b1: 3 structures, N = [3035, 4388, 2960], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0023 0.0034]
+ [0.0077 0.0047]
+ [0.002  0.0018]], sigma = [[ 0.013 -0.002]
+ [-0.022  0.066]
+ [-0.06  -0.023]] N/m
+step   1 S7_voronoi_n35: e=0.0100 s=  1.35N/m nb=  0 | S7_H3_D30_60_w: e=0.0100 s=  1.19N/m nb=  0 | S7_hole30_ring: e=0.0100 s=  1.24N/m nb=  0  fire_it=300 t=384s
+step   2 S7_voronoi_n35: e=0.0200 s=  2.57N/m nb=  0 | S7_H3_D30_60_w: e=0.0200 s=  2.37N/m nb=  0 | S7_hole30_ring: e=0.0200 s=  2.39N/m nb=  0  fire_it=190 t=527s
+step   3 S7_voronoi_n35: e=0.0300 s=  3.64N/m nb=  0 | S7_H3_D30_60_w: e=0.0300 s=  3.60N/m nb=  0 | S7_hole30_ring: e=0.0300 s=  3.63N/m nb=  0  fire_it=90 t=632s
+step   4 S7_voronoi_n35: e=0.0400 s=  4.79N/m nb=  0 | S7_H3_D30_60_w: e=0.0400 s=  4.85N/m nb=  0 | S7_hole30_ring: e=0.0400 s=  4.64N/m nb=  0  fire_it=270 t=777s
+step   5 S7_voronoi_n35: e=0.0500 s=  5.78N/m nb=  0 | S7_H3_D30_60_w: e=0.0500 s=  5.78N/m nb=  0 | S7_hole30_ring: e=0.0500 s=  5.62N/m nb=  0  fire_it=140 t=924s
+step   6 S7_voronoi_n35: e=0.0600 s=  6.84N/m nb=  0 | S7_H3_D30_60_w: e=0.0600 s=  6.85N/m nb=  0 | S7_hole30_ring: e=0.0600 s=  6.24N/m nb=  0  fire_it=160 t=1044s
+  step 7: early bisection for [0] -> d_eps=[0.005]
+step   7 S7_voronoi_n35: e=0.0600 s=  6.84N/m nb=  0 | S7_H3_D30_60_w: e=0.0700 s=  7.73N/m nb=  0 | S7_hole30_ring: e=0.0700 s=  6.75N/m nb=  0  fire_it=920 t=1298s
+step   8 S7_voronoi_n35: e=0.0650 s=  7.31N/m nb=  0 | S7_H3_D30_60_w: e=0.0800 s=  8.77N/m nb=  0 | S7_hole30_ring: e=0.0800 s=  7.70N/m nb=  0  fire_it=150 t=1405s
+  step 9: early bisection for [0, 2] -> d_eps=[0.0025 0.005 ]
+step   9 S7_voronoi_n35: e=0.0650 s=  7.31N/m nb=  0 | S7_H3_D30_60_w: e=0.0900 s=  9.67N/m nb=  0 | S7_hole30_ring: e=0.0800 s=  7.70N/m nb=  0  fire_it=550 t=1565s
+  step 10: early bisection for [0] -> d_eps=[0.00125]
+step  10 S7_voronoi_n35: e=0.0650 s=  7.31N/m nb=  0 | S7_H3_D30_60_w: e=0.1000 s= 10.60N/m nb=  0 | S7_hole30_ring: e=0.0850 s=  8.12N/m nb=  0  fire_it=460 t=1725s
+  step 11: early bisection for [1, 2] -> d_eps=[0.005  0.0025]
+step  11 S7_voronoi_n35: e=0.0663 s=  7.33N/m nb=  1 | S7_H3_D30_60_w: e=0.1000 s= 10.60N/m nb=  0 | S7_hole30_ring: e=0.0850 s=  8.12N/m nb=  0  fire_it=400 t=1802s
+  step 12: early bisection for [2] -> d_eps=[0.00125]
+  step 12: bisection for [1] -> d_eps=[0.0025]
+step  12 S7_voronoi_n35: e=0.0713 s=  6.74N/m nb=  3 | S7_H3_D30_60_w: e=0.1000 s= 10.60N/m nb=  2 | S7_hole30_ring: e=0.0850 s=  8.12N/m nb=  0  fire_it=800 t=2168s
+step  13 S7_voronoi_n35: e=0.0763 s=  7.19N/m nb=  0 | S7_H3_D30_60_w: e=0.1025 s= 10.69N/m nb=  0 | S7_hole30_ring: e=0.0863 s=  8.25N/m nb=  0  fire_it=240 t=2306s
+step  14 S7_voronoi_n35: e=0.0813 s=  6.17N/m nb=  5 | S7_H3_D30_60_w: e=0.1050 s= 10.97N/m nb=  0 | S7_hole30_ring: e=0.0875 s=  8.18N/m nb=  1  fire_it=840 t=2562s
+  step 15: early bisection for [1] -> d_eps=[0.00125]
+step  15 S7_voronoi_n35: e=0.0863 s=  6.16N/m nb=  2 | S7_H3_D30_60_w: e=0.1050 s= 10.97N/m nb=  0 | S7_hole30_ring: e=0.0925 s=  8.61N/m nb=  0  fire_it=240 t=2678s
+step  16 S7_voronoi_n35: e=0.0913 s=  6.52N/m nb=  1 | S7_H3_D30_60_w: e=0.1062 s= 10.95N/m nb=  2 | S7_hole30_ring: e=0.0975 s=  8.92N/m nb=  2  fire_it=230 t=2805s
+step  17 S7_voronoi_n35: e=0.0963 s=  6.89N/m nb=  1 | S7_H3_D30_60_w: e=0.1113 s= 11.40N/m nb=  2 | S7_hole30_ring: e=0.1025 s=  3.30N/m nb= 12  fire_it=1780 t=3806s
+step  18 S7_voronoi_n35: e=0.1013 s=  6.18N/m nb=  6 | S7_H3_D30_60_w: e=0.1163 s= 11.90N/m nb=  0 | S7_hole30_ring: e=0.1075 s=  3.26N/m nb=  2  fire_it=1680 t=4278s
+step  19 S7_voronoi_n35: e=0.1063 s=  4.10N/m nb= 11 | S7_H3_D30_60_w: e=0.1213 s= 11.45N/m nb=  8 | S7_hole30_ring: e=0.1125 s=  3.43N/m nb=  0  fire_it=1670 t=5265s
+step  20 S7_voronoi_n35: e=0.1113 s=  2.04N/m nb=  6 | S7_H3_D30_60_w: e=0.1263 s= 11.91N/m nb=  0 | S7_hole30_ring: e=0.1175 s=  2.55N/m nb=  4  fire_it=2000 t=6098s
+step  21 S7_voronoi_n35: e=0.1163 s=  1.38N/m nb=  0 | S7_H3_D30_60_w: e=0.1313 s= 11.39N/m nb=  9 | S7_hole30_ring: e=0.1225 s=  1.62N/m nb=  1  fire_it=1620 t=7194s
+step  22 S7_voronoi_n35: e=0.1213 s=  1.38N/m nb=  0 | S7_H3_D30_60_w: e=0.1363 s= 11.63N/m nb=  2 | S7_hole30_ring: e=0.1275 s=  1.44N/m nb=  1  fire_it=1340 t=7623s
+step  23 S7_voronoi_n35: e=0.1263 s=  1.57N/m nb=  1 | S7_H3_D30_60_w: e=0.1413 s= 12.01N/m nb=  0 | S7_hole30_ring: e=0.1325 s=  1.67N/m nb=  0  fire_it=730 t=7843s
+step  24 S7_voronoi_n35: e=0.1313 s=  1.48N/m nb=  1 | S7_H3_D30_60_w: e=0.1463 s= 12.33N/m nb=  3 | S7_hole30_ring: e=0.1375 s=  2.03N/m nb=  0  fire_it=740 t=8147s
+step  25 S7_voronoi_n35: e=0.1363 s=  1.26N/m nb=  0 | S7_H3_D30_60_w: e=0.1513 s=  9.91N/m nb= 14 | S7_hole30_ring: e=0.1425 s=  2.34N/m nb=  0  fire_it=1420 t=9031s
+[done] S7_H3_D30_60_wideveins -> run_20260906_000853_1472a1: strongly reconstructed; strength 12.33 N/m @ 0.146, fail 0.156, mode progressive (multiple events, load retained), not spanning (fractured)
+step  26 S7_voronoi_n35: e=0.1413 s=  1.38N/m nb=  0 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb= 13* | S7_hole30_ring: e=0.1475 s=  2.21N/m nb=  0  fire_it=2000 t=10096s
+step  27 S7_voronoi_n35: e=0.1463 s=  1.46N/m nb=  0 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1525 s=  2.53N/m nb=  0  fire_it=920 t=10333s
+step  28 S7_voronoi_n35: e=0.1513 s=  1.30N/m nb=  1 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1575 s=  1.22N/m nb=  2  fire_it=1430 t=10916s
+step  29 S7_voronoi_n35: e=0.1563 s=  1.68N/m nb=  0 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1625 s=  1.29N/m nb=  1  fire_it=540 t=11072s
+step  30 S7_voronoi_n35: e=0.1613 s=  1.75N/m nb=  0 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1675 s=  1.32N/m nb=  0  fire_it=590 t=11231s
+step  31 S7_voronoi_n35: e=0.1663 s=  1.99N/m nb=  0 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1725 s=  1.53N/m nb=  0  fire_it=90 t=11336s
+step  32 S7_voronoi_n35: e=0.1713 s=  1.63N/m nb=  2 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1775 s=  1.77N/m nb=  0  fire_it=1440 t=11640s
+[done] S7_hole30_rings3 -> run_20260906_003914_2004b5: strongly reconstructed; strength 8.92 N/m @ 0.098, fail 0.183, mode stepwise (few events), not spanning (fractured)
+step  33 S7_voronoi_n35: e=0.1763 s=  1.69N/m nb=  1 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1825 s=  1.50N/m nb=  1*  fire_it=520 t=11917s
+step  34 S7_voronoi_n35: e=0.1813 s=  1.71N/m nb=  0 | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1825 s=  1.50N/m nb=  0*  fire_it=430 t=12100s
+[done] S7_voronoi_n35_reg0.8_s7 -> run_20260906_004402_d0292e: reconstructed but viable; strength 7.33 N/m @ 0.066, fail 0.186, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  35 S7_voronoi_n35: e=0.1863 s=  1.92N/m nb=  0* | S7_H3_D30_60_w: e=0.1563 s=  2.44N/m nb=  0* | S7_hole30_ring: e=0.1825 s=  1.50N/m nb=  0*  fire_it=310 t=12206s
+batch finished in 12208s (simulation 12208s); evaluations {'n_evaluations': 64193, 'fire_iterations': 63860, 'n_rebuilds': 1103, 'n_reverts': 9, 'n_soft_converged': 19}

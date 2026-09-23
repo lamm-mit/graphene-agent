@@ -1,0 +1,25 @@
+[queue] launched stage2_b00.json (pid 72983); running=1
+[queue] launched stage2_b01.json (pid 72984); running=2
+[queue] launched stage2_b02.json (pid 72985); running=3
+[queue] finished stage2_b01.json.running rc=0 in 11495s
+[queue] launched stage2_b03.json (pid 17840); running=3
+[queue] finished stage2_b03.json.running rc=0 in 1227s
+[queue] launched stage2_b04.json (pid 22704); running=3
+[queue] finished stage2_b00.json.running rc=0 in 15299s
+[queue] launched stage2_b05.json (pid 33411); running=3
+[queue] finished stage2_b02.json.running rc=0 in 15880s
+[queue] launched stage2_b06.json (pid 35880); running=3
+[queue] finished stage2_b04.json.running rc=0 in 13008s
+[queue] launched stage2_b07.json (pid 75709); running=3
+[queue] finished stage2_b05.json.running rc=0 in 14591s
+[queue] launched stage2_b08.json (pid 91371); running=3
+[queue] finished stage2_b06.json.running rc=0 in 14536s
+[queue] launched stage2_b09.json (pid 93619); running=3
+[queue] finished stage2_b09.json.running rc=0 in 8139s
+[queue] launched stage2_b10.json (pid 26680); running=3
+[queue] finished stage2_b07.json.running rc=0 in 12860s
+[queue] launched stage2_b11.json (pid 26840); running=3
+[queue] finished stage2_b11.json.running rc=0 in 6202s
+[queue] finished stage2_b08.json.running rc=0 in 18505s
+[queue] finished stage2_b10.json.running rc=0 in 11234s
+[queue] all done

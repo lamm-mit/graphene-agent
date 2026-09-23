@@ -1,0 +1,36 @@
+{
+ "run_id": "run_20260905_022451_45aa60",
+ "name": "S1_hole_d20",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": 0.015580410667870269,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 10,
+   "eps": 0.09125,
+   "sigma_Nm": 19.02278775195849,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage = peak_load",
+   "frame": 11,
+   "eps": 0.0925,
+   "sigma_Nm": 19.06248592506963,
+   "n_broken": 3
+  },
+  {
+   "label": "major_propagation = post_peak = final",
+   "frame": 12,
+   "eps": 0.0975,
+   "sigma_Nm": 0.7507221054026142,
+   "n_broken": 38
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S1_hole_d20_energy_rel.png"
+}

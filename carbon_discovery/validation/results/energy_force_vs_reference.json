@@ -1,0 +1,134 @@
+[
+ {
+  "config": "pristine graphene",
+  "n_atoms": 240,
+  "dE_per_atom": 2.6526928801710407e-14,
+  "max_abs_dE_atom": 2.6645352591003757e-14,
+  "max_abs_dF": 1.979116659815152e-13,
+  "max_abs_F": 2.8782531913407183e-13,
+  "max_abs_dF_norm": 1.560132597225424e-13,
+  "max_abs_dstress": 4.1800541257451767e-16,
+  "max_abs_stress": 1.1923731942229454e-07
+ },
+ {
+  "config": "randomly displaced (0.12 A)",
+  "n_atoms": 240,
+  "dE_per_atom": 0.0,
+  "max_abs_dE_atom": 3.552713678800501e-14,
+  "max_abs_dF": 4.263256414560601e-13,
+  "max_abs_F": 239.4355943972604,
+  "max_abs_dF_norm": 4.121147867408581e-13,
+  "max_abs_dstress": 4.163336342344337e-16,
+  "max_abs_stress": 0.22129404049412865
+ },
+ {
+  "config": "18% strained",
+  "n_atoms": 240,
+  "dE_per_atom": 6.631732200427602e-15,
+  "max_abs_dE_atom": 1.687538997430238e-14,
+  "max_abs_dF": 1.0835505352161051e-13,
+  "max_abs_F": 2.576994317557008,
+  "max_abs_dF_norm": 1.056932319443149e-13,
+  "max_abs_dstress": 4.3021142204224816e-16,
+  "max_abs_stress": 0.1012278095741549
+ },
+ {
+  "config": "vacancies 3%",
+  "n_atoms": 233,
+  "dE_per_atom": 9.75852684305717e-16,
+  "max_abs_dE_atom": 2.220446049250313e-14,
+  "max_abs_dF": 1.5587531265737198e-13,
+  "max_abs_F": 19.963548721531428,
+  "max_abs_dF_norm": 1.438849039914203e-13,
+  "max_abs_dstress": 2.203098814490545e-16,
+  "max_abs_stress": 0.013875497433953892
+ },
+ {
+  "config": "pore edges (nanomesh)",
+  "n_atoms": 338,
+  "dE_per_atom": 8.072438181416523e-15,
+  "max_abs_dE_atom": 2.220446049250313e-14,
+  "max_abs_dF": 1.9895196601282805e-13,
+  "max_abs_F": 20.67097985484848,
+  "max_abs_dF_norm": 2.0961010704922955e-13,
+  "max_abs_dstress": 2.220446049250313e-16,
+  "max_abs_stress": 0.012621126503881554
+ },
+ {
+  "config": "crack tip, 10% strain",
+  "n_atoms": 558,
+  "dE_per_atom": 6.112195576430969e-14,
+  "max_abs_dE_atom": 1.4210854715202004e-14,
+  "max_abs_dF": 1.212363542890671e-13,
+  "max_abs_F": 4.256620776550836,
+  "max_abs_dF_norm": 1.212363542890671e-13,
+  "max_abs_dstress": 3.7470027081099033e-16,
+  "max_abs_stress": 0.07222850296020028
+ },
+ {
+  "config": "near rupture: precrack at peak stress",
+  "n_atoms": 561,
+  "dE_per_atom": 1.6212026769570912e-15,
+  "max_abs_dE_atom": 1.1546319456101628e-14,
+  "max_abs_dF": 1.5415078068181653e-13,
+  "max_abs_F": 0.017588298462055306,
+  "max_abs_dF_norm": 1.6318977419382819e-13,
+  "max_abs_dstress": 1.9739255802814215e-16,
+  "max_abs_stress": 0.06795319524916837
+ },
+ {
+  "config": "post-rupture: precrack",
+  "n_atoms": 561,
+  "dE_per_atom": 3.2424053539141825e-15,
+  "max_abs_dE_atom": 1.2434497875801753e-14,
+  "max_abs_dF": 1.3855279770713658e-13,
+  "max_abs_F": 0.011351781867052935,
+  "max_abs_dF_norm": 1.3979312499246e-13,
+  "max_abs_dstress": 2.0398035677541247e-16,
+  "max_abs_stress": 0.06716049086718093
+ },
+ {
+  "config": "near rupture: mesh_progressive at peak stress",
+  "n_atoms": 704,
+  "dE_per_atom": 3.875687649600546e-15,
+  "max_abs_dE_atom": 1.509903313490213e-14,
+  "max_abs_dF": 1.3631890755094744e-13,
+  "max_abs_F": 0.017163593618107827,
+  "max_abs_dF_norm": 1.277736597082857e-13,
+  "max_abs_dstress": 1.3697539196638742e-16,
+  "max_abs_stress": 0.041983410395648
+ },
+ {
+  "config": "post-rupture: mesh_progressive",
+  "n_atoms": 704,
+  "dE_per_atom": 5.167583532800729e-15,
+  "max_abs_dE_atom": 1.3322676295501878e-14,
+  "max_abs_dF": 1.3157530620588886e-13,
+  "max_abs_F": 0.012171855100184537,
+  "max_abs_dF_norm": 1.3328834563841596e-13,
+  "max_abs_dstress": 1.1687699419393738e-16,
+  "max_abs_stress": 0.03507256211958994
+ },
+ {
+  "config": "near rupture: pristine_zz at peak stress",
+  "n_atoms": 336,
+  "dE_per_atom": 1.3534147347811431e-15,
+  "max_abs_dE_atom": 7.993605777301127e-15,
+  "max_abs_dF": 1.0475995071423938e-13,
+  "max_abs_F": 0.01477274567148995,
+  "max_abs_dF_norm": 1.0435055597390885e-13,
+  "max_abs_dstress": 2.857008249770865e-16,
+  "max_abs_stress": 0.11848068571204906
+ },
+ {
+  "config": "post-rupture: pristine_zz",
+  "n_atoms": 336,
+  "dE_per_atom": 1.3534147347811431e-15,
+  "max_abs_dE_atom": 7.993605777301127e-15,
+  "max_abs_dF": 8.024136910478319e-14,
+  "max_abs_F": 0.017229446830259565,
+  "max_abs_dF_norm": 8.136373519374018e-14,
+  "max_abs_dstress": 1.6653345369377348e-16,
+  "max_abs_stress": 0.10991659635514486
+ }
+]

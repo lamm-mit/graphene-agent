@@ -1,0 +1,1 @@
+Stage 2 reconnaissance: stress-strain curves grouped by design variable (hierarchy ladder at matched porosity, disorder, anisotropy/load-path organisation, porosity sweep and lattice orientation, gradients and flaw halo, defect organisation). Legends give the strength and failure strain of each individual simulation.

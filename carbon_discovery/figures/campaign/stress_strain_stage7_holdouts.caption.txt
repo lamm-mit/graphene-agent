@@ -1,0 +1,1 @@
+stress-strain curves, stage7_holdouts (12 simulations). Every curve is an individual AQS simulation (uniaxial stress, REBO2+S); dots mark the peak stress.

@@ -1,0 +1,85 @@
+{
+ "campaign": "validation",
+ "stage": "convergence",
+ "batch_name": "conv_size",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 200
+ },
+ "structures": [
+  {
+   "name": "mesh_size32",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 32,
+    "Ly": 32,
+    "pore_d": 8,
+    "period": 16
+   },
+   "seed": 0,
+   "reason": "TEST15 size (periodic repeats)"
+  },
+  {
+   "name": "mesh_size64",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 64,
+    "Ly": 64,
+    "pore_d": 8,
+    "period": 16
+   },
+   "seed": 0,
+   "reason": "TEST15 size (periodic repeats)"
+  },
+  {
+   "name": "mesh_size96",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 96,
+    "Ly": 96,
+    "pore_d": 8,
+    "period": 16
+   },
+   "seed": 0,
+   "reason": "TEST15 size (periodic repeats)"
+  },
+  {
+   "name": "precrack12_cell40",
+   "family": "precrack",
+   "params": {
+    "Lx": 40,
+    "Ly": 40,
+    "crack_len": 12
+   },
+   "seed": 0,
+   "reason": "TEST15 size (crack/cell ratio)"
+  },
+  {
+   "name": "precrack12_cell60",
+   "family": "precrack",
+   "params": {
+    "Lx": 60,
+    "Ly": 60,
+    "crack_len": 12
+   },
+   "seed": 0,
+   "reason": "TEST15 size (crack/cell ratio)"
+  },
+  {
+   "name": "precrack12_cell90",
+   "family": "precrack",
+   "params": {
+    "Lx": 90,
+    "Ly": 90,
+    "crack_len": 12
+   },
+   "seed": 0,
+   "reason": "TEST15 size (crack/cell ratio)"
+  }
+ ]
+}

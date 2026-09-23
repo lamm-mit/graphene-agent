@@ -1,0 +1,71 @@
+{
+ "run_id": "run_20260905_035837_63294b",
+ "name": "S2_H2_D40_W8",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": 0.0032801048627662415,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 11,
+   "eps": 0.10999999999999999,
+   "sigma_Nm": 12.168645574308306,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage",
+   "frame": 12,
+   "eps": 0.11124999999999999,
+   "sigma_Nm": 12.1102595602154,
+   "n_broken": 4
+  },
+  {
+   "label": "damage_event",
+   "frame": 13,
+   "eps": 0.11624999999999999,
+   "sigma_Nm": 12.40381117260782,
+   "n_broken": 6
+  },
+  {
+   "label": "peak_load",
+   "frame": 15,
+   "eps": 0.12625,
+   "sigma_Nm": 12.825362415333455,
+   "n_broken": 22
+  },
+  {
+   "label": "major_propagation",
+   "frame": 17,
+   "eps": 0.13625,
+   "sigma_Nm": 8.722074441079968,
+   "n_broken": 64
+  },
+  {
+   "label": "post_peak",
+   "frame": 18,
+   "eps": 0.14125000000000001,
+   "sigma_Nm": 8.799542699462187,
+   "n_broken": 68
+  },
+  {
+   "label": "damage_event",
+   "frame": 19,
+   "eps": 0.14625000000000002,
+   "sigma_Nm": 9.068822751407343,
+   "n_broken": 74
+  },
+  {
+   "label": "damage_event",
+   "frame": 23,
+   "eps": 0.16625000000000004,
+   "sigma_Nm": 3.19809322958436,
+   "n_broken": 112
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S2_H2_D40_W8_energy_rel.png"
+}

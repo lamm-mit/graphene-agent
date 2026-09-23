@@ -1,0 +1,71 @@
+{
+ "run_id": "run_20260905_210540_992f53",
+ "name": "S5_H2_D40_W8_jitter2",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": -0.023121940534662908,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 8,
+   "eps": 0.07500000000000001,
+   "sigma_Nm": 8.204713753713452,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage",
+   "frame": 9,
+   "eps": 0.07625000000000001,
+   "sigma_Nm": 8.313358972825991,
+   "n_broken": 1
+  },
+  {
+   "label": "damage_event",
+   "frame": 12,
+   "eps": 0.09125000000000003,
+   "sigma_Nm": 9.551056715137893,
+   "n_broken": 2
+  },
+  {
+   "label": "peak_load",
+   "frame": 15,
+   "eps": 0.10625000000000004,
+   "sigma_Nm": 10.29911182335609,
+   "n_broken": 8
+  },
+  {
+   "label": "major_propagation",
+   "frame": 17,
+   "eps": 0.11625000000000005,
+   "sigma_Nm": 6.527019013017312,
+   "n_broken": 37
+  },
+  {
+   "label": "post_peak",
+   "frame": 18,
+   "eps": 0.12125000000000005,
+   "sigma_Nm": 6.092913234982425,
+   "n_broken": 40
+  },
+  {
+   "label": "damage_event",
+   "frame": 22,
+   "eps": 0.14125000000000007,
+   "sigma_Nm": 3.729109295874606,
+   "n_broken": 51
+  },
+  {
+   "label": "damage_event",
+   "frame": 30,
+   "eps": 0.1812500000000001,
+   "sigma_Nm": 3.648005460272418,
+   "n_broken": 61
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "paper/figures/si/progression_S5_H2_D40_W8_jitter2_energy_rel.png"
+}

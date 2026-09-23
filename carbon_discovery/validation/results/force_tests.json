@@ -1,0 +1,56 @@
+{
+  "TEST3_finite_difference": {
+    "displaced_graphene": {
+      "max_abs_force_error": 1.4341405965012655e-06,
+      "max_abs_force": 22.278448191034894,
+      "max_abs_stress_error": 1.8579260005480158e-10,
+      "max_abs_stress": 0.014050182434573122
+    },
+    "nanomesh": {
+      "max_abs_force_error": 4.8480464158728864e-06,
+      "max_abs_force": 30.615550953840824,
+      "max_abs_stress_error": 1.5122816540702466e-10,
+      "max_abs_stress": 0.010681955107081547
+    },
+    "precrack": {
+      "max_abs_force_error": 9.994607790275722e-07,
+      "max_abs_force": 28.06579407488967,
+      "max_abs_stress_error": 1.8645965847718937e-10,
+      "max_abs_stress": 0.015350897955974281
+    }
+  },
+  "TEST9_neighbor_list": {
+    "graphene": {
+      "n_pairs_brute": 1336,
+      "n_pairs_celllist": 1336,
+      "identical": true,
+      "max_neighbors": 24,
+      "M": 24,
+      "Mb": 12,
+      "avg_neighbors": 22.266666412353516
+    },
+    "nanomesh": {
+      "n_pairs_brute": 6636,
+      "n_pairs_celllist": 6636,
+      "identical": true,
+      "max_neighbors": 24,
+      "M": 24,
+      "Mb": 12,
+      "avg_neighbors": 19.633136749267578
+    }
+  },
+  "TEST10_translation": {
+    "dE": 0.0,
+    "max_dF": 4.867217739956686e-13
+  },
+  "TEST11_force_balance": {
+    "sum_F": 1.1102230246251565e-14,
+    "max_F": 18.557093573487855
+  },
+  "TEST12_periodic_images": {
+    "dE_wrap": 4.547473508864641e-13,
+    "max_dF_wrap": 1.1439738045737613e-12,
+    "dE_per_atom_2x_supercell": 2.6645352591003757e-15,
+    "max_dF_2x_supercell": 6.403766406037903e-13
+  }
+}

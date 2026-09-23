@@ -1,0 +1,61 @@
+batch stage7_b2: 3 structures, N = [2628, 8468, 3045], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0077 0.0071]
+ [0.     0.    ]
+ [0.0045 0.0036]], sigma = [[-0.029  0.008]
+ [-0.019 -0.077]
+ [-0.051 -0.01 ]] N/m
+step   1 S7_mesh_p24_ph: e=0.0100 s=  0.97N/m nb=  0 | S7_precrack_L5: e=0.0100 s=  2.33N/m nb=  0 | S7_graded_x_we: e=0.0100 s=  1.39N/m nb=  0  fire_it=220 t=133s
+step   2 S7_mesh_p24_ph: e=0.0200 s=  1.97N/m nb=  0 | S7_precrack_L5: e=0.0200 s=  4.48N/m nb=  0 | S7_graded_x_we: e=0.0200 s=  2.62N/m nb=  0  fire_it=250 t=211s
+step   3 S7_mesh_p24_ph: e=0.0300 s=  2.84N/m nb=  0 | S7_precrack_L5: e=0.0300 s=  6.62N/m nb=  0 | S7_graded_x_we: e=0.0300 s=  3.77N/m nb=  0  fire_it=250 t=298s
+step   4 S7_mesh_p24_ph: e=0.0400 s=  3.71N/m nb=  0 | S7_precrack_L5: e=0.0400 s=  8.64N/m nb=  0 | S7_graded_x_we: e=0.0400 s=  4.98N/m nb=  0  fire_it=220 t=397s
+step   5 S7_mesh_p24_ph: e=0.0500 s=  4.65N/m nb=  0 | S7_precrack_L5: e=0.0500 s= 10.69N/m nb=  0 | S7_graded_x_we: e=0.0500 s=  6.21N/m nb=  0  fire_it=250 t=471s
+step   6 S7_mesh_p24_ph: e=0.0600 s=  5.54N/m nb=  0 | S7_precrack_L5: e=0.0600 s= 12.55N/m nb=  0 | S7_graded_x_we: e=0.0600 s=  7.38N/m nb=  0  fire_it=330 t=559s
+  step 7: early bisection for [1] -> d_eps=[0.005]
+step   7 S7_mesh_p24_ph: e=0.0700 s=  6.41N/m nb=  0 | S7_precrack_L5: e=0.0600 s= 12.55N/m nb=  0 | S7_graded_x_we: e=0.0700 s=  8.41N/m nb=  0  fire_it=340 t=657s
+step   8 S7_mesh_p24_ph: e=0.0800 s=  7.16N/m nb=  0 | S7_precrack_L5: e=0.0650 s= 13.43N/m nb=  0 | S7_graded_x_we: e=0.0800 s=  9.39N/m nb=  0  fire_it=220 t=740s
+  step 9: early bisection for [1] -> d_eps=[0.0025]
+step   9 S7_mesh_p24_ph: e=0.0900 s=  7.96N/m nb=  0 | S7_precrack_L5: e=0.0650 s= 13.43N/m nb=  0 | S7_graded_x_we: e=0.0900 s= 10.40N/m nb=  0  fire_it=230 t=802s
+  step 10: early bisection for [1, 2] -> d_eps=[0.00125 0.005  ]
+step  10 S7_mesh_p24_ph: e=0.1000 s=  8.57N/m nb=  0 | S7_precrack_L5: e=0.0650 s= 13.43N/m nb=  0 | S7_graded_x_we: e=0.0900 s= 10.40N/m nb=  0  fire_it=400 t=901s
+  step 11: early bisection for [2] -> d_eps=[0.0025]
+step  11 S7_mesh_p24_ph: e=0.1100 s=  9.15N/m nb=  0 | S7_precrack_L5: e=0.0663 s= 13.51N/m nb=  4 | S7_graded_x_we: e=0.0900 s= 10.40N/m nb=  0  fire_it=350 t=986s
+  step 12: early bisection for [2] -> d_eps=[0.00125]
+step  12 S7_mesh_p24_ph: e=0.1200 s=  9.50N/m nb=  0 | S7_precrack_L5: e=0.0713 s= 14.39N/m nb=  0 | S7_graded_x_we: e=0.0900 s= 10.40N/m nb=  0  fire_it=200 t=1058s
+  step 13: early bisection for [0] -> d_eps=[0.005]
+step  13 S7_mesh_p24_ph: e=0.1200 s=  9.50N/m nb=  0 | S7_precrack_L5: e=0.0763 s= 15.33N/m nb=  0 | S7_graded_x_we: e=0.0912 s= 10.49N/m nb=  0  fire_it=400 t=1156s
+  step 14: early bisection for [0] -> d_eps=[0.0025]
+step  14 S7_mesh_p24_ph: e=0.1200 s=  9.50N/m nb=  0 | S7_precrack_L5: e=0.0813 s= 16.14N/m nb=  0 | S7_graded_x_we: e=0.0925 s= 10.41N/m nb=  2  fire_it=300 t=1226s
+step  15 S7_mesh_p24_ph: e=0.1225 s=  9.63N/m nb=  0 | S7_precrack_L5: e=0.0863 s=  4.12N/m nb= 51 | S7_graded_x_we: e=0.0975 s= 10.28N/m nb=  2  fire_it=2000 t=2136s
+  step 16: early bisection for [0] -> d_eps=[0.00125]
+step  16 S7_mesh_p24_ph: e=0.1225 s=  9.63N/m nb=  0 | S7_precrack_L5: e=0.0913 s=  2.89N/m nb=  0 | S7_graded_x_we: e=0.1025 s= 10.61N/m nb=  1  fire_it=2000 t=2855s
+step  17 S7_mesh_p24_ph: e=0.1237 s=  9.74N/m nb=  0 | S7_precrack_L5: e=0.0963 s=  2.67N/m nb=  1 | S7_graded_x_we: e=0.1075 s= 10.33N/m nb=  7  fire_it=2000 t=3607s
+step  18 S7_mesh_p24_ph: e=0.1250 s=  9.76N/m nb=  1 | S7_precrack_L5: e=0.1013 s=  2.58N/m nb=  1 | S7_graded_x_we: e=0.1125 s=  2.53N/m nb= 16  fire_it=2000 t=4552s
+step  19 S7_mesh_p24_ph: e=0.1300 s=  9.91N/m nb=  3 | S7_precrack_L5: e=0.1063 s=  1.63N/m nb=  1 | S7_graded_x_we: e=0.1175 s=  2.29N/m nb=  0  fire_it=1360 t=5520s
+[done] S7_precrack_L50_cell150 -> run_20260905_231328_ea6938: stable; strength 16.14 N/m @ 0.081, fail 0.111, mode stepwise (few events), stress collapsed
+step  20 S7_mesh_p24_ph: e=0.1350 s=  8.45N/m nb= 13 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1225 s=  1.08N/m nb=  2  fire_it=1290 t=6774s
+step  21 S7_mesh_p24_ph: e=0.1400 s=  8.54N/m nb=  4 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1275 s=  1.32N/m nb=  0  fire_it=820 t=7251s
+step  22 S7_mesh_p24_ph: e=0.1450 s=  6.84N/m nb= 14 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1325 s=  1.49N/m nb=  0  fire_it=1860 t=8354s
+step  23 S7_mesh_p24_ph: e=0.1500 s=  5.34N/m nb=  5 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1375 s=  1.80N/m nb=  0  fire_it=2000 t=9045s
+step  24 S7_mesh_p24_ph: e=0.1550 s=  3.00N/m nb=  7 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1425 s=  1.89N/m nb=  0  fire_it=1770 t=10140s
+step  25 S7_mesh_p24_ph: e=0.1600 s=  2.73N/m nb=  1 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1475 s=  2.05N/m nb=  0  fire_it=560 t=10866s
+step  26 S7_mesh_p24_ph: e=0.1650 s=  2.13N/m nb=  2 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1525 s=  1.47N/m nb=  2  fire_it=970 t=11618s
+step  27 S7_mesh_p24_ph: e=0.1700 s=  1.97N/m nb=  1 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1575 s=  1.61N/m nb=  0  fire_it=1150 t=12315s
+step  28 S7_mesh_p24_ph: e=0.1750 s=  2.18N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1625 s=  1.90N/m nb=  0  fire_it=370 t=12466s
+step  29 S7_mesh_p24_ph: e=0.1800 s=  1.76N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1675 s=  2.00N/m nb=  0  fire_it=1890 t=12838s
+step  30 S7_mesh_p24_ph: e=0.1850 s=  1.90N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1725 s=  2.07N/m nb=  0  fire_it=660 t=13009s
+step  31 S7_mesh_p24_ph: e=0.1900 s=  2.11N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1775 s=  2.15N/m nb=  0  fire_it=740 t=13193s
+[done] S7_graded_x_weak -> run_20260906_010927_81093d: reconstructed but viable; strength 10.61 N/m @ 0.103, fail 0.183, mode stepwise (few events), not spanning (fractured)
+step  32 S7_mesh_p24_ph: e=0.1950 s=  1.68N/m nb=  1 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  2*  fire_it=870 t=13730s
+step  33 S7_mesh_p24_ph: e=0.2000 s=  1.85N/m nb=  1 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=310 t=13885s
+step  34 S7_mesh_p24_ph: e=0.2050 s=  2.04N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=370 t=14010s
+step  35 S7_mesh_p24_ph: e=0.2100 s=  1.69N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=1300 t=14288s
+step  36 S7_mesh_p24_ph: e=0.2150 s=  1.74N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=660 t=14460s
+step  37 S7_mesh_p24_ph: e=0.2200 s=  1.27N/m nb=  1 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=540 t=14967s
+step  38 S7_mesh_p24_ph: e=0.2250 s=  1.42N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=390 t=15135s
+step  39 S7_mesh_p24_ph: e=0.2300 s=  1.43N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=730 t=15343s
+step  40 S7_mesh_p24_ph: e=0.2350 s=  1.62N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=150 t=15427s
+step  41 S7_mesh_p24_ph: e=0.2400 s=  1.73N/m nb=  0 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=240 t=15517s
+step  42 S7_mesh_p24_ph: e=0.2450 s=  1.28N/m nb=  1 | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=990 t=15912s
+[done] S7_mesh_p24_phi0.3 -> run_20260906_015019_56673a: reconstructed but viable; strength 9.91 N/m @ 0.130, fail 0.250, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  43 S7_mesh_p24_ph: e=0.2500 s=  1.25N/m nb=  0* | S7_precrack_L5: e=0.1113 s=  1.50N/m nb=  0* | S7_graded_x_we: e=0.1825 s=  0.61N/m nb=  0*  fire_it=940 t=16182s
+batch finished in 16185s (simulation 16185s); evaluations {'n_evaluations': 76479, 'fire_iterations': 76120, 'n_rebuilds': 918, 'n_reverts': 9, 'n_soft_converged': 21}

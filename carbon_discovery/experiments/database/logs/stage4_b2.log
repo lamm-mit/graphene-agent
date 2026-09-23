@@ -1,0 +1,47 @@
+batch stage4_b2: 3 structures, N = [8483, 3495, 4404], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.     0.    ]
+ [0.0004 0.0004]
+ [0.0042 0.0015]], sigma = [[-0.001 -0.043]
+ [ 0.021  0.021]
+ [-0.03   0.047]] N/m
+step   1 S4_precrack_L4: e=0.0100 s=  2.36N/m nb=  0 | S4_hole_d30: e=0.0100 s=  2.11N/m nb=  0 | S4_H2_D40_W8_v: e=0.0100 s=  1.36N/m nb=  0  fire_it=170 t=240s
+step   2 S4_precrack_L4: e=0.0200 s=  4.68N/m nb=  0 | S4_hole_d30: e=0.0200 s=  4.19N/m nb=  0 | S4_H2_D40_W8_v: e=0.0200 s=  2.72N/m nb=  0  fire_it=170 t=315s
+step   3 S4_precrack_L4: e=0.0300 s=  6.91N/m nb=  0 | S4_hole_d30: e=0.0300 s=  6.23N/m nb=  0 | S4_H2_D40_W8_v: e=0.0300 s=  4.02N/m nb=  0  fire_it=250 t=413s
+step   4 S4_precrack_L4: e=0.0400 s=  9.09N/m nb=  0 | S4_hole_d30: e=0.0400 s=  8.30N/m nb=  0 | S4_H2_D40_W8_v: e=0.0400 s=  5.43N/m nb=  0  fire_it=250 t=513s
+step   5 S4_precrack_L4: e=0.0500 s= 11.24N/m nb=  0 | S4_hole_d30: e=0.0500 s= 10.22N/m nb=  0 | S4_H2_D40_W8_v: e=0.0500 s=  6.63N/m nb=  0  fire_it=270 t=621s
+step   6 S4_precrack_L4: e=0.0600 s= 13.23N/m nb=  0 | S4_hole_d30: e=0.0600 s= 12.13N/m nb=  0 | S4_H2_D40_W8_v: e=0.0600 s=  7.91N/m nb=  0  fire_it=140 t=827s
+step   7 S4_precrack_L4: e=0.0700 s= 15.13N/m nb=  0 | S4_hole_d30: e=0.0700 s= 13.83N/m nb=  0 | S4_H2_D40_W8_v: e=0.0700 s=  9.13N/m nb=  0  fire_it=270 t=929s
+  step 8: early bisection for [0] -> d_eps=[0.005]
+step   8 S4_precrack_L4: e=0.0700 s= 15.13N/m nb=  0 | S4_hole_d30: e=0.0800 s= 15.46N/m nb=  0 | S4_H2_D40_W8_v: e=0.0800 s= 10.12N/m nb=  0  fire_it=320 t=1048s
+  step 9: early bisection for [0] -> d_eps=[0.0025]
+step   9 S4_precrack_L4: e=0.0700 s= 15.13N/m nb=  0 | S4_hole_d30: e=0.0900 s= 16.97N/m nb=  0 | S4_H2_D40_W8_v: e=0.0900 s= 11.20N/m nb=  0  fire_it=400 t=1234s
+  step 10: early bisection for [0, 1] -> d_eps=[0.00125 0.005  ]
+step  10 S4_precrack_L4: e=0.0700 s= 15.13N/m nb=  0 | S4_hole_d30: e=0.0900 s= 16.97N/m nb=  0 | S4_H2_D40_W8_v: e=0.1000 s= 12.14N/m nb=  0  fire_it=350 t=1367s
+  step 11: early bisection for [1] -> d_eps=[0.0025]
+step  11 S4_precrack_L4: e=0.0713 s= 15.19N/m nb=  2 | S4_hole_d30: e=0.0900 s= 16.97N/m nb=  0 | S4_H2_D40_W8_v: e=0.1100 s= 12.99N/m nb=  0  fire_it=340 t=1518s
+  step 12: early bisection for [1] -> d_eps=[0.00125]
+step  12 S4_precrack_L4: e=0.0763 s= 16.11N/m nb=  2 | S4_hole_d30: e=0.0900 s= 16.97N/m nb=  0 | S4_H2_D40_W8_v: e=0.1200 s= 13.78N/m nb=  0  fire_it=290 t=1631s
+step  13 S4_precrack_L4: e=0.0813 s= 17.03N/m nb=  0 | S4_hole_d30: e=0.0912 s= 17.12N/m nb=  0 | S4_H2_D40_W8_v: e=0.1300 s= 14.59N/m nb=  0  fire_it=230 t=1746s
+  step 14: early bisection for [2] -> d_eps=[0.005]
+step  14 S4_precrack_L4: e=0.0863 s= 17.89N/m nb=  0 | S4_hole_d30: e=0.0925 s= 17.20N/m nb=  2 | S4_H2_D40_W8_v: e=0.1300 s= 14.59N/m nb=  0  fire_it=400 t=1901s
+  step 15: early bisection for [2] -> d_eps=[0.0025]
+[done] S4_precrack_L40_cell150 -> run_20260905_143356_fa4ee2: stable; strength 17.89 N/m @ 0.086, fail 0.091, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  15 S4_precrack_L4: e=0.0913 s=  1.28N/m nb= 49* | S4_hole_d30: e=0.0975 s= 17.96N/m nb=  0 | S4_H2_D40_W8_v: e=0.1300 s= 14.59N/m nb=  0  fire_it=2000 t=3241s
+step  16 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1025 s= 18.55N/m nb=  2 | S4_H2_D40_W8_v: e=0.1325 s= 14.79N/m nb=  0  fire_it=180 t=3298s
+  step 17: early bisection for [2] -> d_eps=[0.00125]
+[done] S4_hole_d30 -> run_20260905_145623_aa4749: stable; strength 18.55 N/m @ 0.103, fail 0.108, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  17 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb= 58* | S4_H2_D40_W8_v: e=0.1325 s= 14.79N/m nb=  0  fire_it=2000 t=4587s
+step  18 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1337 s= 14.83N/m nb=  2  fire_it=80 t=4801s
+step  19 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1387 s= 15.13N/m nb=  0  fire_it=250 t=4901s
+step  20 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1437 s= 15.38N/m nb=  5  fire_it=390 t=5061s
+step  21 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1487 s= 15.68N/m nb=  0  fire_it=230 t=5157s
+step  22 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1537 s= 15.83N/m nb=  8  fire_it=560 t=5558s
+step  23 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1588 s= 16.05N/m nb=  5  fire_it=140 t=5789s
+step  24 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1638 s=  8.13N/m nb= 39  fire_it=2000 t=7381s
+step  25 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1688 s=  4.59N/m nb=  6  fire_it=2000 t=8903s
+step  26 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1738 s=  2.57N/m nb=  4  fire_it=720 t=10985s
+step  27 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1788 s=  1.89N/m nb=  1  fire_it=720 t=12303s
+step  28 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1838 s=  1.71N/m nb=  0  fire_it=770 t=12962s
+[done] S4_H2_D40_W8_veins_x -> run_20260905_172505_71282e: reconstructed but viable; strength 16.05 N/m @ 0.159, fail 0.189, mode progressive (multiple events, load retained), stress collapsed
+step  29 S4_precrack_L4: e=0.0913 s=  1.28N/m nb=  0* | S4_hole_d30: e=0.1075 s=  0.65N/m nb=  0* | S4_H2_D40_W8_v: e=0.1888 s=  1.54N/m nb=  0*  fire_it=620 t=13509s
+batch finished in 13513s (simulation 13513s); evaluations {'n_evaluations': 33986, 'fire_iterations': 33740, 'n_rebuilds': 770, 'n_reverts': 9, 'n_soft_converged': 4}

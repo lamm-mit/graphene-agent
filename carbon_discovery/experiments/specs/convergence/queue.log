@@ -1,0 +1,19 @@
+[queue] launched conv_dstrain_0.0025_ref1.json (pid 25163); running=1
+[queue] launched conv_dstrain_0.005_ref0.json (pid 25165); running=2
+[queue] launched conv_dstrain_0.005_ref1.json (pid 25166); running=3
+[queue] finished conv_dstrain_0.005_ref1.json.running rc=0 in 1102s
+[queue] launched conv_dstrain_0.01_ref1.json (pid 29768); running=3
+[queue] finished conv_dstrain_0.0025_ref1.json.running rc=0 in 1968s
+[queue] launched conv_fmax_0.005.json (pid 33454); running=3
+[queue] finished conv_dstrain_0.005_ref0.json.running rc=0 in 3401s
+[queue] launched conv_fmax_0.01.json (pid 39195); running=3
+[queue] finished conv_dstrain_0.01_ref1.json.running rc=0 in 3266s
+[queue] launched conv_fmax_0.02.json (pid 42865); running=3
+[queue] finished conv_fmax_0.02.json.running rc=0 in 1964s
+[queue] launched conv_fmax_0.05.json (pid 50221); running=3
+[queue] finished conv_fmax_0.05.json.running rc=0 in 2851s
+[queue] launched conv_size.json (pid 61070); running=3
+[queue] finished conv_fmax_0.01.json.running rc=0 in 6814s
+[queue] finished conv_fmax_0.005.json.running rc=0 in 13667s
+[queue] finished conv_size.json.running rc=0 in 13915s
+[queue] all done

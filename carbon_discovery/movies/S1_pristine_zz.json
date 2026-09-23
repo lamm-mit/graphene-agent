@@ -1,0 +1,43 @@
+{
+ "run_id": "run_20260905_000440_9f82a7",
+ "frames_rendered": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28
+ ],
+ "event_frames": {
+  "relaxed": 0,
+  "pre_damage = peak_load": 27,
+  "first_damage = major_propagation = post_peak = final": 28
+ },
+ "fps": 8,
+ "mode": "energy_rel",
+ "trajectory": "trajectories/run_20260905_000440_9f82a7.npz",
+ "movie": "movies/S1_pristine_zz.mp4"
+}

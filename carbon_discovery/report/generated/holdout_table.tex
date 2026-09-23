@@ -1,0 +1,20 @@
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{3.6cm}rrrrrrp{3.2cm}}
+\caption{Holdout designs: predictions recorded before simulation (file hash in text) versus observations. Strength in N/m, work in J/m$^2$; ``mode'' = predicted/observed fracture-mode class (abrupt = single avalanche; stepwise = few events; progressive = multiple events with load retained).}\label{tab:holdout}\\
+\toprule design & $\sigma_\mathrm{pred}$ & $\sigma_\mathrm{obs}$ & $\varepsilon^f_\mathrm{pred}$ & $\varepsilon^f_\mathrm{obs}$ & $W_\mathrm{pred}$ & $W_\mathrm{obs}$ & mode pred/obs\\ \midrule\endfirsthead
+\toprule design & $\sigma_\mathrm{pred}$ & $\sigma_\mathrm{obs}$ & $\varepsilon^f_\mathrm{pred}$ & $\varepsilon^f_\mathrm{obs}$ & $W_\mathrm{pred}$ & $W_\mathrm{obs}$ & mode pred/obs\\ \midrule\endhead
+S7\_\allowbreak{}H2\_\allowbreak{}veinsX\_\allowbreak{}W12\_\allowbreak{}ellipseX & 13.30 & 19.38 & 0.234 & 0.221 & 1.50 & 1.98 & progressive/stepwise\\
+S7\_\allowbreak{}slit\_\allowbreak{}20deg & 23.90 & 8.94 & 0.194 & 0.195 & 2.64 & 1.23 & stepwise/progressive\\
+S7\_\allowbreak{}square\_\allowbreak{}D40\_\allowbreak{}staggered & 19.30 & 17.73 & 0.161 & 0.180 & 1.87 & 1.94 & abrupt/abrupt\\
+S7\_\allowbreak{}voronoi\_\allowbreak{}n35\_\allowbreak{}reg0.8\_\allowbreak{}s7 & 12.10 & 7.33 & 0.174 & 0.186 & 0.87 & 0.65 & stepwise/progressive\\
+S7\_\allowbreak{}H3\_\allowbreak{}D30\_\allowbreak{}60\_\allowbreak{}wideveins & 11.70 & 12.33 & 0.185 & 0.156 & 1.12 & 1.18 & progressive/progressive\\
+S7\_\allowbreak{}hole30\_\allowbreak{}rings3 & 13.10 & 8.92 & 0.139 & 0.183 & 0.83 & 0.68 & stepwise/stepwise\\
+S7\_\allowbreak{}mesh\_\allowbreak{}p24\_\allowbreak{}phi0.3 & 10.40 & 9.91 & 0.172 & 0.250 & 0.90 & 1.09 & stepwise/progressive\\
+S7\_\allowbreak{}precrack\_\allowbreak{}L50\_\allowbreak{}cell150 & 16.30 & 16.14 & 0.105 & 0.111 & 0.96 & 0.81 & abrupt/stepwise\\
+S7\_\allowbreak{}graded\_\allowbreak{}x\_\allowbreak{}weak & 15.40 & 10.61 & 0.145 & 0.183 & 1.00 & 0.83 & progressive/stepwise\\
+S7\_\allowbreak{}slit\_\allowbreak{}0deg\_\allowbreak{}armchair & 24.00 & 20.22 & 0.215 & 0.254 & 3.08 & 2.96 & abrupt/progressive\\
+S7\_\allowbreak{}strut\_\allowbreak{}090\_\allowbreak{}phi0.3 & 14.40 & 14.43 & 0.229 & 0.296 & 1.69 & 1.79 & stepwise/stepwise\\
+S7\_\allowbreak{}mesh\_\allowbreak{}jitter1.5\_\allowbreak{}sd0.1\_\allowbreak{}s11 & 12.30 & 11.95 & 0.193 & 0.126 & 1.14 & 0.87 & progressive/progressive\\
+\bottomrule\end{longtable}\endgroup
+Prediction errors (median absolute relative error): 2D modulus: 11\% (n=12), strength: 14\% (n=12), failure strain: 17\% (n=12), work to failure: 20\% (n=12), damage localisation: 10\% (n=12); fracture-mode class accuracy 42\%.
+ Prediction file \path{experiments/predictions/holdout_predictions.json} written 2026-09-05 21:20:34 (SHA-256 2eb2d80ae41ff32b\ldots), evaluated 2026-09-06 01:52:23.

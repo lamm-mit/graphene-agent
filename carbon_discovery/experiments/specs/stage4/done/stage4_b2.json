@@ -1,0 +1,97 @@
+{
+ "campaign": "discovery",
+ "stage": "stage4_discriminating",
+ "batch_name": "stage4_b2",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S4_precrack_L40_cell150",
+   "family": "precrack",
+   "params": {
+    "Lx": 150,
+    "Ly": 150,
+    "crack_len": 40,
+    "crack_w": 3.0,
+    "angle_deg": 90
+   },
+   "seed": 0,
+   "reason": "H-E: 40 A crack in a 150 A cell (image interaction removed)",
+   "hypothesis": "H-E",
+   "tags": [
+    "stage4",
+    "flaw"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 18.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "lattice-trapping plateau (H-E); Griffith alternative 12.0"
+   },
+   "notes": null
+  },
+  {
+   "name": "S4_hole_d30",
+   "family": "ring_around_hole",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "hole_d": 30,
+    "n_rings": 0
+   },
+   "seed": 0,
+   "reason": "H-E: 30 A hole",
+   "hypothesis": "H-E",
+   "tags": [
+    "stage4",
+    "flaw"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 17.5,
+    "fracture_mode_class": "abrupt",
+    "basis": "plateau; net-section 0.7 x 39/1.6"
+   },
+   "notes": null
+  },
+  {
+   "name": "S4_H2_D40_W8_veins_x",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "vein_dirs": "x",
+    "pore_d": 6.25
+   },
+   "seed": 0,
+   "reason": "H-F: two-level mesh with veins only along x (parallel to the load) at matched porosity; xy reference = S2_H2_D40_W8 (12.8 N/m)",
+   "hypothesis": "H-F",
+   "tags": [
+    "stage4",
+    "hierarchy"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 14.5,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.72; H-F: x-veins add straight load paths, y-veins add nothing (H-F' predicts xy > x)"
+   },
+   "notes": null
+  }
+ ]
+}

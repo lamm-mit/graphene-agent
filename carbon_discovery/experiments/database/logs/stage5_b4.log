@@ -1,0 +1,32 @@
+batch stage5_b4: 1 structures, N = [3800], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.005  0.0026]], sigma = [[-0.043  0.009]] N/m
+step   1 S5_square_D40_: e=0.0100 s=  1.18N/m nb=  0  fire_it=60 t=21s
+step   2 S5_square_D40_: e=0.0200 s=  2.35N/m nb=  0  fire_it=60 t=27s
+step   3 S5_square_D40_: e=0.0300 s=  3.53N/m nb=  0  fire_it=70 t=33s
+step   4 S5_square_D40_: e=0.0400 s=  4.67N/m nb=  0  fire_it=60 t=39s
+step   5 S5_square_D40_: e=0.0500 s=  5.78N/m nb=  0  fire_it=50 t=44s
+step   6 S5_square_D40_: e=0.0600 s=  6.84N/m nb=  0  fire_it=60 t=50s
+step   7 S5_square_D40_: e=0.0700 s=  7.73N/m nb=  0  fire_it=110 t=61s
+step   8 S5_square_D40_: e=0.0800 s=  8.70N/m nb=  0  fire_it=60 t=66s
+step   9 S5_square_D40_: e=0.0900 s=  9.48N/m nb=  0  fire_it=160 t=82s
+step  10 S5_square_D40_: e=0.1000 s= 10.36N/m nb=  0  fire_it=70 t=88s
+step  11 S5_square_D40_: e=0.1100 s= 11.11N/m nb=  0  fire_it=100 t=96s
+step  12 S5_square_D40_: e=0.1200 s= 11.68N/m nb=  0  fire_it=160 t=109s
+step  13 S5_square_D40_: e=0.1300 s= 12.18N/m nb=  0  fire_it=70 t=119s
+step  14 S5_square_D40_: e=0.1400 s= 12.83N/m nb=  0  fire_it=70 t=125s
+  step 15: early bisection for [0] -> d_eps=[0.005]
+step  16 S5_square_D40_: e=0.1450 s= 13.12N/m nb=  0  fire_it=40 t=148s
+  step 17: early bisection for [0] -> d_eps=[0.0025]
+step  18 S5_square_D40_: e=0.1475 s= 13.12N/m nb=  0  fire_it=160 t=182s
+  step 19: early bisection for [0] -> d_eps=[0.00125]
+step  20 S5_square_D40_: e=0.1487 s= 13.07N/m nb=  8  fire_it=170 t=210s
+step  21 S5_square_D40_: e=0.1537 s= 13.18N/m nb=  0  fire_it=180 t=224s
+step  22 S5_square_D40_: e=0.1588 s= 13.24N/m nb= 12  fire_it=180 t=262s
+step  23 S5_square_D40_: e=0.1638 s= 13.39N/m nb=  4  fire_it=200 t=278s
+step  24 S5_square_D40_: e=0.1688 s= 13.61N/m nb=  0  fire_it=150 t=301s
+step  25 S5_square_D40_: e=0.1738 s= 13.83N/m nb=  0  fire_it=230 t=321s
+step  26 S5_square_D40_: e=0.1788 s= 14.01N/m nb=  0  fire_it=170 t=337s
+step  27 S5_square_D40_: e=0.1838 s= 14.21N/m nb=  0  fire_it=70 t=343s
+[done] S5_square_D40_phi0.3 -> run_20260905_180442_54fd02: reconstructed but viable; strength 14.21 N/m @ 0.184, fail 0.189, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  28 S5_square_D40_: e=0.1888 s=  1.88N/m nb=121*  fire_it=2000 t=777s
+batch finished in 779s (simulation 779s); evaluations {'n_evaluations': 9472, 'fire_iterations': 9300, 'n_rebuilds': 204, 'n_reverts': 3, 'n_soft_converged': 0}

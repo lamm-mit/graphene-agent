@@ -1,0 +1,104 @@
+{
+ "campaign": "discovery",
+ "stage": "stage2_reconnaissance",
+ "batch_name": "stage2_b04",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12,
+  "d_strain_elastic": 0.01,
+  "max_fire_steps": 1500
+ },
+ "structures": [
+  {
+   "name": "S2_mesh_jitter1.0",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "jitter": 1.0,
+    "seed": 1,
+    "pore_d": 7.469
+   },
+   "seed": 1,
+   "reason": "disorder: pore position jitter 1.0 A",
+   "hypothesis": "",
+   "tags": [
+    "disorder"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.194"
+  },
+  {
+   "name": "S2_mesh_jitter2.0",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "jitter": 2.0,
+    "seed": 1,
+    "pore_d": 7.469
+   },
+   "seed": 1,
+   "reason": "disorder: pore position jitter 2.0 A",
+   "hypothesis": "",
+   "tags": [
+    "disorder"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.196"
+  },
+  {
+   "name": "S2_mesh_jitter3.0",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "jitter": 3.0,
+    "seed": 1,
+    "pore_d": 7.469
+   },
+   "seed": 1,
+   "reason": "disorder: pore position jitter 3.0 A",
+   "hypothesis": "",
+   "tags": [
+    "disorder"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.193"
+  },
+  {
+   "name": "S2_mesh_sizedis0.15",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "period": 16,
+    "size_disorder": 0.15,
+    "seed": 1,
+    "pore_d": 7.469
+   },
+   "seed": 1,
+   "reason": "disorder: pore size dispersion 0.15",
+   "hypothesis": "",
+   "tags": [
+    "disorder"
+   ],
+   "parent": null,
+   "prediction": null,
+   "notes": "phi=0.195"
+  }
+ ]
+}

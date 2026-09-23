@@ -1,0 +1,56 @@
+batch stage7_b0: 3 structures, N = [4359, 3008, 4378], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0086 -0.0018]
+ [ 0.0078 -0.0037]
+ [ 0.0035  0.0017]], sigma = [[-0.077  0.061]
+ [-0.057  0.021]
+ [ 0.011  0.046]] N/m
+step   1 S7_H2_veinsX_W: e=0.0100 s=  1.73N/m nb=  0 | S7_slit_20deg: e=0.0100 s=  1.39N/m nb=  0 | S7_square_D40_: e=0.0100 s=  1.48N/m nb=  0  fire_it=150 t=272s
+step   2 S7_H2_veinsX_W: e=0.0200 s=  3.49N/m nb=  0 | S7_slit_20deg: e=0.0200 s=  2.76N/m nb=  0 | S7_square_D40_: e=0.0200 s=  3.00N/m nb=  0  fire_it=110 t=299s
+step   3 S7_H2_veinsX_W: e=0.0300 s=  5.17N/m nb=  0 | S7_slit_20deg: e=0.0300 s=  4.08N/m nb=  0 | S7_square_D40_: e=0.0300 s=  4.48N/m nb=  0  fire_it=100 t=340s
+step   4 S7_H2_veinsX_W: e=0.0400 s=  6.76N/m nb=  0 | S7_slit_20deg: e=0.0400 s=  5.38N/m nb=  0 | S7_square_D40_: e=0.0400 s=  5.92N/m nb=  0  fire_it=130 t=373s
+step   5 S7_H2_veinsX_W: e=0.0500 s=  8.31N/m nb=  0 | S7_slit_20deg: e=0.0500 s=  6.56N/m nb=  0 | S7_square_D40_: e=0.0500 s=  7.34N/m nb=  0  fire_it=140 t=422s
+step   6 S7_H2_veinsX_W: e=0.0600 s=  9.85N/m nb=  0 | S7_slit_20deg: e=0.0600 s=  7.82N/m nb=  0 | S7_square_D40_: e=0.0600 s=  8.65N/m nb=  0  fire_it=80 t=447s
+  step 7: early bisection for [1] -> d_eps=[0.005]
+step   7 S7_H2_veinsX_W: e=0.0700 s= 11.35N/m nb=  0 | S7_slit_20deg: e=0.0600 s=  7.82N/m nb=  0 | S7_square_D40_: e=0.0700 s=  9.90N/m nb=  0  fire_it=200 t=498s
+  step 8: early bisection for [1] -> d_eps=[0.0025]
+step   8 S7_H2_veinsX_W: e=0.0800 s= 12.79N/m nb=  0 | S7_slit_20deg: e=0.0600 s=  7.82N/m nb=  0 | S7_square_D40_: e=0.0800 s= 11.08N/m nb=  0  fire_it=230 t=550s
+step   9 S7_H2_veinsX_W: e=0.0900 s= 14.15N/m nb=  0 | S7_slit_20deg: e=0.0625 s=  8.12N/m nb=  0 | S7_square_D40_: e=0.0900 s= 12.14N/m nb=  0  fire_it=290 t=619s
+  step 10: early bisection for [1] -> d_eps=[0.00125]
+step  10 S7_H2_veinsX_W: e=0.1000 s= 15.37N/m nb=  0 | S7_slit_20deg: e=0.0625 s=  8.12N/m nb=  0 | S7_square_D40_: e=0.1000 s= 13.22N/m nb=  0  fire_it=230 t=688s
+step  11 S7_H2_veinsX_W: e=0.1100 s= 16.47N/m nb=  0 | S7_slit_20deg: e=0.0638 s=  8.23N/m nb=  0 | S7_square_D40_: e=0.1100 s= 14.03N/m nb=  0  fire_it=300 t=750s
+step  12 S7_H2_veinsX_W: e=0.1200 s= 17.46N/m nb=  0 | S7_slit_20deg: e=0.0650 s=  8.08N/m nb=  4 | S7_square_D40_: e=0.1200 s= 14.85N/m nb=  0  fire_it=150 t=866s
+step  13 S7_H2_veinsX_W: e=0.1300 s= 18.11N/m nb=  0 | S7_slit_20deg: e=0.0700 s=  8.71N/m nb=  0 | S7_square_D40_: e=0.1300 s= 15.70N/m nb=  0  fire_it=200 t=921s
+  step 14: early bisection for [2] -> d_eps=[0.005]
+step  14 S7_H2_veinsX_W: e=0.1400 s= 18.90N/m nb=  0 | S7_slit_20deg: e=0.0750 s=  8.94N/m nb=  4 | S7_square_D40_: e=0.1300 s= 15.70N/m nb=  0  fire_it=290 t=988s
+  step 15: early bisection for [0] -> d_eps=[0.005]
+step  15 S7_H2_veinsX_W: e=0.1400 s= 18.90N/m nb=  0 | S7_slit_20deg: e=0.0800 s=  4.90N/m nb= 16 | S7_square_D40_: e=0.1350 s= 16.13N/m nb=  0  fire_it=810 t=1873s
+  step 16: early bisection for [0, 2] -> d_eps=[0.0025 0.0025]
+step  16 S7_H2_veinsX_W: e=0.1400 s= 18.90N/m nb=  0 | S7_slit_20deg: e=0.0850 s=  5.12N/m nb=  0 | S7_square_D40_: e=0.1350 s= 16.13N/m nb=  0  fire_it=20 t=2090s
+  step 17: early bisection for [0] -> d_eps=[0.00125]
+step  17 S7_H2_veinsX_W: e=0.1400 s= 18.90N/m nb=  0 | S7_slit_20deg: e=0.0900 s=  5.56N/m nb=  0 | S7_square_D40_: e=0.1375 s= 16.32N/m nb=  0  fire_it=400 t=2198s
+  step 18: early bisection for [2] -> d_eps=[0.00125]
+step  18 S7_H2_veinsX_W: e=0.1412 s= 18.95N/m nb=  2 | S7_slit_20deg: e=0.0950 s=  6.03N/m nb=  3 | S7_square_D40_: e=0.1375 s= 16.32N/m nb=  0  fire_it=250 t=2329s
+step  19 S7_H2_veinsX_W: e=0.1462 s= 19.38N/m nb=  1 | S7_slit_20deg: e=0.1000 s=  6.53N/m nb=  4 | S7_square_D40_: e=0.1387 s= 16.38N/m nb=  0  fire_it=80 t=2671s
+step  20 S7_H2_veinsX_W: e=0.1512 s= 13.95N/m nb= 33 | S7_slit_20deg: e=0.1050 s=  7.13N/m nb=  0 | S7_square_D40_: e=0.1400 s= 16.37N/m nb=  4  fire_it=2000 t=3450s
+step  21 S7_H2_veinsX_W: e=0.1562 s= 11.83N/m nb= 15 | S7_slit_20deg: e=0.1100 s=  7.42N/m nb=  0 | S7_square_D40_: e=0.1450 s= 16.58N/m nb=  8  fire_it=2000 t=4001s
+step  22 S7_H2_veinsX_W: e=0.1613 s=  9.11N/m nb= 21 | S7_slit_20deg: e=0.1150 s=  7.27N/m nb=  3 | S7_square_D40_: e=0.1500 s= 16.81N/m nb=  4  fire_it=2000 t=5123s
+step  23 S7_H2_veinsX_W: e=0.1663 s=  4.93N/m nb= 25 | S7_slit_20deg: e=0.1200 s=  7.72N/m nb=  3 | S7_square_D40_: e=0.1550 s= 17.07N/m nb=  4  fire_it=2000 t=6448s
+step  24 S7_H2_veinsX_W: e=0.1713 s=  2.57N/m nb=  5 | S7_slit_20deg: e=0.1250 s=  8.11N/m nb=  3 | S7_square_D40_: e=0.1600 s= 17.10N/m nb=  8  fire_it=1950 t=7612s
+step  25 S7_H2_veinsX_W: e=0.1763 s=  2.30N/m nb=  2 | S7_slit_20deg: e=0.1300 s=  7.97N/m nb=  4 | S7_square_D40_: e=0.1650 s= 17.33N/m nb=  4  fire_it=1240 t=8246s
+step  26 S7_H2_veinsX_W: e=0.1813 s=  2.17N/m nb=  0 | S7_slit_20deg: e=0.1350 s=  7.51N/m nb=  2 | S7_square_D40_: e=0.1700 s= 17.59N/m nb=  0  fire_it=1330 t=9125s
+step  27 S7_H2_veinsX_W: e=0.1863 s=  2.14N/m nb=  0 | S7_slit_20deg: e=0.1400 s=  7.54N/m nb=  1 | S7_square_D40_: e=0.1750 s= 17.73N/m nb=  0  fire_it=2000 t=9685s
+[done] S7_square_D40_staggered -> run_20260906_001924_c3c4eb: reconstructed but viable; strength 17.73 N/m @ 0.175, fail 0.180, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  28 S7_H2_veinsX_W: e=0.1913 s=  2.02N/m nb=  1 | S7_slit_20deg: e=0.1450 s=  7.79N/m nb=  3 | S7_square_D40_: e=0.1800 s=  0.85N/m nb= 85*  fire_it=2000 t=10728s
+step  29 S7_H2_veinsX_W: e=0.1963 s=  2.21N/m nb=  0 | S7_slit_20deg: e=0.1500 s=  8.10N/m nb=  2 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=2000 t=11161s
+step  30 S7_H2_veinsX_W: e=0.2013 s=  2.00N/m nb=  0 | S7_slit_20deg: e=0.1550 s=  8.20N/m nb=  2 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=1490 t=11871s
+step  31 S7_H2_veinsX_W: e=0.2063 s=  2.00N/m nb=  0 | S7_slit_20deg: e=0.1600 s=  8.20N/m nb=  3 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=2000 t=12319s
+step  32 S7_H2_veinsX_W: e=0.2113 s=  2.01N/m nb=  0 | S7_slit_20deg: e=0.1650 s=  7.15N/m nb=  3 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=1530 t=12919s
+step  33 S7_H2_veinsX_W: e=0.2163 s=  2.03N/m nb=  0 | S7_slit_20deg: e=0.1700 s=  6.03N/m nb=  1 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=2000 t=13417s
+[done] S7_H2_veinsX_W12_ellipseX -> run_20260906_011440_050f0e: strongly reconstructed; strength 19.38 N/m @ 0.146, fail 0.221, mode stepwise (few events), stress collapsed
+step  34 S7_H2_veinsX_W: e=0.2213 s=  1.56N/m nb=  3* | S7_slit_20deg: e=0.1750 s=  6.55N/m nb=  0 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=1330 t=14043s
+step  35 S7_H2_veinsX_W: e=0.2213 s=  1.56N/m nb=  0* | S7_slit_20deg: e=0.1800 s=  7.07N/m nb=  0 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=1190 t=14369s
+step  36 S7_H2_veinsX_W: e=0.2213 s=  1.56N/m nb=  0* | S7_slit_20deg: e=0.1850 s=  7.66N/m nb=  0 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=120 t=14458s
+step  37 S7_H2_veinsX_W: e=0.2213 s=  1.56N/m nb=  0* | S7_slit_20deg: e=0.1900 s=  8.28N/m nb=  0 | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=250 t=14493s
+[done] S7_slit_20deg -> run_20260906_012602_320a91: reconstructed but viable; strength 8.94 N/m @ 0.075, fail 0.195, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  38 S7_H2_veinsX_W: e=0.2213 s=  1.56N/m nb=  0* | S7_slit_20deg: e=0.1950 s=  8.79N/m nb=  2* | S7_square_D40_: e=0.1800 s=  0.85N/m nb=  0*  fire_it=640 t=14726s
+batch finished in 14728s (simulation 14728s); evaluations {'n_evaluations': 76386, 'fire_iterations': 76050, 'n_rebuilds': 1307, 'n_reverts': 9, 'n_soft_converged': 20}

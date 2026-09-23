@@ -1,0 +1,44 @@
+{
+ "extxyz": {
+  "ok": true,
+  "n_atoms": 338,
+  "max_dpos_direct": 4.948425669226708e-09,
+  "max_dpos_sorted_norms": 4.3398955540396855e-09,
+  "max_dcell": 0.0
+ },
+ "xyz": {
+  "ok": true,
+  "n_atoms": 338,
+  "max_dpos_direct": 8.881784197001252e-16,
+  "max_dpos_sorted_norms": 1.7763568394002505e-15,
+  "max_dcell": 34.08921247689902
+ },
+ "traj": {
+  "ok": true,
+  "n_atoms": 338,
+  "max_dpos_direct": 0.0,
+  "max_dpos_sorted_norms": 0.0,
+  "max_dcell": 0.0
+ },
+ "lammps-data": {
+  "ok": true,
+  "n_atoms": 338,
+  "max_dpos_direct": 3.552713678800501e-15,
+  "max_dpos_sorted_norms": 7.105427357601002e-15,
+  "max_dcell": 0.0
+ },
+ "cif": {
+  "ok": true,
+  "n_atoms": 338,
+  "max_dpos_direct": 7.105427357601002e-15,
+  "max_dpos_sorted_norms": 1.4210854715202004e-14,
+  "max_dcell": 0.0
+ },
+ "vasp": {
+  "ok": true,
+  "n_atoms": 338,
+  "max_dpos_direct": 0.0,
+  "max_dpos_sorted_norms": 0.0,
+  "max_dcell": 0.0
+ }
+}

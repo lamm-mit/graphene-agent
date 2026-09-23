@@ -1,0 +1,1 @@
+Stage 2 reconnaissance: strength, failure strain, work to failure and damage localisation of every simulated design, coloured by design-variable group.

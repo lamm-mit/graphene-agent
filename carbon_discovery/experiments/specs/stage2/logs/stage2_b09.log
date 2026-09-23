@@ -1,0 +1,54 @@
+batch stage2_b09: 4 structures, N = [3002, 3080, 3382, 3379], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 6.0490e-03  3.5641e-03]
+ [ 2.8238e-03  7.8992e-04]
+ [ 5.8858e-04 -4.0316e-05]
+ [ 0.0000e+00  0.0000e+00]], sigma = [[-0.044  0.041]
+ [-0.019  0.054]
+ [-0.061  0.052]
+ [ 0.008 -0.012]] N/m
+step   1 S2_graded_x: e=0.0100 s=  1.33N/m nb=  0 | S2_graded_radi: e=0.0100 s=  1.26N/m nb=  0 | S2_hole20_ring: e=0.0100 s=  1.65N/m nb=  0 | S2_hole20_back: e=0.0100 s=  1.85N/m nb=  0  fire_it=220 t=129s
+step   2 S2_graded_x: e=0.0200 s=  2.58N/m nb=  0 | S2_graded_radi: e=0.0200 s=  2.68N/m nb=  0 | S2_hole20_ring: e=0.0200 s=  3.49N/m nb=  0 | S2_hole20_back: e=0.0200 s=  3.43N/m nb=  0  fire_it=170 t=164s
+step   3 S2_graded_x: e=0.0300 s=  3.75N/m nb=  0 | S2_graded_radi: e=0.0300 s=  3.89N/m nb=  0 | S2_hole20_ring: e=0.0300 s=  5.17N/m nb=  0 | S2_hole20_back: e=0.0300 s=  5.16N/m nb=  0  fire_it=230 t=228s
+step   4 S2_graded_x: e=0.0400 s=  4.83N/m nb=  0 | S2_graded_radi: e=0.0400 s=  5.22N/m nb=  0 | S2_hole20_ring: e=0.0400 s=  6.89N/m nb=  0 | S2_hole20_back: e=0.0400 s=  6.84N/m nb=  0  fire_it=200 t=266s
+step   5 S2_graded_x: e=0.0500 s=  5.98N/m nb=  0 | S2_graded_radi: e=0.0500 s=  6.44N/m nb=  0 | S2_hole20_ring: e=0.0500 s=  8.54N/m nb=  0 | S2_hole20_back: e=0.0500 s=  8.38N/m nb=  0  fire_it=240 t=321s
+step   6 S2_graded_x: e=0.0600 s=  7.17N/m nb=  0 | S2_graded_radi: e=0.0600 s=  7.66N/m nb=  0 | S2_hole20_ring: e=0.0600 s=  9.99N/m nb=  0 | S2_hole20_back: e=0.0600 s=  9.98N/m nb=  0  fire_it=300 t=374s
+step   7 S2_graded_x: e=0.0700 s=  8.22N/m nb=  0 | S2_graded_radi: e=0.0700 s=  8.71N/m nb=  0 | S2_hole20_ring: e=0.0700 s= 11.39N/m nb=  0 | S2_hole20_back: e=0.0700 s= 11.43N/m nb=  0  fire_it=290 t=457s
+step   8 S2_graded_x: e=0.0800 s=  9.20N/m nb=  0 | S2_graded_radi: e=0.0800 s=  9.66N/m nb=  0 | S2_hole20_ring: e=0.0800 s= 12.88N/m nb=  0 | S2_hole20_back: e=0.0800 s= 12.67N/m nb=  0  fire_it=240 t=568s
+  step 9: early bisection for [0, 1, 2, 3] -> d_eps=[0.005 0.005 0.005 0.005]
+  step 10: early bisection for [1, 3] -> d_eps=[0.0025 0.0025]
+step  10 S2_graded_x: e=0.0850 s=  9.62N/m nb=  0 | S2_graded_radi: e=0.0800 s=  9.66N/m nb=  0 | S2_hole20_ring: e=0.0850 s= 13.43N/m nb=  0 | S2_hole20_back: e=0.0800 s= 12.67N/m nb=  0  fire_it=400 t=724s
+  step 11: early bisection for [0, 2] -> d_eps=[0.0025 0.0025]
+step  11 S2_graded_x: e=0.0850 s=  9.62N/m nb=  0 | S2_graded_radi: e=0.0825 s=  9.97N/m nb=  0 | S2_hole20_ring: e=0.0850 s= 13.43N/m nb=  0 | S2_hole20_back: e=0.0825 s= 13.00N/m nb=  0  fire_it=400 t=796s
+  step 12: early bisection for [1, 3] -> d_eps=[0.00125 0.00125]
+step  12 S2_graded_x: e=0.0875 s=  9.85N/m nb=  0 | S2_graded_radi: e=0.0825 s=  9.97N/m nb=  0 | S2_hole20_ring: e=0.0875 s= 13.70N/m nb=  0 | S2_hole20_back: e=0.0825 s= 13.00N/m nb=  0  fire_it=400 t=871s
+  step 13: early bisection for [2] -> d_eps=[0.00125]
+step  13 S2_graded_x: e=0.0900 s= 10.09N/m nb=  0 | S2_graded_radi: e=0.0838 s=  9.90N/m nb=  3 | S2_hole20_ring: e=0.0875 s= 13.70N/m nb=  0 | S2_hole20_back: e=0.0838 s= 13.17N/m nb=  0  fire_it=200 t=975s
+  step 14: early bisection for [0] -> d_eps=[0.00125]
+step  14 S2_graded_x: e=0.0900 s= 10.09N/m nb=  0 | S2_graded_radi: e=0.0888 s=  9.14N/m nb= 11 | S2_hole20_ring: e=0.0888 s= 13.79N/m nb=  2 | S2_hole20_back: e=0.0850 s= 12.48N/m nb=  5  fire_it=1050 t=1480s
+step  15 S2_graded_x: e=0.0913 s=  6.53N/m nb= 14 | S2_graded_radi: e=0.0938 s=  8.02N/m nb=  7 | S2_hole20_ring: e=0.0938 s= 14.41N/m nb=  0 | S2_hole20_back: e=0.0900 s= 13.00N/m nb=  0  fire_it=1350 t=2144s
+[done] S2_graded_x -> run_20260905_100024_055107: reconstructed but viable; strength 10.09 N/m @ 0.090, fail 0.096, mode abrupt brittle (single avalanche), stress collapsed
+step  16 S2_graded_x: e=0.0963 s=  0.95N/m nb=  6* | S2_graded_radi: e=0.0988 s=  4.51N/m nb=  9 | S2_hole20_ring: e=0.0988 s= 15.09N/m nb=  0 | S2_hole20_back: e=0.0950 s= 12.29N/m nb=  7  fire_it=1500 t=2770s
+step  17 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1038 s=  2.90N/m nb=  3 | S2_hole20_ring: e=0.1038 s= 15.73N/m nb=  0 | S2_hole20_back: e=0.1000 s= 12.66N/m nb=  2  fire_it=1220 t=3533s
+step  18 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1088 s=  2.22N/m nb=  1 | S2_hole20_ring: e=0.1088 s= 16.24N/m nb=  0 | S2_hole20_back: e=0.1050 s= 13.21N/m nb=  0  fire_it=1100 t=3898s
+step  19 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1138 s=  2.52N/m nb=  0 | S2_hole20_ring: e=0.1138 s=  4.22N/m nb= 34 | S2_hole20_back: e=0.1100 s=  3.44N/m nb= 29  fire_it=1500 t=4545s
+step  20 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1188 s=  2.96N/m nb=  0 | S2_hole20_ring: e=0.1188 s=  1.64N/m nb=  0 | S2_hole20_back: e=0.1150 s=  2.13N/m nb=  0  fire_it=1500 t=5017s
+[done] S2_hole20_rings2 -> run_20260905_104555_3e8359: strongly reconstructed; strength 16.24 N/m @ 0.109, fail 0.124, mode stepwise (few events), stress collapsed
+[done] S2_hole20_background -> run_20260905_104556_f1cd60: reconstructed but viable; strength 13.21 N/m @ 0.105, fail 0.120, mode progressive (multiple events, load retained), stress collapsed
+step  21 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1238 s=  3.18N/m nb=  1 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  1* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  1*  fire_it=1500 t=5502s
+step  22 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1288 s=  2.37N/m nb=  1 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=540 t=5694s
+step  23 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1338 s=  2.31N/m nb=  2 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=180 t=5805s
+step  24 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1388 s=  1.67N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=220 t=6025s
+step  25 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1438 s=  1.90N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=10 t=6098s
+step  26 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1488 s=  1.59N/m nb=  1 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=620 t=6285s
+step  27 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1538 s=  1.76N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=40 t=6394s
+step  28 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1588 s=  1.50N/m nb=  1 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=490 t=6580s
+step  29 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1638 s=  1.65N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=30 t=6684s
+step  30 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1688 s=  1.87N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=10 t=6761s
+step  31 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1738 s=  1.93N/m nb=  1 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=130 t=6871s
+step  32 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1788 s=  1.06N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=1030 t=7262s
+step  33 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1838 s=  1.05N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=360 t=7503s
+step  34 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1888 s=  1.14N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=200 t=7662s
+step  35 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1938 s=  1.26N/m nb=  0 | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=250 t=7812s
+[done] S2_graded_radial -> run_20260905_112945_ca2661: reconstructed but viable; strength 9.97 N/m @ 0.083, fail 0.199, mode progressive (multiple events, load retained), not spanning (fractured)
+step  36 S2_graded_x: e=0.0963 s=  0.95N/m nb=  0* | S2_graded_radi: e=0.1988 s=  1.06N/m nb=  1* | S2_hole20_ring: e=0.1238 s=  0.67N/m nb=  0* | S2_hole20_back: e=0.1200 s=  0.95N/m nb=  0*  fire_it=590 t=8131s
+batch finished in 8134s (simulation 8134s); evaluations {'n_evaluations': 43071, 'fire_iterations': 42760, 'n_rebuilds': 1005, 'n_reverts': 12, 'n_soft_converged': 8}

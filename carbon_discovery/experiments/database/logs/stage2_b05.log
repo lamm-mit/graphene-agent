@@ -1,0 +1,63 @@
+batch stage2_b05: 4 structures, N = [2993, 3010, 3029, 3025], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0055 0.0053]
+ [0.0021 0.0034]
+ [0.0032 0.0017]
+ [0.0031 0.0034]], sigma = [[-0.026 -0.033]
+ [ 0.033  0.003]
+ [ 0.021  0.042]
+ [ 0.003  0.007]] N/m
+step   1 S2_mesh_sizedi: e=0.0100 s=  1.41N/m nb=  0 | S2_voronoi_n25: e=0.0100 s=  1.43N/m nb=  0 | S2_voronoi_n25: e=0.0100 s=  1.62N/m nb=  0 | S2_voronoi_n25: e=0.0100 s=  1.44N/m nb=  0  fire_it=160 t=123s
+step   2 S2_mesh_sizedi: e=0.0200 s=  2.66N/m nb=  0 | S2_voronoi_n25: e=0.0200 s=  2.64N/m nb=  0 | S2_voronoi_n25: e=0.0200 s=  3.24N/m nb=  0 | S2_voronoi_n25: e=0.0200 s=  2.69N/m nb=  0  fire_it=170 t=163s
+step   3 S2_mesh_sizedi: e=0.0300 s=  3.87N/m nb=  0 | S2_voronoi_n25: e=0.0300 s=  3.76N/m nb=  0 | S2_voronoi_n25: e=0.0300 s=  4.74N/m nb=  0 | S2_voronoi_n25: e=0.0300 s=  3.81N/m nb=  0  fire_it=310 t=229s
+step   4 S2_mesh_sizedi: e=0.0400 s=  5.03N/m nb=  0 | S2_voronoi_n25: e=0.0400 s=  4.92N/m nb=  0 | S2_voronoi_n25: e=0.0400 s=  6.30N/m nb=  0 | S2_voronoi_n25: e=0.0400 s=  5.01N/m nb=  0  fire_it=160 t=267s
+step   5 S2_mesh_sizedi: e=0.0500 s=  6.27N/m nb=  0 | S2_voronoi_n25: e=0.0500 s=  6.08N/m nb=  0 | S2_voronoi_n25: e=0.0500 s=  7.75N/m nb=  0 | S2_voronoi_n25: e=0.0500 s=  6.27N/m nb=  0  fire_it=190 t=309s
+step   6 S2_mesh_sizedi: e=0.0600 s=  7.43N/m nb=  0 | S2_voronoi_n25: e=0.0600 s=  7.16N/m nb=  0 | S2_voronoi_n25: e=0.0600 s=  9.20N/m nb=  0 | S2_voronoi_n25: e=0.0600 s=  7.46N/m nb=  0  fire_it=160 t=342s
+step   7 S2_mesh_sizedi: e=0.0700 s=  8.50N/m nb=  0 | S2_voronoi_n25: e=0.0700 s=  8.12N/m nb=  0 | S2_voronoi_n25: e=0.0700 s= 10.50N/m nb=  0 | S2_voronoi_n25: e=0.0700 s=  8.52N/m nb=  0  fire_it=220 t=394s
+  step 8: early bisection for [1] -> d_eps=[0.005]
+step   8 S2_mesh_sizedi: e=0.0800 s=  9.54N/m nb=  0 | S2_voronoi_n25: e=0.0700 s=  8.12N/m nb=  0 | S2_voronoi_n25: e=0.0800 s= 11.71N/m nb=  0 | S2_voronoi_n25: e=0.0800 s=  9.55N/m nb=  0  fire_it=320 t=453s
+  step 9: early bisection for [2] -> d_eps=[0.005]
+step   9 S2_mesh_sizedi: e=0.0900 s= 10.52N/m nb=  0 | S2_voronoi_n25: e=0.0750 s=  8.56N/m nb=  0 | S2_voronoi_n25: e=0.0800 s= 11.71N/m nb=  0 | S2_voronoi_n25: e=0.0900 s= 10.50N/m nb=  0  fire_it=400 t=549s
+  step 10: early bisection for [0, 1] -> d_eps=[0.005  0.0025]
+step  10 S2_mesh_sizedi: e=0.0900 s= 10.52N/m nb=  0 | S2_voronoi_n25: e=0.0750 s=  8.56N/m nb=  0 | S2_voronoi_n25: e=0.0850 s= 12.23N/m nb=  0 | S2_voronoi_n25: e=0.1000 s= 11.35N/m nb=  0  fire_it=400 t=615s
+  step 11: early bisection for [1, 2] -> d_eps=[0.00125 0.0025 ]
+step  11 S2_mesh_sizedi: e=0.0950 s= 10.94N/m nb=  0 | S2_voronoi_n25: e=0.0750 s=  8.56N/m nb=  0 | S2_voronoi_n25: e=0.0850 s= 12.23N/m nb=  0 | S2_voronoi_n25: e=0.1100 s= 12.07N/m nb=  0  fire_it=400 t=687s
+  step 12: early bisection for [0, 2, 3] -> d_eps=[0.0025  0.00125 0.005  ]
+step  12 S2_mesh_sizedi: e=0.0950 s= 10.94N/m nb=  0 | S2_voronoi_n25: e=0.0763 s=  8.74N/m nb=  0 | S2_voronoi_n25: e=0.0850 s= 12.23N/m nb=  0 | S2_voronoi_n25: e=0.1100 s= 12.07N/m nb=  0  fire_it=370 t=751s
+  step 13: early bisection for [0] -> d_eps=[0.00125]
+step  13 S2_mesh_sizedi: e=0.0950 s= 10.94N/m nb=  0 | S2_voronoi_n25: e=0.0775 s=  8.72N/m nb=  1 | S2_voronoi_n25: e=0.0863 s= 12.29N/m nb=  1 | S2_voronoi_n25: e=0.1150 s= 12.34N/m nb=  0  fire_it=400 t=819s
+  step 14: early bisection for [3] -> d_eps=[0.0025]
+step  14 S2_mesh_sizedi: e=0.0963 s= 10.92N/m nb=  3 | S2_voronoi_n25: e=0.0825 s=  9.17N/m nb=  1 | S2_voronoi_n25: e=0.0913 s= 12.80N/m nb=  1 | S2_voronoi_n25: e=0.1150 s= 12.34N/m nb=  0  fire_it=330 t=877s
+  step 15: early bisection for [3] -> d_eps=[0.00125]
+step  15 S2_mesh_sizedi: e=0.1013 s= 11.34N/m nb=  0 | S2_voronoi_n25: e=0.0875 s=  9.66N/m nb=  0 | S2_voronoi_n25: e=0.0963 s= 13.27N/m nb=  2 | S2_voronoi_n25: e=0.1150 s= 12.34N/m nb=  0  fire_it=50 t=958s
+step  16 S2_mesh_sizedi: e=0.1063 s=  7.50N/m nb= 16 | S2_voronoi_n25: e=0.0925 s=  4.39N/m nb= 17 | S2_voronoi_n25: e=0.1013 s= 13.85N/m nb=  0 | S2_voronoi_n25: e=0.1162 s= 12.24N/m nb=  6  fire_it=1500 t=1486s
+step  17 S2_mesh_sizedi: e=0.1113 s=  4.80N/m nb=  9 | S2_voronoi_n25: e=0.0975 s=  3.22N/m nb=  5 | S2_voronoi_n25: e=0.1063 s= 13.85N/m nb=  2 | S2_voronoi_n25: e=0.1212 s= 12.61N/m nb=  0  fire_it=1290 t=2239s
+step  18 S2_mesh_sizedi: e=0.1163 s=  3.00N/m nb=  5 | S2_voronoi_n25: e=0.1025 s=  3.26N/m nb=  0 | S2_voronoi_n25: e=0.1113 s= 14.37N/m nb=  0 | S2_voronoi_n25: e=0.1263 s= 13.02N/m nb=  0  fire_it=1500 t=2796s
+step  19 S2_mesh_sizedi: e=0.1213 s=  2.39N/m nb=  1 | S2_voronoi_n25: e=0.1075 s=  3.08N/m nb=  2 | S2_voronoi_n25: e=0.1163 s= 10.77N/m nb= 25 | S2_voronoi_n25: e=0.1313 s= 13.32N/m nb=  0  fire_it=1500 t=3481s
+step  20 S2_mesh_sizedi: e=0.1263 s=  2.42N/m nb=  0 | S2_voronoi_n25: e=0.1125 s=  2.61N/m nb=  1 | S2_voronoi_n25: e=0.1213 s=  9.79N/m nb=  4 | S2_voronoi_n25: e=0.1363 s= 12.77N/m nb= 14  fire_it=1500 t=3927s
+step  21 S2_mesh_sizedi: e=0.1313 s=  2.35N/m nb=  1 | S2_voronoi_n25: e=0.1175 s=  2.89N/m nb=  0 | S2_voronoi_n25: e=0.1263 s=  8.65N/m nb=  6 | S2_voronoi_n25: e=0.1413 s=  7.45N/m nb= 27  fire_it=1500 t=4471s
+step  22 S2_mesh_sizedi: e=0.1363 s=  2.52N/m nb=  1 | S2_voronoi_n25: e=0.1225 s=  2.93N/m nb=  1 | S2_voronoi_n25: e=0.1313 s=  7.92N/m nb=  2 | S2_voronoi_n25: e=0.1463 s=  6.98N/m nb=  5  fire_it=1500 t=4915s
+step  23 S2_mesh_sizedi: e=0.1413 s=  2.43N/m nb=  0 | S2_voronoi_n25: e=0.1275 s=  1.67N/m nb=  5 | S2_voronoi_n25: e=0.1363 s=  7.03N/m nb=  4 | S2_voronoi_n25: e=0.1513 s=  7.17N/m nb=  1  fire_it=1500 t=5357s
+[done] S2_voronoi_n25_reg1.0 -> run_20260905_063939_a8266e: reconstructed but viable; strength 13.32 N/m @ 0.131, fail 0.156, mode progressive (multiple events, load retained), stress collapsed
+step  24 S2_mesh_sizedi: e=0.1463 s=  2.28N/m nb=  0 | S2_voronoi_n25: e=0.1325 s=  1.78N/m nb=  0 | S2_voronoi_n25: e=0.1413 s=  6.32N/m nb=  3 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb= 17*  fire_it=1500 t=5845s
+step  25 S2_mesh_sizedi: e=0.1513 s=  2.29N/m nb=  0 | S2_voronoi_n25: e=0.1375 s=  1.77N/m nb=  1 | S2_voronoi_n25: e=0.1463 s=  5.85N/m nb=  1 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=6172s
+step  26 S2_mesh_sizedi: e=0.1563 s=  2.24N/m nb=  0 | S2_voronoi_n25: e=0.1425 s=  1.98N/m nb=  0 | S2_voronoi_n25: e=0.1513 s=  5.55N/m nb=  2 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=6573s
+step  27 S2_mesh_sizedi: e=0.1613 s=  1.45N/m nb=  2 | S2_voronoi_n25: e=0.1475 s=  1.92N/m nb=  0 | S2_voronoi_n25: e=0.1563 s=  5.43N/m nb=  2 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=7289s
+step  28 S2_mesh_sizedi: e=0.1663 s=  1.65N/m nb=  0 | S2_voronoi_n25: e=0.1525 s=  1.77N/m nb=  0 | S2_voronoi_n25: e=0.1613 s=  5.43N/m nb=  0 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=7722s
+step  29 S2_mesh_sizedi: e=0.1713 s=  1.63N/m nb=  0 | S2_voronoi_n25: e=0.1575 s=  1.02N/m nb=  2 | S2_voronoi_n25: e=0.1663 s=  5.23N/m nb=  2 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=8467s
+step  30 S2_mesh_sizedi: e=0.1763 s=  1.73N/m nb=  0 | S2_voronoi_n25: e=0.1625 s=  1.38N/m nb=  0 | S2_voronoi_n25: e=0.1713 s=  4.86N/m nb=  2 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1440 t=9048s
+step  31 S2_mesh_sizedi: e=0.1813 s=  1.84N/m nb=  0 | S2_voronoi_n25: e=0.1675 s=  1.53N/m nb=  0 | S2_voronoi_n25: e=0.1763 s=  5.08N/m nb=  0 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1240 t=9374s
+step  32 S2_mesh_sizedi: e=0.1863 s=  1.68N/m nb=  1 | S2_voronoi_n25: e=0.1725 s=  1.66N/m nb=  0 | S2_voronoi_n25: e=0.1813 s=  4.44N/m nb=  6 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=10048s
+step  33 S2_mesh_sizedi: e=0.1913 s=  1.63N/m nb=  1 | S2_voronoi_n25: e=0.1775 s=  1.62N/m nb=  2 | S2_voronoi_n25: e=0.1863 s=  4.08N/m nb=  2 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=10621s
+step  34 S2_mesh_sizedi: e=0.1963 s=  1.83N/m nb=  0 | S2_voronoi_n25: e=0.1825 s=  1.94N/m nb=  0 | S2_voronoi_n25: e=0.1913 s=  3.82N/m nb=  2 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=10952s
+step  35 S2_mesh_sizedi: e=0.2013 s=  1.93N/m nb=  0 | S2_voronoi_n25: e=0.1875 s=  2.13N/m nb=  0 | S2_voronoi_n25: e=0.1963 s=  3.80N/m nb=  0 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1110 t=11273s
+step  36 S2_mesh_sizedi: e=0.2063 s=  2.09N/m nb=  0 | S2_voronoi_n25: e=0.1925 s=  2.23N/m nb=  0 | S2_voronoi_n25: e=0.2013 s=  4.04N/m nb=  0 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=720 t=11529s
+step  37 S2_mesh_sizedi: e=0.2113 s=  2.26N/m nb=  0 | S2_voronoi_n25: e=0.1975 s=  1.61N/m nb=  1 | S2_voronoi_n25: e=0.2063 s=  3.75N/m nb=  3 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=990 t=12089s
+step  38 S2_mesh_sizedi: e=0.2163 s=  1.94N/m nb=  1 | S2_voronoi_n25: e=0.2025 s=  1.90N/m nb=  0 | S2_voronoi_n25: e=0.2113 s=  3.39N/m nb=  1 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1440 t=12664s
+[done] S2_mesh_sizedis0.3 -> run_20260905_084045_6ac365: reconstructed but viable; strength 11.34 N/m @ 0.101, fail 0.221, mode stepwise (few events), post-peak strain limit reached (load still carried)
+[done] S2_voronoi_n25_reg0.0 -> run_20260905_084045_a9b4c1: reconstructed but viable; strength 9.66 N/m @ 0.088, fail 0.208, mode stepwise (few events), post-peak strain limit reached (load still carried)
+step  39 S2_mesh_sizedi: e=0.2213 s=  2.24N/m nb=  0* | S2_voronoi_n25: e=0.2075 s=  1.88N/m nb=  0* | S2_voronoi_n25: e=0.2163 s=  3.05N/m nb=  1 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1500 t=13110s
+step  40 S2_mesh_sizedi: e=0.2213 s=  2.24N/m nb=  0* | S2_voronoi_n25: e=0.2075 s=  1.88N/m nb=  0* | S2_voronoi_n25: e=0.2213 s=  2.89N/m nb=  1 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=670 t=13548s
+step  41 S2_mesh_sizedi: e=0.2213 s=  2.24N/m nb=  0* | S2_voronoi_n25: e=0.2075 s=  1.88N/m nb=  0* | S2_voronoi_n25: e=0.2263 s=  2.60N/m nb=  2 | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=1420 t=14122s
+[done] S2_voronoi_n25_reg0.6 -> run_20260905_090516_cbfca1: reconstructed but viable; strength 14.37 N/m @ 0.111, fail 0.231, mode progressive (multiple events, load retained), post-peak strain limit reached (load still carried)
+step  42 S2_mesh_sizedi: e=0.2213 s=  2.24N/m nb=  0* | S2_voronoi_n25: e=0.2075 s=  1.88N/m nb=  0* | S2_voronoi_n25: e=0.2313 s=  2.48N/m nb=  1* | S2_voronoi_n25: e=0.1563 s=  0.61N/m nb=  0*  fire_it=820 t=14581s
+batch finished in 14585s (simulation 14585s); evaluations {'n_evaluations': 82751, 'fire_iterations': 82400, 'n_rebuilds': 1101, 'n_reverts': 12, 'n_soft_converged': 32}

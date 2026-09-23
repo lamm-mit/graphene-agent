@@ -1,0 +1,51 @@
+batch conv_dstrain_0.01_ref1: 1 structures, N = [1164], device=mps torch.float32
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: divide by zero encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: overflow encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+potentials/rebo2scr/pytorch/neighborlist.py:109: RuntimeWarning: invalid value encountered in matmul
+  dvec = np.asarray(pos)[j] - np.asarray(pos)[i] + s.astype(float) @ np.asarray(cells[b], float)  # float cast avoids spurious Accelerate FP warnings
+  zero-stress relaxation: eps0 = [[0.005  0.0096]], sigma = [[ 0.078 -0.079]] N/m
+step   1 mesh64_ds0.01_: e=0.0100 s=  1.42N/m nb=  0  fire_it=50 t=16s
+step   2 mesh64_ds0.01_: e=0.0200 s=  2.22N/m nb=  0  fire_it=80 t=21s
+step   3 mesh64_ds0.01_: e=0.0300 s=  3.41N/m nb=  0  fire_it=50 t=26s
+step   4 mesh64_ds0.01_: e=0.0400 s=  4.03N/m nb=  0  fire_it=120 t=33s
+step   5 mesh64_ds0.01_: e=0.0500 s=  4.92N/m nb=  0  fire_it=80 t=40s
+step   6 mesh64_ds0.01_: e=0.0600 s=  5.95N/m nb=  0  fire_it=50 t=43s
+step   7 mesh64_ds0.01_: e=0.0700 s=  6.88N/m nb=  0  fire_it=60 t=47s
+step   8 mesh64_ds0.01_: e=0.0800 s=  7.56N/m nb=  0  fire_it=60 t=51s
+step   9 mesh64_ds0.01_: e=0.0900 s=  8.37N/m nb=  0  fire_it=60 t=57s
+step  10 mesh64_ds0.01_: e=0.1000 s=  9.14N/m nb=  0  fire_it=70 t=61s
+step  11 mesh64_ds0.01_: e=0.1100 s=  9.87N/m nb=  0  fire_it=60 t=65s
+step  12 mesh64_ds0.01_: e=0.1200 s= 10.52N/m nb=  0  fire_it=70 t=69s
+step  13 mesh64_ds0.01_: e=0.1300 s= 11.08N/m nb=  0  fire_it=70 t=75s
+  step 14: bisection for [0] -> d_eps=[0.005]
+step  15 mesh64_ds0.01_: e=0.1350 s= 11.33N/m nb=  0  fire_it=30 t=183s
+  step 16: bisection for [0] -> d_eps=[0.0025]
+step  17 mesh64_ds0.01_: e=0.1375 s= 11.41N/m nb=  0  fire_it=50 t=290s
+  step 18: bisection for [0] -> d_eps=[0.00125]
+step  19 mesh64_ds0.01_: e=0.1387 s=  9.58N/m nb= 14  fire_it=450 t=460s
+step  20 mesh64_ds0.01_: e=0.1487 s=  8.73N/m nb=  6  fire_it=700 t=626s
+step  21 mesh64_ds0.01_: e=0.1588 s=  7.86N/m nb=  4  fire_it=640 t=791s
+step  22 mesh64_ds0.01_: e=0.1688 s=  6.92N/m nb=  6  fire_it=590 t=889s
+step  23 mesh64_ds0.01_: e=0.1788 s=  3.61N/m nb=  8  fire_it=1380 t=1131s
+step  24 mesh64_ds0.01_: e=0.1888 s=  2.84N/m nb=  0  fire_it=1320 t=1337s
+step  25 mesh64_ds0.01_: e=0.1988 s=  2.82N/m nb=  2  fire_it=280 t=1395s
+step  26 mesh64_ds0.01_: e=0.2088 s=  2.86N/m nb=  2  fire_it=190 t=1433s
+step  27 mesh64_ds0.01_: e=0.2188 s=  0.83N/m nb=  4  fire_it=2460 t=1848s
+step  28 mesh64_ds0.01_: e=0.2288 s=  0.86N/m nb=  0  fire_it=460 t=1942s
+step  29 mesh64_ds0.01_: e=0.2388 s=  0.96N/m nb=  0  fire_it=490 t=2026s
+step  30 mesh64_ds0.01_: e=0.2488 s=  1.07N/m nb=  0  fire_it=500 t=2105s
+step  31 mesh64_ds0.01_: e=0.2588 s=  1.10N/m nb=  0  fire_it=500 t=2181s
+step  32 mesh64_ds0.01_: e=0.2688 s=  1.19N/m nb=  0  fire_it=430 t=2240s
+step  33 mesh64_ds0.01_: e=0.2788 s=  1.22N/m nb=  0  fire_it=480 t=2310s
+step  34 mesh64_ds0.01_: e=0.2888 s=  1.34N/m nb=  0  fire_it=370 t=2363s
+step  35 mesh64_ds0.01_: e=0.2988 s=  0.93N/m nb=  2  fire_it=2290 t=2685s
+step  36 mesh64_ds0.01_: e=0.3088 s=  0.93N/m nb=  0  fire_it=870 t=2792s
+step  37 mesh64_ds0.01_: e=0.3188 s=  0.96N/m nb=  0  fire_it=530 t=2881s
+step  38 mesh64_ds0.01_: e=0.3288 s=  1.13N/m nb=  2  fire_it=440 t=2937s
+step  39 mesh64_ds0.01_: e=0.3388 s=  1.21N/m nb=  0  fire_it=560 t=3008s
+step  40 mesh64_ds0.01_: e=0.3488 s=  0.88N/m nb=  2  fire_it=470 t=3083s
+step  41 mesh64_ds0.01_: e=0.3588 s=  0.71N/m nb=  1*  fire_it=160 t=3255s
+[done] mesh64_ds0.01_ref1 -> run_20260904_223417_bd6001: reconstructed but viable; strength 11.41 N/m @ 0.137, fail 0.219, mode progressive (multiple events, load retained), max strain reached
+batch finished in 3259s (simulation 3258s); evaluations {'n_evaluations': 24293, 'fire_iterations': 24020, 'n_rebuilds': 298, 'n_reverts': 3}

@@ -1,0 +1,98 @@
+{
+ "campaign": "discovery",
+ "stage": "stage4_discriminating",
+ "batch_name": "stage4_b0",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S4_square_D40",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "square",
+    "stagger": false,
+    "pore_d": 17.594
+   },
+   "seed": 0,
+   "reason": "H-A vs H-B pair 1/2: coarse square pores (straight uniform ligaments), reference of the pair",
+   "hypothesis": "H-A",
+   "tags": [
+    "stage4",
+    "pairAB"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 16.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "minSF=0.51, K=straight"
+   },
+   "notes": null
+  },
+  {
+   "name": "S4_circle_D40_sameMinSF",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "circle",
+    "stagger": false,
+    "pore_d": 17.594
+   },
+   "seed": 0,
+   "reason": "pair 1: circular pores with diameter = square side (17.6 A) -> same minSF (0.52) but lower porosity (0.16); H-A predicts weaker than square (necked paths), H-B predicts >= square",
+   "hypothesis": "H-A vs H-B",
+   "tags": [
+    "stage4",
+    "pairAB"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 11.3,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.52, K=necked; H-B alternative ~16.2"
+   },
+   "notes": null
+  },
+  {
+   "name": "S4_circle_D40_samePhi",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "circle",
+    "stagger": false,
+    "pore_d": 20.016
+   },
+   "seed": 0,
+   "reason": "pair 2: circular pores at the same porosity (0.20) -> minSF 0.45",
+   "hypothesis": "H-A vs H-B",
+   "tags": [
+    "stage4",
+    "pairAB"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 9.8,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.45, K=necked"
+   },
+   "notes": null
+  }
+ ]
+}

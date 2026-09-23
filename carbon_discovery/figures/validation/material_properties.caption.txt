@@ -1,0 +1,1 @@
+Lattice constant, bond length, cohesive energy, elastic constants and homogeneous tensile response (zigzag and armchair loading, fixed transverse strain, relaxed internal coordinates) of graphene from the Torch implementation compared with Atomistica. Left: stress-strain curves; middle: absolute stress differences; right: tabulated properties with experimental reference values.

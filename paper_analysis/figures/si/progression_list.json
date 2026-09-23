@@ -1,0 +1,42 @@
+[
+ [
+  "S1_pristine_zz",
+  "Reference: pristine zigzag graphene"
+ ],
+ [
+  "S1_precrack_L20",
+  "Reference: precracked graphene (20 A slit)"
+ ],
+ [
+  "S5_slit0_phi0.1",
+  "Strongest porous architecture"
+ ],
+ [
+  "S7_slit_0deg_armchair",
+  "Most delocalised / progressive fracture"
+ ],
+ [
+  "S2_slit_45deg",
+  "Most localised fracture"
+ ],
+ [
+  "S5_H2_D40_W8_ellipseX",
+  "Key hierarchical design"
+ ],
+ [
+  "S2_hole20_rings2",
+  "Flaw-halo design (hole + pore rings)"
+ ],
+ [
+  "S5_H2_D40_W8_jitter2",
+  "Counter-example within the hierarchy ladder"
+ ],
+ [
+  "S7_H2_veinsX_W12_ellipseX",
+  "Holdout: load-aligned veins + load-aligned ellipses"
+ ],
+ [
+  "S7_slit_20deg",
+  "Holdout: slit array at 20 degrees (echelon coalescence)"
+ ]
+]

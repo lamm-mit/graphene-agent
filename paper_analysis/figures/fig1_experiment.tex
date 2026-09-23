@@ -1,0 +1,10 @@
+% Standalone build of Figure 1 (identical to the in-text version): pdflatex fig1_experiment.tex
+\documentclass[border=3pt]{standalone}
+\usepackage{newtxtext,newtxmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,calc}
+\input{facts.tex}
+\input{numbers.tex}
+\begin{document}
+\input{fig_experiment.tikz}
+\end{document}

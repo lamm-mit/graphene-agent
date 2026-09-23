@@ -1,0 +1,43 @@
+{
+ "run_id": "run_20260904_233634_41365e",
+ "name": "S1_precrack_L20",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": 0.05611494593252779,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 17,
+   "eps": 0.08,
+   "sigma_Nm": 17.467501759842396,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage",
+   "frame": 18,
+   "eps": 0.08125,
+   "sigma_Nm": 17.620581811643444,
+   "n_broken": 1
+  },
+  {
+   "label": "peak_load",
+   "frame": 19,
+   "eps": 0.08625000000000001,
+   "sigma_Nm": 18.528891673962043,
+   "n_broken": 1
+  },
+  {
+   "label": "major_propagation = post_peak = final",
+   "frame": 20,
+   "eps": 0.09125000000000001,
+   "sigma_Nm": 1.0951433884668529,
+   "n_broken": 39
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "paper/figures/si/progression_S1_precrack_L20_energy_rel.png"
+}

@@ -1,0 +1,1 @@
+Translation from imagery to atomistic carbon architecture: each reference image (left) motivated one or more design principles (middle) that were instantiated as an explicit periodic graphene-derived structure (right; atoms shown as dots). The structures are not traced from the images; they realise the abstract principle with controlled parameters and matched porosity.

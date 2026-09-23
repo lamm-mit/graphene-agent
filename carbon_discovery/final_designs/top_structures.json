@@ -1,0 +1,1123 @@
+{
+ "selected": [
+  {
+   "run_id": "run_20260905_000440_9f82a7",
+   "name": "S1_pristine_zz",
+   "family": "pristine",
+   "title": "Reference: pristine zigzag graphene",
+   "reason": "reference state (intrinsic strength, abrupt rupture)",
+   "movie": "movies/S1_pristine_zz.mp4",
+   "metrics": {
+    "modulus_2d_Nm": 250.07382077875687,
+    "poisson_ratio": 0.34134149059194224,
+    "strength_Nm": 38.7945827189091,
+    "strain_at_peak": 0.2700000000000001,
+    "first_damage_strain": 0.27125000000000005,
+    "failure_strain": 0.27125000000000005,
+    "failure_observed": true,
+    "work_to_failure_eV_A2": 0.4197851403612442,
+    "work_to_failure_J_m2": 6.725699415080552,
+    "specific_work_eV_per_atom": 1.1001715317934164,
+    "energy_stored_to_failure_eV_per_atom": 0.30339601304796004,
+    "post_peak_load_retention": 0.5029313872615795,
+    "strain_range_post_peak": 0.0012499999999999734,
+    "n_broken_total": 38,
+    "n_damage_steps": 1,
+    "n_major_damage_events": 1,
+    "max_single_step_broken_fraction": 1.0,
+    "damage_localization": 0.31402765130613,
+    "damage_entropy": 2.852878796635438,
+    "fraction_atoms_damaged": 0.13194444444444445,
+    "crack_initiation_xy": [
+     0.823648989200592,
+     28.208019256591797
+    ],
+    "crack_initiation_strain": 0.27125000000000005,
+    "damage_extent_x": 37.66390746831894,
+    "damage_extent_y": 36.4496203660965,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "termination": "not spanning (fractured)"
+   },
+   "design": {
+    "family": "pristine",
+    "orientation": "zigzag",
+    "Lx": 39.362832,
+    "Ly": 38.3503640365114
+   },
+   "porosity": 0.0,
+   "hierarchy_levels": null,
+   "panel": "figures/progression/progression_S1_pristine_zz_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": 2.4505329301196466e-05,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage = peak_load",
+     "frame": 27,
+     "eps": 0.2700000000000001,
+     "sigma_Nm": 38.7945827189091,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage = major_propagation = post_peak = final",
+     "frame": 28,
+     "eps": 0.27125000000000005,
+     "sigma_Nm": 0.2274438912010002,
+     "n_broken": 38
+    }
+   ],
+   "before_after": "figures/progression/before_after_S1_pristine_zz.png",
+   "caption": "Fracture progression of S1_pristine_zz (pristine, N=576, porosity 0.00): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Reference state. The homogeneous zigzag sheet stores 6.7 J/m2 before a single instability at 27% strain breaks every load-bearing bond row at once (36 bonds in one increment); the dip at 18% is the transverse-branch switch of the model. Failure initiates nowhere in particular: all bonds along the load are equivalent, so there is no load path to redistribute to, and the fracture is maximally abrupt. Every porous design is weaker than this state, but many retain load after their peak, which the pristine sheet cannot."
+  },
+  {
+   "run_id": "run_20260904_233634_41365e",
+   "name": "S1_precrack_L20",
+   "family": "precrack",
+   "title": "Reference: precracked graphene (20 A slit)",
+   "reason": "flaw-sensitivity reference; localised crack propagation",
+   "movie": "movies/S1_precrack_L20.mp4",
+   "metrics": {
+    "modulus_2d_Nm": 235.14818543526687,
+    "poisson_ratio": 0.32399446855015374,
+    "strength_Nm": 18.528891673962043,
+    "strain_at_peak": 0.08625000000000001,
+    "first_damage_strain": 0.08125,
+    "failure_strain": 0.09125000000000001,
+    "failure_observed": true,
+    "work_to_failure_eV_A2": 0.05579458219523077,
+    "work_to_failure_J_m2": 0.8939277567381284,
+    "specific_work_eV_per_atom": 0.14731983043799227,
+    "energy_stored_to_failure_eV_per_atom": 0.050935142060630344,
+    "post_peak_load_retention": 0.5295523177461774,
+    "strain_range_post_peak": 0.0050000000000000044,
+    "n_broken_total": 39,
+    "n_damage_steps": 2,
+    "n_major_damage_events": 1,
+    "max_single_step_broken_fraction": 0.9743589743589743,
+    "damage_localization": 0.5204389592419114,
+    "damage_entropy": 1.9944382998471726,
+    "fraction_atoms_damaged": 0.020833333333333332,
+    "crack_initiation_xy": [
+     55.327964782714844,
+     36.3228645324707
+    ],
+    "crack_initiation_strain": 0.08125,
+    "damage_extent_x": 8.020912170410156,
+    "damage_extent_y": 95.7736873626709,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "termination": "stress collapsed"
+   },
+   "design": {
+    "family": "precrack",
+    "hierarchy_levels": 0,
+    "crack_len": 20,
+    "crack_w": 3.0,
+    "angle_deg": 90,
+    "orientation": "zigzag",
+    "seed": 0,
+    "Lx": 100.867257,
+    "Ly": 98.00648587108469
+   },
+   "porosity": 0.007423117709437932,
+   "hierarchy_levels": 0,
+   "panel": "figures/progression/progression_S1_precrack_L20_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": 0.05611494593252779,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage",
+     "frame": 17,
+     "eps": 0.08,
+     "sigma_Nm": 17.467501759842396,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage",
+     "frame": 18,
+     "eps": 0.08125,
+     "sigma_Nm": 17.620581811643444,
+     "n_broken": 1
+    },
+    {
+     "label": "peak_load",
+     "frame": 19,
+     "eps": 0.08625000000000001,
+     "sigma_Nm": 18.528891673962043,
+     "n_broken": 1
+    },
+    {
+     "label": "major_propagation = post_peak = final",
+     "frame": 20,
+     "eps": 0.09125000000000001,
+     "sigma_Nm": 1.0951433884668529,
+     "n_broken": 39
+    }
+   ],
+   "before_after": "figures/progression/before_after_S1_precrack_L20.png",
+   "caption": "Fracture progression of S1_precrack_L20 (precrack, N=3744, porosity 0.01): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Flaw-sensitivity reference. Bonds first break at the two crack tips at 8.1% strain, the crack then runs straight across the sheet perpendicular to the load in one avalanche at 8.6% (18.5 N/m). Damage is confined to the crack plane (L = 0.52). Compared with the 10 A crack (24.1 N/m) the strength loss follows a Griffith-like trend, but the 30-50 A cracks do not weaken further: in this lattice the tip-bond configuration, not the crack length, sets the instability once the flaw exceeds ~20 A."
+  },
+  {
+   "run_id": "run_20260905_170819_0771d0",
+   "name": "S5_slit0_phi0.1",
+   "family": "slit_array",
+   "title": "Strongest porous architecture",
+   "reason": "highest 2D strength among porous designs",
+   "movie": "movies/S5_slit0_phi0.1.mp4",
+   "metrics": {
+    "modulus_2d_Nm": 215.15520191772458,
+    "poisson_ratio": 0.3988066854611546,
+    "strength_Nm": 25.605061904386364,
+    "strain_at_peak": 0.1625,
+    "first_damage_strain": 0.16375,
+    "failure_strain": 0.16875,
+    "failure_observed": true,
+    "work_to_failure_eV_A2": 0.1544416424271185,
+    "work_to_failure_J_m2": 2.4744279019554574,
+    "specific_work_eV_per_atom": 0.4517539338460313,
+    "energy_stored_to_failure_eV_per_atom": 0.10970340665632387,
+    "post_peak_load_retention": 0.42560863742360583,
+    "strain_range_post_peak": 0.0062500000000000056,
+    "n_broken_total": 92,
+    "n_damage_steps": 2,
+    "n_major_damage_events": 2,
+    "max_single_step_broken_fraction": 0.9130434782608695,
+    "damage_localization": 0.22626791185583195,
+    "damage_entropy": 3.2178612924353347,
+    "fraction_atoms_damaged": 0.04964539007092199,
+    "crack_initiation_xy": [
+     24.648662567138672,
+     9.807415008544922
+    ],
+    "crack_initiation_strain": 0.16375,
+    "damage_extent_x": 73.08591079711914,
+    "damage_extent_y": 88.14755988121033,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "termination": "stress collapsed"
+   },
+   "design": {
+    "family": "slit_array",
+    "hierarchy_levels": 1,
+    "slit_len": 13.812,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "stagger": true,
+    "orientation": "zigzag",
+    "seed": 0,
+    "Lx": 100.867257,
+    "Ly": 98.00648587108469,
+    "n_slits": 18
+   },
+   "porosity": 0.10286320254506898,
+   "hierarchy_levels": 1,
+   "panel": "figures/progression/progression_S5_slit0_phi0.1_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": 0.04585135786228736,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage = peak_load",
+     "frame": 17,
+     "eps": 0.1625,
+     "sigma_Nm": 25.605061904386364,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage = major_propagation",
+     "frame": 18,
+     "eps": 0.16375,
+     "sigma_Nm": 4.713544010151943,
+     "n_broken": 84
+    },
+    {
+     "label": "post_peak = final",
+     "frame": 19,
+     "eps": 0.16875,
+     "sigma_Nm": 2.37460061028057,
+     "n_broken": 92
+    }
+   ],
+   "before_after": "figures/progression/before_after_S5_slit0_phi0.1.png",
+   "caption": "Fracture progression of S5_slit0_phi0.1 (slit_array, N=3384, porosity 0.10): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Strongest porous architecture (25.6 N/m at porosity 0.10) and identical in strength to its 0.20-porosity sibling: with slits parallel to the load the net section is set by the slit width only. The strips carry an almost uniform stress up to 20% strain; failure starts at the bridges that connect neighbouring strips (the only places where the stress deviates from uniaxial) and all strips snap in the same increment. It is strong because its ligaments are straight and wide, and brittle for the same reason: all load paths are equivalent."
+  },
+  {
+   "run_id": "run_20260905_235534_a5e0cc",
+   "name": "S7_slit_0deg_armchair",
+   "family": "slit_array",
+   "title": "Most delocalised / progressive fracture",
+   "reason": "lowest damage localisation with substantial damage",
+   "movie": "movies/S7_slit_0deg_armchair.mp4",
+   "metrics": {
+    "modulus_2d_Nm": 223.0449049499082,
+    "poisson_ratio": 0.19330186116546574,
+    "strength_Nm": 20.218295800022684,
+    "strain_at_peak": 0.13249999999999998,
+    "first_damage_strain": 0.13374999999999998,
+    "failure_strain": 0.2537500000000001,
+    "failure_observed": false,
+    "work_to_failure_eV_A2": 0.1849622754112352,
+    "work_to_failure_J_m2": 2.9634223509550464,
+    "specific_work_eV_per_atom": 0.5963379562400318,
+    "energy_stored_to_failure_eV_per_atom": 0.2938549136245111,
+    "post_peak_load_retention": 0.5680287874077457,
+    "strain_range_post_peak": 0.12125000000000011,
+    "n_broken_total": 240,
+    "n_damage_steps": 9,
+    "n_major_damage_events": 6,
+    "max_single_step_broken_fraction": 0.26666666666666666,
+    "damage_localization": 0.1130667201294937,
+    "damage_entropy": 3.688651813722158,
+    "fraction_atoms_damaged": 0.14602346805736635,
+    "crack_initiation_xy": [
+     8.76720142364502,
+     21.428068161010742
+    ],
+    "crack_initiation_strain": 0.13374999999999998,
+    "damage_extent_x": 106.10256576538086,
+    "damage_extent_y": 94.35139179229736,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "termination": "post-peak strain limit reached (load still carried)"
+   },
+   "design": {
+    "family": "slit_array",
+    "hierarchy_levels": 1,
+    "slit_len": 28.0,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "stagger": true,
+    "orientation": "armchair",
+    "seed": 0,
+    "Lx": 98.00648587108469,
+    "Ly": 100.867257,
+    "n_slits": 18
+   },
+   "porosity": 0.1866383881230117,
+   "hierarchy_levels": 1,
+   "panel": "figures/progression/progression_S7_slit_0deg_armchair_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": -0.052315225492798,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage = peak_load",
+     "frame": 14,
+     "eps": 0.13249999999999998,
+     "sigma_Nm": 20.218295800022684,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage",
+     "frame": 15,
+     "eps": 0.13374999999999998,
+     "sigma_Nm": 19.607944744441173,
+     "n_broken": 48
+    },
+    {
+     "label": "damage_event",
+     "frame": 17,
+     "eps": 0.14375,
+     "sigma_Nm": 19.902267018986606,
+     "n_broken": 64
+    },
+    {
+     "label": "damage_event",
+     "frame": 18,
+     "eps": 0.14875,
+     "sigma_Nm": 19.66713006983776,
+     "n_broken": 104
+    },
+    {
+     "label": "major_propagation",
+     "frame": 20,
+     "eps": 0.15875,
+     "sigma_Nm": 15.328145533025682,
+     "n_broken": 168
+    },
+    {
+     "label": "post_peak",
+     "frame": 21,
+     "eps": 0.16375,
+     "sigma_Nm": 7.174740020732215,
+     "n_broken": 200
+    },
+    {
+     "label": "damage_event",
+     "frame": 32,
+     "eps": 0.21875000000000006,
+     "sigma_Nm": 8.807265555511016,
+     "n_broken": 216
+    },
+    {
+     "label": "damage_event",
+     "frame": 38,
+     "eps": 0.24875000000000008,
+     "sigma_Nm": 9.735838962098205,
+     "n_broken": 232
+    }
+   ],
+   "before_after": "figures/progression/before_after_S7_slit_0deg_armchair.png",
+   "caption": "Fracture progression of S7_slit_0deg_armchair (slit_array, N=3068, porosity 0.19): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Holdout. The parallel slit array of Stage 2 cut from armchair-oriented graphene, so that the load-bearing strips are loaded along their armchair direction. Strength 20.2 N/m, 20% below the zigzag array (25.4 N/m), in the ratio of the intrinsic armchair and zigzag strengths (30.7/38.8): the ligament strength inherits the chirality of the sheet, which the data-driven predictor (24.0 N/m) did not know. The failure is the most delocalised of the study (L = 0.11): small clusters of broken bonds nucleate inside every strip at the same strain (13.4%, frames 3-5) without separating the strips, the strips then fail one after another instead of in one avalanche (frame 6, 15.3 N/m with 168 broken bonds), and the sheet retains 8-10 N/m to 25% strain. Its work to failure (3.0 J/m2) is close to that of the zigzag array despite the lower strength."
+  },
+  {
+   "run_id": "run_20260905_091359_4df2c2",
+   "name": "S2_slit_45deg",
+   "family": "slit_array",
+   "title": "Most localised fracture",
+   "reason": "highest damage localisation",
+   "movie": null,
+   "metrics": {
+    "modulus_2d_Nm": 2.1876734740583563,
+    "poisson_ratio": 0.9554637724475395,
+    "strength_Nm": 18.542979416317962,
+    "strain_at_peak": 0.32375000000000015,
+    "first_damage_strain": 0.17375000000000002,
+    "failure_strain": 0.32375000000000015,
+    "failure_observed": false,
+    "work_to_failure_eV_A2": 0.08178318180558569,
+    "work_to_failure_J_m2": 1.310311026159506,
+    "specific_work_eV_per_atom": 0.26521089304191603,
+    "energy_stored_to_failure_eV_per_atom": -0.111491939564443,
+    "post_peak_load_retention": 0.0,
+    "strain_range_post_peak": 0.0,
+    "n_broken_total": 8,
+    "n_damage_steps": 2,
+    "n_major_damage_events": 2,
+    "max_single_step_broken_fraction": 0.5,
+    "damage_localization": 0.625,
+    "damage_entropy": 1.559581156259877,
+    "fraction_atoms_damaged": 0.0051813471502590676,
+    "crack_initiation_xy": [
+     27.42572021484375,
+     45.73480987548828
+    ],
+    "crack_initiation_strain": 0.17375000000000002,
+    "damage_extent_x": 64.57975769042969,
+    "damage_extent_y": 51.405731201171875,
+    "fracture_mode": "stepwise (few events)",
+    "termination": "max strain reached"
+   },
+   "design": {
+    "family": "slit_array",
+    "hierarchy_levels": 1,
+    "slit_len": 22.065,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 45,
+    "stagger": true,
+    "orientation": "zigzag",
+    "seed": 0,
+    "Lx": 100.867257,
+    "Ly": 98.00648587108469,
+    "n_slits": 18
+   },
+   "porosity": 0.1813361611876988,
+   "hierarchy_levels": 1,
+   "panel": "figures/progression/progression_S2_slit_45deg_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": -0.0031188794825288365,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage",
+     "frame": 20,
+     "eps": 0.17250000000000001,
+     "sigma_Nm": 2.746051650772786,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage = major_propagation",
+     "frame": 21,
+     "eps": 0.17375000000000002,
+     "sigma_Nm": 1.5067228168160975,
+     "n_broken": 4
+    },
+    {
+     "label": "damage_event",
+     "frame": 22,
+     "eps": 0.17875000000000002,
+     "sigma_Nm": 2.4409358087125925,
+     "n_broken": 8
+    },
+    {
+     "label": "peak_load = post_peak = final",
+     "frame": 51,
+     "eps": 0.32375000000000015,
+     "sigma_Nm": 18.542979416317962,
+     "n_broken": 8
+    }
+   ],
+   "before_after": "figures/progression/before_after_S2_slit_45deg.png",
+   "caption": "Fracture progression of S2_slit_45deg (slit_array, N=3088, porosity 0.18): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Unexpected mechanism. Slits at 45 degrees to the load produce a shear-like ligament network that is extremely compliant at first (the ligaments rotate toward the load), sheds load at 17% strain in a localised event (L = 0.62) and then re-stiffens as the rotated ligaments align, carrying more than 15 N/m again at 30% strain without breaking further. It reaches the 32% strain limit intact: geometric compliance converts an early localised failure into the largest failure strain of the study."
+  },
+  {
+   "run_id": "run_20260905_211848_7105d7",
+   "name": "S5_H2_D40_W8_ellipseX",
+   "family": "nanomesh_hier",
+   "title": "Key hierarchical design",
+   "reason": "best-performing nested (two/three-level) mesh",
+   "movie": "movies/S5_H2_D40_W8_ellipseX.mp4",
+   "metrics": {
+    "modulus_2d_Nm": 173.76858635566583,
+    "poisson_ratio": 0.26871918117509197,
+    "strength_Nm": 17.460201956251787,
+    "strain_at_peak": 0.13875,
+    "first_damage_strain": 0.11875,
+    "failure_strain": 0.2587500000000001,
+    "failure_observed": false,
+    "work_to_failure_eV_A2": 0.12611368351907007,
+    "work_to_failure_J_m2": 2.020563964574702,
+    "specific_work_eV_per_atom": 0.41941982311583953,
+    "energy_stored_to_failure_eV_per_atom": 0.08439548826777088,
+    "post_peak_load_retention": 0.30012411097320885,
+    "strain_range_post_peak": 0.12000000000000008,
+    "n_broken_total": 114,
+    "n_damage_steps": 14,
+    "n_major_damage_events": 5,
+    "max_single_step_broken_fraction": 0.32456140350877194,
+    "damage_localization": 0.2257758013424539,
+    "damage_entropy": 3.219907922524566,
+    "fraction_atoms_damaged": 0.04876926616057051,
+    "crack_initiation_xy": [
+     97.47590637207031,
+     74.17901611328125
+    ],
+    "crack_initiation_strain": 0.11875,
+    "damage_extent_x": 137.58226871490479,
+    "damage_extent_y": 114.63811442255974,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "termination": "post-peak strain limit reached (load still carried)"
+   },
+   "design": {
+    "family": "nanomesh_hier",
+    "hierarchy_levels": 2,
+    "pore_d": 5.0,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "shape": "circle",
+    "orientation": "zigzag",
+    "stagger": true,
+    "seed": 0,
+    "level3_domain": null,
+    "level3_vein": null,
+    "fine_fill": "pores",
+    "scale_ratio": 3.3333333333333335,
+    "Lx": 120.548673,
+    "Ly": 119.31224366914657,
+    "ligament_w": 7.0,
+    "jitter": 0.0,
+    "size_disorder": 0.0,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_dirs": "xy",
+    "vein_offset": 0.0
+   },
+   "porosity": 0.20790816326530615,
+   "hierarchy_levels": 2,
+   "panel": "figures/progression/progression_S5_H2_D40_W8_ellipseX_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": 0.01745823472949391,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage",
+     "frame": 13,
+     "eps": 0.1175,
+     "sigma_Nm": 16.166904807235444,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage",
+     "frame": 14,
+     "eps": 0.11875,
+     "sigma_Nm": 16.239031908961163,
+     "n_broken": 1
+    },
+    {
+     "label": "damage_event",
+     "frame": 15,
+     "eps": 0.12375,
+     "sigma_Nm": 16.597583669364404,
+     "n_broken": 3
+    },
+    {
+     "label": "peak_load",
+     "frame": 18,
+     "eps": 0.13875,
+     "sigma_Nm": 17.460201956251787,
+     "n_broken": 12
+    },
+    {
+     "label": "damage_event",
+     "frame": 19,
+     "eps": 0.14375000000000002,
+     "sigma_Nm": 15.733535789858609,
+     "n_broken": 33
+    },
+    {
+     "label": "major_propagation",
+     "frame": 22,
+     "eps": 0.15875000000000003,
+     "sigma_Nm": 7.365097869898671,
+     "n_broken": 106
+    },
+    {
+     "label": "post_peak",
+     "frame": 23,
+     "eps": 0.16375000000000003,
+     "sigma_Nm": 5.540134557614803,
+     "n_broken": 107
+    },
+    {
+     "label": "damage_event",
+     "frame": 24,
+     "eps": 0.16875000000000004,
+     "sigma_Nm": 4.655763925595701,
+     "n_broken": 108
+    }
+   ],
+   "before_after": "figures/progression/before_after_S5_H2_D40_W8_ellipseX.png",
+   "caption": "Fracture progression of S5_H2_D40_W8_ellipseX (nanomesh_hier, N=4347, porosity 0.21): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Key hierarchical design and the only nested mesh that beats the coarse-only limit: fine pores elongated along the load inside a vein network give 17.5 N/m, W = 2.0 J/m2 and progressive failure over 13% of post-peak strain. The fine level fails first at the pore ends, but because the fine ligaments are straight (high net-section strength) and numerous (fibre-bundle load sharing), the load transfers to neighbouring rows and the load-parallel veins instead of cascading. Hierarchy is beneficial here only because both levels are aligned with the load."
+  },
+  {
+   "run_id": "run_20260905_104555_3e8359",
+   "name": "S2_hole20_rings2",
+   "family": "ring_around_hole",
+   "title": "Flaw-halo design (hole + pore rings)",
+   "reason": "hole with surrounding pore rings vs bare hole (19.1 N/m) and uniform far-field pores (13.2 N/m): flaw-tolerance test",
+   "movie": null,
+   "metrics": {
+    "modulus_2d_Nm": 177.57795713869683,
+    "poisson_ratio": 0.3523679185992224,
+    "strength_Nm": 16.24465478226591,
+    "strain_at_peak": 0.10875000000000003,
+    "first_damage_strain": 0.08875000000000001,
+    "failure_strain": 0.12375000000000004,
+    "failure_observed": true,
+    "work_to_failure_eV_A2": 0.06396194757777271,
+    "work_to_failure_J_m2": 1.0247833761839253,
+    "specific_work_eV_per_atom": 0.1870643837559136,
+    "energy_stored_to_failure_eV_per_atom": 0.042073038327912475,
+    "post_peak_load_retention": 0.35047313419286336,
+    "strain_range_post_peak": 0.015000000000000013,
+    "n_broken_total": 37,
+    "n_damage_steps": 3,
+    "n_major_damage_events": 2,
+    "max_single_step_broken_fraction": 0.918918918918919,
+    "damage_localization": 0.4109206933457924,
+    "damage_entropy": 2.4499119632014286,
+    "fraction_atoms_damaged": 0.021289178001182733,
+    "crack_initiation_xy": [
+     45.83940887451172,
+     19.56134033203125
+    ],
+    "crack_initiation_strain": 0.08875000000000001,
+    "damage_extent_x": 22.34926986694336,
+    "damage_extent_y": 94.33205163478851,
+    "fracture_mode": "stepwise (few events)",
+    "termination": "stress collapsed"
+   },
+   "design": {
+    "family": "ring_around_hole",
+    "hierarchy_levels": 2,
+    "hole_d": 20,
+    "n_rings": 2,
+    "ring_pore_d": 5.0,
+    "ring_gap": 8.0,
+    "orientation": "zigzag",
+    "seed": 0,
+    "background": null,
+    "Lx": 100.867257,
+    "Ly": 98.00648587108469
+   },
+   "porosity": 0.10339342523860018,
+   "hierarchy_levels": 2,
+   "panel": "figures/progression/progression_S2_hole20_rings2_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": -0.06137063262286128,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage",
+     "frame": 10,
+     "eps": 0.08750000000000001,
+     "sigma_Nm": 13.70404332602958,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage",
+     "frame": 11,
+     "eps": 0.08875000000000001,
+     "sigma_Nm": 13.791405091109693,
+     "n_broken": 2
+    },
+    {
+     "label": "peak_load",
+     "frame": 15,
+     "eps": 0.10875000000000003,
+     "sigma_Nm": 16.24465478226591,
+     "n_broken": 2
+    },
+    {
+     "label": "major_propagation",
+     "frame": 16,
+     "eps": 0.11375000000000003,
+     "sigma_Nm": 4.216147483429522,
+     "n_broken": 36
+    },
+    {
+     "label": "post_peak",
+     "frame": 17,
+     "eps": 0.11875000000000004,
+     "sigma_Nm": 1.6394765349600062,
+     "n_broken": 36
+    },
+    {
+     "label": "final",
+     "frame": 18,
+     "eps": 0.12375000000000004,
+     "sigma_Nm": 0.6729815010318424,
+     "n_broken": 37
+    }
+   ],
+   "before_after": "figures/progression/before_after_S2_hole20_rings2.png",
+   "caption": "Fracture progression of S2_hole20_rings2 (ring_around_hole, N=3382, porosity 0.10): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Flaw halo. Two rings of 5 A pores around a 20 A hole: the sheet reaches 16.2 N/m, below the bare hole (19.1) but above the same porosity spread uniformly in the far field (13.2). Damage starts at the hole edge, not in the halo, and the halo pores merely provide a compliant path for the crack. The halo does not shield the flaw; it only localises the penalty of the added porosity, so the 'nested rings around a void' motif of the reference images is a cost, not a toughening mechanism, in this model."
+  },
+  {
+   "run_id": "run_20260905_210540_992f53",
+   "name": "S5_H2_D40_W8_jitter2",
+   "family": "nanomesh_hier",
+   "title": "Counter-example within the hierarchy ladder",
+   "reason": "weakest member of the matched-porosity hierarchy ladder",
+   "movie": null,
+   "metrics": {
+    "modulus_2d_Nm": 123.51290708404589,
+    "poisson_ratio": 0.28755156805128707,
+    "strength_Nm": 10.29911182335609,
+    "strain_at_peak": 0.10625000000000004,
+    "first_damage_strain": 0.07625000000000001,
+    "failure_strain": 0.22625000000000015,
+    "failure_observed": false,
+    "work_to_failure_eV_A2": 0.07196174083685042,
+    "work_to_failure_J_m2": 1.1529541942291839,
+    "specific_work_eV_per_atom": 0.239583726505488,
+    "energy_stored_to_failure_eV_per_atom": 0.09851738222974524,
+    "post_peak_load_retention": 0.44076048820879155,
+    "strain_range_post_peak": 0.1200000000000001,
+    "n_broken_total": 81,
+    "n_damage_steps": 23,
+    "n_major_damage_events": 3,
+    "max_single_step_broken_fraction": 0.18518518518518517,
+    "damage_localization": 0.27981094255908734,
+    "damage_entropy": 2.9951820878117585,
+    "fraction_atoms_damaged": 0.035804452605003444,
+    "crack_initiation_xy": [
+     78.05891418457031,
+     59.38621139526367
+    ],
+    "crack_initiation_strain": 0.07625000000000001,
+    "damage_extent_x": 131.7223196029663,
+    "damage_extent_y": 116.6965891122818,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "termination": "post-peak strain limit reached (load still carried)"
+   },
+   "design": {
+    "family": "nanomesh_hier",
+    "hierarchy_levels": 2,
+    "pore_d": 7.0,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "shape": "circle",
+    "orientation": "zigzag",
+    "stagger": true,
+    "seed": 1,
+    "level3_domain": null,
+    "level3_vein": null,
+    "fine_fill": "pores",
+    "scale_ratio": 3.3333333333333335,
+    "Lx": 120.548673,
+    "Ly": 119.31224366914657,
+    "ligament_w": 5.0,
+    "jitter": 2.0,
+    "size_disorder": 0.0,
+    "aspect": 1.0,
+    "angle_deg": 0.0,
+    "vein_dirs": "xy",
+    "vein_offset": 0.0
+   },
+   "porosity": 0.20608600583090375,
+   "hierarchy_levels": 2,
+   "panel": "figures/progression/progression_S5_H2_D40_W8_jitter2_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": -0.023121940534662908,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage",
+     "frame": 8,
+     "eps": 0.07500000000000001,
+     "sigma_Nm": 8.204713753713452,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage",
+     "frame": 9,
+     "eps": 0.07625000000000001,
+     "sigma_Nm": 8.313358972825991,
+     "n_broken": 1
+    },
+    {
+     "label": "damage_event",
+     "frame": 12,
+     "eps": 0.09125000000000003,
+     "sigma_Nm": 9.551056715137893,
+     "n_broken": 2
+    },
+    {
+     "label": "peak_load",
+     "frame": 15,
+     "eps": 0.10625000000000004,
+     "sigma_Nm": 10.29911182335609,
+     "n_broken": 8
+    },
+    {
+     "label": "major_propagation",
+     "frame": 17,
+     "eps": 0.11625000000000005,
+     "sigma_Nm": 6.527019013017312,
+     "n_broken": 37
+    },
+    {
+     "label": "post_peak",
+     "frame": 18,
+     "eps": 0.12125000000000005,
+     "sigma_Nm": 6.092913234982425,
+     "n_broken": 40
+    },
+    {
+     "label": "damage_event",
+     "frame": 22,
+     "eps": 0.14125000000000007,
+     "sigma_Nm": 3.729109295874606,
+     "n_broken": 51
+    },
+    {
+     "label": "damage_event",
+     "frame": 30,
+     "eps": 0.1812500000000001,
+     "sigma_Nm": 3.648005460272418,
+     "n_broken": 61
+    }
+   ],
+   "before_after": "figures/progression/before_after_S5_H2_D40_W8_jitter2.png",
+   "caption": "Fracture progression of S5_H2_D40_W8_jitter2 (nanomesh_hier, N=4357, porosity 0.21): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Counter-example. Disordering the fine level of the two-level mesh (2 A jitter) lowers its strength from 12.8 to 10.3 N/m, the same penalty disorder inflicts on a single-scale mesh, and the veins do not compensate: the first bonds break at the most misaligned fine ligament and the damage spreads through the domain before the veins carry the load. Hierarchy and disorder do not interact favourably."
+  },
+  {
+   "run_id": "run_20260906_011440_050f0e",
+   "name": "S7_H2_veinsX_W12_ellipseX",
+   "family": "nanomesh_hier",
+   "title": "Holdout: load-aligned veins + load-aligned ellipses",
+   "reason": "holdout design combining the two strongest orientation effects; strength under-predicted by the data-driven model (synergy)",
+   "movie": "movies/S7_H2_veinsX_W12_ellipseX.mp4",
+   "metrics": {
+    "modulus_2d_Nm": 178.10765587376716,
+    "poisson_ratio": 0.35016846451287204,
+    "strength_Nm": 19.382607714764703,
+    "strain_at_peak": 0.14625,
+    "first_damage_strain": 0.14125,
+    "failure_strain": 0.22125000000000006,
+    "failure_observed": true,
+    "work_to_failure_eV_A2": 0.12373324078507722,
+    "work_to_failure_J_m2": 1.9824250674001356,
+    "specific_work_eV_per_atom": 0.4110348177758226,
+    "energy_stored_to_failure_eV_per_atom": 0.0851587591764166,
+    "post_peak_load_retention": 0.2650682271469758,
+    "strain_range_post_peak": 0.07500000000000007,
+    "n_broken_total": 108,
+    "n_damage_steps": 10,
+    "n_major_damage_events": 4,
+    "max_single_step_broken_fraction": 0.3055555555555556,
+    "damage_localization": 0.2340473613031231,
+    "damage_entropy": 3.185507471731144,
+    "fraction_atoms_damaged": 0.04817618719889883,
+    "crack_initiation_xy": [
+     22.136539459228516,
+     47.72574996948242
+    ],
+    "crack_initiation_strain": 0.14125,
+    "damage_extent_x": 140.60295462608337,
+    "damage_extent_y": 114.86358296871185,
+    "fracture_mode": "stepwise (few events)",
+    "termination": "stress collapsed"
+   },
+   "design": {
+    "family": "nanomesh_hier",
+    "hierarchy_levels": 2,
+    "pore_d": 4.812,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "shape": "circle",
+    "orientation": "zigzag",
+    "stagger": true,
+    "seed": 0,
+    "level3_domain": null,
+    "level3_vein": null,
+    "fine_fill": "pores",
+    "scale_ratio": 3.3333333333333335,
+    "Lx": 120.548673,
+    "Ly": 119.31224366914657,
+    "ligament_w": 7.188,
+    "jitter": 0.0,
+    "size_disorder": 0.0,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_dirs": "x",
+    "vein_offset": 0.0
+   },
+   "porosity": 0.20572157434402327,
+   "hierarchy_levels": 2,
+   "panel": "figures/progression/progression_S7_H2_veinsX_W12_ellipseX_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": -0.07680034521436933,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage",
+     "frame": 14,
+     "eps": 0.13999999999999999,
+     "sigma_Nm": 18.900988752801858,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage",
+     "frame": 15,
+     "eps": 0.14125,
+     "sigma_Nm": 18.954295272481048,
+     "n_broken": 2
+    },
+    {
+     "label": "peak_load",
+     "frame": 16,
+     "eps": 0.14625,
+     "sigma_Nm": 19.382607714764703,
+     "n_broken": 3
+    },
+    {
+     "label": "major_propagation",
+     "frame": 17,
+     "eps": 0.15125,
+     "sigma_Nm": 13.947456059835178,
+     "n_broken": 36
+    },
+    {
+     "label": "post_peak",
+     "frame": 18,
+     "eps": 0.15625,
+     "sigma_Nm": 11.83463945122707,
+     "n_broken": 51
+    },
+    {
+     "label": "damage_event",
+     "frame": 19,
+     "eps": 0.16125,
+     "sigma_Nm": 9.106854498921203,
+     "n_broken": 72
+    },
+    {
+     "label": "damage_event",
+     "frame": 20,
+     "eps": 0.16625,
+     "sigma_Nm": 4.925931623725769,
+     "n_broken": 97
+    },
+    {
+     "label": "damage_event",
+     "frame": 22,
+     "eps": 0.17625000000000002,
+     "sigma_Nm": 2.3018780837067663,
+     "n_broken": 104
+    }
+   ],
+   "before_after": "figures/progression/before_after_S7_H2_veinsX_W12_ellipseX.png",
+   "caption": "Fracture progression of S7_H2_veinsX_W12_ellipseX (nanomesh_hier, N=4359, porosity 0.21): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Holdout that combines the two alignment effects found separately in Stage 4 (veins only along the load, 16.1 N/m) and Stage 5 (load-elongated fine pores with square veins, 17.5 N/m). With 12 A veins along the load and elliptical fine pores elongated along the load, it is the strongest nested design of the campaign: 19.4 N/m at 20.6% porosity, above the coarse-only mesh at the same porosity; the data-driven predictor gave 13.3 N/m because it averaged over nested designs with and without alignment. First damage appears at the bridges between the fine pores at 14.1% strain, the peak follows at 14.6%, and failure proceeds in a few steps (19.4 to 11.8 N/m at the first event) as the fine-pore rows fail while the veins carry the remaining load; the work to failure (2.0 J/m2) equals that of the Stage 5 aligned mesh. The two alignments act on different length scales and their benefits add."
+  },
+  {
+   "run_id": "run_20260906_012602_320a91",
+   "name": "S7_slit_20deg",
+   "family": "slit_array",
+   "title": "Holdout: slit array at 20 degrees (echelon coalescence)",
+   "reason": "holdout that exposed a new mechanism: en-echelon slit coalescence through the ligaments; largest prediction miss",
+   "movie": "movies/S7_slit_20deg.mp4",
+   "metrics": {
+    "modulus_2d_Nm": 140.80874095081668,
+    "poisson_ratio": 0.7299246422516662,
+    "strength_Nm": 8.937497909653079,
+    "strain_at_peak": 0.07500000000000001,
+    "first_damage_strain": 0.065,
+    "failure_strain": 0.19500000000000012,
+    "failure_observed": false,
+    "work_to_failure_eV_A2": 0.07680175331886863,
+    "work_to_failure_J_m2": 1.2304997431051625,
+    "specific_work_eV_per_atom": 0.25341829656941567,
+    "energy_stored_to_failure_eV_per_atom": 0.04309146962267287,
+    "post_peak_load_retention": 0.8126326152799352,
+    "strain_range_post_peak": 0.1200000000000001,
+    "n_broken_total": 63,
+    "n_damage_steps": 18,
+    "n_major_damage_events": 5,
+    "max_single_step_broken_fraction": 0.25396825396825395,
+    "damage_localization": 0.20165437126713326,
+    "damage_entropy": 3.3202261300112603,
+    "fraction_atoms_damaged": 0.04055851063829787,
+    "crack_initiation_xy": [
+     9.91119384765625,
+     39.07666015625
+    ],
+    "crack_initiation_strain": 0.065,
+    "damage_extent_x": 106.01388835906982,
+    "damage_extent_y": 80.56760549545288,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "termination": "post-peak strain limit reached (load still carried)"
+   },
+   "design": {
+    "family": "slit_array",
+    "hierarchy_levels": 1,
+    "slit_len": 26.5,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 20,
+    "stagger": true,
+    "orientation": "zigzag",
+    "seed": 0,
+    "Lx": 100.867257,
+    "Ly": 98.00648587108469,
+    "n_slits": 18
+   },
+   "porosity": 0.2025450689289502,
+   "hierarchy_levels": 1,
+   "panel": "figures/progression/progression_S7_slit_20deg_energy_rel.png",
+   "frames": [
+    {
+     "label": "relaxed",
+     "frame": 0,
+     "eps": 0.0,
+     "sigma_Nm": -0.0569696269423793,
+     "n_broken": 0
+    },
+    {
+     "label": "pre_damage",
+     "frame": 8,
+     "eps": 0.06375,
+     "sigma_Nm": 8.23024301187511,
+     "n_broken": 0
+    },
+    {
+     "label": "first_damage",
+     "frame": 9,
+     "eps": 0.065,
+     "sigma_Nm": 8.075620680796348,
+     "n_broken": 4
+    },
+    {
+     "label": "peak_load",
+     "frame": 11,
+     "eps": 0.07500000000000001,
+     "sigma_Nm": 8.937497909653079,
+     "n_broken": 8
+    },
+    {
+     "label": "major_propagation",
+     "frame": 12,
+     "eps": 0.08000000000000002,
+     "sigma_Nm": 4.8964187011635065,
+     "n_broken": 24
+    },
+    {
+     "label": "post_peak",
+     "frame": 13,
+     "eps": 0.08500000000000002,
+     "sigma_Nm": 5.115950935428479,
+     "n_broken": 24
+    },
+    {
+     "label": "damage_event",
+     "frame": 15,
+     "eps": 0.09500000000000003,
+     "sigma_Nm": 6.034961255522164,
+     "n_broken": 27
+    },
+    {
+     "label": "damage_event",
+     "frame": 21,
+     "eps": 0.12500000000000006,
+     "sigma_Nm": 8.10580733588519,
+     "n_broken": 40
+    },
+    {
+     "label": "damage_event",
+     "frame": 26,
+     "eps": 0.15000000000000008,
+     "sigma_Nm": 8.1042631466641,
+     "n_broken": 52
+    }
+   ],
+   "before_after": "figures/progression/before_after_S7_slit_20deg.png",
+   "caption": "Fracture progression of S7_slit_20deg (slit_array, N=3008, porosity 0.20): event-selected frames (relaxed, pre-damage, first bond loss, peak load, major propagation, post-peak, final; colour = energy change per atom relative to the relaxed state, red circles = atoms that lost a bond) and the stress-strain curve with the displayed frames marked.",
+   "interpretation": "Holdout with the largest prediction miss (predicted 23.9 N/m, observed 8.9 N/m). Rotating the parallel slit array by 20 degrees makes the tips of the slits in neighbouring rows overlap along the load; the short inclined ligaments between overlapping tips carry the load in combined shear and tension and fail first (first damage at 6.5% strain, peak at 7.5%). Each failed ligament hands its load to the next one along the same inclined path, so the cracks coalesce en echelon across the sheet (post-peak and final frames), while the remaining strips keep carrying about 8 N/m up to 19.5% strain (progressive mode, L = 0.20). Load-path alignment is therefore not a monotonic function of angle: it is lost as soon as adjacent slit tips overlap, at a strength below even the 45-degree array (18.5 N/m) and closer to the perpendicular array (4.0 N/m)."
+  }
+ ],
+ "generated": "2026-09-06 02:04:52"
+}

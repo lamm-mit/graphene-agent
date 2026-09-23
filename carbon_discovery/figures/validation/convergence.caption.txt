@@ -1,0 +1,1 @@
+Convergence tests: strength, failure strain and first-damage strain of a 64 A nanomesh as a function of the FIRE force tolerance (TEST 13) and of the strain increment with/without bisection refinement (TEST 14), and size dependence for periodic repeats of the same mesh pattern and for a fixed crack in cells of increasing size (TEST 15); values normalised by the first setting.

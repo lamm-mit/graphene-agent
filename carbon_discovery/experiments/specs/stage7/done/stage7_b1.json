@@ -1,0 +1,116 @@
+{
+ "campaign": "discovery",
+ "stage": "stage7_holdouts",
+ "batch_name": "stage7_b1",
+ "device": "mps",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.32,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.12
+ },
+ "structures": [
+  {
+   "name": "S7_voronoi_n35_reg0.8_s7",
+   "family": "voronoi_network",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "n_cells": 35,
+    "regularity": 0.8,
+    "seed": 7,
+    "ligament_w": 6.5
+   },
+   "seed": 7,
+   "reason": "Stage 7 holdout: unseen network (35 cells, regularity 0.8, new seed)",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 12.1,
+    "modulus_2d_Nm": 138.0,
+    "failure_strain": 0.174,
+    "work_to_failure_J_m2": 0.87,
+    "damage_localization": 0.45,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=random, minSF=0.59, sigma_net(median of 11)=20.4 N/m; kNN: ['S2_voronoi_n25_reg0.0', 'S6_voronoi_n25_reg0.0_s2', 'S5_voronoi_n25_reg0.8']",
+    "crack_path_or_mechanism": "weakest thin ligament fails first, crack follows the thinnest path (localised)"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_H3_D30_60_wideveins",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 3,
+    "period": 10,
+    "domain": 30,
+    "vein_w": 8,
+    "level3_domain": 60,
+    "level3_vein": 16,
+    "pore_d": 7.25
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen three-level mesh with wide veins (8/16 A)",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 11.7,
+    "modulus_2d_Nm": 136.0,
+    "failure_strain": 0.185,
+    "work_to_failure_J_m2": 1.12,
+    "damage_localization": 0.23,
+    "fracture_mode_class": "progressive",
+    "basis": "class=fine_round, minSF=0.69, sigma_net(median of 36)=17.0 N/m; kNN: ['S4_H2_D40_W8_veins_y', 'S2_H1_p12', 'S2_H3_D30_120']",
+    "crack_path_or_mechanism": "fine ligaments fail progressively at pore edges; load carried by remaining rows / veins"
+   },
+   "notes": null
+  },
+  {
+   "name": "S7_hole30_rings3",
+   "family": "ring_around_hole",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "hole_d": 30,
+    "n_rings": 3,
+    "ring_pore_d": 5.0,
+    "ring_gap": 7.0
+   },
+   "seed": 0,
+   "reason": "Stage 7 holdout: unseen flaw halo: 30 A hole + 3 rings",
+   "hypothesis": "prediction test of the net-section/class rule and kNN transfer",
+   "tags": [
+    "stage7",
+    "holdout"
+   ],
+   "parent": null,
+   "prediction": {
+    "strength_Nm": 13.1,
+    "modulus_2d_Nm": 117.0,
+    "failure_strain": 0.139,
+    "work_to_failure_J_m2": 0.83,
+    "damage_localization": 0.44,
+    "fracture_mode_class": "stepwise",
+    "basis": "class=flawed_sheet, minSF=0.54, sigma_net(median of 19)=24.5 N/m; kNN: ['S2_graded_x', 'S2_hole20_rings2', 'S2_graded_radial']",
+    "crack_path_or_mechanism": "crack nucleates at the flaw tip / largest defect and runs across the sheet"
+   },
+   "notes": null
+  }
+ ]
+}

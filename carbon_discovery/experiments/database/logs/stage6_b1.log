@@ -1,0 +1,44 @@
+batch stage6_b1: 3 structures, N = [3040, 3695, 3024], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0023 0.0029]
+ [0.0006 0.0008]
+ [0.0044 0.0051]], sigma = [[-0.009  0.   ]
+ [ 0.007 -0.006]
+ [ 0.007 -0.019]] N/m
+step   1 S6_voronoi_n25: e=0.0100 s=  1.36N/m nb=  0 | S6_vac_random_: e=0.0100 s=  2.54N/m nb=  0 | S6_mesh_jitter: e=0.0100 s=  1.44N/m nb=  0  fire_it=190 t=186s
+step   2 S6_voronoi_n25: e=0.0200 s=  2.65N/m nb=  0 | S6_vac_random_: e=0.0200 s=  4.99N/m nb=  0 | S6_mesh_jitter: e=0.0200 s=  2.67N/m nb=  0  fire_it=200 t=255s
+step   3 S6_voronoi_n25: e=0.0300 s=  3.94N/m nb=  0 | S6_vac_random_: e=0.0300 s=  7.43N/m nb=  0 | S6_mesh_jitter: e=0.0300 s=  3.75N/m nb=  0  fire_it=160 t=314s
+step   4 S6_voronoi_n25: e=0.0400 s=  4.91N/m nb=  0 | S6_vac_random_: e=0.0400 s=  9.81N/m nb=  0 | S6_mesh_jitter: e=0.0400 s=  4.93N/m nb=  0  fire_it=370 t=447s
+step   5 S6_voronoi_n25: e=0.0500 s=  6.13N/m nb=  0 | S6_vac_random_: e=0.0500 s= 11.74N/m nb=  0 | S6_mesh_jitter: e=0.0500 s=  6.00N/m nb=  0  fire_it=260 t=536s
+step   6 S6_voronoi_n25: e=0.0600 s=  7.09N/m nb=  0 | S6_vac_random_: e=0.0600 s= 13.82N/m nb=  0 | S6_mesh_jitter: e=0.0600 s=  7.11N/m nb=  0  fire_it=10 t=697s
+step   7 S6_voronoi_n25: e=0.0700 s=  7.93N/m nb=  0 | S6_vac_random_: e=0.0700 s= 15.83N/m nb=  0 | S6_mesh_jitter: e=0.0700 s=  8.06N/m nb=  0  fire_it=190 t=901s
+  step 8: early bisection for [0] -> d_eps=[0.005]
+step   8 S6_voronoi_n25: e=0.0700 s=  7.93N/m nb=  0 | S6_vac_random_: e=0.0800 s= 17.74N/m nb=  0 | S6_mesh_jitter: e=0.0800 s=  8.99N/m nb=  0  fire_it=30 t=1054s
+  step 9: early bisection for [2] -> d_eps=[0.005]
+step   9 S6_voronoi_n25: e=0.0750 s=  8.44N/m nb=  0 | S6_vac_random_: e=0.0900 s= 19.56N/m nb=  0 | S6_mesh_jitter: e=0.0800 s=  8.99N/m nb=  0  fire_it=60 t=1219s
+  step 10: early bisection for [0, 2] -> d_eps=[0.0025 0.0025]
+step  10 S6_voronoi_n25: e=0.0750 s=  8.44N/m nb=  0 | S6_vac_random_: e=0.1000 s= 21.17N/m nb=  0 | S6_mesh_jitter: e=0.0800 s=  8.99N/m nb=  0  fire_it=140 t=1386s
+  step 11: early bisection for [0, 1] -> d_eps=[0.00125 0.005  ]
+step  11 S6_voronoi_n25: e=0.0750 s=  8.44N/m nb=  0 | S6_vac_random_: e=0.1000 s= 21.17N/m nb=  0 | S6_mesh_jitter: e=0.0825 s=  9.23N/m nb=  0  fire_it=400 t=1511s
+  step 12: early bisection for [1, 2] -> d_eps=[0.0025  0.00125]
+step  12 S6_voronoi_n25: e=0.0763 s=  8.37N/m nb=  1 | S6_vac_random_: e=0.1000 s= 21.17N/m nb=  0 | S6_mesh_jitter: e=0.0825 s=  9.23N/m nb=  0  fire_it=160 t=1689s
+  step 13: early bisection for [1] -> d_eps=[0.00125]
+step  13 S6_voronoi_n25: e=0.0813 s=  8.81N/m nb=  0 | S6_vac_random_: e=0.1000 s= 21.17N/m nb=  0 | S6_mesh_jitter: e=0.0838 s=  9.28N/m nb=  1  fire_it=360 t=1831s
+step  14 S6_voronoi_n25: e=0.0863 s=  9.23N/m nb=  1 | S6_vac_random_: e=0.1012 s= 21.39N/m nb=  0 | S6_mesh_jitter: e=0.0888 s=  9.74N/m nb=  0  fire_it=210 t=1893s
+step  15 S6_voronoi_n25: e=0.0913 s=  7.13N/m nb=  6 | S6_vac_random_: e=0.1025 s= 21.55N/m nb=  1 | S6_mesh_jitter: e=0.0938 s= 10.15N/m nb=  0  fire_it=1940 t=2634s
+step  16 S6_voronoi_n25: e=0.0963 s=  6.20N/m nb=  6 | S6_vac_random_: e=0.1075 s= 22.21N/m nb=  2 | S6_mesh_jitter: e=0.0988 s= 10.44N/m nb=  3  fire_it=940 t=3717s
+[done] S6_voronoi_n25_reg0.6_s2 -> run_20260905_160737_00af40: reconstructed but viable; strength 9.23 N/m @ 0.086, fail 0.101, mode progressive (multiple events, load retained), not spanning (fractured)
+step  17 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb= 10* | S6_vac_random_: e=0.1125 s= 22.72N/m nb=  2 | S6_mesh_jitter: e=0.1038 s=  9.19N/m nb=  6  fire_it=1470 t=5269s
+step  18 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1175 s= 23.27N/m nb=  0 | S6_mesh_jitter: e=0.1088 s=  9.30N/m nb=  4  fire_it=590 t=5702s
+step  19 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1225 s= 23.80N/m nb=  4 | S6_mesh_jitter: e=0.1138 s=  9.39N/m nb=  3  fire_it=400 t=6180s
+step  20 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1275 s= 24.39N/m nb=  3 | S6_mesh_jitter: e=0.1188 s=  8.65N/m nb=  7  fire_it=2000 t=7161s
+step  21 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1325 s= 25.04N/m nb=  2 | S6_mesh_jitter: e=0.1238 s=  7.51N/m nb= 10  fire_it=780 t=8267s
+step  22 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1375 s= 25.45N/m nb=  6 | S6_mesh_jitter: e=0.1288 s=  3.04N/m nb= 14  fire_it=1430 t=9414s
+step  23 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1425 s= 26.00N/m nb=  3 | S6_mesh_jitter: e=0.1338 s=  2.91N/m nb=  0  fire_it=620 t=9695s
+step  24 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1475 s= 11.58N/m nb= 68 | S6_mesh_jitter: e=0.1388 s=  1.34N/m nb=  2  fire_it=2000 t=10491s
+step  25 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1525 s=  5.47N/m nb= 14 | S6_mesh_jitter: e=0.1438 s=  1.29N/m nb=  0  fire_it=2000 t=10957s
+step  26 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1575 s=  3.32N/m nb=  2 | S6_mesh_jitter: e=0.1488 s=  1.49N/m nb=  0  fire_it=2000 t=11485s
+[done] S6_mesh_jitter2.0_s3 -> run_20260905_175809_bbc868: reconstructed but viable; strength 10.44 N/m @ 0.099, fail 0.154, mode progressive (multiple events, load retained), not spanning (fractured)
+step  27 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1625 s=  2.63N/m nb=  0 | S6_mesh_jitter: e=0.1538 s=  0.61N/m nb=  1*  fire_it=1480 t=11901s
+[done] S6_vac_random_2pct_s2 -> run_20260905_180720_3db4c3: stable; strength 26.00 N/m @ 0.143, fail 0.168, mode progressive (multiple events, load retained), not spanning (fractured)
+step  28 S6_voronoi_n25: e=0.1013 s=  0.28N/m nb=  0* | S6_vac_random_: e=0.1675 s=  1.99N/m nb=  2* | S6_mesh_jitter: e=0.1538 s=  0.61N/m nb=  0*  fire_it=740 t=12451s
+batch finished in 12456s (simulation 12456s); evaluations {'n_evaluations': 48918, 'fire_iterations': 48670, 'n_rebuilds': 917, 'n_reverts': 9, 'n_soft_converged': 10}

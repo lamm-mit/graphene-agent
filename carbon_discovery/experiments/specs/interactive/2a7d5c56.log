@@ -1,0 +1,39 @@
+batch app_2a7d5c56: 1 structures, N = [2064], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0156 0.0153]], sigma = [[-0.049 -0.052]] N/m
+step   1 app_run: e=0.0050 s=  0.30N/m nb=  0  fire_it=60 t=14s
+step   2 app_run: e=0.0100 s=  0.66N/m nb=  0  fire_it=110 t=17s
+step   3 app_run: e=0.0150 s=  0.96N/m nb=  0  fire_it=80 t=20s
+step   4 app_run: e=0.0200 s=  1.29N/m nb=  0  fire_it=50 t=21s
+step   5 app_run: e=0.0250 s=  1.61N/m nb=  0  fire_it=60 t=23s
+step   6 app_run: e=0.0300 s=  1.94N/m nb=  0  fire_it=60 t=25s
+step   7 app_run: e=0.0350 s=  2.26N/m nb=  0  fire_it=60 t=26s
+step   8 app_run: e=0.0400 s=  2.58N/m nb=  0  fire_it=130 t=32s
+step   9 app_run: e=0.0450 s=  2.79N/m nb=  0  fire_it=290 t=40s
+step  10 app_run: e=0.0500 s=  3.00N/m nb=  0  fire_it=250 t=48s
+step  11 app_run: e=0.0550 s=  3.19N/m nb=  0  fire_it=170 t=52s
+step  12 app_run: e=0.0600 s=  3.34N/m nb=  0  fire_it=260 t=59s
+step  13 app_run: e=0.0650 s=  3.64N/m nb=  0  fire_it=90 t=62s
+step  14 app_run: e=0.0700 s=  3.96N/m nb=  0  fire_it=130 t=67s
+step  15 app_run: e=0.0750 s=  4.33N/m nb=  0  fire_it=40 t=68s
+step  16 app_run: e=0.0800 s=  4.57N/m nb=  0  fire_it=160 t=74s
+step  17 app_run: e=0.0850 s=  4.82N/m nb=  0  fire_it=110 t=77s
+step  18 app_run: e=0.0900 s=  5.09N/m nb=  0  fire_it=120 t=81s
+step  19 app_run: e=0.0950 s=  5.34N/m nb=  0  fire_it=240 t=87s
+step  20 app_run: e=0.1000 s=  5.63N/m nb=  0  fire_it=150 t=91s
+step  21 app_run: e=0.1050 s=  5.90N/m nb=  0  fire_it=80 t=93s
+step  22 app_run: e=0.1100 s=  6.13N/m nb=  0  fire_it=250 t=100s
+step  23 app_run: e=0.1150 s=  6.27N/m nb=  0  fire_it=390 t=110s
+step  24 app_run: e=0.1200 s=  6.43N/m nb=  0  fire_it=50 t=122s
+step  25 app_run: e=0.1250 s=  6.65N/m nb=  0  fire_it=140 t=126s
+step  26 app_run: e=0.1300 s=  6.83N/m nb=  0  fire_it=170 t=133s
+step  27 app_run: e=0.1350 s=  6.98N/m nb=  0  fire_it=260 t=140s
+step  28 app_run: e=0.1400 s=  7.14N/m nb=  0  fire_it=230 t=148s
+step  29 app_run: e=0.1450 s=  7.30N/m nb=  0  fire_it=170 t=152s
+  step 30: early bisection for [0] -> d_eps=[0.0025]
+step  31 app_run: e=0.1475 s=  7.35N/m nb=  0  fire_it=260 t=170s
+  step 32: early bisection for [0] -> d_eps=[0.00125]
+step  33 app_run: e=0.1488 s=  7.40N/m nb=  0  fire_it=70 t=183s
+step  34 app_run: e=0.1500 s=  6.14N/m nb= 10  fire_it=950 t=261s
+[done] app_run -> run_20260906_055342_03354c: strongly reconstructed; strength 7.40 N/m @ 0.149, fail 0.155, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  35 app_run: e=0.1550 s=  2.69N/m nb=  6*  fire_it=1200 t=376s
+batch finished in 378s (simulation 378s); evaluations {'n_evaluations': 13494, 'fire_iterations': 13280, 'n_rebuilds': 194, 'n_reverts': 2, 'n_soft_converged': 1}

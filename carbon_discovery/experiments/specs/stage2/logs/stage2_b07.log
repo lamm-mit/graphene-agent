@@ -1,0 +1,70 @@
+batch stage2_b07: 4 structures, N = [3008, 3040, 2064, 2100], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[-0.005   0.0093]
+ [ 0.0099 -0.003 ]
+ [ 0.0156  0.0153]
+ [ 0.0128  0.006 ]], sigma = [[-0.03   0.036]
+ [-0.052 -0.026]
+ [-0.049 -0.052]
+ [-0.025  0.016]] N/m
+step   1 S2_ellipse_0de: e=0.0100 s=  1.06N/m nb=  0 | S2_ellipse_90d: e=0.0100 s=  1.68N/m nb=  0 | S2_strut_06012: e=0.0100 s=  0.65N/m nb=  0 | S2_strut_090: e=0.0100 s=  0.94N/m nb=  0  fire_it=140 t=110s
+step   2 S2_ellipse_0de: e=0.0200 s=  1.72N/m nb=  0 | S2_ellipse_90d: e=0.0200 s=  3.37N/m nb=  0 | S2_strut_06012: e=0.0200 s=  1.32N/m nb=  0 | S2_strut_090: e=0.0200 s=  1.86N/m nb=  0  fire_it=150 t=141s
+step   3 S2_ellipse_0de: e=0.0300 s=  2.32N/m nb=  0 | S2_ellipse_90d: e=0.0300 s=  4.95N/m nb=  0 | S2_strut_06012: e=0.0300 s=  1.95N/m nb=  0 | S2_strut_090: e=0.0300 s=  2.77N/m nb=  0  fire_it=200 t=175s
+step   4 S2_ellipse_0de: e=0.0400 s=  3.14N/m nb=  0 | S2_ellipse_90d: e=0.0400 s=  6.50N/m nb=  0 | S2_strut_06012: e=0.0400 s=  2.59N/m nb=  0 | S2_strut_090: e=0.0400 s=  3.65N/m nb=  0  fire_it=190 t=207s
+step   5 S2_ellipse_0de: e=0.0500 s=  3.87N/m nb=  0 | S2_ellipse_90d: e=0.0500 s=  8.04N/m nb=  0 | S2_strut_06012: e=0.0500 s=  2.98N/m nb=  0 | S2_strut_090: e=0.0500 s=  4.50N/m nb=  0  fire_it=170 t=239s
+step   6 S2_ellipse_0de: e=0.0600 s=  4.51N/m nb=  0 | S2_ellipse_90d: e=0.0600 s=  9.55N/m nb=  0 | S2_strut_06012: e=0.0600 s=  3.32N/m nb=  0 | S2_strut_090: e=0.0600 s=  5.33N/m nb=  0  fire_it=200 t=275s
+step   7 S2_ellipse_0de: e=0.0700 s=  5.23N/m nb=  0 | S2_ellipse_90d: e=0.0700 s= 10.99N/m nb=  0 | S2_strut_06012: e=0.0700 s=  3.97N/m nb=  0 | S2_strut_090: e=0.0700 s=  6.13N/m nb=  0  fire_it=160 t=312s
+step   8 S2_ellipse_0de: e=0.0800 s=  5.94N/m nb=  0 | S2_ellipse_90d: e=0.0800 s= 12.38N/m nb=  0 | S2_strut_06012: e=0.0800 s=  4.58N/m nb=  0 | S2_strut_090: e=0.0800 s=  6.92N/m nb=  0  fire_it=160 t=340s
+step   9 S2_ellipse_0de: e=0.0900 s=  6.37N/m nb=  0 | S2_ellipse_90d: e=0.0900 s= 13.66N/m nb=  0 | S2_strut_06012: e=0.0900 s=  5.11N/m nb=  0 | S2_strut_090: e=0.0900 s=  7.67N/m nb=  0  fire_it=280 t=386s
+step  10 S2_ellipse_0de: e=0.1000 s=  6.80N/m nb=  0 | S2_ellipse_90d: e=0.1000 s= 14.78N/m nb=  0 | S2_strut_06012: e=0.1000 s=  5.64N/m nb=  0 | S2_strut_090: e=0.1000 s=  8.35N/m nb=  0  fire_it=270 t=434s
+step  11 S2_ellipse_0de: e=0.1100 s=  7.33N/m nb=  0 | S2_ellipse_90d: e=0.1100 s= 15.53N/m nb=  0 | S2_strut_06012: e=0.1100 s=  6.11N/m nb=  0 | S2_strut_090: e=0.1100 s=  8.80N/m nb=  0  fire_it=340 t=504s
+step  12 S2_ellipse_0de: e=0.1200 s=  7.88N/m nb=  0 | S2_ellipse_90d: e=0.1200 s= 16.17N/m nb=  0 | S2_strut_06012: e=0.1200 s=  6.40N/m nb=  0 | S2_strut_090: e=0.1200 s=  8.86N/m nb=  0  fire_it=330 t=626s
+step  13 S2_ellipse_0de: e=0.1300 s=  8.28N/m nb=  0 | S2_ellipse_90d: e=0.1300 s= 17.08N/m nb=  0 | S2_strut_06012: e=0.1300 s=  6.81N/m nb=  0 | S2_strut_090: e=0.1300 s=  9.22N/m nb=  0  fire_it=220 t=676s
+  step 14: early bisection for [0, 1] -> d_eps=[0.005 0.005]
+step  14 S2_ellipse_0de: e=0.1300 s=  8.28N/m nb=  0 | S2_ellipse_90d: e=0.1300 s= 17.08N/m nb=  0 | S2_strut_06012: e=0.1400 s=  7.15N/m nb=  0 | S2_strut_090: e=0.1400 s=  9.66N/m nb=  0  fire_it=400 t=742s
+  step 15: early bisection for [1] -> d_eps=[0.0025]
+step  15 S2_ellipse_0de: e=0.1350 s=  8.45N/m nb=  0 | S2_ellipse_90d: e=0.1300 s= 17.08N/m nb=  0 | S2_strut_06012: e=0.1500 s=  7.40N/m nb=  0 | S2_strut_090: e=0.1500 s= 10.12N/m nb=  0  fire_it=290 t=800s
+  step 16: early bisection for [0, 1, 2] -> d_eps=[0.0025  0.00125 0.005  ]
+step  16 S2_ellipse_0de: e=0.1350 s=  8.45N/m nb=  0 | S2_ellipse_90d: e=0.1300 s= 17.08N/m nb=  0 | S2_strut_06012: e=0.1500 s=  7.40N/m nb=  0 | S2_strut_090: e=0.1600 s= 10.49N/m nb=  0  fire_it=400 t=872s
+  step 17: early bisection for [0, 2] -> d_eps=[0.00125 0.0025 ]
+step  17 S2_ellipse_0de: e=0.1350 s=  8.45N/m nb=  0 | S2_ellipse_90d: e=0.1312 s= 17.14N/m nb=  2 | S2_strut_06012: e=0.1500 s=  7.40N/m nb=  0 | S2_strut_090: e=0.1700 s= 10.71N/m nb=  0  fire_it=400 t=942s
+  step 18: early bisection for [2] -> d_eps=[0.00125]
+step  18 S2_ellipse_0de: e=0.1362 s=  8.41N/m nb=  2 | S2_ellipse_90d: e=0.1362 s= 17.58N/m nb=  0 | S2_strut_06012: e=0.1500 s=  7.40N/m nb=  0 | S2_strut_090: e=0.1800 s= 10.95N/m nb=  0  fire_it=190 t=1041s
+step  19 S2_ellipse_0de: e=0.1412 s=  8.61N/m nb=  0 | S2_ellipse_90d: e=0.1412 s= 17.95N/m nb=  0 | S2_strut_06012: e=0.1512 s=  5.26N/m nb= 13 | S2_strut_090: e=0.1900 s= 11.24N/m nb=  0  fire_it=1030 t=1590s
+[done] S2_strut_060120 -> run_20260905_083545_83098b: strongly reconstructed; strength 7.40 N/m @ 0.150, fail 0.156, mode abrupt brittle (single avalanche), not spanning (fractured)
+step  20 S2_ellipse_0de: e=0.1462 s=  7.78N/m nb= 19 | S2_ellipse_90d: e=0.1462 s= 18.36N/m nb=  0 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  3* | S2_strut_090: e=0.2000 s= 11.48N/m nb=  0  fire_it=1500 t=2372s
+  step 21: early bisection for [3] -> d_eps=[0.005]
+step  21 S2_ellipse_0de: e=0.1512 s=  7.12N/m nb= 11 | S2_ellipse_90d: e=0.1512 s= 18.60N/m nb=  5 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2000 s= 11.48N/m nb=  0  fire_it=540 t=2775s
+  step 22: early bisection for [3] -> d_eps=[0.0025]
+step  22 S2_ellipse_0de: e=0.1562 s=  5.83N/m nb=  9 | S2_ellipse_90d: e=0.1562 s= 18.95N/m nb=  2 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2000 s= 11.48N/m nb=  0  fire_it=1140 t=3349s
+step  23 S2_ellipse_0de: e=0.1613 s=  4.50N/m nb=  7 | S2_ellipse_90d: e=0.1613 s=  8.61N/m nb= 62 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2025 s= 11.48N/m nb=  0  fire_it=1500 t=3931s
+  step 24: early bisection for [3] -> d_eps=[0.00125]
+step  24 S2_ellipse_0de: e=0.1663 s=  3.54N/m nb=  3 | S2_ellipse_90d: e=0.1663 s=  5.76N/m nb= 10 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2025 s= 11.48N/m nb=  0  fire_it=1500 t=4544s
+step  25 S2_ellipse_0de: e=0.1713 s=  3.60N/m nb=  0 | S2_ellipse_90d: e=0.1713 s=  5.13N/m nb=  3 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2038 s= 11.51N/m nb=  0  fire_it=1500 t=4882s
+step  26 S2_ellipse_0de: e=0.1763 s=  3.73N/m nb=  0 | S2_ellipse_90d: e=0.1763 s=  4.45N/m nb=  4 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2050 s=  4.06N/m nb= 85  fire_it=1500 t=5238s
+step  27 S2_ellipse_0de: e=0.1813 s=  3.20N/m nb=  3 | S2_ellipse_90d: e=0.1813 s=  3.93N/m nb=  1 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2100 s=  2.88N/m nb=  3  fire_it=1500 t=5785s
+step  28 S2_ellipse_0de: e=0.1863 s=  2.85N/m nb=  1 | S2_ellipse_90d: e=0.1863 s=  3.36N/m nb=  1 | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2150 s=  2.67N/m nb=  2  fire_it=1500 t=6344s
+[done] S2_ellipse_90deg -> run_20260905_095201_48aa15: reconstructed but viable; strength 18.95 N/m @ 0.156, fail 0.191, mode progressive (multiple events, load retained), not spanning (fractured)
+step  29 S2_ellipse_0de: e=0.1913 s=  3.02N/m nb=  1 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  2* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2200 s=  2.68N/m nb=  1  fire_it=1500 t=6948s
+step  30 S2_ellipse_0de: e=0.1963 s=  3.25N/m nb=  0 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2250 s=  2.85N/m nb=  0  fire_it=270 t=6998s
+step  31 S2_ellipse_0de: e=0.2013 s=  3.47N/m nb=  0 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2300 s=  2.96N/m nb=  0  fire_it=190 t=7079s
+step  32 S2_ellipse_0de: e=0.2063 s=  3.21N/m nb=  2 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2350 s=  3.11N/m nb=  0  fire_it=1500 t=7406s
+step  33 S2_ellipse_0de: e=0.2113 s=  3.04N/m nb=  1 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2400 s=  2.54N/m nb=  4  fire_it=1430 t=7901s
+step  34 S2_ellipse_0de: e=0.2163 s=  3.14N/m nb=  1 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2450 s=  1.93N/m nb=  0  fire_it=1410 t=8232s
+step  35 S2_ellipse_0de: e=0.2213 s=  3.29N/m nb=  0 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2500 s=  1.94N/m nb=  0  fire_it=550 t=8435s
+step  36 S2_ellipse_0de: e=0.2263 s=  2.89N/m nb=  1 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2550 s=  1.86N/m nb=  0  fire_it=1500 t=8779s
+step  37 S2_ellipse_0de: e=0.2313 s=  2.33N/m nb=  1 | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2600 s=  1.89N/m nb=  0  fire_it=1500 t=9103s
+[done] S2_ellipse_0deg -> run_20260905_103837_fde9bb: reconstructed but viable; strength 8.61 N/m @ 0.141, fail 0.236, mode progressive (multiple events, load retained), not spanning (fractured)
+step  38 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  2* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2650 s=  1.87N/m nb=  0  fire_it=1400 t=9745s
+step  39 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2700 s=  1.88N/m nb=  0  fire_it=890 t=9929s
+step  40 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2750 s=  1.87N/m nb=  0  fire_it=760 t=10144s
+step  41 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2800 s=  1.91N/m nb=  0  fire_it=770 t=10306s
+step  42 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2850 s=  1.81N/m nb=  1  fire_it=810 t=10703s
+step  43 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2900 s=  1.85N/m nb=  0  fire_it=690 t=10917s
+step  44 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.2950 s=  1.78N/m nb=  1  fire_it=1370 t=11420s
+step  45 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.3000 s=  1.86N/m nb=  0  fire_it=740 t=11612s
+step  46 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.3050 s=  1.76N/m nb=  1  fire_it=1500 t=12061s
+step  47 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.3100 s=  1.76N/m nb=  0  fire_it=940 t=12417s
+step  48 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.3150 s=  1.81N/m nb=  0  fire_it=870 t=12677s
+[done] S2_strut_090 -> run_20260905_113026_5343ac: reconstructed but viable; strength 11.51 N/m @ 0.204, fail 0.320, mode stepwise (few events), max strain reached
+step  49 S2_ellipse_0de: e=0.2363 s=  1.35N/m nb=  0* | S2_ellipse_90d: e=0.1913 s=  2.36N/m nb=  0* | S2_strut_06012: e=0.1562 s=  2.37N/m nb=  0* | S2_strut_090: e=0.3200 s=  1.87N/m nb=  0*  fire_it=550 t=12853s
+batch finished in 12856s (simulation 12856s); evaluations {'n_evaluations': 81893, 'fire_iterations': 81520, 'n_rebuilds': 1346, 'n_reverts': 12, 'n_soft_converged': 28}

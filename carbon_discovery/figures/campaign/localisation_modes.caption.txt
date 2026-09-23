@@ -1,0 +1,1 @@
+Localised versus progressive fracture: damage localisation, post-peak load retention, number of discrete damage events and post-peak strain range, coloured by the automatically assigned fracture-mode class.

@@ -1,0 +1,28 @@
+batch stage1_b4: 1 structures, N = [3691], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0004 0.0008]], sigma = [[0.074 0.021]] N/m
+step   1 S1_vac_random_: e=0.0100 s=  2.57N/m nb=  0  fire_it=70 t=37s
+step   2 S1_vac_random_: e=0.0200 s=  4.99N/m nb=  0  fire_it=200 t=71s
+step   3 S1_vac_random_: e=0.0300 s=  7.37N/m nb=  0  fire_it=130 t=94s
+step   4 S1_vac_random_: e=0.0400 s=  9.69N/m nb=  0  fire_it=90 t=108s
+step   5 S1_vac_random_: e=0.0500 s= 11.70N/m nb=  0  fire_it=150 t=135s
+step   6 S1_vac_random_: e=0.0600 s= 13.77N/m nb=  0  fire_it=150 t=161s
+step   7 S1_vac_random_: e=0.0700 s= 15.75N/m nb=  0  fire_it=330 t=273s
+step   8 S1_vac_random_: e=0.0800 s= 17.54N/m nb=  0  fire_it=70 t=344s
+step   9 S1_vac_random_: e=0.0900 s= 19.23N/m nb=  0  fire_it=390 t=426s
+  step 10: early bisection for [0] -> d_eps=[0.005]
+step  11 S1_vac_random_: e=0.0950 s= 20.00N/m nb=  0  fire_it=40 t=581s
+  step 12: early bisection for [0] -> d_eps=[0.0025]
+  step 13: early bisection for [0] -> d_eps=[0.00125]
+step  14 S1_vac_random_: e=0.0963 s= 20.22N/m nb=  0  fire_it=30 t=706s
+step  15 S1_vac_random_: e=0.0975 s= 20.34N/m nb=  1  fire_it=310 t=755s
+step  16 S1_vac_random_: e=0.1025 s= 21.05N/m nb=  1  fire_it=390 t=814s
+step  17 S1_vac_random_: e=0.1075 s= 21.63N/m nb=  2  fire_it=140 t=905s
+step  18 S1_vac_random_: e=0.1125 s= 22.15N/m nb=  4  fire_it=190 t=980s
+step  19 S1_vac_random_: e=0.1175 s= 22.68N/m nb=  2  fire_it=380 t=1034s
+step  20 S1_vac_random_: e=0.1225 s= 23.27N/m nb=  2  fire_it=210 t=1064s
+step  21 S1_vac_random_: e=0.1275 s= 23.56N/m nb=  5  fire_it=550 t=1195s
+step  22 S1_vac_random_: e=0.1325 s=  8.59N/m nb= 59  fire_it=1500 t=1808s
+step  23 S1_vac_random_: e=0.1375 s=  2.84N/m nb=  3  fire_it=1500 t=2401s
+step  24 S1_vac_random_: e=0.1425 s=  1.97N/m nb=  0*  fire_it=1500 t=2709s
+[done] S1_vac_random_2pct -> run_20260905_004247_ae6f18: stable; strength 23.56 N/m @ 0.128, fail 0.143, mode progressive (multiple events, load retained), stress collapsed
+batch finished in 2716s (simulation 2715s); evaluations {'n_evaluations': 18989, 'fire_iterations': 18830, 'n_rebuilds': 313, 'n_reverts': 3, 'n_soft_converged': 0}

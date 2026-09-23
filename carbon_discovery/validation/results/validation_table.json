@@ -1,0 +1,202 @@
+[
+ {
+  "test": "TEST 1",
+  "name": "energy vs Atomistica Rebo2Scr (cpu f64), 12 configurations incl. pore edges, crack tips, near rupture",
+  "expected": "identical",
+  "observed": "max |dE|/atom = 6.11e-14 eV",
+  "error": 6.112195576430969e-14,
+  "tolerance": 1e-09,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 2",
+  "name": "forces vs Atomistica (every component), same configurations",
+  "expected": "identical",
+  "observed": "max |dF| = 4.26e-13 eV/A",
+  "error": 4.263256414560601e-13,
+  "tolerance": 1e-08,
+  "status": "PASS",
+  "note": "max |dsigma| = 4.3e-16 eV/A^3"
+ },
+ {
+  "test": "TEST 3",
+  "name": "finite-difference forces (central, h=1e-4 A) and stress (h=1e-5)",
+  "expected": "F = -dE/dR",
+  "observed": "max |F - F_fd| = 4.8e-06 eV/A (|F| up to 31)",
+  "error": 4.8480464158728864e-06,
+  "tolerance": 0.0001,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 9",
+  "name": "cell-list neighbour list vs brute-force enumeration (pair sets)",
+  "expected": "identical pair sets",
+  "observed": "identical",
+  "error": 0,
+  "tolerance": 0,
+  "status": "PASS",
+  "note": "6636 pairs"
+ },
+ {
+  "test": "TEST 10",
+  "name": "translation invariance (rigid shift 7.3,-11.1 A)",
+  "expected": "dE = 0",
+  "observed": "dE = 0.0e+00 eV, max dF = 4.9e-13",
+  "error": 4.867217739956686e-13,
+  "tolerance": 1e-09,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 11",
+  "name": "total force balance sum_i F_i",
+  "expected": "0",
+  "observed": "1.1e-14 eV/A",
+  "error": 1.1102230246251565e-14,
+  "tolerance": 1e-10,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 12",
+  "name": "periodic-image invariance (wrapping, 2x supercell)",
+  "expected": "invariant",
+  "observed": "max deviation 1.1e-12",
+  "error": 1.1439738045737613e-12,
+  "tolerance": 1e-09,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 4",
+  "name": "fast mode (mps float32) vs reference (cpu float64): energies/forces/stress on relaxed structures",
+  "expected": "agreement within float32 round-off",
+  "observed": "|dE|/atom <= 6.7e-06 eV, |dF| <= 1.5e-04 eV/A, |dsigma| <= 4.0e-05 N/m",
+  "error": 0.00014983923567790658,
+  "tolerance": 0.005,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 16",
+  "name": "precision near fracture (pre-damage, peak, post-peak frames), mps f32 vs cpu f64",
+  "expected": "within float32 round-off",
+  "observed": "|dF| <= 1.5e-04 eV/A, |dsigma| <= 4.0e-05 N/m",
+  "error": 0.00014983923567790658,
+  "tolerance": 0.005,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 17",
+  "name": "reproducibility of repeated evaluations (fast device)",
+  "expected": "identical up to reduction-order round-off",
+  "observed": "dE = 4.9e-04 eV total, max dF = 1.2e-07 eV/A",
+  "error": 1.1920928955078125e-07,
+  "tolerance": 1e-05,
+  "status": "PASS",
+  "note": "cpu f64 is bit-reproducible; MPS reductions are order-nondeterministic at 1e-7 relative"
+ },
+ {
+  "test": "TEST 5",
+  "name": "relaxed lattice constant / bond length (cpu f64 vs Atomistica; fast mode)",
+  "expected": "a0 = 2.460177 A (bond 1.420384)",
+  "observed": "a0 = 2.460177 A (f64), 2.460591 A (f32)",
+  "error": 6.139206920607876e-09,
+  "tolerance": 1e-06,
+  "status": "PASS",
+  "note": "fast mode deviation 4.1e-04 A"
+ },
+ {
+  "test": "TEST 6",
+  "name": "graphene cohesive energy",
+  "expected": "-7.395110 eV/atom",
+  "observed": "-7.395110 eV/atom",
+  "error": 5.329070518200751e-15,
+  "tolerance": 1e-08,
+  "status": "PASS",
+  "note": "REBO2 value; experiment ~ -7.4 eV/atom"
+ },
+ {
+  "test": "TEST 7",
+  "name": "small-strain elastic response (C11, C12, Y2D, nu) relaxed",
+  "expected": "Y2D = 245.07 N/m, nu = 0.3919 (Atomistica)",
+  "observed": "Y2D = 245.07 N/m, nu = 0.3919",
+  "error": 2.2754420569981448e-10,
+  "tolerance": 0.001,
+  "status": "PASS",
+  "note": "known REBO2 deficiency vs experiment (340 N/m, 0.17)"
+ },
+ {
+  "test": "TEST 8",
+  "name": "armchair vs zigzag tensile response (homogeneous, relaxed, to 30% strain)",
+  "expected": "zz peak 37.73 N/m, ac peak 30.48 N/m",
+  "observed": "zz 37.73, ac 30.48 N/m; max |dsigma| = 2.3e-13",
+  "error": 2.2737367544323206e-13,
+  "tolerance": 0.001,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 13",
+  "name": "minimiser convergence (fmax 0.05 -> 0.005 eV/A, 64 A nanomesh)",
+  "expected": "metrics converge; production fmax=0.02 within 3% of fmax=0.005",
+  "observed": "fmax=0.05: sigma=11.43 N/m, eps_fd=0.1413, eps_f=0.3413, FIRE its=-1; fmax=0.02: sigma=11.41 N/m, eps_fd=0.1388, eps_f=0.2088, FIRE its=-1; fmax=0.01: sigma=11.35 N/m, eps_fd=0.1375, eps_f=0.1775, FIRE its=-1; fmax=0.005: sigma=11.35 N/m, eps_fd=0.1375, eps_f=0.1725, FIRE its=123710",
+  "error": 0.009090909090909096,
+  "tolerance": 0.03,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 14",
+  "name": "strain-increment convergence (1%, 0.5%, 0.25% with bisection; 0.5% without)",
+  "expected": "production increment 0.5% (+bisection) within 3% of 0.25% for strength and first-damage strain",
+  "observed": "d_eps=0.01: sigma=11.41 N/m, eps_fd=0.1387, eps_f=0.2188, W=1.30; d_eps=0.005: sigma=11.41 N/m, eps_fd=0.1388, eps_f=0.2088, W=1.18; d_eps=0.0025: sigma=11.41 N/m, eps_fd=0.1388, eps_f=0.1938, W=1.24; d_eps=0.005 no refinement: sigma=11.33 N/m, eps_fd=0.1400, eps_f=0.1850, W=1.14",
+  "error": 9.097605421525332e-05,
+  "tolerance": 0.03,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 15",
+  "name": "system-size convergence (exact periodic repeats of a 32 A mesh pattern: 1x, 2x, 3x; fixed 12 A crack in 40/60/90 A cells)",
+  "expected": "strength of periodic repeats size-independent within 5%; crack strength converges with cell size (image interaction)",
+  "observed": "mesh repeats: L=32: sigma=16.08, eps_fd=0.1350, eps_f=0.1750; L=64: sigma=16.07, eps_fd=0.1350, eps_f=0.2500; L=96: sigma=16.01, eps_fd=0.1338, eps_f=0.2538 | crack 12 A: cell 40: sigma=22.02, eps_fd=0.1163; cell 60: sigma=21.21, eps_fd=0.1000; cell 90: sigma=21.86, eps_fd=0.0963",
+  "error": 0.004451363405280608,
+  "tolerance": 0.05,
+  "status": "PASS",
+  "note": ""
+ },
+ {
+  "test": "TEST 18",
+  "name": "complete stress-strain curve: Torch engine vs Atomistica backend in an AQS (same protocol: 1% steps, fixed transverse, FIRE fmax 0.02), precrack + nanomesh",
+  "expected": "identical curves with the same minimiser; batched driver within the fmax-induced stress uncertainty (~0.2 N/m)",
+  "observed": "Torch+ASE FIRE vs Atomistica+ASE FIRE: max |dsigma| = 2.0e-10 N/m (identical incl. fracture); batched FIRE driver: 0.09 N/m (cpu f64), 0.07 N/m (mps f32) up to the peak",
+  "error": 0.09078061676893867,
+  "tolerance": 0.2,
+  "status": "PASS",
+  "note": "different FIRE variants converge to states differing within fmax; post-instability branches can bifurcate"
+ },
+ {
+  "test": "TEST 19",
+  "name": "bond separation E(r), F(r) through rupture (dimer, in-lattice bond, crack tip, homogeneous stretch) vs Atomistica",
+  "expected": "identical",
+  "observed": "max |dF| = 1.2e-11 eV/A (cpu f64); fast f32 within 1.3e-02",
+  "error": 1.1908696251339279e-11,
+  "tolerance": 1e-08,
+  "status": "PASS",
+  "note": "no spurious discontinuities beyond those intrinsic to the published screening/cutoff functions"
+ },
+ {
+  "test": "TEST 20",
+  "name": "export/data consistency (extxyz, xyz, traj, LAMMPS data, CIF, POSCAR round trip)",
+  "expected": "positions/cell preserved",
+  "observed": "extxyz: ok; xyz: ok; traj: ok; lammps-data: ok; cif: ok; vasp: ok",
+  "error": 4.3398955540396855e-09,
+  "tolerance": 0.001,
+  "status": "PASS",
+  "note": ""
+ }
+]

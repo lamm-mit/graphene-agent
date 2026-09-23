@@ -1,0 +1,10 @@
+batch tiny: 2 structures, N = [60, 60], device=cpu torch.float64
+  zero-stress relaxation: eps0 = [[0. 0.]
+ [0. 0.]], sigma = [[3.821e-05 3.821e-05]
+ [3.821e-05 3.821e-05]] N/m
+step   1 tiny_a: e=0.0400 s= 10.02N/m nb=  0 | tiny_b: e=0.0400 s= 11.57N/m nb=  0  fire_it=20 t=3s
+step   2 tiny_a: e=0.0800 s= 18.82N/m nb=  0 | tiny_b: e=0.0800 s= 21.12N/m nb=  0  fire_it=20 t=6s
+[done] tiny_a -> run_20260905_004518_3fbe8f: stable; strength 25.79 N/m @ 0.120, fail 0.120, mode no damage, max strain reached
+[done] tiny_b -> run_20260905_004518_8ce463: stable; strength 27.29 N/m @ 0.120, fail 0.120, mode no damage, max strain reached
+step   3 tiny_a: e=0.1200 s= 25.79N/m nb=  0* | tiny_b: e=0.1200 s= 27.29N/m nb=  0*  fire_it=10 t=8s
+batch finished in 10s (simulation 10s); evaluations {'n_evaluations': 124, 'fire_iterations': 90, 'n_rebuilds': 0, 'n_reverts': 0, 'n_soft_converged': 0}

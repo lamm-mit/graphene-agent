@@ -1,0 +1,48 @@
+batch stage6_b2: 3 structures, N = [3031, 2998, 3024], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[0.0046 0.0031]
+ [0.0031 0.003 ]
+ [0.0022 0.003 ]], sigma = [[-0.025  0.03 ]
+ [-0.037 -0.025]
+ [ 0.018  0.007]] N/m
+step   1 S6_mesh_sizedi: e=0.0100 s=  1.38N/m nb=  0 | S6_voronoi_n25: e=0.0100 s=  1.36N/m nb=  0 | S6_voronoi_n25: e=0.0100 s=  1.39N/m nb=  0  fire_it=130 t=153s
+step   2 S6_mesh_sizedi: e=0.0200 s=  2.60N/m nb=  0 | S6_voronoi_n25: e=0.0200 s=  2.64N/m nb=  0 | S6_voronoi_n25: e=0.0200 s=  2.63N/m nb=  0  fire_it=170 t=204s
+step   3 S6_mesh_sizedi: e=0.0300 s=  3.87N/m nb=  0 | S6_voronoi_n25: e=0.0300 s=  3.82N/m nb=  0 | S6_voronoi_n25: e=0.0300 s=  3.89N/m nb=  0  fire_it=210 t=272s
+step   4 S6_mesh_sizedi: e=0.0400 s=  5.09N/m nb=  0 | S6_voronoi_n25: e=0.0400 s=  5.06N/m nb=  0 | S6_voronoi_n25: e=0.0400 s=  5.07N/m nb=  0  fire_it=270 t=368s
+step   5 S6_mesh_sizedi: e=0.0500 s=  6.29N/m nb=  0 | S6_voronoi_n25: e=0.0500 s=  6.11N/m nb=  0 | S6_voronoi_n25: e=0.0500 s=  6.24N/m nb=  0  fire_it=380 t=501s
+step   6 S6_mesh_sizedi: e=0.0600 s=  7.48N/m nb=  0 | S6_voronoi_n25: e=0.0600 s=  7.33N/m nb=  0 | S6_voronoi_n25: e=0.0600 s=  7.32N/m nb=  0  fire_it=390 t=638s
+  step 7: early bisection for [1] -> d_eps=[0.005]
+step   7 S6_mesh_sizedi: e=0.0700 s=  8.51N/m nb=  0 | S6_voronoi_n25: e=0.0600 s=  7.33N/m nb=  0 | S6_voronoi_n25: e=0.0700 s=  8.32N/m nb=  0  fire_it=400 t=773s
+  step 8: early bisection for [2] -> d_eps=[0.005]
+step   8 S6_mesh_sizedi: e=0.0800 s=  9.50N/m nb=  0 | S6_voronoi_n25: e=0.0650 s=  7.94N/m nb=  0 | S6_voronoi_n25: e=0.0700 s=  8.32N/m nb=  0  fire_it=400 t=906s
+  step 9: early bisection for [1] -> d_eps=[0.0025]
+  step 9: bisection for [2] -> d_eps=[0.0025]
+step   9 S6_mesh_sizedi: e=0.0900 s= 10.47N/m nb=  0 | S6_voronoi_n25: e=0.0650 s=  7.94N/m nb=  0 | S6_voronoi_n25: e=0.0700 s=  8.32N/m nb=  1  fire_it=400 t=1147s
+  step 10: early bisection for [0, 1] -> d_eps=[0.005   0.00125]
+step  10 S6_mesh_sizedi: e=0.0900 s= 10.47N/m nb=  0 | S6_voronoi_n25: e=0.0650 s=  7.94N/m nb=  0 | S6_voronoi_n25: e=0.0725 s=  8.53N/m nb=  0  fire_it=400 t=1272s
+  step 11: early bisection for [0, 2] -> d_eps=[0.0025  0.00125]
+step  11 S6_mesh_sizedi: e=0.0900 s= 10.47N/m nb=  0 | S6_voronoi_n25: e=0.0663 s=  7.92N/m nb=  1 | S6_voronoi_n25: e=0.0725 s=  8.53N/m nb=  0  fire_it=390 t=1385s
+step  12 S6_mesh_sizedi: e=0.0925 s= 10.71N/m nb=  0 | S6_voronoi_n25: e=0.0713 s=  8.23N/m nb=  1 | S6_voronoi_n25: e=0.0738 s=  8.72N/m nb=  0  fire_it=560 t=1699s
+  step 13: early bisection for [0] -> d_eps=[0.00125]
+step  13 S6_mesh_sizedi: e=0.0925 s= 10.71N/m nb=  0 | S6_voronoi_n25: e=0.0763 s=  8.71N/m nb=  0 | S6_voronoi_n25: e=0.0750 s=  8.74N/m nb=  0  fire_it=380 t=1806s
+step  14 S6_mesh_sizedi: e=0.0938 s= 10.86N/m nb=  0 | S6_voronoi_n25: e=0.0813 s=  6.99N/m nb=  4 | S6_voronoi_n25: e=0.0763 s=  8.73N/m nb=  1  fire_it=1290 t=2426s
+step  15 S6_mesh_sizedi: e=0.0950 s= 10.82N/m nb=  3 | S6_voronoi_n25: e=0.0863 s=  7.29N/m nb=  2 | S6_voronoi_n25: e=0.0813 s=  9.07N/m nb=  2  fire_it=120 t=2596s
+step  16 S6_mesh_sizedi: e=0.1000 s= 11.28N/m nb=  0 | S6_voronoi_n25: e=0.0913 s=  7.23N/m nb=  4 | S6_voronoi_n25: e=0.0863 s=  9.59N/m nb=  0  fire_it=670 t=2915s
+step  17 S6_mesh_sizedi: e=0.1050 s= 11.63N/m nb=  1 | S6_voronoi_n25: e=0.0963 s=  1.37N/m nb= 13 | S6_voronoi_n25: e=0.0913 s=  9.86N/m nb=  1  fire_it=2000 t=4000s
+step  18 S6_mesh_sizedi: e=0.1100 s=  9.23N/m nb= 14 | S6_voronoi_n25: e=0.1013 s=  1.00N/m nb=  0 | S6_voronoi_n25: e=0.0963 s=  5.04N/m nb= 21  fire_it=1780 t=5503s
+[done] S6_voronoi_n25_reg0.0_s3 -> run_20260905_163551_52ee24: reconstructed but viable; strength 8.71 N/m @ 0.076, fail 0.106, mode progressive (multiple events, load retained), stress collapsed
+step  19 S6_mesh_sizedi: e=0.1150 s=  6.61N/m nb= 14 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1013 s=  4.46N/m nb=  4  fire_it=1210 t=6965s
+step  20 S6_mesh_sizedi: e=0.1200 s=  3.21N/m nb=  8 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1063 s=  4.09N/m nb=  2  fire_it=1810 t=8341s
+step  21 S6_mesh_sizedi: e=0.1250 s=  3.30N/m nb=  1 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1113 s=  4.47N/m nb=  0  fire_it=840 t=8727s
+step  22 S6_mesh_sizedi: e=0.1300 s=  2.30N/m nb=  4 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1163 s=  2.84N/m nb=  3  fire_it=1360 t=9510s
+step  23 S6_mesh_sizedi: e=0.1350 s=  2.52N/m nb=  0 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1213 s=  1.02N/m nb=  3  fire_it=700 t=10202s
+[done] S6_voronoi_n25_reg0.6_s3 -> run_20260905_173451_41c075: reconstructed but viable; strength 9.86 N/m @ 0.091, fail 0.126, mode progressive (multiple events, load retained), stress collapsed
+step  24 S6_mesh_sizedi: e=0.1400 s=  2.81N/m nb=  0 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  1*  fire_it=930 t=10503s
+step  25 S6_mesh_sizedi: e=0.1450 s=  2.87N/m nb=  0 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  0*  fire_it=650 t=10661s
+step  26 S6_mesh_sizedi: e=0.1500 s=  2.53N/m nb=  1 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  0*  fire_it=550 t=11030s
+step  27 S6_mesh_sizedi: e=0.1550 s=  2.71N/m nb=  2 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  0*  fire_it=470 t=11231s
+step  28 S6_mesh_sizedi: e=0.1600 s=  2.26N/m nb=  1 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  0*  fire_it=1310 t=11702s
+step  29 S6_mesh_sizedi: e=0.1650 s=  2.60N/m nb=  0 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  0*  fire_it=390 t=11782s
+step  30 S6_mesh_sizedi: e=0.1700 s=  2.78N/m nb=  1 | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  0*  fire_it=490 t=11915s
+[done] S6_mesh_sizedis0.15_s3 -> run_20260905_180819_42f5a6: reconstructed but viable; strength 11.63 N/m @ 0.105, fail 0.175, mode progressive (multiple events, load retained), stress collapsed
+step  31 S6_mesh_sizedi: e=0.1750 s=  1.09N/m nb=  2* | S6_voronoi_n25: e=0.1063 s=  0.86N/m nb=  0* | S6_voronoi_n25: e=0.1263 s=  0.75N/m nb=  0*  fire_it=910 t=12510s
+batch finished in 12514s (simulation 12514s); evaluations {'n_evaluations': 51764, 'fire_iterations': 51510, 'n_rebuilds': 805, 'n_reverts': 9, 'n_soft_converged': 14}

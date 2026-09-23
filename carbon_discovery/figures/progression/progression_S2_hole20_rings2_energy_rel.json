@@ -1,0 +1,57 @@
+{
+ "run_id": "run_20260905_104555_3e8359",
+ "name": "S2_hole20_rings2",
+ "frames": [
+  {
+   "label": "relaxed",
+   "frame": 0,
+   "eps": 0.0,
+   "sigma_Nm": -0.06137063262286128,
+   "n_broken": 0
+  },
+  {
+   "label": "pre_damage",
+   "frame": 10,
+   "eps": 0.08750000000000001,
+   "sigma_Nm": 13.70404332602958,
+   "n_broken": 0
+  },
+  {
+   "label": "first_damage",
+   "frame": 11,
+   "eps": 0.08875000000000001,
+   "sigma_Nm": 13.791405091109693,
+   "n_broken": 2
+  },
+  {
+   "label": "peak_load",
+   "frame": 15,
+   "eps": 0.10875000000000003,
+   "sigma_Nm": 16.24465478226591,
+   "n_broken": 2
+  },
+  {
+   "label": "major_propagation",
+   "frame": 16,
+   "eps": 0.11375000000000003,
+   "sigma_Nm": 4.216147483429522,
+   "n_broken": 36
+  },
+  {
+   "label": "post_peak",
+   "frame": 17,
+   "eps": 0.11875000000000004,
+   "sigma_Nm": 1.6394765349600062,
+   "n_broken": 36
+  },
+  {
+   "label": "final",
+   "frame": 18,
+   "eps": 0.12375000000000004,
+   "sigma_Nm": 0.6729815010318424,
+   "n_broken": 37
+  }
+ ],
+ "mode": "energy_rel",
+ "file": "figures/progression/progression_S2_hole20_rings2_energy_rel.png"
+}

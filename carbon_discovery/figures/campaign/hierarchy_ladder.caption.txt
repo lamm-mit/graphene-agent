@@ -1,0 +1,1 @@
+Hierarchy ladder: mechanical metrics of single-scale nanomeshes (1 level: fine, reference and coarse periods; square coarse pores), two-level nested meshes with different domain sizes (scale ratios 2, 3.3, 5) and vein widths (4, 8, 12 A), and a three-level mesh, all at matched porosity (0.20 +- 0.01) and identical footprint.

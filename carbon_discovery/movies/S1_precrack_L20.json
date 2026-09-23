@@ -1,0 +1,37 @@
+{
+ "run_id": "run_20260904_233634_41365e",
+ "frames_rendered": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "event_frames": {
+  "relaxed": 0,
+  "pre_damage": 17,
+  "first_damage": 18,
+  "peak_load": 19,
+  "major_propagation = post_peak = final": 20
+ },
+ "fps": 8,
+ "mode": "energy_rel",
+ "trajectory": "trajectories/run_20260904_233634_41365e.npz",
+ "movie": "movies/S1_precrack_L20.mp4"
+}

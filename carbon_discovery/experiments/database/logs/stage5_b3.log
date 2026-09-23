@@ -1,0 +1,42 @@
+batch stage5_b3: 3 structures, N = [2936, 2936, 4970], device=mps torch.float32
+  zero-stress relaxation: eps0 = [[ 0.0131 -0.0089]
+ [ 0.0131 -0.0089]
+ [ 0.0015  0.0009]], sigma = [[ 0.032  0.065]
+ [ 0.032  0.064]
+ [-0.043  0.055]] N/m
+step   1 S5_slit0_phi0.: e=0.0100 s=  2.00N/m nb=  0 | S5_slit0_phi0.: e=0.0100 s=  2.00N/m nb=  0 | S5_square_D40_: e=0.0100 s=  1.92N/m nb=  0  fire_it=60 t=93s
+step   2 S5_slit0_phi0.: e=0.0200 s=  3.97N/m nb=  0 | S5_slit0_phi0.: e=0.0200 s=  3.97N/m nb=  0 | S5_square_D40_: e=0.0200 s=  3.84N/m nb=  0  fire_it=100 t=120s
+step   3 S5_slit0_phi0.: e=0.0300 s=  5.85N/m nb=  0 | S5_slit0_phi0.: e=0.0300 s=  5.85N/m nb=  0 | S5_square_D40_: e=0.0300 s=  5.80N/m nb=  0  fire_it=60 t=140s
+step   4 S5_slit0_phi0.: e=0.0400 s=  7.69N/m nb=  0 | S5_slit0_phi0.: e=0.0400 s=  7.69N/m nb=  0 | S5_square_D40_: e=0.0400 s=  7.70N/m nb=  0  fire_it=50 t=152s
+step   5 S5_slit0_phi0.: e=0.0500 s=  9.46N/m nb=  0 | S5_slit0_phi0.: e=0.0500 s=  9.46N/m nb=  0 | S5_square_D40_: e=0.0500 s=  9.55N/m nb=  0  fire_it=50 t=167s
+step   6 S5_slit0_phi0.: e=0.0600 s= 11.18N/m nb=  0 | S5_slit0_phi0.: e=0.0600 s= 11.18N/m nb=  0 | S5_square_D40_: e=0.0600 s= 11.33N/m nb=  0  fire_it=50 t=184s
+step   7 S5_slit0_phi0.: e=0.0700 s= 12.83N/m nb=  0 | S5_slit0_phi0.: e=0.0700 s= 12.83N/m nb=  0 | S5_square_D40_: e=0.0700 s= 12.86N/m nb=  0  fire_it=170 t=228s
+step   8 S5_slit0_phi0.: e=0.0800 s= 14.46N/m nb=  0 | S5_slit0_phi0.: e=0.0800 s= 14.46N/m nb=  0 | S5_square_D40_: e=0.0800 s= 14.35N/m nb=  0  fire_it=180 t=273s
+step   9 S5_slit0_phi0.: e=0.0900 s= 16.02N/m nb=  0 | S5_slit0_phi0.: e=0.0900 s= 16.02N/m nb=  0 | S5_square_D40_: e=0.0900 s= 15.84N/m nb=  0  fire_it=110 t=297s
+step  10 S5_slit0_phi0.: e=0.1000 s= 17.49N/m nb=  0 | S5_slit0_phi0.: e=0.1000 s= 17.49N/m nb=  0 | S5_square_D40_: e=0.1000 s= 17.22N/m nb=  0  fire_it=70 t=318s
+step  11 S5_slit0_phi0.: e=0.1100 s= 18.82N/m nb=  0 | S5_slit0_phi0.: e=0.1100 s= 18.82N/m nb=  0 | S5_square_D40_: e=0.1100 s= 18.32N/m nb=  0  fire_it=140 t=357s
+step  12 S5_slit0_phi0.: e=0.1200 s= 19.73N/m nb=  0 | S5_slit0_phi0.: e=0.1200 s= 19.73N/m nb=  0 | S5_square_D40_: e=0.1200 s= 19.43N/m nb=  0  fire_it=190 t=404s
+  step 13: early bisection for [2] -> d_eps=[0.005]
+step  13 S5_slit0_phi0.: e=0.1300 s= 19.93N/m nb=  0 | S5_slit0_phi0.: e=0.1300 s= 19.93N/m nb=  0 | S5_square_D40_: e=0.1200 s= 19.43N/m nb=  0  fire_it=170 t=442s
+step  14 S5_slit0_phi0.: e=0.1400 s= 20.73N/m nb=  0 | S5_slit0_phi0.: e=0.1400 s= 20.73N/m nb=  0 | S5_square_D40_: e=0.1250 s= 20.01N/m nb=  0  fire_it=150 t=475s
+  step 15: early bisection for [2] -> d_eps=[0.0025]
+step  15 S5_slit0_phi0.: e=0.1500 s= 21.77N/m nb=  0 | S5_slit0_phi0.: e=0.1500 s= 21.77N/m nb=  0 | S5_square_D40_: e=0.1250 s= 20.01N/m nb=  0  fire_it=140 t=507s
+step  16 S5_slit0_phi0.: e=0.1600 s= 22.71N/m nb=  0 | S5_slit0_phi0.: e=0.1600 s= 22.71N/m nb=  0 | S5_square_D40_: e=0.1275 s= 20.21N/m nb=  0  fire_it=140 t=537s
+  step 17: early bisection for [2] -> d_eps=[0.00125]
+step  17 S5_slit0_phi0.: e=0.1700 s= 23.29N/m nb=  0 | S5_slit0_phi0.: e=0.1700 s= 23.29N/m nb=  0 | S5_square_D40_: e=0.1275 s= 20.21N/m nb=  0  fire_it=190 t=580s
+step  18 S5_slit0_phi0.: e=0.1800 s= 23.93N/m nb=  0 | S5_slit0_phi0.: e=0.1800 s= 23.93N/m nb=  0 | S5_square_D40_: e=0.1287 s= 20.23N/m nb=  4  fire_it=270 t=643s
+step  19 S5_slit0_phi0.: e=0.1900 s= 24.48N/m nb=  0 | S5_slit0_phi0.: e=0.1900 s= 24.48N/m nb=  0 | S5_square_D40_: e=0.1337 s= 20.27N/m nb= 20  fire_it=230 t=697s
+step  20 S5_slit0_phi0.: e=0.2000 s= 24.99N/m nb=  0 | S5_slit0_phi0.: e=0.2000 s= 24.99N/m nb=  0 | S5_square_D40_: e=0.1387 s= 20.84N/m nb=  0  fire_it=190 t=744s
+  step 21: early bisection for [0, 1] -> d_eps=[0.005 0.005]
+step  21 S5_slit0_phi0.: e=0.2000 s= 24.99N/m nb=  0 | S5_slit0_phi0.: e=0.2000 s= 24.99N/m nb=  0 | S5_square_D40_: e=0.1437 s= 21.39N/m nb=  0  fire_it=400 t=846s
+step  22 S5_slit0_phi0.: e=0.2050 s= 25.18N/m nb=  0 | S5_slit0_phi0.: e=0.2050 s= 25.18N/m nb=  0 | S5_square_D40_: e=0.1487 s= 21.42N/m nb= 12  fire_it=190 t=893s
+  step 23: early bisection for [0, 1] -> d_eps=[0.0025 0.0025]
+step  23 S5_slit0_phi0.: e=0.2050 s= 25.18N/m nb=  0 | S5_slit0_phi0.: e=0.2050 s= 25.18N/m nb=  0 | S5_square_D40_: e=0.1537 s= 21.77N/m nb=  0  fire_it=400 t=1009s
+  step 24: early bisection for [0, 1] -> d_eps=[0.00125 0.00125]
+[done] S5_square_D40_phi0.1 -> run_20260905_173622_eb68a1: stable; strength 21.77 N/m @ 0.154, fail 0.159, mode abrupt brittle (single avalanche), stress collapsed
+step  24 S5_slit0_phi0.: e=0.2050 s= 25.18N/m nb=  0 | S5_slit0_phi0.: e=0.2050 s= 25.18N/m nb=  0 | S5_square_D40_: e=0.1588 s=  1.44N/m nb= 96*  fire_it=2000 t=1667s
+step  25 S5_slit0_phi0.: e=0.2063 s=  2.78N/m nb=121 | S5_slit0_phi0.: e=0.2063 s=  3.03N/m nb=133 | S5_square_D40_: e=0.1588 s=  1.44N/m nb=  0*  fire_it=2000 t=2254s
+[done] S5_slit0_phi0.3 -> run_20260905_175132_6a2b07: reconstructed but viable; strength 25.18 N/m @ 0.205, fail 0.211, mode abrupt brittle (single avalanche), stress collapsed
+[done] S5_slit0_phi0.4 -> run_20260905_175133_fcc6bb: reconstructed but viable; strength 25.18 N/m @ 0.205, fail 0.211, mode abrupt brittle (single avalanche), stress collapsed
+step  26 S5_slit0_phi0.: e=0.2113 s=  2.12N/m nb=  0* | S5_slit0_phi0.: e=0.2113 s=  2.28N/m nb=  0* | S5_square_D40_: e=0.1588 s=  1.44N/m nb=  0*  fire_it=1400 t=2578s
+batch finished in 2582s (simulation 2582s); evaluations {'n_evaluations': 12531, 'fire_iterations': 12330, 'n_rebuilds': 644, 'n_reverts': 9, 'n_soft_converged': 2}

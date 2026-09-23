@@ -1,0 +1,117 @@
+{
+ "minimizer": {
+  "name": "minimiser convergence (fmax 0.05 -> 0.005 eV/A, 64 A nanomesh)",
+  "expected": "metrics converge; production fmax=0.02 within 3% of fmax=0.005",
+  "observed": "fmax=0.05: sigma=11.43 N/m, eps_fd=0.1413, eps_f=0.3413, FIRE its=-1; fmax=0.02: sigma=11.41 N/m, eps_fd=0.1388, eps_f=0.2088, FIRE its=-1; fmax=0.01: sigma=11.35 N/m, eps_fd=0.1375, eps_f=0.1775, FIRE its=-1; fmax=0.005: sigma=11.35 N/m, eps_fd=0.1375, eps_f=0.1725, FIRE its=123710",
+  "error": 0.009090909090909096,
+  "tolerance": 0.03,
+  "pass": true,
+  "series": {
+   "x": [
+    0.05,
+    0.02,
+    0.01,
+    0.005
+   ],
+   "strength_Nm": [
+    11.42622861894188,
+    11.412669930901657,
+    11.35150972405225,
+    11.350006598613787
+   ],
+   "failure_strain": [
+    0.3412500000000002,
+    0.2087500000000001,
+    0.17750000000000007,
+    0.17250000000000007
+   ],
+   "first_damage_strain": [
+    0.14125000000000004,
+    0.13875000000000004,
+    0.13750000000000004,
+    0.13750000000000004
+   ]
+  }
+ },
+ "strain_step": {
+  "name": "strain-increment convergence (1%, 0.5%, 0.25% with bisection; 0.5% without)",
+  "expected": "production increment 0.5% (+bisection) within 3% of 0.25% for strength and first-damage strain",
+  "observed": "d_eps=0.01: sigma=11.41 N/m, eps_fd=0.1387, eps_f=0.2188, W=1.30; d_eps=0.005: sigma=11.41 N/m, eps_fd=0.1388, eps_f=0.2088, W=1.18; d_eps=0.0025: sigma=11.41 N/m, eps_fd=0.1388, eps_f=0.1938, W=1.24; d_eps=0.005 no refinement: sigma=11.33 N/m, eps_fd=0.1400, eps_f=0.1850, W=1.14",
+  "error": 9.097605421525332e-05,
+  "tolerance": 0.03,
+  "pass": true,
+  "series": {
+   "x": [
+    0.01,
+    0.005,
+    0.0025,
+    0.005
+   ],
+   "strength_Nm": [
+    11.407861648447614,
+    11.409153725142813,
+    11.41019177936874,
+    11.333428290092993
+   ],
+   "failure_strain": [
+    0.21875000000000006,
+    0.2087500000000001,
+    0.19375000000000012,
+    0.18500000000000008
+   ],
+   "first_damage_strain": [
+    0.13874999999999998,
+    0.13875000000000004,
+    0.13875000000000007,
+    0.14000000000000004
+   ]
+  }
+ },
+ "size": {
+  "name": "system-size convergence (exact periodic repeats of a 32 A mesh pattern: 1x, 2x, 3x; fixed 12 A crack in 40/60/90 A cells)",
+  "expected": "strength of periodic repeats size-independent within 5%; crack strength converges with cell size (image interaction)",
+  "observed": "mesh repeats: L=32: sigma=16.08, eps_fd=0.1350, eps_f=0.1750; L=64: sigma=16.07, eps_fd=0.1350, eps_f=0.2500; L=96: sigma=16.01, eps_fd=0.1338, eps_f=0.2538 | crack 12 A: cell 40: sigma=22.02, eps_fd=0.1163; cell 60: sigma=21.21, eps_fd=0.1000; cell 90: sigma=21.86, eps_fd=0.0963",
+  "error": 0.004451363405280608,
+  "tolerance": 0.05,
+  "pass": true,
+  "series": {
+   "x": [
+    32,
+    64,
+    96
+   ],
+   "strength_Nm": [
+    16.07940457126043,
+    16.072041739538346,
+    16.008146493771683
+   ],
+   "failure_strain": [
+    0.17500000000000007,
+    0.2500000000000001,
+    0.25375000000000014
+   ],
+   "first_damage_strain": [
+    0.13500000000000004,
+    0.13500000000000004,
+    0.13375000000000004
+   ]
+  },
+  "crack_series": {
+   "x": [
+    40,
+    60,
+    90
+   ],
+   "strength_Nm": [
+    22.018511020986484,
+    21.209468555794583,
+    21.86427736338514
+   ],
+   "first_damage_strain": [
+    0.11625000000000003,
+    0.10000000000000002,
+    0.09625000000000002
+   ]
+  }
+ }
+}
