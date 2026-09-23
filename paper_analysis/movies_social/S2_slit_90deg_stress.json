@@ -1,0 +1,23 @@
+{
+ "file": "S2_slit_90deg_stress.mp4",
+ "design": "S2_slit_90deg",
+ "run_id": "run_20260905_090915_c4509a",
+ "description": "slit array perpendicular to the load, 4.0 N/m",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  24.032
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 3.972316949509993,
+ "failure_strain": 0.2812500000000001,
+ "fracture_mode": "progressive (multiple events, load retained)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 27.2,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.8
+}

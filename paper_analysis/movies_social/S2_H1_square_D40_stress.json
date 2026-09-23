@@ -1,0 +1,23 @@
+{
+ "file": "S2_H1_square_D40_stress.mp4",
+ "design": "S2_H1_square_D40",
+ "run_id": "run_20260905_031005_754f45",
+ "description": "single-level square mesh, 17.0 N/m",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  28.52
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 17.02344565429412,
+ "failure_strain": 0.17,
+ "fracture_mode": "abrupt brittle (single avalanche)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 19.8,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.8
+}

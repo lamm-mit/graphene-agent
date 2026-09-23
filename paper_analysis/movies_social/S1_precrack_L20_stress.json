@@ -1,0 +1,23 @@
+{
+ "file": "S1_precrack_L20_stress.mp4",
+ "design": "S1_precrack_L20",
+ "run_id": "run_20260904_233634_41365e",
+ "description": "20 \u00c5 precrack: crack propagation at 9% strain",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  23.662
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 18.528891673962043,
+ "failure_strain": 0.09125000000000001,
+ "fracture_mode": "abrupt brittle (single avalanche)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 21.3,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.8
+}

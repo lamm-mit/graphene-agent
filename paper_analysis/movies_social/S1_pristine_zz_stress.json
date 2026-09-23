@@ -1,0 +1,23 @@
+{
+ "file": "S1_pristine_zz_stress.mp4",
+ "design": "S1_pristine_zz",
+ "run_id": "run_20260905_000440_9f82a7",
+ "description": "pristine zigzag graphene: one avalanche at 27% strain",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  38.806
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 4,
+ "strength_Nm": 38.7945827189091,
+ "failure_strain": 0.27125000000000005,
+ "fracture_mode": "abrupt brittle (single avalanche)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 25.3,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.6
+}

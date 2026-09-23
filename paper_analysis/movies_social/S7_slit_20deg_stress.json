@@ -1,0 +1,23 @@
+{
+ "file": "S7_slit_20deg_stress.mp4",
+ "design": "S7_slit_20deg",
+ "run_id": "run_20260906_012602_320a91",
+ "description": "slit array at 20\u00b0: en-echelon linking of overlapping slit tips, 8.9 N/m",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  24.957
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 8.937497909653079,
+ "failure_strain": 0.19500000000000012,
+ "fracture_mode": "progressive (multiple events, load retained)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 21.1,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.6
+}

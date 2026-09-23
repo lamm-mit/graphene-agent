@@ -1,0 +1,23 @@
+{
+ "file": "S2_slit_0deg_energy.mp4",
+ "design": "S2_slit_0deg",
+ "run_id": "run_20260905_073634_1a440a",
+ "description": "slit array parallel to the load: straight load paths, 25.4 N/m",
+ "field": "energy change per atom relative to the relaxed state (eV)",
+ "colour_scale": [
+  0.0,
+  1.228
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 25.402063572458648,
+ "failure_strain": 0.21875000000000006,
+ "fracture_mode": "stepwise (few events)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 21.5,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.6
+}

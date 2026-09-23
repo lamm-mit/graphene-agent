@@ -1,0 +1,23 @@
+{
+ "file": "S2_voronoi_n25_reg0.6_stress.mp4",
+ "design": "S2_voronoi_n25_reg0.6",
+ "run_id": "run_20260905_090516_cbfca1",
+ "description": "Voronoi network",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  26.087
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 14.373978885173672,
+ "failure_strain": 0.23125000000000012,
+ "fracture_mode": "progressive (multiple events, load retained)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 23.9,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.7
+}

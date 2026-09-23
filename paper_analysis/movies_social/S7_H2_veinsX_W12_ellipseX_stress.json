@@ -1,0 +1,23 @@
+{
+ "file": "S7_H2_veinsX_W12_ellipseX_stress.mp4",
+ "design": "S7_H2_veinsX_W12_ellipseX",
+ "run_id": "run_20260906_011440_050f0e",
+ "description": "nested mesh with veins and pores along the load: the strongest nested design, 19.4 N/m",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  27.385
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 19.382607714764703,
+ "failure_strain": 0.22125000000000006,
+ "fracture_mode": "stepwise (few events)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 23.1,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.9
+}

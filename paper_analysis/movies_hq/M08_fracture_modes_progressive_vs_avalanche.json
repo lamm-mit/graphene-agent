@@ -28,5 +28,12 @@
  "seconds": 37.4,
  "strain_per_second": 0.0091,
  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
- "render_minutes": 2.4
+ "text_in_movie": "chart axis labels and colour-bar numbers only",
+ "colour": "energy change per atom relative to the relaxed state (eV), inferno colour map truncated at 0.9",
+ "colour_scale_eV": [
+  -1.1,
+  0.754
+ ],
+ "chart": "2D stress (N/m) against engineering strain, one curve per panel in the panel's frame colour, moving marker at the current state",
+ "render_minutes": 1.6
 }

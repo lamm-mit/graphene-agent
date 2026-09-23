@@ -1,0 +1,23 @@
+{
+ "file": "S2_hole20_rings2_stress.mp4",
+ "design": "S2_hole20_rings2",
+ "run_id": "run_20260905_104555_3e8359",
+ "description": "hole with two rings of pores",
+ "field": "per-atom maximum principal 2D stress (N/m)",
+ "colour_scale": [
+  0.0,
+  27.338
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 16.24465478226591,
+ "failure_strain": 0.12375000000000004,
+ "fracture_mode": "stepwise (few events)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 21.6,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.7
+}

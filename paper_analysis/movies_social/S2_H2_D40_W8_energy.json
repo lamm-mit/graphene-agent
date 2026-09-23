@@ -1,0 +1,23 @@
+{
+ "file": "S2_H2_D40_W8_energy.mp4",
+ "design": "S2_H2_D40_W8",
+ "run_id": "run_20260905_035837_63294b",
+ "description": "nested mesh, veins both ways and round pores, 12.8 N/m",
+ "field": "energy change per atom relative to the relaxed state (eV)",
+ "colour_scale": [
+  0.0,
+  0.711
+ ],
+ "highlight": "white rings: atoms that just lost a bond, fading with strain",
+ "periodic_images": 1,
+ "strength_Nm": 12.825362415333455,
+ "failure_strain": 0.20625000000000007,
+ "fracture_mode": "progressive (multiple events, load retained)",
+ "resolution": "1440x1440",
+ "fps": 30,
+ "seconds": 21.9,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "interpolated": "frames between stored quasi-static states are interpolated",
+ "text_in_movie": false,
+ "render_minutes": 0.8
+}
