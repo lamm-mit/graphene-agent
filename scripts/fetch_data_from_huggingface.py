@@ -12,7 +12,7 @@ from __future__ import annotations
 import argparse, os, shutil, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEFAULT_REPO = "lamm-mit/model-builds-a-model-data"
+DEFAULT_REPO = "lamm-mit/graphene-agent-data"
 
 
 def main():

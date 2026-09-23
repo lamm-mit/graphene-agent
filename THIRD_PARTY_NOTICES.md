@@ -1,5 +1,7 @@
 # Third-party components and sources
 
+This repository is licensed under the Apache License 2.0 (`LICENSE`); the components below keep their own licenses.
+
 **Interatomic potential.** The force engine in `carbon_discovery/potentials/rebo2scr/` is an independent PyTorch
 implementation of the published screened second-generation REBO potential: functional form and parameters from
 D. W. Brenner et al., *J. Phys.: Condens. Matter* 14, 783 (2002), and the screening functions from L. Pastewka et al.,

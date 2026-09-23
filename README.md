@@ -16,7 +16,7 @@ curve, a proxy.
 **Manuscript:** *A model builds a model: an AI agent constructs a validated atomistic instrument and uses it to discover
 what sets the strength of architected graphene*, M. J. Buehler, 2026 (arXiv link to be added).
 **Data on Hugging Face:** all 132 raw trajectories and the large SVG figures are hosted at
-`https://huggingface.co/datasets/lamm-mit/model-builds-a-model-data` (see [Getting the data](#getting-the-data)).
+`https://huggingface.co/datasets/lamm-mit/graphene-agent-data` (see [Getting the data](#getting-the-data)).
 
 ---
 
@@ -100,7 +100,7 @@ SciPy, Matplotlib, FastAPI/uvicorn (app), PyMuPDF (SVG export of the TikZ figure
 silicon (MPS); CUDA and CPU code paths are identical, CUDA is unbenchmarked.
 
 ```bash
-conda env create -f environment.yml && conda activate model-builds-a-model
+conda env create -f environment.yml && conda activate graphene-agent
 # or: pip install -r requirements.txt
 cd carbon_discovery && python -m pytest -q tests/        # 10 tests, about 10 s
 ```
@@ -155,8 +155,9 @@ and 87, 205410 (2013); Atomistica, https://github.com/Atomistica/atomistica.
 
 ## License
 
-Code: MIT ([`LICENSE`](LICENSE)). Data, figures, movies and text (database, trajectories, report, prompt): CC BY 4.0
-([`LICENSE-DATA.md`](LICENSE-DATA.md)). Third-party components and their licenses: [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+Everything in this repository and in the companion dataset (code, database, trajectories, structures, figures, movies,
+report, prompt and conversation record, slides) is released under the **Apache License 2.0** ([`LICENSE`](LICENSE)).
+Third-party components and their licenses: [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 ## Acknowledgement
 

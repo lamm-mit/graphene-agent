@@ -1,4 +1,4 @@
-name: model-builds-a-model
+name: graphene-agent
 channels:
   - conda-forge
 dependencies:
