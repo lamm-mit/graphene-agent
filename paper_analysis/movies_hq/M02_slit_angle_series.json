@@ -1,0 +1,59 @@
+{
+ "id": "M02",
+ "file": "M02_slit_angle_series.mp4",
+ "title": "Tilting a load-aligned slit array: three mechanisms, one minimum",
+ "caption": "Same porosity, five slit angles. 0\u00b0: straight load paths (25.4 N/m). 20\u00b0: tips of adjacent rows overlap and link en echelon (8.9 N/m, the minimum). 45\u00b0: ligaments rotate before they break (18.5 N/m, modulus collapses). 60\u00b0 and 90\u00b0: the load crosses bridges between slits in bending (7.8 and 4.0 N/m). Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S2_slit_0deg",
+   "label": "0\u00b0",
+   "run_id": "run_20260905_073634_1a440a",
+   "strength_Nm": 25.402063572458648,
+   "failure_strain": 0.21875000000000006,
+   "fracture_mode": "stepwise (few events)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S7_slit_20deg",
+   "label": "20\u00b0",
+   "run_id": "run_20260906_012602_320a91",
+   "strength_Nm": 8.937497909653079,
+   "failure_strain": 0.19500000000000012,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_slit_45deg",
+   "label": "45\u00b0",
+   "run_id": "run_20260905_091359_4df2c2",
+   "strength_Nm": 18.542979416317962,
+   "failure_strain": 0.32375000000000015,
+   "fracture_mode": "stepwise (few events)",
+   "periodic_images": 1
+  },
+  {
+   "name": "P1_slit_60deg",
+   "label": "60\u00b0",
+   "run_id": "run_20260909_074109_d804e5",
+   "strength_Nm": 7.804399648893329,
+   "failure_strain": 0.3200000000000001,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_slit_90deg",
+   "label": "90\u00b0",
+   "run_id": "run_20260905_090915_c4509a",
+   "strength_Nm": 3.972316949509993,
+   "failure_strain": 0.2812500000000001,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 55.3,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 5.5
+}

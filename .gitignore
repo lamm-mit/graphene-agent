@@ -15,6 +15,10 @@ node_modules/
 *.synctex.gz
 carbon_discovery/report/report.log
 paper_analysis/figures/*.log
+paper_analysis/movies_hq/*.log
+# fracture movies (masters and 1080p) and their PNG posters live on Hugging Face (JPEG posters are tracked)
+paper_analysis/movies_hq/*.mp4
+paper_analysis/movies_hq/*_poster.png
 # raw trajectories: 17 are tracked (git add -f), the rest come from Hugging Face (scripts/fetch_data_from_huggingface.py)
 carbon_discovery/trajectories/*.npz
 # atom-resolved SVG figures larger than 3 MB live on Hugging Face; ignored here so that fetching them keeps the tree clean

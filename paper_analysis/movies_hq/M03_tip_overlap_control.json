@@ -1,0 +1,41 @@
+{
+ "id": "M03",
+ "file": "M03_tip_overlap_control.mp4",
+ "title": "Pre-registered control: tip overlap is necessary for the collapse",
+ "caption": "Three arrays at 20\u00b0. With slits too short to overlap (porosity 0.10) the array keeps 20.0 N/m, 78% of the untilted value; with overlapping tips (porosity 0.20 and 0.30) the ligaments between the tips fail first and link across the sheet. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "P2_slit_20deg_phi0.10",
+   "label": "\u03c6 = 0.10, no overlap",
+   "run_id": "run_20260909_071807_f7d894",
+   "strength_Nm": 20.036106301197968,
+   "failure_strain": 0.2512500000000001,
+   "fracture_mode": "stepwise (few events)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S7_slit_20deg",
+   "label": "\u03c6 = 0.20, overlap",
+   "run_id": "run_20260906_012602_320a91",
+   "strength_Nm": 8.937497909653079,
+   "failure_strain": 0.19500000000000012,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "P2_slit_20deg_phi0.30",
+   "label": "\u03c6 = 0.30, overlap",
+   "run_id": "run_20260909_082248_7c3ed8",
+   "strength_Nm": 12.905249617003875,
+   "failure_strain": 0.32250000000000023,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 50.9,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 3.8
+}

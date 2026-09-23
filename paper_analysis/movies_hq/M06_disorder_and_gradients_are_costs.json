@@ -1,0 +1,59 @@
+{
+ "id": "M06",
+ "file": "M06_disorder_and_gradients_are_costs.mp4",
+ "title": "Disorder and gradients are costs",
+ "caption": "Same porosity as the ordered fine mesh (11.7 N/m for this lattice registry, 11.7 to 13.3 across registries): positional jitter of 2 \u00c5 (11.8 for this seed, 10.4 to 11.8 across seeds), pore-size dispersion (11.3), a Voronoi network (14.4 for this seed, 9.2 to 14.4 across seeds) and a pore-size gradient along the load (10.1, set by its weakest band). None is a toughening mechanism in this model. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S2_H1_p16",
+   "label": "ordered mesh",
+   "run_id": "run_20260905_020424_c47485",
+   "strength_Nm": 11.730279190083008,
+   "failure_strain": 0.1325,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_mesh_jitter2.0",
+   "label": "jitter 2 \u00c5",
+   "run_id": "run_20260905_075603_4884d2",
+   "strength_Nm": 11.800956644784849,
+   "failure_strain": 0.2412500000000001,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_mesh_sizedis0.3",
+   "label": "size dispersion 0.3",
+   "run_id": "run_20260905_084045_6ac365",
+   "strength_Nm": 11.338211743283122,
+   "failure_strain": 0.2212500000000001,
+   "fracture_mode": "stepwise (few events)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_voronoi_n25_reg0.6",
+   "label": "Voronoi, regularity 0.6",
+   "run_id": "run_20260905_090516_cbfca1",
+   "strength_Nm": 14.373978885173672,
+   "failure_strain": 0.23125000000000012,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_graded_x",
+   "label": "graded along load",
+   "run_id": "run_20260905_100024_055107",
+   "strength_Nm": 10.093572311763984,
+   "failure_strain": 0.09625000000000002,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 44.2,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 4.8
+}

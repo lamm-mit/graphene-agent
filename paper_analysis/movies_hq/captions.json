@@ -1,0 +1,421 @@
+[
+ {
+  "id": "M01",
+  "file": "M01_baselines_pristine_vs_precrack.mp4",
+  "title": "Baselines: intrinsic strength and a single flaw",
+  "caption": "The pristine zigzag sheet reaches 38.8 N/m and fails in one avalanche; a 20 \u00c5 crack halves the strength (18.5 N/m) and fails by crack propagation at 9% strain. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S1_pristine_zz",
+    "label": "pristine zigzag graphene",
+    "run_id": "run_20260905_000440_9f82a7",
+    "strength_Nm": 38.7945827189091,
+    "failure_strain": 0.27125000000000005,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "periodic_images": 4
+   },
+   {
+    "name": "S1_precrack_L20",
+    "label": "20 \u00c5 precrack",
+    "run_id": "run_20260904_233634_41365e",
+    "strength_Nm": 18.528891673962043,
+    "failure_strain": 0.09125000000000001,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 38.5,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 2.2
+ },
+ {
+  "id": "M02",
+  "file": "M02_slit_angle_series.mp4",
+  "title": "Tilting a load-aligned slit array: three mechanisms, one minimum",
+  "caption": "Same porosity, five slit angles. 0\u00b0: straight load paths (25.4 N/m). 20\u00b0: tips of adjacent rows overlap and link en echelon (8.9 N/m, the minimum). 45\u00b0: ligaments rotate before they break (18.5 N/m, modulus collapses). 60\u00b0 and 90\u00b0: the load crosses bridges between slits in bending (7.8 and 4.0 N/m). Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S2_slit_0deg",
+    "label": "0\u00b0",
+    "run_id": "run_20260905_073634_1a440a",
+    "strength_Nm": 25.402063572458648,
+    "failure_strain": 0.21875000000000006,
+    "fracture_mode": "stepwise (few events)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S7_slit_20deg",
+    "label": "20\u00b0",
+    "run_id": "run_20260906_012602_320a91",
+    "strength_Nm": 8.937497909653079,
+    "failure_strain": 0.19500000000000012,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_slit_45deg",
+    "label": "45\u00b0",
+    "run_id": "run_20260905_091359_4df2c2",
+    "strength_Nm": 18.542979416317962,
+    "failure_strain": 0.32375000000000015,
+    "fracture_mode": "stepwise (few events)",
+    "periodic_images": 1
+   },
+   {
+    "name": "P1_slit_60deg",
+    "label": "60\u00b0",
+    "run_id": "run_20260909_074109_d804e5",
+    "strength_Nm": 7.804399648893329,
+    "failure_strain": 0.3200000000000001,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_slit_90deg",
+    "label": "90\u00b0",
+    "run_id": "run_20260905_090915_c4509a",
+    "strength_Nm": 3.972316949509993,
+    "failure_strain": 0.2812500000000001,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 55.3,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 5.5
+ },
+ {
+  "id": "M03",
+  "file": "M03_tip_overlap_control.mp4",
+  "title": "Pre-registered control: tip overlap is necessary for the collapse",
+  "caption": "Three arrays at 20\u00b0. With slits too short to overlap (porosity 0.10) the array keeps 20.0 N/m, 78% of the untilted value; with overlapping tips (porosity 0.20 and 0.30) the ligaments between the tips fail first and link across the sheet. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "P2_slit_20deg_phi0.10",
+    "label": "\u03c6 = 0.10, no overlap",
+    "run_id": "run_20260909_071807_f7d894",
+    "strength_Nm": 20.036106301197968,
+    "failure_strain": 0.2512500000000001,
+    "fracture_mode": "stepwise (few events)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S7_slit_20deg",
+    "label": "\u03c6 = 0.20, overlap",
+    "run_id": "run_20260906_012602_320a91",
+    "strength_Nm": 8.937497909653079,
+    "failure_strain": 0.19500000000000012,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "P2_slit_20deg_phi0.30",
+    "label": "\u03c6 = 0.30, overlap",
+    "run_id": "run_20260909_082248_7c3ed8",
+    "strength_Nm": 12.905249617003875,
+    "failure_strain": 0.32250000000000023,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 50.9,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 3.8
+ },
+ {
+  "id": "M04",
+  "file": "M04_hierarchy_vs_alignment.mp4",
+  "title": "Hierarchy is not a free lunch: alignment, level by level",
+  "caption": "All at porosity 0.20. The single-level square mesh (17.0 N/m) beats the nested mesh with veins both ways and round pores (12.8). Aligning the veins with the load (16.0) or elongating the fine pores along it (17.5) recovers the loss; doing both gives the strongest nested design (19.4), because each level then adds straight load paths. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S2_H1_square_D40",
+    "label": "single level",
+    "run_id": "run_20260905_031005_754f45",
+    "strength_Nm": 17.02344565429412,
+    "failure_strain": 0.17,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_H2_D40_W8",
+    "label": "nested, unaligned",
+    "run_id": "run_20260905_035837_63294b",
+    "strength_Nm": 12.825362415333455,
+    "failure_strain": 0.20625000000000007,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S4_H2_D40_W8_veins_x",
+    "label": "veins along load",
+    "run_id": "run_20260905_172505_71282e",
+    "strength_Nm": 16.04554318511237,
+    "failure_strain": 0.18875000000000003,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S5_H2_D40_W8_ellipseX",
+    "label": "pores along load",
+    "run_id": "run_20260905_211848_7105d7",
+    "strength_Nm": 17.460201956251787,
+    "failure_strain": 0.2587500000000001,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "label": "both aligned",
+    "run_id": "run_20260906_011440_050f0e",
+    "strength_Nm": 19.382607714764703,
+    "failure_strain": 0.22125000000000006,
+    "fracture_mode": "stepwise (few events)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 48.0,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 6.2
+ },
+ {
+  "id": "M05",
+  "file": "M05_alignment_sweep_single_level.mp4",
+  "title": "Load-path alignment in a single-level mesh",
+  "caption": "Elongated pores rotated from across the load (alignment index A = \u22120.24, 8.6 N/m) through 30\u00b0 and 60\u00b0 to along the load (A = +0.35, 19.0 N/m): strength rises monotonically with the alignment of the material with the load, at constant mass. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S2_ellipse_0deg",
+    "label": "pores across the load",
+    "run_id": "run_20260905_103837_fde9bb",
+    "strength_Nm": 8.608941810000884,
+    "failure_strain": 0.23625000000000007,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "P3_H1_ellipse_30deg",
+    "label": "30\u00b0",
+    "run_id": "run_20260909_080335_cdef88",
+    "strength_Nm": 9.760861130293012,
+    "failure_strain": 0.23375000000000012,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "P3_H1_ellipse_60deg",
+    "label": "60\u00b0",
+    "run_id": "run_20260909_074711_d130ad",
+    "strength_Nm": 13.634021936878073,
+    "failure_strain": 0.15750000000000003,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_ellipse_90deg",
+    "label": "pores along the load",
+    "run_id": "run_20260905_095201_48aa15",
+    "strength_Nm": 18.95017743455814,
+    "failure_strain": 0.19125000000000003,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 42.5,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 3.6
+ },
+ {
+  "id": "M06",
+  "file": "M06_disorder_and_gradients_are_costs.mp4",
+  "title": "Disorder and gradients are costs",
+  "caption": "Same porosity as the ordered fine mesh (11.7 N/m for this lattice registry, 11.7 to 13.3 across registries): positional jitter of 2 \u00c5 (11.8 for this seed, 10.4 to 11.8 across seeds), pore-size dispersion (11.3), a Voronoi network (14.4 for this seed, 9.2 to 14.4 across seeds) and a pore-size gradient along the load (10.1, set by its weakest band). None is a toughening mechanism in this model. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S2_H1_p16",
+    "label": "ordered mesh",
+    "run_id": "run_20260905_020424_c47485",
+    "strength_Nm": 11.730279190083008,
+    "failure_strain": 0.1325,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_mesh_jitter2.0",
+    "label": "jitter 2 \u00c5",
+    "run_id": "run_20260905_075603_4884d2",
+    "strength_Nm": 11.800956644784849,
+    "failure_strain": 0.2412500000000001,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_mesh_sizedis0.3",
+    "label": "size dispersion 0.3",
+    "run_id": "run_20260905_084045_6ac365",
+    "strength_Nm": 11.338211743283122,
+    "failure_strain": 0.2212500000000001,
+    "fracture_mode": "stepwise (few events)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_voronoi_n25_reg0.6",
+    "label": "Voronoi, regularity 0.6",
+    "run_id": "run_20260905_090516_cbfca1",
+    "strength_Nm": 14.373978885173672,
+    "failure_strain": 0.23125000000000012,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_graded_x",
+    "label": "graded along load",
+    "run_id": "run_20260905_100024_055107",
+    "strength_Nm": 10.093572311763984,
+    "failure_strain": 0.09625000000000002,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 44.2,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 4.8
+ },
+ {
+  "id": "M07",
+  "file": "M07_flaw_halo.mp4",
+  "title": "A halo of pores around a hole enlarges the flaw",
+  "caption": "A bare 20 \u00c5 hole (19.1 N/m), the same hole surrounded by two rings of pores (16.2 N/m) and by far-field pores (13.2 N/m): the rings and the pores turn the hole into a wider effective flaw bounded by thin ligaments; they do not shield it. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S1_hole_d20",
+    "label": "hole, 20 \u00c5",
+    "run_id": "run_20260905_022451_45aa60",
+    "strength_Nm": 19.06248592506963,
+    "failure_strain": 0.0975,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_hole20_rings2",
+    "label": "hole + 2 rings of pores",
+    "run_id": "run_20260905_104555_3e8359",
+    "strength_Nm": 16.24465478226591,
+    "failure_strain": 0.12375000000000004,
+    "fracture_mode": "stepwise (few events)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S2_hole20_background",
+    "label": "hole + far-field pores",
+    "run_id": "run_20260905_104556_f1cd60",
+    "strength_Nm": 13.214099875853847,
+    "failure_strain": 0.12000000000000004,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 28.2,
+  "strain_per_second": 0.0083,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 2.3
+ },
+ {
+  "id": "M08",
+  "file": "M08_fracture_modes_progressive_vs_avalanche.mp4",
+  "title": "Fracture mode is a load-transfer property",
+  "caption": "Eight parallel strips (armchair slit array) fail row by row and keep carrying 8 to 10 N/m to 25% strain; three wide rows with 15% width dispersion cascade in one avalanche at 14% strain. Many parallel paths of moderate dispersion share the released load; few wide paths cannot. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S7_slit_0deg_armchair",
+    "label": "8 strips, progressive",
+    "run_id": "run_20260905_235534_a5e0cc",
+    "strength_Nm": 20.218295800022684,
+    "failure_strain": 0.2537500000000001,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   },
+   {
+    "name": "S4_square_D40_dispersed",
+    "label": "3 wide rows, one avalanche",
+    "run_id": "run_20260905_150004_631da6",
+    "strength_Nm": 15.80719657611684,
+    "failure_strain": 0.14,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 37.4,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 2.4
+ },
+ {
+  "id": "M09",
+  "file": "M09_closeup_en_echelon_linking.mp4",
+  "title": "Close-up: en-echelon linking of overlapping slit tips (20\u00b0)",
+  "caption": "The short inclined ligaments between the tips of slits in adjacent rows carry the load in combined tension and shear and fail first; each failed ligament hands its load to the next one along the same diagonal, so the cracks link across the sheet in a staircase while the remaining strips keep carrying about 8 N/m. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S7_slit_20deg",
+    "label": "slit array at 20\u00b0, porosity 0.20",
+    "run_id": "run_20260906_012602_320a91",
+    "strength_Nm": 8.937497909653079,
+    "failure_strain": 0.19500000000000012,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 29.2,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 1.3
+ },
+ {
+  "id": "M10",
+  "file": "M10_closeup_aligned_hierarchy.mp4",
+  "title": "Close-up: the strongest nested design (veins and pores along the load)",
+  "caption": "Fine pores elongated along the load inside veins that run along the load: 19.4 N/m at porosity 0.21. First damage appears at the bridges between the fine pores, the peak follows, and the fine-pore rows fail in a few steps while the veins carry the remaining load. A holdout that the data-driven predictor underestimated by a third. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+  "panels": [
+   {
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "label": "two levels, both aligned, porosity 0.21",
+    "run_id": "run_20260906_011440_050f0e",
+    "strength_Nm": 19.382607714764703,
+    "failure_strain": 0.22125000000000006,
+    "fracture_mode": "stepwise (few events)",
+    "periodic_images": 1
+   }
+  ],
+  "resolution": "2560x1440",
+  "fps": 30,
+  "seconds": 32.2,
+  "strain_per_second": 0.0091,
+  "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+  "render_minutes": 1.6
+ }
+]

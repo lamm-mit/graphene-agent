@@ -1,0 +1,32 @@
+{
+ "id": "M01",
+ "file": "M01_baselines_pristine_vs_precrack.mp4",
+ "title": "Baselines: intrinsic strength and a single flaw",
+ "caption": "The pristine zigzag sheet reaches 38.8 N/m and fails in one avalanche; a 20 \u00c5 crack halves the strength (18.5 N/m) and fails by crack propagation at 9% strain. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S1_pristine_zz",
+   "label": "pristine zigzag graphene",
+   "run_id": "run_20260905_000440_9f82a7",
+   "strength_Nm": 38.7945827189091,
+   "failure_strain": 0.27125000000000005,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "periodic_images": 4
+  },
+  {
+   "name": "S1_precrack_L20",
+   "label": "20 \u00c5 precrack",
+   "run_id": "run_20260904_233634_41365e",
+   "strength_Nm": 18.528891673962043,
+   "failure_strain": 0.09125000000000001,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 38.5,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 2.2
+}

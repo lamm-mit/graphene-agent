@@ -1,0 +1,50 @@
+{
+ "id": "M05",
+ "file": "M05_alignment_sweep_single_level.mp4",
+ "title": "Load-path alignment in a single-level mesh",
+ "caption": "Elongated pores rotated from across the load (alignment index A = \u22120.24, 8.6 N/m) through 30\u00b0 and 60\u00b0 to along the load (A = +0.35, 19.0 N/m): strength rises monotonically with the alignment of the material with the load, at constant mass. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S2_ellipse_0deg",
+   "label": "pores across the load",
+   "run_id": "run_20260905_103837_fde9bb",
+   "strength_Nm": 8.608941810000884,
+   "failure_strain": 0.23625000000000007,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "P3_H1_ellipse_30deg",
+   "label": "30\u00b0",
+   "run_id": "run_20260909_080335_cdef88",
+   "strength_Nm": 9.760861130293012,
+   "failure_strain": 0.23375000000000012,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "P3_H1_ellipse_60deg",
+   "label": "60\u00b0",
+   "run_id": "run_20260909_074711_d130ad",
+   "strength_Nm": 13.634021936878073,
+   "failure_strain": 0.15750000000000003,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_ellipse_90deg",
+   "label": "pores along the load",
+   "run_id": "run_20260905_095201_48aa15",
+   "strength_Nm": 18.95017743455814,
+   "failure_strain": 0.19125000000000003,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 42.5,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 3.6
+}

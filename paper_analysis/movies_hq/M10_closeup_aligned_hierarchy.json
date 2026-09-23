@@ -1,0 +1,23 @@
+{
+ "id": "M10",
+ "file": "M10_closeup_aligned_hierarchy.mp4",
+ "title": "Close-up: the strongest nested design (veins and pores along the load)",
+ "caption": "Fine pores elongated along the load inside veins that run along the load: 19.4 N/m at porosity 0.21. First damage appears at the bridges between the fine pores, the peak follows, and the fine-pore rows fail in a few steps while the veins carry the remaining load. A holdout that the data-driven predictor underestimated by a third. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S7_H2_veinsX_W12_ellipseX",
+   "label": "two levels, both aligned, porosity 0.21",
+   "run_id": "run_20260906_011440_050f0e",
+   "strength_Nm": 19.382607714764703,
+   "failure_strain": 0.22125000000000006,
+   "fracture_mode": "stepwise (few events)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 32.2,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 1.6
+}

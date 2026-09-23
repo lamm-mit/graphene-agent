@@ -1,0 +1,41 @@
+{
+ "id": "M07",
+ "file": "M07_flaw_halo.mp4",
+ "title": "A halo of pores around a hole enlarges the flaw",
+ "caption": "A bare 20 \u00c5 hole (19.1 N/m), the same hole surrounded by two rings of pores (16.2 N/m) and by far-field pores (13.2 N/m): the rings and the pores turn the hole into a wider effective flaw bounded by thin ligaments; they do not shield it. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S1_hole_d20",
+   "label": "hole, 20 \u00c5",
+   "run_id": "run_20260905_022451_45aa60",
+   "strength_Nm": 19.06248592506963,
+   "failure_strain": 0.0975,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_hole20_rings2",
+   "label": "hole + 2 rings of pores",
+   "run_id": "run_20260905_104555_3e8359",
+   "strength_Nm": 16.24465478226591,
+   "failure_strain": 0.12375000000000004,
+   "fracture_mode": "stepwise (few events)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_hole20_background",
+   "label": "hole + far-field pores",
+   "run_id": "run_20260905_104556_f1cd60",
+   "strength_Nm": 13.214099875853847,
+   "failure_strain": 0.12000000000000004,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 28.2,
+ "strain_per_second": 0.0083,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 2.3
+}

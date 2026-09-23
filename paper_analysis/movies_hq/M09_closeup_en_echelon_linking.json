@@ -1,0 +1,23 @@
+{
+ "id": "M09",
+ "file": "M09_closeup_en_echelon_linking.mp4",
+ "title": "Close-up: en-echelon linking of overlapping slit tips (20\u00b0)",
+ "caption": "The short inclined ligaments between the tips of slits in adjacent rows carry the load in combined tension and shear and fail first; each failed ligament hands its load to the next one along the same diagonal, so the cracks link across the sheet in a staircase while the remaining strips keep carrying about 8 N/m. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S7_slit_20deg",
+   "label": "slit array at 20\u00b0, porosity 0.20",
+   "run_id": "run_20260906_012602_320a91",
+   "strength_Nm": 8.937497909653079,
+   "failure_strain": 0.19500000000000012,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 29.2,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 1.3
+}

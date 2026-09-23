@@ -1,0 +1,32 @@
+{
+ "id": "M08",
+ "file": "M08_fracture_modes_progressive_vs_avalanche.mp4",
+ "title": "Fracture mode is a load-transfer property",
+ "caption": "Eight parallel strips (armchair slit array) fail row by row and keep carrying 8 to 10 N/m to 25% strain; three wide rows with 15% width dispersion cascade in one avalanche at 14% strain. Many parallel paths of moderate dispersion share the released load; few wide paths cannot. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S7_slit_0deg_armchair",
+   "label": "8 strips, progressive",
+   "run_id": "run_20260905_235534_a5e0cc",
+   "strength_Nm": 20.218295800022684,
+   "failure_strain": 0.2537500000000001,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S4_square_D40_dispersed",
+   "label": "3 wide rows, one avalanche",
+   "run_id": "run_20260905_150004_631da6",
+   "strength_Nm": 15.80719657611684,
+   "failure_strain": 0.14,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 37.4,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 2.4
+}

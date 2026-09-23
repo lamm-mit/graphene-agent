@@ -13,7 +13,8 @@ hand, they enter the manuscript as LaTeX macros (`figures/numbers.tex`, `figures
 | `check_overlaps.py` | the audit: renders each figure, tests every text element against every marker, line segment, bar and image and against all other text, and prints the conflicts. The release figures report 0 conflicts. Running it also regenerates the six figures. |
 | `extra_figures.py` | the experiment-workflow figure (TikZ source `figures/fig_experiment.tikz`, standalone wrapper `figures/fig1_experiment.tex`), the design-space chart in the paper's font, the fracture-progression comparison, and the SI material (`figures/si/`: validation figures, atlas, ten progression panels, tables) together with `facts.tex` (timeline, compute and code-size facts computed from the database and the source tree). |
 | `mechanism_figure.py` | the mechanism overview figure (`figures/fig_mechanisms.*`) with schematics drawn to scale from the generator parameters, and its macros and LaTeX snippet. |
-| `build_figures.sh` | runs all of the above in order (about 10 minutes). |
+| `make_movies.py` | ten synchronised multi-panel fracture movies (2560×1440 masters, 1080p versions) with interpolated frames, slow motion around events, a stress–strain chart with moving markers, posters, `captions.json`, `README.md` and `si_movie_captions.tex` in `movies_hq/`. The MP4 files are on Hugging Face. |
+| `build_figures.sh` | runs the figure scripts in order (about 10 minutes); movies are rendered separately (`python make_movies.py --all --jobs 4 --compact`, about an hour). |
 
 The 18 pre-registered sweep simulations that these figures use (slit-angle sweep, tip-overlap controls, alignment sweep)
 were designed and their predictions hashed by [`../carbon_discovery/experiments/campaign_paper_sweeps.py`](../carbon_discovery/experiments/campaign_paper_sweeps.py);

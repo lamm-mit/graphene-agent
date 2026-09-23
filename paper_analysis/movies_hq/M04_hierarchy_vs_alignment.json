@@ -1,0 +1,59 @@
+{
+ "id": "M04",
+ "file": "M04_hierarchy_vs_alignment.mp4",
+ "title": "Hierarchy is not a free lunch: alignment, level by level",
+ "caption": "All at porosity 0.20. The single-level square mesh (17.0 N/m) beats the nested mesh with veins both ways and round pores (12.8). Aligning the veins with the load (16.0) or elongating the fine pores along it (17.5) recovers the loss; doing both gives the strongest nested design (19.4), because each level then adds straight load paths. Screened REBO2, athermal quasi-static uniaxial tension along x; colour: energy change per atom relative to the relaxed state (eV); red rings: atoms that have lost a bond; frames between stored quasi-static states are interpolated. All statements are model results.",
+ "panels": [
+  {
+   "name": "S2_H1_square_D40",
+   "label": "single level",
+   "run_id": "run_20260905_031005_754f45",
+   "strength_Nm": 17.02344565429412,
+   "failure_strain": 0.17,
+   "fracture_mode": "abrupt brittle (single avalanche)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S2_H2_D40_W8",
+   "label": "nested, unaligned",
+   "run_id": "run_20260905_035837_63294b",
+   "strength_Nm": 12.825362415333455,
+   "failure_strain": 0.20625000000000007,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S4_H2_D40_W8_veins_x",
+   "label": "veins along load",
+   "run_id": "run_20260905_172505_71282e",
+   "strength_Nm": 16.04554318511237,
+   "failure_strain": 0.18875000000000003,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S5_H2_D40_W8_ellipseX",
+   "label": "pores along load",
+   "run_id": "run_20260905_211848_7105d7",
+   "strength_Nm": 17.460201956251787,
+   "failure_strain": 0.2587500000000001,
+   "fracture_mode": "progressive (multiple events, load retained)",
+   "periodic_images": 1
+  },
+  {
+   "name": "S7_H2_veinsX_W12_ellipseX",
+   "label": "both aligned",
+   "run_id": "run_20260906_011440_050f0e",
+   "strength_Nm": 19.382607714764703,
+   "failure_strain": 0.22125000000000006,
+   "fracture_mode": "stepwise (few events)",
+   "periodic_images": 1
+  }
+ ],
+ "resolution": "2560x1440",
+ "fps": 30,
+ "seconds": 48.0,
+ "strain_per_second": 0.0091,
+ "slow_motion": "3x within \u00b10.0025 strain of first damage, peak load and major propagation",
+ "render_minutes": 6.2
+}

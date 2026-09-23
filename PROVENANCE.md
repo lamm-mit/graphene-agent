@@ -17,7 +17,7 @@ This file records what was produced when, so that the autonomous phase can be to
 | 2026-09-08 to 09-09 | slides; paper figures requested; sweep designs pre-registered 2026-09-09 04:54 (`experiments/predictions/paper_sweeps_predictions.json`, SHA-256 51891202…); 18 sweeps run 05:48–10:34; figures audited for text overlaps |
 | 2026-09-13 | manuscript restructured, figures regenerated in Arial, TikZ workflow figure, SI material; validation and campaign figures regenerated |
 | 2026-09-18 | mechanism overview figure |
-| 2026-09-23 | this release tree assembled |
+| 2026-09-23 | fracture movies rendered from the stored trajectories (`paper_analysis/make_movies.py`); this release tree assembled |
 
 ## Simulations in the database
 
