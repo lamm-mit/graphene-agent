@@ -1,0 +1,21 @@
+{
+  "purpose": "Idealized mechanism and design-rule synthesis; not simulation data",
+  "page_size_pt": [
+    744,
+    510
+  ],
+  "panel_a_equal_pore_area": {
+    "each_sheet_area": 9900,
+    "each_total_removed_area": 1357.1680263507906
+  },
+  "panel_e_initial_crack_length_each": 24,
+  "source_manuscript": "paper_latest_20260924",
+  "scope": {
+    "a": "Figs 4,5,11,14: load paths, section and alignment; same idealized removed area.",
+    "b": "Figs 6,7,14: mechanisms; no invariant angle thresholds or strength ranking.",
+    "c": "Figs 8-10: observed geometric neighbor exchange; no healing or defect-free-slip claim.",
+    "d": "Figs 12,13: tested hierarchical geometries; no isolated causal scale-separation law.",
+    "e": "Fig 13: contained versus vein-interrupting cracks; no universal arrest criterion.",
+    "f": "SI Fig S31: building-block dependent post-peak sequence; no exact retention claims."
+  }
+}

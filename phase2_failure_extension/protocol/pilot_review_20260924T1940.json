@@ -1,0 +1,41 @@
+{
+  "reviewed_utc": "2026-09-24T19:41:24.647133+00:00",
+  "queue_pid": 43715,
+  "queue_counts": {
+    "completed": 3,
+    "running": 3,
+    "pending": 34
+  },
+  "active_children": [
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "pid": 44500,
+      "alive": true,
+      "record_status": "running",
+      "last_accepted_strain": 0.7950000000000006,
+      "last_frame_utc": "2026-09-24T19:39:49.092828+00:00"
+    },
+    {
+      "case_id": "ext__S5_H2_D40_W8_ellipseX",
+      "pid": 80313,
+      "alive": true,
+      "record_status": "running",
+      "last_accepted_strain": 0.33375000000000016,
+      "last_frame_utc": "2026-09-24T18:25:32.994308+00:00"
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "pid": 94683,
+      "alive": true,
+      "record_status": "running",
+      "last_accepted_strain": 0.3162500000000002,
+      "last_frame_utc": "2026-09-24T19:34:48.918556+00:00"
+    }
+  ],
+  "process_activity": "44500 08:24:41 143:46.13  44.6 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__S7_slit_20deg\n80313 05:20:33  72:15.29  32.4 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__S5_H2_D40_W8_ellipseX\n94683 04:10:00  51:50.94  41.0 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_35deg\n",
+  "new_pilot_completions": [],
+  "power_state_findings": "macOS power log reports multiple sleep/dark-wake cycles from at least 14:26 through 15:34 local time, matching the long accepted-frame gap. Existing processes survived; new frames after 19:34 UTC confirm resumed computation. Idle-sleep caffeinate assertion is present but did not prevent these system sleep events. No global power settings changed.",
+  "power_log": "logs/power_sleep_review_20260924T1940.txt",
+  "production_approved": false,
+  "action": "No recovery or duplicate launch. Continue the main pilot queue. Additional numerical diagnostics remain complete; no new refinement launched."
+}

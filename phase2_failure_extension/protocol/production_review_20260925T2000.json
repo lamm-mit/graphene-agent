@@ -1,0 +1,90 @@
+{
+  "recorded_utc": "2026-09-25T19:56:17.136690+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T19:56:14.835395+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 31,
+      "running": 3,
+      "pending": 6
+    },
+    "running": [
+      {
+        "case_id": "ext__S5_H2_D40_W8_jitter2",
+        "pid": 97586,
+        "elapsed_s": 13824.536160707474,
+        "updated_utc": "2026-09-25T19:55:10.120543+00:00",
+        "frames": 42,
+        "attempted_step": 44,
+        "strain": 0.23000000000000015,
+        "stress_N_m": 2.40801674087864,
+        "force_residual_eV_A": 0.26387766003608704,
+        "transverse_stress_N_m": -0.037443540908817595,
+        "wall_time_s": 13758.718517065048,
+        "virtual_original_stop": {
+          "index": 41,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 77
+      },
+      {
+        "case_id": "ext__S6_voronoi_n25_reg0.0_s2",
+        "pid": 5407,
+        "elapsed_s": 3513.679342031479,
+        "updated_utc": "2026-09-25T19:54:15.936834+00:00",
+        "frames": 40,
+        "attempted_step": 42,
+        "strain": 0.22375000000000014,
+        "stress_N_m": 1.67770739407102,
+        "force_residual_eV_A": 0.017370043322443962,
+        "transverse_stress_N_m": 0.047917248863142026,
+        "wall_time_s": 3393.981136083603,
+        "virtual_original_stop": {
+          "index": 34,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 37
+      },
+      {
+        "case_id": "ext__S7_mesh_p24_phi0.3",
+        "pid": 6162,
+        "elapsed_s": 1342.860673904419,
+        "updated_utc": "2026-09-25T19:53:38.849372+00:00",
+        "frames": 20,
+        "attempted_step": 22,
+        "strain": 0.15125,
+        "stress_N_m": 6.1968614258426875,
+        "force_residual_eV_A": 0.33480268716812134,
+        "transverse_stress_N_m": 0.028545905546777623,
+        "wall_time_s": 1186.0529611110687,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 40
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n 5407 43715       58:36  18:28.68  42.3 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n 6162 43715       22:26   7:36.05  40.9 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-08:44:50   0:18.75   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-08:44:50   0:00.09   0.0 S    /usr/bin/caffeinate\n97586 43715    03:50:27  43:02.10  41.1 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__S5_H2_p8_D40_W8.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T2000.json",
+  "alignment_cohort_review": "results/alignment_cohort_review_20260925T2000.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "29/34 extensions complete (15/20 Phase-I, 14/14 earlier Phase-II). H2 p8 has B=C at strain 0.1775, with -8.6075% A-to-C integral arising from reproduction differences; peak changes by +0.0108%. Five frames retain residual flags and endpoint force fails. All eight targeted extensions in the original 40-mesh alignment population complete; endpoint-integral correlation 0.4715335 to 0.4884142. Controls 2/2 complete; resolution 0/4. Three workers alive and advancing."
+}

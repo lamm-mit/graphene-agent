@@ -1,0 +1,68 @@
+{
+  "recorded_utc": "2026-09-25T20:29:43.771967+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T20:29:36.264841+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 34,
+      "running": 2,
+      "pending": 4
+    },
+    "running": [
+      {
+        "case_id": "ext__S7_mesh_p24_phi0.3",
+        "pid": 6162,
+        "elapsed_s": 3344.2900779247284,
+        "updated_utc": "2026-09-25T20:29:20.876901+00:00",
+        "frames": 36,
+        "attempted_step": 38,
+        "strain": 0.23125000000000007,
+        "stress_N_m": 1.793674619865936,
+        "force_residual_eV_A": 0.706494927406311,
+        "transverse_stress_N_m": -0.01981450986578439,
+        "wall_time_s": 3328.0804879665375,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 57
+      },
+      {
+        "case_id": "ext__S7_voronoi_n35_reg0.8_s7",
+        "pid": 9966,
+        "elapsed_s": 955.2984628677368,
+        "updated_utc": "2026-09-25T20:27:09.015445+00:00",
+        "frames": 17,
+        "attempted_step": 19,
+        "strain": 0.10625000000000004,
+        "stress_N_m": 3.7474208780109093,
+        "force_residual_eV_A": 0.010616454295814037,
+        "transverse_stress_N_m": 0.01564806910640956,
+        "wall_time_s": 807.2319250106812,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 30
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n 6162 43715       55:52  20:47.44  43.8 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n 9966 43715       16:03   6:54.35  44.2 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-09:18:16   0:19.31   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-09:18:16   0:00.09   0.0 S    /usr/bin/caffeinate\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__S6_voronoi_n25_reg0.0_s2.json",
+    "results/review_ext__S5_H2_D40_W8_jitter2.json",
+    "results/review_ext__S7_strut_090_phi0.3.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T2030.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "resolution_wait_is_expected_stage_barrier": true,
+  "scientific_status": "32/34 primary extensions complete (18/20 Phase-I, 14/14 earlier Phase-II), controls 2/2, resolution 0/4. Voronoi seed2 and H2 jitter2 add 6.4427% and 3.8602% integral with no new peak. Strut phi0.3 has B=C and is the first primary trajectory with all recorded residual checks passing, but no increment-convergence claim is made. Its -3.8182% integral relative to archive is a reproduction difference. The two remaining primary workers are alive and advancing; resolution stage waits for both to finish under the existing scheduler."
+}

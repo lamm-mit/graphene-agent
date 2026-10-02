@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-09-25T00:25:56.077134+00:00",
+  "case_id": "ext__P3_H2_square_W8_ellipse_30deg",
+  "status": "completed",
+  "method": "Static CPU float64 reevaluation of saved float32 positions and cells. No relaxation.",
+  "script_sha256": "b103d653d7c18766bb7a3af68e0ab0faa93e726237513197accbe848dc2a6f06",
+  "selected_frame_indices": [
+    16,
+    40,
+    68
+  ],
+  "rows": [
+    {
+      "frame_index": 16,
+      "strain": 0.13624999999999998,
+      "source_sha256": "5123a97e78fc40ac9a79d0fc820ac1c1d4cd2983e5931f2856b1342bf406501c",
+      "recorded_force_eV_A": 0.014599895104765892,
+      "cpu_force_eV_A": 0.014633148968752825,
+      "recorded_axial_stress_N_m": 11.197123270980669,
+      "cpu_axial_stress_N_m": 11.197125649706699,
+      "recorded_transverse_stress_N_m": -0.0017853644534306127,
+      "cpu_transverse_stress_N_m": -0.0017979242797323985,
+      "cpu_force_pass": true,
+      "cpu_transverse_pass": true
+    },
+    {
+      "frame_index": 40,
+      "strain": 0.2562500000000001,
+      "source_sha256": "1d844dbfb8f262d494225d5614e4a6eccc7573076a64367fd1851c4227dc6b02",
+      "recorded_force_eV_A": 0.02873343415558338,
+      "cpu_force_eV_A": 0.02878702897957307,
+      "recorded_axial_stress_N_m": 1.6478512785580284,
+      "cpu_axial_stress_N_m": 1.6478494173686022,
+      "recorded_transverse_stress_N_m": 0.04086893482861391,
+      "cpu_transverse_stress_N_m": 0.040861178625653076,
+      "cpu_force_pass": false,
+      "cpu_transverse_pass": true
+    },
+    {
+      "frame_index": 68,
+      "strain": 0.3962500000000002,
+      "source_sha256": "7b231af685a5bc332b7b14ba9a9357b1415a8256f1a631b55fe7dd3916bf557c",
+      "recorded_force_eV_A": 0.9711499214172363,
+      "cpu_force_eV_A": 0.9711783746524395,
+      "recorded_axial_stress_N_m": 1.1369432155225292,
+      "cpu_axial_stress_N_m": 1.136942947767633,
+      "recorded_transverse_stress_N_m": -0.16795983872295384,
+      "cpu_transverse_stress_N_m": -0.16796713143379907,
+      "cpu_force_pass": false,
+      "cpu_transverse_pass": false
+    }
+  ],
+  "finished_utc": "2026-09-25T00:25:56.889161+00:00"
+}

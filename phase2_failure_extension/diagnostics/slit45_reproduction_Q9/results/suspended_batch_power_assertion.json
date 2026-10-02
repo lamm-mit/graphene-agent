@@ -1,0 +1,5 @@
+{
+  "time": "2026-09-26T13:26:27.220325+00:00",
+  "released_helper_pid": 55232,
+  "reason": "Batch is intentionally suspended. Active single-case supervisor has its own caffeinate assertion; the suspended queue should not prevent idle sleep indefinitely."
+}

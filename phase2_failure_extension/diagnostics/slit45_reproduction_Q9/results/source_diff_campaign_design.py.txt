@@ -1,0 +1,11 @@
+--- frozen_single_shot/experiments/campaign_design.py
++++ Q9_copy/experiments/campaign_design.py
+@@ -42,7 +42,7 @@
+ 
+ 
+ def spec(campaign, stage, batch_name, structures, aqs=AQS):
+-    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "mps", "dtype": "float32", "aqs": aqs, "structures": structures}
++    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "auto", "dtype": "float32", "aqs": aqs, "structures": structures}
+ 
+ 
+ def S(name, family, params, seed=0, reason="", hypothesis="", tags=None, parent=None, prediction=None, notes=None):

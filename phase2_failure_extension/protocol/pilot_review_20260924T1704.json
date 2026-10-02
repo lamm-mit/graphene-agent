@@ -1,0 +1,92 @@
+{
+  "reviewed_utc": "2026-09-24T17:03:25.379294+00:00",
+  "queue": {
+    "updated_utc": "2026-09-24T17:03:19.984672+00:00",
+    "queue_pid": 43715,
+    "active_stage": "pilot",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 3,
+      "running": 3,
+      "pending": 34
+    },
+    "running": [
+      {
+        "case_id": "ext__S7_slit_20deg",
+        "pid": 44500,
+        "elapsed_s": 20796.14901304245,
+        "updated_utc": "2026-09-24T16:57:23.656863+00:00",
+        "frames": 132,
+        "attempted_step": 134,
+        "strain": 0.6750000000000005,
+        "stress_N_m": 2.8478886379716233,
+        "force_residual_eV_A": 1.8907374143600464,
+        "transverse_stress_N_m": -0.04367616736734174,
+        "wall_time_s": 20438.691029071808,
+        "virtual_original_stop": {
+          "index": 35,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 343
+      },
+      {
+        "case_id": "ext__S5_H2_D40_W8_ellipseX",
+        "pid": 80313,
+        "elapsed_s": 9748.360101938248,
+        "updated_utc": "2026-09-24T16:58:58.258590+00:00",
+        "frames": 41,
+        "attempted_step": 43,
+        "strain": 0.2487500000000001,
+        "stress_N_m": 3.691369530954653,
+        "force_residual_eV_A": 0.12290435284376144,
+        "transverse_stress_N_m": 0.01297452141306526,
+        "wall_time_s": 9485.617069005966,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 136
+      },
+      {
+        "case_id": "ext__P1_slit_35deg",
+        "pid": 94683,
+        "elapsed_s": 5515.613343000412,
+        "updated_utc": "2026-09-24T17:02:27.504245+00:00",
+        "frames": 29,
+        "attempted_step": 31,
+        "strain": 0.17625000000000007,
+        "stress_N_m": 4.211284767589206,
+        "force_residual_eV_A": 0.018570419400930405,
+        "transverse_stress_N_m": 0.4377697059768725,
+        "wall_time_s": 5462.18665599823,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 9
+      }
+    ]
+  },
+  "verified_slit": {
+    "frames": 56,
+    "last_accepted_strain": 0.2950000000000002,
+    "all_recorded_residual_checks_pass": true,
+    "critical_static_audit": "diagnostics/Q4_slit_drop_static_20260924T1700/record.json",
+    "all_three_cpu_float64_checks_pass": true,
+    "interpretation": "Sharp load drop after renewed peak; still spanning and above the driver stress threshold at strain 0.295. Neither a complete-failure result nor strain-increment convergence."
+  },
+  "amendment_added": "Q7",
+  "Q7_control_status": "running",
+  "live_process_snapshot": "14738     1    03:37   1:22.24  33.1 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_refinement_case.py quality__S1_pristine_zz_halfstep_Q7\n43715     1 05:51:58   0:02.62   0.0 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_study.py\n44500 43715 05:46:42 116:05.31  32.2 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__S7_slit_20deg\n67011     1 03:49:29  73:28.06  29.3 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_verified_case.py quality__S7_slit_20deg_verified_Q4\n80313 43715 02:42:34  46:18.04  30.8 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__S5_H2_D40_W8_ellipseX\n94683 43715 01:32:01  25:50.19  26.4 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_35deg\n",
+  "execution_hashes_verified": {
+    "execution_code_checksums": 61,
+    "verified_code_checksums": 61,
+    "refinement_code_checksums": 61
+  },
+  "production_approved": false,
+  "reason": "Six pilot extensions and two controls not yet complete and reviewed; numerical/protocol sensitivity remains unresolved.",
+  "analysis_checks": {
+    "comparison_rows": 44,
+    "tests_passed": 13,
+    "pdf_render_pages_unchanged_vs_prior_visual_review": 5
+  }
+}

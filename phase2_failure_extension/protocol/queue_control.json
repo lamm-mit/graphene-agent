@@ -1,0 +1,6 @@
+{
+  "max_workers": 3,
+  "paused": false,
+  "updated_utc": "2026-09-24T11:16:29.564734+00:00",
+  "reason": "First control completed with no reproduction flags; no competing simulation processes were present at launch. Three independent workers match the archived concurrency range."
+}

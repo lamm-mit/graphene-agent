@@ -1,0 +1,78 @@
+{
+  "recorded_utc": "2026-09-25T02:43:39.903277+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T02:43:29.671008+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 11,
+      "running": 3,
+      "pending": 26
+    },
+    "running": [
+      {
+        "case_id": "ext__P1_slit_25deg",
+        "pid": 6038,
+        "elapsed_s": 4482.510671138763,
+        "updated_utc": "2026-09-25T02:41:22.671849+00:00",
+        "frames": 51,
+        "attempted_step": 53,
+        "strain": 0.26875000000000016,
+        "stress_N_m": 8.320323581353765,
+        "force_residual_eV_A": 0.5033565759658813,
+        "transverse_stress_N_m": -0.004258443048972168,
+        "wall_time_s": 4354.664182662964,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 86
+      },
+      {
+        "case_id": "ext__P1_slit_30deg",
+        "pid": 6635,
+        "elapsed_s": 4298.6680607795715,
+        "updated_utc": "2026-09-25T02:40:55.165166+00:00",
+        "frames": 44,
+        "attempted_step": 46,
+        "strain": 0.24375000000000016,
+        "stress_N_m": 10.897390126845442,
+        "force_residual_eV_A": 0.016732871532440186,
+        "transverse_stress_N_m": -0.02507603270145935,
+        "wall_time_s": 4143.28626704216,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 68
+      },
+      {
+        "case_id": "ext__P1_slit_60deg",
+        "pid": 19330,
+        "elapsed_s": 939.4705321788788,
+        "updated_utc": "2026-09-25T02:41:42.672950+00:00",
+        "frames": 15,
+        "attempted_step": 14,
+        "strain": 0.13999999999999999,
+        "stress_N_m": 5.265328561991331,
+        "force_residual_eV_A": 0.03874773532152176,
+        "transverse_stress_N_m": -0.04366671090940588,
+        "wall_time_s": 831.4342958927155,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 0
+      }
+    ]
+  },
+  "process_snapshot": " 6038 43715 01:14:52  28:10.80 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_25deg\n 6635 43715 01:11:48  26:41.10 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_30deg\n19330 43715    15:49   6:00.99 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_60deg\n43715     1 15:32:12   0:07.07 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_study.py\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__P1_slit_15deg.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T0245.json",
+  "analysis_script_sha256": "dfd9cc8315cc3490f2720af47ed091229082683500d4e02b716a8eb934d4de91",
+  "code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "Nine of 34 extensions and both controls complete; four resolution checks pending. All completed primary extension trajectories retain residual tolerance flags. Fifteen-degree B=C is the second completed extension with no added loading interval; its A-to-C shifts are reproduction differences."
+}

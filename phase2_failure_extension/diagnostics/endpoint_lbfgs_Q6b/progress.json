@@ -1,0 +1,12 @@
+{
+  "updated_utc": "2026-09-24T15:16:47.248103+00:00",
+  "iteration": 2000,
+  "evaluations": 2054,
+  "elapsed_s": 314.6571669578552,
+  "energy_eV": -21772.301715886202,
+  "max_force_eV_A": 0.036840389341736876,
+  "sigma_xx_N_m": 0.07732845334892594,
+  "sigma_yy_N_m": -0.33449110700738544,
+  "spanning": true,
+  "below_frozen_running_peak_threshold": true
+}

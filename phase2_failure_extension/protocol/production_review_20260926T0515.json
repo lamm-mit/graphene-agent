@@ -1,0 +1,71 @@
+{
+  "recorded_utc": "2026-09-26T05:15:46.147118+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T05:15:41.622805+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 38,
+      "running": 2
+    },
+    "running": [
+      {
+        "case_id": "res__S2_slit_45deg",
+        "pid": 23606,
+        "elapsed_s": 18108.427263975143,
+        "updated_utc": "2026-09-26T05:13:10.204535+00:00",
+        "frames": 184,
+        "attempted_step": 186,
+        "strain": 0.5837499999999985,
+        "stress_N_m": 2.4258102508736683,
+        "force_residual_eV_A": 0.019027069211006165,
+        "transverse_stress_N_m": 0.0068054593249996945,
+        "wall_time_s": 17954.08185195923,
+        "virtual_original_stop": {
+          "index": 78,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 111
+      },
+      {
+        "case_id": "res__S7_slit_20deg",
+        "pid": 46173,
+        "elapsed_s": 10456.964843034744,
+        "updated_utc": "2026-09-26T05:15:26.536751+00:00",
+        "frames": 132,
+        "attempted_step": 134,
+        "strain": 0.3700000000000003,
+        "stress_N_m": 3.4210232531187446,
+        "force_residual_eV_A": 0.3491995632648468,
+        "transverse_stress_N_m": -0.10264835502009168,
+        "wall_time_s": 10440.80874800682,
+        "virtual_original_stop": {
+          "index": 111,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 190
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n23606 43715    05:01:53 109:04.75  42.2 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-18:04:19   0:25.98   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-18:04:19   0:00.09   0.0 S    /usr/bin/caffeinate\n46173 43715    02:54:22  67:29.61  47.3 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "all_active_workers_have_new_accepted_frames": true,
+  "figures_and_analysis_unchanged_from_last_review": true,
+  "last_figure_review": "results/figure_review_20260926T0445.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "new_completed_cases": [],
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "34/34 primary extensions, 2/2 controls and 2/4 resolution checks complete. The 45-degree and 20-degree slit checks advance; final endpoints remain pending. Numerical limitations remain explicit. Candidate manuscript review package awaits all scheduled results."
+}

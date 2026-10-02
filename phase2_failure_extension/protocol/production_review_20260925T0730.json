@@ -1,0 +1,86 @@
+{
+  "recorded_utc": "2026-09-25T07:27:44.458392+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T07:27:40.536408+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 15,
+      "running": 3,
+      "pending": 22
+    },
+    "running": [
+      {
+        "case_id": "ext__P1_slit_30deg",
+        "pid": 6635,
+        "elapsed_s": 21349.53341293335,
+        "updated_utc": "2026-09-25T07:25:42.284239+00:00",
+        "frames": 134,
+        "attempted_step": 136,
+        "strain": 0.6937500000000005,
+        "stress_N_m": 3.6463944230330987,
+        "force_residual_eV_A": 0.02760005183517933,
+        "transverse_stress_N_m": 0.05478938554248491,
+        "wall_time_s": 21230.405341148376,
+        "virtual_original_stop": {
+          "index": 59,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 210
+      },
+      {
+        "case_id": "ext__P2_slit_20deg_phi0.30",
+        "pid": 51127,
+        "elapsed_s": 7577.228733301163,
+        "updated_utc": "2026-09-25T07:25:08.264177+00:00",
+        "frames": 68,
+        "attempted_step": 70,
+        "strain": 0.36375000000000024,
+        "stress_N_m": 5.419967127588805,
+        "force_residual_eV_A": 0.017461566254496574,
+        "transverse_stress_N_m": -0.03433920026407037,
+        "wall_time_s": 7424.034019231796,
+        "virtual_original_stop": {
+          "index": 48,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 182
+      },
+      {
+        "case_id": "ext__P3_H1_ellipse_30deg",
+        "pid": 71035,
+        "elapsed_s": 1192.26446890831,
+        "updated_utc": "2026-09-25T07:25:43.098060+00:00",
+        "frames": 19,
+        "attempted_step": 21,
+        "strain": 0.12750000000000003,
+        "stress_N_m": 7.076749898239535,
+        "force_residual_eV_A": 0.2288387268781662,
+        "transverse_stress_N_m": -0.06728301529405709,
+        "wall_time_s": 1073.887844800949,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 19
+      }
+    ]
+  },
+  "process_snapshot": " 6635 43715 05:55:53 133:04.89 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_30deg\n43715     1 20:16:17   0:10.00 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_study.py\n51127 43715 02:06:21  48:54.28 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P2_slit_20deg_phi0.30\n71035 43715    19:56   7:50.78 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P3_H1_ellipse_30deg\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__P1_slit_60deg.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T0730.json",
+  "analysis_script_sha256": "dfd9cc8315cc3490f2720af47ed091229082683500d4e02b716a8eb934d4de91",
+  "code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "Thirteen of 34 extensions and both controls complete; four resolution checks pending. All completed primary extension trajectories retain residual tolerance flags. Sixty-degree B-to-C integral increases 62.9910% with unchanged peak; a 14.0278% lower peak relative to A is an A-to-B reproduction difference, not a consequence of adding loading."
+}

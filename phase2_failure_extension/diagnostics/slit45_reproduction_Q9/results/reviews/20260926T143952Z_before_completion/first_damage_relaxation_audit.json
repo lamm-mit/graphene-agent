@@ -1,0 +1,195 @@
+{
+  "generated_utc": "2026-09-26T14:38:31.238656+00:00",
+  "cases": [
+    {
+      "job": "R1_original_batch4",
+      "first_damage_frame": {
+        "eps_x": 0.17250000000000001,
+        "eps_y": -0.21109628445997694,
+        "sigma": [
+          0.1059924066066742,
+          0.032486408948898315,
+          0.0004727286577690393
+        ],
+        "energy": -21950.025390625,
+        "n_bonds": 4448,
+        "n_broken_new": 8,
+        "n_formed_new": 16,
+        "n_broken_cum": 8,
+        "fire_iterations": 420,
+        "fire_converged": true,
+        "transverse_iterations": 3,
+        "spanning": true,
+        "largest_fragment": 1.0,
+        "n_fragments": 1,
+        "wall_time": 3919.4077368329745,
+        "max_force_eV_A": 0.5840891599655151,
+        "frame": 19,
+        "wall_time_s": 3919.41961812973
+      },
+      "independent_saved_force_norm_eV_A": 0.5840891599655151,
+      "recorded_fire_flag": true,
+      "final_force_meets_target": false,
+      "sequence": [
+        {
+          "time": "2026-09-26T12:35:37.799770+00:00",
+          "stage": "trial relaxation",
+          "source_line": 285,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.19674392065715612,
+          "iterations": 400,
+          "budget": 400,
+          "converged": false,
+          "force_residual_eV_A": 0.11178350448608398,
+          "target_motion_max_component_A": 0.8629379272460938
+        },
+        {
+          "time": "2026-09-26T12:36:44.901327+00:00",
+          "stage": "full relaxation",
+          "source_line": 303,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.19674392065715612,
+          "iterations": 420,
+          "budget": 1500,
+          "converged": true,
+          "force_residual_eV_A": 0.01213905680924654,
+          "target_motion_max_component_A": 0.24111557006835938
+        },
+        {
+          "time": "2026-09-26T12:36:57.941756+00:00",
+          "stage": "transverse relaxation",
+          "source_line": 193,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.20174392065715613,
+          "iterations": 80,
+          "budget": 400,
+          "converged": true,
+          "force_residual_eV_A": 0.018645012751221657,
+          "target_motion_max_component_A": 0.06874847412109375
+        },
+        {
+          "time": "2026-09-26T12:37:17.437834+00:00",
+          "stage": "transverse relaxation",
+          "source_line": 193,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.20609628445997694,
+          "iterations": 120,
+          "budget": 400,
+          "converged": true,
+          "force_residual_eV_A": 0.014118432067334652,
+          "target_motion_max_component_A": 0.07904434204101562
+        },
+        {
+          "time": "2026-09-26T12:38:21.937366+00:00",
+          "stage": "transverse relaxation",
+          "source_line": 193,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.21109628445997694,
+          "iterations": 400,
+          "budget": 400,
+          "converged": false,
+          "force_residual_eV_A": 0.5840891599655151,
+          "target_motion_max_component_A": 0.7956504821777344
+        }
+      ],
+      "trace_sha256": "758851494e0635b50234445e0deaaa14a071ae664ed095f659b4f9b4dcff0b37",
+      "note": "Sequence starts after the last trial at the accepted first-damage strain; earlier rejected trials at the same strain are retained in the raw log. The saved FIRE flag refers to the main relaxation and does not certify later transverse relaxations."
+    },
+    {
+      "job": "R2_original_single",
+      "first_damage_frame": {
+        "eps_x": 0.17250000000000001,
+        "eps_y": -0.2112373562879337,
+        "sigma": [
+          0.10800758004188538,
+          0.034762416034936905,
+          -0.00048660664469935
+        ],
+        "energy": -21951.771484375,
+        "n_bonds": 4448,
+        "n_broken_new": 8,
+        "n_formed_new": 16,
+        "n_broken_cum": 8,
+        "fire_iterations": 580,
+        "fire_converged": true,
+        "transverse_iterations": 3,
+        "spanning": true,
+        "largest_fragment": 1.0,
+        "n_fragments": 1,
+        "wall_time": 736.7834260410164,
+        "max_force_eV_A": 1.6133959293365479,
+        "frame": 20,
+        "wall_time_s": 736.7875299453735
+      },
+      "independent_saved_force_norm_eV_A": 1.6133959293365479,
+      "recorded_fire_flag": true,
+      "final_force_meets_target": false,
+      "sequence": [
+        {
+          "time": "2026-09-26T13:36:33.969704+00:00",
+          "stage": "trial relaxation",
+          "source_line": 285,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.19623735628793368,
+          "iterations": 400,
+          "budget": 400,
+          "converged": false,
+          "force_residual_eV_A": 0.11225242167711258,
+          "target_motion_max_component_A": 0.8412208557128906
+        },
+        {
+          "time": "2026-09-26T13:37:04.496945+00:00",
+          "stage": "full relaxation",
+          "source_line": 303,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.19623735628793368,
+          "iterations": 580,
+          "budget": 1500,
+          "converged": true,
+          "force_residual_eV_A": 0.016352487727999687,
+          "target_motion_max_component_A": 0.33625030517578125
+        },
+        {
+          "time": "2026-09-26T13:37:10.956565+00:00",
+          "stage": "transverse relaxation",
+          "source_line": 193,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.20123735628793368,
+          "iterations": 120,
+          "budget": 400,
+          "converged": true,
+          "force_residual_eV_A": 0.01580500230193138,
+          "target_motion_max_component_A": 0.08405590057373047
+        },
+        {
+          "time": "2026-09-26T13:37:19.949459+00:00",
+          "stage": "transverse relaxation",
+          "source_line": 193,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.2062373562879337,
+          "iterations": 170,
+          "budget": 400,
+          "converged": true,
+          "force_residual_eV_A": 0.01166552770882845,
+          "target_motion_max_component_A": 0.08640575408935547
+        },
+        {
+          "time": "2026-09-26T13:37:41.184476+00:00",
+          "stage": "transverse relaxation",
+          "source_line": 193,
+          "strain": 0.17250000000000001,
+          "transverse_strain": -0.2112373562879337,
+          "iterations": 400,
+          "budget": 400,
+          "converged": false,
+          "force_residual_eV_A": 1.6133960485458374,
+          "target_motion_max_component_A": 0.7811622619628906
+        }
+      ],
+      "trace_sha256": "8c82fcb0f53c122dfa21f517f45400d248c42088cbc8cfc2e595e70d9320f505",
+      "note": "Sequence starts after the last trial at the accepted first-damage strain; earlier rejected trials at the same strain are retained in the raw log. The saved FIRE flag refers to the main relaxation and does not certify later transverse relaxations."
+    }
+  ],
+  "scientific_protocol_changed": false,
+  "script_sha256": "b07aa8be9d9389c9a1a18483e3cbd791c4a367635eb466cfb1f68d6e4fb49da8"
+}

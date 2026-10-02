@@ -1,0 +1,15 @@
+{
+  "case_id": "res__S7_slit_0deg_armchair",
+  "parent_run_id": "run_20260905_235534_a5e0cc",
+  "source_phase": "I",
+  "role": "resolution",
+  "stage": "resolution",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000,
+    "d_strain": 0.0025
+  }
+}

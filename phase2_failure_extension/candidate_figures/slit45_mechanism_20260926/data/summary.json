@@ -1,0 +1,514 @@
+{
+  "design": {
+    "parent_run_id": "run_20260905_091359_4df2c2",
+    "name": "S2_slit_45deg",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 45,
+      "slit_len": 22.065
+    },
+    "porosity": 0.1813361611876988,
+    "n_atoms": 3088,
+    "rho": 0.808176073986791,
+    "alignment": 0.006161082679627837,
+    "min_section": 0.8160497186250408,
+    "modulus": 2.1876734740583563,
+    "level": 1,
+    "ligament_class": "oblique",
+    "tags": [
+      "anisotropy"
+    ],
+    "A": {
+      "strength": 18.542979416317962,
+      "integral": 1.310311026159506,
+      "end_strain": 0.32375000000000015,
+      "peak_strain": 0.32375000000000015,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 12.204642277152937,
+      "integral": 1.3009281489613185,
+      "end_strain": 0.32125000000000015,
+      "peak_strain": 0.2612500000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "C": {
+      "strength": 12.204642277152937,
+      "integral": 2.4287251401430208,
+      "end_strain": 0.6612500000000004,
+      "peak_strain": 0.2612500000000001,
+      "failure_observed": true,
+      "failure_strain": 0.6612500000000004,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S2_slit_45deg",
+    "residual_flag": true,
+    "residual_fraction": 0.27350427350427353
+  },
+  "branches": [
+    {
+      "branch": "Phase 1 single shot",
+      "frames": 52,
+      "endpoint_strain": 0.32375000000000015,
+      "peak_strain": 0.32375000000000015,
+      "peak_stress_N_m": 18.542979416317962,
+      "endpoint_transverse_strain": -0.34499192612096446,
+      "first_new_strain": 0.165,
+      "first_persistent_strain": 0.165,
+      "distinct_new_pairs_total": 190,
+      "retained_new_pairs_at_endpoint": 190,
+      "reappearance_events_total": 4,
+      "cumulative_broken_events": 8,
+      "at_0.15": {
+        "actual_strain": 0.15,
+        "transverse_strain": -0.17479434102290833,
+        "retained_new_pairs": 0,
+        "persistent_distinct_new_pairs": 0,
+        "stress_N_m": 1.619157005476149
+      },
+      "at_0.17": {
+        "actual_strain": 0.17,
+        "transverse_strain": -0.19509656820361698,
+        "retained_new_pairs": 4,
+        "persistent_distinct_new_pairs": 4,
+        "stress_N_m": 2.580379103537847,
+        "initial_distance_quantiles_A": [
+          6.940433480231588,
+          6.940436266636151,
+          6.940453313173431
+        ],
+        "current_distance_quantiles_A": [
+          1.433807046812804,
+          1.4338328976376724,
+          1.433844831667338
+        ]
+      },
+      "at_0.20": {
+        "actual_strain": 0.19875000000000004,
+        "transverse_strain": -0.24384320268472456,
+        "retained_new_pairs": 128,
+        "persistent_distinct_new_pairs": 128,
+        "stress_N_m": 3.23068044475639,
+        "initial_distance_quantiles_A": [
+          2.2443344196596344,
+          9.487125118632129,
+          10.497977099239604
+        ],
+        "current_distance_quantiles_A": [
+          1.3106923180965637,
+          1.4525877897636499,
+          1.8802679315935207
+        ]
+      },
+      "at_0.26": {
+        "actual_strain": 0.2587500000000001,
+        "transverse_strain": -0.30315964111278265,
+        "retained_new_pairs": 128,
+        "persistent_distinct_new_pairs": 128,
+        "stress_N_m": 6.351173868608373,
+        "initial_distance_quantiles_A": [
+          2.2443344196596344,
+          9.487125118632129,
+          10.497977099239604
+        ],
+        "current_distance_quantiles_A": [
+          1.3117486841166455,
+          1.4549225674196427,
+          1.8854141202221992
+        ]
+      },
+      "at_0.32": {
+        "actual_strain": 0.31875000000000014,
+        "transverse_strain": -0.34471096068846346,
+        "retained_new_pairs": 190,
+        "persistent_distinct_new_pairs": 190,
+        "stress_N_m": 17.730401645933437,
+        "initial_distance_quantiles_A": [
+          2.2443344196596344,
+          9.507282247494253,
+          24.89583923596409
+        ],
+        "current_distance_quantiles_A": [
+          1.3251147718403136,
+          1.4608588978906212,
+          1.8213310270951562
+        ]
+      }
+    },
+    {
+      "branch": "Phase 2 primary extension",
+      "frames": 117,
+      "endpoint_strain": 0.6612500000000004,
+      "peak_strain": 0.2612500000000001,
+      "peak_stress_N_m": 12.204642277152937,
+      "endpoint_transverse_strain": -0.28155118977199917,
+      "first_new_strain": 0.17,
+      "first_persistent_strain": 0.17,
+      "distinct_new_pairs_total": 110,
+      "retained_new_pairs_at_endpoint": 106,
+      "reappearance_events_total": 8,
+      "cumulative_broken_events": 160,
+      "at_0.15": {
+        "actual_strain": 0.15,
+        "transverse_strain": -0.17561886495273116,
+        "retained_new_pairs": 0,
+        "persistent_distinct_new_pairs": 0,
+        "stress_N_m": 1.5629260043709023
+      },
+      "at_0.17": {
+        "actual_strain": 0.17,
+        "transverse_strain": -0.19522283895418785,
+        "retained_new_pairs": 4,
+        "persistent_distinct_new_pairs": 4,
+        "stress_N_m": 2.581946689565317,
+        "initial_distance_quantiles_A": [
+          6.940420204534597,
+          6.940431113414611,
+          6.940445067003573
+        ],
+        "current_distance_quantiles_A": [
+          1.4330384728452414,
+          1.4330440582112103,
+          1.433046140732121
+        ]
+      },
+      "at_0.20": {
+        "actual_strain": 0.19625000000000004,
+        "transverse_strain": -0.2571764343044934,
+        "retained_new_pairs": 66,
+        "persistent_distinct_new_pairs": 66,
+        "stress_N_m": 4.597574635670727,
+        "initial_distance_quantiles_A": [
+          2.244332491937293,
+          9.48209184702354,
+          12.481050038124062
+        ],
+        "current_distance_quantiles_A": [
+          1.3207387352383628,
+          1.4770686656115761,
+          1.5913839288908205
+        ]
+      },
+      "at_0.26": {
+        "actual_strain": 0.2562500000000001,
+        "transverse_strain": -0.2580586592332979,
+        "retained_new_pairs": 66,
+        "persistent_distinct_new_pairs": 66,
+        "stress_N_m": 12.037848831898051,
+        "initial_distance_quantiles_A": [
+          2.244332491937293,
+          9.48209184702354,
+          12.481050038124062
+        ],
+        "current_distance_quantiles_A": [
+          1.3291205709521525,
+          1.5034390882896815,
+          1.6989853147528091
+        ]
+      },
+      "at_0.32": {
+        "actual_strain": 0.31625000000000014,
+        "transverse_strain": -0.2662096728846968,
+        "retained_new_pairs": 98,
+        "persistent_distinct_new_pairs": 98,
+        "stress_N_m": 4.157586709517532,
+        "initial_distance_quantiles_A": [
+          2.244332491937293,
+          9.506924982651459,
+          16.18590194806891
+        ],
+        "current_distance_quantiles_A": [
+          1.3315151232539846,
+          1.4484558873717277,
+          1.6370371061572242
+        ]
+      },
+      "force_flagged_frames": 25,
+      "transverse_flagged_frames": 11
+    },
+    {
+      "branch": "Phase 2 resolution check",
+      "frames": 223,
+      "endpoint_strain": 0.6812499999999965,
+      "peak_strain": 0.2587500000000001,
+      "peak_stress_N_m": 11.45200903465774,
+      "endpoint_transverse_strain": -0.2979529014462117,
+      "first_new_strain": 0.17,
+      "first_persistent_strain": 0.17,
+      "distinct_new_pairs_total": 145,
+      "retained_new_pairs_at_endpoint": 137,
+      "reappearance_events_total": 16,
+      "cumulative_broken_events": 116,
+      "at_0.15": {
+        "actual_strain": 0.15,
+        "transverse_strain": -0.17666959897657405,
+        "retained_new_pairs": 0,
+        "persistent_distinct_new_pairs": 0,
+        "stress_N_m": 1.5662784324850871
+      },
+      "at_0.17": {
+        "actual_strain": 0.17,
+        "transverse_strain": -0.19513562008104743,
+        "retained_new_pairs": 4,
+        "persistent_distinct_new_pairs": 4,
+        "stress_N_m": 2.5819111168699025,
+        "initial_distance_quantiles_A": [
+          6.940699198305388,
+          6.940704494634661,
+          6.940705225241434
+        ],
+        "current_distance_quantiles_A": [
+          1.4335629853750345,
+          1.4335732720700038,
+          1.4335875704761496
+        ]
+      },
+      "at_0.20": {
+        "actual_strain": 0.19875000000000004,
+        "transverse_strain": -0.23063515380991606,
+        "retained_new_pairs": 52,
+        "persistent_distinct_new_pairs": 52,
+        "stress_N_m": 5.243840744017461,
+        "initial_distance_quantiles_A": [
+          2.2445262136036255,
+          8.993063298883655,
+          10.474637189218972
+        ],
+        "current_distance_quantiles_A": [
+          1.3293957049535148,
+          1.497412445248362,
+          1.6159065197590752
+        ]
+      },
+      "at_0.26": {
+        "actual_strain": 0.2587500000000001,
+        "transverse_strain": -0.25893019103180764,
+        "retained_new_pairs": 70,
+        "persistent_distinct_new_pairs": 70,
+        "stress_N_m": 11.45200903465774,
+        "initial_distance_quantiles_A": [
+          2.2445262136036255,
+          9.482676433156417,
+          14.9554224562836
+        ],
+        "current_distance_quantiles_A": [
+          1.3286945708597204,
+          1.5212191077776978,
+          1.7356837207003633
+        ]
+      },
+      "at_0.32": {
+        "actual_strain": 0.31875000000000014,
+        "transverse_strain": -0.2806628621949186,
+        "retained_new_pairs": 101,
+        "persistent_distinct_new_pairs": 101,
+        "stress_N_m": 4.948239762380478,
+        "initial_distance_quantiles_A": [
+          2.2445262136036255,
+          9.993271040810395,
+          18.697249527561603
+        ],
+        "current_distance_quantiles_A": [
+          1.3103208109719506,
+          1.5173198951813587,
+          1.7299454184076135
+        ]
+      },
+      "force_flagged_frames": 112,
+      "transverse_flagged_frames": 18
+    }
+  ],
+  "neighbor_exchanges": [
+    {
+      "branch": "Phase 2 primary extension",
+      "frame": 81,
+      "strain": 0.4862500000000003,
+      "previous_strain": 0.4812500000000003,
+      "atom": 640,
+      "old_partner": 569,
+      "new_partner": 571,
+      "position": [
+        20.414241790771484,
+        39.55082321166992
+      ],
+      "old_distance_before_A": 1.6825382112619118,
+      "old_distance_after_A": 3.323884651805601,
+      "new_distance_before_A": 2.4478352967462396,
+      "new_distance_after_A": 1.5100399238911875,
+      "initial_new_distance_A": 4.883516568066093,
+      "new_connection_persists_through_strain": 0.6612500000000004,
+      "interior": true
+    },
+    {
+      "branch": "Phase 2 primary extension",
+      "frame": 81,
+      "strain": 0.4862500000000003,
+      "previous_strain": 0.4812500000000003,
+      "atom": 932,
+      "old_partner": 1002,
+      "new_partner": 1000,
+      "position": [
+        55.021263122558594,
+        19.08061981201172
+      ],
+      "old_distance_before_A": 1.6817223985865644,
+      "old_distance_after_A": 3.3230105073321416,
+      "new_distance_before_A": 2.447938016483405,
+      "new_distance_after_A": 1.509744759361479,
+      "initial_new_distance_A": 4.8835231251887645,
+      "new_connection_persists_through_strain": 0.6612500000000004,
+      "interior": true
+    },
+    {
+      "branch": "Phase 2 primary extension",
+      "frame": 81,
+      "strain": 0.4862500000000003,
+      "previous_strain": 0.4812500000000003,
+      "atom": 2107,
+      "old_partner": 2109,
+      "new_partner": 2039,
+      "position": [
+        95.85457611083984,
+        4.371103286743164
+      ],
+      "old_distance_before_A": 1.6816899065330244,
+      "old_distance_after_A": 3.3229214623083827,
+      "new_distance_before_A": 2.4479339026584426,
+      "new_distance_after_A": 1.5097024873798794,
+      "initial_new_distance_A": 4.883524043818884,
+      "new_connection_persists_through_strain": 0.6612500000000004,
+      "interior": false
+    },
+    {
+      "branch": "Phase 2 primary extension",
+      "frame": 81,
+      "strain": 0.4862500000000003,
+      "previous_strain": 0.4812500000000003,
+      "atom": 2549,
+      "old_partner": 2547,
+      "new_partner": 2618,
+      "position": [
+        130.45550537109375,
+        54.260257720947266
+      ],
+      "old_distance_before_A": 1.6815161509462058,
+      "old_distance_after_A": 3.3227726359670715,
+      "new_distance_before_A": 2.4479739244169827,
+      "new_distance_after_A": 1.5096476186902896,
+      "initial_new_distance_A": 4.883517896512555,
+      "new_connection_persists_through_strain": 0.6612500000000004,
+      "interior": true
+    },
+    {
+      "branch": "Phase 2 resolution check",
+      "frame": 91,
+      "strain": 0.3537500000000002,
+      "previous_strain": 0.3512500000000002,
+      "atom": 2623,
+      "old_partner": 2698,
+      "new_partner": 2696,
+      "position": [
+        120.97573852539062,
+        55.2086067199707
+      ],
+      "old_distance_before_A": 1.65415373198232,
+      "old_distance_after_A": 2.550394940170419,
+      "new_distance_before_A": 2.4560446996638623,
+      "new_distance_after_A": 1.5219842087604307,
+      "initial_new_distance_A": 5.037237331541092,
+      "new_connection_persists_through_strain": 0.6137499999999979,
+      "interior": false
+    },
+    {
+      "branch": "Phase 2 resolution check",
+      "frame": 92,
+      "strain": 0.3562500000000002,
+      "previous_strain": 0.3537500000000002,
+      "atom": 566,
+      "old_partner": 491,
+      "new_partner": 418,
+      "position": [
+        15.908174514770508,
+        38.24525451660156
+      ],
+      "old_distance_before_A": 1.679076325504286,
+      "old_distance_after_A": 2.5509600649705373,
+      "new_distance_before_A": 2.449899770737282,
+      "new_distance_after_A": 1.5215659845227443,
+      "initial_new_distance_A": 5.0372372214492085,
+      "new_connection_persists_through_strain": 0.6812499999999965,
+      "interior": true
+    },
+    {
+      "branch": "Phase 2 resolution check",
+      "frame": 151,
+      "strain": 0.5037500000000003,
+      "previous_strain": 0.5012500000000003,
+      "atom": 154,
+      "old_partner": 149,
+      "new_partner": 150,
+      "position": [
+        17.12712287902832,
+        0.31317734718322754
+      ],
+      "old_distance_before_A": 1.8966096437251252,
+      "old_distance_after_A": 2.0056409911377,
+      "new_distance_before_A": 2.199814163733458,
+      "new_distance_after_A": 1.817870634866263,
+      "initial_new_distance_A": 9.493686021440967,
+      "new_connection_persists_through_strain": 0.6812499999999965,
+      "interior": false
+    },
+    {
+      "branch": "Phase 2 resolution check",
+      "frame": 196,
+      "strain": 0.6162499999999979,
+      "previous_strain": 0.6137499999999979,
+      "atom": 2623,
+      "old_partner": 2696,
+      "new_partner": 2768,
+      "position": [
+        154.63682556152344,
+        53.0558967590332
+      ],
+      "old_distance_before_A": 1.654902868585384,
+      "old_distance_after_A": 2.5949372182655646,
+      "new_distance_before_A": 2.4974610419160364,
+      "new_distance_after_A": 1.5334518833363038,
+      "initial_new_distance_A": 7.432995261760015,
+      "new_connection_persists_through_strain": 0.6312499999999975,
+      "interior": false
+    },
+    {
+      "branch": "Phase 2 resolution check",
+      "frame": 203,
+      "strain": 0.6337499999999975,
+      "previous_strain": 0.6312499999999975,
+      "atom": 2623,
+      "old_partner": 2768,
+      "new_partner": 2766,
+      "position": [
+        157.26515197753906,
+        50.827598571777344
+      ],
+      "old_distance_before_A": 1.696994783359227,
+      "old_distance_after_A": 2.600065057621802,
+      "new_distance_before_A": 2.526531787360017,
+      "new_distance_after_A": 1.535810347688178,
+      "initial_new_distance_A": 9.857617213665058,
+      "new_connection_persists_through_strain": 0.6787499999999965,
+      "interior": false
+    }
+  ]
+}

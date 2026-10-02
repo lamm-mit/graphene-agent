@@ -1,0 +1,133 @@
+[
+  {
+    "file": "figS_extension_endpoints.pdf",
+    "source": "fig2_design_space",
+    "source_clip": [
+      285.4669189453125,
+      619.46728515625,
+      771.6160278320312,
+      926.5004272460938
+    ],
+    "kind": "stack",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "ae93de27f2f8dc047d3d13cf87e62c495cc5f3b70ea0c3dc2a68e8f0fd9daa6b"
+  },
+  {
+    "file": "figS_extension_slits.pdf",
+    "source": "fig3_alignment_cliff",
+    "source_clip": null,
+    "kind": "stack",
+    "header_original": "Phase 1 single shot and original Phase 2",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "520e1fd9c4ff3086113ec7fe873a9727368b19eb495b56deceea97e5cbf5cd14"
+  },
+  {
+    "file": "figS_extension_alignment_A.pdf",
+    "source": "fig4_hierarchy_alignment",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot and original Phase 2",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "a8d89fdae645a88b01eedcff578dc6a1c080ec0a757405399d140aafb63e60df"
+  },
+  {
+    "file": "figS_extension_alignment_B.pdf",
+    "source": "fig4_hierarchy_alignment",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot and original Phase 2",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "1af9981e09d651fef8cf9f926f554cfe34a8538e660aaae9b8c4ef70b0cf674c"
+  },
+  {
+    "file": "figS_extension_costs.pdf",
+    "source": "fig5_costs",
+    "source_clip": null,
+    "kind": "stack",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "6ae15a4e606037c6dd475a09030e428d22e11528dfcd9092855c734e4eb89a9a"
+  },
+  {
+    "file": "figS_extension_progression_A.pdf",
+    "source": "fig7_progression",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "92201fefdbaa8504eeba078aac49d7d4ff17a82082370b762cf928c94f5f01fb"
+  },
+  {
+    "file": "figS_extension_progression_B.pdf",
+    "source": "fig7_progression",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "47b0e85739f00a4166aa41690a3a1bd3b34b3911eab9e466336dcd13bfd3ce59"
+  },
+  {
+    "file": "figS_extension_mechanisms_A.pdf",
+    "source": "fig_mechanisms",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot and original Phase 2",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "7e41a8a8c6f13d390ff0e2b6d57c0b402f9174646c91befbf0f3c562b46a2b20"
+  },
+  {
+    "file": "figS_extension_mechanisms_B.pdf",
+    "source": "fig_mechanisms",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot and original Phase 2",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "8fcdea1965f86eefd28b1171a750cad6e295deda5f89da6579d4ecf636b6298d"
+  },
+  {
+    "file": "figS_extension_ashby_A.pdf",
+    "source": "fig2_design_space",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "0a975e8d1195fcb6a08fbe655e3dfa442c58a852ef1c0a3e2646d5c84189720d"
+  },
+  {
+    "file": "figS_extension_ashby_B.pdf",
+    "source": "fig2_design_space",
+    "source_clip": null,
+    "kind": "split",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "546c242ca70b54810e98938efd6d2f2a09c72fbd9e247315aa6e2f2fcbd66c69"
+  },
+  {
+    "file": "figS_extension_boundaries.pdf",
+    "source": "fig2_design_space",
+    "source_clip": null,
+    "kind": "overlay",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "c2e978e133a92ae6fd7199088a5e4bb45bb9867759bd85f90826b466b0a35058"
+  },
+  {
+    "file": "figS_extension_density.pdf",
+    "source": "fig1_rule_of_mixtures",
+    "source_clip": null,
+    "kind": "stack",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "aec9f649e4d33f786d0dcdfe8fc11fb0c58d30de139d26a8be5503689c7ae617"
+  },
+  {
+    "file": "figS_extension_loadpaths.pdf",
+    "source": "fig2_load_paths",
+    "source_clip": null,
+    "kind": "stack",
+    "header_original": "Phase 1 single shot",
+    "header_extended": "Phase 2 longer loading",
+    "sha256": "6be0ef64fdd6653d7328bc22c5910b18e9403d0b64756fce45520e128f4bbb8b"
+  }
+]

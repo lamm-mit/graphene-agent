@@ -1,0 +1,196 @@
+{
+ "title": "Reference-image interpretation and inferred design language",
+ "note": "Images are treated as sources of transferable geometric/topological principles, not as literal templates. Each principle lists the visual motivation, the abstraction, its atomistic realisation in graphene-derived carbon, required assumptions and plausible alternative readings. All entries are editable in the application; regenerating structures uses the mapping in 'families'.",
+ "images": [
+  {
+   "id": "img1",
+   "file": "reference_images/image_grid_20240721_220650.png",
+   "short": "hierarchical leaf venation",
+   "visual_features": "A thick primary vein with secondary and tertiary branches; the finest veins close into a reticulate network of polygonal areoles; 3-4 distinct vein widths; closed loops at every level; overall anisotropy set by the midrib.",
+   "principles": [
+    "P1 multi-level (nested) network hierarchy with a large width ratio between levels",
+    "P2 closed loops (redundancy) at every level",
+    "P4 global anisotropy of the primary load path"
+   ]
+  },
+  {
+   "id": "img2",
+   "file": "reference_images/image_grid_2-of-16__20240721_210804.png",
+   "short": "closed-cell walls with fine open branching inside cells",
+   "visual_features": "Thick yellow cell walls form a polygonal foam-like closed network; each cell contains a much finer, open (tree-like) network; two well separated length scales (ratio ~5-10); the coarse level is closed-cell, the fine level is open/branching.",
+   "principles": [
+    "P1 two-level hierarchy with distinct topology per level (closed coarse net, open fine net)",
+    "P3 compartmentalisation: coarse walls isolate domains",
+    "P5 scale separation (large scale ratio)"
+   ]
+  },
+  {
+   "id": "img3",
+   "file": "reference_images/image_grid_2-of-3__20240721_061946.png",
+   "short": "disordered layered fibre net",
+   "visual_features": "Slender fibres forming an irregular polygonal mesh; cell sizes vary; several nets are overlaid (redundant, layered); paths are curved and tortuous; no straight through-going lines.",
+   "principles": [
+    "P6 disorder in cell size/shape (polygonal, Voronoi-like)",
+    "P2 redundancy by overlaid/duplicated load paths",
+    "P7 tortuous, curved load paths with slender uniform ligaments"
+   ]
+  },
+  {
+   "id": "img4",
+   "file": "reference_images/image_grid_7-of-9__20240721_063700.png",
+   "short": "rectilinear crossing struts",
+   "visual_features": "Straight fibres crossing at several fixed angles, forming triangles/quadrilaterals; through-going lines span the whole field; nodes where 3-4 lines meet; some fibres thicker than others.",
+   "principles": [
+    "P8 straight through-going load paths aligned with a few directions (load-path organisation)",
+    "P4 strong anisotropy / orientation relative to the load",
+    "P9 high-connectivity nodes (stiff triangulated topology) vs. low-connectivity (bending-dominated) topologies"
+   ]
+  },
+  {
+   "id": "img5",
+   "file": "reference_images/image_grid_0-of-3__20240721_061945.png",
+   "short": "nested rings around a central void, size gradient",
+   "visual_features": "Concentric, nested polygonal rings converge on a central hole; ring cells shrink toward the centre; radial and circumferential connections; a defect (hole) surrounded by a graded, compliant halo.",
+   "principles": [
+    "P10 spatial gradients of cell size (graded architecture)",
+    "P11 nesting around a flaw: local architecture organised around a defect (flaw shielding / crack arrest hypothesis)",
+    "P1 concentric hierarchy (rings within rings)"
+   ]
+  }
+ ],
+ "principles": {
+  "P1": {
+   "name": "nested hierarchy",
+   "abstraction": "structure at n > 1 well separated length scales, each level a network of ligaments enclosing pores; levels differ in ligament width and pore size by a scale ratio r",
+   "atomistic_realisation": "graphene nanomesh whose pore pattern has several characteristic periods: fine pores (d1, period p1) inside domains bounded by wider 'vein' ligaments (width W2, domain size D2); optional third level (W3, D3). Hierarchy depth = number of levels; scale ratio = D2/p1; inter-level connectivity = fine ligaments attached to veins",
+   "assumptions": "ligaments >= ~5 A wide remain stable sp2 carbon; pores are formed by atom removal followed by relaxation; periodic supercells impose a maximal coarse scale",
+   "alternatives": "hierarchy could instead be expressed through graded ligament widths without domains, or through hierarchical defects (vacancy clusters at two scales)"
+  },
+  "P2": {
+   "name": "redundancy / loops",
+   "abstraction": "multiple independent load paths (cyclomatic number of the ligament graph)",
+   "atomistic_realisation": "compare closed-cell meshes (many loops) with open/branching or slit patterns at the same porosity; descriptor cyclomatic_per_atom",
+   "assumptions": "loop count is measured on the bond graph of the relaxed structure",
+   "alternatives": "redundancy via multiple layers is not accessible in a single sheet; represented in-plane only"
+  },
+  "P3": {
+   "name": "compartmentalisation",
+   "abstraction": "coarse walls isolate domains so that damage inside one domain need not propagate",
+   "atomistic_realisation": "vein network of the two-level nanomesh; test whether cracks stop at veins",
+   "assumptions": "vein width sets the barrier strength",
+   "alternatives": "walls may act as stress concentrators instead of barriers"
+  },
+  "P4": {
+   "name": "anisotropy / orientation",
+   "abstraction": "principal ligament direction relative to the load",
+   "atomistic_realisation": "slit arrays and elliptical pores at 0/45/90 degrees to the tensile axis; strut lattices with and without a strut family along the load; zigzag vs armchair lattice orientation",
+   "assumptions": "uniaxial loading along x",
+   "alternatives": "anisotropy from the graphene lattice itself (chirality) is a separate, atomistic-scale source of anisotropy"
+  },
+  "P5": {
+   "name": "scale separation",
+   "abstraction": "ratio of the characteristic sizes of successive levels",
+   "atomistic_realisation": "vary domain size D2 at fixed fine period p1 (ratio 2..6)",
+   "assumptions": "cell size must accommodate several domains",
+   "alternatives": "graded (continuous) rather than discrete scale separation"
+  },
+  "P6": {
+   "name": "disorder",
+   "abstraction": "randomness of pore position, size and cell shape",
+   "atomistic_realisation": "jittered / size-dispersed pore lattices, periodic Voronoi ligament networks with tunable regularity; multiple seeds",
+   "assumptions": "disorder is quenched (structural), not thermal",
+   "alternatives": "disorder in ligament width instead of pore position"
+  },
+  "P7": {
+   "name": "tortuous load paths",
+   "abstraction": "load paths longer than the straight distance (tortuosity)",
+   "atomistic_realisation": "Voronoi networks and staggered pore lattices; descriptor tortuosity_x",
+   "assumptions": "tortuosity measured on the bond graph",
+   "alternatives": "tortuosity could be imposed by wavy slits"
+  },
+  "P8": {
+   "name": "straight through-going load paths",
+   "abstraction": "continuous ligaments spanning the cell along the load",
+   "atomistic_realisation": "strut lattices with a strut family at 0 degrees vs none; slits parallel to the load",
+   "assumptions": "periodic continuation of struts",
+   "alternatives": "struts could be staggered (discontinuous)"
+  },
+  "P9": {
+   "name": "node connectivity",
+   "abstraction": "number of ligaments meeting at nodes (triangulated vs polygonal)",
+   "atomistic_realisation": "0/60/120 strut lattice (6-connected nodes) vs 0/90 (4-connected) vs honeycomb-like Voronoi (3-connected)",
+   "assumptions": "at the nanoscale ligaments are plates, not beams; stretching dominates",
+   "alternatives": "connectivity effects may be masked by stress concentration at nodes"
+  },
+  "P10": {
+   "name": "gradients",
+   "abstraction": "smooth spatial variation of pore size / porosity",
+   "atomistic_realisation": "pore-size gradient along x or radially (graded_pores family)",
+   "assumptions": "gradient wavelength limited by the cell",
+   "alternatives": "gradient of ligament width at constant pore size"
+  },
+  "P11": {
+   "name": "nesting around a flaw",
+   "abstraction": "a central flaw surrounded by concentric rings of smaller pores (compliant halo)",
+   "atomistic_realisation": "ring_around_hole family: hole + n rings of small pores, compared with the bare hole and with hole + uniform background pores at matched porosity",
+   "assumptions": "the halo changes the stress field at the hole edge",
+   "alternatives": "rings may simply add more crack nuclei"
+  }
+ },
+ "families": {
+  "pristine": [
+   "reference"
+  ],
+  "nanomesh_single": [
+   "P2",
+   "P6 (with jitter/size disorder)",
+   "P4 (aspect/angle)"
+  ],
+  "nanomesh_hier": [
+   "P1",
+   "P3",
+   "P5"
+  ],
+  "voronoi_network": [
+   "P6",
+   "P7",
+   "P9"
+  ],
+  "slit_array": [
+   "P4",
+   "P8"
+  ],
+  "strut_lattice": [
+   "P8",
+   "P9",
+   "P4"
+  ],
+  "graded_pores": [
+   "P10"
+  ],
+  "ring_around_hole": [
+   "P11",
+   "P1"
+  ],
+  "precrack": [
+   "flaw-sensitivity reference"
+  ],
+  "vacancies": [
+   "defect organisation (distributed vs clustered)"
+  ]
+ },
+ "major_design_variables": [
+  "hierarchy depth (1,2,3 levels)",
+  "scale ratio between levels",
+  "vein (coarse ligament) width",
+  "porosity",
+  "pore/ligament size at fixed porosity",
+  "disorder amplitude (jitter, size dispersion, Voronoi regularity)",
+  "anisotropy / orientation of pores or struts",
+  "node connectivity (strut angles)",
+  "gradient strength",
+  "flaw size and flaw surroundings",
+  "defect density and organisation",
+  "lattice orientation (zigzag/armchair)"
+ ]
+}

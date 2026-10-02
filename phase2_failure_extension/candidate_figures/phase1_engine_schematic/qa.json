@@ -1,0 +1,46 @@
+{
+  "pages": 1,
+  "page_size_pt": [
+    744.0,
+    690.0
+  ],
+  "raster_images": 0,
+  "fonts": [
+    [
+      2,
+      "n/a",
+      "Type1",
+      "Times-Roman",
+      "F1",
+      "WinAnsiEncoding",
+      0
+    ],
+    [
+      7,
+      "ttf",
+      "TrueType",
+      "AAAAAA+Arial-BoldMT",
+      "F2+0",
+      "",
+      0
+    ],
+    [
+      11,
+      "ttf",
+      "TrueType",
+      "AAAAAA+ArialMT",
+      "F3+0",
+      "",
+      0
+    ]
+  ],
+  "text_outside_page": [],
+  "minimum_font_size_pt": 7.650000095367432,
+  "missing_glyphs": [],
+  "note": "Programmatic checks supplement visual review of the PNG.",
+  "visual_review": {
+    "figure": "Reviewed final PDF rendering: no clipped or overlapping labels; consistent Arial and spacing.",
+    "caption_proof": "Reviewed at 6.5-inch manuscript width with 9-point caption; fits one letter page, no overfull boxes.",
+    "source_check": "All source-map paths exist; entry routes and campaign overrides checked against frozen source."
+  }
+}

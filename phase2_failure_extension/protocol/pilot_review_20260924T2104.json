@@ -1,0 +1,228 @@
+{
+  "reviewed_utc": "2026-09-24T21:05:03.281975+00:00",
+  "queue_pid": 43715,
+  "queue_counts": {
+    "completed": 3,
+    "running": 3,
+    "pending": 34
+  },
+  "active_children": [
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "pid": 44500,
+      "elapsed_s": 35297.061416864395,
+      "updated_utc": "2026-09-24T21:00:53.930279+00:00",
+      "frames": 157,
+      "attempted_step": 159,
+      "strain": 0.8000000000000006,
+      "stress_N_m": 1.8916138901161774,
+      "force_residual_eV_A": 0.30622848868370056,
+      "transverse_stress_N_m": -0.0723596000284078,
+      "wall_time_s": 35048.96444797516,
+      "virtual_original_stop": {
+        "index": 35,
+        "reason": "post-peak strain limit reached (load still carried)",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 363,
+      "alive": true,
+      "accepted_frames_added_since_previous_review": 1
+    },
+    {
+      "case_id": "ext__S5_H2_D40_W8_ellipseX",
+      "pid": 80313,
+      "elapsed_s": 24249.272516965866,
+      "updated_utc": "2026-09-24T21:03:59.209841+00:00",
+      "frames": 61,
+      "attempted_step": 63,
+      "strain": 0.34875000000000017,
+      "stress_N_m": 2.566541086278598,
+      "force_residual_eV_A": 0.04280240461230278,
+      "transverse_stress_N_m": -0.04361368013780189,
+      "wall_time_s": 24186.56831908226,
+      "virtual_original_stop": {
+        "index": 42,
+        "reason": "post-peak strain limit reached (load still carried)",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 146,
+      "alive": true,
+      "accepted_frames_added_since_previous_review": 2
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "pid": 94683,
+      "elapsed_s": 20016.525765895844,
+      "updated_utc": "2026-09-24T21:01:28.186367+00:00",
+      "frames": 59,
+      "attempted_step": 61,
+      "strain": 0.3262500000000002,
+      "stress_N_m": 19.548188345974577,
+      "force_residual_eV_A": 0.01328960433602333,
+      "transverse_stress_N_m": -0.002272564033998735,
+      "wall_time_s": 19802.86875796318,
+      "virtual_original_stop": {
+        "index": 57,
+        "reason": "max strain reached",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 31,
+      "alive": true,
+      "accepted_frames_added_since_previous_review": 1
+    }
+  ],
+  "saved_frame_assessment": {
+    "updated_utc": "2026-09-24T21:04:15.835066+00:00",
+    "review_required": true,
+    "pilots": [
+      {
+        "case_id": "ctrl__S1_pristine_zz",
+        "status": "completed",
+        "saved_frame_screen": {
+          "n_frames": 29,
+          "end_strain": 0.27125000000000005,
+          "frames_above_force_tolerance": 0,
+          "frames_above_transverse_tolerance": 2,
+          "maximum_force_residual_eV_A": 0.01598411239683628
+        },
+        "reproduction": {
+          "maximum_stress_relative": -0.00021691715527183408,
+          "integral_relative": -0.0009504810580401868,
+          "stop_strain_difference": 0.0,
+          "first_damage_strain_difference": 0.0,
+          "shared_interval_normalized_stress_rmse": 0.0034004423421222212,
+          "curve_rmse_note": "Linear interpolation is a diagnostic over the shared strain interval; event locations are also compared separately."
+        },
+        "reproduction_flags": [],
+        "quality": {
+          "all_recorded_values_finite": true,
+          "force_tolerance_eV_A": 0.02,
+          "frames_above_force_tolerance": 0,
+          "maximum_recorded_force_residual_eV_A": 0.01598411239683628,
+          "frames_above_transverse_tolerance": 2,
+          "maximum_transverse_stress_residual_N_m": 2.076323081742282,
+          "numerical_termination": false,
+          "driver_and_chronological_metric_agree": true
+        },
+        "parent_frames_above_transverse_tolerance": 1,
+        "parent_maximum_transverse_stress_residual_N_m": 0.18758288049545474
+      },
+      {
+        "case_id": "ext__S2_slit_45deg",
+        "status": "completed",
+        "saved_frame_screen": {
+          "n_frames": 117,
+          "end_strain": 0.6612500000000004,
+          "frames_above_force_tolerance": 25,
+          "frames_above_transverse_tolerance": 11,
+          "maximum_force_residual_eV_A": 1.0144736766815186
+        },
+        "reproduction": {
+          "maximum_stress_relative": -0.3418187011299404,
+          "integral_relative": -0.007160801527930638,
+          "stop_strain_difference": -0.0025000000000000022,
+          "first_damage_strain_difference": -0.0025000000000000022,
+          "shared_interval_normalized_stress_rmse": 0.2098472066635382,
+          "curve_rmse_note": "Linear interpolation is a diagnostic over the shared strain interval; event locations are also compared separately."
+        },
+        "reproduction_flags": [
+          "maximum_stress_relative exceeds 2% diagnostic trigger"
+        ],
+        "quality": {
+          "all_recorded_values_finite": true,
+          "force_tolerance_eV_A": 0.02,
+          "frames_above_force_tolerance": 25,
+          "maximum_recorded_force_residual_eV_A": 1.0144736766815186,
+          "frames_above_transverse_tolerance": 11,
+          "maximum_transverse_stress_residual_N_m": 0.39892656079889216,
+          "numerical_termination": false,
+          "driver_and_chronological_metric_agree": true
+        },
+        "parent_frames_above_transverse_tolerance": 15,
+        "parent_maximum_transverse_stress_residual_N_m": 1.0374800491995886
+      },
+      {
+        "case_id": "ext__S7_slit_20deg",
+        "status": "running",
+        "saved_frame_screen": {
+          "n_frames": 157,
+          "end_strain": 0.8000000000000006,
+          "frames_above_force_tolerance": 87,
+          "frames_above_transverse_tolerance": 9,
+          "maximum_force_residual_eV_A": 5.134706020355225
+        }
+      },
+      {
+        "case_id": "ext__S7_slit_0deg_armchair",
+        "status": "completed",
+        "saved_frame_screen": {
+          "n_frames": 85,
+          "end_strain": 0.4787500000000003,
+          "frames_above_force_tolerance": 62,
+          "frames_above_transverse_tolerance": 4,
+          "maximum_force_residual_eV_A": 2.545562744140625
+        },
+        "reproduction": {
+          "maximum_stress_relative": 4.647731694396029e-05,
+          "integral_relative": -0.08611669851823123,
+          "stop_strain_difference": 0.0,
+          "first_damage_strain_difference": 0.0,
+          "shared_interval_normalized_stress_rmse": 0.12351848367504063,
+          "curve_rmse_note": "Linear interpolation is a diagnostic over the shared strain interval; event locations are also compared separately."
+        },
+        "reproduction_flags": [
+          "integral_relative exceeds 2% diagnostic trigger"
+        ],
+        "quality": {
+          "all_recorded_values_finite": true,
+          "force_tolerance_eV_A": 0.02,
+          "frames_above_force_tolerance": 62,
+          "maximum_recorded_force_residual_eV_A": 2.545562744140625,
+          "frames_above_transverse_tolerance": 4,
+          "maximum_transverse_stress_residual_N_m": 0.41779166840042375,
+          "numerical_termination": false,
+          "driver_and_chronological_metric_agree": true
+        },
+        "parent_frames_above_transverse_tolerance": 2,
+        "parent_maximum_transverse_stress_residual_N_m": 0.20029230027551426
+      },
+      {
+        "case_id": "ext__S5_H2_D40_W8_ellipseX",
+        "status": "running",
+        "saved_frame_screen": {
+          "n_frames": 61,
+          "end_strain": 0.34875000000000017,
+          "frames_above_force_tolerance": 42,
+          "frames_above_transverse_tolerance": 2,
+          "maximum_force_residual_eV_A": 5.321005821228027
+        }
+      },
+      {
+        "case_id": "ext__P1_slit_35deg",
+        "status": "running",
+        "saved_frame_screen": {
+          "n_frames": 59,
+          "end_strain": 0.3262500000000002,
+          "frames_above_force_tolerance": 22,
+          "frames_above_transverse_tolerance": 18,
+          "maximum_force_residual_eV_A": 3.146538019180298
+        }
+      },
+      {
+        "case_id": "ext__P3_H2_square_W8_ellipse_30deg",
+        "status": "pending"
+      },
+      {
+        "case_id": "ctrl__S2_slit_0deg",
+        "status": "pending"
+      }
+    ],
+    "gate_note": "No automatic scientific approval. Review reproduction, physical stopping, and force/transverse residuals before releasing production."
+  },
+  "new_pilot_completions": [],
+  "production_approved": false,
+  "action": "Continue existing pilot queue. All three active pilots accepted additional frames since the previous review. No recovery, duplicate launch, scientific protocol change, new diagnostic or production release. Completed-result plots and SI remain unchanged; running endpoints remain pending."
+}

@@ -1,0 +1,5939 @@
+[
+  {
+    "parent_run_id": "run_20260904_213950_28a4b8",
+    "name": "mesh64_ds0.005_ref1",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7353529912498447,
+    "alignment": 0.0905290439556696,
+    "min_section": 0.6430952439221483,
+    "modulus": 108.78551340651087,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.409153725142813,
+      "integral": 1.1843064684103688,
+      "end_strain": 0.2087500000000001,
+      "peak_strain": 0.13750000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.2087500000000001,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_215411_b91ca3",
+    "name": "mesh64_ds0.0025_ref1",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7353531651272843,
+    "alignment": 0.09053676299861457,
+    "min_section": 0.643095395984839,
+    "modulus": 112.75440359927686,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.41019177936874,
+      "integral": 1.242754665512779,
+      "end_strain": 0.19375000000000012,
+      "peak_strain": 0.13750000000000007,
+      "failure_observed": true,
+      "failure_strain": 0.19375000000000012,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_221809_fa549b",
+    "name": "mesh64_ds0.005_ref0",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7353532523979782,
+    "alignment": 0.09053436243588758,
+    "min_section": 0.643095395984839,
+    "modulus": 108.78583690317052,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.333428290092993,
+      "integral": 1.1445593180840152,
+      "end_strain": 0.18500000000000008,
+      "peak_strain": 0.13500000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.18500000000000008,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_223417_bd6001",
+    "name": "mesh64_ds0.01_ref1",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7353531651272843,
+    "alignment": 0.0905373442598846,
+    "min_section": 0.643095395984839,
+    "modulus": 107.26703120260952,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.407861648447614,
+      "integral": 1.3046321165044397,
+      "end_strain": 0.21875000000000006,
+      "peak_strain": 0.13749999999999998,
+      "failure_observed": true,
+      "failure_strain": 0.21875000000000006,
+      "stop": "max strain reached"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_230708_ea97d2",
+    "name": "mesh64_fmax0.02",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7353532523979782,
+    "alignment": 0.09053676299861457,
+    "min_section": 0.643095395984839,
+    "modulus": 108.78804229091477,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.412669930901657,
+      "integral": 1.1892016219157981,
+      "end_strain": 0.2087500000000001,
+      "peak_strain": 0.13750000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.2087500000000001,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_233632_604371",
+    "name": "S1_vac_clustered_2pct",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.02,
+      "organisation": "clustered",
+      "cluster_size": 6
+    },
+    "porosity": 0.012725344644750836,
+    "n_atoms": 3724,
+    "rho": 0.9891538236473818,
+    "alignment": 0.09478480665046497,
+    "min_section": 0.9497305004324147,
+    "modulus": 243.54288630023137,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "baseline",
+      "defects"
+    ],
+    "A": {
+      "strength": 24.38538161293056,
+      "integral": 1.733047712218688,
+      "end_strain": 0.12875000000000003,
+      "peak_strain": 0.12375000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.12875000000000003,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_233633_bcd91c",
+    "name": "S1_precrack_L10",
+    "family": "precrack",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "crack_len": 10,
+      "crack_w": 3.0,
+      "angle_deg": 90
+    },
+    "porosity": 0.003976670201484622,
+    "n_atoms": 3757,
+    "rho": 0.9960233470497942,
+    "alignment": -0.09768958946715554,
+    "min_section": 0.9081031731043337,
+    "modulus": 245.26930756488096,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "baseline",
+      "flaw"
+    ],
+    "A": {
+      "strength": 24.07978685256834,
+      "integral": 1.551046050831078,
+      "end_strain": 0.11875000000000004,
+      "peak_strain": 0.11375000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.11875000000000004,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_233634_41365e",
+    "name": "S1_precrack_L20",
+    "family": "precrack",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "crack_len": 20,
+      "crack_w": 3.0,
+      "angle_deg": 90
+    },
+    "porosity": 0.007423117709437932,
+    "n_atoms": 3744,
+    "rho": 0.9925768994821479,
+    "alignment": -0.24052852805764244,
+    "min_section": 0.8111708119302757,
+    "modulus": 235.14818543526687,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "baseline",
+      "flaw"
+    ],
+    "A": {
+      "strength": 18.528891673962043,
+      "integral": 0.8939277567381284,
+      "end_strain": 0.09125000000000001,
+      "peak_strain": 0.08625000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.09125000000000001,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260904_235444_4d6404",
+    "name": "mesh64_fmax0.05",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7354704208052374,
+    "alignment": 0.0905320257636304,
+    "min_section": 0.643167025506456,
+    "modulus": 108.71437637168371,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.42622861894188,
+      "integral": 1.5487230795595572,
+      "end_strain": 0.3412500000000002,
+      "peak_strain": 0.14000000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.3412500000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_000440_9f82a7",
+    "name": "S1_pristine_zz",
+    "family": "pristine",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 40,
+      "Ly": 40,
+      "orientation": "zigzag"
+    },
+    "porosity": 0,
+    "n_atoms": 576,
+    "rho": 1.0000000055536706,
+    "alignment": -0.03210246350193649,
+    "min_section": 1.003901796401944,
+    "modulus": 250.07382077875687,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "baseline"
+    ],
+    "A": {
+      "strength": 38.7945827189091,
+      "integral": 6.725699415080552,
+      "end_strain": 0.27125000000000005,
+      "peak_strain": 0.2700000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.27125000000000005,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_000441_c2d30f",
+    "name": "S1_pristine_ac",
+    "family": "pristine",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 40,
+      "Ly": 40,
+      "orientation": "armchair"
+    },
+    "porosity": 0,
+    "n_atoms": 576,
+    "rho": 1.0000000055536706,
+    "alignment": 0.01560864639524438,
+    "min_section": 1.003484731163622,
+    "modulus": 287.0455527505805,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "baseline"
+    ],
+    "A": {
+      "strength": 30.664912550459526,
+      "integral": 7.0499405224801395,
+      "end_strain": 0.30000000000000004,
+      "peak_strain": 0.18000000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.30000000000000004,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_001145_42c01e",
+    "name": "mesh64_fmax0.01",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7351749013825483,
+    "alignment": 0.08482386883842039,
+    "min_section": 0.6350185739274453,
+    "modulus": 107.93905485211583,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.35150972405225,
+      "integral": 1.1205512360603591,
+      "end_strain": 0.17750000000000007,
+      "peak_strain": 0.13625000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.17750000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_004247_ae6f18",
+    "name": "S1_vac_random_2pct",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.02,
+      "organisation": "random"
+    },
+    "porosity": 0.021474019088016938,
+    "n_atoms": 3691,
+    "rho": 0.9774049711044354,
+    "alignment": 0.027702910269229254,
+    "min_section": 0.96855681313645,
+    "modulus": 245.89120838753163,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "baseline",
+      "defects"
+    ],
+    "A": {
+      "strength": 23.56107297031853,
+      "integral": 1.863650835200804,
+      "end_strain": 0.14250000000000004,
+      "peak_strain": 0.12750000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.14250000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_014208_672a62",
+    "name": "mesh64_fmax0.005",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7351984866009518,
+    "alignment": 0.08235793587018896,
+    "min_section": 0.6350641250324094,
+    "modulus": 109.03638596135072,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.350006598613787,
+      "integral": 1.1135819068762445,
+      "end_strain": 0.17250000000000007,
+      "peak_strain": 0.13625000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.17250000000000007,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_020424_c47485",
+    "name": "S2_H1_p16",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 16,
+      "pore_d": 7.125
+    },
+    "porosity": 0.20699708454810495,
+    "n_atoms": 4352,
+    "rho": 0.786657135885052,
+    "alignment": 0.07681396793700626,
+    "min_section": 0.680654932899306,
+    "modulus": 122.68601248628048,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H1"
+    ],
+    "A": {
+      "strength": 11.730279190083008,
+      "integral": 0.8875342091287264,
+      "end_strain": 0.1325,
+      "peak_strain": 0.11750000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.1325,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_020648_a7f3af",
+    "name": "S2_H2_D60_W8",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 60,
+      "vein_w": 8,
+      "pore_d": 6.5
+    },
+    "porosity": 0.20408163265306123,
+    "n_atoms": 4368,
+    "rho": 0.790145438894197,
+    "alignment": 0.09926254592009055,
+    "min_section": 0.7554514774972949,
+    "modulus": 125.56537718883004,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H2"
+    ],
+    "A": {
+      "strength": 12.736612121417558,
+      "integral": 0.9946273074114191,
+      "end_strain": 0.13875,
+      "peak_strain": 0.12375,
+      "failure_observed": true,
+      "failure_strain": 0.13875,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_022450_bb0a88",
+    "name": "S1_precrack_L30",
+    "family": "precrack",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "crack_len": 30,
+      "crack_w": 3.0,
+      "angle_deg": 90
+    },
+    "porosity": 0.011930010604453867,
+    "n_atoms": 3727,
+    "rho": 0.9880700065090718,
+    "alignment": -0.39946517414965305,
+    "min_section": 0.6887299346577812,
+    "modulus": 223.6915065582745,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "baseline",
+      "flaw"
+    ],
+    "A": {
+      "strength": 18.72430371079246,
+      "integral": 1.049420128215088,
+      "end_strain": 0.10375000000000004,
+      "peak_strain": 0.09875000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.10375000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_022451_06904f",
+    "name": "S1_mesh_p16_phi0.2",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "pore_d": 8.0,
+      "period": 16
+    },
+    "porosity": 0.22216330858960764,
+    "n_atoms": 2934,
+    "rho": 0.7692864924248625,
+    "alignment": 0.03811767644537466,
+    "min_section": 0.7153033877799582,
+    "modulus": 118.66176346755539,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "baseline",
+      "mesh"
+    ],
+    "A": {
+      "strength": 11.952457173412316,
+      "integral": 1.1190236139007597,
+      "end_strain": 0.17125000000000004,
+      "peak_strain": 0.14125000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.17125000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_022451_45aa60",
+    "name": "S1_hole_d20",
+    "family": "ring_around_hole",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "hole_d": 20,
+      "n_rings": 0
+    },
+    "porosity": 0.0328738069989396,
+    "n_atoms": 3648,
+    "rho": 0.966582971230793,
+    "alignment": -0.004542779008917553,
+    "min_section": 0.810942981116408,
+    "modulus": 229.65404844130688,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "baseline",
+      "flaw"
+    ],
+    "A": {
+      "strength": 19.06248592506963,
+      "integral": 0.993441735915588,
+      "end_strain": 0.0975,
+      "peak_strain": 0.0925,
+      "failure_observed": true,
+      "failure_strain": 0.0975,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_024852_d10166",
+    "name": "S2_H2_D24_W8",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 24,
+      "vein_w": 8,
+      "pore_d": 8.5
+    },
+    "porosity": 0.19369533527696792,
+    "n_atoms": 4425,
+    "rho": 0.8009927979435533,
+    "alignment": 0.05116278165225218,
+    "min_section": 0.7318340205444177,
+    "modulus": 149.3038826045279,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H2"
+    ],
+    "A": {
+      "strength": 14.343101785553694,
+      "integral": 1.3110922492630566,
+      "end_strain": 0.1575,
+      "peak_strain": 0.13749999999999998,
+      "failure_observed": true,
+      "failure_strain": 0.1575,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_031005_754f45",
+    "name": "S2_H1_square_D40",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "square",
+      "stagger": false,
+      "pore_d": 17.594
+    },
+    "porosity": 0.20225947521865895,
+    "n_atoms": 4378,
+    "rho": 0.7941342576388171,
+    "alignment": 0.03032304399366119,
+    "min_section": 0.5523436778204638,
+    "modulus": 150.53730407477715,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "hierarchy",
+      "H1"
+    ],
+    "A": {
+      "strength": 17.02344565429412,
+      "integral": 1.767575390265568,
+      "end_strain": 0.17,
+      "peak_strain": 0.165,
+      "failure_observed": true,
+      "failure_strain": 0.17,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_034641_97994f",
+    "name": "mesh_size32",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 32,
+      "Ly": 32,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.1875,
+    "n_atoms": 338,
+    "rho": 0.8049026643533969,
+    "alignment": 0.1116606608098124,
+    "min_section": 0.6992149044786742,
+    "modulus": 143.32362024725032,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 16.090130813271116,
+      "integral": 1.8013147089101689,
+      "end_strain": 0.2187500000000001,
+      "peak_strain": 0.15875000000000006,
+      "failure_observed": true,
+      "failure_strain": 0.2187500000000001,
+      "stop": "max strain reached"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_034642_25e33e",
+    "name": "mesh_size96",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 96,
+      "Ly": 96,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.23913043478260865,
+    "n_atoms": 2730,
+    "rho": 0.7488748595533641,
+    "alignment": 0.12378460746190205,
+    "min_section": 0.7083615325618673,
+    "modulus": 128.00968592397496,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 12.060432957370876,
+      "integral": 1.0762107833334502,
+      "end_strain": 0.18625000000000008,
+      "peak_strain": 0.13625000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.18625000000000008,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_034642_cb1ad9",
+    "name": "mesh_size64",
+    "family": "nanomesh_single",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 64,
+      "Ly": 64,
+      "pore_d": 8,
+      "period": 16
+    },
+    "porosity": 0.25384615384615383,
+    "n_atoms": 1164,
+    "rho": 0.7353531651272843,
+    "alignment": 0.09052846273229757,
+    "min_section": 0.643095395984839,
+    "modulus": 108.78608997066807,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 11.415782183636063,
+      "integral": 1.374411177113438,
+      "end_strain": 0.2937500000000002,
+      "peak_strain": 0.13750000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.2937500000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_034643_5518f4",
+    "name": "precrack12_cell60",
+    "family": "precrack",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 60,
+      "Ly": 60,
+      "crack_len": 12
+    },
+    "porosity": 0.011904761904761862,
+    "n_atoms": 1328,
+    "rho": 0.9884170880712911,
+    "alignment": -0.3263228723397534,
+    "min_section": 0.8297044565099378,
+    "modulus": 232.1756208862398,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [],
+    "A": {
+      "strength": 21.209468555794583,
+      "integral": 1.2603833658595611,
+      "end_strain": 0.11000000000000003,
+      "peak_strain": 0.10500000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.11000000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_034643_89e152",
+    "name": "precrack12_cell90",
+    "family": "precrack",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 90,
+      "Ly": 90,
+      "crack_len": 12
+    },
+    "porosity": 0.005148005148005175,
+    "n_atoms": 3092,
+    "rho": 0.9948519638967649,
+    "alignment": -0.30520996160821934,
+    "min_section": 0.8828375723460511,
+    "modulus": 242.0144556041528,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [],
+    "A": {
+      "strength": 21.86427736338514,
+      "integral": 1.2423723309117465,
+      "end_strain": 0.10625000000000002,
+      "peak_strain": 0.10125000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.10625000000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_034643_c6b45e",
+    "name": "precrack12_cell40",
+    "family": "precrack",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "Lx": 40,
+      "Ly": 40,
+      "crack_len": 12
+    },
+    "porosity": 0.03125,
+    "n_atoms": 558,
+    "rho": 0.9665985852297829,
+    "alignment": -0.27823746718903264,
+    "min_section": 0.6900774721138039,
+    "modulus": 206.78979126547944,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [],
+    "A": {
+      "strength": 22.018511020986484,
+      "integral": 1.8676809607833018,
+      "end_strain": 0.14625000000000005,
+      "peak_strain": 0.14125000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.14625000000000005,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_035837_63294b",
+    "name": "S2_H2_D40_W8",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "pore_d": 7.0
+    },
+    "porosity": 0.20244169096209907,
+    "n_atoms": 4377,
+    "rho": 0.7923006513739054,
+    "alignment": 0.12664127697031327,
+    "min_section": 0.7685854622743687,
+    "modulus": 132.34409418236322,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H2"
+    ],
+    "A": {
+      "strength": 12.825362415333455,
+      "integral": 1.3349724896230593,
+      "end_strain": 0.20625000000000007,
+      "peak_strain": 0.12625,
+      "failure_observed": true,
+      "failure_strain": 0.20625000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_041909_c1c0d1",
+    "name": "S2_H3_D30_120",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 3,
+      "period": 10,
+      "domain": 30,
+      "vein_w": 5,
+      "level3_domain": 120,
+      "level3_vein": 12,
+      "pore_d": 5.625
+    },
+    "porosity": 0.1964285714285714,
+    "n_atoms": 4410,
+    "rho": 0.8002397306808012,
+    "alignment": 0.04082033985879299,
+    "min_section": 0.7443040875763562,
+    "modulus": 128.68169610105966,
+    "level": 3,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H3"
+    ],
+    "A": {
+      "strength": 12.97840044838019,
+      "integral": 1.2017900128744898,
+      "end_strain": 0.15250000000000002,
+      "peak_strain": 0.14250000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.15250000000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_042025_536ad9",
+    "name": "mesh_rep1",
+    "family": "repeat",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "base_family": "nanomesh_single",
+      "base_params": {
+        "Lx": 32,
+        "Ly": 32,
+        "pore_d": 8,
+        "period": 16
+      },
+      "reps": [
+        1,
+        1
+      ]
+    },
+    "porosity": 0.1875,
+    "n_atoms": 338,
+    "rho": 0.8049026580451404,
+    "alignment": 0.1116606608098124,
+    "min_section": 0.6992149821874807,
+    "modulus": 143.32461147802059,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 16.07940457126043,
+      "integral": 1.6575196149340867,
+      "end_strain": 0.17500000000000007,
+      "peak_strain": 0.16000000000000006,
+      "failure_observed": true,
+      "failure_strain": 0.17500000000000007,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_042529_bc8f81",
+    "name": "S2_H1_p12",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 12,
+      "pore_d": 5.625
+    },
+    "porosity": 0.19861516034985427,
+    "n_atoms": 4398,
+    "rho": 0.7997686383917044,
+    "alignment": 0.07859168630349356,
+    "min_section": 0.7241957245621746,
+    "modulus": 123.54947699745577,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H1"
+    ],
+    "A": {
+      "strength": 13.26169757477628,
+      "integral": 1.4498308908654158,
+      "end_strain": 0.22125000000000006,
+      "peak_strain": 0.14625,
+      "failure_observed": true,
+      "failure_strain": 0.22125000000000006,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_043137_30624b",
+    "name": "S2_H2_D40_W12",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 12,
+      "pore_d": 8.0
+    },
+    "porosity": 0.19679300291545188,
+    "n_atoms": 4408,
+    "rho": 0.7963970307743723,
+    "alignment": 0.13020842026930032,
+    "min_section": 0.7390252111676351,
+    "modulus": 145.26556603214524,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H2"
+    ],
+    "A": {
+      "strength": 13.739143310458255,
+      "integral": 1.399629592046286,
+      "end_strain": 0.21250000000000008,
+      "peak_strain": 0.1275,
+      "failure_observed": true,
+      "failure_strain": 0.21250000000000008,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_050158_ac989f",
+    "name": "S2_H1_p32",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 32,
+      "pore_d": 14.938
+    },
+    "porosity": 0.20262390670553931,
+    "n_atoms": 4376,
+    "rho": 0.7902892915251513,
+    "alignment": 0.08206359188045609,
+    "min_section": 0.7385107626079981,
+    "modulus": 145.8244637726779,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "hierarchy",
+      "H1"
+    ],
+    "A": {
+      "strength": 16.442301452848554,
+      "integral": 1.944318640913679,
+      "end_strain": 0.2637500000000001,
+      "peak_strain": 0.16375,
+      "failure_observed": true,
+      "failure_strain": 0.2637500000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_050302_a76edc",
+    "name": "mesh_rep3",
+    "family": "repeat",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "base_family": "nanomesh_single",
+      "base_params": {
+        "Lx": 32,
+        "Ly": 32,
+        "pore_d": 8,
+        "period": 16
+      },
+      "reps": [
+        3,
+        3
+      ]
+    },
+    "porosity": 0.1875,
+    "n_atoms": 3042,
+    "rho": 0.8049025685904998,
+    "alignment": 0.2199371859652711,
+    "min_section": 0.7429158360085913,
+    "modulus": 143.32318379534556,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 16.008146493771683,
+      "integral": 1.861053488568771,
+      "end_strain": 0.25375000000000014,
+      "peak_strain": 0.15875000000000006,
+      "failure_observed": true,
+      "failure_strain": 0.25375000000000014,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_050702_219e12",
+    "name": "mesh_rep2",
+    "family": "repeat",
+    "source_phase": "original validation",
+    "campaign": "validation",
+    "params": {
+      "base_family": "nanomesh_single",
+      "base_params": {
+        "Lx": 32,
+        "Ly": 32,
+        "pore_d": 8,
+        "period": 16
+      },
+      "reps": [
+        2,
+        2
+      ]
+    },
+    "porosity": 0.1875,
+    "n_atoms": 1352,
+    "rho": 0.8049026643533969,
+    "alignment": 0.16625993488534366,
+    "min_section": 0.7064983930669937,
+    "modulus": 143.3255677926385,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [],
+    "A": {
+      "strength": 16.072041739538346,
+      "integral": 1.8678666600642087,
+      "end_strain": 0.2500000000000001,
+      "peak_strain": 0.16000000000000006,
+      "failure_observed": true,
+      "failure_strain": 0.2500000000000001,
+      "stop": "max strain reached"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_051142_6cf812",
+    "name": "S2_H2_D40_W4",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 4,
+      "pore_d": 6.25
+    },
+    "porosity": 0.20408163265306123,
+    "n_atoms": 4368,
+    "rho": 0.7915806353132262,
+    "alignment": 0.04622051197106552,
+    "min_section": 0.7654719230941561,
+    "modulus": 131.34843897413595,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "hierarchy",
+      "H2"
+    ],
+    "A": {
+      "strength": 13.220040754731029,
+      "integral": 1.4962551581131505,
+      "end_strain": 0.2612500000000001,
+      "peak_strain": 0.14125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 13.23273232847765,
+      "integral": 1.4047851987294617,
+      "end_strain": 0.2612500000000001,
+      "peak_strain": 0.14125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 13.23273232847765,
+      "integral": 1.4641007962905719,
+      "end_strain": 0.2912500000000001,
+      "peak_strain": 0.14125,
+      "failure_observed": true,
+      "failure_strain": 0.2912500000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S2_H2_D40_W4",
+    "residual_flag": true,
+    "residual_fraction": 0.22448979591836735
+  },
+  {
+    "parent_run_id": "run_20260905_062906_d8b95e",
+    "name": "S2_voronoi_n50_reg0.0",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 50,
+      "regularity": 0.0,
+      "seed": 1,
+      "ligament_w": 5.375
+    },
+    "porosity": 0.19512195121951215,
+    "n_atoms": 3036,
+    "rho": 0.8004871708636545,
+    "alignment": 0.00954271680861151,
+    "min_section": 0.6821644824588864,
+    "modulus": 133.91535894916248,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "disorder",
+      "network"
+    ],
+    "A": {
+      "strength": 8.190801726148306,
+      "integral": 0.5343195018387942,
+      "end_strain": 0.11125000000000004,
+      "peak_strain": 0.07125000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.11125000000000004,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_063939_a8266e",
+    "name": "S2_voronoi_n25_reg1.0",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 1.0,
+      "seed": 1,
+      "ligament_w": 11.562
+    },
+    "porosity": 0.19803817603393425,
+    "n_atoms": 3025,
+    "rho": 0.7967543600939229,
+    "alignment": -0.002620571834816906,
+    "min_section": 0.6863713773602705,
+    "modulus": 134.30781073149953,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "disorder",
+      "network"
+    ],
+    "A": {
+      "strength": 13.324087785161101,
+      "integral": 1.2012742536654364,
+      "end_strain": 0.15625000000000003,
+      "peak_strain": 0.13125,
+      "failure_observed": true,
+      "failure_strain": 0.15625000000000003,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_073634_1a440a",
+    "name": "S2_slit_0deg",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 0,
+      "slit_len": 26.5
+    },
+    "porosity": 0.20466595970307533,
+    "n_atoms": 3000,
+    "rho": 0.7948433749537862,
+    "alignment": 0.7271307217934133,
+    "min_section": 0.7996701209603713,
+    "modulus": 199.62960214837233,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "anisotropy"
+    ],
+    "A": {
+      "strength": 25.402063572458648,
+      "integral": 3.253119386927841,
+      "end_strain": 0.21875000000000006,
+      "peak_strain": 0.20250000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.21875000000000006,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_073820_8a1c2e",
+    "name": "S2_mesh_jitter1.0",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "jitter": 1.0,
+      "seed": 1,
+      "pore_d": 7.469
+    },
+    "porosity": 0.19406150583244963,
+    "n_atoms": 3040,
+    "rho": 0.7987807682752797,
+    "alignment": 0.055141671702926,
+    "min_section": 0.7062972424995445,
+    "modulus": 126.65129414816663,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "disorder"
+    ],
+    "A": {
+      "strength": 12.661237160977596,
+      "integral": 1.2176800354819433,
+      "end_strain": 0.2137500000000001,
+      "peak_strain": 0.12875000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.2137500000000001,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_075245_04a0f9",
+    "name": "S2_mesh_jitter3.0",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "jitter": 3.0,
+      "seed": 1,
+      "pore_d": 7.469
+    },
+    "porosity": 0.19326617179215266,
+    "n_atoms": 3043,
+    "rho": 0.7990863233858236,
+    "alignment": 0.04678845288665009,
+    "min_section": 0.731153334902993,
+    "modulus": 132.7090472448299,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "disorder"
+    ],
+    "A": {
+      "strength": 11.090511186593979,
+      "integral": 1.1816823447778524,
+      "end_strain": 0.22375000000000012,
+      "peak_strain": 0.10375000000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 11.104436583762771,
+      "integral": 0.9108552869207444,
+      "end_strain": 0.16875000000000007,
+      "peak_strain": 0.10375000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.16875000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "C": {
+      "strength": 11.104436583762771,
+      "integral": 0.9108552869207444,
+      "end_strain": 0.16875000000000007,
+      "peak_strain": 0.10375000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.16875000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S2_mesh_jitter3.0",
+    "residual_flag": true,
+    "residual_fraction": 0.18518518518518517
+  },
+  {
+    "parent_run_id": "run_20260905_075246_a0708e",
+    "name": "S2_mesh_sizedis0.15",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "size_disorder": 0.15,
+      "seed": 1,
+      "pore_d": 7.469
+    },
+    "porosity": 0.19512195121951215,
+    "n_atoms": 3036,
+    "rho": 0.7966769839574872,
+    "alignment": 0.04157784983871013,
+    "min_section": 0.7459852289567457,
+    "modulus": 131.67250742774158,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "disorder"
+    ],
+    "A": {
+      "strength": 12.043702808351535,
+      "integral": 1.108229955885177,
+      "end_strain": 0.22375000000000012,
+      "peak_strain": 0.11875000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.22375000000000012,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_075603_4884d2",
+    "name": "S2_mesh_jitter2.0",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "jitter": 2.0,
+      "seed": 1,
+      "pore_d": 7.469
+    },
+    "porosity": 0.19565217391304346,
+    "n_atoms": 3034,
+    "rho": 0.7974283153552495,
+    "alignment": 0.05589186149094547,
+    "min_section": 0.710717094542313,
+    "modulus": 133.70299553442203,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "disorder"
+    ],
+    "A": {
+      "strength": 11.800956644784849,
+      "integral": 1.4297499333135135,
+      "end_strain": 0.2412500000000001,
+      "peak_strain": 0.12125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 11.815217237016475,
+      "integral": 1.389314668241886,
+      "end_strain": 0.2412500000000001,
+      "peak_strain": 0.12125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 11.815217237016475,
+      "integral": 1.5282535494084473,
+      "end_strain": 0.30125000000000013,
+      "peak_strain": 0.12125,
+      "failure_observed": true,
+      "failure_strain": 0.30125000000000013,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S2_mesh_jitter2.0",
+    "residual_flag": true,
+    "residual_fraction": 0.37254901960784315
+  },
+  {
+    "parent_run_id": "run_20260905_083545_83098b",
+    "name": "S2_strut_060120",
+    "family": "strut_lattice",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "spacing": 25,
+      "angles_deg": [
+        0,
+        60,
+        120
+      ],
+      "strut_w": 5.938
+    },
+    "porosity": 0.45281018027571585,
+    "n_atoms": 2064,
+    "rho": 0.5306781801024689,
+    "alignment": 0.06239447367361248,
+    "min_section": 0.4020038853341823,
+    "modulus": 68.21925461650613,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "loadpath",
+      "connectivity"
+    ],
+    "A": {
+      "strength": 7.403231321897408,
+      "integral": 0.6495185457025799,
+      "end_strain": 0.15625,
+      "peak_strain": 0.15,
+      "failure_observed": true,
+      "failure_strain": 0.15625,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_084045_6ac365",
+    "name": "S2_mesh_sizedis0.3",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "size_disorder": 0.3,
+      "seed": 1,
+      "pore_d": 7.469
+    },
+    "porosity": 0.2065217391304348,
+    "n_atoms": 2993,
+    "rho": 0.7849747456789667,
+    "alignment": 0.06963507343934733,
+    "min_section": 0.7307663597254844,
+    "modulus": 134.4657043773184,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "disorder"
+    ],
+    "A": {
+      "strength": 11.338211743283122,
+      "integral": 0.9356668560622985,
+      "end_strain": 0.2212500000000001,
+      "peak_strain": 0.10125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 11.359652767644231,
+      "integral": 0.9731358422570502,
+      "end_strain": 0.2212500000000001,
+      "peak_strain": 0.10125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 11.359652767644231,
+      "integral": 1.0313933681919167,
+      "end_strain": 0.25125000000000014,
+      "peak_strain": 0.10125,
+      "failure_observed": true,
+      "failure_strain": 0.25125000000000014,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S2_mesh_sizedis0.3",
+    "residual_flag": true,
+    "residual_fraction": 0.5813953488372093
+  },
+  {
+    "parent_run_id": "run_20260905_084045_a9b4c1",
+    "name": "S2_voronoi_n25_reg0.0",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.0,
+      "seed": 1,
+      "ligament_w": 7.062
+    },
+    "porosity": 0.20201484623541888,
+    "n_atoms": 3010,
+    "rho": 0.7935978186123545,
+    "alignment": 0.037823667990038425,
+    "min_section": 0.6304457988764648,
+    "modulus": 130.52560654988895,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "disorder",
+      "network"
+    ],
+    "A": {
+      "strength": 9.656994589512157,
+      "integral": 0.7362259498568241,
+      "end_strain": 0.20750000000000013,
+      "peak_strain": 0.08750000000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 9.648044594842982,
+      "integral": 0.740670592371777,
+      "end_strain": 0.20750000000000013,
+      "peak_strain": 0.08750000000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 9.648044594842982,
+      "integral": 0.8969038041640298,
+      "end_strain": 0.3125000000000002,
+      "peak_strain": 0.08750000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.3125000000000002,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S2_voronoi_n25_reg0.0",
+    "residual_flag": true,
+    "residual_fraction": 0.3103448275862069
+  },
+  {
+    "parent_run_id": "run_20260905_090516_cbfca1",
+    "name": "S2_voronoi_n25_reg0.6",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.6,
+      "seed": 1,
+      "ligament_w": 8.188
+    },
+    "porosity": 0.19697773064687174,
+    "n_atoms": 3029,
+    "rho": 0.7991320927545562,
+    "alignment": 0.07076926276046104,
+    "min_section": 0.677397366149079,
+    "modulus": 160.86068279773113,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "disorder",
+      "network"
+    ],
+    "A": {
+      "strength": 14.373978885173672,
+      "integral": 1.5639778842833911,
+      "end_strain": 0.23125000000000012,
+      "peak_strain": 0.11125000000000003,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 14.40353907883454,
+      "integral": 1.5723451745138988,
+      "end_strain": 0.23125000000000012,
+      "peak_strain": 0.11125000000000003,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 14.40353907883454,
+      "integral": 1.7608316910014836,
+      "end_strain": 0.3262500000000002,
+      "peak_strain": 0.11125000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.3262500000000002,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S2_voronoi_n25_reg0.6",
+    "residual_flag": true,
+    "residual_fraction": 0.6440677966101694
+  },
+  {
+    "parent_run_id": "run_20260905_090915_c4509a",
+    "name": "S2_slit_90deg",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 90,
+      "slit_len": 28.0
+    },
+    "porosity": 0.1866383881230117,
+    "n_atoms": 3068,
+    "rho": 0.8128755313900176,
+    "alignment": -0.6153679859828586,
+    "min_section": 0.15719620386073188,
+    "modulus": 43.417928847278965,
+    "level": 1,
+    "ligament_class": "bridges",
+    "tags": [
+      "anisotropy"
+    ],
+    "A": {
+      "strength": 3.972316949509993,
+      "integral": 0.6210136062776523,
+      "end_strain": 0.2812500000000001,
+      "peak_strain": 0.16,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 3.9825224932072625,
+      "integral": 0.5423362362681987,
+      "end_strain": 0.23875000000000007,
+      "peak_strain": 0.16,
+      "failure_observed": true,
+      "failure_strain": 0.23875000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "C": {
+      "strength": 3.9825224932072625,
+      "integral": 0.5423362362681987,
+      "end_strain": 0.23875000000000007,
+      "peak_strain": 0.16,
+      "failure_observed": true,
+      "failure_strain": 0.23875000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S2_slit_90deg",
+    "residual_flag": true,
+    "residual_fraction": 0.08823529411764706
+  },
+  {
+    "parent_run_id": "run_20260905_091359_4df2c2",
+    "name": "S2_slit_45deg",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 45,
+      "slit_len": 22.065
+    },
+    "porosity": 0.1813361611876988,
+    "n_atoms": 3088,
+    "rho": 0.808176073986791,
+    "alignment": 0.006161082679627837,
+    "min_section": 0.8160497186250408,
+    "modulus": 2.1876734740583563,
+    "level": 1,
+    "ligament_class": "oblique",
+    "tags": [
+      "anisotropy"
+    ],
+    "A": {
+      "strength": 18.542979416317962,
+      "integral": 1.310311026159506,
+      "end_strain": 0.32375000000000015,
+      "peak_strain": 0.32375000000000015,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 12.204642277152937,
+      "integral": 1.3009281489613185,
+      "end_strain": 0.32125000000000015,
+      "peak_strain": 0.2612500000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "C": {
+      "strength": 12.204642277152937,
+      "integral": 2.4287251401430208,
+      "end_strain": 0.6612500000000004,
+      "peak_strain": 0.2612500000000001,
+      "failure_observed": true,
+      "failure_strain": 0.6612500000000004,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S2_slit_45deg",
+    "residual_flag": true,
+    "residual_fraction": 0.27350427350427353
+  },
+  {
+    "parent_run_id": "run_20260905_095201_48aa15",
+    "name": "S2_ellipse_90deg",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "aspect": 2.0,
+      "angle_deg": 90,
+      "pore_d": 5.234
+    },
+    "porosity": 0.19406150583244963,
+    "n_atoms": 3040,
+    "rho": 0.8004923419385842,
+    "alignment": 0.3509922339711171,
+    "min_section": 0.7829389867932736,
+    "modulus": 171.17514670492542,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "anisotropy"
+    ],
+    "A": {
+      "strength": 18.95017743455814,
+      "integral": 1.944738814878329,
+      "end_strain": 0.19125000000000003,
+      "peak_strain": 0.15625,
+      "failure_observed": true,
+      "failure_strain": 0.19125000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_100024_055107",
+    "name": "S2_graded_x",
+    "family": "graded_pores",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "pore_d_min": 4.0,
+      "mode": "x",
+      "pore_d_max": 10.875
+    },
+    "porosity": 0.20413573700954402,
+    "n_atoms": 3002,
+    "rho": 0.7882694551288687,
+    "alignment": 0.05648131234469689,
+    "min_section": 0.6049465035311113,
+    "modulus": 131.31428782495706,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "gradient"
+    ],
+    "A": {
+      "strength": 10.093572311763984,
+      "integral": 0.5099577096791301,
+      "end_strain": 0.09625000000000002,
+      "peak_strain": 0.09000000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.09625000000000002,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_103535_0fd5e6",
+    "name": "S2_strut_3090150",
+    "family": "strut_lattice",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "spacing": 25,
+      "angles_deg": [
+        30,
+        90,
+        150
+      ],
+      "strut_w": 6.5
+    },
+    "porosity": 0.4453870625662778,
+    "n_atoms": 2092,
+    "rho": 0.546645053198268,
+    "alignment": 0.02762811207857919,
+    "min_section": 0.268181980673863,
+    "modulus": 63.54202640590101,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "loadpath",
+      "connectivity"
+    ],
+    "A": {
+      "strength": 6.005290285145375,
+      "integral": 0.565827487739675,
+      "end_strain": 0.17250000000000001,
+      "peak_strain": 0.12749999999999997,
+      "failure_observed": true,
+      "failure_strain": 0.17250000000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_103837_fde9bb",
+    "name": "S2_ellipse_0deg",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "aspect": 2.0,
+      "angle_deg": 0,
+      "pore_d": 5.406
+    },
+    "porosity": 0.2025450689289502,
+    "n_atoms": 3008,
+    "rho": 0.7940700050755128,
+    "alignment": -0.23527460644518222,
+    "min_section": 0.5964695963365462,
+    "modulus": 87.68834562684711,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "anisotropy"
+    ],
+    "A": {
+      "strength": 8.608941810000884,
+      "integral": 1.0717476160300716,
+      "end_strain": 0.23625000000000007,
+      "peak_strain": 0.14125,
+      "failure_observed": true,
+      "failure_strain": 0.23625000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_104555_3e8359",
+    "name": "S2_hole20_rings2",
+    "family": "ring_around_hole",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "hole_d": 20,
+      "n_rings": 2,
+      "ring_pore_d": 5.0,
+      "ring_gap": 8.0
+    },
+    "porosity": 0.10339342523860018,
+    "n_atoms": 3382,
+    "rho": 0.8961153477575472,
+    "alignment": 0.034158847419513756,
+    "min_section": 0.6632481634653621,
+    "modulus": 177.57795713869683,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "flaw",
+      "gradient"
+    ],
+    "A": {
+      "strength": 16.24465478226591,
+      "integral": 1.0247833761839253,
+      "end_strain": 0.12375000000000004,
+      "peak_strain": 0.10875000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.12375000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_104556_f1cd60",
+    "name": "S2_hole20_background",
+    "family": "ring_around_hole",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "hole_d": 20,
+      "n_rings": 0,
+      "background": {
+        "pore_d": 4.75,
+        "period": 16
+      }
+    },
+    "porosity": 0.10418875927889715,
+    "n_atoms": 3379,
+    "rho": 0.8958112562366928,
+    "alignment": 0.02557728404484684,
+    "min_section": 0.6836282314380939,
+    "modulus": 171.08459393925014,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "flaw",
+      "gradient"
+    ],
+    "A": {
+      "strength": 13.214099875853847,
+      "integral": 0.9158296051591206,
+      "end_strain": 0.12000000000000004,
+      "peak_strain": 0.10500000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.12000000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_112945_ca2661",
+    "name": "S2_graded_radial",
+    "family": "graded_pores",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "pore_d_min": 4.0,
+      "mode": "radial",
+      "pore_d_max": 15.0
+    },
+    "porosity": 0.18345705196182394,
+    "n_atoms": 3080,
+    "rho": 0.8136009177236355,
+    "alignment": 0.023881989723757994,
+    "min_section": 0.6525025486047273,
+    "modulus": 134.94954358131167,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "gradient"
+    ],
+    "A": {
+      "strength": 9.967150294660973,
+      "integral": 0.7637188881663172,
+      "end_strain": 0.1987500000000001,
+      "peak_strain": 0.0825,
+      "failure_observed": true,
+      "failure_strain": 0.1987500000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_113026_5343ac",
+    "name": "S2_strut_090",
+    "family": "strut_lattice",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "spacing": 25,
+      "angles_deg": [
+        0,
+        90
+      ],
+      "strut_w": 8.609
+    },
+    "porosity": 0.44326617179215266,
+    "n_atoms": 2100,
+    "rho": 0.5464170936293815,
+    "alignment": 0.22690304084762708,
+    "min_section": 0.38032852237973985,
+    "modulus": 94.43925937505294,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "loadpath",
+      "connectivity"
+    ],
+    "A": {
+      "strength": 11.51238616472218,
+      "integral": 1.7440847023620307,
+      "end_strain": 0.3200000000000001,
+      "peak_strain": 0.20375000000000004,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 11.513946588461982,
+      "integral": 1.7322711157559598,
+      "end_strain": 0.32375000000000015,
+      "peak_strain": 0.20250000000000004,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "C": {
+      "strength": 11.513946588461982,
+      "integral": 2.220625852946175,
+      "end_strain": 0.6087500000000003,
+      "peak_strain": 0.20250000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.6087500000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S2_strut_090",
+    "residual_flag": true,
+    "residual_fraction": 0.6153846153846154
+  },
+  {
+    "parent_run_id": "run_20260905_115414_a54950",
+    "name": "S2_mesh_phi0.3",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "pore_d": 9.312
+    },
+    "porosity": 0.30381760339342523,
+    "n_atoms": 2626,
+    "rho": 0.6832704957520503,
+    "alignment": 0.06268863918477524,
+    "min_section": 0.6163173088411568,
+    "modulus": 104.11648484954802,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "porosity"
+    ],
+    "A": {
+      "strength": 9.435562439071948,
+      "integral": 0.8726692124987216,
+      "end_strain": 0.21250000000000008,
+      "peak_strain": 0.1225,
+      "failure_observed": true,
+      "failure_strain": 0.21250000000000008,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_123014_c3cd45",
+    "name": "S4_circle_D40_sameMinSF",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "circle",
+      "stagger": false,
+      "pore_d": 17.594
+    },
+    "porosity": 0.15779883381924198,
+    "n_atoms": 4622,
+    "rho": 0.8385071416146214,
+    "alignment": 0.03264315486674136,
+    "min_section": 0.5519593619674741,
+    "modulus": 170.1867580945056,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage4",
+      "pairAB"
+    ],
+    "A": {
+      "strength": 16.0525202082721,
+      "integral": 1.1152541650190702,
+      "end_strain": 0.12375,
+      "peak_strain": 0.11875,
+      "failure_observed": true,
+      "failure_strain": 0.12375,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_125037_61a235",
+    "name": "S4_precrack_L30_cell150",
+    "family": "precrack",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 150,
+      "Ly": 150,
+      "crack_len": 30,
+      "crack_w": 3.0,
+      "angle_deg": 90
+    },
+    "porosity": 0.005269320843091285,
+    "n_atoms": 8495,
+    "rho": 0.9947306542333249,
+    "alignment": -0.35040053295323687,
+    "min_section": 0.7945538286601298,
+    "modulus": 238.62478341224264,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage4",
+      "flaw"
+    ],
+    "A": {
+      "strength": 19.447673755822063,
+      "integral": 0.9926119225666935,
+      "end_strain": 0.09625000000000003,
+      "peak_strain": 0.09125000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.09625000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_130609_6f505d",
+    "name": "S4_circle_D40_samePhi",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "circle",
+      "stagger": false,
+      "pore_d": 20.016
+    },
+    "porosity": 0.20371720116618075,
+    "n_atoms": 4370,
+    "rho": 0.7930185666284615,
+    "alignment": 0.028770254796425705,
+    "min_section": 0.5102160734113563,
+    "modulus": 153.5661792067384,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage4",
+      "pairAB"
+    ],
+    "A": {
+      "strength": 14.061488274245285,
+      "integral": 1.2196478023677049,
+      "end_strain": 0.14750000000000002,
+      "peak_strain": 0.11750000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.14750000000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_131351_4387ad",
+    "name": "S2_mesh_p16_armchair",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "orientation": "armchair",
+      "pore_d": 7.641
+    },
+    "porosity": 0.20519618239660653,
+    "n_atoms": 2998,
+    "rho": 0.7866798131821647,
+    "alignment": -0.0783377138300106,
+    "min_section": 0.6903429307762491,
+    "modulus": 150.26917036585806,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "orientation"
+    ],
+    "A": {
+      "strength": 11.34064405617497,
+      "integral": 1.2688231930490435,
+      "end_strain": 0.22125000000000009,
+      "peak_strain": 0.09999999999999999,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 11.353149410442239,
+      "integral": 1.1232614766430322,
+      "end_strain": 0.19125000000000006,
+      "peak_strain": 0.09999999999999999,
+      "failure_observed": true,
+      "failure_strain": 0.19125000000000006,
+      "stop": "not spanning (fractured)"
+    },
+    "C": {
+      "strength": 11.353149410442239,
+      "integral": 1.1232614766430322,
+      "end_strain": 0.19125000000000006,
+      "peak_strain": 0.09999999999999999,
+      "failure_observed": true,
+      "failure_strain": 0.19125000000000006,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S2_mesh_p16_armchair",
+    "residual_flag": true,
+    "residual_fraction": 0.23333333333333334
+  },
+  {
+    "parent_run_id": "run_20260905_132423_b3a0e7",
+    "name": "S2_vac_clustered_0.01",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.01,
+      "organisation": "clustered",
+      "cluster_size": 6
+    },
+    "porosity": 0.006362672322375418,
+    "n_atoms": 3748,
+    "rho": 0.9948337979051874,
+    "alignment": 0.19305717232316488,
+    "min_section": 0.97501058365292,
+    "modulus": 246.82373059459212,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "defects"
+    ],
+    "A": {
+      "strength": 27.20924626686529,
+      "integral": 2.155895143072417,
+      "end_strain": 0.1425,
+      "peak_strain": 0.13749999999999998,
+      "failure_observed": true,
+      "failure_strain": 0.1425,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_133941_57028b",
+    "name": "S4_square_D40",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "square",
+      "stagger": false,
+      "pore_d": 17.594
+    },
+    "porosity": 0.20225947521865895,
+    "n_atoms": 4378,
+    "rho": 0.7941342069339755,
+    "alignment": 0.03032304399366119,
+    "min_section": 0.5523436425537588,
+    "modulus": 150.5373087843543,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage4",
+      "pairAB"
+    ],
+    "A": {
+      "strength": 17.028392407643068,
+      "integral": 1.7620675335785116,
+      "end_strain": 0.17,
+      "peak_strain": 0.165,
+      "failure_observed": true,
+      "failure_strain": 0.17,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_134250_3e022f",
+    "name": "S2_vac_clustered_0.03",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.03,
+      "organisation": "clustered",
+      "cluster_size": 6
+    },
+    "porosity": 0.019618239660657455,
+    "n_atoms": 3698,
+    "rho": 0.9825816192291091,
+    "alignment": 0.10410466436905773,
+    "min_section": 0.9499376602475308,
+    "modulus": 237.52389992956142,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "defects"
+    ],
+    "A": {
+      "strength": 23.400717944190788,
+      "integral": 1.690771227814745,
+      "end_strain": 0.1325,
+      "peak_strain": 0.12250000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.1325,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_134250_719428",
+    "name": "S2_vac_random_0.03",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.03,
+      "organisation": "random",
+      "cluster_size": 6
+    },
+    "porosity": 0.03260869565217395,
+    "n_atoms": 3649,
+    "rho": 0.9660165521260214,
+    "alignment": 0.08836259292830345,
+    "min_section": 0.9789227122549253,
+    "modulus": 245.7848161947023,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "defects"
+    ],
+    "A": {
+      "strength": 22.386127372661576,
+      "integral": 1.69421907139599,
+      "end_strain": 0.13625,
+      "peak_strain": 0.12125000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.13625,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_135635_afa95b",
+    "name": "S2_mesh_phi0.4",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "pore_d": 10.734
+    },
+    "porosity": 0.4013785790031813,
+    "n_atoms": 2258,
+    "rho": 0.5833112628503935,
+    "alignment": 0.05953736758723704,
+    "min_section": 0.5741167842253869,
+    "modulus": 73.2234444765617,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "porosity"
+    ],
+    "A": {
+      "strength": 7.272984165694165,
+      "integral": 1.0133083681035173,
+      "end_strain": 0.2575000000000001,
+      "peak_strain": 0.1375,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 7.268895454407772,
+      "integral": 1.0314807604862481,
+      "end_strain": 0.2575000000000001,
+      "peak_strain": 0.1375,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 7.268895454407772,
+      "integral": 1.2672411506666736,
+      "end_strain": 0.3375000000000002,
+      "peak_strain": 0.1375,
+      "failure_observed": true,
+      "failure_strain": 0.3375000000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S2_mesh_phi0.4",
+    "residual_flag": true,
+    "residual_fraction": 0.4745762711864407
+  },
+  {
+    "parent_run_id": "run_20260905_141348_0952f1",
+    "name": "S2_mesh_phi0.1",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "pore_d": 5.25
+    },
+    "porosity": 0.09570519618239659,
+    "n_atoms": 3411,
+    "rho": 0.9046858604954422,
+    "alignment": 0.035032567020332334,
+    "min_section": 0.8116668131062834,
+    "modulus": 169.59666094394717,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "porosity"
+    ],
+    "A": {
+      "strength": 19.567245760999977,
+      "integral": 2.1041482851514224,
+      "end_strain": 0.2712500000000001,
+      "peak_strain": 0.15125,
+      "failure_observed": true,
+      "failure_strain": 0.2712500000000001,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_142144_c52529",
+    "name": "S4_p32_dispersed",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 32,
+      "size_disorder": 0.15,
+      "seed": 1,
+      "pore_d": 14.25
+    },
+    "porosity": 0.19260204081632648,
+    "n_atoms": 4431,
+    "rho": 0.8011593348111541,
+    "alignment": 0.08610536530791954,
+    "min_section": 0.7220941921802545,
+    "modulus": 150.30139236031445,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage4",
+      "pairC"
+    ],
+    "A": {
+      "strength": 13.764452925131446,
+      "integral": 0.9409847306815476,
+      "end_strain": 0.12625000000000003,
+      "peak_strain": 0.11125000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.12625000000000003,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_143356_fa4ee2",
+    "name": "S4_precrack_L40_cell150",
+    "family": "precrack",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 150,
+      "Ly": 150,
+      "crack_len": 40,
+      "crack_w": 3.0,
+      "angle_deg": 90
+    },
+    "porosity": 0.006674473067915687,
+    "n_atoms": 8483,
+    "rho": 0.9933255020437074,
+    "alignment": -0.4058574747577122,
+    "min_section": 0.7375605160558167,
+    "modulus": 233.92533762558736,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage4",
+      "flaw"
+    ],
+    "A": {
+      "strength": 17.89372281412717,
+      "integral": 0.8659168158171564,
+      "end_strain": 0.09125000000000003,
+      "peak_strain": 0.08625000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.09125000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_143704_97a9bc",
+    "name": "S2_vac_random_0.01",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.01,
+      "organisation": "random",
+      "cluster_size": 6
+    },
+    "porosity": 0.01033934252386004,
+    "n_atoms": 3733,
+    "rho": 0.9886531839059955,
+    "alignment": -0.08343339630464314,
+    "min_section": 0.9892018607662006,
+    "modulus": 249.31137831376054,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "defects"
+    ],
+    "A": {
+      "strength": 27.521416962277865,
+      "integral": 2.393178532304967,
+      "end_strain": 0.15875000000000003,
+      "peak_strain": 0.14375000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.15875000000000003,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_145623_aa4749",
+    "name": "S4_hole_d30",
+    "family": "ring_around_hole",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "hole_d": 30,
+      "n_rings": 0
+    },
+    "porosity": 0.07343584305408268,
+    "n_atoms": 3495,
+    "rho": 0.9257489354754999,
+    "alignment": 0.010978893887102612,
+    "min_section": 0.6884268767039272,
+    "modulus": 208.30952970479487,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage4",
+      "flaw"
+    ],
+    "A": {
+      "strength": 18.54962028944317,
+      "integral": 1.079456964825038,
+      "end_strain": 0.10750000000000001,
+      "peak_strain": 0.10250000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.10750000000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_150004_631da6",
+    "name": "S4_square_D40_dispersed",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "square",
+      "stagger": false,
+      "pore_d": 16.625,
+      "size_disorder": 0.15,
+      "seed": 1
+    },
+    "porosity": 0.19679300291545188,
+    "n_atoms": 4408,
+    "rho": 0.7994986903647278,
+    "alignment": 0.04084015314078273,
+    "min_section": 0.518835374941861,
+    "modulus": 152.4511175069933,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage4",
+      "pairC"
+    ],
+    "A": {
+      "strength": 15.80719657611684,
+      "integral": 1.2701807275104418,
+      "end_strain": 0.14,
+      "peak_strain": 0.135,
+      "failure_observed": true,
+      "failure_strain": 0.14,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_153953_d74317",
+    "name": "S6_mesh_jitter2.0_s2",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "jitter": 2.0,
+      "seed": 2,
+      "pore_d": 7.469
+    },
+    "porosity": 0.19591728525980912,
+    "n_atoms": 3033,
+    "rho": 0.7985213147448638,
+    "alignment": 0.020735458496601068,
+    "min_section": 0.7424824883423746,
+    "modulus": 129.4497391754357,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 10.513752215144235,
+      "integral": 0.9104300720345168,
+      "end_strain": 0.14500000000000007,
+      "peak_strain": 0.10000000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.14500000000000007,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_154238_142c5a",
+    "name": "S5_H2_D60_W12",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 60,
+      "vein_w": 12,
+      "pore_d": 6.781
+    },
+    "porosity": 0.1949708454810496,
+    "n_atoms": 4418,
+    "rho": 0.7992879809640705,
+    "alignment": 0.0978354400179818,
+    "min_section": 0.7641029088004985,
+    "modulus": 137.1454089568617,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage5",
+      "hierarchy"
+    ],
+    "A": {
+      "strength": 13.043328018542647,
+      "integral": 1.1675166019314362,
+      "end_strain": 0.14875000000000005,
+      "peak_strain": 0.13875000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.14875000000000005,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_160737_00af40",
+    "name": "S6_voronoi_n25_reg0.6_s2",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.6,
+      "seed": 2,
+      "ligament_w": 10.438
+    },
+    "porosity": 0.19406150583244963,
+    "n_atoms": 3040,
+    "rho": 0.8017677071609937,
+    "alignment": -0.13722140698384505,
+    "min_section": 0.35101423056469166,
+    "modulus": 132.72771941271185,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 9.232539277880317,
+      "integral": 0.5302728739351719,
+      "end_strain": 0.10125000000000003,
+      "peak_strain": 0.08625000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.10125000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_163551_52ee24",
+    "name": "S6_voronoi_n25_reg0.0_s3",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.0,
+      "seed": 3,
+      "ligament_w": 8.188
+    },
+    "porosity": 0.20519618239660653,
+    "n_atoms": 2998,
+    "rho": 0.7899768929591805,
+    "alignment": 0.04612515453481703,
+    "min_section": 0.42726847330460727,
+    "modulus": 133.6263177426643,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 8.71155542792579,
+      "integral": 0.500349667725501,
+      "end_strain": 0.10625000000000004,
+      "peak_strain": 0.07625000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.10625000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_164102_a24c4a",
+    "name": "S5_H2_D40_W16",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 16,
+      "pore_d": 9.312
+    },
+    "porosity": 0.19515306122448983,
+    "n_atoms": 4417,
+    "rho": 0.7939576959709473,
+    "alignment": 0.099585105411036,
+    "min_section": 0.6115895742866295,
+    "modulus": 138.94605692082163,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage5",
+      "hierarchy"
+    ],
+    "A": {
+      "strength": 14.753829379156363,
+      "integral": 1.3592684374873012,
+      "end_strain": 0.16250000000000003,
+      "peak_strain": 0.1375,
+      "failure_observed": true,
+      "failure_strain": 0.16250000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_164745_964df4",
+    "name": "S5_voronoi_n25_reg0.8",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.8,
+      "seed": 1,
+      "ligament_w": 8.75
+    },
+    "porosity": 0.20440084835630967,
+    "n_atoms": 3001,
+    "rho": 0.79129447996413,
+    "alignment": 0.09142743623214909,
+    "min_section": 0.5852175541660752,
+    "modulus": 129.29659109309284,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "stage5",
+      "disorder"
+    ],
+    "A": {
+      "strength": 6.609448349323812,
+      "integral": 0.3962965142016113,
+      "end_strain": 0.09875000000000003,
+      "peak_strain": 0.06875,
+      "failure_observed": true,
+      "failure_strain": 0.09875000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_165516_da774b",
+    "name": "S4_H2_D40_W8_veins_y",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "vein_dirs": "y",
+      "pore_d": 6.25
+    },
+    "porosity": 0.19752186588921283,
+    "n_atoms": 4404,
+    "rho": 0.7975229908219712,
+    "alignment": 0.009869926342650388,
+    "min_section": 0.7179367897740844,
+    "modulus": 125.90205516229166,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage4",
+      "hierarchy"
+    ],
+    "A": {
+      "strength": 11.98210713441195,
+      "integral": 1.031733853312961,
+      "end_strain": 0.18125000000000005,
+      "peak_strain": 0.12125000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.18125000000000005,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_170101_2eb72e",
+    "name": "S5_voronoi_n25_reg0.3",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.3,
+      "seed": 1,
+      "ligament_w": 7.625
+    },
+    "porosity": 0.19459172852598094,
+    "n_atoms": 3038,
+    "rho": 0.8024820026844223,
+    "alignment": -0.05621032383111874,
+    "min_section": 0.49911667031531215,
+    "modulus": 143.59635031347912,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "stage5",
+      "disorder"
+    ],
+    "A": {
+      "strength": 10.453618602860486,
+      "integral": 0.6161393038702841,
+      "end_strain": 0.12125000000000005,
+      "peak_strain": 0.08625000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.12125000000000005,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_170326_068433",
+    "name": "S6_mesh_sizedis0.15_s2",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "size_disorder": 0.15,
+      "seed": 2,
+      "pore_d": 7.469
+    },
+    "porosity": 0.20413573700954402,
+    "n_atoms": 3002,
+    "rho": 0.7877952702511215,
+    "alignment": 0.011544220154008439,
+    "min_section": 0.7055689460882669,
+    "modulus": 132.05535965793527,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 11.337538488242387,
+      "integral": 0.9682625650267115,
+      "end_strain": 0.1962500000000001,
+      "peak_strain": 0.11125000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.1962500000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_170819_0771d0",
+    "name": "S5_slit0_phi0.1",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 0,
+      "slit_len": 13.812
+    },
+    "porosity": 0.10286320254506898,
+    "n_atoms": 3384,
+    "rho": 0.8959748361825541,
+    "alignment": 0.23626384729753933,
+    "min_section": 0.8614192199237495,
+    "modulus": 215.15520191772458,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "stage5",
+      "porosity",
+      "loadpath"
+    ],
+    "A": {
+      "strength": 25.605061904386364,
+      "integral": 2.4744279019554574,
+      "end_strain": 0.16875,
+      "peak_strain": 0.1625,
+      "failure_observed": true,
+      "failure_strain": 0.16875,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_170917_2b5cdc",
+    "name": "S6_voronoi_n25_reg0.0_s2",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.0,
+      "seed": 2,
+      "ligament_w": 8.188
+    },
+    "porosity": 0.19326617179215266,
+    "n_atoms": 3043,
+    "rho": 0.8026213315846807,
+    "alignment": -0.021667747026575267,
+    "min_section": 0.6259780168783383,
+    "modulus": 140.17970072624593,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 9.267032855286484,
+      "integral": 0.6909440027796505,
+      "end_strain": 0.19875000000000012,
+      "peak_strain": 0.07875000000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 9.285707326664603,
+      "integral": 0.6836622414786637,
+      "end_strain": 0.19875000000000012,
+      "peak_strain": 0.07875000000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 9.285707326664603,
+      "integral": 0.7277087059822687,
+      "end_strain": 0.22875000000000015,
+      "peak_strain": 0.07875000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.22875000000000015,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S6_voronoi_n25_reg0.0_s2",
+    "residual_flag": true,
+    "residual_fraction": 0.12195121951219512
+  },
+  {
+    "parent_run_id": "run_20260905_170924_3e1be6",
+    "name": "S5_H2_D40_W20",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 20,
+      "pore_d": 10.438
+    },
+    "porosity": 0.19679300291545188,
+    "n_atoms": 4408,
+    "rho": 0.8004846386295505,
+    "alignment": 0.04489316505913734,
+    "min_section": 0.5904343332264995,
+    "modulus": 149.6894679049423,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage5",
+      "hierarchy"
+    ],
+    "A": {
+      "strength": 15.551966067660045,
+      "integral": 1.3397898643914639,
+      "end_strain": 0.15250000000000005,
+      "peak_strain": 0.14250000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.15250000000000005,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_172505_71282e",
+    "name": "S4_H2_D40_W8_veins_x",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "vein_dirs": "x",
+      "pore_d": 6.25
+    },
+    "porosity": 0.19752186588921283,
+    "n_atoms": 4404,
+    "rho": 0.7979621263305086,
+    "alignment": 0.19342640697837918,
+    "min_section": 0.7825010661415102,
+    "modulus": 137.2968411443951,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage4",
+      "hierarchy"
+    ],
+    "A": {
+      "strength": 16.04554318511237,
+      "integral": 1.6280747050545,
+      "end_strain": 0.18875000000000003,
+      "peak_strain": 0.15875,
+      "failure_observed": true,
+      "failure_strain": 0.18875000000000003,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_173451_41c075",
+    "name": "S6_voronoi_n25_reg0.6_s3",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 25,
+      "regularity": 0.6,
+      "seed": 3,
+      "ligament_w": 9.875
+    },
+    "porosity": 0.1983032873806999,
+    "n_atoms": 3024,
+    "rho": 0.7975160245053379,
+    "alignment": -0.07682666065788211,
+    "min_section": 0.42726678204242413,
+    "modulus": 130.84058904006827,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 9.856604681887353,
+      "integral": 0.6366651627466915,
+      "end_strain": 0.12625000000000006,
+      "peak_strain": 0.09125000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.12625000000000006,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_173622_eb68a1",
+    "name": "S5_square_D40_phi0.1",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "square",
+      "stagger": false,
+      "pore_d": 12.281
+    },
+    "porosity": 0.09438775510204078,
+    "n_atoms": 4970,
+    "rho": 0.9035103047200819,
+    "alignment": -0.09810986487030976,
+    "min_section": 0.6699277891270007,
+    "modulus": 194.20841233621078,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage5",
+      "porosity"
+    ],
+    "A": {
+      "strength": 21.76611200358753,
+      "integral": 2.0411126246032243,
+      "end_strain": 0.15875,
+      "peak_strain": 0.15375,
+      "failure_observed": true,
+      "failure_strain": 0.15875,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_175132_6a2b07",
+    "name": "S5_slit0_phi0.3",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 0,
+      "slit_len": 29.0
+    },
+    "porosity": 0.22163308589607633,
+    "n_atoms": 2936,
+    "rho": 0.7751785844404532,
+    "alignment": 0.8224361530582451,
+    "min_section": 0.7926885569494666,
+    "modulus": 196.68289412928902,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "stage5",
+      "porosity",
+      "loadpath"
+    ],
+    "A": {
+      "strength": 25.181153791532314,
+      "integral": 3.2437177474631294,
+      "end_strain": 0.21125000000000005,
+      "peak_strain": 0.20500000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.21125000000000005,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_175133_fcc6bb",
+    "name": "S5_slit0_phi0.4",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 0,
+      "slit_len": 29.0
+    },
+    "porosity": 0.22163308589607633,
+    "n_atoms": 2936,
+    "rho": 0.7751797930968969,
+    "alignment": 0.8187269833301227,
+    "min_section": 0.7926896153596934,
+    "modulus": 196.69035465909133,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "stage5",
+      "porosity",
+      "loadpath"
+    ],
+    "A": {
+      "strength": 25.18010332267443,
+      "integral": 3.244857082573114,
+      "end_strain": 0.21125000000000005,
+      "peak_strain": 0.20500000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.21125000000000005,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_175809_bbc868",
+    "name": "S6_mesh_jitter2.0_s3",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "jitter": 2.0,
+      "seed": 3,
+      "pore_d": 7.469
+    },
+    "porosity": 0.1983032873806999,
+    "n_atoms": 3024,
+    "rho": 0.7941385974773298,
+    "alignment": 0.032822167792301904,
+    "min_section": 0.6852061591230709,
+    "modulus": 133.0862882003349,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 10.439027590424471,
+      "integral": 0.8657605339722514,
+      "end_strain": 0.15375000000000005,
+      "peak_strain": 0.09875000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.15375000000000005,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_180442_54fd02",
+    "name": "S5_square_D40_phi0.3",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "square",
+      "stagger": false,
+      "pore_d": 21.562
+    },
+    "porosity": 0.30758017492711365,
+    "n_atoms": 3800,
+    "rho": 0.6871844860362157,
+    "alignment": 0.023573402194449887,
+    "min_section": 0.43889355870662483,
+    "modulus": 119.48686255067939,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage5",
+      "porosity"
+    ],
+    "A": {
+      "strength": 14.210760853922348,
+      "integral": 1.6485999075184339,
+      "end_strain": 0.18875000000000003,
+      "peak_strain": 0.18375000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.18875000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_180720_3db4c3",
+    "name": "S6_vac_random_2pct_s2",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.02,
+      "organisation": "random"
+    },
+    "porosity": 0.020413573700954424,
+    "n_atoms": 3695,
+    "rho": 0.9782330079891558,
+    "alignment": -0.055418739670251634,
+    "min_section": 0.9889270213875766,
+    "modulus": 249.01976141152653,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage6",
+      "defects"
+    ],
+    "A": {
+      "strength": 26.000204360024785,
+      "integral": 2.3321507801663786,
+      "end_strain": 0.16750000000000004,
+      "peak_strain": 0.14250000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.16750000000000004,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_180819_42f5a6",
+    "name": "S6_mesh_sizedis0.15_s3",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "size_disorder": 0.15,
+      "seed": 3,
+      "pore_d": 7.469
+    },
+    "porosity": 0.19644750795334043,
+    "n_atoms": 3031,
+    "rho": 0.7973927704355537,
+    "alignment": 0.03172860924174208,
+    "min_section": 0.7221686340468071,
+    "modulus": 131.15977816188584,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage6",
+      "disorder"
+    ],
+    "A": {
+      "strength": 11.626522471046387,
+      "integral": 0.925892359055394,
+      "end_strain": 0.17500000000000007,
+      "peak_strain": 0.10500000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.17500000000000007,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_185039_e7fca6",
+    "name": "S6_mesh_p16_offset3",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "offset": [
+        1.23,
+        2.13
+      ],
+      "pore_d": 7.469
+    },
+    "porosity": 0.19618239660657477,
+    "n_atoms": 3032,
+    "rho": 0.7958453654233615,
+    "alignment": 0.049815972630662,
+    "min_section": 0.7362773362540456,
+    "modulus": 130.40902688881275,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage6",
+      "registry"
+    ],
+    "A": {
+      "strength": 13.125605514350598,
+      "integral": 1.4794670930917875,
+      "end_strain": 0.2675000000000001,
+      "peak_strain": 0.14750000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.2675000000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_185226_724055",
+    "name": "S6_vac_random_2pct_s3",
+    "family": "vacancies",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "fraction": 0.02,
+      "organisation": "random"
+    },
+    "porosity": 0.02067868504772008,
+    "n_atoms": 3694,
+    "rho": 0.9778685355825449,
+    "alignment": 0.07227644563503921,
+    "min_section": 0.9837499565424715,
+    "modulus": 248.90817910144477,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage6",
+      "defects"
+    ],
+    "A": {
+      "strength": 23.816006482580054,
+      "integral": 1.8877767009612174,
+      "end_strain": 0.14125000000000004,
+      "peak_strain": 0.12625000000000003,
+      "failure_observed": true,
+      "failure_strain": 0.14125000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_190046_713502",
+    "name": "S6_mesh_p16_offset1",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "offset": [
+        1.23,
+        0.0
+      ],
+      "pore_d": 7.469
+    },
+    "porosity": 0.19618239660657477,
+    "n_atoms": 3032,
+    "rho": 0.7958456701713198,
+    "alignment": 0.056397410048267135,
+    "min_section": 0.7413552833089967,
+    "modulus": 130.11409647262826,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage6",
+      "registry"
+    ],
+    "A": {
+      "strength": 13.1347006647165,
+      "integral": 1.2363440928564886,
+      "end_strain": 0.15250000000000002,
+      "peak_strain": 0.14750000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.15250000000000002,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_191505_5a0528",
+    "name": "S6_mesh_p16_offset2",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "offset": [
+        0.0,
+        2.13
+      ],
+      "pore_d": 7.469
+    },
+    "porosity": 0.19618239660657477,
+    "n_atoms": 3032,
+    "rho": 0.7958462180050097,
+    "alignment": 0.049773815854878146,
+    "min_section": 0.7362777926325578,
+    "modulus": 130.41092480178563,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage6",
+      "registry"
+    ],
+    "A": {
+      "strength": 13.256534997825622,
+      "integral": 1.2832114739716602,
+      "end_strain": 0.16750000000000004,
+      "peak_strain": 0.14750000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.16750000000000004,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_210540_992f53",
+    "name": "S5_H2_D40_W8_jitter2",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "jitter": 2.0,
+      "seed": 1,
+      "pore_d": 7.0
+    },
+    "porosity": 0.20608600583090375,
+    "n_atoms": 4357,
+    "rho": 0.7871865937988336,
+    "alignment": 0.07355274378199378,
+    "min_section": 0.6681335867023208,
+    "modulus": 123.51290708404589,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage5",
+      "hierarchy",
+      "disorder"
+    ],
+    "A": {
+      "strength": 10.29911182335609,
+      "integral": 1.152954194229184,
+      "end_strain": 0.22625000000000015,
+      "peak_strain": 0.10625000000000004,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 10.532979615130275,
+      "integral": 1.1630247252321049,
+      "end_strain": 0.23000000000000015,
+      "peak_strain": 0.11000000000000004,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 10.532979615130275,
+      "integral": 1.2079197632539673,
+      "end_strain": 0.25000000000000017,
+      "peak_strain": 0.11000000000000004,
+      "failure_observed": true,
+      "failure_strain": 0.25000000000000017,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S5_H2_D40_W8_jitter2",
+    "residual_flag": true,
+    "residual_fraction": 0.6086956521739131
+  },
+  {
+    "parent_run_id": "run_20260905_211321_8821f7",
+    "name": "S5_H2_p8_D40_W8",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 8,
+      "domain": 40,
+      "vein_w": 8,
+      "pore_d": 4.656
+    },
+    "porosity": 0.20335276967930027,
+    "n_atoms": 4372,
+    "rho": 0.7972944284394053,
+    "alignment": 0.09527303843674072,
+    "min_section": 0.8049764950721314,
+    "modulus": 136.93220567529625,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage5",
+      "hierarchy"
+    ],
+    "A": {
+      "strength": 12.66195720963109,
+      "integral": 1.4414710794294765,
+      "end_strain": 0.25250000000000006,
+      "peak_strain": 0.13249999999999998,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 12.663328548976475,
+      "integral": 1.3173968678197794,
+      "end_strain": 0.17750000000000002,
+      "peak_strain": 0.13749999999999998,
+      "failure_observed": true,
+      "failure_strain": 0.17750000000000002,
+      "stop": "stress collapsed"
+    },
+    "C": {
+      "strength": 12.663328548976475,
+      "integral": 1.3173968678197794,
+      "end_strain": 0.17750000000000002,
+      "peak_strain": 0.13749999999999998,
+      "failure_observed": true,
+      "failure_strain": 0.17750000000000002,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S5_H2_p8_D40_W8",
+    "residual_flag": true,
+    "residual_fraction": 0.19230769230769232
+  },
+  {
+    "parent_run_id": "run_20260905_211848_7105d7",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "aspect": 2.0,
+      "angle_deg": 90,
+      "pore_d": 5.0
+    },
+    "porosity": 0.20790816326530615,
+    "n_atoms": 4347,
+    "rho": 0.7880369872566181,
+    "alignment": 0.3692188326028032,
+    "min_section": 0.7571694695966401,
+    "modulus": 173.76858635566583,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage5",
+      "hierarchy",
+      "anisotropy"
+    ],
+    "A": {
+      "strength": 17.460201956251787,
+      "integral": 2.0205639645747024,
+      "end_strain": 0.2587500000000001,
+      "peak_strain": 0.13875,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 17.51349510632733,
+      "integral": 2.145116424099098,
+      "end_strain": 0.2587500000000001,
+      "peak_strain": 0.13875,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 17.51349510632733,
+      "integral": 3.0340602872124336,
+      "end_strain": 0.6087500000000003,
+      "peak_strain": 0.13875,
+      "failure_observed": true,
+      "failure_strain": 0.6087500000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S5_H2_D40_W8_ellipseX",
+    "residual_flag": true,
+    "residual_fraction": 0.831858407079646
+  },
+  {
+    "parent_run_id": "run_20260905_215225_93748d",
+    "name": "S7_mesh_jitter1.5_sd0.1_s11",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "jitter": 1.5,
+      "size_disorder": 0.1,
+      "seed": 11,
+      "pore_d": 7.469
+    },
+    "porosity": 0.1977730646871686,
+    "n_atoms": 3026,
+    "rho": 0.7956617056447066,
+    "alignment": 0.04243609423248321,
+    "min_section": 0.7013757917939517,
+    "modulus": 129.356318323889,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 11.946784641579741,
+      "integral": 0.8685400512601377,
+      "end_strain": 0.12625,
+      "peak_strain": 0.11625,
+      "failure_observed": true,
+      "failure_strain": 0.12625,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_231328_ea6938",
+    "name": "S7_precrack_L50_cell150",
+    "family": "precrack",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 150,
+      "Ly": 150,
+      "crack_len": 50,
+      "crack_w": 3.0,
+      "angle_deg": 90
+    },
+    "porosity": 0.00843091334894619,
+    "n_atoms": 8468,
+    "rho": 0.9915690618066857,
+    "alignment": 0.0009468843623198327,
+    "min_section": 0.6638044644502351,
+    "modulus": 224.72016897803607,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 16.137879397720408,
+      "integral": 0.8083055296266801,
+      "end_strain": 0.11125000000000004,
+      "peak_strain": 0.08125000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.11125000000000004,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260905_235534_a5e0cc",
+    "name": "S7_slit_0deg_armchair",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 0,
+      "orientation": "armchair",
+      "slit_len": 28.0
+    },
+    "porosity": 0.1866383881230117,
+    "n_atoms": 3068,
+    "rho": 0.8128755313900176,
+    "alignment": 0.6153686139119914,
+    "min_section": 0.7924869592305406,
+    "modulus": 223.0449049499082,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 20.218295800022684,
+      "integral": 2.963422350955047,
+      "end_strain": 0.2537500000000001,
+      "peak_strain": 0.13249999999999998,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 20.219235492164646,
+      "integral": 2.708222201775663,
+      "end_strain": 0.2537500000000001,
+      "peak_strain": 0.13249999999999998,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 20.219235492164646,
+      "integral": 3.3429942413293268,
+      "end_strain": 0.4787500000000003,
+      "peak_strain": 0.13249999999999998,
+      "failure_observed": true,
+      "failure_strain": 0.4787500000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S7_slit_0deg_armchair",
+    "residual_flag": true,
+    "residual_fraction": 0.7294117647058823
+  },
+  {
+    "parent_run_id": "run_20260906_000853_1472a1",
+    "name": "S7_H3_D30_60_wideveins",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 3,
+      "period": 10,
+      "domain": 30,
+      "vein_w": 8,
+      "level3_domain": 60,
+      "level3_vein": 16,
+      "pore_d": 7.25
+    },
+    "porosity": 0.20043731778425655,
+    "n_atoms": 4388,
+    "rho": 0.7896751003339264,
+    "alignment": 0.02192265371525108,
+    "min_section": 0.6506600654604904,
+    "modulus": 119.3730434479006,
+    "level": 3,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 12.329458031875074,
+      "integral": 1.1816352094875993,
+      "end_strain": 0.15625000000000003,
+      "peak_strain": 0.14625000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.15625000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260906_001619_c8351b",
+    "name": "S7_strut_090_phi0.3",
+    "family": "strut_lattice",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "spacing": 25,
+      "angles_deg": [
+        0,
+        90
+      ],
+      "strut_w": 11.312
+    },
+    "porosity": 0.3011664899257688,
+    "n_atoms": 2636,
+    "rho": 0.6912973069403996,
+    "alignment": 0.08472886497727948,
+    "min_section": 0.46767866917747497,
+    "modulus": 121.35306999721563,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 14.43180528585683,
+      "integral": 1.7875573886704468,
+      "end_strain": 0.2962500000000001,
+      "peak_strain": 0.17500000000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 14.357071111420177,
+      "integral": 1.7193050223504112,
+      "end_strain": 0.2687500000000001,
+      "peak_strain": 0.17250000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.2687500000000001,
+      "stop": "stress collapsed"
+    },
+    "C": {
+      "strength": 14.357071111420177,
+      "integral": 1.7193050223504112,
+      "end_strain": 0.2687500000000001,
+      "peak_strain": 0.17250000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.2687500000000001,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S7_strut_090_phi0.3",
+    "residual_flag": false,
+    "residual_fraction": 0.0
+  },
+  {
+    "parent_run_id": "run_20260906_001924_c3c4eb",
+    "name": "S7_square_D40_staggered",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "period": 40,
+      "shape": "square",
+      "stagger": true,
+      "pore_d": 17.594
+    },
+    "porosity": 0.20225947521865895,
+    "n_atoms": 4378,
+    "rho": 0.7936369127229149,
+    "alignment": 0.04442044845544512,
+    "min_section": 0.6902985181816006,
+    "modulus": 149.69680290819247,
+    "level": 1,
+    "ligament_class": "coarse_round",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 17.72507863373903,
+      "integral": 1.9446418247641395,
+      "end_strain": 0.18000000000000002,
+      "peak_strain": 0.17500000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.18000000000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260906_003914_2004b5",
+    "name": "S7_hole30_rings3",
+    "family": "ring_around_hole",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "hole_d": 30,
+      "n_rings": 3,
+      "ring_pore_d": 5.0,
+      "ring_gap": 7.0
+    },
+    "porosity": 0.21527041357370091,
+    "n_atoms": 2960,
+    "rho": 0.7817881177571139,
+    "alignment": -0.0597692222294249,
+    "min_section": 0.49908568057350194,
+    "modulus": 122.66225103739018,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 8.916578299834155,
+      "integral": 0.6826776718576737,
+      "end_strain": 0.18250000000000008,
+      "peak_strain": 0.09750000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.18250000000000008,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260906_004402_d0292e",
+    "name": "S7_voronoi_n35_reg0.8_s7",
+    "family": "voronoi_network",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "n_cells": 35,
+      "regularity": 0.8,
+      "seed": 7,
+      "ligament_w": 6.5
+    },
+    "porosity": 0.1953870625662778,
+    "n_atoms": 3035,
+    "rho": 0.8000543292003987,
+    "alignment": 0.062043783313920096,
+    "min_section": 0.6101278182836478,
+    "modulus": 128.06056815849306,
+    "level": 1,
+    "ligament_class": "random",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 7.332762528509611,
+      "integral": 0.6515296674170622,
+      "end_strain": 0.1862500000000001,
+      "peak_strain": 0.06625,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 7.35128515938918,
+      "integral": 0.6248234123095476,
+      "end_strain": 0.1862500000000001,
+      "peak_strain": 0.065,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 7.35128515938918,
+      "integral": 0.718729416929659,
+      "end_strain": 0.27125000000000016,
+      "peak_strain": 0.065,
+      "failure_observed": true,
+      "failure_strain": 0.27125000000000016,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S7_voronoi_n35_reg0.8_s7",
+    "residual_flag": true,
+    "residual_fraction": 0.44
+  },
+  {
+    "parent_run_id": "run_20260906_010927_81093d",
+    "name": "S7_graded_x_weak",
+    "family": "graded_pores",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "pore_d_min": 5.0,
+      "mode": "x",
+      "pore_d_max": 9.5
+    },
+    "porosity": 0.19273594909862146,
+    "n_atoms": 3045,
+    "rho": 0.8008127165488853,
+    "alignment": 0.0545884624295573,
+    "min_section": 0.6303530799592054,
+    "modulus": 133.60056969153584,
+    "level": 1,
+    "ligament_class": "flawed_sheet",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 10.606103707299297,
+      "integral": 0.8310315962440205,
+      "end_strain": 0.18250000000000008,
+      "peak_strain": 0.10250000000000001,
+      "failure_observed": true,
+      "failure_strain": 0.18250000000000008,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260906_011440_050f0e",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "family": "nanomesh_hier",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 12,
+      "vein_dirs": "x",
+      "aspect": 2.0,
+      "angle_deg": 90,
+      "pore_d": 4.812
+    },
+    "porosity": 0.20572157434402327,
+    "n_atoms": 4359,
+    "rho": 0.7889348132156866,
+    "alignment": 0.5847139257741782,
+    "min_section": 0.801836154120617,
+    "modulus": 178.10765587376716,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 19.382607714764703,
+      "integral": 1.9824250674001356,
+      "end_strain": 0.22125000000000006,
+      "peak_strain": 0.14625,
+      "failure_observed": true,
+      "failure_strain": 0.22125000000000006,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260906_012602_320a91",
+    "name": "S7_slit_20deg",
+    "family": "slit_array",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 20,
+      "slit_len": 26.5
+    },
+    "porosity": 0.2025450689289502,
+    "n_atoms": 3008,
+    "rho": 0.7942669861580279,
+    "alignment": 0.3262484224662717,
+    "min_section": 0.7783522529889858,
+    "modulus": 140.80874095081668,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 8.937497909653079,
+      "integral": 1.2304997431051625,
+      "end_strain": 0.19500000000000012,
+      "peak_strain": 0.07500000000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 8.937573352416509,
+      "integral": 1.2094213135860017,
+      "end_strain": 0.19500000000000012,
+      "peak_strain": 0.07500000000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 14.994687563693923,
+      "integral": 4.847885259876944,
+      "end_strain": 0.8200000000000006,
+      "peak_strain": 0.2750000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.8200000000000006,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__S7_slit_20deg",
+    "residual_flag": true,
+    "residual_fraction": 0.577639751552795
+  },
+  {
+    "parent_run_id": "run_20260906_015019_56673a",
+    "name": "S7_mesh_p24_phi0.3",
+    "family": "nanomesh_single",
+    "source_phase": "I",
+    "campaign": "discovery",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 24,
+      "pore_d": 13.562
+    },
+    "porosity": 0.3032873806998939,
+    "n_atoms": 2628,
+    "rho": 0.6865483203061477,
+    "alignment": -0.012732183042073386,
+    "min_section": 0.5927005581782415,
+    "modulus": 99.77981180678769,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "stage7",
+      "holdout"
+    ],
+    "A": {
+      "strength": 9.91042975119366,
+      "integral": 1.0853507887778693,
+      "end_strain": 0.25000000000000006,
+      "peak_strain": 0.12999999999999998,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 9.77482759124443,
+      "integral": 1.126427704251399,
+      "end_strain": 0.24625000000000008,
+      "peak_strain": 0.12499999999999999,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 9.77482759124443,
+      "integral": 1.2634547561201173,
+      "end_strain": 0.32625000000000015,
+      "peak_strain": 0.12499999999999999,
+      "failure_observed": true,
+      "failure_strain": 0.32625000000000015,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__S7_mesh_p24_phi0.3",
+    "residual_flag": true,
+    "residual_fraction": 0.4
+  },
+  {
+    "parent_run_id": "run_20260906_055342_03354c",
+    "name": "app_run",
+    "family": "strut_lattice",
+    "source_phase": "original interactive",
+    "campaign": "interactive",
+    "params": {
+      "strut_w": 6,
+      "spacing": 25,
+      "angles_deg": [
+        0,
+        60,
+        120
+      ],
+      "orientation": "zigzag",
+      "seed": 0,
+      "Lx": 100.867257,
+      "Ly": 98.00648587108469
+    },
+    "porosity": 0.45281018027571585,
+    "n_atoms": 2064,
+    "rho": 0.5306782242978719,
+    "alignment": 0.06239447367361248,
+    "min_section": 0.40200400863067076,
+    "modulus": 66.79826256265395,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [],
+    "A": {
+      "strength": 7.399977733353033,
+      "integral": 0.644512355913582,
+      "end_strain": 0.15500000000000005,
+      "peak_strain": 0.14875000000000005,
+      "failure_observed": true,
+      "failure_strain": 0.15500000000000005,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260909_054805_85f541",
+    "name": "P1_slit_05deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 5,
+      "slit_len": 24.188
+    },
+    "porosity": 0.20042417815482505,
+    "n_atoms": 3016,
+    "rho": 0.8009864204495588,
+    "alignment": 0.5777801283497658,
+    "min_section": 0.788935865867634,
+    "modulus": 189.4424716854992,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 18.066452363400792,
+      "integral": 2.1798454896527137,
+      "end_strain": 0.2425000000000001,
+      "peak_strain": 0.1225,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 18.033926027673935,
+      "integral": 1.9973458037318856,
+      "end_strain": 0.2312500000000001,
+      "peak_strain": 0.12125,
+      "failure_observed": true,
+      "failure_strain": 0.2312500000000001,
+      "stop": "stress collapsed"
+    },
+    "C": {
+      "strength": 18.033926027673935,
+      "integral": 1.9973458037318856,
+      "end_strain": 0.2312500000000001,
+      "peak_strain": 0.12125,
+      "failure_observed": true,
+      "failure_strain": 0.2312500000000001,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__P1_slit_05deg",
+    "residual_flag": true,
+    "residual_fraction": 0.40540540540540543
+  },
+  {
+    "parent_run_id": "run_20260909_054916_09197e",
+    "name": "P1_slit_10deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 10,
+      "slit_len": 24.188
+    },
+    "porosity": 0.19618239660657477,
+    "n_atoms": 3032,
+    "rho": 0.8050387922993658,
+    "alignment": 0.5032292733757728,
+    "min_section": 0.7883789559361224,
+    "modulus": 181.1577304388057,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 15.818369744877975,
+      "integral": 1.9629374540983786,
+      "end_strain": 0.2275000000000001,
+      "peak_strain": 0.10625,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 15.802699614433408,
+      "integral": 2.137003198183153,
+      "end_strain": 0.2275000000000001,
+      "peak_strain": 0.10625,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 15.802699614433408,
+      "integral": 2.299891680940182,
+      "end_strain": 0.27250000000000013,
+      "peak_strain": 0.10625,
+      "failure_observed": true,
+      "failure_strain": 0.27250000000000013,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__P1_slit_10deg",
+    "residual_flag": true,
+    "residual_fraction": 0.19148936170212766
+  },
+  {
+    "parent_run_id": "run_20260909_061515_c835bc",
+    "name": "P1_slit_15deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 15,
+      "slit_len": 25.344
+    },
+    "porosity": 0.2025450689289502,
+    "n_atoms": 3008,
+    "rho": 0.7948195744195321,
+    "alignment": 0.4235330907718656,
+    "min_section": 0.7646950754517481,
+    "modulus": 164.92464250491895,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 15.45357151465708,
+      "integral": 2.6702039143639382,
+      "end_strain": 0.3212500000000002,
+      "peak_strain": 0.2012500000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 14.994072561926215,
+      "integral": 2.4026606576789127,
+      "end_strain": 0.2962500000000002,
+      "peak_strain": 0.1962500000000001,
+      "failure_observed": true,
+      "failure_strain": 0.2962500000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "C": {
+      "strength": 14.994072561926215,
+      "integral": 2.4026606576789127,
+      "end_strain": 0.2962500000000002,
+      "peak_strain": 0.1962500000000001,
+      "failure_observed": true,
+      "failure_strain": 0.2962500000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__P1_slit_15deg",
+    "residual_flag": true,
+    "residual_fraction": 0.4807692307692308
+  },
+  {
+    "parent_run_id": "run_20260909_063152_fffdc5",
+    "name": "P1_slit_25deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 25,
+      "slit_len": 26.5
+    },
+    "porosity": 0.19936373276776242,
+    "n_atoms": 3020,
+    "rho": 0.7988742881313676,
+    "alignment": 0.24584173489306232,
+    "min_section": 0.7450305398608179,
+    "modulus": 128.6130643712756,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 13.934264080923526,
+      "integral": 1.8370773311880595,
+      "end_strain": 0.32250000000000023,
+      "peak_strain": 0.24250000000000016,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 14.267601723822475,
+      "integral": 2.0064339489141534,
+      "end_strain": 0.3137500000000002,
+      "peak_strain": 0.24375000000000016,
+      "failure_observed": true,
+      "failure_strain": 0.3137500000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "C": {
+      "strength": 14.267601723822475,
+      "integral": 2.0064339489141534,
+      "end_strain": 0.3137500000000002,
+      "peak_strain": 0.24375000000000016,
+      "failure_observed": true,
+      "failure_strain": 0.3137500000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__P1_slit_25deg",
+    "residual_flag": true,
+    "residual_fraction": 0.36666666666666664
+  },
+  {
+    "parent_run_id": "run_20260909_064312_78f5bb",
+    "name": "P1_slit_75deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 75,
+      "slit_len": 25.344
+    },
+    "porosity": 0.2025450689289502,
+    "n_atoms": 3008,
+    "rho": 0.792920334908744,
+    "alignment": -0.3459741302282643,
+    "min_section": 0.5315012309920347,
+    "modulus": 51.574127570627425,
+    "level": 1,
+    "ligament_class": "bridges",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 5.885644269661563,
+      "integral": 0.8825604144297979,
+      "end_strain": 0.2812500000000001,
+      "peak_strain": 0.16125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 5.889851874923235,
+      "integral": 0.8428861925728336,
+      "end_strain": 0.2812500000000001,
+      "peak_strain": 0.16125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 5.889851874923235,
+      "integral": 1.1757528785001397,
+      "end_strain": 0.5812500000000004,
+      "peak_strain": 0.16125,
+      "failure_observed": true,
+      "failure_strain": 0.5812500000000004,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__P1_slit_75deg",
+    "residual_flag": true,
+    "residual_fraction": 0.11650485436893204
+  },
+  {
+    "parent_run_id": "run_20260909_071807_f7d894",
+    "name": "P2_slit_20deg_phi0.10",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 20,
+      "slit_len": 11.875
+    },
+    "porosity": 0.09437963944856842,
+    "n_atoms": 3416,
+    "rho": 0.9038250604627652,
+    "alignment": 0.13972335670260344,
+    "min_section": 0.8677668023149442,
+    "modulus": 195.29294719784912,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "paper",
+      "slit_overlap"
+    ],
+    "A": {
+      "strength": 20.036106301197968,
+      "integral": 2.130044772248409,
+      "end_strain": 0.2512500000000001,
+      "peak_strain": 0.13125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 20.034087491047455,
+      "integral": 2.1346767135472406,
+      "end_strain": 0.2512500000000001,
+      "peak_strain": 0.13125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 20.034087491047455,
+      "integral": 2.281876628042245,
+      "end_strain": 0.30625000000000013,
+      "peak_strain": 0.13125,
+      "failure_observed": true,
+      "failure_strain": 0.30625000000000013,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__P2_slit_20deg_phi0.10",
+    "residual_flag": true,
+    "residual_fraction": 0.2692307692307692
+  },
+  {
+    "parent_run_id": "run_20260909_072235_a08e7c",
+    "name": "P1_slit_35deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 35,
+      "slit_len": 23.068
+    },
+    "porosity": 0.17815482502651114,
+    "n_atoms": 3100,
+    "rho": 0.8137051595049808,
+    "alignment": 0.0608229057938011,
+    "min_section": 0.7320656337530831,
+    "modulus": 19.26015299698105,
+    "level": 1,
+    "ligament_class": "oblique",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 17.076681506068326,
+      "integral": 1.6200605536090198,
+      "end_strain": 0.3212500000000002,
+      "peak_strain": 0.3212500000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 19.077198218910144,
+      "integral": 1.712814836194426,
+      "end_strain": 0.3212500000000002,
+      "peak_strain": 0.3212500000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "C": {
+      "strength": 19.548188345974577,
+      "integral": 2.453937199708969,
+      "end_strain": 0.4462500000000003,
+      "peak_strain": 0.3262500000000002,
+      "failure_observed": true,
+      "failure_strain": 0.4462500000000003,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__P1_slit_35deg",
+    "residual_flag": true,
+    "residual_fraction": 0.5903614457831325
+  },
+  {
+    "parent_run_id": "run_20260909_072723_586ece",
+    "name": "P1_slit_30deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 30,
+      "slit_len": 28.812
+    },
+    "porosity": 0.20572640509013784,
+    "n_atoms": 2996,
+    "rho": 0.7918963069440758,
+    "alignment": 0.18056942095803255,
+    "min_section": 0.744857118467702,
+    "modulus": 71.56293056437565,
+    "level": 1,
+    "ligament_class": "oblique",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 11.864029659927295,
+      "integral": 1.5601523855673063,
+      "end_strain": 0.3012500000000002,
+      "peak_strain": 0.1812500000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 14.938365243420916,
+      "integral": 2.679378188610702,
+      "end_strain": 0.3237500000000002,
+      "peak_strain": 0.3087500000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "C": {
+      "strength": 14.938365243420916,
+      "integral": 5.304693876512172,
+      "end_strain": 1.0037500000000008,
+      "peak_strain": 0.3087500000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "extension_case": "ext__P1_slit_30deg",
+    "residual_flag": true,
+    "residual_fraction": 0.8214285714285714
+  },
+  {
+    "parent_run_id": "run_20260909_074109_d804e5",
+    "name": "P1_slit_60deg",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 60,
+      "slit_len": 26.5
+    },
+    "porosity": 0.20466595970307533,
+    "n_atoms": 3000,
+    "rho": 0.7816717199546009,
+    "alignment": -0.15334891828914898,
+    "min_section": 0.7791897311374356,
+    "modulus": 62.9759562357897,
+    "level": 1,
+    "ligament_class": "oblique",
+    "tags": [
+      "paper",
+      "slit_angle"
+    ],
+    "A": {
+      "strength": 7.804399648893329,
+      "integral": 1.4309572482813524,
+      "end_strain": 0.3200000000000001,
+      "peak_strain": 0.21000000000000005,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 6.709616284753224,
+      "integral": 1.3184731987285383,
+      "end_strain": 0.32125000000000015,
+      "peak_strain": 0.2562500000000001,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "C": {
+      "strength": 6.709616284753224,
+      "integral": 2.1489920001503213,
+      "end_strain": 0.6712500000000005,
+      "peak_strain": 0.2562500000000001,
+      "failure_observed": true,
+      "failure_strain": 0.6712500000000005,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__P1_slit_60deg",
+    "residual_flag": true,
+    "residual_fraction": 0.7786885245901639
+  },
+  {
+    "parent_run_id": "run_20260909_074711_d130ad",
+    "name": "P3_H1_ellipse_60deg",
+    "family": "nanomesh_single",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "aspect": 2.0,
+      "angle_deg": 60,
+      "pore_d": 5.25
+    },
+    "porosity": 0.19326617179215266,
+    "n_atoms": 3043,
+    "rho": 0.8013184936383373,
+    "alignment": 0.17154820394824088,
+    "min_section": 0.7900382852119966,
+    "modulus": 138.0898419410652,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H1"
+    ],
+    "A": {
+      "strength": 13.634021936878073,
+      "integral": 1.1484014548083399,
+      "end_strain": 0.15750000000000003,
+      "peak_strain": 0.1275,
+      "failure_observed": true,
+      "failure_strain": 0.15750000000000003,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260909_080335_cdef88",
+    "name": "P3_H1_ellipse_30deg",
+    "family": "nanomesh_single",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "period": 16,
+      "aspect": 2.0,
+      "angle_deg": 30,
+      "pore_d": 5.25
+    },
+    "porosity": 0.19644750795334043,
+    "n_atoms": 3031,
+    "rho": 0.7969463234883224,
+    "alignment": -0.10285790091399641,
+    "min_section": 0.7042875121556129,
+    "modulus": 106.05013913005689,
+    "level": 1,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H1"
+    ],
+    "A": {
+      "strength": 9.760861130293012,
+      "integral": 1.0709470739320195,
+      "end_strain": 0.23375000000000012,
+      "peak_strain": 0.11375000000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 9.733644437156915,
+      "integral": 1.0528262667138466,
+      "end_strain": 0.23250000000000012,
+      "peak_strain": 0.11250000000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 9.733644437156915,
+      "integral": 1.1123675472132841,
+      "end_strain": 0.2625000000000001,
+      "peak_strain": 0.11250000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.2625000000000001,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__P3_H1_ellipse_30deg",
+    "residual_flag": true,
+    "residual_fraction": 0.2608695652173913
+  },
+  {
+    "parent_run_id": "run_20260909_082248_7c3ed8",
+    "name": "P2_slit_20deg_phi0.30",
+    "family": "slit_array",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 100,
+      "Ly": 100,
+      "slit_w": 4.0,
+      "period_x": 30,
+      "period_y": 16,
+      "angle_deg": 20,
+      "slit_len": 39.375
+    },
+    "porosity": 0.30434782608695654,
+    "n_atoms": 2624,
+    "rho": 0.690120431754624,
+    "alignment": 0.34691423850532005,
+    "min_section": 0.6940974229298428,
+    "modulus": 103.67509077980779,
+    "level": 1,
+    "ligament_class": "straight",
+    "tags": [
+      "paper",
+      "slit_overlap"
+    ],
+    "A": {
+      "strength": 12.905249617003875,
+      "integral": 2.3044920264504567,
+      "end_strain": 0.32250000000000023,
+      "peak_strain": 0.3075000000000002,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "max strain reached"
+    },
+    "B": {
+      "strength": 8.849035062215567,
+      "integral": 1.6644811933385568,
+      "end_strain": 0.26875000000000016,
+      "peak_strain": 0.14875000000000008,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 8.849035062215567,
+      "integral": 3.255182333221269,
+      "end_strain": 0.7187500000000006,
+      "peak_strain": 0.14875000000000008,
+      "failure_observed": true,
+      "failure_strain": 0.7187500000000006,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__P2_slit_20deg_phi0.30",
+    "residual_flag": true,
+    "residual_fraction": 0.5971223021582733
+  },
+  {
+    "parent_run_id": "run_20260909_084641_6a7efe",
+    "name": "P3_H2_veinsX_W12_ellipse_60deg",
+    "family": "nanomesh_hier",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 12,
+      "vein_dirs": "x",
+      "aspect": 2.0,
+      "angle_deg": 60,
+      "pore_d": 4.875
+    },
+    "porosity": 0.2071793002915452,
+    "n_atoms": 4351,
+    "rho": 0.7876363049327606,
+    "alignment": 0.38262058622203293,
+    "min_section": 0.7880420033465393,
+    "modulus": 157.18487599647926,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H2",
+      "veins_x"
+    ],
+    "A": {
+      "strength": 15.795743600650834,
+      "integral": 1.384751316870678,
+      "end_strain": 0.16375000000000003,
+      "peak_strain": 0.13375,
+      "failure_observed": true,
+      "failure_strain": 0.16375000000000003,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260909_085343_97ef14",
+    "name": "P3_H2_veinsX_W12_ellipse_00deg",
+    "family": "nanomesh_hier",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 12,
+      "vein_dirs": "x",
+      "aspect": 2.0,
+      "angle_deg": 0,
+      "pore_d": 4.719
+    },
+    "porosity": 0.19715743440233235,
+    "n_atoms": 4406,
+    "rho": 0.7990590611862205,
+    "alignment": 0.03923862647979924,
+    "min_section": 0.7447335607899686,
+    "modulus": 114.64934140948846,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H2",
+      "veins_x"
+    ],
+    "A": {
+      "strength": 12.855985492484164,
+      "integral": 1.440520647092099,
+      "end_strain": 0.23875000000000007,
+      "peak_strain": 0.15375,
+      "failure_observed": true,
+      "failure_strain": 0.23875000000000007,
+      "stop": "stress collapsed"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260909_094005_a26512",
+    "name": "P3_H2_veinsX_W12_ellipse_30deg",
+    "family": "nanomesh_hier",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 12,
+      "vein_dirs": "x",
+      "aspect": 2.0,
+      "angle_deg": 30,
+      "pore_d": 4.719
+    },
+    "porosity": 0.1997084548104956,
+    "n_atoms": 4392,
+    "rho": 0.7951557953907421,
+    "alignment": 0.13266472738626092,
+    "min_section": 0.7965362499968183,
+    "modulus": 131.3073072057321,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H2",
+      "veins_x"
+    ],
+    "A": {
+      "strength": 13.988177962596911,
+      "integral": 1.6942918871153043,
+      "end_strain": 0.2800000000000001,
+      "peak_strain": 0.16,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 13.795838069689966,
+      "integral": 1.4608157584208268,
+      "end_strain": 0.19625000000000004,
+      "peak_strain": 0.15625,
+      "failure_observed": true,
+      "failure_strain": 0.19625000000000004,
+      "stop": "stress collapsed"
+    },
+    "C": {
+      "strength": 13.795838069689966,
+      "integral": 1.4608157584208268,
+      "end_strain": 0.19625000000000004,
+      "peak_strain": 0.15625,
+      "failure_observed": true,
+      "failure_strain": 0.19625000000000004,
+      "stop": "stress collapsed"
+    },
+    "extension_case": "ext__P3_H2_veinsX_W12_ellipse_30deg",
+    "residual_flag": true,
+    "residual_fraction": 0.27586206896551724
+  },
+  {
+    "parent_run_id": "run_20260909_101259_c09376",
+    "name": "P3_H2_square_W8_ellipse_60deg",
+    "family": "nanomesh_hier",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "vein_dirs": "xy",
+      "aspect": 2.0,
+      "angle_deg": 60,
+      "pore_d": 4.875
+    },
+    "porosity": 0.19241982507288635,
+    "n_atoms": 4432,
+    "rho": 0.8031149847380324,
+    "alignment": 0.19865892311890238,
+    "min_section": 0.770757523141823,
+    "modulus": 149.4596702883048,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H2",
+      "veins_xy"
+    ],
+    "A": {
+      "strength": 11.734710258719902,
+      "integral": 0.9395777918894185,
+      "end_strain": 0.13125000000000003,
+      "peak_strain": 0.09625000000000002,
+      "failure_observed": true,
+      "failure_strain": 0.13125000000000003,
+      "stop": "not spanning (fractured)"
+    },
+    "B": null,
+    "C": null,
+    "extension_case": null,
+    "residual_flag": null,
+    "residual_fraction": null
+  },
+  {
+    "parent_run_id": "run_20260909_103023_b03fea",
+    "name": "P3_H2_square_W8_ellipse_00deg",
+    "family": "nanomesh_hier",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "vein_dirs": "xy",
+      "aspect": 2.0,
+      "angle_deg": 0,
+      "pore_d": 4.875
+    },
+    "porosity": 0.19752186588921283,
+    "n_atoms": 4404,
+    "rho": 0.8003249630598285,
+    "alignment": -0.09685883892165358,
+    "min_section": 0.6861500041942726,
+    "modulus": 94.04352349030808,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H2",
+      "veins_xy"
+    ],
+    "A": {
+      "strength": 10.05664546649428,
+      "integral": 1.3328886183098612,
+      "end_strain": 0.2612500000000001,
+      "peak_strain": 0.14125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 10.0513721128277,
+      "integral": 1.3767754955920375,
+      "end_strain": 0.2612500000000001,
+      "peak_strain": 0.14125,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 10.0513721128277,
+      "integral": 1.4779678264663665,
+      "end_strain": 0.31625000000000014,
+      "peak_strain": 0.14125,
+      "failure_observed": true,
+      "failure_strain": 0.31625000000000014,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__P3_H2_square_W8_ellipse_00deg",
+    "residual_flag": true,
+    "residual_fraction": 0.5094339622641509
+  },
+  {
+    "parent_run_id": "run_20260909_103406_61de19",
+    "name": "P3_H2_square_W8_ellipse_30deg",
+    "family": "nanomesh_hier",
+    "source_phase": "earlier II",
+    "campaign": "paper",
+    "params": {
+      "Lx": 120,
+      "Ly": 120,
+      "levels": 2,
+      "period": 12,
+      "domain": 40,
+      "vein_w": 8,
+      "vein_dirs": "xy",
+      "aspect": 2.0,
+      "angle_deg": 30,
+      "pore_d": 4.875
+    },
+    "porosity": 0.19569970845481055,
+    "n_atoms": 4414,
+    "rho": 0.7990070674028565,
+    "alignment": 0.01181725951555835,
+    "min_section": 0.7585383927183684,
+    "modulus": 126.3924077581504,
+    "level": 2,
+    "ligament_class": "fine_round",
+    "tags": [
+      "paper",
+      "alignment",
+      "H2",
+      "veins_xy"
+    ],
+    "A": {
+      "strength": 11.227905828403436,
+      "integral": 1.273459696328768,
+      "end_strain": 0.2562500000000001,
+      "peak_strain": 0.13624999999999998,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "B": {
+      "strength": 11.197123270980669,
+      "integral": 1.2599733803237247,
+      "end_strain": 0.2562500000000001,
+      "peak_strain": 0.13624999999999998,
+      "failure_observed": false,
+      "failure_strain": null,
+      "stop": "post-peak strain limit reached (load still carried)"
+    },
+    "C": {
+      "strength": 11.197123270980669,
+      "integral": 1.5067688431967694,
+      "end_strain": 0.3962500000000002,
+      "peak_strain": 0.13624999999999998,
+      "failure_observed": true,
+      "failure_strain": 0.3962500000000002,
+      "stop": "not spanning (fractured)"
+    },
+    "extension_case": "ext__P3_H2_square_W8_ellipse_30deg",
+    "residual_flag": true,
+    "residual_fraction": 0.7391304347826086
+  }
+]

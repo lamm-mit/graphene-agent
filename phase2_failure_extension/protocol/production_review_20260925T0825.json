@@ -1,0 +1,87 @@
+{
+  "recorded_utc": "2026-09-25T08:26:33.690930+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T08:26:25.636372+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 16,
+      "running": 3,
+      "pending": 21
+    },
+    "running": [
+      {
+        "case_id": "ext__P1_slit_30deg",
+        "pid": 6635,
+        "elapsed_s": 24874.633374929428,
+        "updated_utc": "2026-09-25T08:26:03.255030+00:00",
+        "frames": 158,
+        "attempted_step": 160,
+        "strain": 0.8137500000000006,
+        "stress_N_m": 2.6696670465146437,
+        "force_residual_eV_A": 0.0921010971069336,
+        "transverse_stress_N_m": -0.03208057657851593,
+        "wall_time_s": 24851.376132011414,
+        "virtual_original_stop": {
+          "index": 59,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 220
+      },
+      {
+        "case_id": "ext__P2_slit_20deg_phi0.30",
+        "pid": 51127,
+        "elapsed_s": 11102.328696250916,
+        "updated_utc": "2026-09-25T08:25:04.291944+00:00",
+        "frames": 88,
+        "attempted_step": 90,
+        "strain": 0.46375000000000033,
+        "stress_N_m": 3.2035597262750373,
+        "force_residual_eV_A": 0.08620588481426239,
+        "transverse_stress_N_m": 0.015551816539983556,
+        "wall_time_s": 11020.061787843704,
+        "virtual_original_stop": {
+          "index": 48,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 201
+      },
+      {
+        "case_id": "ext__P3_H2_square_W8_ellipse_00deg",
+        "pid": 84122,
+        "elapsed_s": 575.2761557102203,
+        "updated_utc": "2026-09-25T08:25:18.238962+00:00",
+        "frames": 18,
+        "attempted_step": 20,
+        "strain": 0.14125,
+        "stress_N_m": 10.0513721128277,
+        "force_residual_eV_A": 0.01597980223596096,
+        "transverse_stress_N_m": 0.05913086962816431,
+        "wall_time_s": 506.8855519294739,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 6
+      }
+    ]
+  },
+  "process_snapshot": " 6635 43715 06:54:42 155:24.24 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_30deg\n43715     1 21:15:06   0:10.66 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_study.py\n51127 43715 03:05:10  71:33.58 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P2_slit_20deg_phi0.30\n84122 43715    09:43   3:31.09 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P3_H2_square_W8_ellipse_00deg\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__P3_H1_ellipse_30deg.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T0825.json",
+  "new_preview_script": "scripts/plot_production_previews.py",
+  "new_preview_script_sha256": "3f129b1ed269e07501bb4b886fd486e8d0e5d1a98c3c4f1353a1061913747be6",
+  "scientific_driver_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "Fourteen of 34 extensions and both controls complete; four resolution checks pending. H1 elliptical 30-degree mesh adds 5.6554% integral B-to-C without a peak increase. Twelve of fourteen completed extensions have no B-to-C peak increase; three of these have no added interval. All completed primary extension trajectories retain residual tolerance flags."
+}

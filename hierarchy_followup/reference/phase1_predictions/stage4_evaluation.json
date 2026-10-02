@@ -1,0 +1,298 @@
+{
+ "prediction_file": "experiments/predictions/stage4_predictions.json",
+ "prediction_written": "2026-09-05 11:32:52",
+ "prediction_sha256": "89a53a14323ba3527a41dd14a615f23e66cda398b9a8d53c1644d3b6ad35660b",
+ "evaluated": "2026-09-05 17:26:29",
+ "rows": [
+  {
+   "name": "S4_square_D40",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 16.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "minSF=0.51, K=straight"
+   },
+   "rationale": "H-A vs H-B pair 1/2: coarse square pores (straight uniform ligaments), reference of the pair",
+   "run_id": "run_20260905_133941_57028b",
+   "observed": {
+    "modulus_2d_Nm": 150.5373087843543,
+    "strength_Nm": 17.028392407643068,
+    "failure_strain": 0.17,
+    "work_to_failure_J_m2": 1.7620675335785116,
+    "damage_localization": 0.1887018540918869,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "first_damage_strain": 0.13499999999999998,
+    "viability": "stable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 1.028392407643068,
+     "rel": 0.060392806497780824
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S4_circle_D40_sameMinSF",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 11.3,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.52, K=necked; H-B alternative ~16.2"
+   },
+   "rationale": "pair 1: circular pores with diameter = square side (17.6 A) -> same minSF (0.52) but lower porosity (0.16); H-A predicts weaker than square (necked paths), H-B predicts >= square",
+   "run_id": "run_20260905_123014_c3cd45",
+   "observed": {
+    "modulus_2d_Nm": 170.1867580945056,
+    "strength_Nm": 16.0525202082721,
+    "failure_strain": 0.12375,
+    "work_to_failure_J_m2": 1.1152541650190702,
+    "damage_localization": 0.41699838290787417,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "first_damage_strain": 0.11374999999999999,
+    "viability": "stable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 4.752520208272099,
+     "rel": 0.2960606899484266
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S4_circle_D40_samePhi",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 9.8,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.45, K=necked"
+   },
+   "rationale": "pair 2: circular pores at the same porosity (0.20) -> minSF 0.45",
+   "run_id": "run_20260905_130609_6f505d",
+   "observed": {
+    "modulus_2d_Nm": 153.5661792067384,
+    "strength_Nm": 14.061488274245285,
+    "failure_strain": 0.14750000000000002,
+    "work_to_failure_J_m2": 1.2196478023677049,
+    "damage_localization": 0.3173931683784692,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.1025,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 4.261488274245284,
+     "rel": 0.30306096987262243
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S4_square_D40_dispersed",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 14.7,
+    "fracture_mode_class": "progressive",
+    "basis": "weakest row ~10% below mean; H-C: multi-step; H-C': single avalanche"
+   },
+   "rationale": "pair 3 (H-C): square coarse mesh with +-15% pore-size dispersion (non-equivalent rows) at the same porosity",
+   "run_id": "run_20260905_150004_631da6",
+   "observed": {
+    "modulus_2d_Nm": 152.4511175069933,
+    "strength_Nm": 15.80719657611684,
+    "failure_strain": 0.14,
+    "work_to_failure_J_m2": 1.2701807275104418,
+    "damage_localization": 0.33005520856705384,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "first_damage_strain": 0.11499999999999999,
+    "viability": "stable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 1.1071965761168414,
+     "rel": 0.07004382913727468
+    }
+   },
+   "mode_match": false
+  },
+  {
+   "name": "S4_p32_dispersed",
+   "family": "nanomesh_single",
+   "predicted": {
+    "strength_Nm": 14.4,
+    "fracture_mode_class": "progressive",
+    "basis": "necked + non-equivalent"
+   },
+   "rationale": "pair 4 (H-C): period-32 round-pore mesh with +-15% size dispersion",
+   "run_id": "run_20260905_142144_c52529",
+   "observed": {
+    "modulus_2d_Nm": 150.30139236031445,
+    "strength_Nm": 13.764452925131446,
+    "failure_strain": 0.12625000000000003,
+    "work_to_failure_J_m2": 0.9409847306815476,
+    "damage_localization": 0.4561088579249323,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.09625,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": -0.6355470748685548,
+     "rel": -0.046173071921235515
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S4_precrack_L30_cell150",
+   "family": "precrack",
+   "predicted": {
+    "strength_Nm": 18.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "lattice-trapping plateau (H-E); Griffith alternative 13.9"
+   },
+   "rationale": "H-E: 30 A crack in a 150 A cell (image interaction removed)",
+   "run_id": "run_20260905_125037_61a235",
+   "observed": {
+    "modulus_2d_Nm": 238.62478341224264,
+    "strength_Nm": 19.447673755822063,
+    "failure_strain": 0.09625000000000003,
+    "work_to_failure_J_m2": 0.9926119225666935,
+    "damage_localization": 0.5151224978289876,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "first_damage_strain": 0.07625000000000001,
+    "viability": "stable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 1.4476737558220627,
+     "rel": 0.07443943034002572
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S4_precrack_L40_cell150",
+   "family": "precrack",
+   "predicted": {
+    "strength_Nm": 18.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "lattice-trapping plateau (H-E); Griffith alternative 12.0"
+   },
+   "rationale": "H-E: 40 A crack in a 150 A cell (image interaction removed)",
+   "run_id": "run_20260905_143356_fa4ee2",
+   "observed": {
+    "modulus_2d_Nm": 233.92533762558736,
+    "strength_Nm": 17.89372281412717,
+    "failure_strain": 0.09125000000000003,
+    "work_to_failure_J_m2": 0.8659168158171564,
+    "damage_localization": 0.5409062608399147,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "first_damage_strain": 0.07125000000000001,
+    "viability": "stable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": -0.10627718587283042,
+     "rel": -0.00593935577167453
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S4_hole_d30",
+   "family": "ring_around_hole",
+   "predicted": {
+    "strength_Nm": 17.5,
+    "fracture_mode_class": "abrupt",
+    "basis": "plateau; net-section 0.7 x 39/1.6"
+   },
+   "rationale": "H-E: 30 A hole",
+   "run_id": "run_20260905_145623_aa4749",
+   "observed": {
+    "modulus_2d_Nm": 208.30952970479487,
+    "strength_Nm": 18.54962028944317,
+    "failure_strain": 0.10750000000000001,
+    "work_to_failure_J_m2": 1.079456964825038,
+    "damage_localization": 0.34435002613493304,
+    "fracture_mode": "abrupt brittle (single avalanche)",
+    "first_damage_strain": 0.0925,
+    "viability": "stable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 1.049620289443169,
+     "rel": 0.05658446227282192
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S4_H2_D40_W8_veins_x",
+   "family": "nanomesh_hier",
+   "predicted": {
+    "strength_Nm": 14.5,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.72; H-F: x-veins add straight load paths, y-veins add nothing (H-F' predicts xy > x)"
+   },
+   "rationale": "H-F: two-level mesh with veins only along x (parallel to the load) at matched porosity; xy reference = S2_H2_D40_W8 (12.8 N/m)",
+   "run_id": "run_20260905_172505_71282e",
+   "observed": {
+    "modulus_2d_Nm": 137.2968411443951,
+    "strength_Nm": 16.04554318511237,
+    "failure_strain": 0.18875000000000003,
+    "work_to_failure_J_m2": 1.6280747050545,
+    "damage_localization": 0.32027399111069177,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.13374999999999998,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 1.5455431851123684,
+     "rel": 0.09632227262623175
+    }
+   },
+   "mode_match": true
+  },
+  {
+   "name": "S4_H2_D40_W8_veins_y",
+   "family": "nanomesh_hier",
+   "predicted": {
+    "strength_Nm": 11.5,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.73; H-F: x-veins add straight load paths, y-veins add nothing (H-F' predicts xy > x)"
+   },
+   "rationale": "H-F: two-level mesh with veins only along y (perpendicular to the load) at matched porosity; xy reference = S2_H2_D40_W8 (12.8 N/m)",
+   "run_id": "run_20260905_165516_da774b",
+   "observed": {
+    "modulus_2d_Nm": 125.90205516229166,
+    "strength_Nm": 11.98210713441195,
+    "failure_strain": 0.18125000000000005,
+    "work_to_failure_J_m2": 1.031733853312961,
+    "damage_localization": 0.2725145122591308,
+    "fracture_mode": "progressive (multiple events, load retained)",
+    "first_damage_strain": 0.10625,
+    "viability": "reconstructed but viable"
+   },
+   "errors": {
+    "strength_Nm": {
+     "abs": 0.4821071344119492,
+     "rel": 0.04023558869936692
+    }
+   },
+   "mode_match": true
+  }
+ ],
+ "summary": {
+  "strength_Nm": {
+   "median_abs_rel_error": 0.06521831781752775,
+   "mean_abs_rel_error": 0.10492524770874609,
+   "max_abs_rel_error": 0.30306096987262243,
+   "mean_abs_error": 1.6416366091808228,
+   "n": 10
+  },
+  "fracture_mode_class_accuracy": 0.8
+ }
+}

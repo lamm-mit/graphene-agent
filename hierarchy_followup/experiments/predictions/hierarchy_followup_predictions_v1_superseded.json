@@ -1,0 +1,3337 @@
+{
+ "name": "hierarchy_followup_predictions",
+ "written": "2026-09-23 13:52:58",
+ "notes": "Pre-registered predictions of the hierarchy follow-up (phase 3), written before any spec was written or launched. Tests and success criteria: T1 crack arrest -- veins-mesh retention (sigma_cracked/sigma_uncracked, same registry) exceeds the net-section rule by >= 15 % and the one-level control by >= 10 % at both crack lengths and both registries, with the crack arrested at the first vein at peak load (no broken bonds inside the vein bands up to the peak). T4 two-stage failure -- residual after the first avalanche (first single-step drop > 15 % of the peak) >= 0.6 at both registries and post-peak energy >= 1.5 x the one-level control (S2_ellipse_90deg, 0.21 J/m2; the same-cell control H1_ellipse_r0/r1 once available). T2 Cook-Gordon seams -- W ratio to the cracked pristine reference (H1_pristine_L20 of the same registry) >= 1.3 with visible deflection into a seam at both registries of at least one spacing; random-pore and across-load controls < 1.1. T3 scale separation -- W or crack-retention premium of the two-level design beyond the one-level scatter (0.31 J/m2, 2.0 N/m), same sign at both registries. Rule inputs: reference/phase1_reference_numbers.json (class medians straight 30.00, fine_round 16.95 N/m; one-level trend sigma = 16.77 A + 13.23). Loading: phase-1 AQS constants with max_strain 0.35 and post_peak_strain_limit 0.20.",
+ "predictions": [
+  {
+   "name": "H1_pristine_L20_r0",
+   "test": "T1",
+   "family": "pristine",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "orientation": "zigzag",
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "S1_pristine_zz",
+   "porosity": 0.0055,
+   "porosity_base": 0.0,
+   "n_atoms": 5458,
+   "minSF": 0.8339,
+   "alignment_A": -0.5065,
+   "crack_column": {
+    "SF": 0.8339462651956658,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8339462651956658,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 29,
+    "n_pruned": 1
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 32.4,
+    "strength_Nm_mechanism": 18.5,
+    "retention_rule": 0.834,
+    "retention_mechanism": 0.478,
+    "modulus_2d_Nm": 235.0,
+    "work_to_failure_J_m2": 0.89,
+    "failure_strain": 0.091,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "sharp crack in the pristine sheet: net section 0.83 but the phase-1 notch series gives retention 0.48 (lattice-trapping plateau); the cell is 120 A instead of 100/150 A",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "flaw",
+    "pristine",
+    "registry0",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H1_pristine_L40_r0",
+   "test": "T1",
+   "family": "pristine",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "orientation": "zigzag",
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "S1_pristine_zz",
+   "porosity": 0.0104,
+   "porosity_base": 0.0,
+   "n_atoms": 5431,
+   "minSF": 0.6747,
+   "alignment_A": -0.5589,
+   "crack_column": {
+    "SF": 0.6747002447060412,
+    "SF_vein": 0.0,
+    "SF_fine": 0.6747002447060412,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 39.06055596311347,
+    "crack_w_actual": 2.460177000000004,
+    "tip_lo": [
+     60.2743365,
+     40.48093981631759
+    ],
+    "tip_hi": [
+     60.2743365,
+     79.54149577943106
+    ],
+    "n_removed_cut": 57,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 26.2,
+    "strength_Nm_mechanism": 18.3,
+    "retention_rule": 0.675,
+    "retention_mechanism": 0.472,
+    "modulus_2d_Nm": 200.0,
+    "work_to_failure_J_m2": 0.88,
+    "failure_strain": 0.09,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "sharp crack in the pristine sheet: net section 0.67 but the phase-1 notch series gives retention 0.47 (lattice-trapping plateau); the cell is 120 A instead of 100/150 A",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "flaw",
+    "pristine",
+    "registry0",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H1_pristine_L20_r1",
+   "test": "T1",
+   "family": "pristine",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "orientation": "zigzag",
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "S1_pristine_zz",
+   "porosity": 0.0051,
+   "porosity_base": 0.0,
+   "n_atoms": 5460,
+   "minSF": 0.8465,
+   "alignment_A": -0.5038,
+   "crack_column": {
+    "SF": 0.8465183194448467,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8465183194448467,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 28,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 32.8,
+    "strength_Nm_mechanism": 18.5,
+    "retention_rule": 0.847,
+    "retention_mechanism": 0.478,
+    "modulus_2d_Nm": 235.0,
+    "work_to_failure_J_m2": 0.89,
+    "failure_strain": 0.091,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "sharp crack in the pristine sheet: net section 0.85 but the phase-1 notch series gives retention 0.48 (lattice-trapping plateau); the cell is 120 A instead of 100/150 A",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "flaw",
+    "pristine",
+    "registry1",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H1_pristine_L40_r1",
+   "test": "T1",
+   "family": "pristine",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "orientation": "zigzag",
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "S1_pristine_zz",
+   "porosity": 0.0104,
+   "porosity_base": 0.0,
+   "n_atoms": 5431,
+   "minSF": 0.6747,
+   "alignment_A": -0.5635,
+   "crack_column": {
+    "SF": 0.6747002447060412,
+    "SF_vein": 0.0,
+    "SF_fine": 0.6747002447060412,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 39.06055596311347,
+    "crack_w_actual": 2.460177000000004,
+    "tip_lo": [
+     61.509960398249994,
+     40.48093981631759
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     79.54149577943106
+    ],
+    "n_removed_cut": 57,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 26.2,
+    "strength_Nm_mechanism": 18.3,
+    "retention_rule": 0.675,
+    "retention_mechanism": 0.472,
+    "modulus_2d_Nm": 200.0,
+    "work_to_failure_J_m2": 0.88,
+    "failure_strain": 0.09,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "sharp crack in the pristine sheet: net section 0.67 but the phase-1 notch series gives retention 0.47 (lattice-trapping plateau); the cell is 120 A instead of 100/150 A",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "flaw",
+    "pristine",
+    "registry1",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H1_ellipse_r0",
+   "test": "T1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.875
+   },
+   "seed": 0,
+   "parent": "S2_ellipse_90deg",
+   "porosity": 0.1986,
+   "porosity_base": 0.1986,
+   "n_atoms": 4398,
+   "minSF": 0.7208,
+   "alignment_A": 0.3195,
+   "crack_column": {
+    "SF": 0.7207977769530378,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7207977769530378,
+    "x_col": 120.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 19.0,
+    "strength_Nm_class_rule": 21.6,
+    "modulus_2d_Nm": 171.0,
+    "failure_strain": 0.191,
+    "work_to_failure_J_m2": 1.94,
+    "damage_localization": 0.22,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "same design as the phase-1 record (cell 102 A -> 120 A, registry 0); rule = the phase-1 value; class rule = column rule with sigma_net straight 30.0 / fine 16.9 N/m",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "ellipse",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H1_ellipse_r1",
+   "test": "T1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.875
+   },
+   "seed": 0,
+   "parent": "S2_ellipse_90deg",
+   "porosity": 0.1986,
+   "porosity_base": 0.1986,
+   "n_atoms": 4398,
+   "minSF": 0.7795,
+   "alignment_A": 0.317,
+   "crack_column": {
+    "SF": 0.7794673634492153,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7794673634492153,
+    "x_col": 120.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 19.0,
+    "strength_Nm_class_rule": 23.4,
+    "modulus_2d_Nm": 171.0,
+    "failure_strain": 0.191,
+    "work_to_failure_J_m2": 1.94,
+    "damage_localization": 0.22,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "same design as the phase-1 record (cell 102 A -> 120 A, registry 1); rule = the phase-1 value; class rule = column rule with sigma_net straight 30.0 / fine 16.9 N/m",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "ellipse",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H1_veinsX_r0",
+   "test": "T1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.722
+   },
+   "seed": 0,
+   "parent": "S7_H2_veinsX_W12_ellipseX",
+   "porosity": 0.1977,
+   "porosity_base": 0.1977,
+   "n_atoms": 4403,
+   "minSF": 0.7837,
+   "alignment_A": 0.5465,
+   "crack_column": {
+    "SF": 0.7836580481989422,
+    "SF_vein": 0.2723945087322526,
+    "SF_fine": 0.5112635394666896,
+    "x_col": 119.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 19.4,
+    "strength_Nm_class_rule": 16.8,
+    "modulus_2d_Nm": 178.0,
+    "failure_strain": 0.221,
+    "work_to_failure_J_m2": 1.98,
+    "damage_localization": 0.23,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "same design as the phase-1 record (cell 122 A -> 120 A, registry 0); rule = the phase-1 value; class rule = column rule with sigma_net straight 30.0 / fine 16.9 N/m",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "veinsX",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H1_veinsX_r1",
+   "test": "T1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.722
+   },
+   "seed": 0,
+   "parent": "S7_H2_veinsX_W12_ellipseX",
+   "porosity": 0.1977,
+   "porosity_base": 0.1977,
+   "n_atoms": 4403,
+   "minSF": 0.7795,
+   "alignment_A": 0.5448,
+   "crack_column": {
+    "SF": 0.7794673634492153,
+    "SF_vein": 0.27658519348197963,
+    "SF_fine": 0.5028821699672357,
+    "x_col": 119.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 19.4,
+    "strength_Nm_class_rule": 16.8,
+    "modulus_2d_Nm": 178.0,
+    "failure_strain": 0.221,
+    "work_to_failure_J_m2": 1.98,
+    "damage_localization": 0.23,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "same design as the phase-1 record (cell 122 A -> 120 A, registry 1); rule = the phase-1 value; class rule = column rule with sigma_net straight 30.0 / fine 16.9 N/m",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "veinsX",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H1_slit_r0",
+   "test": "T1",
+   "family": "slit_array",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "slit_len": 25.062
+   },
+   "seed": 0,
+   "parent": "S2_slit_0deg",
+   "porosity": 0.2019,
+   "porosity_base": 0.2019,
+   "n_atoms": 4380,
+   "minSF": 0.792,
+   "alignment_A": 0.7236,
+   "crack_column": {
+    "SF": 0.7920394176983961,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7920394176983961,
+    "x_col": 120.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 25.4,
+    "strength_Nm_class_rule": 23.8,
+    "modulus_2d_Nm": 200.0,
+    "failure_strain": 0.219,
+    "work_to_failure_J_m2": 3.25,
+    "damage_localization": 0.18,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "same design as the phase-1 record (cell 102 A -> 120 A, registry 0); rule = the phase-1 value; class rule = column rule with sigma_net straight 30.0 / fine 16.9 N/m",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "slit",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H1_slit_r1",
+   "test": "T1",
+   "family": "slit_array",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "slit_len": 25.062
+   },
+   "seed": 0,
+   "parent": "S2_slit_0deg",
+   "porosity": 0.2019,
+   "porosity_base": 0.2019,
+   "n_atoms": 4380,
+   "minSF": 0.792,
+   "alignment_A": 0.724,
+   "crack_column": {
+    "SF": 0.7920394176983961,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7920394176983961,
+    "x_col": 120.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 25.4,
+    "strength_Nm_class_rule": 23.8,
+    "modulus_2d_Nm": 200.0,
+    "failure_strain": 0.219,
+    "work_to_failure_J_m2": 3.25,
+    "damage_localization": 0.18,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "same design as the phase-1 record (cell 102 A -> 120 A, registry 1); rule = the phase-1 value; class rule = column rule with sigma_net straight 30.0 / fine 16.9 N/m",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "slit",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H1_ellipse_L20_r0",
+   "test": "T1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.875,
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_ellipse_r0",
+   "porosity": 0.2041,
+   "porosity_base": 0.1986,
+   "n_atoms": 4368,
+   "minSF": 0.7124,
+   "alignment_A": 0.3139,
+   "crack_column": {
+    "SF": 0.7124164074535838,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7124164074535838,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 7.380531000000005,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 23,
+    "n_pruned": 7
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 18.7,
+    "strength_Nm_mechanism": 18.7,
+    "strength_Nm_class_rule": 21.4,
+    "retention_rule": 0.988,
+    "retention_mechanism": 0.988,
+    "modulus_2d_Nm": 161.0,
+    "work_to_failure_J_m2": 1.92,
+    "failure_strain": 0.189,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.712 / 0.721 = 0.988; no barrier ahead of the tips (fine ligaments everywhere): net-section rule; far less notch-sensitive than the pristine sheet because the pores already blunt the tip",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "ellipse",
+    "registry0",
+    "cracked",
+    "L20"
+   ]
+  },
+  {
+   "name": "H1_ellipse_L40_r0",
+   "test": "T1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.875,
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_ellipse_r0",
+   "porosity": 0.2094,
+   "porosity_base": 0.1986,
+   "n_atoms": 4339,
+   "minSF": 0.5657,
+   "alignment_A": 0.3056,
+   "crack_column": {
+    "SF": 0.5657424412131401,
+    "SF_vein": 0.0,
+    "SF_fine": 0.5657424412131401,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 38.3503640365114,
+    "crack_w_actual": 7.380531000000005,
+    "tip_lo": [
+     60.2743365,
+     39.060555963113465
+    ],
+    "tip_hi": [
+     60.2743365,
+     77.41091999962487
+    ],
+    "n_removed_cut": 47,
+    "n_pruned": 12
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 14.9,
+    "strength_Nm_mechanism": 14.9,
+    "strength_Nm_class_rule": 17.0,
+    "retention_rule": 0.785,
+    "retention_mechanism": 0.785,
+    "modulus_2d_Nm": 151.0,
+    "work_to_failure_J_m2": 1.53,
+    "failure_strain": 0.15,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.566 / 0.721 = 0.785; no barrier ahead of the tips (fine ligaments everywhere): net-section rule; far less notch-sensitive than the pristine sheet because the pores already blunt the tip",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "ellipse",
+    "registry0",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H1_ellipse_L20_r1",
+   "test": "T1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.875,
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_ellipse_r1",
+   "porosity": 0.2039,
+   "porosity_base": 0.1986,
+   "n_atoms": 4369,
+   "minSF": 0.6915,
+   "alignment_A": 0.3156,
+   "crack_column": {
+    "SF": 0.691462983704949,
+    "SF_vein": 0.0,
+    "SF_fine": 0.691462983704949,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 7.380530999999998,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 21,
+    "n_pruned": 8
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 16.8,
+    "strength_Nm_mechanism": 16.8,
+    "strength_Nm_class_rule": 20.7,
+    "retention_rule": 0.887,
+    "retention_mechanism": 0.887,
+    "modulus_2d_Nm": 161.0,
+    "work_to_failure_J_m2": 1.73,
+    "failure_strain": 0.17,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.691 / 0.779 = 0.887; no barrier ahead of the tips (fine ligaments everywhere): net-section rule; far less notch-sensitive than the pristine sheet because the pores already blunt the tip",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "ellipse",
+    "registry1",
+    "cracked",
+    "L20"
+   ]
+  },
+  {
+   "name": "H1_ellipse_L40_r1",
+   "test": "T1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.875,
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_ellipse_r1",
+   "porosity": 0.2092,
+   "porosity_base": 0.1986,
+   "n_atoms": 4340,
+   "minSF": 0.5448,
+   "alignment_A": 0.3041,
+   "crack_column": {
+    "SF": 0.5447890174645053,
+    "SF_vein": 0.0,
+    "SF_fine": 0.5447890174645053,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 34.799404403501086,
+    "crack_w_actual": 7.380530999999998,
+    "tip_lo": [
+     61.509960398249994,
+     40.48093981631759
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     75.28034421981867
+    ],
+    "n_removed_cut": 44,
+    "n_pruned": 14
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 13.2,
+    "strength_Nm_mechanism": 13.2,
+    "strength_Nm_class_rule": 16.3,
+    "retention_rule": 0.699,
+    "retention_mechanism": 0.699,
+    "modulus_2d_Nm": 151.0,
+    "work_to_failure_J_m2": 1.36,
+    "failure_strain": 0.134,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.545 / 0.779 = 0.699; no barrier ahead of the tips (fine ligaments everywhere): net-section rule; far less notch-sensitive than the pristine sheet because the pores already blunt the tip",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "ellipse",
+    "registry1",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H1_veinsX_L20_r0",
+   "test": "T1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.722,
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_veinsX_r0",
+   "porosity": 0.203,
+   "porosity_base": 0.1977,
+   "n_atoms": 4374,
+   "minSF": 0.7543,
+   "alignment_A": 0.5486,
+   "crack_column": {
+    "SF": 0.7543232549508535,
+    "SF_vein": 0.2975386172306144,
+    "SF_fine": 0.45678463772023903,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485776,
+    "crack_w_actual": 7.380531000000005,
+    "tip_lo": [
+     60.2743365,
+     10.652878899030945
+    ],
+    "tip_hi": [
+     60.2743365,
+     30.538252843888706
+    ],
+    "n_removed_cut": 20,
+    "n_pruned": 9
+   },
+   "tip_to_vein_A": [
+    4.65,
+    3.23
+   ],
+   "predicted": {
+    "strength_Nm_rule": 18.7,
+    "strength_Nm_mechanism": 21.5,
+    "strength_Nm_class_rule": 16.7,
+    "retention_rule": 0.963,
+    "retention_mechanism": 1.107,
+    "modulus_2d_Nm": 167.0,
+    "work_to_failure_J_m2": 2.19,
+    "failure_strain": 0.213,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.754 / 0.784 = 0.963; crack arrest: the crack tips face load-parallel veins (Y ~ 250 N/m) that are stiffer than the fine-pored domain (~100 N/m); retention 15 % above the net-section rule with the crack arrested at the first vein at peak load; tips 4 A from the vein edges",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "veinsX",
+    "registry0",
+    "cracked",
+    "L20"
+   ]
+  },
+  {
+   "name": "H1_veinsX_L40_r0",
+   "test": "T1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.722,
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.333333
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_veinsX_r0",
+   "porosity": 0.2088,
+   "porosity_base": 0.1977,
+   "n_atoms": 4342,
+   "minSF": 0.5741,
+   "alignment_A": 0.5163,
+   "crack_column": {
+    "SF": 0.574123810712594,
+    "SF_vein": 0.1969621832371673,
+    "SF_fine": 0.37716162747542675,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 34.799404403501086,
+    "crack_w_actual": 7.380531000000005,
+    "tip_lo": [
+     60.2743365,
+     25.566909357674266
+    ],
+    "tip_hi": [
+     60.2743365,
+     60.36631376117535
+    ],
+    "n_removed_cut": 50,
+    "n_pruned": 11
+   },
+   "tip_to_vein_A": [
+    19.57,
+    13.18
+   ],
+   "predicted": {
+    "strength_Nm_rule": 14.2,
+    "strength_Nm_mechanism": 16.3,
+    "strength_Nm_class_rule": 12.3,
+    "retention_rule": 0.733,
+    "retention_mechanism": 0.843,
+    "modulus_2d_Nm": 157.0,
+    "work_to_failure_J_m2": 1.67,
+    "failure_strain": 0.162,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.574 / 0.784 = 0.733; crack arrest: the crack tips face load-parallel veins (Y ~ 250 N/m) that are stiffer than the fine-pored domain (~100 N/m); retention 15 % above the net-section rule with the crack arrested at the first vein at peak load; the 40 A crack severs the vein it is centred on, the next veins are 14 A ahead of its tips",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "veinsX",
+    "registry0",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H1_veinsX_L20_r1",
+   "test": "T1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.722,
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_veinsX_r1",
+   "porosity": 0.2019,
+   "porosity_base": 0.1977,
+   "n_atoms": 4380,
+   "minSF": 0.7543,
+   "alignment_A": 0.5436,
+   "crack_column": {
+    "SF": 0.7543232549508535,
+    "SF_vein": 0.2975386172306144,
+    "SF_fine": 0.45678463772023903,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255697,
+    "crack_w_actual": 7.380530999999998,
+    "tip_lo": [
+     61.509960398249994,
+     10.652878899030945
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     29.828060917286642
+    ],
+    "n_removed_cut": 19,
+    "n_pruned": 4
+   },
+   "tip_to_vein_A": [
+    4.65,
+    3.94
+   ],
+   "predicted": {
+    "strength_Nm_rule": 18.8,
+    "strength_Nm_mechanism": 21.6,
+    "strength_Nm_class_rule": 16.7,
+    "retention_rule": 0.968,
+    "retention_mechanism": 1.113,
+    "modulus_2d_Nm": 167.0,
+    "work_to_failure_J_m2": 2.21,
+    "failure_strain": 0.214,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.754 / 0.779 = 0.968; crack arrest: the crack tips face load-parallel veins (Y ~ 250 N/m) that are stiffer than the fine-pored domain (~100 N/m); retention 15 % above the net-section rule with the crack arrested at the first vein at peak load; tips 4 A from the vein edges",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "veinsX",
+    "registry1",
+    "cracked",
+    "L20"
+   ]
+  },
+  {
+   "name": "H1_veinsX_L40_r1",
+   "test": "T1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.722,
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.333333
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_veinsX_r1",
+   "porosity": 0.2077,
+   "porosity_base": 0.1977,
+   "n_atoms": 4348,
+   "minSF": 0.5783,
+   "alignment_A": 0.5138,
+   "crack_column": {
+    "SF": 0.5783144954623209,
+    "SF_vein": 0.1969621832371673,
+    "SF_fine": 0.3813523122251537,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 34.08921247689902,
+    "crack_w_actual": 4.920354000000003,
+    "tip_lo": [
+     61.509960398249994,
+     25.566909357674266
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     59.656121834573284
+    ],
+    "n_removed_cut": 49,
+    "n_pruned": 6
+   },
+   "tip_to_vein_A": [
+    19.57,
+    13.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 14.4,
+    "strength_Nm_mechanism": 16.5,
+    "strength_Nm_class_rule": 12.4,
+    "retention_rule": 0.742,
+    "retention_mechanism": 0.853,
+    "modulus_2d_Nm": 157.0,
+    "work_to_failure_J_m2": 1.69,
+    "failure_strain": 0.164,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.578 / 0.779 = 0.742; crack arrest: the crack tips face load-parallel veins (Y ~ 250 N/m) that are stiffer than the fine-pored domain (~100 N/m); retention 15 % above the net-section rule with the crack arrested at the first vein at peak load; the 40 A crack severs the vein it is centred on, the next veins are 14 A ahead of its tips",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "veinsX",
+    "registry1",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H1_slit_L20_r0",
+   "test": "T1",
+   "family": "slit_array",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "slit_len": 25.062,
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5625
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_slit_r0",
+   "porosity": 0.207,
+   "porosity_base": 0.2019,
+   "n_atoms": 4352,
+   "minSF": 0.7543,
+   "alignment_A": 0.7,
+   "crack_column": {
+    "SF": 0.7543232549508535,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7543232549508535,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 4.920354000000003,
+    "tip_lo": [
+     60.2743365,
+     57.5255460547671
+    ],
+    "tip_hi": [
+     60.2743365,
+     77.41091999962487
+    ],
+    "n_removed_cut": 23,
+    "n_pruned": 5
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 24.2,
+    "strength_Nm_mechanism": 24.2,
+    "strength_Nm_class_rule": 22.6,
+    "retention_rule": 0.952,
+    "retention_mechanism": 0.952,
+    "modulus_2d_Nm": 188.0,
+    "work_to_failure_J_m2": 3.1,
+    "failure_strain": 0.208,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.754 / 0.792 = 0.952; strips are independent: the crack removes strips and nothing else, the net-section rule is exact",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "slit",
+    "registry0",
+    "cracked",
+    "L20"
+   ]
+  },
+  {
+   "name": "H1_slit_L40_r0",
+   "test": "T1",
+   "family": "slit_array",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "slit_len": 25.062,
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5625
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_slit_r0",
+   "porosity": 0.2137,
+   "porosity_base": 0.2019,
+   "n_atoms": 4315,
+   "minSF": 0.6035,
+   "alignment_A": 0.7083,
+   "crack_column": {
+    "SF": 0.6034586039606827,
+    "SF_vein": 0.0,
+    "SF_fine": 0.6034586039606827,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 38.35036403651141,
+    "crack_w_actual": 4.920354000000005,
+    "tip_lo": [
+     60.2743365,
+     47.58285908233822
+    ],
+    "tip_hi": [
+     60.2743365,
+     85.93322311884963
+    ],
+    "n_removed_cut": 49,
+    "n_pruned": 16
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 19.4,
+    "strength_Nm_mechanism": 19.4,
+    "strength_Nm_class_rule": 18.1,
+    "retention_rule": 0.762,
+    "retention_mechanism": 0.762,
+    "modulus_2d_Nm": 176.0,
+    "work_to_failure_J_m2": 2.48,
+    "failure_strain": 0.167,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.603 / 0.792 = 0.762; strips are independent: the crack removes strips and nothing else, the net-section rule is exact",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "slit",
+    "registry0",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H1_slit_L20_r1",
+   "test": "T1",
+   "family": "slit_array",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "slit_len": 25.062,
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5625
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_slit_r1",
+   "porosity": 0.2059,
+   "porosity_base": 0.2019,
+   "n_atoms": 4358,
+   "minSF": 0.7669,
+   "alignment_A": 0.7024,
+   "crack_column": {
+    "SF": 0.7668953092000343,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7668953092000343,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     57.5255460547671
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     76.7007280730228
+    ],
+    "n_removed_cut": 22,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 24.6,
+    "strength_Nm_mechanism": 24.6,
+    "strength_Nm_class_rule": 23.0,
+    "retention_rule": 0.968,
+    "retention_mechanism": 0.968,
+    "modulus_2d_Nm": 188.0,
+    "work_to_failure_J_m2": 3.15,
+    "failure_strain": 0.212,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.767 / 0.792 = 0.968; strips are independent: the crack removes strips and nothing else, the net-section rule is exact",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "slit",
+    "registry1",
+    "cracked",
+    "L20"
+   ]
+  },
+  {
+   "name": "H1_slit_L40_r1",
+   "test": "T1",
+   "family": "slit_array",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "slit_w": 4.0,
+    "period_x": 30,
+    "period_y": 16,
+    "angle_deg": 0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "slit_len": 25.062,
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5625
+    ]
+   },
+   "seed": 0,
+   "parent": "H1_slit_r1",
+   "porosity": 0.2134,
+   "porosity_base": 0.2019,
+   "n_atoms": 4317,
+   "minSF": 0.5909,
+   "alignment_A": 0.709,
+   "crack_column": {
+    "SF": 0.5908865497115019,
+    "SF_vein": 0.0,
+    "SF_fine": 0.5908865497115019,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 39.06055596311347,
+    "crack_w_actual": 7.3805309999999995,
+    "tip_lo": [
+     61.509960398249994,
+     46.87266715573615
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     85.93322311884963
+    ],
+    "n_removed_cut": 50,
+    "n_pruned": 13
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 19.0,
+    "strength_Nm_mechanism": 19.0,
+    "strength_Nm_class_rule": 17.7,
+    "retention_rule": 0.746,
+    "retention_mechanism": 0.746,
+    "modulus_2d_Nm": 176.0,
+    "work_to_failure_J_m2": 2.43,
+    "failure_strain": 0.163,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "net-section scaling from the uncracked design of the same registry: SF_col 0.591 / 0.792 = 0.746; strips are independent: the crack removes strips and nothing else, the net-section rule is exact",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "slit",
+    "registry1",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H4_veinsX_W16_r0",
+   "test": "T4",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 16.0,
+    "vein_dirs": "x",
+    "aspect": 1.0,
+    "angle_deg": 0.0,
+    "vein_offset": 0.0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 7.25
+   },
+   "seed": 0,
+   "parent": "S4_H2_D40_W8_veins_x",
+   "porosity": 0.2012,
+   "porosity_base": 0.2012,
+   "n_atoms": 4384,
+   "minSF": 0.7334,
+   "alignment_A": 0.2954,
+   "crack_column": {
+    "SF": 0.7333698312022187,
+    "SF_vein": 0.36458957322624586,
+    "SF_fine": 0.3687802579759728,
+    "x_col": 120.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.2,
+    "strength_Nm_veins_alone": 10.9,
+    "residual_fraction_rule": 0.636,
+    "residual_fraction_hypothesis": 0.6,
+    "post_peak_energy_J_m2_control": 0.209,
+    "post_peak_energy_J_m2_hypothesis": 0.314,
+    "modulus_2d_Nm": 167.0,
+    "work_to_failure_J_m2": 1.88,
+    "failure_strain": 0.2,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "column rule: veins alone carry SF_vein 0.365 x 30.0 = 10.9 N/m, the fine level adds SF_fine 0.369 x 16.9; peak 17.2 N/m, residual fraction 0.64. Hypothesis: the round-pore fine level fails first (~0.12 strain) and the veins keep carrying >= 0.6 of the peak with post-peak energy >= 1.5 x the one-level control (0.21 J/m2, S2_ellipse_90deg); phase-1 square-vein W16/W20 (veins also across the load) did not show it (residual 0.79 then fracture within 0.025 strain; single avalanche)",
+   "tags": [
+    "hierarchy",
+    "T4",
+    "H2",
+    "veins_x",
+    "W16",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H4_veinsX_W16_r1",
+   "test": "T4",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 16.0,
+    "vein_dirs": "x",
+    "aspect": 1.0,
+    "angle_deg": 0.0,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 7.25
+   },
+   "seed": 0,
+   "parent": "S4_H2_D40_W8_veins_x",
+   "porosity": 0.2012,
+   "porosity_base": 0.2012,
+   "n_atoms": 4384,
+   "minSF": 0.7459,
+   "alignment_A": 0.303,
+   "crack_column": {
+    "SF": 0.7459418854513995,
+    "SF_vein": 0.37297094272569975,
+    "SF_fine": 0.37297094272569975,
+    "x_col": 120.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.5,
+    "strength_Nm_veins_alone": 11.2,
+    "residual_fraction_rule": 0.639,
+    "residual_fraction_hypothesis": 0.6,
+    "post_peak_energy_J_m2_control": 0.209,
+    "post_peak_energy_J_m2_hypothesis": 0.314,
+    "modulus_2d_Nm": 168.0,
+    "work_to_failure_J_m2": 1.92,
+    "failure_strain": 0.2,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "column rule: veins alone carry SF_vein 0.373 x 30.0 = 11.2 N/m, the fine level adds SF_fine 0.373 x 16.9; peak 17.5 N/m, residual fraction 0.64. Hypothesis: the round-pore fine level fails first (~0.12 strain) and the veins keep carrying >= 0.6 of the peak with post-peak energy >= 1.5 x the one-level control (0.21 J/m2, S2_ellipse_90deg); phase-1 square-vein W16/W20 (veins also across the load) did not show it (residual 0.79 then fracture within 0.025 strain; single avalanche)",
+   "tags": [
+    "hierarchy",
+    "T4",
+    "H2",
+    "veins_x",
+    "W16",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H4_veinsX_W20_r0",
+   "test": "T4",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 20.0,
+    "vein_dirs": "x",
+    "aspect": 1.0,
+    "angle_deg": 0.0,
+    "vein_offset": 0.0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 8.062
+   },
+   "seed": 0,
+   "parent": "S4_H2_D40_W8_veins_x",
+   "porosity": 0.2012,
+   "porosity_base": 0.2012,
+   "n_atoms": 4384,
+   "minSF": 0.7501,
+   "alignment_A": 0.392,
+   "crack_column": {
+    "SF": 0.7501325702011266,
+    "SF_vein": 0.46097532246996603,
+    "SF_fine": 0.28915724773116047,
+    "x_col": 120.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 18.7,
+    "strength_Nm_veins_alone": 13.8,
+    "residual_fraction_rule": 0.738,
+    "residual_fraction_hypothesis": 0.6,
+    "post_peak_energy_J_m2_control": 0.209,
+    "post_peak_energy_J_m2_hypothesis": 0.314,
+    "modulus_2d_Nm": 180.0,
+    "work_to_failure_J_m2": 2.19,
+    "failure_strain": 0.2,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "column rule: veins alone carry SF_vein 0.461 x 30.0 = 13.8 N/m, the fine level adds SF_fine 0.289 x 16.9; peak 18.7 N/m, residual fraction 0.74. Hypothesis: the round-pore fine level fails first (~0.12 strain) and the veins keep carrying >= 0.6 of the peak with post-peak energy >= 1.5 x the one-level control (0.21 J/m2, S2_ellipse_90deg); phase-1 square-vein W16/W20 (veins also across the load) did not show it (residual 0.79 then fracture within 0.025 strain; single avalanche)",
+   "tags": [
+    "hierarchy",
+    "T4",
+    "H2",
+    "veins_x",
+    "W20",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H4_veinsX_W20_r1",
+   "test": "T4",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 20.0,
+    "vein_dirs": "x",
+    "aspect": 1.0,
+    "angle_deg": 0.0,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 8.062
+   },
+   "seed": 0,
+   "parent": "S4_H2_D40_W8_veins_x",
+   "porosity": 0.2012,
+   "porosity_base": 0.2012,
+   "n_atoms": 4384,
+   "minSF": 0.7543,
+   "alignment_A": 0.3829,
+   "crack_column": {
+    "SF": 0.7543232549508535,
+    "SF_vein": 0.4525939529705121,
+    "SF_fine": 0.30172930198034137,
+    "x_col": 119.5
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 18.7,
+    "strength_Nm_veins_alone": 13.6,
+    "residual_fraction_rule": 0.726,
+    "residual_fraction_hypothesis": 0.6,
+    "post_peak_energy_J_m2_control": 0.209,
+    "post_peak_energy_J_m2_hypothesis": 0.314,
+    "modulus_2d_Nm": 179.0,
+    "work_to_failure_J_m2": 2.17,
+    "failure_strain": 0.2,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "column rule: veins alone carry SF_vein 0.453 x 30.0 = 13.6 N/m, the fine level adds SF_fine 0.302 x 16.9; peak 18.7 N/m, residual fraction 0.73. Hypothesis: the round-pore fine level fails first (~0.12 strain) and the veins keep carrying >= 0.6 of the peak with post-peak energy >= 1.5 x the one-level control (0.21 J/m2, S2_ellipse_90deg); phase-1 square-vein W16/W20 (veins also across the load) did not show it (residual 0.79 then fracture within 0.025 strain; single avalanche)",
+   "tags": [
+    "hierarchy",
+    "T4",
+    "H2",
+    "veins_x",
+    "W20",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H2_seamX_s20_r0",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r0",
+   "porosity": 0.0805,
+   "porosity_base": 0.0751,
+   "n_atoms": 5046,
+   "minSF": 0.7627,
+   "alignment_A": 0.4075,
+   "crack_column": {
+    "SF": 0.8339462651956658,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8339462651956658,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 29,
+    "n_pruned": 1
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.4,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.84,
+    "W_ratio_rule": 0.925,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 10.0,
+    "row_net_section": 0.5,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 209.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.075; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.50, ~8 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 10 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s20",
+    "registry0",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_seamX_s20_r1",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.51025,
+     0.5
+    ],
+    "skip_near": [
+     61.23,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r1",
+   "porosity": 0.0831,
+   "porosity_base": 0.078,
+   "n_atoms": 5032,
+   "minSF": 0.7962,
+   "alignment_A": 0.449,
+   "crack_column": {
+    "SF": 0.8465183194448467,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8465183194448467,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 28,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.4,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.84,
+    "W_ratio_rule": 0.922,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 10.0,
+    "row_net_section": 0.5,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 208.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.078; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.50, ~8 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 10 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s20",
+    "registry1",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_seamX_s30_r0",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 30.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r0",
+   "porosity": 0.0521,
+   "porosity_base": 0.0466,
+   "n_atoms": 5202,
+   "minSF": 0.813,
+   "alignment_A": 0.4931,
+   "crack_column": {
+    "SF": 0.8339462651956658,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8339462651956658,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 29,
+    "n_pruned": 1
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.9,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.87,
+    "W_ratio_rule": 0.953,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 20.0,
+    "row_net_section": 0.5,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 219.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.047; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.50, ~8 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 20 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s30",
+    "registry0",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_seamX_s30_r1",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 30.0,
+    "seam_anchor": [
+     0.51025,
+     0.5
+    ],
+    "skip_near": [
+     61.23,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r1",
+   "porosity": 0.0532,
+   "porosity_base": 0.0481,
+   "n_atoms": 5196,
+   "minSF": 0.8298,
+   "alignment_A": 0.5086,
+   "crack_column": {
+    "SF": 0.8465183194448467,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8465183194448467,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 28,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.9,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.86,
+    "W_ratio_rule": 0.952,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 20.0,
+    "row_net_section": 0.5,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 218.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.048; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.50, ~8 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 20 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s30",
+    "registry1",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_seamX_s40_r0",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 40.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r0",
+   "porosity": 0.0423,
+   "porosity_base": 0.0368,
+   "n_atoms": 5256,
+   "minSF": 0.8339,
+   "alignment_A": 0.4317,
+   "crack_column": {
+    "SF": 0.8339462651956658,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8339462651956658,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 29,
+    "n_pruned": 1
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 18.1,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.87,
+    "W_ratio_rule": 0.963,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 30.0,
+    "row_net_section": 0.5,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 222.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.037; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.50, ~8 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 30 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s40",
+    "registry0",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_seamX_s40_r1",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 40.0,
+    "seam_anchor": [
+     0.51025,
+     0.5
+    ],
+    "skip_near": [
+     61.23,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r1",
+   "porosity": 0.0434,
+   "porosity_base": 0.0383,
+   "n_atoms": 5250,
+   "minSF": 0.8465,
+   "alignment_A": 0.4524,
+   "crack_column": {
+    "SF": 0.8465183194448467,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8465183194448467,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 28,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 18.1,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.87,
+    "W_ratio_rule": 0.962,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 30.0,
+    "row_net_section": 0.5,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 222.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.038; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.50, ~8 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 30 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s40",
+    "registry1",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_weakseamX_s20_r0",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 6.5
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r0",
+   "porosity": 0.0997,
+   "porosity_base": 0.0942,
+   "n_atoms": 4941,
+   "minSF": 0.7627,
+   "alignment_A": 0.5336,
+   "crack_column": {
+    "SF": 0.8046114719475771,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8046114719475771,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 29,
+    "n_pruned": 1
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.1,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.82,
+    "W_ratio_rule": 0.906,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 10.0,
+    "row_net_section": 0.385,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 202.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.094; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.38, ~7 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 10 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s20",
+    "registry0",
+    "cracked",
+    "weak_seam"
+   ]
+  },
+  {
+   "name": "H2_weakseamX_s20_r1",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.51025,
+     0.5
+    ],
+    "skip_near": [
+     61.23,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 6.5
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r1",
+   "porosity": 0.102,
+   "porosity_base": 0.0969,
+   "n_atoms": 4928,
+   "minSF": 0.7962,
+   "alignment_A": 0.5415,
+   "crack_column": {
+    "SF": 0.8465183194448467,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8465183194448467,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 28,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.0,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.82,
+    "W_ratio_rule": 0.903,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 10.0,
+    "row_net_section": 0.385,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 201.0,
+    "failure_strain": 0.119
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.097; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.38, ~7 N/m against ~30 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 10 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s20",
+    "registry1",
+    "cracked",
+    "weak_seam"
+   ]
+  },
+  {
+   "name": "H2_seamY_s20_r0",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "y",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r0",
+   "porosity": 0.0886,
+   "porosity_base": 0.0831,
+   "n_atoms": 5002,
+   "minSF": 0.6998,
+   "alignment_A": -0.4828,
+   "crack_column": {
+    "SF": 0.8339462651956658,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8339462651956658,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 29,
+    "n_pruned": 1
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.3,
+    "strength_Nm_mechanism": 17.3,
+    "strength_Nm_alt_rule": 11.9,
+    "work_to_failure_J_m2": 0.83,
+    "W_ratio_rule": 0.917,
+    "W_ratio_hypothesis": 0.917,
+    "deflection_expected": false,
+    "fracture_mode_class": "abrupt",
+    "modulus_2d_Nm": 206.0,
+    "failure_strain": 0.091
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.083; control: the same pores in columns across the load (parallel to the crack, 10 A on either side of it): no weak plane ahead of the tips, only a loss of section; rule only",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "control",
+    "seamY",
+    "registry0",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_seamY_s20_r1",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.51025,
+     0.5
+    ],
+    "skip_near": [
+     61.23,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ],
+    "seam_dir": "y",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "parent": "H1_pristine_L20_r1",
+   "porosity": 0.0882,
+   "porosity_base": 0.0831,
+   "n_atoms": 5004,
+   "minSF": 0.6998,
+   "alignment_A": -0.4805,
+   "crack_column": {
+    "SF": 0.8465183194448467,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8465183194448467,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 28,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.3,
+    "strength_Nm_mechanism": 17.3,
+    "strength_Nm_alt_rule": 11.9,
+    "work_to_failure_J_m2": 0.83,
+    "W_ratio_rule": 0.917,
+    "W_ratio_hypothesis": 0.917,
+    "deflection_expected": false,
+    "fracture_mode_class": "abrupt",
+    "modulus_2d_Nm": 206.0,
+    "failure_strain": 0.091
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.083; control: the same pores in columns across the load (parallel to the crack, 10 A on either side of it): no weak plane ahead of the tips, only a loss of section; rule only",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "control",
+    "seamY",
+    "registry1",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_random_s20_r0",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0,
+    "placement": "random"
+   },
+   "seed": 1,
+   "parent": "H1_pristine_L20_r0",
+   "porosity": 0.0853,
+   "porosity_base": 0.0798,
+   "n_atoms": 5020,
+   "minSF": 0.8088,
+   "alignment_A": -0.002,
+   "crack_column": {
+    "SF": 0.808802156697304,
+    "SF_vein": 0.0,
+    "SF_fine": 0.808802156697304,
+    "x_col": 59.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.88537394485777,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     60.2743365,
+     49.00324293554234
+    ],
+    "tip_hi": [
+     60.2743365,
+     68.88861688040011
+    ],
+    "n_removed_cut": 29,
+    "n_pruned": 1
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.3,
+    "strength_Nm_mechanism": 17.3,
+    "strength_Nm_alt_rule": null,
+    "work_to_failure_J_m2": 0.84,
+    "W_ratio_rule": 0.92,
+    "W_ratio_hypothesis": 0.92,
+    "deflection_expected": false,
+    "fracture_mode_class": "abrupt",
+    "modulus_2d_Nm": 207.0,
+    "failure_strain": 0.091
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.080; control: the same number of pores at random positions (minimum separation 8 A, crack flanks kept free): no organised weak plane; rule only",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "control",
+    "random",
+    "registry0",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H2_random_s20_r1",
+   "test": "T2",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.51025,
+     0.5
+    ],
+    "skip_near": [
+     61.23,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0,
+    "placement": "random"
+   },
+   "seed": 2,
+   "parent": "H1_pristine_L20_r1",
+   "porosity": 0.0851,
+   "porosity_base": 0.08,
+   "n_atoms": 5021,
+   "minSF": 0.8381,
+   "alignment_A": -0.0027,
+   "crack_column": {
+    "SF": 0.8381369499453928,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8381369499453928,
+    "x_col": 61.0
+   },
+   "crack_actual": {
+    "crack_len_actual": 19.175182018255704,
+    "crack_w_actual": 2.4601770000000025,
+    "tip_lo": [
+     61.509960398249994,
+     49.7134348621444
+    ],
+    "tip_hi": [
+     61.509960398249994,
+     68.88861688040011
+    ],
+    "n_removed_cut": 28,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.3,
+    "strength_Nm_mechanism": 17.3,
+    "strength_Nm_alt_rule": null,
+    "work_to_failure_J_m2": 0.84,
+    "W_ratio_rule": 0.92,
+    "W_ratio_hypothesis": 0.92,
+    "deflection_expected": false,
+    "fracture_mode_class": "abrupt",
+    "modulus_2d_Nm": 207.0,
+    "failure_strain": 0.091
+   },
+   "rationale": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.080; control: the same number of pores at random positions (minimum separation 8 A, crack flanks kept free): no organised weak plane; rule only",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "control",
+    "random",
+    "registry1",
+    "cracked"
+   ]
+  },
+  {
+   "name": "H3_2L_r0",
+   "test": "T3",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 100,
+    "vein_w": 30,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.631
+   },
+   "seed": 0,
+   "parent": "S7_H2_veinsX_W12_ellipseX",
+   "porosity": 0.2046,
+   "porosity_base": 0.2046,
+   "n_atoms": 27171,
+   "minSF": 0.7728,
+   "alignment_A": 0.5293,
+   "crack_column": {
+    "SF": 0.7727622678496521,
+    "SF_vein": 0.2765851934819796,
+    "SF_fine": 0.4961770743676725,
+    "x_col": 300.0
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 16.7,
+    "strength_Nm_trend": 22.1,
+    "alignment_A": 0.529,
+    "one_level_scatter_Nm": 1.92,
+    "one_level_W_scatter": 0.35,
+    "work_to_failure_J_m2": 1.98,
+    "modulus_2d_Nm": 178,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "column class rule (veins 0.277 x 30.0 + fine 0.496 x 16.9) = 16.7 N/m; one-level trend of phase 1 at A = 0.53: 22.1 N/m (scatter 1.9). Hypothesis under test: the two-level design shows a W or crack-retention premium beyond the one-level scatter (0.35 J/m2, 1.9 N/m) even though its strength does not",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "2L",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H3_1L_fine_r0",
+   "test": "T3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 12,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 3.816
+   },
+   "seed": 0,
+   "parent": "S2_ellipse_90deg",
+   "porosity": 0.1981,
+   "porosity_base": 0.1981,
+   "n_atoms": 27392,
+   "minSF": 0.7392,
+   "alignment_A": 0.3108,
+   "crack_column": {
+    "SF": 0.7392367898518364,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7392367898518364,
+    "x_col": 300.0
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 12.5,
+    "strength_Nm_trend": 18.4,
+    "alignment_A": 0.311,
+    "one_level_scatter_Nm": 1.92,
+    "one_level_W_scatter": 0.35,
+    "work_to_failure_J_m2": 1.46,
+    "modulus_2d_Nm": 150,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "column class rule (veins 0.000 x 30.0 + fine 0.739 x 16.9) = 12.5 N/m; one-level trend of phase 1 at A = 0.31: 18.4 N/m (scatter 1.9). Hypothesis under test: the two-level design shows a W or crack-retention premium beyond the one-level scatter (0.35 J/m2, 1.9 N/m) even though its strength does not",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_fine",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H3_1L_coarse_r0",
+   "test": "T3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 100,
+    "shape": "square",
+    "stagger": false,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 44.375
+   },
+   "seed": 0,
+   "parent": "S4_square_D40",
+   "porosity": 0.204,
+   "porosity_base": 0.204,
+   "n_atoms": 27192,
+   "minSF": 0.5029,
+   "alignment_A": -0.0959,
+   "crack_column": {
+    "SF": 0.5028821699672357,
+    "SF_vein": 0.0,
+    "SF_fine": 0.5028821699672357,
+    "x_col": 299.0
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 15.1,
+    "strength_Nm_trend": 11.6,
+    "alignment_A": -0.096,
+    "one_level_scatter_Nm": 1.92,
+    "one_level_W_scatter": 0.35,
+    "work_to_failure_J_m2": 1.76,
+    "modulus_2d_Nm": 151,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "column class rule (veins 0.000 x 30.0 + fine 0.503 x 30.0) = 15.1 N/m; one-level trend of phase 1 at A = -0.10: 11.6 N/m (scatter 1.9). Hypothesis under test: the two-level design shows a W or crack-retention premium beyond the one-level scatter (0.35 J/m2, 1.9 N/m) even though its strength does not",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_coarse",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H3_2L_L60_r0",
+   "test": "T3",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 100,
+    "vein_w": 30,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 4.631,
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.2069,
+   "porosity_base": 0.2046,
+   "n_atoms": 27091,
+   "minSF": 0.7074,
+   "alignment_A": 0.5274,
+   "crack_column": {
+    "SF": 0.7073875857539115,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.40565828377357005,
+    "x_col": 149.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 60.36631376117536,
+    "crack_w_actual": 7.380530999999991,
+    "tip_lo": [
+     150.070797,
+     19.1751820182557
+    ],
+    "tip_hi": [
+     150.070797,
+     79.54149577943106
+    ],
+    "n_removed_cut": 64,
+    "n_pruned": 16
+   },
+   "tip_to_vein_A": [
+    4.18,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 15.3,
+    "strength_Nm_mechanism": 17.6,
+    "retention_rule": 0.915,
+    "retention_mechanism": 1.053,
+    "work_to_failure_J_m2": 2.08,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "net-section scaling from the uncracked rule value: SF_col 0.707 / 0.773 = 0.915; crack-arrest hypothesis: retention 15 % above the rule, crack arrested at the first vein",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "2L",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H3_1L_fine_L60_r0",
+   "test": "T3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 12,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 3.816,
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "H3_1L_fine_r0",
+   "porosity": 0.2007,
+   "porosity_base": 0.1981,
+   "n_atoms": 27305,
+   "minSF": 0.6873,
+   "alignment_A": 0.3079,
+   "crack_column": {
+    "SF": 0.687272298955222,
+    "SF_vein": 0.0,
+    "SF_fine": 0.687272298955222,
+    "x_col": 149.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 59.6561218345733,
+    "crack_w_actual": 7.380530999999993,
+    "tip_lo": [
+     150.070797,
+     119.31224366914657
+    ],
+    "tip_hi": [
+     150.070797,
+     178.96836550371987
+    ],
+    "n_removed_cut": 69,
+    "n_pruned": 18
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 11.6,
+    "strength_Nm_mechanism": 11.6,
+    "retention_rule": 0.93,
+    "retention_mechanism": 0.93,
+    "work_to_failure_J_m2": 1.36,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value: SF_col 0.687 / 0.739 = 0.930",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_fine",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H3_1L_coarse_L60_r0",
+   "test": "T3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 100,
+    "shape": "square",
+    "stagger": false,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 44.375,
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "H3_1L_coarse_r0",
+   "porosity": 0.2065,
+   "porosity_base": 0.204,
+   "n_atoms": 27107,
+   "minSF": 0.5029,
+   "alignment_A": -0.0953,
+   "crack_column": {
+    "SF": 0.8012589241477954,
+    "SF_vein": 0.0,
+    "SF_fine": 0.8012589241477954,
+    "x_col": 149.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 59.6561218345733,
+    "crack_w_actual": 2.4601770000000194,
+    "tip_lo": [
+     150.070797,
+     119.31224366914657
+    ],
+    "tip_hi": [
+     150.070797,
+     178.96836550371987
+    ],
+    "n_removed_cut": 85,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 10.1,
+    "strength_Nm_mechanism": 10.1,
+    "retention_rule": 0.667,
+    "retention_mechanism": 0.667,
+    "work_to_failure_J_m2": 1.17,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "one of three load-bearing bars severed: retention 2/3",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_coarse",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H3_2L_r1",
+   "test": "T3",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 100,
+    "vein_w": 30,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.631
+   },
+   "seed": 0,
+   "parent": "S7_H2_veinsX_W12_ellipseX",
+   "porosity": 0.2049,
+   "porosity_base": 0.2049,
+   "n_atoms": 27161,
+   "minSF": 0.761,
+   "alignment_A": 0.5295,
+   "crack_column": {
+    "SF": 0.7610283505504166,
+    "SF_vein": 0.27826146738187035,
+    "SF_fine": 0.4827668831685462,
+    "x_col": 299.0
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 16.5,
+    "strength_Nm_trend": 22.1,
+    "alignment_A": 0.53,
+    "one_level_scatter_Nm": 1.92,
+    "one_level_W_scatter": 0.35,
+    "work_to_failure_J_m2": 1.98,
+    "modulus_2d_Nm": 178,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "column class rule (veins 0.278 x 30.0 + fine 0.483 x 16.9) = 16.5 N/m; one-level trend of phase 1 at A = 0.53: 22.1 N/m (scatter 1.9). Hypothesis under test: the two-level design shows a W or crack-retention premium beyond the one-level scatter (0.35 J/m2, 1.9 N/m) even though its strength does not",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "2L",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H3_1L_fine_r1",
+   "test": "T3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 12,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 3.816
+   },
+   "seed": 0,
+   "parent": "S2_ellipse_90deg",
+   "porosity": 0.1986,
+   "porosity_base": 0.1986,
+   "n_atoms": 27376,
+   "minSF": 0.7677,
+   "alignment_A": 0.3074,
+   "crack_column": {
+    "SF": 0.7677334461499797,
+    "SF_vein": 0.0,
+    "SF_fine": 0.7677334461499797,
+    "x_col": 300.0
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 13.0,
+    "strength_Nm_trend": 18.4,
+    "alignment_A": 0.307,
+    "one_level_scatter_Nm": 1.92,
+    "one_level_W_scatter": 0.35,
+    "work_to_failure_J_m2": 1.46,
+    "modulus_2d_Nm": 150,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "column class rule (veins 0.000 x 30.0 + fine 0.768 x 16.9) = 13.0 N/m; one-level trend of phase 1 at A = 0.31: 18.4 N/m (scatter 1.9). Hypothesis under test: the two-level design shows a W or crack-retention premium beyond the one-level scatter (0.35 J/m2, 1.9 N/m) even though its strength does not",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_fine",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H3_1L_coarse_r1",
+   "test": "T3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 100,
+    "shape": "square",
+    "stagger": false,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 44.375
+   },
+   "seed": 0,
+   "parent": "S4_square_D40",
+   "porosity": 0.2041,
+   "porosity_base": 0.2041,
+   "n_atoms": 27188,
+   "minSF": 0.5029,
+   "alignment_A": -0.0968,
+   "crack_column": {
+    "SF": 0.5028821699672357,
+    "SF_vein": 0.0,
+    "SF_fine": 0.5028821699672357,
+    "x_col": 299.0
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 15.1,
+    "strength_Nm_trend": 11.6,
+    "alignment_A": -0.097,
+    "one_level_scatter_Nm": 1.92,
+    "one_level_W_scatter": 0.35,
+    "work_to_failure_J_m2": 1.76,
+    "modulus_2d_Nm": 151,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "column class rule (veins 0.000 x 30.0 + fine 0.503 x 30.0) = 15.1 N/m; one-level trend of phase 1 at A = -0.10: 11.6 N/m (scatter 1.9). Hypothesis under test: the two-level design shows a W or crack-retention premium beyond the one-level scatter (0.35 J/m2, 1.9 N/m) even though its strength does not",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_coarse",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H3_2L_L60_r1",
+   "test": "T3",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 100,
+    "vein_w": 30,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.631,
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H3_2L_r1",
+   "porosity": 0.2073,
+   "porosity_base": 0.2049,
+   "n_atoms": 27078,
+   "minSF": 0.699,
+   "alignment_A": 0.528,
+   "crack_column": {
+    "SF": 0.6990062162544575,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.39727691427411616,
+    "x_col": 150.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 61.78669761437948,
+    "crack_w_actual": 7.380530999999992,
+    "tip_lo": [
+     150.070797,
+     19.1751820182557
+    ],
+    "tip_hi": [
+     150.070797,
+     80.96187963263517
+    ],
+    "n_removed_cut": 61,
+    "n_pruned": 22
+   },
+   "tip_to_vein_A": [
+    4.18,
+    3.46
+   ],
+   "predicted": {
+    "strength_Nm_rule": 15.2,
+    "strength_Nm_mechanism": 17.4,
+    "retention_rule": 0.919,
+    "retention_mechanism": 1.056,
+    "work_to_failure_J_m2": 2.09,
+    "fracture_mode_class": "stepwise"
+   },
+   "rationale": "net-section scaling from the uncracked rule value: SF_col 0.699 / 0.761 = 0.919; crack-arrest hypothesis: retention 15 % above the rule, crack arrested at the first vein",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "2L",
+    "registry1",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H3_1L_fine_L60_r1",
+   "test": "T3",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 12,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 3.816,
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5041,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "parent": "H3_1L_fine_r1",
+   "porosity": 0.2012,
+   "porosity_base": 0.1986,
+   "n_atoms": 27287,
+   "minSF": 0.6856,
+   "alignment_A": 0.3037,
+   "crack_column": {
+    "SF": 0.6855960250553312,
+    "SF_vein": 0.0,
+    "SF_fine": 0.6855960250553312,
+    "x_col": 150.5
+   },
+   "crack_actual": {
+    "crack_len_actual": 60.36631376117535,
+    "crack_w_actual": 4.920354000000007,
+    "tip_lo": [
+     151.3013775354,
+     119.31224366914657
+    ],
+    "tip_hi": [
+     151.3013775354,
+     179.67855743032192
+    ],
+    "n_removed_cut": 68,
+    "n_pruned": 21
+   },
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 11.6,
+    "strength_Nm_mechanism": 11.6,
+    "retention_rule": 0.893,
+    "retention_mechanism": 0.893,
+    "work_to_failure_J_m2": 1.3,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value: SF_col 0.686 / 0.768 = 0.893",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_fine",
+    "registry1",
+    "cracked",
+    "L60"
+   ]
+  }
+ ],
+ "sha256_of_content": "f0a06e605a9ce9521635aa2961b2253f8fc4486a8113b228efd52e721293068c"
+}

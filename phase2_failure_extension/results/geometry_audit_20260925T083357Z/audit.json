@@ -1,0 +1,298 @@
+{
+  "created_utc": "20260925T083357Z",
+  "completed_slit_trajectories": [
+    {
+      "case_id": "ext__P1_slit_05deg",
+      "frames": 37,
+      "atoms": 3016,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__P1_slit_10deg",
+      "frames": 47,
+      "atoms": 3032,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__P1_slit_15deg",
+      "frames": 52,
+      "atoms": 3008,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__P1_slit_25deg",
+      "frames": 60,
+      "atoms": 3020,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "frames": 83,
+      "atoms": 3100,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__P1_slit_60deg",
+      "frames": 122,
+      "atoms": 3000,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__P1_slit_75deg",
+      "frames": 103,
+      "atoms": 3008,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__P2_slit_20deg_phi0.10",
+      "frames": 52,
+      "atoms": 3416,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "frames": 117,
+      "atoms": 3088,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__S7_slit_0deg_armchair",
+      "frames": 85,
+      "atoms": 3068,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    },
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "frames": 161,
+      "atoms": 3008,
+      "minimum_z_A": 10.0,
+      "maximum_z_A": 10.0,
+      "maximum_frame_z_span_A": 0.0,
+      "cell_z_A": [
+        20.0
+      ],
+      "maximum_cell_xy_A": 0.0
+    }
+  ],
+  "sources_sha256": {
+    "runs/ext__P1_slit_05deg/trajectory.npz": "fb1884a87663469d64ec9a01a7d9b266d70ad881f3666ab48b607c916fd4c17e",
+    "runs/ext__P1_slit_10deg/trajectory.npz": "07a94d9fffa313cc78bdae42e287ab6f1ab3d53b18e7abb92dfa3d94b74f0beb",
+    "runs/ext__P1_slit_15deg/trajectory.npz": "575a1aeae4389c3420e94d728193e585fcde70678a4f44d1a50430962741650a",
+    "runs/ext__P1_slit_25deg/trajectory.npz": "1d2e88cbdc142d3ede1146a49c37a9bc534c3bc22fc95ba5e09b70b9b65f9142",
+    "runs/ext__P1_slit_35deg/trajectory.npz": "ed9edb04825b2d3b5a4912ec665bedf81975cecd30cdf099d26f91bbaf48ed92",
+    "runs/ext__P1_slit_60deg/trajectory.npz": "8c07c8f69215911b5b0449753e689d5d6234bfe76dc7b7883fd1140b3d3d961d",
+    "runs/ext__P1_slit_75deg/trajectory.npz": "2061741c06c0c6c814a18e6849533eda5e11b5850d9cbfb292a89ec29b988502",
+    "runs/ext__P2_slit_20deg_phi0.10/trajectory.npz": "5425bbbeb3b5c125da101d0fc67cf06e7aa454ad084ee479df7ce35a6e4bb312",
+    "runs/ext__S2_slit_45deg/trajectory.npz": "637490698df5aeab0bea2f57ba7feecef1d7e938ae94849526a724ff8d6d9b09",
+    "runs/ext__S7_slit_0deg_armchair/trajectory.npz": "b704981f9a044966a6e0853c0b5bdb4c067ccd6cfa1d0ea1c9823ca497d38d01",
+    "runs/ext__S7_slit_20deg/trajectory.npz": "cb587a74f7c83d88b815411d9401d632ea125667b2f38ca6b6b464929ee127e9",
+    "runs/ext__S7_slit_20deg/record.json": "bc9e096a54709c12f463ce054784684132b8e367b7644fe34746d115bdc111b3",
+    "runs/ext__S7_slit_20deg/initial.extxyz": "32b3d2305c65ebd7565b52e7d57ad560c54e835cf85c5ef4e9c99634316f26b8",
+    "runs/ext__S7_slit_20deg/relaxed.extxyz": "99d4f2a4d5ab53fa94cf5cb4570de9ed22e22c30eba44c5162fa9cfaefc7cbf6",
+    "runs/ext__S7_slit_20deg/final.extxyz": "8e86287494c6ed0f1ce54048e46c1f5d73c89ca81dc8750053e9492a7f0270c7",
+    "inputs/baseline/runs/run_20260906_012602_320a91/record.json": "975ba0122319adae3640bc95de7fe5f3d87bfced6a3b0d239943274f278986d0",
+    "inputs/baseline/runs/run_20260906_012602_320a91/initial.extxyz": "32b3d2305c65ebd7565b52e7d57ad560c54e835cf85c5ef4e9c99634316f26b8",
+    "inputs/baseline/runs/run_20260906_012602_320a91/final.extxyz": "7ed66fe1fd2f12ddfd3ab08c0d1f1d7cbf06985a690c7c56020cdeae36967f38",
+    "code/atomistics/structures/graphene.py": "150bd538fe18c2cb6975524f1381cc1da0ae3ae7f2b91a303b7c47dc21453aae",
+    "code/atomistics/structures/design_space.py": "c931cd591fa57650a9a1c94af76b124f6c69a84dff01cbfd240e09809616d796",
+    "code/simulation/aqs/aqs.py": "4d575cb742b89ece10446458805951aa725578fec8c7c9f3ca8c593208e04594",
+    "code/simulation/minimization/fire.py": "5fff9194ebaf4344dbb90ed3355496bbb8101dc408d4dc3f433821b349a97ba0",
+    "code/potentials/rebo2scr/pytorch/torch_rebo2scr.py": "9b5f5be13bf4c2ba0a2464fda589beacfd470f601c4ea957869bc1cefd766dc0",
+    "scripts/audit_slit_geometry.py": "12aa4ba1346a977f2eaa2ceea0af01355b4f91d44ff2ecb0450d6b9e8170a5c9"
+  },
+  "parent_boundary_conditions": {
+    "pbc": [
+      true,
+      true,
+      false
+    ],
+    "loading": "uniaxial engineering strain along x (periodic)",
+    "transverse": "relaxed to sigma_yy = 0 (secant)",
+    "orientation_x": "zigzag",
+    "cell0_A": [
+      101.64997100830078,
+      97.64216613769531
+    ]
+  },
+  "engine": {
+    "potential": "screened second-generation REBO (REBO2+S / Rebo2Scr)",
+    "implementation": "TorchRebo2Scr (PyTorch autograd port of Atomistica Rebo2Scr kernel)",
+    "reference_implementation": "Atomistica 1.2.7 Rebo2Scr (commit 14a86f2c, 2025-10-21)",
+    "parameterization": "Brenner 2002 + Pastewka 2008 screening; Atomistica default tables; dihedral=False",
+    "citations": [
+      "D. W. Brenner, O. A. Shenderova, J. A. Harrison, S. J. Stuart, B. Ni, S. B. Sinnott, J. Phys.: Condens. Matter 14, 783 (2002).",
+      "L. Pastewka, P. Pou, R. Perez, P. Gumbsch, M. Moseler, Phys. Rev. B 78, 161402(R) (2008).",
+      "L. Pastewka, A. Klemenz, P. Gumbsch, M. Moseler, Phys. Rev. B 87, 205410 (2013).",
+      "Atomistica, https://github.com/Atomistica/atomistica (L. Pastewka et al.), version 1.2.7."
+    ],
+    "parameter_checksum": "889d31570b93077b66616e0896e64e30d808c53ae0dc95fce6cc37f4068de35f",
+    "device": "mps",
+    "dtype": "torch.float32",
+    "torch_version": "2.7.0",
+    "units": "eV, Angstrom; 2D stress in eV/A^2 (x16.0218 = N/m)"
+  },
+  "parent_initial.extxyz": {
+    "pbc": [
+      true,
+      true,
+      false
+    ],
+    "z_span_A": 0.0,
+    "cell_A": [
+      [
+        100.867257,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        98.00648587108469,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        20.0
+      ]
+    ]
+  },
+  "parent_final.extxyz": {
+    "pbc": [
+      true,
+      true,
+      false
+    ],
+    "z_span_A": 0.0,
+    "cell_A": [
+      [
+        121.47171020507812,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        81.8908462524414,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        20.0
+      ]
+    ]
+  },
+  "selected_frames": [
+    {
+      "index": 0,
+      "strain": 0.0,
+      "stress_N_m": -0.05694327583450114,
+      "shear_stress_N_m": -0.24541323597096265,
+      "driver_x_spanning": true,
+      "largest_fragment_fraction": 1.0,
+      "n_fragments": 1,
+      "max_force_eV_A": 0.018873795866966248,
+      "transverse_stress_N_m": 0.02107645464556355
+    },
+    {
+      "index": 35,
+      "strain": 0.19500000000000012,
+      "stress_N_m": 8.147399238196417,
+      "shear_stress_N_m": 1.5841068029016503,
+      "driver_x_spanning": true,
+      "largest_fragment_fraction": 1.0,
+      "n_fragments": 1,
+      "max_force_eV_A": 0.018265848979353905,
+      "transverse_stress_N_m": -0.003814222216599786
+    },
+    {
+      "index": 51,
+      "strain": 0.2750000000000002,
+      "stress_N_m": 14.994687601129714,
+      "shear_stress_N_m": 1.6494510989980276,
+      "driver_x_spanning": true,
+      "largest_fragment_fraction": 0.9933510638297872,
+      "n_fragments": 3,
+      "max_force_eV_A": 0.012652297504246235,
+      "transverse_stress_N_m": 0.05839078536676974
+    },
+    {
+      "index": 160,
+      "strain": 0.8200000000000006,
+      "stress_N_m": 1.4421592138391048,
+      "shear_stress_N_m": 0.14403702235896498,
+      "driver_x_spanning": true,
+      "largest_fragment_fraction": 0.9933510638297872,
+      "n_fragments": 3,
+      "max_force_eV_A": 0.41221821308135986,
+      "transverse_stress_N_m": -0.08525322510725662
+    }
+  ],
+  "interpretation": {
+    "geometry": "One atomic layer; in-plane periodic; no periodicity along z. No layer sliding.",
+    "kinematics": "Athermal strain increments in x; transverse y stress targeted to zero; no cell shear relaxation.",
+    "planarity": "The FIRE update permits all three coordinates, but exactly planar initialization and deterministic loading have retained an exactly planar trajectory. Out-of-plane stability was not tested.",
+    "connectivity": "The 20-degree recorded path retains driver x-spanning at the original stop, later peak, and extended endpoint. This is a geometric diagnostic, not proof of mechanical stability.",
+    "scope": "Neither free-edge/gripped specimens nor perturbed out-of-plane trajectories were simulated by this audit. The current extension study retains the original geometry and boundary conditions.",
+    "potential": "The configured screened REBO implementation disables the dihedral term; an out-of-plane validation should assess the force field as well as perturbations and boundary conditions."
+  }
+}

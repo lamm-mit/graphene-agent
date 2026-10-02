@@ -1,0 +1,72 @@
+{
+  "id": "R2_original_single",
+  "pid": 75859,
+  "status": "completed",
+  "started_utc": "2026-09-26T13:25:23.816876+00:00",
+  "job": {
+    "id": "R2_original_single",
+    "layout": "single",
+    "target_index": 0
+  },
+  "environment": {
+    "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:54:21) [Clang 16.0.6 ]",
+    "torch": "2.7.0",
+    "ase": "3.27.0",
+    "numpy": "2.2.6",
+    "threads": 12,
+    "device": "mps",
+    "precision": "float32"
+  },
+  "instrumentation_sha256": "8e15d6b80daa03060e18182c6fbd851d72afecb5c16bea8c9bf7e5073e4e7bf8",
+  "config": {
+    "d_strain": 0.005,
+    "d_strain_elastic": 0.01,
+    "d_strain_min": 0.00125,
+    "refine_first_damage": true,
+    "max_strain": 0.32,
+    "fmax": 0.02,
+    "max_fire_steps": 1500,
+    "trial_fire_steps": 400,
+    "transverse_fire_steps": 400,
+    "transverse_relax": true,
+    "sigma_t_tol": 0.005,
+    "max_transverse_iter": 3,
+    "max_transverse_step": 0.005,
+    "stop_stress_fraction": 0.1,
+    "post_peak_strain_limit": 0.12,
+    "stop_when_not_spanning": true,
+    "skin": 0.3,
+    "r_bond": 2.0,
+    "strain_axis": 0,
+    "zero_stress_relax": true,
+    "zero_stress_tol": 0.005,
+    "max_steps": 220,
+    "record_positions": true
+  },
+  "names": [
+    "S2_slit_45deg"
+  ],
+  "atom_counts": [
+    3088
+  ],
+  "parent_ids": [
+    "run_20260905_091359_4df2c2"
+  ],
+  "finished_utc": "2026-09-26T14:17:05.377097+00:00",
+  "wall_time_s": 3100.868094921112,
+  "termination": "max strain reached",
+  "frames": 51,
+  "maximum_recorded_stress_N_m": 18.360801377153514,
+  "peak_strain": 0.3225000000000001,
+  "end_strain": 0.3225000000000001,
+  "first_damage_strain": 0.17250000000000001,
+  "stats": {
+    "n_evaluations": 57932,
+    "fire_iterations": 57430,
+    "n_rebuilds": 276,
+    "n_reverts": 3,
+    "n_soft_converged": 11
+  },
+  "frames_above_force_target": 8,
+  "frames_above_transverse_target": 19
+}

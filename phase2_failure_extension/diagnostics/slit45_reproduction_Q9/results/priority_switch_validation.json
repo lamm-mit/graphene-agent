@@ -1,0 +1,21 @@
+{
+  "time": "2026-09-26T13:27:12.674805+00:00",
+  "active_case": "R2_original_single",
+  "single_design_only": true,
+  "all_recorded_aqs_settings_match_original": true,
+  "frozen_inputs_source_verified": 79,
+  "old_batch_and_queue_suspended": true,
+  "extra_repeat_deferred": true,
+  "initial_loading_progress": {
+    "time": "2026-09-26T13:27:02.193181+00:00",
+    "pid": 75859,
+    "frame": 6,
+    "strain": 0.060000000000000005,
+    "stress_N_m": 0.4078748544247463,
+    "force_residual_eV_A": 0.005755688529461622,
+    "elapsed_s": 97.68418025970459,
+    "batch_eps": [
+      0.060000000000000005
+    ]
+  }
+}

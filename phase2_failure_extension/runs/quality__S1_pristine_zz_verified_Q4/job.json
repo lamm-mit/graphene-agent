@@ -1,0 +1,18 @@
+{
+  "case_id": "quality__S1_pristine_zz_verified_Q4",
+  "parent_run_id": "run_20260905_000440_9f82a7",
+  "source_phase": "I",
+  "role": "quality",
+  "stage": "quality",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000,
+    "max_fire_steps": 4000,
+    "transverse_fire_steps": 4000,
+    "max_transverse_iter": 15
+  },
+  "amendment": "Q4"
+}

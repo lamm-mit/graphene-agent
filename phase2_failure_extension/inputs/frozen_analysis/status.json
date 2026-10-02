@@ -1,0 +1,11 @@
+{
+  "updated_utc": "2026-09-26T06:53:06.468737+00:00",
+  "queue_pid": 43715,
+  "active_stage": null,
+  "blocked": null,
+  "max_workers": 3,
+  "counts": {
+    "completed": 40
+  },
+  "running": []
+}

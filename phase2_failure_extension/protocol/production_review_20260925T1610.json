@@ -1,0 +1,87 @@
+{
+  "recorded_utc": "2026-09-25T16:10:25.680407+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T16:10:24.756944+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 28,
+      "running": 3,
+      "pending": 9
+    },
+    "running": [
+      {
+        "case_id": "ext__S2_strut_090",
+        "pid": 76537,
+        "elapsed_s": 6486.55984711647,
+        "updated_utc": "2026-09-25T16:08:05.744763+00:00",
+        "frames": 81,
+        "attempted_step": 83,
+        "strain": 0.4937500000000003,
+        "stress_N_m": 1.8184193687850922,
+        "force_residual_eV_A": 0.09117691963911057,
+        "transverse_stress_N_m": -0.06477179786640773,
+        "wall_time_s": 6346.136723995209,
+        "virtual_original_stop": {
+          "index": 46,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 106
+      },
+      {
+        "case_id": "ext__S2_voronoi_n25_reg0.6",
+        "pid": 83386,
+        "elapsed_s": 4552.451663970947,
+        "updated_utc": "2026-09-25T16:08:53.315074+00:00",
+        "frames": 41,
+        "attempted_step": 43,
+        "strain": 0.23625000000000013,
+        "stress_N_m": 2.681253001788342,
+        "force_residual_eV_A": 0.149150550365448,
+        "transverse_stress_N_m": -0.016345024977714766,
+        "wall_time_s": 4460.132063865662,
+        "virtual_original_stop": {
+          "index": 39,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 79
+      },
+      {
+        "case_id": "ext__S5_H2_D40_W8_jitter2",
+        "pid": 97586,
+        "elapsed_s": 274.45780301094055,
+        "updated_utc": "2026-09-25T16:09:23.136496+00:00",
+        "frames": 6,
+        "attempted_step": 5,
+        "strain": 0.05,
+        "stress_N_m": 5.744406344289782,
+        "force_residual_eV_A": 0.014751081354916096,
+        "transverse_stress_N_m": 0.015176112585299455,
+        "wall_time_s": 211.73447132110596,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 0
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n43715     1 01-04:58:58   0:16.63   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-04:58:58   0:00.09   0.0 S    /usr/bin/caffeinate\n76537 43715    01:48:07  41:41.53  35.3 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n83386 43715    01:15:53  29:52.58  33.7 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n97586 43715       04:35   1:47.72  36.2 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__S2_voronoi_n25_reg0.0.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T1610.json",
+  "execution_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "26/34 extensions complete (12/20 Phase-I, 14/14 earlier-Phase-II). Reg0.0 Voronoi adds 21.0935% integral B-to-C with no peak increase; A-to-B peak -0.0927% and integral +0.6037% pass scalar reproduction screens. Eighteen frames retain residual flags and endpoint checks fail. Controls 2/2 complete; resolution 0/4. Queue progressing; no intervention needed."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "run": "ext__S7_slit_20deg",
+    "frames": 161,
+    "endpoint_strain": 0.8200000000000006,
+    "distinct_new_pairs": 169,
+    "reappearance_events": 64,
+    "new_pairs_present_at_endpoint": 141,
+    "first_persistent_new_strain": 0.08000000000000002,
+    "persistent_new_pairs_at_or_below_020": 80,
+    "force_flagged_frames": 91,
+    "transverse_flagged_frames": 11,
+    "max_force_eV_A": 5.134706020355225,
+    "max_abs_transverse_stress_N_m": 1.1321801748522513
+  },
+  {
+    "run": "res__S7_slit_20deg",
+    "frames": 192,
+    "endpoint_strain": 0.5199999999999999,
+    "distinct_new_pairs": 112,
+    "reappearance_events": 31,
+    "new_pairs_present_at_endpoint": 91,
+    "first_persistent_new_strain": 0.08000000000000002,
+    "persistent_new_pairs_at_or_below_020": 44,
+    "force_flagged_frames": 75,
+    "transverse_flagged_frames": 15,
+    "max_force_eV_A": 3.9883437156677246,
+    "max_abs_transverse_stress_N_m": 1.047086109419097
+  },
+  {
+    "run": "quality__S7_slit_20deg_verified_Q4",
+    "frames": 64,
+    "endpoint_strain": 0.33500000000000024,
+    "distinct_new_pairs": 85,
+    "reappearance_events": 30,
+    "new_pairs_present_at_endpoint": 74,
+    "first_persistent_new_strain": 0.08000000000000002,
+    "persistent_new_pairs_at_or_below_020": 59,
+    "force_flagged_frames": 0,
+    "transverse_flagged_frames": 0,
+    "max_force_eV_A": 0.01995992287993431,
+    "max_abs_transverse_stress_N_m": 0.07737486513532278
+  }
+]

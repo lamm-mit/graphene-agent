@@ -1,0 +1,72 @@
+{
+  "recorded_utc": "2026-09-25T00:32:33.409423+00:00",
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "queue_status": {
+    "updated_utc": "2026-09-25T00:32:20.607280+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 8,
+      "running": 3,
+      "pending": 29
+    },
+    "running": [
+      {
+        "case_id": "ext__P1_slit_05deg",
+        "pid": 95263,
+        "elapsed_s": 90.41619825363159,
+        "updated_utc": "2026-09-25T00:32:17.037780+00:00",
+        "frames": 7,
+        "attempted_step": 6,
+        "strain": 0.060000000000000005,
+        "stress_N_m": 10.471809858563978,
+        "force_residual_eV_A": 0.014300601556897163,
+        "transverse_stress_N_m": -0.06538079375747684,
+        "wall_time_s": 85.79695272445679,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 0
+      },
+      {
+        "case_id": "ext__P1_slit_10deg",
+        "pid": 95264,
+        "elapsed_s": 90.40817785263062,
+        "updated_utc": "2026-09-25T00:32:20.088565+00:00",
+        "frames": 9,
+        "attempted_step": 8,
+        "strain": 0.08,
+        "stress_N_m": 12.968853596405399,
+        "force_residual_eV_A": 0.011124170385301113,
+        "transverse_stress_N_m": -0.04026118114681211,
+        "wall_time_s": 88.84773683547974,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 0
+      },
+      {
+        "case_id": "ext__P1_slit_15deg",
+        "pid": 95265,
+        "elapsed_s": 90.40587186813354,
+        "updated_utc": "2026-09-25T00:32:19.002768+00:00",
+        "frames": 8,
+        "attempted_step": 7,
+        "strain": 0.07,
+        "stress_N_m": 10.638491572131253,
+        "force_residual_eV_A": 0.01798652857542038,
+        "transverse_stress_N_m": 0.04403646774059324,
+        "wall_time_s": 87.7619252204895,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 0
+      }
+    ]
+  },
+  "processes_confirmed_alive": true,
+  "duplicate_scheduler_launched": false,
+  "figure_review": "results/figure_review_20260925T0030.json",
+  "all_eight_pilots_reviewed": true,
+  "additional_quality_loading_runs": 5,
+  "next_action": "Review production completions and eventual four resolution checks; retain original-setting numerical limitations and pending/censored values. Do not restart active children or expand the Q4 branch automatically."
+}

@@ -1,0 +1,75 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "202_T2_H2_seamX_s30_r0",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H2_seamX_s30_r0",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 30.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "x",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "reason": "T2 seams along the load every 30 A (pores 4.0 A at pitch 8.0 A, one row through the crack centre, tips 20 A from the next rows) + 20 A crack perpendicular to the load, registry 0",
+   "hypothesis": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.047; Cook-Gordon: rows of pores along the load are weak in tension across the row (row net section 0.50, ~8 N/m against ~29 N/m for the sheet); the stress parallel to the crack ahead of the tip (~1/5 of the opening stress) opens the row 20 A ahead of the tips before the crack arrives, deflecting and blunting it: W ratio >= 1.3 with the strength within 10 % of the cracked pristine reference",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "seams",
+    "s30",
+    "registry0",
+    "cracked"
+   ],
+   "parent": "H1_pristine_L20_r0",
+   "prediction": {
+    "strength_Nm_rule": 17.9,
+    "strength_Nm_mechanism": 16.9,
+    "work_to_failure_J_m2": 0.87,
+    "W_ratio_rule": 0.953,
+    "W_ratio_hypothesis": 1.3,
+    "deflection_expected": true,
+    "tip_to_seam_A": 20.0,
+    "row_net_section": 0.5,
+    "fracture_mode_class": "stepwise",
+    "modulus_2d_Nm": 219.0,
+    "failure_strain": 0.119
+   },
+   "notes": null
+  }
+ ]
+}

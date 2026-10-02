@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-09-26T00:57:44.867851+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T00:57:36.220412+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 36,
+      "running": 3,
+      "pending": 1
+    },
+    "running": [
+      {
+        "case_id": "res__S2_slit_45deg",
+        "pid": 23606,
+        "elapsed_s": 2623.024829864502,
+        "updated_utc": "2026-09-26T00:57:10.131348+00:00",
+        "frames": 46,
+        "attempted_step": 48,
+        "strain": 0.23875000000000007,
+        "stress_N_m": 9.464848555858076,
+        "force_residual_eV_A": 0.01487366296350956,
+        "transverse_stress_N_m": -0.005218965044605452,
+        "wall_time_s": 2594.008662700653,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 12
+      },
+      {
+        "case_id": "res__S5_H2_D40_W8_ellipseX",
+        "pid": 23607,
+        "elapsed_s": 2623.0222170352936,
+        "updated_utc": "2026-09-26T00:52:35.223279+00:00",
+        "frames": 23,
+        "attempted_step": 25,
+        "strain": 0.13875,
+        "stress_N_m": 17.447661268032025,
+        "force_residual_eV_A": 0.014378631487488747,
+        "transverse_stress_N_m": -0.039330632112700464,
+        "wall_time_s": 2319.100594997406,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 14
+      },
+      {
+        "case_id": "res__S7_slit_0deg_armchair",
+        "pid": 23608,
+        "elapsed_s": 2623.0198078155518,
+        "updated_utc": "2026-09-26T00:57:28.652210+00:00",
+        "frames": 71,
+        "attempted_step": 73,
+        "strain": 0.2700000000000001,
+        "stress_N_m": 9.714070382447773,
+        "force_residual_eV_A": 0.019755996763706207,
+        "transverse_stress_N_m": 0.03616308054893033,
+        "wall_time_s": 2612.5295259952545,
+        "virtual_original_stop": {
+          "index": 64,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 248
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n23606 43715       43:51  14:14.72  36.0 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n23607 43715       43:51  15:14.78  29.0 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n23608 43715       43:51  14:47.30  32.4 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-13:46:17   0:21.38   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-13:46:17   0:00.09   0.0 S    /usr/bin/caffeinate\n",
+  "all_expected_processes_alive": true,
+  "all_active_workers_have_new_accepted_frames": true,
+  "figures_and_analysis_unchanged_from_last_review": true,
+  "last_figure_review": "results/figure_review_20260926T0025.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "new_completed_cases": [],
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "34/34 primary extensions and 2/2 controls remain complete; three resolution checks advancing, fourth queued. Armchair resolution now passes its virtual original stop. All endpoints remain pending; no new full-trajectory effect or convergence claim is inferred. Candidate package awaits completion of the scheduled checks."
+}

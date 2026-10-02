@@ -1,0 +1,141 @@
+{
+  "copied_utc": "2026-09-25T23:47:59.430822+00:00",
+  "scope": "Read-only current manuscript and figure-source snapshot for the user-requested candidate review package; original files unmodified. Do not execute unmodified original scripts.",
+  "files": [
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/main.tex",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/main.tex",
+      "sha256": "bb16971aa9c35ac5fbb6e9a934f1a709c192b85909ae4abdd6cccad3b6b6f237"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/refs.bib",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/refs.bib",
+      "sha256": "8550969c04d15de20cfa14d6c0b35679b6d5e596bb9a62e889d5b362ce13ab36"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/README.md",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/README.md",
+      "sha256": "200cd298676707e13851b5c1fe64c4f939a3313fb6da9de293115a489293907c"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figure_scripts/check_overlaps.py",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figure_scripts/check_overlaps.py",
+      "sha256": "5589ca0e21cff9c360ce817ca2a08a1dcbcc26c2522aebfd7be6d07b78caac6b"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figure_scripts/extra_figures.py",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figure_scripts/extra_figures.py",
+      "sha256": "e8429b6ccb496a00d2ef4af9b2759db2ed1c45c79a95597116f7ea9c8f9f3cb3"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figure_scripts/make_figures.py",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figure_scripts/make_figures.py",
+      "sha256": "9466b5b888edb71ebb2171fadbee3cc279c8c4e12be06986b1a91e8955c62787"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figure_scripts/mechanism_figure.py",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figure_scripts/mechanism_figure.py",
+      "sha256": "974467f11e2299462d61420c08c25089fe8aeb8e110636f447035d90f1625f52"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig5_costs.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig5_costs.pdf",
+      "sha256": "d5ea1b225ec89c8305b3cd103c19e1fde4f10b6082842cfaf337c4519f654415"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig7_progression.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig7_progression.pdf",
+      "sha256": "26cf71844722f2492e8526fb05387f0bad67ac848a57564d1d2881ee04520ac7"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig3_alignment_cliff.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig3_alignment_cliff.pdf",
+      "sha256": "2e0208abc79ad38ab1d551e79f41c4c1212ef4fdc7ee7d8ab0c1ebec7e5cfac4"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig2_design_space.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig2_design_space.pdf",
+      "sha256": "616b8529dff6d9a71f1b92fc955230d80964f722cfc1774688ce86e15b0b33d9"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig_mechanisms.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig_mechanisms.pdf",
+      "sha256": "3464c92804f8cf9b3593b65c971168a84b28e91af406887ec238d570a21aa99d"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig4_hierarchy_alignment.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig4_hierarchy_alignment.pdf",
+      "sha256": "530708d663679de28cac9e46c6d75ecd3a06768f3dc52890ab7b3027e350ddc3"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig2_load_paths.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig2_load_paths.pdf",
+      "sha256": "ba6feba232c05811cb45a6cb5edb3b6d38b9cd1403c935c12a6654e5319ec0d4"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig1_rule_of_mixtures.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig1_rule_of_mixtures.pdf",
+      "sha256": "6827502261ac7b8839f1187f5ddc85a0138b47a8f59fe2ab07bba62af1d4bb2d"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/fig6_preregistration.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/fig6_preregistration.pdf",
+      "sha256": "a343120a4cee0b77d35d2d73d0ad33ad1c3038a9932c36a64672554afcdd7495"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S1_precrack_L20_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S1_precrack_L20_energy_rel.pdf",
+      "sha256": "855ae130a219bec503d34771a4d49e607681a073ba87f50ff5957bbfca967665"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S2_hole20_rings2_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S2_hole20_rings2_energy_rel.pdf",
+      "sha256": "04acd2d3e20b07c76be8cb8b04f5b3b6480ec70a3fcda9f2ebb1ffbde593e5f8"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S7_H2_veinsX_W12_ellipseX_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S7_H2_veinsX_W12_ellipseX_energy_rel.pdf",
+      "sha256": "d08c37c1b9339c5a4ad8c6c5b4ecaab090bec4dd6bb23076d8087db429f96e9b"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S5_slit0_phi0.1_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S5_slit0_phi0.1_energy_rel.pdf",
+      "sha256": "f0093269fa0dd7f5e42a41a6c9caf1636e604d8f1f2b68af53e89ee6ccc3a639"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S5_H2_D40_W8_jitter2_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S5_H2_D40_W8_jitter2_energy_rel.pdf",
+      "sha256": "7ed7aaf1a2fd442e6b28b796f96fa1a7ffcd7bc9deda5136032476d2e3b91151"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/figS_atlas.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/figS_atlas.pdf",
+      "sha256": "856fc546bf0d03a5d6f9f68f45c402eb2675be9839d47ae1c1b8c59048f19dae"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S1_pristine_zz_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S1_pristine_zz_energy_rel.pdf",
+      "sha256": "dd93ee1ff0789a3e3599e31febe1944c802e82c0279aec1ea1358761887ae9c5"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S7_slit_0deg_armchair_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S7_slit_0deg_armchair_energy_rel.pdf",
+      "sha256": "79abcec2bfcbdb04e95385bb7a284116dde00424bcb3c580228f3e57178177ed"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S2_slit_45deg_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S2_slit_45deg_energy_rel.pdf",
+      "sha256": "fed58619272bf6bb10c15d768ba447272d27c9849860e0a169b3036479b686ec"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S7_slit_20deg_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S7_slit_20deg_energy_rel.pdf",
+      "sha256": "da34804573c84ff265e97e90a78783ef00fb40eb17d01525b523cc1dc8b8a276"
+    },
+    {
+      "source": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/paper_latest_20260924/figures/si/progression_S5_H2_D40_W8_ellipseX_energy_rel.pdf",
+      "copied_relative_path": "inputs/reference/paper_candidate_baseline_20260925/figures/si/progression_S5_H2_D40_W8_ellipseX_energy_rel.pdf",
+      "sha256": "c2e172ee1bff9f66f9c41c7e76a8ba3463c1e48924fabf417a2bf8eeb4bf4923"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "time": "2026-09-26T11:33:00.313121+00:00",
+  "change": "Renamed queue.py to dispatch_serial.py to avoid shadowing Python standard-library queue when importing torch. No simulation started in the failed launch; preserved all original startup logs. No scientific source, parameters or jobs changed.",
+  "previous_queue_exit": 1,
+  "live_queue_or_child_processes_before_recovery": false,
+  "attempt_archive": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/diagnostics/slit45_reproduction_Q9/logs/startup_attempt_01_20260926T113300Z"
+}

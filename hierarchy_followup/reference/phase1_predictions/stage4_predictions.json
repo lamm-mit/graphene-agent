@@ -1,0 +1,190 @@
+{
+ "name": "stage4_predictions",
+ "written": "2026-09-05 11:32:52",
+ "notes": "Predictions for the Stage 4 discriminating experiments, written before launching them; H-A model sigma = minSF x 39/K with K(straight)=1.25, K(necked)=1.8.",
+ "predictions": [
+  {
+   "name": "S4_square_D40",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "square",
+    "stagger": false,
+    "pore_d": 17.594
+   },
+   "predicted": {
+    "strength_Nm": 16.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "minSF=0.51, K=straight"
+   },
+   "rationale": "H-A vs H-B pair 1/2: coarse square pores (straight uniform ligaments), reference of the pair"
+  },
+  {
+   "name": "S4_circle_D40_sameMinSF",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "circle",
+    "stagger": false,
+    "pore_d": 17.594
+   },
+   "predicted": {
+    "strength_Nm": 11.3,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.52, K=necked; H-B alternative ~16.2"
+   },
+   "rationale": "pair 1: circular pores with diameter = square side (17.6 A) -> same minSF (0.52) but lower porosity (0.16); H-A predicts weaker than square (necked paths), H-B predicts >= square"
+  },
+  {
+   "name": "S4_circle_D40_samePhi",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "circle",
+    "stagger": false,
+    "pore_d": 20.016
+   },
+   "predicted": {
+    "strength_Nm": 9.8,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.45, K=necked"
+   },
+   "rationale": "pair 2: circular pores at the same porosity (0.20) -> minSF 0.45"
+  },
+  {
+   "name": "S4_square_D40_dispersed",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 40,
+    "shape": "square",
+    "stagger": false,
+    "pore_d": 16.625,
+    "size_disorder": 0.15,
+    "seed": 1
+   },
+   "predicted": {
+    "strength_Nm": 14.7,
+    "fracture_mode_class": "progressive",
+    "basis": "weakest row ~10% below mean; H-C: multi-step; H-C': single avalanche"
+   },
+   "rationale": "pair 3 (H-C): square coarse mesh with +-15% pore-size dispersion (non-equivalent rows) at the same porosity"
+  },
+  {
+   "name": "S4_p32_dispersed",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "period": 32,
+    "size_disorder": 0.15,
+    "seed": 1,
+    "pore_d": 14.25
+   },
+   "predicted": {
+    "strength_Nm": 14.4,
+    "fracture_mode_class": "progressive",
+    "basis": "necked + non-equivalent"
+   },
+   "rationale": "pair 4 (H-C): period-32 round-pore mesh with +-15% size dispersion"
+  },
+  {
+   "name": "S4_precrack_L30_cell150",
+   "family": "precrack",
+   "params": {
+    "Lx": 150,
+    "Ly": 150,
+    "crack_len": 30,
+    "crack_w": 3.0,
+    "angle_deg": 90
+   },
+   "predicted": {
+    "strength_Nm": 18.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "lattice-trapping plateau (H-E); Griffith alternative 13.9"
+   },
+   "rationale": "H-E: 30 A crack in a 150 A cell (image interaction removed)"
+  },
+  {
+   "name": "S4_precrack_L40_cell150",
+   "family": "precrack",
+   "params": {
+    "Lx": 150,
+    "Ly": 150,
+    "crack_len": 40,
+    "crack_w": 3.0,
+    "angle_deg": 90
+   },
+   "predicted": {
+    "strength_Nm": 18.0,
+    "fracture_mode_class": "abrupt",
+    "basis": "lattice-trapping plateau (H-E); Griffith alternative 12.0"
+   },
+   "rationale": "H-E: 40 A crack in a 150 A cell (image interaction removed)"
+  },
+  {
+   "name": "S4_hole_d30",
+   "family": "ring_around_hole",
+   "params": {
+    "Lx": 100,
+    "Ly": 100,
+    "hole_d": 30,
+    "n_rings": 0
+   },
+   "predicted": {
+    "strength_Nm": 17.5,
+    "fracture_mode_class": "abrupt",
+    "basis": "plateau; net-section 0.7 x 39/1.6"
+   },
+   "rationale": "H-E: 30 A hole"
+  },
+  {
+   "name": "S4_H2_D40_W8_veins_x",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "vein_dirs": "x",
+    "pore_d": 6.25
+   },
+   "predicted": {
+    "strength_Nm": 14.5,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.72; H-F: x-veins add straight load paths, y-veins add nothing (H-F' predicts xy > x)"
+   },
+   "rationale": "H-F: two-level mesh with veins only along x (parallel to the load) at matched porosity; xy reference = S2_H2_D40_W8 (12.8 N/m)"
+  },
+  {
+   "name": "S4_H2_D40_W8_veins_y",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120,
+    "Ly": 120,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 8,
+    "vein_dirs": "y",
+    "pore_d": 6.25
+   },
+   "predicted": {
+    "strength_Nm": 11.5,
+    "fracture_mode_class": "progressive",
+    "basis": "minSF=0.73; H-F: x-veins add straight load paths, y-veins add nothing (H-F' predicts xy > x)"
+   },
+   "rationale": "H-F: two-level mesh with veins only along y (perpendicular to the load) at matched porosity; xy reference = S2_H2_D40_W8 (12.8 N/m)"
+  }
+ ],
+ "sha256_of_content": "89a53a14323ba3527a41dd14a615f23e66cda398b9a8d53c1644d3b6ad35660b"
+}

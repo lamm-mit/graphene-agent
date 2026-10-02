@@ -1,0 +1,41 @@
+{
+  "reviewed_utc": "2026-09-26T12:17:23.994316+00:00",
+  "queue_status": {
+    "time": "2026-09-26T12:17:17.317671+00:00",
+    "queue_pid": 55231,
+    "status": "running",
+    "case": "R1_original_batch4",
+    "child_pid": 55233,
+    "pending": [
+      "R2_original_single",
+      "R3_original_single_repeat"
+    ]
+  },
+  "progress": {
+    "time": "2026-09-26T12:09:28.620276+00:00",
+    "pid": 55233,
+    "frame": 17,
+    "strain": 0.17,
+    "stress_N_m": 2.5548312234282538,
+    "force_residual_eV_A": 0.017967918887734413,
+    "elapsed_s": 2185.7654209136963,
+    "batch_eps": [
+      0.09375000000000003,
+      0.17,
+      0.17,
+      0.16
+    ]
+  },
+  "no_duplicate_scheduler": true,
+  "frozen_input_source_mismatches": [],
+  "findings": [
+    "Original rejected the first 0.17 trial and inserted 0.165; restored-batch replay accepts 0.17 directly.",
+    "One logged full-budget retry of an already-converged active target has zero coordinate motion.",
+    "Target graph at matched 0.17 agrees with original; stress differs by -0.02555 N/m."
+  ],
+  "interpretation": "Adaptive loading history is a concrete differing decision; contribution to later stress divergence remains unisolated. Await R1-R3 before additional scientific intervention.",
+  "visual_review": {
+    "file": "figures/transition_diagnostic.png",
+    "checks": "All plotted series use real saved states, partial replay is labeled in progress, target is 0.02 eV/Angstrom, no overlapping labels or narrative footer. Separate caption records force-evaluation provenance."
+  }
+}

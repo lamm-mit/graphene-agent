@@ -1,0 +1,37 @@
+% Figure 1: the experiment (TikZ).  Numbers come from figures/facts.tex and figures/numbers.tex.
+% Phase 1: four boxes of width w1; phase 2: three boxes of width w2 spanning the same total width.
+%SEPT 27 EDIT: Helvetica (Arial equivalent), scoped to this figure.
+\begingroup
+\renewcommand{\sfdefault}{phv}
+\begin{tikzpicture}[font=\sffamily\scriptsize, node distance=5mm and 3.5mm,
+  box/.style={draw, rounded corners=2.5pt, line width=0.7pt, align=center, minimum height=1.35cm, inner sep=3pt, fill=white},
+  b1/.style={box, text width=3.45cm},
+  b2/.style={box, text width=4.795cm},
+  arr/.style={-{Latex[length=2.2mm,width=1.6mm]}, line width=0.9pt, black!55},
+  phase/.style={font=\sffamily\bfseries\footnotesize, anchor=south west, inner sep=1pt}]
+% ---- phase 1
+\node[b1, draw=blue!65!black] (p1) {\textbf{prompt}\\[1pt] build, validate and use\\ a discovery platform};
+\node[b1, draw=blue!65!black, right=of p1] (p2) {\textbf{build the instrument}\\[1pt] REBO2 engine in PyTorch,\\ generators, loading driver};
+\node[b1, draw=red!70!black, fill=red!4, right=of p2] (p3) {\textbf{validate}\\[1pt] \nTests{} tests against the\\ Fortran reference, all passed};
+%SEPT 26 EDIT: Present experiments and results without dates, hashes or registration bookkeeping.
+\node[b1, draw=green!45!black, right=of p3] (p4) {\textbf{scientific exploration}\\[1pt] staged campaign, \discN{} simulations,\\ holdout predictions fixed in advance};
+\draw[arr] (p1) -- (p2); \draw[arr] (p2) -- (p3); \draw[arr] (p3) -- (p4);
+\begin{scope}[on background layer]
+  \node[fill=blue!6, rounded corners=5pt, inner xsep=5pt, inner ysep=4pt, fit=(p1)(p4)] (bg1) {};
+\end{scope}
+\node[phase, text=blue!65!black] at ([yshift=1.5pt]bg1.north west) {Phase 1: autonomous agent (Claude Fable 5.1 in Claude Code)};
+% ---- phase 2
+\node[b2, draw=orange!85!black, below=13mm of p1.south west, anchor=north west] (q1) {\textbf{questions}\\[1pt] novelty? how to measure alignment?\\ what does\\ hierarchy contribute?};
+\node[b2, draw=orange!85!black, right=of q1] (q2) {\textbf{new analyses}\\[1pt] design-space chart, alignment index $A$,\\ slit-tip overlap $O$};
+%SEPT 26 EDIT: Present experiments and results without dates, hashes or registration bookkeeping.
+\node[b2, draw=red!70!black, fill=red!4, right=of q2] (q3) {\textbf{pre-registered sweeps}\\[1pt] two competing rules fixed,\\ then \nPaperRuns{} simulations};
+\draw[arr] (q1) -- (q2); \draw[arr] (q2) -- (q3);
+\begin{scope}[on background layer]
+  \node[fill=orange!8, rounded corners=5pt, inner xsep=5pt, inner ysep=4pt, fit=(q1)(q3)] (bg2) {};
+\end{scope}
+\node[phase, text=orange!85!black] at ([yshift=1.5pt]bg2.north west) {Phase 2: human--AI collaboration};
+% ---- link between phases
+\draw[arr, dashed] ([xshift=-14mm]bg1.south east) -- node[left=3pt, black!60] {archive} ([xshift=-14mm]bg2.north east);
+\end{tikzpicture}
+\endgroup
+%SEPT 27 EDIT END: Figure-local font setting.

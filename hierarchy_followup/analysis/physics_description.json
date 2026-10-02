@@ -1,0 +1,32 @@
+{
+ "sections": [
+  {
+   "title": "Interatomic potential",
+   "html": "<p><b>Screened second-generation REBO (REBO2+S)</b>: Brenner et al. (2002) second-generation reactive empirical bond-order potential with the environment-dependent screening functions of Pastewka et al. (2008, 2013). The authoritative implementation is Atomistica's <code>Rebo2Scr</code> (Fortran, v1.2.7, default parameters, dihedral term off). The production engine <code>TorchRebo2Scr</code> is an exact PyTorch port of that kernel: repulsive V<sub>R</sub>, attractive V<sub>A</sub>, angular bond order with the coordination-switched g(cos \u03b8) splines, the P<sub>CC</sub> bicubic and F<sub>CC</sub> tricubic tables (with derivative tables), conjugation counter, all four cut-off functions (inner 1.95\u20132.25 \u00c5, attractive/repulsive 2.18\u20132.82 \u00c5, bond order 1.87\u20132.76 \u00c5, neighbour/conjugation 1.22\u20134.00 \u00c5) and the elliptical screening S<sub>ij</sub> = \u03a0<sub>k</sub> exp[\u2212((C<sub>max</sub>\u2212C)/(C\u2212C<sub>min</sub>))\u00b2] with C<sub>min</sub>=1, C<sub>max</sub>=2. Forces are exact gradients (autograd), the virial is dE/d\u03b5. Agreement with Atomistica: \u22641e-13 eV/atom, \u22641e-12 eV/\u00c5 (float64).</p><p>Nothing in the mechanics comes from springs, beams, continuum models, rigid bodies or learned surrogates.</p>"
+  },
+  {
+   "title": "Numerical modes",
+   "html": "<p><b>Fast discovery mode</b>: MPS (Apple GPU) or CUDA, float32 \u2014 used for the campaign. <b>Reference mode</b>: CPU float64 \u2014 bit-identical to Atomistica; used for validation and cross-checks. Quantified differences (fast vs reference): energies ~1e-6 eV/atom, forces ~1e-4 eV/\u00c5, 2D stress ~1e-5 N/m \u2014 far below the minimisation tolerance (0.02 eV/\u00c5) and the stress scales of interest (1\u201340 N/m).</p>"
+  },
+  {
+   "title": "Structures",
+   "html": "<p>All structures are explicit carbon atoms in orthorhombic periodic supercells (x,y periodic; z vacuum) represented as ASE <code>Atoms</code>, generated from a pristine graphene sheet at the REBO2+S lattice constant a<sub>0</sub> = 2.4602 \u00c5 by atom removal (pores, slits, cracks, vacancies) followed by pruning of dangling atoms and relaxation. Every structure carries its generator, parameters and seed; export formats: extxyz, xyz, ASE traj, LAMMPS data, CIF, POSCAR.</p>"
+  },
+  {
+   "title": "Athermal quasi-static tensile protocol (AQS)",
+   "html": "<p>Uniaxial engineering strain along x in increments of 1% before the first bond-breaking event (bisected to 0.125% around that event, using a 400-iteration trial relaxation to detect bond loss) and 0.5% afterwards, affine mapping of positions, FIRE relaxation of all atoms to |F|<sub>max</sub> &lt; 0.02 eV/\u00c5, transverse cell relaxed to \u03c3<sub>yy</sub> = 0 (secant iterations, trust region 0.5%), 2D stress from the virial per area (N/m). The reference state is the zero-stress relaxed cell. A structure is stopped when the bond network no longer spans the loading direction, when the stress collapses below 5% of the peak after damage, or at 35% strain.</p>"
+  },
+  {
+   "title": "Damage and connectivity analysis",
+   "html": "<p>The reactive potential has no bond table; for analysis two carbon atoms are considered bonded if r &lt; 2.0 \u00c5 (between the equilibrium bond length 1.42 \u00c5 and the inner cut-off 1.95\u20132.25 \u00c5). Bond loss between consecutive converged states is recorded with the strain and location of the event; persistence is enforced in post-processing. Damage localisation L = 1 \u2212 H/H<sub>max</sub> with H the Shannon entropy of the damage-event positions on an 8\u00d78 grid over the cell (L = 0 uniform, L = 1 fully localised).</p>"
+  },
+  {
+   "title": "Metrics and units",
+   "html": "<p>2D modulus Y<sub>2D</sub> (N/m, linear fit \u03b5 \u2264 2%), 2D strength \u03c3<sub>max</sub> (N/m), strain at peak, first-damage strain, failure strain (stress &lt; 10% of peak or loss of spanning), work to failure W = \u222b\u03c3 d\u03b5 (J/m\u00b2, a simulation-derived energy-absorption proxy, <i>not</i> a fracture toughness), specific work per atom (eV), post-peak load retention, number of damage steps, damage localisation, fracture-mode classification. 3D-equivalent stresses are never reported implicitly; if needed, \u03c3<sub>3D</sub> = \u03c3<sub>2D</sub>/t with t = 0.335 nm would apply.</p>"
+  },
+  {
+   "title": "Known limitations of the model",
+   "html": "<p>REBO2(+S) underestimates the in-plane stiffness of graphene (Y<sub>2D</sub> = 245 N/m vs \u2248340 N/m experiment) and overestimates the Poisson ratio (0.39 vs \u22480.17); intrinsic strengths (37.7 N/m zigzag, 30.5 N/m armchair) are close to experiment (\u224842 N/m). Under zigzag tension the homogeneous lattice shows a bistable transverse response above \u224816% strain (soft-mode instability of the model). Screening switch-on/off produces steep (but continuous) force features when an atom crosses the screening ellipse of a neighbouring pair. All results are properties of this classical model; no claim of synthesizability is made.</p>"
+  }
+ ]
+}

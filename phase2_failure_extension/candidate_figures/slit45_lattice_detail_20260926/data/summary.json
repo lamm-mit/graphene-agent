@@ -1,0 +1,213 @@
+{
+  "source_run": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/runs/ext__S2_slit_45deg",
+  "source_trajectory_sha256": "637490698df5aeab0bea2f57ba7feecef1d7e938ae94849526a724ff8d6d9b09",
+  "peak_frame": 36,
+  "figure10_peak_panel": "c",
+  "figure10_later_panel": "d",
+  "tracked_pair": [
+    1777,
+    1855
+  ],
+  "selection": "New pair nearest the normalized periodic cell centre at the primary stress maximum; same atom pair recentres every zoom.",
+  "field_width_A": [
+    26.0,
+    20.0
+  ],
+  "centres_A": {
+    "0": [
+      59.445533752441406,
+      57.93177604675293
+    ],
+    "36": [
+      74.44525909423828,
+      41.91050148010254
+    ],
+    "44": [
+      78.6910514831543,
+      41.52886390686035
+    ]
+  },
+  "states": [
+    {
+      "frame": 0,
+      "strain": 0.0,
+      "stress_N_m": -0.0033423090513806934,
+      "new_pairs_present": 0,
+      "coordination_counts": {
+        "2": 392,
+        "3": 2696
+      },
+      "new_pair_shortest_cycle_counts": {},
+      "max_force_eV_A": 0.008316012099385262,
+      "transverse_stress_N_m": -0.03282928184339714,
+      "spans_x": true
+    },
+    {
+      "frame": 36,
+      "strain": 0.2612500000000001,
+      "stress_N_m": 12.204642277152937,
+      "new_pairs_present": 66,
+      "coordination_counts": {
+        "2": 300,
+        "3": 2788
+      },
+      "new_pair_shortest_cycle_counts": {
+        "6": 40,
+        "14": 6,
+        "4": 8,
+        "7": 4,
+        "5": 8
+      },
+      "max_force_eV_A": 0.015579481609165668,
+      "transverse_stress_N_m": -0.05979247103000716,
+      "spans_x": true
+    },
+    {
+      "frame": 44,
+      "strain": 0.30125000000000013,
+      "stress_N_m": 9.529055122395349,
+      "new_pairs_present": 94,
+      "coordination_counts": {
+        "2": 308,
+        "3": 2780
+      },
+      "new_pair_shortest_cycle_counts": {
+        "6": 64,
+        "14": 2,
+        "no_loop_within_search": 4,
+        "7": 8,
+        "5": 16
+      },
+      "max_force_eV_A": 0.01841088943183422,
+      "transverse_stress_N_m": -0.01636408151237564,
+      "spans_x": true
+    }
+  ],
+  "annotated_loops": [
+    {
+      "frame": 36,
+      "loop_size": 4,
+      "atom_ids": [
+        1777,
+        1854,
+        1932,
+        1855
+      ],
+      "positions_relative_A": [
+        [
+          0.5248870849609375,
+          -0.6804676055908203
+        ],
+        [
+          2.0174331665039062,
+          -0.021471023559570312
+        ],
+        [
+          1.205352783203125,
+          1.3271617889404297
+        ],
+        [
+          -0.5248870849609375,
+          0.6804676055908203
+        ]
+      ],
+      "label_position_A": [
+        0.8056964874267578,
+        0.32642269134521484
+      ]
+    },
+    {
+      "frame": 36,
+      "loop_size": 6,
+      "atom_ids": [
+        1931,
+        2007,
+        2081,
+        2010,
+        2009,
+        2008
+      ],
+      "positions_relative_A": [
+        [
+          6.357734680175781,
+          3.3354129791259766
+        ],
+        [
+          7.8426361083984375,
+          3.749635696411133
+        ],
+        [
+          8.134933471679688,
+          5.18379020690918
+        ],
+        [
+          6.932891845703125,
+          6.099550247192383
+        ],
+        [
+          5.446037292480469,
+          5.751012802124023
+        ],
+        [
+          5.09906005859375,
+          4.315649032592773
+        ]
+      ],
+      "label_position_A": [
+        6.635548909505208,
+        4.739175160725911
+      ]
+    },
+    {
+      "frame": 44,
+      "loop_size": 7,
+      "atom_ids": [
+        1854,
+        1853,
+        1928,
+        1929,
+        1934,
+        1933,
+        1932
+      ],
+      "positions_relative_A": [
+        [
+          1.7577857971191406,
+          -0.5387325286865234
+        ],
+        [
+          2.874958038330078,
+          -1.3811626434326172
+        ],
+        [
+          4.276882171630859,
+          -0.4929218292236328
+        ],
+        [
+          4.764949798583984,
+          1.0241222381591797
+        ],
+        [
+          3.8722190856933594,
+          2.171663284301758
+        ],
+        [
+          2.4673805236816406,
+          1.9921512603759766
+        ],
+        [
+          2.1405982971191406,
+          0.7405376434326172
+        ]
+      ],
+      "label_position_A": [
+        3.1649676731654575,
+        0.5022367749895368
+      ]
+    }
+  ],
+  "definition": "Geometric graph of atom pairs at minimum-image separation below 2 A; line colour records membership relative to frame 0, not atom type, defect severity or chemical bond order.",
+  "cycle_diagnostic": "Remove one new edge, find its shortest alternative path, then close the loop with that edge. This is a per-edge shortest-cycle diagnostic, not a census of distinct physical rings. Search bound: alternative path up to 24 edges. Annotated local loops were checked to close without periodic winding.",
+  "interpretation": "Locally reconnected six-membered loops coexist with non-hexagonal loops and remaining slit edges. These snapshots do not demonstrate a perfect, defect-free honeycomb sheet.",
+  "numerical_scope": "Selected peak and near-0.30 states meet recorded residual targets; the trajectory has flagged other frames, and this geometric analysis does not establish numerical convergence."
+}

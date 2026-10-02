@@ -1,0 +1,164 @@
+{
+  "source_root": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2 SINGLE SHOT/carbon_discovery",
+  "scope": "Frozen phase-1 single-shot code; diagram and caption are new explanatory artwork, not new simulation results.",
+  "panels": {
+    "a": [
+      {
+        "file": "app/backend/server.py",
+        "symbols": [
+          "generate",
+          "simulate",
+          "_run_job"
+        ],
+        "supports": "POST /api/generate previews a generated geometry. POST /api/simulate writes a JSON specification and launches run_batch.py as a subprocess."
+      },
+      {
+        "file": "scripts/run_queue.py",
+        "symbols": [
+          "main"
+        ],
+        "supports": "Multiple worker processes each execute run_batch.py on a batch JSON specification."
+      },
+      {
+        "file": "scripts/run_batch.py",
+        "symbols": [
+          "main",
+          "precheck",
+          "viability"
+        ],
+        "supports": "Direct CLI or subprocess entry. Rebuilds geometries, prechecks them, packs viable designs into BatchedSystem and calls AQSRunner. Geometry and numerical settings come from each specification."
+      },
+      {
+        "file": "scripts/reproduce_run.py",
+        "symbols": [
+          "main"
+        ],
+        "supports": "Loads the saved family, parameters, seed, device/precision and AQS settings; regenerates a single structure and calls AQSRunner directly. It does not call run_batch.py and is not a guarantee of bitwise replay."
+      },
+      {
+        "file": "simulation/system.py",
+        "symbols": [
+          "BatchedSystem"
+        ],
+        "supports": "Concatenated positions and structure IDs, with separate orthorhombic cells, atom offsets and per-structure reductions; independent structures share tensors without interacting."
+      }
+    ],
+    "b": [
+      {
+        "file": "simulation/aqs/aqs.py",
+        "symbols": [
+          "AQSRunner.run",
+          "AQSRunner.relax_zero_stress",
+          "AQSRunner._affine",
+          "AQSRunner._transverse_relax",
+          "AQSRunner._record",
+          "AQSRunner._revert"
+        ],
+        "supports": "Reference-cell relaxation, strain steps, trial and additional minimization, first-damage rollback/bisection, transverse relaxation, recording and per-structure stopping."
+      },
+      {
+        "file": "simulation/minimization/fire.py",
+        "symbols": [
+          "fire_minimize",
+          "FireResult"
+        ],
+        "supports": "Repeated force evaluations with adaptive FIRE steps, periodic neighbor-list rebuilds and force/soft-convergence/failed flags."
+      },
+      {
+        "file": "experiments/campaign_design.py",
+        "symbols": [
+          "AQS"
+        ],
+        "supports": "Discovery campaign values override generic driver defaults: d_strain_elastic=.01, d_strain=.005, d_strain_min=.00125, max_strain=.32, fmax=.02, stop_stress_fraction=.10, post_peak_strain_limit=.12, max_steps=220."
+      },
+      {
+        "file": "experiments/db.py",
+        "symbols": [
+          "save_run",
+          "rebuild_index"
+        ],
+        "supports": "JSON record, stress_strain.csv, structures and compressed trajectory with per-atom fields. Separate run records/index expose outputs to analysis and browser."
+      },
+      {
+        "file": "analysis/metrics.py",
+        "symbols": [
+          "compute_metrics"
+        ],
+        "supports": "Postprocessing of stress-strain responses and damage; historical endpoint labels need the stopping-rule interpretation already in the manuscript."
+      }
+    ],
+    "c": [
+      {
+        "file": "potentials/rebo2scr/pytorch/torch_rebo2scr.py",
+        "symbols": [
+          "TorchRebo2Scr",
+          "energy",
+          "evaluate",
+          "evaluate_atoms",
+          "needs_rebuild",
+          "_ClampMaxStraightThrough"
+        ],
+        "supports": "Screened carbon REBO2 energy and reference-compatible derivative conventions. Autograd computes forces and strain derivatives; per-atom virial is a pair-vector decomposition. CPU/MPS/CUDA selection is in select_device."
+      },
+      {
+        "file": "potentials/rebo2scr/pytorch/neighborlist.py",
+        "symbols": [
+          "build_dense_neighbor_list"
+        ],
+        "supports": "Padded periodic neighbor arrays with separate long/short ranges and reverse-pair indices; geometric search occurs on CPU before device tensors are assembled."
+      },
+      {
+        "file": "potentials/rebo2scr/pytorch/ase_calculator.py",
+        "symbols": [
+          "TorchRebo2ScrCalculator"
+        ],
+        "supports": "Single-structure ASE adapter to the same kernel. ASE stress is volume-normalized, whereas the AQS driver uses area-normalized 2D stress."
+      },
+      {
+        "file": "simulation/md/md.py",
+        "symbols": [
+          "run_md"
+        ],
+        "supports": "Separate planar finite-temperature integrator, Verlet/Langevin, optional fixed engineering strain rate, user-supplied steps and time increment, time/T/energy/stress/position outputs."
+      },
+      {
+        "file": "validation/md_demo.py",
+        "symbols": [
+          "__main__"
+        ],
+        "supports": "Python entry example using both AQS and MD; MD results are written to validation outputs, not automatically to the campaign database."
+      },
+      {
+        "file": "validation/force_tests.py",
+        "symbols": [
+          "fd_forces",
+          "fd_stress",
+          "run"
+        ],
+        "supports": "Finite differences, periodicity, force balance and neighbor tests."
+      },
+      {
+        "file": "validation/precision_tests.py",
+        "symbols": [
+          "evaluate",
+          "run"
+        ],
+        "supports": "Fixed-state device/precision comparisons with the reference."
+      }
+    ]
+  },
+  "abstraction_notes": [
+    "The dashed bisection arrow combines early and late checks. The full code includes additional minimization and rollback cases.",
+    "The FIRE-to-kernel bidirectional connector denotes calls and returned forces/fields; initial and transverse relaxations also query the same kernel.",
+    "A kernel neighbor list is reused and rebuilt when required, not rebuilt for every evaluation.",
+    "Original limits in the diagram are discovery-campaign settings, not universal library/browser defaults.",
+    "Operational stress collapse requires prior bond loss and stress below 10% of the running maximum. The 0.12 post-peak rule also requires prior bond loss; a strictly higher peak updates its strain reference.",
+    "Iteration guards and numerical-error branches are omitted graphically. Original controls and validation can have separate specifications.",
+    "Nominal FIRE tolerance does not establish actual convergence for every accepted state. Soft acceptance exists and recorded flags require residual review.",
+    "Straight-through caps reproduce Atomistica's force convention in over-coordinated environments. The figure deliberately uses 'reference-compatible' rather than making a universal mathematical exact-gradient claim.",
+    "The optional MD module is a separate API driver and is not exposed as the browser's AQS simulate endpoint.",
+    "AQS output is area-normalized 2D stress. The ASE interface's conventional volume-normalized stress is not conflated with it.",
+    "CUDA is a supported code route; it was not benchmarked on the original MPS workstation.",
+    "No original code, runs, manuscript, frozen report, manuscript figures or hierarchy follow-up were modified."
+  ]
+}

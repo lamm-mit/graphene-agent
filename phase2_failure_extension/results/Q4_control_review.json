@@ -1,0 +1,218 @@
+{
+  "reviewed_utc": "2026-09-24T13:13:56.106686+00:00",
+  "case_id": "quality__S1_pristine_zz_verified_Q4",
+  "status": "Control reviewed; one Q4 slit diagnostic may proceed",
+  "driver_endpoint": {
+    "endpoint_index": 28,
+    "end_strain": 0.24875000000000008,
+    "end_stress_N_m": 0.34996170053221637,
+    "failure_observed": true,
+    "failure_strain_if_observed": 0.24875000000000008,
+    "last_nonfailed_strain": 0.24750000000000008,
+    "termination_reason": "not spanning (fractured)",
+    "maximum_recorded_stress_N_m": 36.50726890843105,
+    "strain_at_recorded_maximum": 0.23000000000000007,
+    "peak_at_last_frame": false,
+    "stress_strain_integral_J_m2": 5.8301505665008175,
+    "end_stress_fraction_of_maximum": 0.009586082744507783,
+    "spanning_at_end": false,
+    "first_damage_strain": 0.24875000000000008,
+    "recorded_frames": 29,
+    "cumulative_broken_bond_events": 18
+  },
+  "quality": {
+    "all_recorded_values_finite": true,
+    "force_tolerance_eV_A": 0.02,
+    "frames_above_force_tolerance": 0,
+    "maximum_recorded_force_residual_eV_A": 0.01966216415166855,
+    "frames_above_transverse_tolerance": 0,
+    "maximum_transverse_stress_residual_N_m": 0.07476256246225102,
+    "numerical_termination": false,
+    "driver_and_chronological_metric_agree": true
+  },
+  "independent_static_check": {
+    "method": "CPU float64 on saved float32 coordinates, without relaxation",
+    "max_force_eV_A": 0.019656713961987392,
+    "max_abs_transverse_stress_N_m": 0.07472910342909324,
+    "rows": [
+      {
+        "index": 0,
+        "strain": 0.0,
+        "force_eV_A": 0.0002345262257611829,
+        "transverse_stress_N_m": 4.7823370063759834e-05
+      },
+      {
+        "index": 1,
+        "strain": 0.01,
+        "force_eV_A": 0.001988178002279613,
+        "transverse_stress_N_m": -0.03073076365645136
+      },
+      {
+        "index": 2,
+        "strain": 0.02,
+        "force_eV_A": 0.015555514268007812,
+        "transverse_stress_N_m": -0.0005674719721520543
+      },
+      {
+        "index": 3,
+        "strain": 0.03,
+        "force_eV_A": 0.011107426633776618,
+        "transverse_stress_N_m": -0.001220670030539177
+      },
+      {
+        "index": 4,
+        "strain": 0.04,
+        "force_eV_A": 0.008552341692641493,
+        "transverse_stress_N_m": -0.0010073463070154483
+      },
+      {
+        "index": 5,
+        "strain": 0.05,
+        "force_eV_A": 0.007802815473198753,
+        "transverse_stress_N_m": -0.0008779674973698519
+      },
+      {
+        "index": 6,
+        "strain": 0.060000000000000005,
+        "force_eV_A": 0.007934623303426482,
+        "transverse_stress_N_m": -0.0007407664552299845
+      },
+      {
+        "index": 7,
+        "strain": 0.07,
+        "force_eV_A": 0.0021372797144077506,
+        "transverse_stress_N_m": -0.0009709346235114007
+      },
+      {
+        "index": 8,
+        "strain": 0.08,
+        "force_eV_A": 0.008277413185442806,
+        "transverse_stress_N_m": -0.053834744530752446
+      },
+      {
+        "index": 9,
+        "strain": 0.09,
+        "force_eV_A": 0.007542545589555247,
+        "transverse_stress_N_m": -0.002874136857846082
+      },
+      {
+        "index": 10,
+        "strain": 0.09999999999999999,
+        "force_eV_A": 0.004679722892087364,
+        "transverse_stress_N_m": -0.040632846824629455
+      },
+      {
+        "index": 11,
+        "strain": 0.10999999999999999,
+        "force_eV_A": 0.019604137106685435,
+        "transverse_stress_N_m": -0.05352764176405981
+      },
+      {
+        "index": 12,
+        "strain": 0.11999999999999998,
+        "force_eV_A": 0.0028758617907285234,
+        "transverse_stress_N_m": -0.058645225703211706
+      },
+      {
+        "index": 13,
+        "strain": 0.12999999999999998,
+        "force_eV_A": 0.0029348826798930297,
+        "transverse_stress_N_m": 0.01642906203353503
+      },
+      {
+        "index": 14,
+        "strain": 0.13999999999999999,
+        "force_eV_A": 0.011918929442838705,
+        "transverse_stress_N_m": -0.00847891236122377
+      },
+      {
+        "index": 15,
+        "strain": 0.15,
+        "force_eV_A": 0.004994007444103567,
+        "transverse_stress_N_m": 0.07472910342909324
+      },
+      {
+        "index": 16,
+        "strain": 0.16,
+        "force_eV_A": 0.010889255048373389,
+        "transverse_stress_N_m": 0.004440747599305725
+      },
+      {
+        "index": 17,
+        "strain": 0.17,
+        "force_eV_A": 0.011581353525167301,
+        "transverse_stress_N_m": 0.0009045291002939681
+      },
+      {
+        "index": 18,
+        "strain": 0.18000000000000002,
+        "force_eV_A": 0.0026266816105107085,
+        "transverse_stress_N_m": 0.03663095306807706
+      },
+      {
+        "index": 19,
+        "strain": 0.19000000000000003,
+        "force_eV_A": 0.002783726960531018,
+        "transverse_stress_N_m": 0.023982543240815453
+      },
+      {
+        "index": 20,
+        "strain": 0.20000000000000004,
+        "force_eV_A": 0.015381847929649944,
+        "transverse_stress_N_m": 0.05869937976539477
+      },
+      {
+        "index": 21,
+        "strain": 0.21000000000000005,
+        "force_eV_A": 0.01291927138916849,
+        "transverse_stress_N_m": -0.011033682777096215
+      },
+      {
+        "index": 22,
+        "strain": 0.22000000000000006,
+        "force_eV_A": 0.011542140240731542,
+        "transverse_stress_N_m": -0.030872433012757636
+      },
+      {
+        "index": 23,
+        "strain": 0.23000000000000007,
+        "force_eV_A": 0.012794137563481883,
+        "transverse_stress_N_m": -0.03656478170530509
+      },
+      {
+        "index": 24,
+        "strain": 0.24000000000000007,
+        "force_eV_A": 0.018943329413345464,
+        "transverse_stress_N_m": 0.012285705573652403
+      },
+      {
+        "index": 25,
+        "strain": 0.24500000000000008,
+        "force_eV_A": 0.013449095803306473,
+        "transverse_stress_N_m": -0.0013541170567387547
+      },
+      {
+        "index": 26,
+        "strain": 0.24625000000000008,
+        "force_eV_A": 0.01735099066834105,
+        "transverse_stress_N_m": -0.008336700522839038
+      },
+      {
+        "index": 27,
+        "strain": 0.24750000000000008,
+        "force_eV_A": 0.019656713961987392,
+        "transverse_stress_N_m": -0.0226778966292955
+      },
+      {
+        "index": 28,
+        "strain": 0.24875000000000008,
+        "force_eV_A": 0.012797533693532693,
+        "transverse_stress_N_m": -0.055801580012527545
+      }
+    ]
+  },
+  "integral_change_vs_original_setting_control_percent": -13.232856152523375,
+  "conclusion": "Accepted control states satisfy recorded residual checks. Endpoint depends on numerical protocol. This supports running the separately identified Q4 slit diagnostic, not declaring unique material parameters or approving primary production.",
+  "strain_step_convergence": "Not yet established for Q4",
+  "primary_production_approved": false
+}

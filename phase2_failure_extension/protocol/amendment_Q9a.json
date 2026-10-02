@@ -1,0 +1,39 @@
+{
+  "amendment": "Q9a",
+  "date": "2026-09-26T13:24:37.488477+00:00",
+  "reason": "User requests a straightforward rerun of the 45-degree case after questioning the slower batch investigation.",
+  "change": "Prioritize one 45-degree-only original-setting rerun (R2). Suspend R1 and its scheduler in memory; defer R3. No numerical settings, scientific source or saved attempts changed.",
+  "active_required_case": "R2_original_single",
+  "original_three_job_plan_superseded": true,
+  "batch_preservation": {
+    "updated_utc": "2026-09-26T13:24:37.488477+00:00",
+    "amendment": "Q9a",
+    "active_case": "R2_original_single",
+    "suspended_pids": [
+      55231,
+      55233
+    ],
+    "case_status_overrides": {
+      "R1_original_batch4": "suspended",
+      "R3_original_single_repeat": "deferred"
+    },
+    "instruction": "Run only R2 now. Original scheduler and batch worker are intentionally SIGSTOP-suspended with live memory and all outputs retained. Do not send SIGCONT or start R3 automatically. Review R2 against existing original and Phase-II curves first.",
+    "prior_status_backup": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/diagnostics/slit45_reproduction_Q9/logs/priority_switch_20260926T132437Z",
+    "last_batch_progress": {
+      "time": "2026-09-26T13:23:17.062839+00:00",
+      "pid": 55233,
+      "frame": 25,
+      "strain": 0.20250000000000004,
+      "stress_N_m": 3.0846523813926563,
+      "force_residual_eV_A": 0.01836366578936577,
+      "elapsed_s": 6614.207986116409,
+      "batch_eps": [
+        0.10375000000000004,
+        0.21875000000000006,
+        0.20250000000000004,
+        0.19500000000000003
+      ]
+    }
+  },
+  "completion": "Review R2 against original and existing Phase-II curves, report reproducibility and numerical qualifications; do not automatically resume batch or launch more tests."
+}

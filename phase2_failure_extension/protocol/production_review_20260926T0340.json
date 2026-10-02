@@ -1,0 +1,83 @@
+{
+  "recorded_utc": "2026-09-26T03:40:44.996891+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T03:40:31.837329+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 37,
+      "running": 3
+    },
+    "running": [
+      {
+        "case_id": "res__S2_slit_45deg",
+        "pid": 23606,
+        "elapsed_s": 12398.641757011414,
+        "updated_utc": "2026-09-26T03:39:50.705875+00:00",
+        "frames": 125,
+        "attempted_step": 127,
+        "strain": 0.43625000000000025,
+        "stress_N_m": 2.842014129626827,
+        "force_residual_eV_A": 0.21257932484149933,
+        "transverse_stress_N_m": -0.05922462098944396,
+        "wall_time_s": 12354.58319067955,
+        "virtual_original_stop": {
+          "index": 78,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 96
+      },
+      {
+        "case_id": "res__S5_H2_D40_W8_ellipseX",
+        "pid": 23607,
+        "elapsed_s": 12398.639141082764,
+        "updated_utc": "2026-09-26T03:37:54.769076+00:00",
+        "frames": 63,
+        "attempted_step": 65,
+        "strain": 0.2387500000000001,
+        "stress_N_m": 2.228701706837772,
+        "force_residual_eV_A": 0.014129066839814186,
+        "transverse_stress_N_m": -0.03594520151987332,
+        "wall_time_s": 12238.646390676498,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 140
+      },
+      {
+        "case_id": "res__S7_slit_20deg",
+        "pid": 46173,
+        "elapsed_s": 4747.179365873337,
+        "updated_utc": "2026-09-26T03:39:52.546065+00:00",
+        "frames": 90,
+        "attempted_step": 92,
+        "strain": 0.2650000000000002,
+        "stress_N_m": 13.678039446938497,
+        "force_residual_eV_A": 0.11196856945753098,
+        "transverse_stress_N_m": 0.07279526855792598,
+        "wall_time_s": 4706.8180611133575,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 95
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n23606 43715    03:26:51  72:51.56  37.9 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n23607 43715    03:26:51  70:36.64  30.0 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-16:29:17   0:24.29   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-16:29:17   0:00.09   0.0 S    /usr/bin/caffeinate\n46173 43715    01:19:20  30:05.59  39.1 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "all_active_workers_have_new_accepted_frames": true,
+  "figures_and_analysis_unchanged_from_last_review": true,
+  "last_figure_review": "results/figure_review_20260926T0240.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "new_completed_cases": [],
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "34/34 primary extensions, 2/2 controls and 1/4 resolution checks complete. Three resolution checks advance normally; no new completed endpoint. Numerical limitations remain explicit. Candidate manuscript review package awaits scheduled results."
+}

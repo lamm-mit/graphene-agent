@@ -1,0 +1,11 @@
+# Core (tested versions in parentheses)
+torch>=2.7 (2.7.0)
+ase>=3.23 (3.27.0)
+atomistica>=1.2.7 (1.2.7)   # authoritative Rebo2Scr reference implementation (pip install atomistica)
+numpy>=2.0 (2.2.6)
+scipy>=1.13 (1.13.1)
+matplotlib>=3.9 (3.11.1)
+fastapi>=0.115 (0.115.8)
+uvicorn>=0.34 (0.34.0)
+pydantic>=2
+# external tools: ffmpeg (movies), latexmk/pdflatex (report), node (only used to vendor three.js, already included)

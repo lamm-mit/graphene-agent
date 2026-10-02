@@ -1,0 +1,19 @@
+index,name,cohort,parent_run_id
+1,P1_slit_05deg,Earlier Phase-II sweeps,run_20260909_054805_85f541
+2,P1_slit_10deg,Earlier Phase-II sweeps,run_20260909_054916_09197e
+3,P1_slit_15deg,Earlier Phase-II sweeps,run_20260909_061515_c835bc
+4,P1_slit_25deg,Earlier Phase-II sweeps,run_20260909_063152_fffdc5
+5,P1_slit_30deg,Earlier Phase-II sweeps,run_20260909_072723_586ece
+6,P1_slit_35deg,Earlier Phase-II sweeps,run_20260909_072235_a08e7c
+7,P1_slit_60deg,Earlier Phase-II sweeps,run_20260909_074109_d804e5
+8,P1_slit_75deg,Earlier Phase-II sweeps,run_20260909_064312_78f5bb
+9,P2_slit_20deg_phi0.10,Earlier Phase-II sweeps,run_20260909_071807_f7d894
+10,P2_slit_20deg_phi0.30,Earlier Phase-II sweeps,run_20260909_082248_7c3ed8
+11,P3_H1_ellipse_30deg,Earlier Phase-II sweeps,run_20260909_080335_cdef88
+12,P3_H1_ellipse_60deg,Earlier Phase-II sweeps,run_20260909_074711_d130ad
+13,P3_H2_veinsX_W12_ellipse_00deg,Earlier Phase-II sweeps,run_20260909_085343_97ef14
+14,P3_H2_veinsX_W12_ellipse_30deg,Earlier Phase-II sweeps,run_20260909_094005_a26512
+15,P3_H2_veinsX_W12_ellipse_60deg,Earlier Phase-II sweeps,run_20260909_084641_6a7efe
+16,P3_H2_square_W8_ellipse_00deg,Earlier Phase-II sweeps,run_20260909_103023_b03fea
+17,P3_H2_square_W8_ellipse_30deg,Earlier Phase-II sweeps,run_20260909_103406_61de19
+18,P3_H2_square_W8_ellipse_60deg,Earlier Phase-II sweeps,run_20260909_101259_c09376

@@ -1,0 +1,13 @@
+group,level,n,endpoint_integral_mean_J_m2,remaining_censored,pending_extensions
+Positional disorder,0,5,1.2011160965898844,0,0
+Positional disorder,1,1,1.2176800354819433,0,0
+Positional disorder,2,3,1.101481385138405,0,0
+Positional disorder,3,1,0.9108552869207444,0,0
+Pore-size dispersion,0,5,1.2011160965898844,0,0
+Pore-size dispersion,0.15,3,1.0007949599890942,0,0
+Pore-size dispersion,0.3,1,1.0313933681919167,0,0
+Voronoi regularity,0,4,0.6648204199276484,0,0
+Voronoi regularity,0.3,1,0.6161393038702841,0,0
+Voronoi regularity,0.6,3,0.9759232425611156,0,0
+Voronoi regularity,0.8,2,0.5575129655656351,0,0
+Voronoi regularity,1,1,1.2012742536654364,0,0

@@ -1,0 +1,79 @@
+{
+  "reviewed_utc": "2026-09-24T20:31:46.094186+00:00",
+  "queue_pid": 43715,
+  "queue_counts": {
+    "completed": 3,
+    "running": 3,
+    "pending": 34
+  },
+  "active_children": [
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "pid": 44500,
+      "elapsed_s": 33292.41225385666,
+      "updated_utc": "2026-09-24T19:39:49.092828+00:00",
+      "frames": 156,
+      "attempted_step": 158,
+      "strain": 0.7950000000000006,
+      "stress_N_m": 1.9385895443546957,
+      "force_residual_eV_A": 0.019331613555550575,
+      "transverse_stress_N_m": -0.040589784666777234,
+      "wall_time_s": 30184.12702703476,
+      "virtual_original_stop": {
+        "index": 35,
+        "reason": "post-peak strain limit reached (load still carried)",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 362,
+      "alive": true
+    },
+    {
+      "case_id": "ext__S5_H2_D40_W8_ellipseX",
+      "pid": 80313,
+      "elapsed_s": 22244.623548984528,
+      "updated_utc": "2026-09-24T19:46:42.579867+00:00",
+      "frames": 59,
+      "attempted_step": 61,
+      "strain": 0.33875000000000016,
+      "stress_N_m": 2.4439434920470533,
+      "force_residual_eV_A": 0.07951808720827103,
+      "transverse_stress_N_m": -0.01860687728825677,
+      "wall_time_s": 19549.938346147537,
+      "virtual_original_stop": {
+        "index": 42,
+        "reason": "post-peak strain limit reached (load still carried)",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 146,
+      "alive": true
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "pid": 94683,
+      "elapsed_s": 18011.876982927322,
+      "updated_utc": "2026-09-24T19:48:34.706894+00:00",
+      "frames": 58,
+      "attempted_step": 60,
+      "strain": 0.3212500000000002,
+      "stress_N_m": 19.077198218910144,
+      "force_residual_eV_A": 0.016520220786333084,
+      "transverse_stress_N_m": 0.01596209065632685,
+      "wall_time_s": 15429.389309883118,
+      "virtual_original_stop": {
+        "index": 57,
+        "reason": "max strain reached",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 29,
+      "alive": true
+    }
+  ],
+  "process_activity": "  PID  ELAPSED      TIME  %CPU COMMAND\n44500 09:15:03 146:16.23  21.4 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__S7_slit_20deg\n80313 06:10:55  74:34.28  57.5 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__S5_H2_D40_W8_ellipseX\n94683 05:00:22  54:21.05  20.4 /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_35deg\n",
+  "new_pilot_completions": [],
+  "production_approved": false,
+  "action": "Existing scheduler and all three children alive. Continue six-extension/two-control pilot review; no recovery, duplicate launch, production release or additional diagnostic. The 35-degree pilot has reached its own virtual original strain-cap stop; it remains running and its endpoint is pending. Existing completed-result figures and numerical diagnostics remain applicable.",
+  "power_state_findings": "Read-only pmset log confirms continued sleep/dark-wake cycles between 15:36 and 16:30 local time (19:36\u201320:30 UTC). Most recent recorded sleep began 16:15:30 for 904 seconds, followed by dark wake at 16:30:34. Computation has advanced intermittently; all original workers survive. No global power preferences changed."
+}

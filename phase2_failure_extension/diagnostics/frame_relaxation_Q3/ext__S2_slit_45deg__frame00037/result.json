@@ -1,0 +1,38 @@
+{
+  "case_id": "ext__S2_slit_45deg",
+  "frame_index": 37,
+  "strain": 0.26625,
+  "source": "diagnostics/frame_relaxation_Q2/ext__S2_slit_45deg__frame00037/relaxed.npz",
+  "source_sha256": "d5642da3d8838a1344adc5eaca6cf7a674c66e780d09dbc815a13d1314df2c82",
+  "before": {
+    "max_force_eV_A": 0.08080180734395981,
+    "sigma_xx_N_m": 8.439438819885254,
+    "sigma_yy_N_m": 0.5831310749053955,
+    "energy_eV": -21929.109375
+  },
+  "after": {
+    "max_force_eV_A": 0.01762843132019043,
+    "sigma_xx_N_m": 8.322535514831543,
+    "sigma_yy_N_m": 0.44551366567611694,
+    "energy_eV": -21930.20703125
+  },
+  "force_converged": true,
+  "minimizer": {
+    "converged": [
+      true
+    ],
+    "iterations": 500,
+    "fmax": [
+      0.01762862130999565
+    ],
+    "n_evaluations": 502,
+    "n_rebuilds": 0,
+    "wall_time": 47.74584599991795,
+    "failed": [
+      false
+    ],
+    "soft": [
+      false
+    ]
+  }
+}

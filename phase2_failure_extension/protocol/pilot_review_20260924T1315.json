@@ -1,0 +1,19 @@
+{
+  "reviewed_utc": "2026-09-24T13:14:58.542234+00:00",
+  "production_approved": false,
+  "reason": "Six original-setting extensions and second control have not all finished; numerical review remains in progress.",
+  "primary_queue_pid": 43715,
+  "primary_counts": {
+    "completed": 1,
+    "running": 3,
+    "pending": 36
+  },
+  "Q2": "completed; one of three force tests passed",
+  "Q3": "completed; one of two additional force tests passed; transverse tolerance unmet in that frame",
+  "Q4_control": "completed; all recorded and independently reevaluated force/transverse residuals passed; numerical protocol changes endpoint",
+  "Q4_slit": "running from original initial geometry",
+  "frozen_execution_verified": {
+    "execution_code_checksums.json": 61,
+    "verified_code_checksums.json": 61
+  }
+}

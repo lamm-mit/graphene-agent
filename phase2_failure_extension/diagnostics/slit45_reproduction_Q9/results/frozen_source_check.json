@@ -1,0 +1,22 @@
+{
+  "frozen_root": "/Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2 SINGLE SHOT/carbon_discovery",
+  "frozen_py_count": 73,
+  "snapshot_equal_files": 52,
+  "snapshot_different_files": [
+    "experiments/campaign_design.py",
+    "experiments/stage_tools.py",
+    "scripts/run_batch.py",
+    "scripts/run_queue.py"
+  ],
+  "snapshot_missing_files": [
+    "analysis/ashby_chart.py",
+    "experiments/campaign_paper_sweeps.py",
+    "scripts/merge_runs_from.py"
+  ],
+  "hash_with_relative_paths": "a370bd2a2b0835a8d2fdc4c5679190777399348e3b34756c2f91906d549877fb",
+  "frozen_content_only_hash_as_db_code_version": "c101ba46df9e9d42907343f0cb5778815b71327ca0ce0bd95815e86e8bb552a1",
+  "original_recorded_source_sha256": {
+    "git_commit": null,
+    "source_sha256": "ddfaa38a1e3ba89221d8e219ba61a8fe406fd2d9b4a1fb7cbf62e68c9c18e3ab"
+  }
+}

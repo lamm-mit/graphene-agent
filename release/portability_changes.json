@@ -1,0 +1,164 @@
+[
+  {
+    "path": "hierarchy_followup/analysis/manuscript_figures_phase3.py",
+    "before_sha256": "1d15537a779f77bf7f0b51db6b405fc0edfd35ea82316a0845dd57051de54b1a",
+    "after_sha256": "00b7f623e85d11d0e6e2451f584006b0d1186bc07823f9d4ecd1fdebfe8160eb",
+    "diff": "--- research/hierarchy_followup/analysis/manuscript_figures_phase3.py\n+++ release/hierarchy_followup/analysis/manuscript_figures_phase3.py\n@@ -7,9 +7,9 @@\n Writes (editable code = this file; plotted data = data/*.json next to the figures):\n   figures/hierarchy/manuscript/<name>.{pdf,png,svg}, data/<name>.json, hierarchy_numbers.tex, tables/*.tex\n and copies the PDFs, data, macros and tables into the manuscript folder\n-  ../paper_latest_20260924/figures/hierarchy/           (main-text figures, data, tables)\n-  ../paper_latest_20260924/figures/si/hierarchy/        (SI figures)\n-  ../paper_latest_20260924/figures/hierarchy_numbers.tex\n+  ../generated/hierarchy_exports/figures/hierarchy/           (main-text figures, data, tables)\n+  ../generated/hierarchy_exports/figures/si/hierarchy/        (SI figures)\n+  ../generated/hierarchy_exports/figures/hierarchy_numbers.tex\n \n     python analysis/manuscript_figures_phase3.py\n \"\"\"\n@@ -17,7 +17,7 @@\n import sys, os, json, shutil, types, datetime\n ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n sys.path.insert(0, ROOT)\n-PAPER = os.path.join(os.path.dirname(ROOT), \"paper_latest_20260924\")\n+PAPER = os.path.join(os.path.dirname(ROOT), \"generated/hierarchy_exports\")\n import numpy as np\n import matplotlib\n matplotlib.use(\"Agg\")\n@@ -51,7 +51,7 @@\n # overlap audit of the manuscript (binds to the phase-1 database through make_figures; stub that import)\n try:\n     sys.modules.setdefault(\"make_figures\", types.ModuleType(\"make_figures\"))\n-    sys.path.insert(0, os.path.join(PAPER, \"figure_scripts\"))\n+    sys.path.insert(0, os.path.join(os.path.dirname(ROOT), \"paper_analysis\", \"current\"))\n     import check_overlaps as CO\n except Exception as e:      # pragma: no cover\n     CO = None; print(\"overlap audit unavailable:\", repr(e)[:100])\n"
+  },
+  {
+    "path": "hierarchy_followup/analysis/paper_figures_phase3.py",
+    "before_sha256": "a784916cc5d2777dd443838376f506a13fa266f2c0df2c4024ea28f97cd13c70",
+    "after_sha256": "a5b6f46c8f12edb37aa8f2a38f5635efa3d693d8f0b9aec2fb89be4cd8e419f1",
+    "diff": "--- research/hierarchy_followup/analysis/paper_figures_phase3.py\n+++ release/hierarchy_followup/analysis/paper_figures_phase3.py\n@@ -114,7 +114,7 @@\n \n def save(fig, name):\n     try:\n-        sys.path.insert(0, os.path.join(os.path.dirname(ROOT), \"paper\"))\n+        sys.path.insert(0, os.path.join(os.path.dirname(ROOT), \"paper_analysis\", \"current\"))\n         import check_overlaps as CO\n         n = CO.audit(fig, name, verbose=True); print(f\"overlap audit {name}: {n} conflicts\")\n     except Exception as e:\n"
+  },
+  {
+    "path": "hierarchy_followup/scripts/run_T5.sh",
+    "before_sha256": "87e26cb45c52256d2346badf14b261943ce2de87aec36d493fb19ba7ffea812f",
+    "after_sha256": "933e3029261de44bf652761128465dc8141dc26ab24c76039850340aa022b311",
+    "diff": "--- research/hierarchy_followup/scripts/run_T5.sh\n+++ release/hierarchy_followup/scripts/run_T5.sh\n@@ -3,7 +3,7 @@\n # with 4 workers.  Detached: bash scripts/run_T5.sh  (launched by the campaign runner through Popen/start_new_session).\n set -e\n cd \"$(dirname \"$0\")/..\"\n-PY=${PYTHON:-/Users/mbuehler/miniconda3/envs/graphene-agent/bin/python}\n+PY=${PYTHON:-python}\n LOG=experiments/specs/hierarchy_T5/queue.log\n mkdir -p experiments/specs/hierarchy_T5\n echo \"== $(date) waiting for queue 2 (T3) to finish ==\" >> $LOG\n"
+  },
+  {
+    "path": "hierarchy_followup/scripts/run_campaign.sh",
+    "before_sha256": "19391a2d9bd4e4356a8e8296da615183280e4ac9d80cb03d9b99c7828c504d97",
+    "after_sha256": "36599932e5292224a80f63ce588721d1baf9606af81012f9e8418c73bbd7be8f",
+    "diff": "--- research/hierarchy_followup/scripts/run_campaign.sh\n+++ release/hierarchy_followup/scripts/run_campaign.sh\n@@ -6,7 +6,7 @@\n #   ./scripts/run_campaign.sh T3         # only the T3 queue\n set -e\n cd \"$(dirname \"$0\")/..\"\n-PY=${PYTHON:-/Users/mbuehler/miniconda3/envs/graphene-agent/bin/python}\n+PY=${PYTHON:-python}\n if [ \"$1\" != \"T3\" ]; then\n   echo \"== $(date) queue 1: experiments/specs/hierarchy (4 workers, device auto = mps) ==\" >> experiments/specs/hierarchy/queue.log\n   $PY scripts/run_queue.py experiments/specs/hierarchy --workers 4 --device auto >> experiments/specs/hierarchy/queue.log 2>&1\n"
+  },
+  {
+    "path": "phase2_failure_extension/scripts/analyze.py",
+    "before_sha256": "0f8361d52db52369591a8ee0d94fade4a804c94f0a1013fe5970dae241445232",
+    "after_sha256": "3bd0f923f338cc37c9561b1cf1cf0df2507f3171cf0efbea8b298f80cf67ed2f",
+    "diff": "--- research/phase2_failure_extension/scripts/analyze.py\n+++ release/phase2_failure_extension/scripts/analyze.py\n@@ -7,6 +7,9 @@\n import argparse,csv,fcntl,io,json,math,os\n from pathlib import Path\n from study_common import ROOT,EV,now,write_json,load_curve,sha\n+(ROOT / 'figures').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'logs').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'results').mkdir(parents=True, exist_ok=True)\n import numpy as np\n import matplotlib\n matplotlib.use('Agg')\n"
+  },
+  {
+    "path": "phase2_failure_extension/scripts/run_case.py",
+    "before_sha256": "de5bf0d9c5a2002312debc43aa2a35d21228f2edeceee9bce25324ad86d1fe49",
+    "after_sha256": "89ff1513f53bd3b2d687a5649693e23746966c71d3ecab3be97c16dbbc6ba1c8",
+    "diff": "--- research/phase2_failure_extension/scripts/run_case.py\n+++ release/phase2_failure_extension/scripts/run_case.py\n@@ -33,7 +33,7 @@\n     assert eng.info.parameter_checksum==parent['engine']['parameter_checksum']\n     assert Path(sys.modules['simulation.aqs.aqs'].__file__).resolve().is_relative_to(CODE)\n     environment=dict(python=sys.version,executable=sys.executable,torch=torch.__version__,ase=ase.__version__,numpy=np.__version__,platform=platform.platform(),\n-        cpu=subprocess.check_output(['sysctl','-n','machdep.cpu.brand_string'],text=True).strip(),device=str(eng.device),precision=precision)\n+        cpu=(platform.processor() or platform.machine()),device=str(eng.device),precision=precision)\n     record=dict(case_id=job['case_id'],name=parent['name'],parent_run_id=parent['run_id'],source_phase=job['source_phase'],\n         source_campaign=parent['campaign'],campaign='phase2_failure_extension',role=job['role'],stage=job['stage'],status='running',started_utc=started,\n         environment=environment,engine=dataclasses.asdict(eng.info),aqs_config=cfg_dict,parent_aqs_config=parent['aqs_config'],\n"
+  },
+  {
+    "path": "phase2_failure_extension/scripts/run_refinement_case.py",
+    "before_sha256": "f741d7eb44e3dd930f197ce5845e19a0948e881a1a5512cc949aa3292a33e888",
+    "after_sha256": "18f5429f9d247863ce94dd1bc28f4db30aae7ebea4762910f893fdfc11c62546",
+    "diff": "--- research/phase2_failure_extension/scripts/run_refinement_case.py\n+++ release/phase2_failure_extension/scripts/run_refinement_case.py\n@@ -37,7 +37,7 @@\n     assert eng.info.parameter_checksum==parent['engine']['parameter_checksum']\n     assert Path(sys.modules['simulation.aqs.aqs'].__file__).resolve().is_relative_to(CODE)\n     environment=dict(python=sys.version,executable=sys.executable,torch=torch.__version__,ase=ase.__version__,numpy=np.__version__,platform=platform.platform(),\n-        cpu=subprocess.check_output(['sysctl','-n','machdep.cpu.brand_string'],text=True).strip(),device=str(eng.device),precision=precision)\n+        cpu=(platform.processor() or platform.machine()),device=str(eng.device),precision=precision)\n     record=dict(case_id=job['case_id'],name=parent['name'],parent_run_id=parent['run_id'],source_phase=job['source_phase'],\n         source_campaign=parent['campaign'],campaign='phase2_failure_extension',role=job['role'],stage=job['stage'],status='running',started_utc=started,\n         environment=environment,engine=dataclasses.asdict(eng.info),aqs_config=cfg_dict,parent_aqs_config=parent['aqs_config'],\n"
+  },
+  {
+    "path": "phase2_failure_extension/scripts/run_study.py",
+    "before_sha256": "2d81a647bc0e65f539e6cb560de8dd521500dc14c137e896a5b80cd588c61ded",
+    "after_sha256": "a5026f8079b745dc00b7b7b859e4c466f280b598f43a1dd7a9f790c9fe30ff79",
+    "diff": "--- research/phase2_failure_extension/scripts/run_study.py\n+++ release/phase2_failure_extension/scripts/run_study.py\n@@ -1,5 +1,7 @@\n \"\"\"Durable study queue with a pilot review gate and atomic progress status.\"\"\"\n from study_common import ROOT,now,write_json,sha\n+(ROOT / 'logs').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'results').mkdir(parents=True, exist_ok=True)\n import fcntl,json,os,subprocess,sys,time\n \n def main():\n"
+  },
+  {
+    "path": "phase2_failure_extension/scripts/run_verified_case.py",
+    "before_sha256": "9b26a71216021060f562cd5211339e7663e7b98aefd2387751d53a0a751d3b46",
+    "after_sha256": "fb8a3536c99385b64a974dd8c97a82f1c5f14cf7f7248bd688072edc2e767405",
+    "diff": "--- research/phase2_failure_extension/scripts/run_verified_case.py\n+++ release/phase2_failure_extension/scripts/run_verified_case.py\n@@ -37,7 +37,7 @@\n     assert eng.info.parameter_checksum==parent['engine']['parameter_checksum']\n     assert Path(sys.modules['simulation.aqs.aqs'].__file__).resolve().is_relative_to(CODE)\n     environment=dict(python=sys.version,executable=sys.executable,torch=torch.__version__,ase=ase.__version__,numpy=np.__version__,platform=platform.platform(),\n-        cpu=subprocess.check_output(['sysctl','-n','machdep.cpu.brand_string'],text=True).strip(),device=str(eng.device),precision=precision)\n+        cpu=(platform.processor() or platform.machine()),device=str(eng.device),precision=precision)\n     record=dict(case_id=job['case_id'],name=parent['name'],parent_run_id=parent['run_id'],source_phase=job['source_phase'],\n         source_campaign=parent['campaign'],campaign='phase2_failure_extension',role=job['role'],stage=job['stage'],status='running',started_utc=started,\n         environment=environment,engine=dataclasses.asdict(eng.info),aqs_config=cfg_dict,parent_aqs_config=parent['aqs_config'],\n"
+  },
+  {
+    "path": "phase2_failure_extension/inputs/reference/figure_scripts/build.sh",
+    "before_sha256": "c4d6a7118d6247cf408f86f8158d11ff5796e3e17c808427d8ffd357f6e39187",
+    "after_sha256": "c2c7617879dfcd025fd0a91ec84b792ffc5b0018248ea934f32a347c12aea229",
+    "diff": "--- research/phase2_failure_extension/inputs/reference/figure_scripts/build.sh\n+++ release/phase2_failure_extension/inputs/reference/figure_scripts/build.sh\n@@ -2,7 +2,7 @@\n # Regenerate all figures (main text + supplementary) from the database and compile the manuscript.\n set -e\n cd \"$(dirname \"$0\")\"\n-PY=${PYTHON:-/opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python}\n+PY=${PYTHON:-python}\n $PY check_overlaps.py > figures/audit.log 2>&1 || true      # generates the six data figures (with the collision resolver) and audits them\n grep -E \"TOTAL conflicts|conflict\\(s\\)\" figures/audit.log\n $PY extra_figures.py > figures/extra.log 2>&1                 # Fig. 1 (experiment), Fig. 2 (design space), Fig. 6 (progression), SI material\n"
+  },
+  {
+    "path": "phase2_failure_extension/diagnostics/slit45_reproduction_Q9/scripts/dispatch_serial.py",
+    "before_sha256": "5398c0cc6057a134a3d79b3377c355b92060eb430ebc856e76a19a4369528a5c",
+    "after_sha256": "fa535d812669b48af5bb850cb0e5370bd74ae97a6656ce180eebeb698c8ff1ba",
+    "diff": "--- research/phase2_failure_extension/diagnostics/slit45_reproduction_Q9/scripts/dispatch_serial.py\n+++ release/phase2_failure_extension/diagnostics/slit45_reproduction_Q9/scripts/dispatch_serial.py\n@@ -3,6 +3,8 @@\n from datetime import datetime,timezone\n import fcntl,json,os,subprocess,sys,time\n ROOT=Path(__file__).resolve().parents[1]\n+(ROOT / 'logs').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'results').mkdir(parents=True, exist_ok=True)\n def write(p,x):\n  t=p.with_suffix('.tmp');t.write_text(json.dumps(x,indent=2)+'\\n');os.replace(t,p)\n def now():return datetime.now(timezone.utc).isoformat()\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/scripts/build_data.py",
+    "before_sha256": "a5f39f7d8bb6ee4a9b15880473f4aa0f0edc16416b29e75175710677d1f4d08a",
+    "after_sha256": "260863146e4e92bb1be4ce249bd5000846a3b71fe67c81b59db6e6e3ba867ba5",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/scripts/build_data.py\n+++ release/phase2_failure_extension/candidate_figures/scripts/build_data.py\n@@ -39,7 +39,7 @@\n  return (r[state] if r[state] is not None else r['A'])[key]\n def correlation(xs,ys):return dict(pearson=float(np.corrcoef(xs,ys)[0,1]),spearman=float(spearmanr(xs,ys).statistic))\n def main():\n- inv=load('candidate_figures/data/final_inventory.json')\n+ inv=load('candidate_figures/data/release_inventory.json')\n  assert all(sha(ROOT/p)==h for p,h in inv['source_sha256'].items())\n  base=[json.loads(p.read_text()) for p in sorted((ROOT/'inputs/baseline/runs').glob('*/record.json'))]\n  base=[r for r in base if r.get('status')=='completed' and r.get('metrics')]\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/paper_si_20260926/scripts/build_si.py",
+    "before_sha256": "65d3808c413f677cb0cb5ca8ddc51cedaa18f7448040b0b78ea8cd18198b880e",
+    "after_sha256": "774ce9e057d0b61a5d6e9043fc318bd37af76605fc4877bb8c5aaf0fa4f74a4b",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/paper_si_20260926/scripts/build_si.py\n+++ release/phase2_failure_extension/candidate_figures/paper_si_20260926/scripts/build_si.py\n@@ -5,7 +5,7 @@\n from scipy.stats import spearmanr\n import fitz\n from matplotlib.font_manager import findfont,FontProperties\n-OUT=Path(__file__).resolve().parents[1]; STUDY=OUT.parents[1]; BASE=STUDY.parent; PAPER=BASE/'paper_latest_20260924'\n+OUT=Path(__file__).resolve().parents[1]; STUDY=OUT.parents[1]; BASE=STUDY.parent; PAPER=BASE/'generated/loading_si_exports'\n SRC=STUDY/'candidate_figures/one_to_one'; F=OUT/'figures'; D=OUT/'data'; T=OUT/'tex'\n for p in [F,D,T,OUT/'qa']:p.mkdir(exist_ok=True)\n font=str(findfont(FontProperties(family='Arial')));bold=str(findfont(FontProperties(family='Arial',weight='bold')))\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/bond_reconnection_20260926/scripts/build_figures.py",
+    "before_sha256": "c22f10b62ad3a02e407e6149a044b24a1e7f66156f353b64eefa59586ffb5373",
+    "after_sha256": "7b27172f883a79b37a2036114be8463a1c8bc7f069e2c9a5a909caa13a4523b8",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/bond_reconnection_20260926/scripts/build_figures.py\n+++ release/phase2_failure_extension/candidate_figures/bond_reconnection_20260926/scripts/build_figures.py\n@@ -11,6 +11,9 @@\n from matplotlib.backends.backend_pdf import PdfPages\n from PIL import Image\n ROOT=Path(__file__).resolve().parents[1];STUDY=ROOT.parents[1];RUN=STUDY/'runs/ext__S7_slit_20deg';F=ROOT/'figures';D=ROOT/'data';Q=ROOT/'qa'\n+(ROOT / 'figures').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'qa').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'data').mkdir(parents=True, exist_ok=True)\n plt.rcParams.update({'font.family':'Arial','font.size':8.5,'axes.labelsize':8.5,'axes.titlesize':9,'axes.linewidth':.6,'xtick.labelsize':7.5,'ytick.labelsize':7.5,'pdf.fonttype':42,'ps.fonttype':42,'svg.fonttype':'none','axes.spines.top':False,'axes.spines.right':False})\n z=np.load(RUN/'trajectory.npz');P=z['positions'].astype(float);L=np.diagonal(z['cells'],axis1=1,axis2=2)[:,:2];eps=z['eps_x'];stress=z['sigma_xx']*16.0217663\n S=[]\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/slit45_mechanism_20260926/scripts/plot.py",
+    "before_sha256": "54264ad454428a8dc7c59d80c622ff97d71689f0f407f8a0aaf33c6f4e7af123",
+    "after_sha256": "ff388f37455b6b28fcfd8c1d3906f028b78fcbdc4a2cdcc4e0ff3bcb66d44b04",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/slit45_mechanism_20260926/scripts/plot.py\n+++ release/phase2_failure_extension/candidate_figures/slit45_mechanism_20260926/scripts/plot.py\n@@ -10,6 +10,8 @@\n from matplotlib.patches import Rectangle, ConnectionPatch\n from matplotlib.lines import Line2D\n ROOT=Path(__file__).resolve().parents[1];STUDY=ROOT.parents[1];RUN=STUDY/'runs/ext__S2_slit_45deg';EV=16.0217663\n+(ROOT / 'figures').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'data').mkdir(parents=True, exist_ok=True)\n plt.rcParams.update({'font.family':'Arial','font.size':8.5,'axes.labelsize':8.5,'axes.linewidth':.6,'xtick.labelsize':8,'ytick.labelsize':8,'axes.spines.top':False,'axes.spines.right':False,'svg.fonttype':'none','pdf.fonttype':42})\n parser=argparse.ArgumentParser();parser.add_argument('--include-phase1',action='store_true');args=parser.parse_args()\n z=np.load(RUN/'trajectory.npz');P=z['positions'].astype(float);L=np.diagonal(z['cells'],axis1=1,axis2=2)[:,:2]\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/slit45_lattice_detail_20260926/scripts/build.py",
+    "before_sha256": "20e40141deb4100b59d9b610f1e2c9363e6ca2ee77e7230d66e89d2295fe5a22",
+    "after_sha256": "f75346ace71f641d7aa48d12dd05c18fb39ef22b6a5a985a4aaafa2d411e4e84",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/slit45_lattice_detail_20260926/scripts/build.py\n+++ release/phase2_failure_extension/candidate_figures/slit45_lattice_detail_20260926/scripts/build.py\n@@ -11,6 +11,8 @@\n from matplotlib.patches import Rectangle\n from matplotlib.lines import Line2D\n ROOT=Path(__file__).resolve().parents[1];STUDY=ROOT.parents[1]\n+(ROOT / 'figures').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'data').mkdir(parents=True, exist_ok=True)\n RUN=STUDY/'runs/ext__S2_slit_45deg'\n z=np.load(RUN/'trajectory.npz');P=z['positions'].astype(float)[:,:,:2];L=np.diagonal(z['cells'],axis1=1,axis2=2)[:,:2]\n frames=[0,36,44];S={};G={};N=P.shape[1]\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/design_principles_schematic/make_figure.py",
+    "before_sha256": "611a3d4654afc3dca5d47c02514d707b6b18284c91ebf3665677cc8c8e537780",
+    "after_sha256": "d5b545c1859212c924fe91beb7e4f1e942d8bce655b32cf5ba966d7a2f4a489a",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/design_principles_schematic/make_figure.py\n+++ release/phase2_failure_extension/candidate_figures/design_principles_schematic/make_figure.py\n@@ -27,7 +27,11 @@\n \n FONT_DIR = Path('/System/Library/Fonts/Supplemental')\n for name, file in [('Arial', 'Arial.ttf'), ('Arial-Bold', 'Arial Bold.ttf'), ('Arial-Italic', 'Arial Italic.ttf')]:\n-    pdfmetrics.registerFont(TTFont(name, str(FONT_DIR / file)))\n+    from matplotlib.font_manager import FontProperties, findfont\n+    font_path = FONT_DIR / file\n+    if not font_path.exists():\n+        font_path = Path(findfont(FontProperties(family=\"DejaVu Sans\", weight=\"bold\" if \"Bold\" in name else \"normal\", style=\"italic\" if \"Italic\" in name else \"normal\")))\n+    pdfmetrics.registerFont(TTFont(name, str(font_path)))\n \n d = Drawing(W, H)\n d.add(Rect(0, 0, W, H, fillColor=white, strokeColor=None))\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/phase1_engine_schematic/make_figure.py",
+    "before_sha256": "0855a5de21bac7f8593241937cf9ba396e6772cd7fa4787ede1dc9f7ce5a17ea",
+    "after_sha256": "562b075fe328adac12b5af4e365d9371a0c87170fc22dd68d1da1663f5dfbfe8",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/phase1_engine_schematic/make_figure.py\n+++ release/phase2_failure_extension/candidate_figures/phase1_engine_schematic/make_figure.py\n@@ -15,7 +15,11 @@\n W, H = 744, 690\n FONT_DIR = Path('/System/Library/Fonts/Supplemental')\n for name, filename in [('Arial', 'Arial.ttf'), ('Arial-Bold', 'Arial Bold.ttf')]:\n-    pdfmetrics.registerFont(TTFont(name, str(FONT_DIR / filename)))\n+    from matplotlib.font_manager import FontProperties, findfont\n+    font_path = FONT_DIR / filename\n+    if not font_path.exists():\n+        font_path = Path(findfont(FontProperties(family=\"DejaVu Sans\", weight=\"bold\" if \"Bold\" in name else \"normal\", style=\"italic\" if \"Italic\" in name else \"normal\")))\n+    pdfmetrics.registerFont(TTFont(name, str(font_path)))\n INK = HexColor('#20272d')\n GRAY = HexColor('#6d7b84')\n LINE = HexColor('#bcc6cc')\n"
+  },
+  {
+    "path": "phase2_failure_extension/candidate_figures/atlas_main_paper_20261002/code/render.py",
+    "before_sha256": "9156735601c6acf1a4dcab948528552afa1465c35402de8785d29c46e41c499c",
+    "after_sha256": "68d148280cd01fcd5e99432b8a765a8788d8cd0853cbe77b44930b5ab4e7e353",
+    "diff": "--- research/phase2_failure_extension/candidate_figures/atlas_main_paper_20261002/code/render.py\n+++ release/phase2_failure_extension/candidate_figures/atlas_main_paper_20261002/code/render.py\n@@ -10,6 +10,8 @@\n from matplotlib import font_manager\n \n ROOT=Path(__file__).resolve().parents[1]\n+(ROOT / 'figures').mkdir(parents=True, exist_ok=True)\n+(ROOT / 'output').mkdir(parents=True, exist_ok=True)\n DATA=ROOT/'data'\n font=Path('/System/Library/Fonts/Supplemental/Arial.ttf')\n if font.exists():font_manager.fontManager.addfont(str(font))\n"
+  },
+  {
+    "path": "atlas/graphene_design_dataset_64k/finish_delivery.py",
+    "before_sha256": "e4ee36ba385188ef7acdfd7e6d324d9509b8323abac3742896c3075087893803",
+    "after_sha256": "2202a5d9ec7f75bbdcf1e81c5ed1e83c1e7e252edbc7f0f7cfe39812fd166e39",
+    "diff": "--- research/phase2_failure_extension/social_movies/graphene_design_dataset_64k/release/dataset/code/finish_delivery.py\n+++ release/atlas/graphene_design_dataset_64k/finish_delivery.py\n@@ -4,7 +4,7 @@\n import numpy as np\n import cv2\n from PIL import Image\n-ROOT=Path(__file__).resolve().parent;OUT=ROOT/'output';A=ROOT/'assets';FF=(shutil.which('ffmpeg') or '/opt/homebrew/bin/ffmpeg');FP=(shutil.which('ffprobe') or '/opt/homebrew/bin/ffprobe')\n+ROOT=Path(__file__).resolve().parent;OUT=ROOT/'output';A=ROOT/'assets';FF=(shutil.which('ffmpeg') or 'ffmpeg');FP=(shutil.which('ffprobe') or 'ffprobe')\n def main():\n  source=OUT/'Graphene_64000_Design_Universe_NoText_3840x2160.mp4';share=OUT/'Graphene_64000_Design_Universe_NoText_1920x1080.mp4';assert source.exists()\n  if not share.exists():\n"
+  },
+  {
+    "path": "atlas/graphene_design_dataset_64k/render_latent.py",
+    "before_sha256": "6308db12e789cbc65115f1f5db8abfd4923843ad6a2d83403250ca46632e3a4b",
+    "after_sha256": "e6f1d6e2b9d74eaa58938c9fc3a230133dbf007ac0674ad5980674fae8ce7f03",
+    "diff": "--- research/phase2_failure_extension/social_movies/graphene_design_dataset_64k/release/dataset/code/render_latent.py\n+++ release/atlas/graphene_design_dataset_64k/render_latent.py\n@@ -120,7 +120,7 @@\n  final=OUT/f'Graphene_64000_Design_Universe_NoText_{m.W}x{m.H}.mp4';part=final.with_suffix('.rendering.mp4')\n  if final.exists() or part.exists():raise FileExistsError(final)\n  with (OUT/f'encode_{m.W}.log').open('w') as log:\n-  process=subprocess.Popen([(shutil.which('ffmpeg') or '/opt/homebrew/bin/ffmpeg'),'-hide_banner','-n','-f','rawvideo','-pix_fmt','rgb24','-s',f'{m.W}x{m.H}','-r','30','-i','-','-an','-vf','scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p','-c:v','libx264','-preset','fast','-crf','18','-threads','8','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-movflags','+faststart',str(part)],stdin=subprocess.PIPE,stderr=log)\n+  process=subprocess.Popen([(shutil.which('ffmpeg') or 'ffmpeg'),'-hide_banner','-n','-f','rawvideo','-pix_fmt','rgb24','-s',f'{m.W}x{m.H}','-r','30','-i','-','-an','-vf','scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p','-c:v','libx264','-preset','fast','-crf','18','-threads','8','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-movflags','+faststart',str(part)],stdin=subprocess.PIPE,stderr=log)\n   try:\n    for k in range(120*30):\n     process.stdin.write(m.frame(k/30).tobytes())\n"
+  },
+  {
+    "path": "atlas/graphene_design_dataset_64k/tools/restore_workdir.py",
+    "before_sha256": "5fbc65000d54b9d0fcba5b675fc4ec24cce014d8f0e06ba02a9490f3554886c2",
+    "after_sha256": "a7271270b7aea4a29baa19836aa0540b4dfe0985224caa5f7d7730dd4f0542fd",
+    "diff": "--- research/phase2_failure_extension/social_movies/graphene_design_dataset_64k/release/dataset/tools/restore_workdir.py\n+++ release/atlas/graphene_design_dataset_64k/tools/restore_workdir.py\n@@ -6,7 +6,7 @@\n       python render_latent.py --preview\n       python render_latent.py\n \n-Does not run molecular dynamics. Existing files are retained.\n+Does not run molecular dynamics. Requires a new or empty destination; existing working files are not overwritten.\n \"\"\"\n from pathlib import Path\n import argparse,gzip,json,shutil,sys,tarfile\n@@ -15,6 +15,8 @@\n REPO='lamm-mit/graphene-design-universe-64k'\n def main():\n  p=argparse.ArgumentParser();p.add_argument('directory',type=Path);p.add_argument('--revision',default='v1.0.0');args=p.parse_args()\n+ if args.directory.exists() and any(args.directory.iterdir()):\n+  raise FileExistsError('Choose a new or empty destination; existing working files will not be overwritten')\n  root=Path(snapshot_download(REPO,repo_type='dataset',revision=args.revision,allow_patterns=['code/**','source_masks/**','embedding/*.npz','provenance/manifest.json.gz']))\n  dest=args.directory;dest.mkdir(parents=True,exist_ok=True)\n  shutil.copytree(root/'code',dest,dirs_exist_ok=True)\n"
+  },
+  {
+    "path": "atlas/graphene_design_dataset_256k/finish_delivery.py",
+    "before_sha256": "e0e6eb87901f1fef3bd88fecc63911668760dcd9b171210fb14c89d623edef25",
+    "after_sha256": "3f0209ef69ea9e59ce84f7d227e82d699cdc3685aa7eab0434c64a165beea1ab",
+    "diff": "--- research/phase2_failure_extension/social_movies/graphene_design_dataset_256k/release/dataset/code/finish_delivery.py\n+++ release/atlas/graphene_design_dataset_256k/finish_delivery.py\n@@ -4,7 +4,7 @@\n import numpy as np\n import cv2\n from PIL import Image\n-ROOT=Path(__file__).resolve().parent;OUT=ROOT/'output';A=ROOT/'assets';FF=(shutil.which('ffmpeg') or '/opt/homebrew/bin/ffmpeg');FP=(shutil.which('ffprobe') or '/opt/homebrew/bin/ffprobe')\n+ROOT=Path(__file__).resolve().parent;OUT=ROOT/'output';A=ROOT/'assets';FF=(shutil.which('ffmpeg') or 'ffmpeg');FP=(shutil.which('ffprobe') or 'ffprobe')\n def main():\n  source=OUT/'Graphene_256000_Design_Universe_NoText_3840x2160.mp4';share=OUT/'Graphene_256000_Design_Universe_NoText_1920x1080.mp4';assert source.exists()\n  if not share.exists():\n"
+  },
+  {
+    "path": "atlas/graphene_design_dataset_256k/render_latent.py",
+    "before_sha256": "19a8f66bc2477f824cbecd4a073baf43c0cd6e838007965fc31f09f97c1eadfb",
+    "after_sha256": "d11985fb4efb6ed1e4deb105d8380e33db2c115a8fde5d740db832fcd553063d",
+    "diff": "--- research/phase2_failure_extension/social_movies/graphene_design_dataset_256k/release/dataset/code/render_latent.py\n+++ release/atlas/graphene_design_dataset_256k/render_latent.py\n@@ -117,7 +117,7 @@\n  final=OUT/f'Graphene_256000_Design_Universe_NoText_{m.W}x{m.H}.mp4';part=final.with_suffix('.rendering.mp4')\n  if final.exists() or part.exists():raise FileExistsError(final)\n  with (OUT/f'encode_{m.W}.log').open('w') as log:\n-  process=subprocess.Popen([(shutil.which('ffmpeg') or '/opt/homebrew/bin/ffmpeg'),'-hide_banner','-n','-f','rawvideo','-pix_fmt','rgb24','-s',f'{m.W}x{m.H}','-r','30','-i','-','-an','-vf','scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p','-c:v','libx264','-preset','fast','-crf','18','-threads','8','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-movflags','+faststart',str(part)],stdin=subprocess.PIPE,stderr=log)\n+  process=subprocess.Popen([(shutil.which('ffmpeg') or 'ffmpeg'),'-hide_banner','-n','-f','rawvideo','-pix_fmt','rgb24','-s',f'{m.W}x{m.H}','-r','30','-i','-','-an','-vf','scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p','-c:v','libx264','-preset','fast','-crf','18','-threads','8','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-movflags','+faststart',str(part)],stdin=subprocess.PIPE,stderr=log)\n   try:\n    for k in range(150*30):\n     process.stdin.write(m.frame(k/30).tobytes())\n"
+  },
+  {
+    "path": "atlas/graphene_design_dataset_256k/tools/restore_workdir.py",
+    "before_sha256": "006d40112b4caab1eebf38ac9da64a79625ad1216f61d0b6019e46fbbe1355b3",
+    "after_sha256": "4a136bff7d0cb1a1d49f3d6e6008bcafcc79279c7095afc99b28d3a23cd03dda",
+    "diff": "--- research/phase2_failure_extension/social_movies/graphene_design_dataset_256k/release/dataset/tools/restore_workdir.py\n+++ release/atlas/graphene_design_dataset_256k/tools/restore_workdir.py\n@@ -6,7 +6,7 @@\n       python render_latent.py --preview\n       python render_latent.py\n \n-Does not run molecular dynamics. Existing files are retained.\n+Does not run molecular dynamics. Requires a new or empty destination; existing working files are not overwritten.\n \"\"\"\n from pathlib import Path\n import argparse,gzip,json,shutil,sys,tarfile\n@@ -15,6 +15,8 @@\n REPO='lamm-mit/graphene-design-universe-256k'\n def main():\n  p=argparse.ArgumentParser();p.add_argument('directory',type=Path);p.add_argument('--revision',default='v1.0.0');args=p.parse_args()\n+ if args.directory.exists() and any(args.directory.iterdir()):\n+  raise FileExistsError('Choose a new or empty destination; existing working files will not be overwritten')\n  root=Path(snapshot_download(REPO,repo_type='dataset',revision=args.revision,allow_patterns=['code/**','source_masks/**','embedding/*.npz','provenance/manifest.json.gz']))\n  dest=args.directory;dest.mkdir(parents=True,exist_ok=True)\n  shutil.copytree(root/'code',dest,dirs_exist_ok=True)\n"
+  },
+  {
+    "path": "paper_analysis/current/extra_figures.py",
+    "before_sha256": "e8429b6ccb496a00d2ef4af9b2759db2ed1c45c79a95597116f7ea9c8f9f3cb3",
+    "after_sha256": "6c01175aed1bc81031e3a246100d3562b600bf8c7d7e3094b6528fed1cee2f16",
+    "diff": "--- research/paper/extra_figures.py\n+++ release/paper_analysis/current/extra_figures.py\n@@ -7,7 +7,7 @@\n from __future__ import annotations\n import os, sys, json, glob, shutil, subprocess, datetime, tempfile\n HERE = os.path.dirname(os.path.abspath(__file__))\n-ROOT = next(p for p in (os.path.join(os.path.dirname(HERE), \"carbon_discovery\"), os.path.dirname(HERE)) if os.path.isdir(os.path.join(p, \"experiments\")))\n+ROOT = next(p for p in (os.path.join(os.path.dirname(os.path.dirname(HERE)), \"carbon_discovery\"), os.path.dirname(HERE)) if os.path.isdir(os.path.join(p, \"experiments\")))\n sys.path.insert(0, ROOT); sys.path.insert(0, HERE)\n import numpy as np\n import matplotlib\n"
+  },
+  {
+    "path": "paper_analysis/current/make_figures.py",
+    "before_sha256": "9466b5b888edb71ebb2171fadbee3cc279c8c4e12be06986b1a91e8955c62787",
+    "after_sha256": "e357d35ffe28bdec929ea25d865eda3cf20465bd03afc81881716796471ecffe",
+    "diff": "--- research/paper/make_figures.py\n+++ release/paper_analysis/current/make_figures.py\n@@ -5,7 +5,7 @@\n from __future__ import annotations\n import os, sys, json, math, glob, datetime\n HERE = os.path.dirname(os.path.abspath(__file__))\n-ROOT = next(p for p in (os.path.join(os.path.dirname(HERE), \"carbon_discovery\"), os.path.dirname(HERE)) if os.path.isdir(os.path.join(p, \"experiments\")))\n+ROOT = next(p for p in (os.path.join(os.path.dirname(os.path.dirname(HERE)), \"carbon_discovery\"), os.path.dirname(HERE)) if os.path.isdir(os.path.join(p, \"experiments\")))\n sys.path.insert(0, ROOT)\n import numpy as np\n import matplotlib\n"
+  }
+]

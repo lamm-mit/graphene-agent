@@ -1,0 +1,25 @@
+{
+  "event": {
+    "index": 48,
+    "reason": "post-peak strain limit reached (load still carried)",
+    "failure_observed": false
+  },
+  "metrics": {
+    "endpoint_index": 48,
+    "end_strain": 0.26875000000000016,
+    "end_stress_N_m": 8.416127296164513,
+    "failure_observed": false,
+    "failure_strain_if_observed": null,
+    "last_nonfailed_strain": null,
+    "termination_reason": "post-peak strain limit reached (load still carried)",
+    "maximum_recorded_stress_N_m": 8.849035062215567,
+    "strain_at_recorded_maximum": 0.14875000000000008,
+    "peak_at_last_frame": false,
+    "stress_strain_integral_J_m2": 1.6644811933385568,
+    "end_stress_fraction_of_maximum": 0.951078534212219,
+    "spanning_at_end": true,
+    "first_damage_strain": 0.07875000000000001,
+    "recorded_frames": 49,
+    "cumulative_broken_bond_events": 124
+  }
+}

@@ -1,0 +1,13 @@
+index,name,cohort,parent_run_id
+1,S7_H2_veinsX_W12_ellipseX,Phase-I holdouts,run_20260906_011440_050f0e
+2,S7_slit_20deg,Phase-I holdouts,run_20260906_012602_320a91
+3,S7_square_D40_staggered,Phase-I holdouts,run_20260906_001924_c3c4eb
+4,S7_voronoi_n35_reg0.8_s7,Phase-I holdouts,run_20260906_004402_d0292e
+5,S7_H3_D30_60_wideveins,Phase-I holdouts,run_20260906_000853_1472a1
+6,S7_hole30_rings3,Phase-I holdouts,run_20260906_003914_2004b5
+7,S7_mesh_p24_phi0.3,Phase-I holdouts,run_20260906_015019_56673a
+8,S7_precrack_L50_cell150,Phase-I holdouts,run_20260905_231328_ea6938
+9,S7_graded_x_weak,Phase-I holdouts,run_20260906_010927_81093d
+10,S7_slit_0deg_armchair,Phase-I holdouts,run_20260905_235534_a5e0cc
+11,S7_strut_090_phi0.3,Phase-I holdouts,run_20260906_001619_c8351b
+12,S7_mesh_jitter1.5_sd0.1_s11,Phase-I holdouts,run_20260905_215225_93748d

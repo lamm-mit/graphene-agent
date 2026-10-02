@@ -1,0 +1,31 @@
+{
+  "reviewed_utc": "2026-09-24T15:18:22.690080+00:00",
+  "production_approved": false,
+  "primary_counts": {
+    "completed": 2,
+    "running": 3,
+    "pending": 35
+  },
+  "Q6b_status": "completed",
+  "Q6b_after": {
+    "energy_eV": -21772.301715886202,
+    "max_force_eV_A": 0.036840389341736876,
+    "sigma_xx_N_m": 0.07732845334892594,
+    "sigma_yy_N_m": -0.33449110700738544,
+    "spanning": true,
+    "below_frozen_running_peak_threshold": true
+  },
+  "Q6b_optimizer": {
+    "success": false,
+    "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+    "nit": 2000,
+    "nfev": 2047,
+    "nfev_including_validation": 2055,
+    "fun": -21772.301715886202
+  },
+  "decision": "Retain 45-degree endpoint as numerically unresolved. Fixed-cell diagnostics preserve low-stress classification but do not satisfy both residual tolerances or validate the loading path.",
+  "no_additional_fixed_cell_probe_planned": true,
+  "Q4_slit_status": "running",
+  "queue_alive": true,
+  "active_children_verified": 3
+}

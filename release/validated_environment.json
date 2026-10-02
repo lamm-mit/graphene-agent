@@ -1,0 +1,24 @@
+{
+  "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:54:21) [Clang 16.0.6 ]",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.13.1",
+    "torch": "2.7.0",
+    "ase": "3.27.0",
+    "atomistica": "1.2.7",
+    "matplotlib": "3.11.1",
+    "pytest": "9.1.1",
+    "reportlab": "5.0.1",
+    "Pillow": "12.3.0",
+    "scikit-learn": "1.6.1",
+    "umap-learn": "0.5.9.post2",
+    "numba": "0.61.2",
+    "pyarrow": "24.0.0",
+    "datasets": "5.0.0",
+    "huggingface-hub": "1.24.0",
+    "jsonschema": "4.23.0",
+    "opencv-python": "4.10.0.84",
+    "PyMuPDF": "1.25.3"
+  },
+  "environment_note": "Isolated release source, venv with inherited installed scientific dependencies; reportlab installed into this venv. This is not a from-zero dependency installation or a Linux CI run."
+}

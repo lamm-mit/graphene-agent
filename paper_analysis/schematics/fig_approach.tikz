@@ -1,0 +1,54 @@
+% Figure: the overall approach (TikZ).  Inputs: one prompt with five reference images -> the design language the agent
+% inferred (ten families, relaxed structures from the database) -> the instrument, the campaign and the findings.
+% Numbers come from figures/facts.tex and figures/numbers.tex; images live in figures/approach/.
+\definecolor{famPristine}{HTML}{000000}\definecolor{famVac}{HTML}{808080}\definecolor{famCrack}{HTML}{8C564B}\definecolor{famRings}{HTML}{E377C2}
+\definecolor{famSingle}{HTML}{1F77B4}\definecolor{famHier}{HTML}{D62728}\definecolor{famVoronoi}{HTML}{2CA02C}\definecolor{famSlit}{HTML}{FF7F0E}
+\definecolor{famStrut}{HTML}{9467BD}\definecolor{famGraded}{HTML}{17BECF}
+%SEPT 27 EDIT: Helvetica (Arial equivalent), scoped to this figure.
+\begingroup
+\renewcommand{\sfdefault}{phv}
+\begin{tikzpicture}[font=\sffamily\scriptsize, x=1cm, y=1cm,
+  img/.style={inner sep=0, anchor=north},
+  thumb/.style={inner sep=0, anchor=north, draw, line width=1.0pt},
+  lab/.style={font=\sffamily\tiny, align=center, anchor=north, inner sep=1.5pt, text width=2.4cm},
+  tlab/.style={font=\sffamily\tiny, align=center, anchor=north, inner sep=1.5pt, text width=1.7cm},
+  head/.style={font=\sffamily\scriptsize\bfseries, anchor=south west, inner sep=1pt, text=black!60},
+  box/.style={draw, rounded corners=2.5pt, line width=0.7pt, align=center, inner sep=3pt, fill=white, anchor=north west},
+  arr/.style={-{Latex[length=2.2mm,width=1.6mm]}, line width=0.9pt, black!55},
+  map/.style={-{Latex[length=1.5mm,width=1.1mm]}, line width=0.5pt, black!50}]
+% ---------------- row 1: the prompt and its five reference images
+\node[head] at (0, 0.12) {input: one prompt};
+\node[box, draw=blue!65!black, text width=3.3cm, minimum height=2.35cm] (prompt) at (0, 0)
+%SEPT 26 EDIT: Present experiments and results without dates, hashes or registration bookkeeping.
+  {build, validate and use\\ a discovery platform\\[5pt] {\color{black!60} published REBO2 only,\\ no surrogates\\ exact GPU port, validated\\ predictions fixed\\ before simulation}};
+\node[head] at (4.0, 0.12) {five reference images supplied with the prompt};
+\foreach \k/\f/\t in {0/ref1_venation/hierarchical leaf venation, 1/ref2_closed_cells/closed cells with an inner network, 2/ref3_fibre_net/disordered fiber net, 3/ref4_struts/rectilinear crossing struts, 4/ref5_rings/nested rings around a void}{
+  \node[img] (r\k) at ({5.175 + 2.6*\k}, 0) {\includegraphics[width=2.35cm]{approach/\f.jpg}};
+  \node[lab] (rl\k) at (r\k.south) {\t};
+}
+% ---------------- row 2: the design language (ten families, relaxed structures from the database)
+\foreach \k/\f/\c/\t in {0/pristine/famPristine/pristine sheet, 1/vacancies/famVac/vacancies, 2/precrack/famCrack/precracked, 3/nanomesh_hier/famHier/nested mesh (veins), 4/nanomesh_single/famSingle/pore mesh, 5/voronoi_network/famVoronoi/Voronoi network, 6/strut_lattice/famStrut/strut lattice, 7/slit_array/famSlit/slit array, 8/ring_around_hole/famRings/hole + rings, 9/graded_pores/famGraded/graded pores}{
+  \node[thumb, draw=\c] (t\k) at ({0.65 + 1.74*\k}, -3.75) {\includegraphics[width=1.3cm]{approach/thumb_\f.png}};
+  \node[tlab] (tl\k) at (t\k.south) {\t};
+}
+\node[font=\sffamily\scriptsize, text=black!60, anchor=north] (dl) at (8.48, -5.55) {design language inferred by the agent: ten parametric families of periodic graphene architectures, compared at equal mass};
+% mapping arrows: image -> family (from the report's principle table); prompt -> references
+\draw[map] (rl0.south) -- (t3.north);
+\draw[map] (rl1.south) -- (t4.north);
+\draw[map] (rl2.south) -- (t5.north);
+\draw[map] (rl3.south) -- (t6.north);  \draw[map] (rl3.south) -- (t7.north);
+\draw[map] (rl4.south) -- (t8.north);  \draw[map] (rl4.south) -- (t9.north);
+\draw[map] (prompt.south) -- node[right=2pt, font=\sffamily\tiny, text=black!55, align=left, pos=0.45] {references\\ and controls} (t1.north);
+% ---------------- row 3: instrument, campaign, findings
+\node[box, draw=red!70!black, fill=red!4, text width=4.9cm, minimum height=1.55cm] (inst) at (0, -6.75)
+  {\textbf{instrument built by the agent}\\[2pt] PyTorch REBO2 engine, structure generators,\\ quasi-static loading driver\\ \nPass{}/\nTests{} tests against the Fortran reference};
+\node[box, draw=green!45!black, text width=4.9cm, minimum height=1.55cm] (camp) at (5.9, -6.75)
+%SEPT 26 EDIT: Present experiments and results without dates, hashes or registration bookkeeping.
+  {\textbf{campaign}\\[2pt] \totalRuns{} simulations at matched mass\\ 12 + \nPaperRuns{} predictions fixed before simulation\\ human questions $\rightarrow$ \nPaperRuns{} pre-registered sweeps};
+\node[box, draw=orange!85!black, text width=4.9cm, minimum height=1.55cm] (find) at (11.8, -6.75)
+  {\textbf{findings}\\[2pt] strength = weakest section $\times$ ligament strength\\ three failure mechanisms of a tilted slit array\\ alignment, not hierarchy, sets mesh strength};
+\draw[arr] (inst) -- (camp); \draw[arr] (camp) -- (find);
+\draw[arr] (dl.south) -- (camp.north);
+\end{tikzpicture}
+\endgroup
+%SEPT 27 EDIT END: Figure-local font setting.

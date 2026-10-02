@@ -1,0 +1,118 @@
+{
+  "updated_utc": "2026-09-24T12:55:15.712942+00:00",
+  "completed": 3,
+  "planned": 3,
+  "rows": [
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "frame_index": 37,
+      "strain": 0.26625,
+      "source_sha256": "43aec27243c666b5c11087b5b0fc4449505e261f847a4d0ed0090fdad73aa261",
+      "before": {
+        "max_force_eV_A": 1.0144736766815186,
+        "sigma_xx_N_m": 11.81543254852295,
+        "sigma_yy_N_m": 0.19869063794612885,
+        "energy_eV": -21826.318359375
+      },
+      "after": {
+        "max_force_eV_A": 0.0808022990822792,
+        "sigma_xx_N_m": 8.439444541931152,
+        "sigma_yy_N_m": 0.5831303596496582,
+        "energy_eV": -21929.068359375
+      },
+      "force_converged": false,
+      "minimizer": {
+        "converged": [
+          false
+        ],
+        "iterations": 8000,
+        "fmax": [
+          0.0808023065328598
+        ],
+        "n_evaluations": 8001,
+        "n_rebuilds": 41,
+        "wall_time": 775.0507194160018,
+        "failed": [
+          false
+        ],
+        "soft": [
+          false
+        ]
+      }
+    },
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "frame_index": 20,
+      "strain": 0.12,
+      "source_sha256": "f62bd23100bcdc0395a102472cd0c217ed98b8404631bd6ad66cb5e4f8fe2501",
+      "before": {
+        "max_force_eV_A": 2.4523813724517822,
+        "sigma_xx_N_m": 6.210758209228516,
+        "sigma_yy_N_m": 0.020927175879478455,
+        "energy_eV": -20985.81640625
+      },
+      "after": {
+        "max_force_eV_A": 3.760388135910034,
+        "sigma_xx_N_m": 6.006345748901367,
+        "sigma_yy_N_m": 0.2648826539516449,
+        "energy_eV": -21036.08203125
+      },
+      "force_converged": false,
+      "minimizer": {
+        "converged": [
+          false
+        ],
+        "iterations": 8000,
+        "fmax": [
+          3.760387659072876
+        ],
+        "n_evaluations": 8001,
+        "n_rebuilds": 23,
+        "wall_time": 751.5718023750233,
+        "failed": [
+          false
+        ],
+        "soft": [
+          false
+        ]
+      }
+    },
+    {
+      "case_id": "ext__S7_slit_0deg_armchair",
+      "frame_index": 27,
+      "strain": 0.19375,
+      "source_sha256": "38e9722e76f61d60b78611fc76a442d9c0e7b70a9f063e4cf594f19bd2b4ab51",
+      "before": {
+        "max_force_eV_A": 2.545562744140625,
+        "sigma_xx_N_m": 7.0533366203308105,
+        "sigma_yy_N_m": -0.006586108356714249,
+        "energy_eV": -20853.837890625
+      },
+      "after": {
+        "max_force_eV_A": 0.016828378662467003,
+        "sigma_xx_N_m": 6.935912609100342,
+        "sigma_yy_N_m": 0.00847434252500534,
+        "energy_eV": -20859.830078125
+      },
+      "force_converged": true,
+      "minimizer": {
+        "converged": [
+          true
+        ],
+        "iterations": 1310,
+        "fmax": [
+          0.016828378662467003
+        ],
+        "n_evaluations": 1312,
+        "n_rebuilds": 9,
+        "wall_time": 125.2653923749458,
+        "failed": [
+          false
+        ],
+        "soft": [
+          false
+        ]
+      }
+    }
+  ]
+}

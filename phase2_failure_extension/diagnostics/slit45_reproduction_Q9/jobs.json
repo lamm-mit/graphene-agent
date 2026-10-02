@@ -1,0 +1,17 @@
+[
+  {
+    "id": "R1_original_batch4",
+    "layout": "original_batch4",
+    "target_index": 2
+  },
+  {
+    "id": "R2_original_single",
+    "layout": "single",
+    "target_index": 0
+  },
+  {
+    "id": "R3_original_single_repeat",
+    "layout": "single",
+    "target_index": 0
+  }
+]

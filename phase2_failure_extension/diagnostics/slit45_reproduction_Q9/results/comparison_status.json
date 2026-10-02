@@ -1,0 +1,85 @@
+{
+  "generated_utc": "2026-09-26T14:38:11.929386+00:00",
+  "scheduled_runs": [
+    {
+      "id": "R1_original_batch4",
+      "status": "suspended",
+      "frames": 26
+    },
+    {
+      "id": "R2_original_single",
+      "status": "completed",
+      "frames": 51
+    },
+    {
+      "id": "R3_original_single_repeat",
+      "status": "deferred",
+      "frames": 0
+    }
+  ],
+  "summaries": [
+    {
+      "name": "Phase 1 single shot",
+      "status": "completed",
+      "frames": 52,
+      "last_recorded_strain": 0.32375000000000015,
+      "maximum_recorded_stress_N_m": 18.542979416317962,
+      "strain_at_recorded_maximum": 0.32375000000000015,
+      "first_recorded_damage_strain": 0.17375000000000002,
+      "frames_above_force_target": 13,
+      "frames_above_transverse_target": 15
+    },
+    {
+      "name": "Existing Phase 2 primary",
+      "status": "completed",
+      "frames": 117,
+      "last_recorded_strain": 0.6612500000000004,
+      "maximum_recorded_stress_N_m": 12.204642277152937,
+      "strain_at_recorded_maximum": 0.2612500000000001,
+      "first_recorded_damage_strain": 0.17125,
+      "frames_above_force_target": 25,
+      "frames_above_transverse_target": 11
+    },
+    {
+      "name": "Existing Phase 2 half step",
+      "status": "completed",
+      "frames": 223,
+      "last_recorded_strain": 0.6812499999999965,
+      "maximum_recorded_stress_N_m": 11.45200903465774,
+      "strain_at_recorded_maximum": 0.2587500000000001,
+      "first_recorded_damage_strain": 0.17125,
+      "frames_above_force_target": 112,
+      "frames_above_transverse_target": 18
+    },
+    {
+      "name": "R1_original_batch4",
+      "status": "suspended",
+      "frames": 26,
+      "last_recorded_strain": 0.20250000000000004,
+      "maximum_recorded_stress_N_m": 3.600096440579377,
+      "strain_at_recorded_maximum": 0.18750000000000003,
+      "first_recorded_damage_strain": 0.17250000000000001,
+      "frames_above_force_target": 7,
+      "frames_above_transverse_target": 3
+    },
+    {
+      "name": "R2_original_single",
+      "status": "completed",
+      "frames": 51,
+      "last_recorded_strain": 0.3225000000000001,
+      "maximum_recorded_stress_N_m": 18.360801377153514,
+      "strain_at_recorded_maximum": 0.3225000000000001,
+      "first_recorded_damage_strain": 0.17250000000000001,
+      "frames_above_force_target": 8,
+      "frames_above_transverse_target": 19
+    }
+  ],
+  "required_case_ids": [
+    "R2_original_single"
+  ],
+  "scheduled_runs_complete": true,
+  "original_three_run_schedule_complete": false,
+  "note": "Incomplete-path maxima and last saved strains are progress values, not final strengths or failure strains. Force audits of Phase 1 use CPU float64 saved states; Phase 2 and Q9 use recorded MPS residuals. No interpolation of configurations or graph events.",
+  "displacement_definition": "Map reference positions affinely into comparison cell, apply xy minimum image, remove mean translation; RMS norm over atoms in Angstrom.",
+  "script_sha256": "51cdb69af03cb7d1844eb73e89ee85336c50f0f3edf241e60bcd4099e6f2035c"
+}

@@ -1,0 +1,80 @@
+{
+  "completed_utc": "2026-09-26T07:55:49.095308+00:00",
+  "status": "complete_with_explicit_numerical_and_physical_limitations",
+  "scheduled_loading_jobs_complete": 40,
+  "primary_extensions": 34,
+  "source_cohorts": {
+    "I": 20,
+    "earlier_II": 14
+  },
+  "controls": 2,
+  "resolution_checks": 4,
+  "additional_numerical_loading_checks": 5,
+  "loading_records": 45,
+  "primary_driver_outcomes": {
+    "lost_spanning": 18,
+    "stress_collapse": 15,
+    "censored_at_extended_cap": 1
+  },
+  "primary_residual_flagged": 33,
+  "primary_no_added_peak": 32,
+  "primary_continued_beyond_B": 25,
+  "primary_B_equals_C": 9,
+  "remaining_simulations": 0,
+  "remaining_required_package_work": 0,
+  "converged_physical_failure_values_claimed": false,
+  "manuscript_integration": false,
+  "source_phase_of_new_work": "human-AI Phase II",
+  "review_package": "candidate_figures/review_package.pdf",
+  "candidate_figures": 23,
+  "review_pages": 22,
+  "total_pdf_pages_visually_reviewed": 50,
+  "active_study_processes": [],
+  "integrity": {
+    "input_checksums": 772,
+    "execution_code_checksums": 61,
+    "verified_code_checksums": 61,
+    "refinement_code_checksums": 61,
+    "frozen_sources": 211,
+    "current_manuscript_and_plotting_sources_unchanged": 27,
+    "original_baseline_assets_unchanged": 696,
+    "original_frozen_phase_I_report_unchanged": true,
+    "loading_records_metrics_stops_initial_geometries_residuals": 45,
+    "scheduled_job_configurations": 40,
+    "discovery_population": 96,
+    "primary_source_counts": {
+      "I": 20,
+      "earlier II": 14
+    },
+    "unrerun_discovery_carry_forward": 76,
+    "log_space_hulls_recomputed": 120,
+    "alignment": {
+      "n": 40,
+      "discovery": 31,
+      "validation": 1,
+      "paper": 8,
+      "replacements": 8
+    },
+    "disorder_means_and_denominators": true,
+    "frozen_predictions_and_retrospective_errors": true,
+    "plotted_progression_frames": 30,
+    "plotted_point_flags_and_ashby_coordinates": 1971,
+    "candidate_pdf_vector_and_svg_text": 23
+  },
+  "diagnostic_attempts_preserved": true,
+  "failed_Q6_setup_preserved": true,
+  "notes": [
+    "All 40 scheduled jobs plus five additional loading checks have completed records; no additional simulations launched for this review.",
+    "Numerical residual flags, right-censoring and nonmonotonic increment checks remain explicit.",
+    "Freeze-time results/summary.json and REPORT.md pending-review labels are historical; this record and candidate package supersede their workflow status without overwriting the frozen source inventory.",
+    "No source simulations, frozen report, manuscript, original figures or hierarchy-follow-up files were edited."
+  ],
+  "completion_artifact_sha256": {
+    "candidate_figures/review_package.pdf": "99fc3ccc006a2aa7141301edb63f8f8e6715edc643b295f86ea3e800dac548e3",
+    "candidate_figures/package_manifest.json": "20292b5e7846ece165628c6af2bb89f7aecd760401a2a15b4a89531833817fec",
+    "candidate_figures/qa/numerical_validation.json": "b770e50bd75087f357c4d3b9850382012071a365a100cbdace552c550d9653c1",
+    "candidate_figures/qa/visual_review.json": "4f9bae705b263b382f0c1767e9c11f203f07089e4de2b6f72dc24b87df49611e",
+    "candidate_figures/ANALYSIS.md": "31369e66f1ce5a06969d3f5257fe7de430e6fdcd9eb27c331639b780656c845d",
+    "candidate_figures/FIGURE_MAP.md": "269b2804ea52674d5caf7d40dd7915c0fc9368397fde54119c9c48a3521c42a9"
+  }
+}

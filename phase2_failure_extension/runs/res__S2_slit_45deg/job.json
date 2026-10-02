@@ -1,0 +1,15 @@
+{
+  "case_id": "res__S2_slit_45deg",
+  "parent_run_id": "run_20260905_091359_4df2c2",
+  "source_phase": "I",
+  "role": "resolution",
+  "stage": "resolution",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000,
+    "d_strain": 0.0025
+  }
+}

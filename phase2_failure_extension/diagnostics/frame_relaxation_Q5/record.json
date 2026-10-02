@@ -1,0 +1,95 @@
+{
+  "started_utc": "2026-09-24T14:33:08.900585+00:00",
+  "status": "completed",
+  "pid": 82892,
+  "engine": {
+    "potential": "screened second-generation REBO (REBO2+S / Rebo2Scr)",
+    "implementation": "TorchRebo2Scr (PyTorch autograd port of Atomistica Rebo2Scr kernel)",
+    "reference_implementation": "Atomistica 1.2.7 Rebo2Scr (commit 14a86f2c, 2025-10-21)",
+    "parameterization": "Brenner 2002 + Pastewka 2008 screening; Atomistica default tables; dihedral=False",
+    "citations": [
+      "D. W. Brenner, O. A. Shenderova, J. A. Harrison, S. J. Stuart, B. Ni, S. B. Sinnott, J. Phys.: Condens. Matter 14, 783 (2002).",
+      "L. Pastewka, P. Pou, R. Perez, P. Gumbsch, M. Moseler, Phys. Rev. B 78, 161402(R) (2008).",
+      "L. Pastewka, A. Klemenz, P. Gumbsch, M. Moseler, Phys. Rev. B 87, 205410 (2013).",
+      "Atomistica, https://github.com/Atomistica/atomistica (L. Pastewka et al.), version 1.2.7."
+    ],
+    "parameter_checksum": "889d31570b93077b66616e0896e64e30d808c53ae0dc95fce6cc37f4068de35f",
+    "device": "mps",
+    "dtype": "torch.float32",
+    "torch_version": "2.7.0",
+    "units": "eV, Angstrom; 2D stress in eV/A^2 (x16.0218 = N/m)"
+  },
+  "script_sha256": "636856fb1da74ba15cfca55ee6eff67376b7c59689b31c9bbf26971336f933f8",
+  "amendment": {
+    "id": "Q5",
+    "recorded_utc": "2026-09-24T14:33:07.883441+00:00",
+    "reason": "The first completed pilot stopped by stress collapse while spanning; its final frame has force residual 0.27796 eV/Angstrom despite a true inherited FIRE flag. Check whether the criterion survives further relaxation of this recorded endpoint.",
+    "scope": "One fixed-cell endpoint diagnostic. Preserve the original trajectory and termination; do not splice relaxed states into it or infer a corrected loading path.",
+    "frames": [
+      {
+        "case_id": "ext__S2_slit_45deg",
+        "frame_index": 116,
+        "strain": 0.6612500000000004,
+        "source": "runs/ext__S2_slit_45deg/frames/00116.npz"
+      }
+    ],
+    "minimizer_settings": {
+      "fmax": 0.02,
+      "max_steps": 4000,
+      "skin": 0.3,
+      "stall_iters": 1000000000,
+      "dt": 0.05,
+      "dt_max": 0.2,
+      "maxstep": 0.05
+    },
+    "running_peak_stress_N_m": 12.204642277152937,
+    "stress_fraction_threshold": 0.1,
+    "interpretation": "Compare topology, force/transverse residuals and stress against the frozen preceding running peak. Passing fixed-cell checks does not validate the full loading path or a zero-transverse-stress endpoint.",
+    "script_sha256": "636856fb1da74ba15cfca55ee6eff67376b7c59689b31c9bbf26971336f933f8"
+  },
+  "rows": [
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "frame_index": 116,
+      "strain": 0.6612500000000004,
+      "source": "runs/ext__S2_slit_45deg/frames/00116.npz",
+      "source_sha256": "35f60f376044f1c53c7efbcdcfec75d9efae00ef2c1b425e6b7ca911a9938438",
+      "before": {
+        "max_force_eV_A": 0.2779600918292999,
+        "sigma_xx_N_m": 1.0565288694797887,
+        "sigma_yy_N_m": -0.02643527263015071,
+        "energy_eV": -21731.91796875,
+        "spanning": true,
+        "below_frozen_running_peak_threshold": true
+      },
+      "after": {
+        "max_force_eV_A": 0.3435761630535126,
+        "sigma_xx_N_m": 0.7509454494063758,
+        "sigma_yy_N_m": -0.21848858450180506,
+        "energy_eV": -21738.43359375,
+        "spanning": true,
+        "below_frozen_running_peak_threshold": true
+      },
+      "force_converged": false,
+      "minimizer": {
+        "converged": [
+          false
+        ],
+        "iterations": 4000,
+        "fmax": [
+          0.3435761630535126
+        ],
+        "n_evaluations": 4001,
+        "n_rebuilds": 4,
+        "wall_time": 427.66501449991483,
+        "failed": [
+          false
+        ],
+        "soft": [
+          false
+        ]
+      }
+    }
+  ],
+  "finished_utc": "2026-09-24T14:40:17.445634+00:00"
+}

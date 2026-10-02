@@ -1,0 +1,17 @@
+{
+  "updated_utc": "2026-09-24T11:12:43.247866+00:00",
+  "frames": 29,
+  "attempted_step": 31,
+  "strain": 0.27125000000000005,
+  "stress_N_m": -0.008934799987799516,
+  "force_residual_eV_A": 0.01141416933387518,
+  "transverse_stress_N_m": -0.4472242838122155,
+  "wall_time_s": 73.38410496711731,
+  "virtual_original_stop": {
+    "index": 28,
+    "reason": "not spanning (fractured)",
+    "failure_observed": true
+  },
+  "spanning": false,
+  "cumulative_broken": 36
+}

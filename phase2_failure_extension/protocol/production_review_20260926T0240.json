@@ -1,0 +1,91 @@
+{
+  "recorded_utc": "2026-09-26T02:38:33.408871+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T02:38:32.460794+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 37,
+      "running": 3
+    },
+    "running": [
+      {
+        "case_id": "res__S2_slit_45deg",
+        "pid": 23606,
+        "elapsed_s": 8679.265197753906,
+        "updated_utc": "2026-09-26T02:37:33.373549+00:00",
+        "frames": 98,
+        "attempted_step": 100,
+        "strain": 0.3687500000000002,
+        "stress_N_m": 4.370766472107372,
+        "force_residual_eV_A": 1.5168747901916504,
+        "transverse_stress_N_m": -0.036653768130951836,
+        "wall_time_s": 8617.250867843628,
+        "virtual_original_stop": {
+          "index": 78,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 84
+      },
+      {
+        "case_id": "res__S5_H2_D40_W8_ellipseX",
+        "pid": 23607,
+        "elapsed_s": 8679.26259303093,
+        "updated_utc": "2026-09-26T02:36:25.067318+00:00",
+        "frames": 47,
+        "attempted_step": 49,
+        "strain": 0.19875000000000007,
+        "stress_N_m": 2.765778500952166,
+        "force_residual_eV_A": 0.41713911294937134,
+        "transverse_stress_N_m": -0.057664145024626884,
+        "wall_time_s": 8548.944632768631,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 128
+      },
+      {
+        "case_id": "res__S7_slit_20deg",
+        "pid": 46173,
+        "elapsed_s": 1027.802829027176,
+        "updated_utc": "2026-09-26T02:38:19.464781+00:00",
+        "frames": 31,
+        "attempted_step": 33,
+        "strain": 0.11750000000000005,
+        "stress_N_m": 8.892594185865276,
+        "force_residual_eV_A": 0.018911315128207207,
+        "transverse_stress_N_m": 0.02017364263693178,
+        "wall_time_s": 1013.7367899417877,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 31
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n23606 43715    02:24:40  50:19.23  37.0 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n23607 43715    02:24:40  49:33.89  30.4 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-15:27:06   0:23.19   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-15:27:06   0:00.09   0.0 S    /usr/bin/caffeinate\n46173 43715       17:09   6:34.72  38.4 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "new_completed_cases": [
+    "res__S7_slit_0deg_armchair"
+  ],
+  "independent_case_review": "results/review_res__S7_slit_0deg_armchair.json",
+  "resolution_comparison": "results/resolution_comparison_res__S7_slit_0deg_armchair.json",
+  "last_figure_review": "results/figure_review_20260926T0240.json",
+  "checksum_counts": {
+    "input": 772,
+    "execution_code": 61,
+    "verified_code": 61,
+    "refinement_code": 61,
+    "current_paper_sources_and_copies": 27
+  },
+  "scientific_driver_changed": false,
+  "analyze_py_changed": false,
+  "added_analysis_helper": "scripts/compare_resolution_case.py",
+  "comparison_helper_validation": "Executed on the completed check: independently recomputed B/C metrics and C stopping chronology; verified same parent and identical initial geometry and only d_strain changes by a factor of two.",
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "34/34 primary extensions, 2/2 controls and 1/4 resolution checks complete. Armchair peak changes +0.2661%, endpoint integral +7.6441%, endpoint strain -18.0157% relative to primary. Stop switches from spanning loss to stress collapse while spanning. Residual flags remain. No convergence or corrected truth inferred. Three resolution checks advance."
+}

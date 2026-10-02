@@ -1,0 +1,38 @@
+{
+  "reviewed_utc": "2026-09-24T15:16:00.771703+00:00",
+  "production_approved": false,
+  "primary_counts": {
+    "completed": 2,
+    "running": 3,
+    "pending": 35
+  },
+  "queue_pid": 43715,
+  "Q5": {
+    "status": "completed",
+    "force_converged": false,
+    "after": {
+      "max_force_eV_A": 0.3435761630535126,
+      "sigma_xx_N_m": 0.7509454494063758,
+      "sigma_yy_N_m": -0.21848858450180506,
+      "energy_eV": -21738.43359375,
+      "spanning": true,
+      "below_frozen_running_peak_threshold": true
+    },
+    "interpretation": "Criterion still met but equilibrium unverified; no validated endpoint."
+  },
+  "Q6": {
+    "status": "execution_error",
+    "recovery": "Preserved failed setup attempt; corrected initialization only in Q6b, after confirming original process had exited."
+  },
+  "Q6b": {
+    "status": "running",
+    "gradient_check": "Passed local directional energy/force consistency check; optimization bounded by protocol."
+  },
+  "Q4_slit": {
+    "status": "running",
+    "accepted_frames": 50,
+    "last_accepted_strain": 0.2650000000000002,
+    "all_recorded_residuals_within_tolerance": true
+  },
+  "gate_reason": "Remaining pilot extensions and second control still pending, plus unresolved numerical/reproduction review."
+}

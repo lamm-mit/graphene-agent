@@ -1,0 +1,68 @@
+{
+  "recorded_utc": "2026-09-25T23:41:41.276989+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T23:41:40.483770+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 34,
+      "running": 2,
+      "pending": 4
+    },
+    "running": [
+      {
+        "case_id": "ext__S7_mesh_p24_phi0.3",
+        "pid": 6162,
+        "elapsed_s": 14868.509010791779,
+        "updated_utc": "2026-09-25T23:40:56.254479+00:00",
+        "frames": 48,
+        "attempted_step": 50,
+        "strain": 0.2912500000000001,
+        "stress_N_m": 2.0175791920089305,
+        "force_residual_eV_A": 0.013452580198645592,
+        "transverse_stress_N_m": 0.014012345289376464,
+        "wall_time_s": 14823.458066940308,
+        "virtual_original_stop": {
+          "index": 38,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 61
+      },
+      {
+        "case_id": "ext__S7_voronoi_n35_reg0.8_s7",
+        "pid": 9966,
+        "elapsed_s": 12479.517393112183,
+        "updated_utc": "2026-09-25T23:40:49.138858+00:00",
+        "frames": 28,
+        "attempted_step": 30,
+        "strain": 0.1612500000000001,
+        "stress_N_m": 1.7195838576047375,
+        "force_residual_eV_A": 0.018404018133878708,
+        "transverse_stress_N_m": 0.05347750810617327,
+        "wall_time_s": 12427.355339050293,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 39
+      }
+    ]
+  },
+  "all_expected_processes_alive": true,
+  "power_diagnosis": "results/power_state_review_20260925T2340/diagnosis.json",
+  "figures_and_analysis_unchanged_from_last_review": true,
+  "last_figure_review": "results/figure_review_20260925T2030.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "new_completed_cases": [],
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "power_settings_changed": false,
+  "scientific_status": "32/34 extensions and 2/2 controls complete; two extensions advancing after full system wake, four resolution checks awaiting completion of production. No new numerical outcomes or figure changes. Lid-close sleep from 16:32:10 to full wake 19:34:36 EDT, with intermittent dark wakes, explains the long elapsed-time gap."
+}

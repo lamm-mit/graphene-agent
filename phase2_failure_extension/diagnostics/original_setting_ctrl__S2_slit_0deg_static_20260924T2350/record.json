@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-09-24T23:50:43.874977+00:00",
+  "case_id": "ctrl__S2_slit_0deg",
+  "status": "completed",
+  "method": "Static CPU float64 reevaluation of saved float32 positions and cells. No relaxation.",
+  "script_sha256": "b103d653d7c18766bb7a3af68e0ab0faa93e726237513197accbe848dc2a6f06",
+  "selected_frame_indices": [
+    20,
+    22
+  ],
+  "rows": [
+    {
+      "frame_index": 20,
+      "strain": 0.19125000000000003,
+      "source_sha256": "431c163bd1b3dd5914863256fb1457b1f24fe6c6316f8bedab6c8724333056fe",
+      "recorded_force_eV_A": 0.017974384129047394,
+      "cpu_force_eV_A": 0.017972007320338632,
+      "recorded_axial_stress_N_m": 24.974557126280498,
+      "cpu_axial_stress_N_m": 24.974543890507256,
+      "recorded_transverse_stress_N_m": 0.01981049413522504,
+      "cpu_transverse_stress_N_m": 0.01979144030601637,
+      "cpu_force_pass": true,
+      "cpu_transverse_pass": true
+    },
+    {
+      "frame_index": 22,
+      "strain": 0.19750000000000004,
+      "source_sha256": "98486429910311d23225d226e612d63385c230b0ecdac6c628ec23625cab3a31",
+      "recorded_force_eV_A": 0.018143305554986,
+      "cpu_force_eV_A": 0.01817087523369715,
+      "recorded_axial_stress_N_m": 1.270890528906209,
+      "cpu_axial_stress_N_m": 1.2708914268921645,
+      "recorded_transverse_stress_N_m": -0.21591578632164876,
+      "cpu_transverse_stress_N_m": -0.21592747154018296,
+      "cpu_force_pass": true,
+      "cpu_transverse_pass": false
+    }
+  ],
+  "finished_utc": "2026-09-24T23:50:44.294553+00:00"
+}

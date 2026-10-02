@@ -1,0 +1,13 @@
+{
+ "n": 78,
+ "prediction_written": "2026-09-23 14:04:20",
+ "prediction_sha256": "d5f0c3bd124bf5a8707a6c6211a11da983c8cf0f777023b1af2f725d9cd8bea3",
+ "first": "2026-09-23 14:00",
+ "last": "2026-09-26 08:59",
+ "evaluated": "2026-09-26 09:00",
+ "wall_h": 236.67404528415557,
+ "atoms": 1278663,
+ "n_expected": 78,
+ "prediction_written_T5": "2026-09-23 16:01:08",
+ "prediction_sha256_T5": "649ae5a5b52de45702119593807baa9eaf2c8ad4bd910dea6932ee03f382442a"
+}

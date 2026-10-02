@@ -1,0 +1,66 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "524_T5_H5_V3_E_r1",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H5_V3_E_r1",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "subveins_ellipse",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 5.05,
+     "sub_domain": 33.3,
+     "sub_w": 8.0
+    }
+   },
+   "seed": 0,
+   "reason": "T5 composite hierarchy, registry 1: three levels: solid veins 30 A every 100 A, solid sub-veins 8 A every 33 A, elongated pores between",
+   "hypothesis": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); three levels: strength within the one-level scatter of H3_2L; cracked (60 A mid-domain, severing two sub-veins): retention >= 1.10 x H3_2L_L60 (sub-veins as additional arrest lines)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "V3_E",
+    "registry1",
+    "uncracked"
+   ],
+   "parent": "H3_2L_r0",
+   "prediction": {
+    "strength_Nm_rule": 17.8,
+    "strength_Nm_rule_b": 21.9,
+    "fracture_mode_class": "stepwise",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.42,
+    "modulus_2d_Nm": 141.0
+   },
+   "notes": null
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+  "updated_utc": "2026-09-24T12:28:50.959559+00:00",
+  "status": "completed",
+  "pid": 57570,
+  "method": "CPU float64 static reevaluation of archived float32 saved coordinates, without relaxation. Near-tolerance differences can reflect rounding; large exceedances are not a precision artifact.",
+  "engine": {
+    "potential": "screened second-generation REBO (REBO2+S / Rebo2Scr)",
+    "implementation": "TorchRebo2Scr (PyTorch autograd port of Atomistica Rebo2Scr kernel)",
+    "reference_implementation": "Atomistica 1.2.7 Rebo2Scr (commit 14a86f2c, 2025-10-21)",
+    "parameterization": "Brenner 2002 + Pastewka 2008 screening; Atomistica default tables; dihedral=False",
+    "citations": [
+      "D. W. Brenner, O. A. Shenderova, J. A. Harrison, S. J. Stuart, B. Ni, S. B. Sinnott, J. Phys.: Condens. Matter 14, 783 (2002).",
+      "L. Pastewka, P. Pou, R. Perez, P. Gumbsch, M. Moseler, Phys. Rev. B 78, 161402(R) (2008).",
+      "L. Pastewka, A. Klemenz, P. Gumbsch, M. Moseler, Phys. Rev. B 87, 205410 (2013).",
+      "Atomistica, https://github.com/Atomistica/atomistica (L. Pastewka et al.), version 1.2.7."
+    ],
+    "parameter_checksum": "889d31570b93077b66616e0896e64e30d808c53ae0dc95fce6cc37f4068de35f",
+    "device": "cpu",
+    "dtype": "torch.float64",
+    "torch_version": "2.7.0",
+    "units": "eV, Angstrom; 2D stress in eV/A^2 (x16.0218 = N/m)"
+  },
+  "script_sha256": "78c56fab64018eb68b796df12f5fff8775d237388e1febacaf2710878052384a",
+  "cases": [
+    {
+      "case_id": "ctrl__S1_pristine_zz",
+      "parent_run_id": "run_20260905_000440_9f82a7",
+      "n_frames": 29,
+      "frames_above_nominal_force_tolerance": 0,
+      "frames_above_5x_force_tolerance": 0,
+      "maximum_force_residual_eV_A": 0.019359061570092588,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "818556e3ffca4f103b38c685f33efb2914dcd8672d9890f4c3973ba1e7f6fbf0"
+    },
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "parent_run_id": "run_20260905_091359_4df2c2",
+      "n_frames": 52,
+      "frames_above_nominal_force_tolerance": 13,
+      "frames_above_5x_force_tolerance": 10,
+      "maximum_force_residual_eV_A": 1.7732462640398834,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "5927eb046c8861a8abe37d702597155f890488876c99edd3f03555169343e74e"
+    },
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "parent_run_id": "run_20260906_012602_320a91",
+      "n_frames": 36,
+      "frames_above_nominal_force_tolerance": 14,
+      "frames_above_5x_force_tolerance": 12,
+      "maximum_force_residual_eV_A": 1.2888395781298225,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "51ae4b27c34cc3c029c3b7186ebf0288c10511324b3a97f2c707850026b0cc6c"
+    },
+    {
+      "case_id": "ext__S7_slit_0deg_armchair",
+      "parent_run_id": "run_20260905_235534_a5e0cc",
+      "n_frames": 40,
+      "frames_above_nominal_force_tolerance": 0,
+      "frames_above_5x_force_tolerance": 0,
+      "maximum_force_residual_eV_A": 0.019829409659434846,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "9f99d6a8c7d0198b16580eb58f583c088b7e3c717b5a18b31dd6e1ace109c054"
+    },
+    {
+      "case_id": "ext__S5_H2_D40_W8_ellipseX",
+      "parent_run_id": "run_20260905_211848_7105d7",
+      "n_frames": 43,
+      "frames_above_nominal_force_tolerance": 25,
+      "frames_above_5x_force_tolerance": 17,
+      "maximum_force_residual_eV_A": 6.4769215150392325,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "376d1cad9d26befd3fd308fe6a35cd81304d4b9ec4e478deef4a4fce462ad398"
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "parent_run_id": "run_20260909_072235_a08e7c",
+      "n_frames": 60,
+      "frames_above_nominal_force_tolerance": 24,
+      "frames_above_5x_force_tolerance": 12,
+      "maximum_force_residual_eV_A": 3.566851808139894,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "2d791ddb2076be12b4c20f05c1fd7669fb489d60bc18d4d04f7ae39bd89add91"
+    },
+    {
+      "case_id": "ext__P3_H2_square_W8_ellipse_30deg",
+      "parent_run_id": "run_20260909_103406_61de19",
+      "n_frames": 42,
+      "frames_above_nominal_force_tolerance": 23,
+      "frames_above_5x_force_tolerance": 13,
+      "maximum_force_residual_eV_A": 3.4791406068386372,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "2e0a80cf73e286475adf3517acd811acbee5a6afbdb497b97987ef1f58e8baff"
+    },
+    {
+      "case_id": "ctrl__S2_slit_0deg",
+      "parent_run_id": "run_20260905_073634_1a440a",
+      "n_frames": 27,
+      "frames_above_nominal_force_tolerance": 4,
+      "frames_above_5x_force_tolerance": 4,
+      "maximum_force_residual_eV_A": 0.2995655466798671,
+      "force_tolerance_eV_A": 0.02,
+      "source_sha256": "8d59b467a768d9604c09fa8a4fe120ae750ac9e694ba48c43580a69c60b08c0e"
+    }
+  ]
+}

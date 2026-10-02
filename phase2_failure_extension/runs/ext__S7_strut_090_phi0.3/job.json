@@ -1,0 +1,14 @@
+{
+  "case_id": "ext__S7_strut_090_phi0.3",
+  "parent_run_id": "run_20260906_001619_c8351b",
+  "source_phase": "I",
+  "role": "extension",
+  "stage": "production",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000
+  }
+}

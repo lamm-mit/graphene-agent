@@ -1,0 +1,83 @@
+{
+  "recorded_utc": "2026-09-25T13:11:15.156874+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T13:11:08.148027+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 21,
+      "running": 3,
+      "pending": 16
+    },
+    "running": [
+      {
+        "case_id": "ext__S2_H2_D40_W4",
+        "pid": 18375,
+        "elapsed_s": 5881.729201793671,
+        "updated_utc": "2026-09-25T13:08:16.906801+00:00",
+        "frames": 48,
+        "attempted_step": 50,
+        "strain": 0.2862500000000001,
+        "stress_N_m": 1.5794738731691098,
+        "force_residual_eV_A": 0.5096569061279297,
+        "transverse_stress_N_m": 0.014296730076301296,
+        "wall_time_s": 5709.136619091034,
+        "virtual_original_stop": {
+          "index": 42,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 102
+      },
+      {
+        "case_id": "ext__S2_mesh_jitter2.0",
+        "pid": 24986,
+        "elapsed_s": 4914.885524988174,
+        "updated_utc": "2026-09-25T13:10:39.866015+00:00",
+        "frames": 31,
+        "attempted_step": 33,
+        "strain": 0.20125000000000007,
+        "stress_N_m": 3.818821962510079,
+        "force_residual_eV_A": 0.43310463428497314,
+        "transverse_stress_N_m": -0.034983265252202585,
+        "wall_time_s": 4885.720443725586,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 71
+      },
+      {
+        "case_id": "ext__S2_mesh_p16_armchair",
+        "pid": 50104,
+        "elapsed_s": 755.8308868408203,
+        "updated_utc": "2026-09-25T13:09:49.883300+00:00",
+        "frames": 17,
+        "attempted_step": 19,
+        "strain": 0.12625,
+        "stress_N_m": 5.459687742534637,
+        "force_residual_eV_A": 0.09211544692516327,
+        "transverse_stress_N_m": -0.01900281936854896,
+        "wall_time_s": 676.3735888004303,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 74
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n18375 43715    01:38:09  31:18.66  38.3 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n24986 43715    01:22:02  24:32.29  27.5 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-01:59:48   0:14.02   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-01:59:48   0:00.09   0.0 S    /usr/bin/caffeinate\n50104 43715       12:43   4:56.69  42.6 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__S2_mesh_jitter3.0.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T1310.json",
+  "execution_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "19/34 extensions complete (5/20 Phase-I, 14/14 earlier-Phase-II). Jitter=3 has B=C, earlier loss of spanning, peak +0.1256% and integral -22.9188% versus archive; this is a reproduction difference with no added interval. Its endpoint residual screen passes but the path has five flagged frames. Controls 2/2 complete; resolution 0/4. All three active workers are alive."
+}

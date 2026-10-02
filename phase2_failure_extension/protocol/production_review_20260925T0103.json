@@ -1,0 +1,92 @@
+{
+  "recorded_utc": "2026-09-25T01:07:07.278220+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T01:06:57.607059+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 8,
+      "running": 3,
+      "pending": 29
+    },
+    "running": [
+      {
+        "case_id": "ext__P1_slit_05deg",
+        "pid": 95263,
+        "elapsed_s": 2167.4159841537476,
+        "updated_utc": "2026-09-25T01:06:39.462900+00:00",
+        "frames": 30,
+        "attempted_step": 32,
+        "strain": 0.19625000000000006,
+        "stress_N_m": 7.848629640154552,
+        "force_residual_eV_A": 0.19260331988334656,
+        "transverse_stress_N_m": -0.019799189284820853,
+        "wall_time_s": 2148.222072839737,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 60
+      },
+      {
+        "case_id": "ext__P1_slit_10deg",
+        "pid": 95264,
+        "elapsed_s": 2167.4079587459564,
+        "updated_utc": "2026-09-25T01:06:48.728884+00:00",
+        "frames": 36,
+        "attempted_step": 38,
+        "strain": 0.21750000000000008,
+        "stress_N_m": 3.9135365321095374,
+        "force_residual_eV_A": 0.177363321185112,
+        "transverse_stress_N_m": 0.13956145765033373,
+        "wall_time_s": 2157.48805475235,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 116
+      },
+      {
+        "case_id": "ext__P1_slit_15deg",
+        "pid": 95265,
+        "elapsed_s": 2167.4056508541107,
+        "updated_utc": "2026-09-25T01:04:32.051903+00:00",
+        "frames": 29,
+        "attempted_step": 31,
+        "strain": 0.18125000000000008,
+        "stress_N_m": 14.459306560556245,
+        "force_residual_eV_A": 0.027663102373480797,
+        "transverse_stress_N_m": 0.01193134447279431,
+        "wall_time_s": 2020.8110599517822,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 24
+      }
+    ]
+  },
+  "process_snapshot": "43715     1 13:55:40   0:06.18 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_study.py\n95263 43715    36:17  13:34.95 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_05deg\n95264 43715    36:17  13:42.67 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_10deg\n95265 43715    36:17  13:46.20 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_15deg\n",
+  "all_expected_processes_alive": true,
+  "progress_since_production_launch": {
+    "ext__P1_slit_05deg": {
+      "additional_frames_since_production_launch": 23,
+      "current_strain": 0.19625000000000006
+    },
+    "ext__P1_slit_10deg": {
+      "additional_frames_since_production_launch": 27,
+      "current_strain": 0.21750000000000008
+    },
+    "ext__P1_slit_15deg": {
+      "additional_frames_since_production_launch": 21,
+      "current_strain": 0.18125000000000008
+    }
+  },
+  "new_main_completions_since_previous_review": 0,
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "existing_completed_result_review": "results/figure_review_20260925T0030.json",
+  "actions": {
+    "recovery": false,
+    "scheduler_launch": false,
+    "additional_loading_runs": false,
+    "protocol_amendment": false,
+    "figure_regeneration": false
+  },
+  "scientific_status": "Six of 34 extensions and two controls complete; four resolution checks pending. Running endpoints remain unavailable. Previously reported numerical limitations remain explicit; no new convergence claim."
+}

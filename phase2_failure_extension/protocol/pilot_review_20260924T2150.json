@@ -1,0 +1,80 @@
+{
+  "reviewed_utc": "2026-09-24T21:52:37.907687+00:00",
+  "queue_pid": 43715,
+  "queue_counts": {
+    "completed": 4,
+    "running": 3,
+    "pending": 33
+  },
+  "active_children": [
+    {
+      "case_id": "ext__S5_H2_D40_W8_ellipseX",
+      "pid": 80313,
+      "elapsed_s": 27099.509068012238,
+      "updated_utc": "2026-09-24T21:49:47.396288+00:00",
+      "frames": 77,
+      "attempted_step": 79,
+      "strain": 0.42875000000000024,
+      "stress_N_m": 2.7624212979795364,
+      "force_residual_eV_A": 0.05815999209880829,
+      "transverse_stress_N_m": 0.044897318762841566,
+      "wall_time_s": 26934.754765987396,
+      "virtual_original_stop": {
+        "index": 42,
+        "reason": "post-peak strain limit reached (load still carried)",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 147
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "pid": 94683,
+      "elapsed_s": 22866.762318134308,
+      "updated_utc": "2026-09-24T21:51:36.566771+00:00",
+      "frames": 70,
+      "attempted_step": 72,
+      "strain": 0.38125000000000026,
+      "stress_N_m": 3.031810455440159,
+      "force_residual_eV_A": 0.029353458434343338,
+      "transverse_stress_N_m": -0.02630332613166978,
+      "wall_time_s": 22811.249160051346,
+      "virtual_original_stop": {
+        "index": 57,
+        "reason": "max strain reached",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 85
+    },
+    {
+      "case_id": "ext__P3_H2_square_W8_ellipse_30deg",
+      "pid": 56060,
+      "elapsed_s": 1947.4354839324951,
+      "updated_utc": "2026-09-24T21:47:59.151819+00:00",
+      "frames": 18,
+      "attempted_step": 20,
+      "strain": 0.14125,
+      "stress_N_m": 9.613871887924313,
+      "force_residual_eV_A": 0.8870661854743958,
+      "transverse_stress_N_m": -0.2628481982483752,
+      "wall_time_s": 1674.3799088001251,
+      "virtual_original_stop": null,
+      "spanning": true,
+      "cumulative_broken": 25
+    }
+  ],
+  "new_pilot_completions": [
+    "ext__S7_slit_20deg"
+  ],
+  "completed_pilot_extensions": 3,
+  "planned_pilot_extensions": 6,
+  "completed_pilot_controls": 1,
+  "planned_pilot_controls": 2,
+  "new_result_review": "results/review_ext__S7_slit_20deg.json",
+  "figure_review": "results/figure_review_20260924T2150.json",
+  "static_rows_exported": 226,
+  "tests": "13 existing tests passed; independent 20-degree quadrature, stopping chronology and SI quality fields checked. Three 61-file frozen execution manifests unchanged.",
+  "production_approved": false,
+  "action": "Continue three remaining pilot extensions and then second control under the existing scheduler; no duplicate launch or scientific protocol change. Additional control refinements remain complete and unexpanded."
+}

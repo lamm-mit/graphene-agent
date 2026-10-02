@@ -1,0 +1,99 @@
+{
+  "generated_utc": "2026-09-26T12:48:30.616249+00:00",
+  "original_transition_log": [
+    "step  16 S2_voronoi_n50: e=0.0863 s=  7.01N/m nb=  3 | S2_slit_0deg: e=0.1600 s= 22.73N/m nb=  0 | S2_slit_45deg: e=0.1600 s=  2.14N/m nb=  0 | S2_slit_90deg: e=0.1600 s=  3.97N/m nb=  0  fire_it=340 t=2074s",
+    "  step 17: early bisection for [3] -> d_eps=[0.005]",
+    "  step 17: bisection for [2] -> d_eps=[0.005]",
+    "step  17 S2_voronoi_n50: e=0.0913 s=  5.86N/m nb=  4 | S2_slit_0deg: e=0.1700 s= 23.49N/m nb=  0 | S2_slit_45deg: e=0.1600 s=  2.14N/m nb=  4 | S2_slit_90deg: e=0.1600 s=  3.97N/m nb=  0  fire_it=910 t=2593s",
+    "step  18 S2_voronoi_n50: e=0.0963 s=  5.63N/m nb=  3 | S2_slit_0deg: e=0.1800 s= 24.23N/m nb=  0 | S2_slit_45deg: e=0.1650 s=  2.08N/m nb=  0 | S2_slit_90deg: e=0.1650 s=  3.89N/m nb=  0  fire_it=1200 t=3035s",
+    "  step 19: early bisection for [3] -> d_eps=[0.0025]",
+    "step  19 S2_voronoi_n50: e=0.1013 s=  4.62N/m nb=  9 | S2_slit_0deg: e=0.1900 s= 24.91N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.58N/m nb=  0 | S2_slit_90deg: e=0.1650 s=  3.89N/m nb=  0  fire_it=1200 t=3593s",
+    "  step 20: early bisection for [1, 2, 3] -> d_eps=[0.005   0.0025  0.00125]",
+    "step  20 S2_voronoi_n50: e=0.1063 s=  3.92N/m nb=  4 | S2_slit_0deg: e=0.1900 s= 24.91N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.58N/m nb=  0 | S2_slit_90deg: e=0.1650 s=  3.89N/m nb=  0  fire_it=960 t=3906s",
+    "  step 21: early bisection for [2] -> d_eps=[0.00125]",
+    "step  21 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  4* | S2_slit_0deg: e=0.1950 s= 25.22N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.58N/m nb=  0 | S2_slit_90deg: e=0.1663 s=  3.41N/m nb= 16  fire_it=900 t=4632s",
+    "step  22 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2000 s= 25.33N/m nb=  0 | S2_slit_45deg: e=0.1713 s=  2.64N/m nb=  0 | S2_slit_90deg: e=0.1713 s=  2.61N/m nb=  7  fire_it=1050 t=5095s",
+    "  step 23: early bisection for [1] -> d_eps=[0.0025]",
+    "step  23 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2000 s= 25.33N/m nb=  0 | S2_slit_45deg: e=0.1725 s=  2.75N/m nb=  0 | S2_slit_90deg: e=0.1763 s=  2.59N/m nb=  1  fire_it=1040 t=5437s",
+    "step  24 S2_voronoi_n50: e=0.1113 s=  1.10N/m nb=  0* | S2_slit_0deg: e=0.2025 s= 25.40N/m nb=  0 | S2_slit_45deg: e=0.1738 s=  1.51N/m nb=  4 | S2_slit_90deg: e=0.1813 s=  2.23N/m nb=  3  fire_it=1500 t=5889s"
+  ],
+  "replay_transition_log": [
+    "step  16 S2_voronoi_n50: e=0.0888 s=  5.66N/m nb=  3 | S2_slit_0deg: e=0.1600 s= 22.76N/m nb=  0 | S2_slit_45deg: e=0.1600 s=  2.09N/m nb=  0 | S2_slit_90deg: e=0.1600 s=  3.97N/m nb=  0  fire_it=740 t=2056s",
+    "  step 17: early bisection for [3] -> d_eps=[0.005]",
+    "step  17 S2_voronoi_n50: e=0.0938 s=  6.02N/m nb=  2 | S2_slit_0deg: e=0.1700 s= 23.53N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.55N/m nb=  0 | S2_slit_90deg: e=0.1600 s=  3.97N/m nb=  0  fire_it=290 t=2186s",
+    "  step 18: early bisection for [2, 3] -> d_eps=[0.005  0.0025]",
+    "step  18 S2_voronoi_n50: e=0.0988 s=  3.41N/m nb=  9 | S2_slit_0deg: e=0.1800 s= 24.28N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.55N/m nb=  0 | S2_slit_90deg: e=0.1600 s=  3.97N/m nb=  0  fire_it=840 t=2799s",
+    "  step 19: early bisection for [2] -> d_eps=[0.0025]",
+    "step  19 S2_voronoi_n50: e=0.1038 s=  0.98N/m nb=  4* | S2_slit_0deg: e=0.1900 s= 24.87N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.55N/m nb=  0 | S2_slit_90deg: e=0.1625 s=  3.94N/m nb=  0  fire_it=1500 t=3540s",
+    "  step 20: early bisection for [2, 3] -> d_eps=[0.00125 0.00125]",
+    "step  20 S2_voronoi_n50: e=0.1038 s=  0.98N/m nb=  0* | S2_slit_0deg: e=0.2000 s= 25.25N/m nb=  0 | S2_slit_45deg: e=0.1700 s=  2.55N/m nb=  0 | S2_slit_90deg: e=0.1625 s=  3.94N/m nb=  0  fire_it=400 t=3607s",
+    "  step 21: early bisection for [1] -> d_eps=[0.005]",
+    "step  21 S2_voronoi_n50: e=0.1038 s=  0.98N/m nb=  0* | S2_slit_0deg: e=0.2000 s= 25.25N/m nb=  0 | S2_slit_45deg: e=0.1713 s=  2.67N/m nb=  0 | S2_slit_90deg: e=0.1638 s=  3.90N/m nb=  0  fire_it=400 t=3682s",
+    "  step 22: early bisection for [1] -> d_eps=[0.0025]",
+    "step  22 S2_voronoi_n50: e=0.1038 s=  0.98N/m nb=  0* | S2_slit_0deg: e=0.2000 s= 25.25N/m nb=  0 | S2_slit_45deg: e=0.1725 s=  1.70N/m nb=  8 | S2_slit_90deg: e=0.1650 s=  3.37N/m nb= 16  fire_it=420 t=3919s",
+    "step  23 S2_voronoi_n50: e=0.1038 s=  0.98N/m nb=  0* | S2_slit_0deg: e=0.2025 s= 25.36N/m nb=  0 | S2_slit_45deg: e=0.1775 s=  2.46N/m nb=  0 | S2_slit_90deg: e=0.1700 s=  3.02N/m nb=  4  fire_it=1500 t=4352s",
+    "  step 24: early bisection for [1] -> d_eps=[0.00125]"
+  ],
+  "extra_full_minimizations_after_target_passed_trial": [
+    {
+      "time": "2026-09-26T12:09:06.849750+00:00",
+      "callsite_line": 303,
+      "target_eps": 0.17,
+      "target_eps_y": -0.19082137653282047,
+      "active": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "budget": 1500,
+      "iterations": 290,
+      "converged": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "soft": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "fmax": [
+        0.017875535413622856,
+        0.013931423425674438,
+        0.017891643568873405,
+        0.011997349560260773
+      ],
+      "target_max_component_motion_A": 0.0
+    }
+  ],
+  "observed": "Original attempt at strain 0.17 was rejected after the post-trial processing, then 0.165 was accepted before returning to 0.17. R1 accepted 0.17 directly. This is a difference in the adaptive loading history, not proof that the intermediate step alone causes the later stress difference.",
+  "qualification": "The number of active, already-converged target retries is explicitly reported; zero target motion in such a call only rules out extra coordinate relaxation during that call. Neighbor refreshes, roundoff, transverse relaxation and path selection remain under review.",
+  "accepted_strain_sequences": {
+    "Phase 1 single shot": [
+      0.16,
+      0.165,
+      0.17,
+      0.17125,
+      0.17250000000000001,
+      0.17375000000000002,
+      0.17875000000000002
+    ],
+    "Phase 2 primary": [
+      0.16,
+      0.17,
+      0.17125,
+      0.17625000000000002
+    ],
+    "R1_original_batch4": [
+      0.16,
+      0.17,
+      0.17125,
+      0.17250000000000001,
+      0.17750000000000002
+    ]
+  },
+  "script_sha256": "556cbda109d030b9319c48e08dbbcf8e22a929d0b1c26ec49e1e8286eab31e1a"
+}

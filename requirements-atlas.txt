@@ -1,0 +1,15 @@
+# Geometry generation, saved-map analysis, and dataset tools.
+# Exact historical environment: atlas/graphene_design_dataset_256k/requirements.txt
+numpy>=2.0
+scipy>=1.13
+ase>=3.23
+pillow>=10
+scikit-learn>=1.6
+umap-learn>=0.5.9
+numba>=0.61
+pyarrow>=19
+datasets>=3
+huggingface_hub>=0.28
+jsonschema>=4.23
+# Only required for movies/thumbnail generation:
+opencv-python>=4.10

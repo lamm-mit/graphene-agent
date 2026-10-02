@@ -1,0 +1,58 @@
+{
+  "recorded_utc": "2026-09-26T06:19:20.960224+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T06:19:14.010480+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 39,
+      "running": 1
+    },
+    "running": [
+      {
+        "case_id": "res__S7_slit_20deg",
+        "pid": 46173,
+        "elapsed_s": 14269.35251712799,
+        "updated_utc": "2026-09-26T06:18:54.634245+00:00",
+        "frames": 169,
+        "attempted_step": 171,
+        "strain": 0.46250000000000036,
+        "stress_N_m": 2.2613564862567976,
+        "force_residual_eV_A": 0.24694162607192993,
+        "transverse_stress_N_m": -0.08484588470476274,
+        "wall_time_s": 14248.906240940094,
+        "virtual_original_stop": {
+          "index": 111,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 201
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n43715     1 01-19:07:53   0:27.07   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-19:07:53   0:00.09   0.0 S    /usr/bin/caffeinate\n46173 43715    03:57:56  95:22.34  51.6 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "remaining_worker_has_new_accepted_frames": true,
+  "new_completed_cases": [
+    "res__S2_slit_45deg"
+  ],
+  "independent_case_review": "results/review_res__S2_slit_45deg.json",
+  "resolution_comparison": "results/resolution_comparison_res__S2_slit_45deg.json",
+  "last_figure_review": "results/figure_review_20260926T0620.json",
+  "checksum_counts": {
+    "input": 772,
+    "execution_code": 61,
+    "verified_code": 61,
+    "refinement_code": 61,
+    "current_paper_sources_and_copies": 27
+  },
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "34/34 primary extensions, 2/2 controls and 3/4 resolution checks complete. The 45-degree check changes peak -6.1668%, ending strain +3.0246%, integral -5.3295% relative to primary. Its B-to-C integral gain remains +81.2618%, without a new peak. Residual flags remain; convergence is not established. Only the 20-degree resolution check remains running."
+}

@@ -1,0 +1,16 @@
+{
+  "reviewed_utc": "2026-09-26T14:43:36.075982+00:00",
+  "figure": "figures/single_replay_comparison.png",
+  "layout_pass": true,
+  "no_clipped_or_overlapping_labels": true,
+  "caption_defines_interpolation_censoring_residual_provenance": true,
+  "all_79_frozen_checksums_verified": true,
+  "all_51_saved_force_norms_verified": true,
+  "source_record": "runs/R2_original_single/record.json",
+  "scope": "Only R2 required by Q9a; R1 suspended, R3 deferred",
+  "manuscript_changed": false,
+  "figures": {
+    "figures/single_replay_comparison.png": "125632ea160cb7b0d5636de5ff1a44562584f7abbc1cc81b637d302eaaf4e580",
+    "figures/single_replay_comparison.svg": "2dea915aeef2545cfd83fcd72d5a9f3794b401ce3e296bb572092d794ff0cd4b"
+  }
+}

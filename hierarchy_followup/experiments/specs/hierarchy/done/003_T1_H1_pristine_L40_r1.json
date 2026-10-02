@@ -1,0 +1,59 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "003_T1_H1_pristine_L40_r1",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H1_pristine_L40_r1",
+   "family": "pristine",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "orientation": "zigzag",
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "reason": "T1 reference: pristine sheet with a 40 A crack perpendicular to the load in the 120 A cell, registry 1",
+   "hypothesis": "sharp crack in the pristine sheet: net section 0.67 but the phase-1 notch series gives retention 0.47 (lattice-trapping plateau); the cell is 120 A instead of 100/150 A",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "flaw",
+    "pristine",
+    "registry1",
+    "cracked"
+   ],
+   "parent": "S1_pristine_zz",
+   "prediction": {
+    "strength_Nm_rule": 26.2,
+    "strength_Nm_mechanism": 18.3,
+    "retention_rule": 0.675,
+    "retention_mechanism": 0.472,
+    "modulus_2d_Nm": 200.0,
+    "work_to_failure_J_m2": 0.88,
+    "failure_strain": 0.09,
+    "fracture_mode_class": "abrupt"
+   },
+   "notes": null
+  }
+ ]
+}

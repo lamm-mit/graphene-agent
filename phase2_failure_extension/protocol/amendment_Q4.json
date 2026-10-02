@@ -1,0 +1,20 @@
+{
+  "id": "Q4",
+  "recorded_utc": "2026-09-24T13:09:31.884994+00:00",
+  "reason": "Q1 transverse relaxation changes the control endpoint; Q2 exposes accepted high-force states; conservative Q3 relaxation resolved the 45-degree force residual but left transverse stress unresolved. Check both residuals in a separately versioned loading driver.",
+  "scope": "Pristine diagnostic control first. A 20-degree slit diagnostic is prepared but is not authorized for automatic launch until this control has been reviewed. Primary jobs and source code remain frozen.",
+  "changes": [
+    "Conservative FIRE dt=0.05, dt_max=0.2, maxstep=0.05; disable soft-stall acceptance.",
+    "Maximum 4000 iterations per full or transverse minimization; 15 transverse iterations, preserving parent trial/bracketing strain settings.",
+    "Up to four additional coupled force/transverse correction sweeps; accept only finite final forces below 0.02 eV/Angstrom and transverse stress within the parent tolerance.",
+    "Verify initial zero-stress state before recording; preserve rejected candidate structures and residuals; end unresolved trajectories as numerical limitations at the last accepted state.",
+    "Convergence flag now describes the final accepted state."
+  ],
+  "interpretation": "A new numerical-protocol branch. Its changes must be reported separately from B-to-C observation-window changes. Passing residual checks does not establish increment-size convergence or validate the force-field model.",
+  "validation": "11 tests passed, including real small-sheet loading, final force/transverse acceptance and an injected unresolved candidate that is rejected without reporting failure.",
+  "jobs": [
+    "quality__S1_pristine_zz_verified_Q4",
+    "quality__S7_slit_20deg_verified_Q4"
+  ],
+  "production_gate_released": false
+}

@@ -1,0 +1,1997 @@
+{
+ "name": "hierarchy_T5_predictions",
+ "written": "2026-09-23 16:01:08",
+ "notes": "Pre-registered predictions of T5 (composite hierarchies), written before its specs were written; T5 runs after T3 in its own queue. Success criteria: H5a fibrous veins (VF_E, VF_R): residual after the first avalanche >= 0.6 at both registries and post-peak energy >= 1.5 x the solid-vein reference (H3_2L for VF_E, VS_R for VF_R); cracked retention >= 1.15 x rule and >= the reference's cracked retention. H5b porous veins (VE_R, VR_E): rule only; pass = no flaw-tolerance advantage (retention <= reference). H5c grid designs (GR_0, GFx_0): residual >= 0.6 and post-peak strain range >= 0.03; cracked retention >= 1.15 x rule and > GS_L40 retention. H5d three levels (V3_E): strength within the one-level scatter of H3_2L (2.0 N/m); cracked retention >= 1.10 x H3_2L_L60 retention. Rule inputs: straight 28.91, fine_round 16.55, aligned elongated-pore mesh 24.12 N/m per unit section. Loading as T1-T4 (AQS_H).",
+ "predictions": [
+  {
+   "name": "H5_VF_E_r0",
+   "test": "T5",
+   "archetype": "VF_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "ellipse_x",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 3.456
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.198,
+   "porosity_base": 0.198,
+   "n_atoms": 27395,
+   "minSF": 0.7594,
+   "alignment_A": 0.4223,
+   "crack_column": {
+    "SF": 0.828079306546048,
+    "SF_vein": 0.2296495242850376,
+    "SF_fine": 0.5984297822610104,
+    "x_col": 65.5,
+    "SF_seam_artefact": 0.7593520766505258
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 16.5,
+    "strength_Nm_rule_b": 21.1,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.32,
+    "modulus_2d_Nm": 129.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); graceful veins: a slit bundle cannot be severed at once, each strip fails separately; strength <= the solid-vein reference (H3_2L) by the rule, residual after the first avalanche >= 0.6 and post-peak energy >= 1.5 x H3_2L; cracked: retention >= 1.15 x rule and >= the retention of H3_2L_L60",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_E",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VF_E_r1",
+   "test": "T5",
+   "archetype": "VF_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "ellipse_x",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 3.562
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.2047,
+   "porosity_base": 0.2047,
+   "n_atoms": 27168,
+   "minSF": 0.7728,
+   "alignment_A": 0.4314,
+   "crack_column": {
+    "SF": 0.828079306546048,
+    "SF_vein": 0.2296495242850376,
+    "SF_fine": 0.5984297822610104,
+    "x_col": 6.5,
+    "SF_seam_artefact": 0.7727622678496521
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 16.5,
+    "strength_Nm_rule_b": 21.1,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.32,
+    "modulus_2d_Nm": 129.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); graceful veins: a slit bundle cannot be severed at once, each strip fails separately; strength <= the solid-vein reference (H3_2L) by the rule, residual after the first avalanche >= 0.6 and post-peak energy >= 1.5 x H3_2L; cracked: retention >= 1.15 x rule and >= the retention of H3_2L_L60",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_E",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VF_E_L60_r0",
+   "test": "T5",
+   "archetype": "VF_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "ellipse_x",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 3.456
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_VF_E_r0",
+   "porosity": 0.2005,
+   "porosity_base": 0.198,
+   "n_atoms": 27312,
+   "minSF": 0.6873,
+   "alignment_A": 0.4197,
+   "crack_column": {
+    "SF": 0.687272298955222,
+    "SF_vein": 0.2547936327833994,
+    "SF_fine": 0.4324786661718226,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.687272298955222
+   },
+   "crack_actual": {
+    "crack_len_actual": 59.6561218345733,
+    "crack_w_actual": 7.380530999999991,
+    "tip_lo": [
+     150.070797,
+     19.88537394485776
+    ],
+    "tip_hi": [
+     150.070797,
+     79.54149577943106
+    ],
+    "n_removed_cut": 69,
+    "n_pruned": 14
+   },
+   "tip_to_vein_A": [
+    4.89,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 13.7,
+    "strength_Nm_mechanism": 15.7,
+    "retention_rule": 0.83,
+    "retention_mechanism": 0.954,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.15: graceful veins: a slit bundle cannot be severed at once, each strip fails separately; strength <= the solid-vein reference (H3_2L) by the rule, residual after the first avalanche >= 0.6 and post-peak energy >= 1.5 x H3_2L; cracked: retention >= 1.15 x rule and >= the retention of H3_2L_L60",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_E",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H5_VF_E_L60_r1",
+   "test": "T5",
+   "archetype": "VF_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "ellipse_x",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 3.562
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5041,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_VF_E_r1",
+   "porosity": 0.2073,
+   "porosity_base": 0.2047,
+   "n_atoms": 27078,
+   "minSF": 0.6839,
+   "alignment_A": 0.4285,
+   "crack_column": {
+    "SF": 0.6839197511554405,
+    "SF_vein": 0.2547936327833994,
+    "SF_fine": 0.42912611837204107,
+    "x_col": 150.5,
+    "SF_seam_artefact": 0.6839197511554405
+   },
+   "crack_actual": {
+    "crack_len_actual": 60.36631376117536,
+    "crack_w_actual": 7.380531000000019,
+    "tip_lo": [
+     151.3013775354,
+     19.1751820182557
+    ],
+    "tip_hi": [
+     151.3013775354,
+     79.54149577943106
+    ],
+    "n_removed_cut": 71,
+    "n_pruned": 19
+   },
+   "tip_to_vein_A": [
+    4.18,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 13.6,
+    "strength_Nm_mechanism": 15.7,
+    "retention_rule": 0.826,
+    "retention_mechanism": 0.95,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.15: graceful veins: a slit bundle cannot be severed at once, each strip fails separately; strength <= the solid-vein reference (H3_2L) by the rule, residual after the first avalanche >= 0.6 and post-peak energy >= 1.5 x H3_2L; cracked: retention >= 1.15 x rule and >= the retention of H3_2L_L60",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_E",
+    "registry1",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H5_VF_R_r0",
+   "test": "T5",
+   "archetype": "VF_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    }
+   },
+   "seed": 0,
+   "parent": "H5_VS_R_r0",
+   "porosity": 0.1971,
+   "porosity_base": 0.1971,
+   "n_atoms": 27426,
+   "minSF": 0.7275,
+   "alignment_A": 0.2565,
+   "crack_column": {
+    "SF": 0.8062877458474678,
+    "SF_vein": 0.2296495242850376,
+    "SF_fine": 0.5766382215624302,
+    "x_col": 53.5,
+    "SF_seam_artefact": 0.7275028725526008
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 16.2,
+    "strength_Nm_rule_b": 16.2,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.29,
+    "modulus_2d_Nm": 127.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); graceful veins with a weaker (round-pore) domain filler that fails first: two-stage failure with residual >= 0.6 and post-peak energy >= 1.5 x VS_R",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_R",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VF_R_r1",
+   "test": "T5",
+   "archetype": "VF_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "round",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    }
+   },
+   "seed": 0,
+   "parent": "H5_VS_R_r0",
+   "porosity": 0.1971,
+   "porosity_base": 0.1971,
+   "n_atoms": 27428,
+   "minSF": 0.7728,
+   "alignment_A": 0.2575,
+   "crack_column": {
+    "SF": 0.804611471947577,
+    "SF_vein": 0.2296495242850376,
+    "SF_fine": 0.5749619476625394,
+    "x_col": 54.5,
+    "SF_seam_artefact": 0.7727622678496521
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 16.2,
+    "strength_Nm_rule_b": 16.2,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.29,
+    "modulus_2d_Nm": 126.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); graceful veins with a weaker (round-pore) domain filler that fails first: two-stage failure with residual >= 0.6 and post-peak energy >= 1.5 x VS_R",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_R",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VF_R_L60_r0",
+   "test": "T5",
+   "archetype": "VF_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_VF_R_r0",
+   "porosity": 0.1995,
+   "porosity_base": 0.1971,
+   "n_atoms": 27345,
+   "minSF": 0.6705,
+   "alignment_A": 0.2552,
+   "crack_column": {
+    "SF": 0.6705095599563141,
+    "SF_vein": 0.2547936327833994,
+    "SF_fine": 0.4157159271729148,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.6705095599563141
+   },
+   "crack_actual": {
+    "crack_len_actual": 59.6561218345733,
+    "crack_w_actual": 7.380530999999992,
+    "tip_lo": [
+     150.070797,
+     19.88537394485776
+    ],
+    "tip_hi": [
+     150.070797,
+     79.54149577943106
+    ],
+    "n_removed_cut": 65,
+    "n_pruned": 16
+   },
+   "tip_to_vein_A": [
+    4.89,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 13.5,
+    "strength_Nm_mechanism": 15.5,
+    "retention_rule": 0.832,
+    "retention_mechanism": 0.956,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.15: graceful veins with a weaker (round-pore) domain filler that fails first: two-stage failure with residual >= 0.6 and post-peak energy >= 1.5 x VS_R",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_R",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H5_VE_R_r0",
+   "test": "T5",
+   "archetype": "VE_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "ellipse_x",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 4.6
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    }
+   },
+   "seed": 0,
+   "parent": "H5_VS_R_r0",
+   "porosity": 0.1996,
+   "porosity_base": 0.1996,
+   "n_atoms": 27340,
+   "minSF": 0.7107,
+   "alignment_A": 0.1579,
+   "crack_column": {
+    "SF": 0.8079640197473585,
+    "SF_vein": 0.23132579818492838,
+    "SF_fine": 0.5766382215624302,
+    "x_col": 180.0,
+    "SF_seam_artefact": 0.710740133553693
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 13.4,
+    "strength_Nm_rule_b": 15.1,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.07,
+    "modulus_2d_Nm": 127.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); two different porous levels: the aligned-pore vein material (~22 N/m net section) replaces solid graphene; hypothesis: strength = rule_b, no crack-arrest bonus (retention = rule)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VE_R",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VE_R_r1",
+   "test": "T5",
+   "archetype": "VE_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "ellipse_x",
+    "fill_domain": "round",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 4.6
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    }
+   },
+   "seed": 0,
+   "parent": "H5_VS_R_r0",
+   "porosity": 0.1988,
+   "porosity_base": 0.1988,
+   "n_atoms": 27369,
+   "minSF": 0.7644,
+   "alignment_A": 0.1581,
+   "crack_column": {
+    "SF": 0.8113165675471401,
+    "SF_vein": 0.23635461988460074,
+    "SF_fine": 0.5749619476625394,
+    "x_col": 193.5,
+    "SF_seam_artefact": 0.7643808983501982
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 13.4,
+    "strength_Nm_rule_b": 15.2,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.07,
+    "modulus_2d_Nm": 128.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); two different porous levels: the aligned-pore vein material (~22 N/m net section) replaces solid graphene; hypothesis: strength = rule_b, no crack-arrest bonus (retention = rule)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VE_R",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VE_R_L60_r0",
+   "test": "T5",
+   "archetype": "VE_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "ellipse_x",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 4.6
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_VE_R_r0",
+   "porosity": 0.202,
+   "porosity_base": 0.1996,
+   "n_atoms": 27259,
+   "minSF": 0.6755,
+   "alignment_A": 0.1563,
+   "crack_column": {
+    "SF": 0.6755383816559866,
+    "SF_vein": 0.25646990668329017,
+    "SF_fine": 0.41906847497269634,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.6755383816559866
+   },
+   "crack_actual": {
+    "crack_len_actual": 59.6561218345733,
+    "crack_w_actual": 7.380530999999992,
+    "tip_lo": [
+     150.070797,
+     19.88537394485776
+    ],
+    "tip_hi": [
+     150.070797,
+     79.54149577943106
+    ],
+    "n_removed_cut": 65,
+    "n_pruned": 16
+   },
+   "tip_to_vein_A": [
+    4.89,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 11.2,
+    "strength_Nm_mechanism": 11.2,
+    "retention_rule": 0.836,
+    "retention_mechanism": 0.836,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.0: two different porous levels: the aligned-pore vein material (~22 N/m net section) replaces solid graphene; hypothesis: strength = rule_b, no crack-arrest bonus (retention = rule)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VE_R",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H5_VR_E_r0",
+   "test": "T5",
+   "archetype": "VR_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "round",
+    "fill_domain": "ellipse_x",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 5.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 3.988
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.2009,
+   "porosity_base": 0.2009,
+   "n_atoms": 27298,
+   "minSF": 0.7191,
+   "alignment_A": 0.2401,
+   "crack_column": {
+    "SF": 0.8264030326461572,
+    "SF_vein": 0.2413834415842731,
+    "SF_fine": 0.5850195910618841,
+    "x_col": 132.0,
+    "SF_seam_artefact": 0.7191215030531469
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 13.7,
+    "strength_Nm_rule_b": 18.1,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.09,
+    "modulus_2d_Nm": 131.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); porous, weaker veins: strength = rule (below H3_2L); hypothesis: no flaw-tolerance advantage over the one-level fine mesh (retention <= H3_1L_fine_L60)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VR_E",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VR_E_r1",
+   "test": "T5",
+   "archetype": "VR_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "round",
+    "fill_domain": "ellipse_x",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 5.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 3.988
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.2003,
+   "porosity_base": 0.2003,
+   "n_atoms": 27317,
+   "minSF": 0.7644,
+   "alignment_A": 0.2379,
+   "crack_column": {
+    "SF": 0.8247267587462664,
+    "SF_vein": 0.23970716768438233,
+    "SF_fine": 0.5850195910618841,
+    "x_col": 193.5,
+    "SF_seam_artefact": 0.7643808983501982
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 13.6,
+    "strength_Nm_rule_b": 18.1,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.09,
+    "modulus_2d_Nm": 130.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); porous, weaker veins: strength = rule (below H3_2L); hypothesis: no flaw-tolerance advantage over the one-level fine mesh (retention <= H3_1L_fine_L60)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VR_E",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VR_E_L60_r0",
+   "test": "T5",
+   "archetype": "VR_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "round",
+    "fill_domain": "ellipse_x",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 5.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 3.988
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_VR_E_r0",
+   "porosity": 0.2033,
+   "porosity_base": 0.2009,
+   "n_atoms": 27216,
+   "minSF": 0.6772,
+   "alignment_A": 0.2364,
+   "crack_column": {
+    "SF": 0.6772146555558773,
+    "SF_vein": 0.2547936327833994,
+    "SF_fine": 0.42242102277247795,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.6772146555558773
+   },
+   "crack_actual": {
+    "crack_len_actual": 60.36631376117536,
+    "crack_w_actual": 7.380530999999991,
+    "tip_lo": [
+     150.070797,
+     19.1751820182557
+    ],
+    "tip_hi": [
+     150.070797,
+     79.54149577943106
+    ],
+    "n_removed_cut": 66,
+    "n_pruned": 16
+   },
+   "tip_to_vein_A": [
+    4.18,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 11.2,
+    "strength_Nm_mechanism": 11.2,
+    "retention_rule": 0.819,
+    "retention_mechanism": 0.819,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.0: porous, weaker veins: strength = rule (below H3_2L); hypothesis: no flaw-tolerance advantage over the one-level fine mesh (retention <= H3_1L_fine_L60)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VR_E",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H5_VS_R_r0",
+   "test": "T5",
+   "archetype": "VS_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 6.609
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.202,
+   "porosity_base": 0.202,
+   "n_atoms": 27260,
+   "minSF": 0.7292,
+   "alignment_A": 0.3002,
+   "crack_column": {
+    "SF": 0.8096402936472493,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.507910991666908,
+    "x_col": 95.0,
+    "SF_seam_artefact": 0.7291791464524917
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.1,
+    "strength_Nm_rule_b": 17.1,
+    "fracture_mode_class": "stepwise",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.37,
+    "modulus_2d_Nm": 136.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); solid veins with a round-pore filler (T4 geometry at scale, vein fraction 0.3): reference of VF_R / VE_R; two-stage hypothesis as T4 (residual >= 0.6, post-peak energy >= 1.5 x H3_1L_fine)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VS_R",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VS_R_r1",
+   "test": "T5",
+   "archetype": "VS_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "round",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 6.5
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.1951,
+   "porosity_base": 0.1951,
+   "n_atoms": 27496,
+   "minSF": 0.7677,
+   "alignment_A": 0.297,
+   "crack_column": {
+    "SF": 0.8146691153469218,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.5129398133665803,
+    "x_col": 49.5,
+    "SF_seam_artefact": 0.7677334461499797
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.2,
+    "strength_Nm_rule_b": 17.2,
+    "fracture_mode_class": "stepwise",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.38,
+    "modulus_2d_Nm": 137.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); solid veins with a round-pore filler (T4 geometry at scale, vein fraction 0.3): reference of VF_R / VE_R; two-stage hypothesis as T4 (residual >= 0.6, post-peak energy >= 1.5 x H3_1L_fine)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VS_R",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_VS_R_L60_r0",
+   "test": "T5",
+   "archetype": "VS_R",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 6.609
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_VS_R_r0",
+   "porosity": 0.2045,
+   "porosity_base": 0.202,
+   "n_atoms": 27173,
+   "minSF": 0.6806,
+   "alignment_A": 0.301,
+   "crack_column": {
+    "SF": 0.6805672033556589,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.37883790137531753,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.6805672033556589
+   },
+   "crack_actual": {
+    "crack_len_actual": 60.36631376117536,
+    "crack_w_actual": 7.380530999999991,
+    "tip_lo": [
+     150.070797,
+     19.1751820182557
+    ],
+    "tip_hi": [
+     150.070797,
+     79.54149577943106
+    ],
+    "n_removed_cut": 59,
+    "n_pruned": 28
+   },
+   "tip_to_vein_A": [
+    4.18,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 14.4,
+    "strength_Nm_mechanism": 14.4,
+    "retention_rule": 0.841,
+    "retention_mechanism": 0.841,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.0: solid veins with a round-pore filler (T4 geometry at scale, vein fraction 0.3): reference of VF_R / VE_R; two-stage hypothesis as T4 (residual >= 0.6, post-peak energy >= 1.5 x H3_1L_fine)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VS_R",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H5_GR_0_r0",
+   "test": "T5",
+   "archetype": "GR_0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "round",
+    "fill_domain": "empty",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 3.688
+    },
+    "domain_params": {}
+   },
+   "seed": 0,
+   "parent": "H5_GS_r0",
+   "porosity": 0.2023,
+   "porosity_base": 0.2023,
+   "n_atoms": 27251,
+   "minSF": 0.5766,
+   "alignment_A": 0.0227,
+   "crack_column": {
+    "SF": 0.5766382215624302,
+    "SF_vein": 0.5749619476625394,
+    "SF_fine": 0.0016762738998907854,
+    "x_col": 36.0,
+    "SF_seam_artefact": 0.5766382215624302
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 9.5,
+    "strength_Nm_rule_b": 9.5,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 0.76,
+    "modulus_2d_Nm": 144.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); mesh of meshes: strength = rule (fine-round bars, well below the solid-bar grid), but damage tolerance: residual >= 0.6, post-peak strain range >= 0.03; cracked (40 A in a bar): retention >= 1.15 x rule and > GS_L40 (pores blunt the tip)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GR_0",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_GR_0_r1",
+   "test": "T5",
+   "archetype": "GR_0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "round",
+    "fill_domain": "empty",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 3.5
+    },
+    "domain_params": {}
+   },
+   "seed": 0,
+   "parent": "H5_GS_r0",
+   "porosity": 0.1954,
+   "porosity_base": 0.1954,
+   "n_atoms": 27486,
+   "minSF": 0.5867,
+   "alignment_A": 0.0325,
+   "crack_column": {
+    "SF": 0.586695864961775,
+    "SF_vein": 0.5850195910618841,
+    "SF_fine": 0.0016762738998907854,
+    "x_col": 241.5,
+    "SF_seam_artefact": 0.586695864961775
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 9.7,
+    "strength_Nm_rule_b": 9.7,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 0.77,
+    "modulus_2d_Nm": 146.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); mesh of meshes: strength = rule (fine-round bars, well below the solid-bar grid), but damage tolerance: residual >= 0.6, post-peak strain range >= 0.03; cracked (40 A in a bar): retention >= 1.15 x rule and > GS_L40 (pores blunt the tip)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GR_0",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_GR_0_L40_r0",
+   "test": "T5",
+   "archetype": "GR_0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "round",
+    "fill_domain": "empty",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 3.688
+    },
+    "domain_params": {},
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.333333
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_GR_0_r0",
+   "porosity": 0.2037,
+   "porosity_base": 0.2023,
+   "n_atoms": 27202,
+   "minSF": 0.4777,
+   "alignment_A": 0.0203,
+   "crack_column": {
+    "SF": 0.4777380614688738,
+    "SF_vein": 0.4727092397692015,
+    "SF_fine": 0.005028821699672357,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.4777380614688738
+   },
+   "crack_actual": {
+    "crack_len_actual": 39.77074788971551,
+    "crack_w_actual": 2.460177000000018,
+    "tip_lo": [
+     150.070797,
+     79.54149577943106
+    ],
+    "tip_hi": [
+     150.070797,
+     119.31224366914657
+    ],
+    "n_removed_cut": 49,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": [
+    47.04,
+    47.04
+   ],
+   "predicted": {
+    "strength_Nm_rule": 7.9,
+    "strength_Nm_mechanism": 9.1,
+    "retention_rule": 0.828,
+    "retention_mechanism": 0.953,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.15: mesh of meshes: strength = rule (fine-round bars, well below the solid-bar grid), but damage tolerance: residual >= 0.6, post-peak strain range >= 0.03; cracked (40 A in a bar): retention >= 1.15 x rule and > GS_L40 (pores blunt the tip)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GR_0",
+    "registry0",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H5_GR_0_L40_r1",
+   "test": "T5",
+   "archetype": "GR_0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "round",
+    "fill_domain": "empty",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "period": 12.0,
+     "pore_d": 3.5
+    },
+    "domain_params": {},
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5041,
+     0.333333
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_GR_0_r1",
+   "porosity": 0.1968,
+   "porosity_base": 0.1954,
+   "n_atoms": 27436,
+   "minSF": 0.4677,
+   "alignment_A": 0.03,
+   "crack_column": {
+    "SF": 0.46768041806952915,
+    "SF_vein": 0.46265159636985675,
+    "SF_fine": 0.005028821699672357,
+    "x_col": 150.5,
+    "SF_seam_artefact": 0.46768041806952915
+   },
+   "crack_actual": {
+    "crack_len_actual": 41.19113174291964,
+    "crack_w_actual": 2.4601769999999896,
+    "tip_lo": [
+     151.3013775354,
+     78.831303852829
+    ],
+    "tip_hi": [
+     151.3013775354,
+     120.02243559574863
+    ],
+    "n_removed_cut": 48,
+    "n_pruned": 2
+   },
+   "tip_to_vein_A": [
+    46.33,
+    46.33
+   ],
+   "predicted": {
+    "strength_Nm_rule": 7.7,
+    "strength_Nm_mechanism": 8.9,
+    "retention_rule": 0.797,
+    "retention_mechanism": 0.917,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.15: mesh of meshes: strength = rule (fine-round bars, well below the solid-bar grid), but damage tolerance: residual >= 0.6, post-peak strain range >= 0.03; cracked (40 A in a bar): retention >= 1.15 x rule and > GS_L40 (pores blunt the tip)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GR_0",
+    "registry1",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H5_GFx_0_r0",
+   "test": "T5",
+   "archetype": "GFx_0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 70.938,
+    "fill_solid": "slits_x",
+    "fill_domain": "empty",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 20.0
+    },
+    "domain_params": {},
+    "fill_solid_y": "none",
+    "solid_y_params": {}
+   },
+   "seed": 0,
+   "parent": "H5_GS_r0",
+   "porosity": 0.1961,
+   "porosity_base": 0.1961,
+   "n_atoms": 27462,
+   "minSF": 0.6118,
+   "alignment_A": 0.4934,
+   "crack_column": {
+    "SF": 0.6118399734601366,
+    "SF_vein": 0.6084874256603551,
+    "SF_fine": 0.003352547799781571,
+    "x_col": 37.5,
+    "SF_seam_artefact": 0.6118399734601366
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.6,
+    "strength_Nm_rule_b": 17.6,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.41,
+    "modulus_2d_Nm": 153.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); fibre-bar frame: strength = rule (strips), progressive failure strip by strip: residual >= 0.6; cracked: retention >= 1.15 x rule and > GS_L40",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GFx_0",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_GFx_0_r1",
+   "test": "T5",
+   "archetype": "GFx_0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 70.938,
+    "fill_solid": "slits_x",
+    "fill_domain": "empty",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 20.0
+    },
+    "domain_params": {},
+    "fill_solid_y": "none",
+    "solid_y_params": {}
+   },
+   "seed": 0,
+   "parent": "H5_GS_r0",
+   "porosity": 0.1958,
+   "porosity_base": 0.1958,
+   "n_atoms": 27470,
+   "minSF": 0.6118,
+   "alignment_A": 0.4931,
+   "crack_column": {
+    "SF": 0.6118399734601366,
+    "SF_vein": 0.6084874256603551,
+    "SF_fine": 0.003352547799781571,
+    "x_col": 37.5,
+    "SF_seam_artefact": 0.6118399734601366
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.6,
+    "strength_Nm_rule_b": 17.6,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.41,
+    "modulus_2d_Nm": 153.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); fibre-bar frame: strength = rule (strips), progressive failure strip by strip: residual >= 0.6; cracked: retention >= 1.15 x rule and > GS_L40",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GFx_0",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_GFx_0_L40_r0",
+   "test": "T5",
+   "archetype": "GFx_0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 70.938,
+    "fill_solid": "slits_x",
+    "fill_domain": "empty",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 20.0
+    },
+    "domain_params": {},
+    "fill_solid_y": "none",
+    "solid_y_params": {},
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.333333
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_GFx_0_r0",
+   "porosity": 0.1976,
+   "porosity_base": 0.1961,
+   "n_atoms": 27410,
+   "minSF": 0.5381,
+   "alignment_A": 0.4872,
+   "crack_column": {
+    "SF": 0.5380839218649421,
+    "SF_vein": 0.5347313740651606,
+    "SF_fine": 0.003352547799781571,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.5380839218649421
+   },
+   "crack_actual": {
+    "crack_len_actual": 32.66882862369489,
+    "crack_w_actual": 4.920354000000003,
+    "tip_lo": [
+     150.070797,
+     83.09245541244137
+    ],
+    "tip_hi": [
+     150.070797,
+     115.76128403613626
+    ],
+    "n_removed_cut": 48,
+    "n_pruned": 4
+   },
+   "tip_to_vein_A": [
+    47.62,
+    47.62
+   ],
+   "predicted": {
+    "strength_Nm_rule": 15.5,
+    "strength_Nm_mechanism": 17.8,
+    "retention_rule": 0.879,
+    "retention_mechanism": 1.011,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.15: fibre-bar frame: strength = rule (strips), progressive failure strip by strip: residual >= 0.6; cracked: retention >= 1.15 x rule and > GS_L40",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GFx_0",
+    "registry0",
+    "cracked",
+    "L40"
+   ]
+  },
+  {
+   "name": "H5_V3_E_r0",
+   "test": "T5",
+   "archetype": "V3_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "subveins_ellipse",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 5.05,
+     "sub_domain": 33.3,
+     "sub_w": 8.0
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.1964,
+   "porosity_base": 0.1964,
+   "n_atoms": 27451,
+   "minSF": 0.7577,
+   "alignment_A": 0.6357,
+   "crack_column": {
+    "SF": 0.8498708672446282,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.5481415652642868,
+    "x_col": 101.5,
+    "SF_seam_artefact": 0.7576758027506351
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.8,
+    "strength_Nm_rule_b": 21.9,
+    "fracture_mode_class": "stepwise",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.42,
+    "modulus_2d_Nm": 141.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); three levels: strength within the one-level scatter of H3_2L; cracked (60 A mid-domain, severing two sub-veins): retention >= 1.10 x H3_2L_L60 (sub-veins as additional arrest lines)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "V3_E",
+    "registry0",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_V3_E_r1",
+   "test": "T5",
+   "archetype": "V3_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "subveins_ellipse",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 5.05,
+     "sub_domain": 33.3,
+     "sub_w": 8.0
+    }
+   },
+   "seed": 0,
+   "parent": "H3_2L_r0",
+   "porosity": 0.1968,
+   "porosity_base": 0.1968,
+   "n_atoms": 27439,
+   "minSF": 0.7694,
+   "alignment_A": 0.6356,
+   "crack_column": {
+    "SF": 0.8498708672446282,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.5481415652642868,
+    "x_col": 150.5,
+    "SF_seam_artefact": 0.7694097200498705
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 17.8,
+    "strength_Nm_rule_b": 21.9,
+    "fracture_mode_class": "stepwise",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.42,
+    "modulus_2d_Nm": 141.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); three levels: strength within the one-level scatter of H3_2L; cracked (60 A mid-domain, severing two sub-veins): retention >= 1.10 x H3_2L_L60 (sub-veins as additional arrest lines)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "V3_E",
+    "registry1",
+    "uncracked"
+   ]
+  },
+  {
+   "name": "H5_V3_E_L60_r0",
+   "test": "T5",
+   "archetype": "V3_E",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "subveins_ellipse",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 5.05,
+     "sub_domain": 33.3,
+     "sub_w": 8.0
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_V3_E_r0",
+   "porosity": 0.1987,
+   "porosity_base": 0.1964,
+   "n_atoms": 27374,
+   "minSF": 0.6973,
+   "alignment_A": 0.6312,
+   "crack_column": {
+    "SF": 0.6973299423545667,
+    "SF_vein": 0.30172930198034137,
+    "SF_fine": 0.3956006403742254,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.6973299423545667
+   },
+   "crack_actual": {
+    "crack_len_actual": 60.36631376117536,
+    "crack_w_actual": 4.920354000000006,
+    "tip_lo": [
+     150.070797,
+     19.1751820182557
+    ],
+    "tip_hi": [
+     150.070797,
+     79.54149577943106
+    ],
+    "n_removed_cut": 63,
+    "n_pruned": 14
+   },
+   "tip_to_vein_A": [
+    4.18,
+    4.89
+   ],
+   "predicted": {
+    "strength_Nm_rule": 14.6,
+    "strength_Nm_mechanism": 16.1,
+    "retention_rule": 0.821,
+    "retention_mechanism": 0.903,
+    "fracture_mode_class": "progressive"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.1: three levels: strength within the one-level scatter of H3_2L; cracked (60 A mid-domain, severing two sub-veins): retention >= 1.10 x H3_2L_L60 (sub-veins as additional arrest lines)",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "V3_E",
+    "registry0",
+    "cracked",
+    "L60"
+   ]
+  },
+  {
+   "name": "H5_GS_r0",
+   "test": "T5",
+   "archetype": "GS",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "empty",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {}
+   },
+   "seed": 0,
+   "parent": "H3_1L_coarse_r0",
+   "porosity": 0.1243,
+   "porosity_base": 0.1243,
+   "n_atoms": 29914,
+   "minSF": 0.6554,
+   "alignment_A": -0.0514,
+   "crack_column": {
+    "SF": 0.6554230948572971,
+    "SF_vein": 0.6503942731576248,
+    "SF_fine": 0.005028821699672357,
+    "x_col": 35.0,
+    "SF_seam_artefact": 0.6554230948572971
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 18.8,
+    "strength_Nm_rule_b": 18.8,
+    "fracture_mode_class": "abrupt",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.5,
+    "modulus_2d_Nm": 163.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); solid-bar grid control (same bars as GR_0/GFx_0): strength = rule; cracked (40 A in a bar): net-section rule, sharp tip -> retention below the rule as for the pristine sheet",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GS",
+    "registry0",
+    "uncracked",
+    "control"
+   ]
+  },
+  {
+   "name": "H5_GS_r1",
+   "test": "T5",
+   "archetype": "GS",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "empty",
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {}
+   },
+   "seed": 0,
+   "parent": "H3_1L_coarse_r0",
+   "porosity": 0.1243,
+   "porosity_base": 0.1243,
+   "n_atoms": 29914,
+   "minSF": 0.6554,
+   "alignment_A": -0.0514,
+   "crack_column": {
+    "SF": 0.6554230948572971,
+    "SF_vein": 0.6503942731576248,
+    "SF_fine": 0.005028821699672357,
+    "x_col": 35.0,
+    "SF_seam_artefact": 0.6554230948572971
+   },
+   "crack_actual": null,
+   "tip_to_vein_A": null,
+   "predicted": {
+    "strength_Nm_rule": 18.8,
+    "strength_Nm_rule_b": 18.8,
+    "fracture_mode_class": "abrupt",
+    "residual_fraction_hypothesis": null,
+    "work_to_failure_J_m2": 1.5,
+    "modulus_2d_Nm": 163.0
+   },
+   "rationale": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); solid-bar grid control (same bars as GR_0/GFx_0): strength = rule; cracked (40 A in a bar): net-section rule, sharp tip -> retention below the rule as for the pristine sheet",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GS",
+    "registry1",
+    "uncracked",
+    "control"
+   ]
+  },
+  {
+   "name": "H5_GS_L40_r0",
+   "test": "T5",
+   "archetype": "GS",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "square",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "none",
+    "fill_domain": "empty",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {},
+    "domain_params": {},
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.333333
+    ]
+   },
+   "seed": 0,
+   "parent": "H5_GS_r0",
+   "porosity": 0.1259,
+   "porosity_base": 0.1243,
+   "n_atoms": 29858,
+   "minSF": 0.5247,
+   "alignment_A": -0.105,
+   "crack_column": {
+    "SF": 0.5246737306658158,
+    "SF_vein": 0.5196449089661435,
+    "SF_fine": 0.005028821699672357,
+    "x_col": 149.5,
+    "SF_seam_artefact": 0.5246737306658158
+   },
+   "crack_actual": {
+    "crack_len_actual": 39.77074788971551,
+    "crack_w_actual": 2.460177000000018,
+    "tip_lo": [
+     150.070797,
+     79.54149577943106
+    ],
+    "tip_hi": [
+     150.070797,
+     119.31224366914657
+    ],
+    "n_removed_cut": 56,
+    "n_pruned": 0
+   },
+   "tip_to_vein_A": [
+    47.04,
+    47.04
+   ],
+   "predicted": {
+    "strength_Nm_rule": 15.0,
+    "strength_Nm_mechanism": 15.0,
+    "retention_rule": 0.801,
+    "retention_mechanism": 0.801,
+    "fracture_mode_class": "abrupt"
+   },
+   "rationale": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.0: solid-bar grid control (same bars as GR_0/GFx_0): strength = rule; cracked (40 A in a bar): net-section rule, sharp tip -> retention below the rule as for the pristine sheet",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "GS",
+    "registry0",
+    "cracked",
+    "L40"
+   ]
+  }
+ ],
+ "sha256_of_content": "649ae5a5b52de45702119593807baa9eaf2c8ad4bd910dea6932ee03f382442a"
+}

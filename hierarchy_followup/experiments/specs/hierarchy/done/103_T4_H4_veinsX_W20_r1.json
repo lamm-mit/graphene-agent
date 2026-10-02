@@ -1,0 +1,67 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "103_T4_H4_veinsX_W20_r1",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H4_veinsX_W20_r1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 20.0,
+    "vein_dirs": "x",
+    "aspect": 1.0,
+    "angle_deg": 0.0,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 8.062
+   },
+   "seed": 0,
+   "reason": "T4 designed two-stage failure, registry 1: 20 A veins along the load (vein fraction 0.50), round fine pores (period 12) at porosity 0.20",
+   "hypothesis": "column rule: veins alone carry SF_vein 0.503 x 28.9 = 14.5 N/m, the fine level adds SF_fine 0.302 x 16.5; peak 19.5 N/m, residual fraction 0.74. Hypothesis: the round-pore fine level fails first (~0.12 strain) and the veins keep carrying >= 0.6 of the peak with post-peak energy >= 1.5 x the one-level control (0.21 J/m2, S2_ellipse_90deg); phase-1 square-vein W16/W20 (veins also across the load) did not show it (residual 0.79 then fracture within 0.025 strain; single avalanche)",
+   "tags": [
+    "hierarchy",
+    "T4",
+    "H2",
+    "veins_x",
+    "W20",
+    "registry1",
+    "uncracked"
+   ],
+   "parent": "S4_H2_D40_W8_veins_x",
+   "prediction": {
+    "strength_Nm_rule": 19.5,
+    "strength_Nm_veins_alone": 14.5,
+    "residual_fraction_rule": 0.744,
+    "residual_fraction_hypothesis": 0.6,
+    "post_peak_energy_J_m2_control": 0.209,
+    "post_peak_energy_J_m2_hypothesis": 0.314,
+    "modulus_2d_Nm": 185.0,
+    "work_to_failure_J_m2": 2.29,
+    "failure_strain": 0.2,
+    "fracture_mode_class": "stepwise"
+   },
+   "notes": null
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "reviewed_utc": "2026-09-24T13:54:38.918103+00:00",
+  "production_approved": false,
+  "decision": "Await all six pilot extensions and two controls; no new execution failures or terminal primary outcomes.",
+  "queue_pid": 43715,
+  "queue_alive": true,
+  "primary_counts": {
+    "completed": 1,
+    "running": 3,
+    "pending": 36
+  },
+  "primary_progress": [
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "strain": 0.6062500000000004,
+      "updated_utc": "2026-09-24T13:53:54.524135+00:00"
+    },
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "strain": 0.45500000000000035,
+      "updated_utc": "2026-09-24T13:53:20.932807+00:00"
+    },
+    {
+      "case_id": "ext__S7_slit_0deg_armchair",
+      "strain": 0.34375000000000017,
+      "updated_utc": "2026-09-24T13:53:41.377207+00:00"
+    }
+  ],
+  "Q4_slit": {
+    "status": "running",
+    "last_accepted_strain": 0.13500000000000006,
+    "accepted_frames": 24,
+    "force_exceedances": 0,
+    "transverse_exceedances": 0,
+    "original_stop_reached": false,
+    "interpretation": "Trajectory in progress. No failure endpoint or loading-window effect assigned."
+  },
+  "frozen_execution_verified": {
+    "execution_code_checksums.json": 61,
+    "verified_code_checksums.json": 61
+  },
+  "notification": "Routine progress; no new user notification needed."
+}

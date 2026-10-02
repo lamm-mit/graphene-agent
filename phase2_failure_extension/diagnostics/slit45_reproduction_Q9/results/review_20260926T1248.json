@@ -1,0 +1,51 @@
+{
+  "reviewed_utc": "2026-09-26T12:50:23.652494+00:00",
+  "queue_status": {
+    "time": "2026-09-26T12:50:18.450547+00:00",
+    "queue_pid": 55231,
+    "status": "running",
+    "case": "R1_original_batch4",
+    "child_pid": 55233,
+    "pending": [
+      "R2_original_single",
+      "R3_original_single_repeat"
+    ]
+  },
+  "progress": {
+    "time": "2026-09-26T12:45:35.321653+00:00",
+    "pid": 55233,
+    "frame": 20,
+    "strain": 0.17750000000000002,
+    "stress_N_m": 2.4649449906883074,
+    "force_residual_eV_A": 0.4357794225215912,
+    "elapsed_s": 4352.466797828674,
+    "batch_eps": [
+      0.10375000000000004,
+      0.20250000000000004,
+      0.17750000000000002,
+      0.17
+    ]
+  },
+  "first_damage_strains": {
+    "Phase 1 single shot": 0.17375,
+    "Existing Phase 2 primary": 0.17125,
+    "Original batch replay R1": 0.1725
+  },
+  "R1_damage_event": {
+    "lost": 8,
+    "formed": 16,
+    "stress_N_m": 1.69818556822671,
+    "main_relaxation_force_eV_A": 0.01213905680924654,
+    "final_transverse_relaxation_force_eV_A": 0.5840891599655151,
+    "target_force_eV_A": 0.02
+  },
+  "interpretation": "Restoring the batch has not reproduced the exact original onset. R1 agrees with the original graph at 0.17125, then diverges at 0.1725, with final residual failure despite its recorded FIRE flag. No unique cause of the later large stress difference is isolated; R2/R3 remain pending.",
+  "checks": {
+    "queue_and_child_alive": true,
+    "no_duplicate_scheduler": true,
+    "source_input_manifest_mismatches": [],
+    "new_plot_visually_reviewed": true,
+    "no_scientific_protocol_changes": true,
+    "no_manuscript_changes": true
+  }
+}

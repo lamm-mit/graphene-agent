@@ -1,0 +1,26 @@
+[
+  {
+    "tangent_half_width_A": 5,
+    "upper_atoms": 18,
+    "lower_atoms": 20,
+    "value_at_0195_A": -4.376631393186643,
+    "value_at_0290_A": -6.670972809059407,
+    "change_A": -2.294341415872764
+  },
+  {
+    "tangent_half_width_A": 7,
+    "upper_atoms": 25,
+    "lower_atoms": 26,
+    "value_at_0195_A": -3.613786022462444,
+    "value_at_0290_A": -5.610935156961783,
+    "change_A": -1.9971491344993386
+  },
+  {
+    "tangent_half_width_A": 9,
+    "upper_atoms": 34,
+    "lower_atoms": 36,
+    "value_at_0195_A": -2.7499581005030285,
+    "value_at_0290_A": -4.552392059692801,
+    "change_A": -1.8024339591897727
+  }
+]

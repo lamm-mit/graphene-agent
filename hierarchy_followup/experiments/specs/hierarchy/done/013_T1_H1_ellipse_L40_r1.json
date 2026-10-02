@@ -1,0 +1,67 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "013_T1_H1_ellipse_L40_r1",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H1_ellipse_L40_r1",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "period": 16,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.875,
+    "crack_len": 40.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "reason": "T1 cracked, registry 1: one-level mesh of elongated pores along the load (S2_ellipse_90deg parameters, 120 A cell) + 40 A crack perpendicular to the load",
+   "hypothesis": "net-section scaling from the uncracked design of the same registry: SF_col 0.545 / 0.813 = 0.670; no barrier ahead of the tips (fine ligaments everywhere): net-section rule; far less notch-sensitive than the pristine sheet because the pores already blunt the tip",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "ellipse",
+    "registry1",
+    "cracked",
+    "L40"
+   ],
+   "parent": "H1_ellipse_r1",
+   "prediction": {
+    "strength_Nm_rule": 12.7,
+    "strength_Nm_mechanism": 12.7,
+    "strength_Nm_class_rule": 15.8,
+    "retention_rule": 0.67,
+    "retention_mechanism": 0.67,
+    "modulus_2d_Nm": 151.0,
+    "work_to_failure_J_m2": 1.3,
+    "failure_strain": 0.128,
+    "fracture_mode_class": "progressive"
+   },
+   "notes": null
+  }
+ ]
+}

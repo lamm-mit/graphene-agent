@@ -1,0 +1,794 @@
+{
+ "name": "test_mesh",
+ "family": "nanomesh_single",
+ "params": {
+  "Lx": 48,
+  "Ly": 48,
+  "pore_d": 8,
+  "period": 16
+ },
+ "seed": 0,
+ "reason": "infrastructure test",
+ "hypothesis": null,
+ "prediction": null,
+ "parent": null,
+ "tags": null,
+ "notes": null,
+ "campaign": "infrastructure_test",
+ "stage": "test",
+ "batch_name": "test_batch",
+ "precheck": {
+  "n_atoms": 704,
+  "min_distance": 1.4203838532041195,
+  "duplicates": 0,
+  "coordination_hist_initial": {
+   "2": 108,
+   "3": 596
+  },
+  "spanning_x_initial": true,
+  "n_fragments_initial": 1,
+  "isolated_atoms_initial": 0,
+  "status": "ok"
+ },
+ "design": {
+  "family": "nanomesh_single",
+  "hierarchy_levels": 1,
+  "pore_d": 8,
+  "period": 16,
+  "shape": "circle",
+  "ligament_w": 8,
+  "orientation": "zigzag",
+  "stagger": true,
+  "aspect": 1.0,
+  "angle_deg": 0.0,
+  "seed": 0,
+  "jitter": 0.0,
+  "size_disorder": 0.0,
+  "offset": [
+   0.0,
+   0.0
+  ],
+  "Lx": 49.20354,
+  "Ly": 46.87266715573615,
+  "n_pores": 9,
+  "actual_period": [
+   16.40118,
+   15.624222385245384
+  ]
+ },
+ "porosity": 0.19999999999999996,
+ "n_atoms": 704,
+ "hierarchy_levels": 1,
+ "orientation": "zigzag",
+ "run_id": "run_20260923_133644_673d47",
+ "environment": {
+  "os": "macOS-27.0-arm64-arm-64bit",
+  "cpu": "Apple M4 Max",
+  "gpu": "Apple M4 Max",
+  "python": "3.12.14",
+  "torch": "2.14.0",
+  "ase": "3.29.0",
+  "atomistica": "1.2.7",
+  "mps_available": true,
+  "cuda_available": false,
+  "date": "2026-09-23 13:34:25"
+ },
+ "code": {
+  "git_commit": null,
+  "source_sha256": "bbfbe9bcb17a3b6c23245a015a195d394e5e8e27634ea7e8ce251dcfad3e303d"
+ },
+ "device": "mps",
+ "precision": "float32",
+ "engine": {
+  "potential": "screened second-generation REBO (REBO2+S / Rebo2Scr)",
+  "implementation": "TorchRebo2Scr (PyTorch autograd port of Atomistica Rebo2Scr kernel)",
+  "reference_implementation": "Atomistica 1.2.7 Rebo2Scr (commit 14a86f2c, 2025-10-21)",
+  "parameterization": "Brenner 2002 + Pastewka 2008 screening; Atomistica default tables; dihedral=False",
+  "citations": [
+   "D. W. Brenner, O. A. Shenderova, J. A. Harrison, S. J. Stuart, B. Ni, S. B. Sinnott, J. Phys.: Condens. Matter 14, 783 (2002).",
+   "L. Pastewka, P. Pou, R. Perez, P. Gumbsch, M. Moseler, Phys. Rev. B 78, 161402(R) (2008).",
+   "L. Pastewka, A. Klemenz, P. Gumbsch, M. Moseler, Phys. Rev. B 87, 205410 (2013).",
+   "Atomistica, https://github.com/Atomistica/atomistica (L. Pastewka et al.), version 1.2.7."
+  ],
+  "parameter_checksum": "889d31570b93077b66616e0896e64e30d808c53ae0dc95fce6cc37f4068de35f",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "torch_version": "2.14.0",
+  "units": "eV, Angstrom; 2D stress in eV/A^2 (x16.0218 = N/m)"
+ },
+ "aqs_config": {
+  "d_strain": 0.01,
+  "d_strain_elastic": null,
+  "d_strain_min": 0.0025,
+  "refine_first_damage": true,
+  "max_strain": 0.3,
+  "fmax": 0.02,
+  "max_fire_steps": 1200,
+  "trial_fire_steps": 400,
+  "transverse_fire_steps": 400,
+  "transverse_relax": true,
+  "sigma_t_tol": 0.005,
+  "max_transverse_iter": 3,
+  "max_transverse_step": 0.005,
+  "stop_stress_fraction": 0.05,
+  "post_peak_strain_limit": 1.0,
+  "stop_when_not_spanning": true,
+  "skin": 0.3,
+  "r_bond": 2.0,
+  "strain_axis": 0,
+  "zero_stress_relax": true,
+  "zero_stress_tol": 0.005,
+  "max_steps": 60,
+  "record_positions": true
+ },
+ "boundary_conditions": {
+  "pbc": [
+   true,
+   true,
+   false
+  ],
+  "loading": "uniaxial engineering strain along x (periodic)",
+  "transverse": "relaxed to sigma_yy = 0 (secant)",
+  "orientation_x": "zigzag",
+  "cell0_A": [
+   49.422889709472656,
+   47.08066177368164
+  ]
+ },
+ "viability": "stable",
+ "viability_details": {
+  "energy_initial_eV": -4941.97265625,
+  "energy_relaxed_eV": -4951.67236328125,
+  "relaxation_energy_eV_per_atom": -0.013777992942116478,
+  "max_displacement_A": 0.2940335459203104,
+  "rms_displacement_A": 0.1018089400427725,
+  "lost_neighbors": 0,
+  "new_neighbors": 0,
+  "coordination_changes": 0,
+  "isolated_atoms": 0,
+  "n_fragments": 1,
+  "spanning_x": true,
+  "coordination_hist_relaxed": {
+   "2": 108,
+   "3": 596
+  },
+  "minimizer_converged": true,
+  "classification": "stable",
+  "max_force_initial_eV_A": 2.241549491882324
+ },
+ "metrics": {
+  "modulus_2d_Nm": 135.80891616936216,
+  "poisson_ratio": 0.2905144405445216,
+  "strength_Nm": 13.455821354798251,
+  "strain_at_peak": 0.13,
+  "first_damage_strain": 0.12,
+  "failure_strain": 0.28000000000000014,
+  "failure_observed": true,
+  "work_to_failure_eV_A2": 0.11629321251763035,
+  "work_to_failure_J_m2": 1.863222673233708,
+  "specific_work_eV_per_atom": 0.38437258276517083,
+  "energy_stored_to_failure_eV_per_atom": 0.16167103160511365,
+  "post_peak_load_retention": 0.4259395907803981,
+  "strain_range_post_peak": 0.15000000000000013,
+  "n_broken_total": 39,
+  "n_damage_steps": 11,
+  "n_major_damage_events": 8,
+  "max_single_step_broken_fraction": 0.358974358974359,
+  "damage_localization": 0.3578787027576902,
+  "damage_entropy": 2.6705074005660094,
+  "fraction_atoms_damaged": 0.09943181818181818,
+  "crack_initiation_xy": [
+   17.26056671142578,
+   40.17229461669922
+  ],
+  "crack_initiation_strain": 0.12,
+  "damage_extent_x": 40.23488998413086,
+  "damage_extent_y": 35.777509689331055,
+  "fracture_mode": "progressive (multiple events, load retained)",
+  "termination": "max strain reached"
+ },
+ "descriptors": {
+  "n_atoms": 704,
+  "footprint_A2": 2326.862354289653,
+  "Lx": 49.422889709472656,
+  "Ly": 47.08066177368164,
+  "areal_density": 0.3025533498800009,
+  "porosity": 0.20749836320297332,
+  "carbon_mass_amu": 8455.743999999999,
+  "coordination_mean": 2.846590909090909,
+  "coordination_hist": {
+   "2": 108,
+   "3": 596
+  },
+  "fraction_undercoordinated": 0.1534090909090909,
+  "edge_atoms": 108,
+  "n_fragments": 1,
+  "cyclomatic_per_atom": 0.4247159090909091,
+  "bonds_per_atom": 1.4232954545454546,
+  "tortuosity_x": 1.1441808559375932,
+  "pore_size_max_A": 7.0710678118654755,
+  "pore_size_mean_A": 5.907062793571135,
+  "pore_size_std_A": 0.6159029351568753,
+  "n_pores_detected": 11,
+  "n_pore_scales": 1,
+  "pore_scale_ratio": 1.0,
+  "ligament_width_max_A": 16.278820596099706,
+  "ligament_width_mean_A": 13.645698372926384,
+  "ligament_width_std_A": 1.1379437222966022,
+  "min_solid_width_across_x_A": 32.0,
+  "min_solid_fraction_across_x": 0.6796845837432172,
+  "anisotropy_index": 0.09870110386210007,
+  "ligament_orientation_deg": 0.5487905832230808,
+  "coarse_ligament_solid_fraction": 0.0,
+  "n_ligament_scales": 1,
+  "ligament_scale_ratio": 1.0,
+  "hierarchy_depth_measured": 1,
+  "hierarchy_levels_design": 1,
+  "family": "nanomesh_single"
+ },
+ "termination": "max strain reached",
+ "wall_time_s": 138.71351695794147,
+ "n_frames": 33,
+ "stats": {
+  "n_evaluations": 14412,
+  "fire_iterations": 14080,
+  "n_rebuilds": 359,
+  "n_reverts": 6,
+  "n_soft_converged": 0
+ },
+ "status": "completed",
+ "broken_bond_events": [
+  [
+   0.12,
+   240,
+   241,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    17.26056671142578,
+    40.17229461669922
+   ]
+  ],
+  [
+   0.12,
+   486,
+   518,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    38.093082427978516,
+    40.17229461669922
+   ]
+  ],
+  [
+   0.14,
+   114,
+   151,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    10.634299278259277,
+    20.887985229492188
+   ]
+  ],
+  [
+   0.14,
+   205,
+   237,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    15.572708129882812,
+    36.158878326416016
+   ]
+  ],
+  [
+   0.14,
+   238,
+   239,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    17.559123992919922,
+    38.23408508300781
+   ]
+  ],
+  [
+   0.14,
+   267,
+   268,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    20.802200317382812,
+    35.874786376953125
+   ]
+  ],
+  [
+   0.14,
+   452,
+   483,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    35.53992462158203,
+    35.874786376953125
+   ]
+  ],
+  [
+   0.14,
+   485,
+   515,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    38.78298568725586,
+    38.23408508300781
+   ]
+  ],
+  [
+   0.14,
+   513,
+   514,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    40.769371032714844,
+    36.158878326416016
+   ]
+  ],
+  [
+   0.14,
+   575,
+   576,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    45.707786560058594,
+    20.88798713684082
+   ]
+  ],
+  [
+   0.15000000000000002,
+   263,
+   264,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    20.70989990234375,
+    25.805221557617188
+   ]
+  ],
+  [
+   0.15000000000000002,
+   447,
+   480,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    36.126426696777344,
+    25.80521011352539
+   ]
+  ],
+  [
+   0.16000000000000003,
+   236,
+   268,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    19.2943172454834,
+    36.531593322753906
+   ]
+  ],
+  [
+   0.16000000000000003,
+   482,
+   483,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    38.036231994628906,
+    36.53159713745117
+   ]
+  ],
+  [
+   0.17000000000000004,
+   177,
+   178,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    14.829920768737793,
+    4.394784927368164
+   ]
+  ],
+  [
+   0.17000000000000004,
+   326,
+   327,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    26.41551971435547,
+    21.10267448425293
+   ]
+  ],
+  [
+   0.17000000000000004,
+   363,
+   401,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    31.409273147583008,
+    21.102680206298828
+   ]
+  ],
+  [
+   0.17000000000000004,
+   490,
+   525,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    42.99482345581055,
+    4.394786834716797
+   ]
+  ],
+  [
+   0.18000000000000005,
+   110,
+   148,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    10.371814727783203,
+    9.667617797851562
+   ]
+  ],
+  [
+   0.18000000000000005,
+   115,
+   154,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    10.397941589355469,
+    23.068002700805664
+   ]
+  ],
+  [
+   0.18000000000000005,
+   143,
+   180,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    13.85404109954834,
+    6.58390998840332
+   ]
+  ],
+  [
+   0.18000000000000005,
+   145,
+   146,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    12.539657592773438,
+    8.614797592163086
+   ]
+  ],
+  [
+   0.18000000000000005,
+   147,
+   184,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    14.759320259094238,
+    9.94179916381836
+   ]
+  ],
+  [
+   0.18000000000000005,
+   153,
+   154,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    12.550865173339844,
+    23.17600440979004
+   ]
+  ],
+  [
+   0.18000000000000005,
+   198,
+   234,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    16.512060165405273,
+    25.911739349365234
+   ]
+  ],
+  [
+   0.18000000000000005,
+   509,
+   510,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    41.80693435668945,
+    25.91173553466797
+   ]
+  ],
+  [
+   0.18000000000000005,
+   527,
+   528,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    44.464942932128906,
+    6.583912372589111
+   ]
+  ],
+  [
+   0.18000000000000005,
+   530,
+   570,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    45.779327392578125,
+    8.614799499511719
+   ]
+  ],
+  [
+   0.18000000000000005,
+   531,
+   532,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    43.559669494628906,
+    9.941800117492676
+   ]
+  ],
+  [
+   0.18000000000000005,
+   540,
+   578,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    45.76812744140625,
+    23.176002502441406
+   ]
+  ],
+  [
+   0.18000000000000005,
+   572,
+   573,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    47.947166442871094,
+    9.667625427246094
+   ]
+  ],
+  [
+   0.18000000000000005,
+   577,
+   578,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    47.921043395996094,
+    23.06800079345703
+   ]
+  ],
+  [
+   0.19000000000000006,
+   156,
+   197,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    13.773662567138672,
+    25.76076889038086
+   ]
+  ],
+  [
+   0.19000000000000006,
+   542,
+   543,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    45.04066467285156,
+    25.760406494140625
+   ]
+  ],
+  [
+   0.21000000000000008,
+   181,
+   182,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    17.31145477294922,
+    8.800228118896484
+   ]
+  ],
+  [
+   0.21000000000000008,
+   494,
+   529,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    42.549537658691406,
+    8.71157455444336
+   ]
+  ],
+  [
+   0.2400000000000001,
+   570,
+   573,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    50.117828369140625,
+    7.331853866577148
+   ]
+  ],
+  [
+   0.2500000000000001,
+   507,
+   541,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    43.37010955810547,
+    24.41914939880371
+   ]
+  ],
+  [
+   0.27000000000000013,
+   527,
+   573,
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    50.60670471191406,
+    6.217434883117676
+   ]
+  ]
+ ],
+ "first_damage_strain": 0.12,
+ "peak_sigma_Nm": 13.455821354798251,
+ "peak_strain": 0.13,
+ "anomaly_flags": [],
+ "trajectory": "trajectories/run_20260923_133644_673d47.npz",
+ "run_dir": "experiments/database/runs/run_20260923_133644_673d47"
+}

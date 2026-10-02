@@ -1,0 +1,45 @@
+{
+  "amendment": "Q9",
+  "created_utc": "2026-09-26T11:27:08.146202+00:00",
+  "authorization": "User requested digging into and reproducing the original 45-degree result on September 26.",
+  "purpose": "Separate a plotting/input error, force-evaluation effect, execution-layout dependence and trajectory repeatability.",
+  "target": "S2_slit_45deg",
+  "parent_run_id": "run_20260905_091359_4df2c2",
+  "original_batch_parent_ids": [
+    "run_20260905_062906_d8b95e",
+    "run_20260905_073634_1a440a",
+    "run_20260905_091359_4df2c2",
+    "run_20260905_090915_c4509a"
+  ],
+  "planned_loading_runs": [
+    {
+      "id": "R1_original_batch4",
+      "layout": "original_batch4",
+      "target_index": 2
+    },
+    {
+      "id": "R2_original_single",
+      "layout": "single",
+      "target_index": 0
+    },
+    {
+      "id": "R3_original_single_repeat",
+      "layout": "single",
+      "target_index": 0
+    }
+  ],
+  "settings": "Original recorded AQS settings, original max_strain 0.32 and 0.12 post-peak rule, MPS float32; no longer-loading overrides.",
+  "inputs": "Regenerate from the copied original batch spec; verify float32 coordinates and cell equal saved originals before running.",
+  "execution": "One serial worker. R1 restores the original four-structure batch; R2 and R3 repeat the target individually with exactly the same settings. Preserve all attempts, trajectories, branch events and actual residuals. No primary curves are overwritten.",
+  "source_limit": "The available scientific source snapshot is frozen below. The recorded full-project source hash cannot be checked against this subset of the source tree. This is a replay of the documented implementation and settings, not a claim that the old OS/backend environment is recreated.",
+  "instrumentation": "Subclass only for logging minimizer calls, neighbor rebuilds, accepted states and full runtime checkpoints. Inherited scientific updates, thresholds and force kernel remain unchanged. Checkpoints preserve runtime objects as well as positions; saved Phase-I NPZ files alone were not full driver checkpoints.",
+  "checks_completed": [
+    "input serialization gives identical float32 coordinates",
+    "six original states independently evaluated single/batch on MPS float32 and CPU float64",
+    "pure-affine neighbor-list rebuild guard tested separately",
+    "matched-strain geometry and topology compared"
+  ],
+  "neighbor_guard_note": "A synthetic 10% affine transverse compression can cause stale-list force differences without requesting a rebuild; at tested 0.5-5% changes these selected configurations matched fresh lists. This exposes a guard limitation but does not establish its role in the original path.",
+  "interpretation": "No unique numerical cause or converged material curve is assumed. Review R1-R3 before selecting any further precision, relaxation or rebuild-policy intervention.",
+  "manuscript": "Figure 10 now shows only the two existing Phase-II paths. Original Phase-I S11 and all frozen run data remain unchanged. Reproduction investigation is separate; no diagnostic curve enters the manuscript automatically."
+}

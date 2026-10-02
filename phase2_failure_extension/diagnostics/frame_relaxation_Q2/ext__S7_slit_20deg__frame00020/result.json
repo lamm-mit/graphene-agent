@@ -1,0 +1,37 @@
+{
+  "case_id": "ext__S7_slit_20deg",
+  "frame_index": 20,
+  "strain": 0.12,
+  "source_sha256": "f62bd23100bcdc0395a102472cd0c217ed98b8404631bd6ad66cb5e4f8fe2501",
+  "before": {
+    "max_force_eV_A": 2.4523813724517822,
+    "sigma_xx_N_m": 6.210758209228516,
+    "sigma_yy_N_m": 0.020927175879478455,
+    "energy_eV": -20985.81640625
+  },
+  "after": {
+    "max_force_eV_A": 3.760388135910034,
+    "sigma_xx_N_m": 6.006345748901367,
+    "sigma_yy_N_m": 0.2648826539516449,
+    "energy_eV": -21036.08203125
+  },
+  "force_converged": false,
+  "minimizer": {
+    "converged": [
+      false
+    ],
+    "iterations": 8000,
+    "fmax": [
+      3.760387659072876
+    ],
+    "n_evaluations": 8001,
+    "n_rebuilds": 23,
+    "wall_time": 751.5718023750233,
+    "failed": [
+      false
+    ],
+    "soft": [
+      false
+    ]
+  }
+}

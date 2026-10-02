@@ -1,0 +1,53 @@
+{
+  "reviewed_utc": "2026-09-24T17:44:06.145443+00:00",
+  "case_id": "quality__S1_pristine_zz_quarterstep_Q8",
+  "quality": {
+    "all_recorded_values_finite": true,
+    "force_tolerance_eV_A": 0.02,
+    "frames_above_force_tolerance": 0,
+    "maximum_recorded_force_residual_eV_A": 0.019637934863567352,
+    "frames_above_transverse_tolerance": 0,
+    "maximum_transverse_stress_residual_N_m": 0.07893883271537772,
+    "numerical_termination": false,
+    "driver_and_chronological_metric_agree": true
+  },
+  "independent_static_audit": "diagnostics/Q4_pristine_Q8_static_20260924T1742/record.json",
+  "all_103_cpu_static_checks_pass": true,
+  "initial_positions_and_cells_bit_identical_across_levels": true,
+  "changes_vs_half_increment": {
+    "maximum_stress_relative_percent": -7.645523624905081,
+    "integral_relative_percent": -3.689956449519538,
+    "end_strain_absolute": -0.004062499999999969
+  },
+  "prespecified_screen_passes": {
+    "maximum_stress_relative_percent": false,
+    "integral_relative_percent": false,
+    "end_strain_absolute": false
+  },
+  "stability_screen_pass": false,
+  "three_level_comparison": [
+    {
+      "case_id": "quality__S1_pristine_zz_verified_Q4",
+      "increment_factor": 1,
+      "ending_strain": 0.24875000000000008,
+      "maximum_recorded_stress_N_m": 36.50726890843105,
+      "integral_J_m2": 5.8301505665008175
+    },
+    {
+      "case_id": "quality__S1_pristine_zz_halfstep_Q7",
+      "increment_factor": 0.5,
+      "ending_strain": 0.2556250000000001,
+      "maximum_recorded_stress_N_m": 38.236371207602836,
+      "integral_J_m2": 6.144240786276402
+    },
+    {
+      "case_id": "quality__S1_pristine_zz_quarterstep_Q8",
+      "increment_factor": 0.25,
+      "ending_strain": 0.25156250000000013,
+      "maximum_recorded_stress_N_m": 35.31300041361916,
+      "integral_J_m2": 5.917520977109186
+    }
+  ],
+  "assessment": "All three levels pass equilibrium-residual checks, but the last refinement fails every prespecified stability screen and the response is nonmonotonic. Do not select one level as uniquely converged. One trajectory per increment does not independently estimate repeatability. This bounded three-level control diagnostic is complete; no further control refinement is automatically launched.",
+  "production_approved": false
+}

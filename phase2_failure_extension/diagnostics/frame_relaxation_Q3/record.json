@@ -1,0 +1,133 @@
+{
+  "started_utc": "2026-09-24T13:03:49.183820+00:00",
+  "status": "completed",
+  "pid": 64801,
+  "engine": {
+    "potential": "screened second-generation REBO (REBO2+S / Rebo2Scr)",
+    "implementation": "TorchRebo2Scr (PyTorch autograd port of Atomistica Rebo2Scr kernel)",
+    "reference_implementation": "Atomistica 1.2.7 Rebo2Scr (commit 14a86f2c, 2025-10-21)",
+    "parameterization": "Brenner 2002 + Pastewka 2008 screening; Atomistica default tables; dihedral=False",
+    "citations": [
+      "D. W. Brenner, O. A. Shenderova, J. A. Harrison, S. J. Stuart, B. Ni, S. B. Sinnott, J. Phys.: Condens. Matter 14, 783 (2002).",
+      "L. Pastewka, P. Pou, R. Perez, P. Gumbsch, M. Moseler, Phys. Rev. B 78, 161402(R) (2008).",
+      "L. Pastewka, A. Klemenz, P. Gumbsch, M. Moseler, Phys. Rev. B 87, 205410 (2013).",
+      "Atomistica, https://github.com/Atomistica/atomistica (L. Pastewka et al.), version 1.2.7."
+    ],
+    "parameter_checksum": "889d31570b93077b66616e0896e64e30d808c53ae0dc95fce6cc37f4068de35f",
+    "device": "mps",
+    "dtype": "torch.float32",
+    "torch_version": "2.7.0",
+    "units": "eV, Angstrom; 2D stress in eV/A^2 (x16.0218 = N/m)"
+  },
+  "script_sha256": "7c00ba189db7d14dbdfbf53b0916885f7c5d3becc772affa4c008d3a28c80d95",
+  "amendment": {
+    "id": "Q3",
+    "recorded_utc": "2026-09-24T13:03:48.120099+00:00",
+    "reason": "Two Q2 fixed-cell probes missed fmax 0.02 after 8000 steps; one had increased final residual force despite lower energy. Test conservative FIRE step limits before choosing a convergence protocol.",
+    "scope": "Two fixed-cell diagnostic continuations from preserved Q2 endpoints, not loading restarts or cohort replacements. No edits to frozen execution code.",
+    "minimizer_settings": {
+      "fmax": 0.02,
+      "max_steps": 4000,
+      "skin": 0.3,
+      "stall_iters": 1000000000,
+      "dt": 0.05,
+      "dt_max": 0.2,
+      "maxstep": 0.05
+    },
+    "interpretation": "Relative to Q2, additionally changes FIRE timestep and displacement limits. No causally isolated loading-window inference. A successful fixed-cell relaxation alone cannot validate a loading path or transverse-stress convergence.",
+    "frames": [
+      {
+        "case_id": "ext__S2_slit_45deg",
+        "frame_index": 37,
+        "strain": 0.26625,
+        "source": "diagnostics/frame_relaxation_Q2/ext__S2_slit_45deg__frame00037/relaxed.npz"
+      },
+      {
+        "case_id": "ext__S7_slit_20deg",
+        "frame_index": 20,
+        "strain": 0.12,
+        "source": "diagnostics/frame_relaxation_Q2/ext__S7_slit_20deg__frame00020/relaxed.npz"
+      }
+    ],
+    "script_sha256": "7c00ba189db7d14dbdfbf53b0916885f7c5d3becc772affa4c008d3a28c80d95"
+  },
+  "rows": [
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "frame_index": 37,
+      "strain": 0.26625,
+      "source": "diagnostics/frame_relaxation_Q2/ext__S2_slit_45deg__frame00037/relaxed.npz",
+      "source_sha256": "d5642da3d8838a1344adc5eaca6cf7a674c66e780d09dbc815a13d1314df2c82",
+      "before": {
+        "max_force_eV_A": 0.08080180734395981,
+        "sigma_xx_N_m": 8.439438819885254,
+        "sigma_yy_N_m": 0.5831310749053955,
+        "energy_eV": -21929.109375
+      },
+      "after": {
+        "max_force_eV_A": 0.01762843132019043,
+        "sigma_xx_N_m": 8.322535514831543,
+        "sigma_yy_N_m": 0.44551366567611694,
+        "energy_eV": -21930.20703125
+      },
+      "force_converged": true,
+      "minimizer": {
+        "converged": [
+          true
+        ],
+        "iterations": 500,
+        "fmax": [
+          0.01762862130999565
+        ],
+        "n_evaluations": 502,
+        "n_rebuilds": 0,
+        "wall_time": 47.74584599991795,
+        "failed": [
+          false
+        ],
+        "soft": [
+          false
+        ]
+      }
+    },
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "frame_index": 20,
+      "strain": 0.12,
+      "source": "diagnostics/frame_relaxation_Q2/ext__S7_slit_20deg__frame00020/relaxed.npz",
+      "source_sha256": "5150f170059160202d3b1306214d8679f268f1c64ea0a11ebf6aa24f81f0e0fd",
+      "before": {
+        "max_force_eV_A": 3.760387420654297,
+        "sigma_xx_N_m": 6.006341934204102,
+        "sigma_yy_N_m": 0.2648826539516449,
+        "energy_eV": -21036.044921875
+      },
+      "after": {
+        "max_force_eV_A": 0.0594223327934742,
+        "sigma_xx_N_m": 5.955361843109131,
+        "sigma_yy_N_m": 0.059390854090452194,
+        "energy_eV": -21037.6875
+      },
+      "force_converged": false,
+      "minimizer": {
+        "converged": [
+          false
+        ],
+        "iterations": 4000,
+        "fmax": [
+          0.0594223327934742
+        ],
+        "n_evaluations": 4001,
+        "n_rebuilds": 2,
+        "wall_time": 370.03154829202686,
+        "failed": [
+          false
+        ],
+        "soft": [
+          false
+        ]
+      }
+    }
+  ],
+  "finished_utc": "2026-09-24T13:10:48.419893+00:00"
+}

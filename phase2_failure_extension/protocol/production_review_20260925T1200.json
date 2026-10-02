@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-09-25T11:57:59.936875+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T11:57:48.191921+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 19,
+      "running": 3,
+      "pending": 18
+    },
+    "running": [
+      {
+        "case_id": "ext__P3_H2_square_W8_ellipse_00deg",
+        "pid": 84122,
+        "elapsed_s": 13257.831622838974,
+        "updated_utc": "2026-09-25T11:56:06.767413+00:00",
+        "frames": 51,
+        "attempted_step": 53,
+        "strain": 0.30625000000000013,
+        "stress_N_m": 1.363825031277398,
+        "force_residual_eV_A": 0.19955454766750336,
+        "transverse_stress_N_m": -0.04850644028273916,
+        "wall_time_s": 13155.414005041122,
+        "virtual_original_stop": {
+          "index": 41,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 133
+      },
+      {
+        "case_id": "ext__S2_H2_D40_W4",
+        "pid": 18375,
+        "elapsed_s": 1481.7731337547302,
+        "updated_utc": "2026-09-25T11:55:46.072241+00:00",
+        "frames": 21,
+        "attempted_step": 23,
+        "strain": 0.15125,
+        "stress_N_m": 2.437778194822961,
+        "force_residual_eV_A": 0.2208123356103897,
+        "transverse_stress_N_m": 0.018193706548802157,
+        "wall_time_s": 1358.3020601272583,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 84
+      },
+      {
+        "case_id": "ext__S2_mesh_jitter2.0",
+        "pid": 24986,
+        "elapsed_s": 514.929456949234,
+        "updated_utc": "2026-09-25T11:57:02.167802+00:00",
+        "frames": 15,
+        "attempted_step": 17,
+        "strain": 0.12125,
+        "stress_N_m": 11.815217237016475,
+        "force_residual_eV_A": 0.015673819929361343,
+        "transverse_stress_N_m": 0.02703227355455601,
+        "wall_time_s": 468.02223086357117,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 12
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n18375 43715       24:53   8:49.54  31.2 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n24986 43715       08:46   3:04.50  31.4 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-00:46:32   0:12.85   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-00:46:32   0:00.09   0.0 S    /usr/bin/caffeinate\n84122 43715    03:41:09  58:15.58  41.4 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__P2_slit_20deg_phi0.30.json",
+    "results/review_ext__P3_H2_veinsX_W12_ellipse_30deg.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T1200.json",
+  "execution_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "17/34 extensions complete; 16 driver stops and one still censored. All 17 have residual flags. The phi=0.30 slit adds 95.5674% integral B-to-C with no peak increase, while its A-to-B peak is 31.4307% lower. Veins-X has B=C, with an earlier stress-collapse stop on the rerun. Controls 2/2 complete; resolution 0/4. All three active workers are alive; no recovery is needed."
+}

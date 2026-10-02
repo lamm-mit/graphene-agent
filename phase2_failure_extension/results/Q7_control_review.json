@@ -1,0 +1,32 @@
+{
+  "reviewed_utc": "2026-09-24T17:35:36.951317+00:00",
+  "case_id": "quality__S1_pristine_zz_halfstep_Q7",
+  "quality": {
+    "all_recorded_values_finite": true,
+    "force_tolerance_eV_A": 0.02,
+    "frames_above_force_tolerance": 0,
+    "maximum_recorded_force_residual_eV_A": 0.018499836325645447,
+    "frames_above_transverse_tolerance": 0,
+    "maximum_transverse_stress_residual_N_m": 0.07426482077294877,
+    "numerical_termination": false,
+    "driver_and_chronological_metric_agree": true
+  },
+  "comparison_with_Q4": {
+    "case_id": "quality__S1_pristine_zz_halfstep_Q7",
+    "reference_case_id": "quality__S1_pristine_zz_verified_Q4",
+    "resolution_factor": 0.5,
+    "status": "completed",
+    "comparison_available": true,
+    "end_strain": 0.2556250000000001,
+    "reference_end_strain": 0.24875000000000008,
+    "end_strain_difference": 0.00687500000000002,
+    "maximum_stress_relative_percent": 4.736323342917781,
+    "integral_relative_percent": 5.387343194536021,
+    "all_recorded_residual_checks_pass": true,
+    "interpretation": "Increment sensitivity; one refinement does not establish asymptotic convergence."
+  },
+  "independent_static_audit": "diagnostics/Q4_pristine_Q7_static_20260924T1735/record.json",
+  "cpu_all_accepted_states_pass": true,
+  "assessment": "All recorded residuals pass, but halving all strain increments shifts the integral by +5.39% and the stopping strain by +0.006875. This is not strain-increment converged. One final quarter-increment control is justified; no new slit run or primary production is released.",
+  "production_approved": false
+}

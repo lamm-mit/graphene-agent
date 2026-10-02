@@ -1,0 +1,14 @@
+{
+  "case_id": "ext__S2_voronoi_n25_reg0.6",
+  "parent_run_id": "run_20260905_090516_cbfca1",
+  "source_phase": "I",
+  "role": "extension",
+  "stage": "production",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000
+  }
+}

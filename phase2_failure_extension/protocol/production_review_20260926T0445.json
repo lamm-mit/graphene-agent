@@ -1,0 +1,78 @@
+{
+  "recorded_utc": "2026-09-26T04:44:22.898230+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T04:44:19.608769+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 38,
+      "running": 2
+    },
+    "running": [
+      {
+        "case_id": "res__S2_slit_45deg",
+        "pid": 23606,
+        "elapsed_s": 16226.413228034973,
+        "updated_utc": "2026-09-26T04:44:01.281416+00:00",
+        "frames": 159,
+        "attempted_step": 161,
+        "strain": 0.5212499999999999,
+        "stress_N_m": 1.799115929178316,
+        "force_residual_eV_A": 0.06291786581277847,
+        "transverse_stress_N_m": 0.0007283963207549237,
+        "wall_time_s": 16205.158730983734,
+        "virtual_original_stop": {
+          "index": 78,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 110
+      },
+      {
+        "case_id": "res__S7_slit_20deg",
+        "pid": 46173,
+        "elapsed_s": 8574.950804948807,
+        "updated_utc": "2026-09-26T04:44:19.591538+00:00",
+        "frames": 121,
+        "attempted_step": 123,
+        "strain": 0.34250000000000025,
+        "stress_N_m": 5.723853443599429,
+        "force_residual_eV_A": 0.052085693925619125,
+        "transverse_stress_N_m": 0.05334758719217328,
+        "wall_time_s": 8573.863536834717,
+        "virtual_original_stop": {
+          "index": 111,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 174
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n23606 43715    04:30:29  95:55.69  40.7 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-17:32:55   0:25.44   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-17:32:55   0:00.09   0.0 S    /usr/bin/caffeinate\n46173 43715    02:22:58  54:10.80  37.5 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "all_remaining_workers_have_new_accepted_frames": true,
+  "new_completed_cases": [
+    "res__S5_H2_D40_W8_ellipseX"
+  ],
+  "independent_case_review": "results/review_res__S5_H2_D40_W8_ellipseX.json",
+  "resolution_comparison": "results/resolution_comparison_res__S5_H2_D40_W8_ellipseX.json",
+  "last_figure_review": "results/figure_review_20260926T0445.json",
+  "checksum_counts": {
+    "input": 772,
+    "execution_code": 61,
+    "verified_code": 61,
+    "refinement_code": 61,
+    "current_paper_sources_and_copies": 27
+  },
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "34/34 primary extensions, 2/2 controls and 2/4 resolution checks complete. Ellipse-X hierarchy peak changes -0.3759%, endpoint integral -35.1988%, ending strain -52.9774% relative to primary. Both stop at spanning loss. Residual flags remain; endpoint/integral response is sensitive and no convergence or corrected truth is inferred. The remaining two checks advance."
+}

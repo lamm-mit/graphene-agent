@@ -1,0 +1,46 @@
+{
+  "approved": true,
+  "reviewed_utc": "2026-09-25T00:30:49.522761+00:00",
+  "review": "protocol/production_review_20260925T0025.json",
+  "review_sha256": "0ca88f2c04c55386f499255b3c95a61b8312b0a4536c2659b3808a9576636453",
+  "authorization": "Original study execution request, repeated instructions to continue all reruns and defer manuscript decisions, and the current heartbeat mandate.",
+  "reviewed_pilot_extensions": 6,
+  "reviewed_pilot_controls": 2,
+  "approved_scope": "Remaining 28 original-setting extensions followed by four preplanned resolution checks, under the frozen protocol and job manifest.",
+  "decision_basis": [
+    "All eight pilot executions are complete; independent scalar extraction, virtual-stop chronology, original-input identity, configured overrides and source checksums agree.",
+    "Six extension pilots demonstrate that integrated response can change with or without a changed maximum. A-to-B reproduction is separated from B-to-C loading.",
+    "Numerical flags have been investigated through independent saved-state checks and the separately versioned Q1-Q8 diagnostics. No original-setting pilot trajectory passes every residual check; Q4-Q7-Q8 do not establish strain-increment convergence.",
+    "The user-authorized study remains informative as a protocol/numerical-sensitivity audit of the original instrument. These limitations are retained in figures, tables and interpretation, rather than changing the original solver during the primary comparison."
+  ],
+  "numerical_convergence_certified": false,
+  "material_failure_values_certified": false,
+  "manuscript_integration_authorized": false,
+  "retained_limitations": [
+    "Driver failure flags are operational stopping outcomes, not certificates of numerical convergence.",
+    "Residual exceedances, reproduction differences, remaining censoring and failed diagnostics must stay explicit.",
+    "Do not infer a corrected unique failure endpoint or silently replace the original report.",
+    "No additional strict-branch loading runs or progressively finer controls are released by this gate."
+  ],
+  "scheduler_pid": 43715,
+  "max_workers": 3,
+  "duplicate_schedulers_launched": 0,
+  "protocol_sha256": "1e316848ed634811cc1466580e911c952da7cb5236f615fca05d95e3c54871c4",
+  "job_manifest_sha256": "53602272897de4b2bbf22d4889a5918956d24902f14947ce3ef36d6e0cf9305e",
+  "budget_scenario": {
+    "primary_pilot_loading_timer_hours": [
+      3.1270958733333587,
+      7.573676243495267,
+      4.241550171527779,
+      6.734362404317233,
+      4.581265682013893,
+      2.844121357338057
+    ],
+    "median_hours": 4.411407926770836,
+    "remaining_wall_hours_at_three_workers": 55.62426377831023,
+    "assumption": "28 extensions at pilot median cost, four resolution cases at twice their pilot cost, three workers continuously awake. Changing contention, geometry and iteration cost make this a planning scenario, not a deadline.",
+    "incremental_run_bytes_at_median_cost": 591432030.0,
+    "storage_assumption": "28 production runs plus four resolution runs at twice the pilot median storage; excludes additional analysis snapshots.",
+    "free_disk_bytes": 2518851432448
+  }
+}

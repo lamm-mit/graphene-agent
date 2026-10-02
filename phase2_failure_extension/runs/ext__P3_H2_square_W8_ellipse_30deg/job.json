@@ -1,0 +1,14 @@
+{
+  "case_id": "ext__P3_H2_square_W8_ellipse_30deg",
+  "parent_run_id": "run_20260909_103406_61de19",
+  "source_phase": "II",
+  "role": "extension",
+  "stage": "pilot",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000
+  }
+}

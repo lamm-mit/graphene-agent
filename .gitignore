@@ -75,3 +75,47 @@ paper_analysis/figures/si/progression_S7_slit_0deg_armchair_energy_rel.svg
 
 # written by Atomistica on import (banner log)
 atomistica.log
+
+# Release runtime outputs and separately archived scientific data
+/validation/
+/.venv/
+/generated/
+/atlas/*/assets/
+/atlas/*/output/
+/hierarchy_followup/figures/
+/hierarchy_followup/movies*/
+/phase2_failure_extension/figures/
+/phase2_failure_extension/logs/
+/phase2_failure_extension/candidate_figures/**/figures/
+/phase2_failure_extension/candidate_figures/**/qa/
+/phase2_failure_extension/candidate_figures/one_to_one/runtime/
+/paper_analysis/current/figures/
+/atlas/explorer/designs.json.gz
+/hierarchy_followup/experiments/**/*.extxyz
+/hierarchy_followup/experiments/**/*.jsonl
+/hierarchy_followup/experiments/**/*.log
+/hierarchy_followup/experiments/**/*.out
+/hierarchy_followup/experiments/**/*.pid
+/hierarchy_followup/reference/**/*.jsonl
+/hierarchy_followup/trajectories/**/*.npz
+/phase2_failure_extension/diagnostics/**/*.extxyz
+/phase2_failure_extension/diagnostics/**/*.jsonl
+/phase2_failure_extension/diagnostics/**/*.log
+/phase2_failure_extension/diagnostics/**/*.npz
+/phase2_failure_extension/diagnostics/**/*.pt
+/phase2_failure_extension/inputs/**/*.extxyz
+/phase2_failure_extension/inputs/**/*.npz
+/phase2_failure_extension/inputs/**/*.pdf
+/phase2_failure_extension/runs/**/*.extxyz
+/phase2_failure_extension/runs/**/*.npz
+
+# Regenerated review assets
+/phase2_failure_extension/candidate_figures/**/output/
+/phase2_failure_extension/candidate_figures/bond_reconnection_20260926/bond_reconnection_review.pdf
+/phase2_failure_extension/candidate_figures/one_to_one/inputs/
+/phase2_failure_extension/candidate_figures/one_to_one/runtime_patch.diff
+/phase2_failure_extension/candidate_figures/paper_si_20260926/figure_manifest.json
+/phase2_failure_extension/candidate_figures/paper_si_20260926/tex/
+/phase2_failure_extension/results/disorder_endpoint_summaries.json
+/phase2_failure_extension/results/pilot_assessment.json
+/phase2_failure_extension/results/si_*.json

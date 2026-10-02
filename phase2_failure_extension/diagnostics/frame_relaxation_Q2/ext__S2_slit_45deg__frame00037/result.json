@@ -1,0 +1,37 @@
+{
+  "case_id": "ext__S2_slit_45deg",
+  "frame_index": 37,
+  "strain": 0.26625,
+  "source_sha256": "43aec27243c666b5c11087b5b0fc4449505e261f847a4d0ed0090fdad73aa261",
+  "before": {
+    "max_force_eV_A": 1.0144736766815186,
+    "sigma_xx_N_m": 11.81543254852295,
+    "sigma_yy_N_m": 0.19869063794612885,
+    "energy_eV": -21826.318359375
+  },
+  "after": {
+    "max_force_eV_A": 0.0808022990822792,
+    "sigma_xx_N_m": 8.439444541931152,
+    "sigma_yy_N_m": 0.5831303596496582,
+    "energy_eV": -21929.068359375
+  },
+  "force_converged": false,
+  "minimizer": {
+    "converged": [
+      false
+    ],
+    "iterations": 8000,
+    "fmax": [
+      0.0808023065328598
+    ],
+    "n_evaluations": 8001,
+    "n_rebuilds": 41,
+    "wall_time": 775.0507194160018,
+    "failed": [
+      false
+    ],
+    "soft": [
+      false
+    ]
+  }
+}

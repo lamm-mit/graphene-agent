@@ -1,0 +1,14 @@
+{
+  "case_id": "ext__S5_H2_D40_W8_jitter2",
+  "parent_run_id": "run_20260905_210540_992f53",
+  "source_phase": "I",
+  "role": "extension",
+  "stage": "production",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000
+  }
+}

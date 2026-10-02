@@ -1,0 +1,12 @@
+{
+  "all_source_hashes_pass": true,
+  "all_45_loading_metrics_and_final_stops_recomputed": true,
+  "one_to_one_primary_parents": 34,
+  "discovery_population": 96,
+  "discovery_replacements": 20,
+  "alignment_population": 40,
+  "alignment_replacements": 8,
+  "predictions_unchanged": true,
+  "baseline_descriptors_and_moduli_preserved": true,
+  "physical_convergence_claimed": false
+}

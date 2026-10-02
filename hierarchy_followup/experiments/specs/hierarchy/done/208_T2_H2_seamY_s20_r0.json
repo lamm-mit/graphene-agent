@@ -1,0 +1,74 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "208_T2_H2_seamY_s20_r0",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H2_seamY_s20_r0",
+   "family": "seam_pores",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "pore_d": 4.0,
+    "seam_spacing": 20.0,
+    "seam_anchor": [
+     0.5,
+     0.5
+    ],
+    "skip_near": [
+     60.0,
+     60.0,
+     8.0,
+     10.0
+    ],
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ],
+    "seam_dir": "y",
+    "pitch": 8.0
+   },
+   "seed": 0,
+   "reason": "T2 control (seamY): 90 pores of 4.0 A, columns across the load every 20 A + 20 A crack, registry 0",
+   "hypothesis": "rule: strength and W of the cracked pristine reference (18.8 N/m, 0.91 J/m2 after the 100 -> 120 A cell correction) reduced by the seam porosity 0.083; control: the same pores in columns across the load (parallel to the crack, 10 A on either side of it): no weak plane ahead of the tips, only a loss of section; rule only",
+   "tags": [
+    "hierarchy",
+    "T2",
+    "control",
+    "seamY",
+    "registry0",
+    "cracked"
+   ],
+   "parent": "H1_pristine_L20_r0",
+   "prediction": {
+    "strength_Nm_rule": 17.3,
+    "strength_Nm_mechanism": 17.3,
+    "strength_Nm_alt_rule": 11.6,
+    "work_to_failure_J_m2": 0.83,
+    "W_ratio_rule": 0.917,
+    "W_ratio_hypothesis": 0.917,
+    "deflection_expected": false,
+    "fracture_mode_class": "abrupt",
+    "modulus_2d_Nm": 206.0,
+    "failure_strain": 0.091
+   },
+   "notes": null
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "Q1",
+  "recorded_utc": "2026-09-24T11:19:47.441022+00:00",
+  "reason": "Pristine reproduction control exceeded the transverse-stress tolerance at two frames, maximum 2.0763 N/m; original parent maximum 0.1876 N/m.",
+  "scope": "One additional diagnostic control, excluded from the 34-case primary effects. Primary settings and frozen job list unchanged.",
+  "change": "Increase max_transverse_iter from 3 to 15; retain tolerance, force engine, geometry, strain steps and other settings.",
+  "comparison": "Report changes in transverse residuals and the curve relative to primary control and archived original."
+}

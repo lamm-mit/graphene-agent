@@ -1,0 +1,56 @@
+{
+  "pages": 1,
+  "page_size_pt": [
+    0.0,
+    0.0,
+    744.0,
+    510.0
+  ],
+  "fonts": [
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT"
+  ],
+  "font_records": [
+    [
+      2,
+      "n/a",
+      "Type1",
+      "Times-Roman",
+      "F1",
+      "WinAnsiEncoding",
+      0
+    ],
+    [
+      7,
+      "ttf",
+      "TrueType",
+      "AAAAAA+Arial-BoldMT",
+      "F2+0",
+      "",
+      0
+    ],
+    [
+      11,
+      "ttf",
+      "TrueType",
+      "AAAAAA+ArialMT",
+      "F3+0",
+      "",
+      0
+    ],
+    [
+      15,
+      "ttf",
+      "TrueType",
+      "AAAAAA+Arial-ItalicMT",
+      "F4+0",
+      "",
+      0
+    ]
+  ],
+  "raster_images_in_pdf": 0,
+  "text_outside_page": [],
+  "visual_review": "Passed: all six panels inspected in the PDF-rendered preview; no clipped labels, overlapping loading/sequence arrows, or manuscript footers.",
+  "manuscript_modified": false
+}

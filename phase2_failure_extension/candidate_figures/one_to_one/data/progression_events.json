@@ -1,0 +1,322 @@
+[
+  {
+    "state": "A",
+    "name": "S2_slit_0deg",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": -0.03253955611617658
+  },
+  {
+    "state": "A",
+    "name": "S2_slit_0deg",
+    "event": "first_damage",
+    "frame": 23,
+    "strain": 0.20375000000000004,
+    "stress": 4.970533576459852
+  },
+  {
+    "state": "A",
+    "name": "S2_slit_0deg",
+    "event": "peak_load",
+    "frame": 22,
+    "strain": 0.20250000000000004,
+    "stress": 25.402063572458648
+  },
+  {
+    "state": "A",
+    "name": "S2_slit_0deg",
+    "event": "post_peak",
+    "frame": 24,
+    "strain": 0.20875000000000005,
+    "stress": 3.2441254911656214
+  },
+  {
+    "state": "A",
+    "name": "S2_slit_0deg",
+    "event": "final",
+    "frame": 26,
+    "strain": 0.21875000000000006,
+    "stress": 1.9708889549339577
+  },
+  {
+    "state": "C",
+    "name": "S2_slit_0deg",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": -0.03253955611617658
+  },
+  {
+    "state": "C",
+    "name": "S2_slit_0deg",
+    "event": "first_damage",
+    "frame": 23,
+    "strain": 0.20375000000000004,
+    "stress": 4.970533576459852
+  },
+  {
+    "state": "C",
+    "name": "S2_slit_0deg",
+    "event": "peak_load",
+    "frame": 22,
+    "strain": 0.20250000000000004,
+    "stress": 25.402063572458648
+  },
+  {
+    "state": "C",
+    "name": "S2_slit_0deg",
+    "event": "post_peak",
+    "frame": 24,
+    "strain": 0.20875000000000005,
+    "stress": 3.2441254911656214
+  },
+  {
+    "state": "C",
+    "name": "S2_slit_0deg",
+    "event": "final",
+    "frame": 26,
+    "strain": 0.21875000000000006,
+    "stress": 1.9708889549339577
+  },
+  {
+    "state": "A",
+    "name": "S7_slit_20deg",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": -0.0569696269423793
+  },
+  {
+    "state": "A",
+    "name": "S7_slit_20deg",
+    "event": "first_damage",
+    "frame": 9,
+    "strain": 0.065,
+    "stress": 8.075620680796348
+  },
+  {
+    "state": "A",
+    "name": "S7_slit_20deg",
+    "event": "peak_load",
+    "frame": 11,
+    "strain": 0.07500000000000001,
+    "stress": 8.937497909653079
+  },
+  {
+    "state": "A",
+    "name": "S7_slit_20deg",
+    "event": "post_peak",
+    "frame": 13,
+    "strain": 0.08500000000000002,
+    "stress": 5.115950935428479
+  },
+  {
+    "state": "A",
+    "name": "S7_slit_20deg",
+    "event": "final",
+    "frame": 35,
+    "strain": 0.19500000000000012,
+    "stress": 8.793924601015883
+  },
+  {
+    "state": "C",
+    "name": "S7_slit_20deg",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": -0.05694327569233635
+  },
+  {
+    "state": "C",
+    "name": "S7_slit_20deg",
+    "event": "first_damage",
+    "frame": 9,
+    "strain": 0.065,
+    "stress": 8.075482209901446
+  },
+  {
+    "state": "C",
+    "name": "S7_slit_20deg",
+    "event": "peak_load",
+    "frame": 51,
+    "strain": 0.2750000000000002,
+    "stress": 14.994687563693923
+  },
+  {
+    "state": "C",
+    "name": "S7_slit_20deg",
+    "event": "post_peak",
+    "frame": 64,
+    "strain": 0.34000000000000025,
+    "stress": 7.056593788285956
+  },
+  {
+    "state": "C",
+    "name": "S7_slit_20deg",
+    "event": "final",
+    "frame": 160,
+    "strain": 0.8200000000000006,
+    "stress": 1.442159210238605
+  },
+  {
+    "state": "A",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": 0.01745823472949391
+  },
+  {
+    "state": "A",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "first_damage",
+    "frame": 14,
+    "strain": 0.11875,
+    "stress": 16.239031908961163
+  },
+  {
+    "state": "A",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "peak_load",
+    "frame": 18,
+    "strain": 0.13875,
+    "stress": 17.460201956251787
+  },
+  {
+    "state": "A",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "post_peak",
+    "frame": 23,
+    "strain": 0.16375000000000003,
+    "stress": 5.540134557614803
+  },
+  {
+    "state": "A",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "final",
+    "frame": 42,
+    "strain": 0.2587500000000001,
+    "stress": 2.5841268899312717
+  },
+  {
+    "state": "C",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": 0.021080451671712543
+  },
+  {
+    "state": "C",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "first_damage",
+    "frame": 14,
+    "strain": 0.11875,
+    "stress": 16.217831537465678
+  },
+  {
+    "state": "C",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "peak_load",
+    "frame": 18,
+    "strain": 0.13875,
+    "stress": 17.51349510632733
+  },
+  {
+    "state": "C",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "post_peak",
+    "frame": 20,
+    "strain": 0.14875000000000002,
+    "stress": 13.717065319980591
+  },
+  {
+    "state": "C",
+    "name": "S5_H2_D40_W8_ellipseX",
+    "event": "final",
+    "frame": 112,
+    "strain": 0.6087500000000003,
+    "stress": 2.011859866563594
+  },
+  {
+    "state": "A",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": -0.07680034521436933
+  },
+  {
+    "state": "A",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "first_damage",
+    "frame": 15,
+    "strain": 0.14125,
+    "stress": 18.954295272481048
+  },
+  {
+    "state": "A",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "peak_load",
+    "frame": 16,
+    "strain": 0.14625,
+    "stress": 19.382607714764703
+  },
+  {
+    "state": "A",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "post_peak",
+    "frame": 18,
+    "strain": 0.15625,
+    "stress": 11.83463945122707
+  },
+  {
+    "state": "A",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "final",
+    "frame": 31,
+    "strain": 0.22125000000000006,
+    "stress": 1.5609172214231208
+  },
+  {
+    "state": "C",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "relaxed",
+    "frame": 0,
+    "strain": 0.0,
+    "stress": -0.07680034521436933
+  },
+  {
+    "state": "C",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "first_damage",
+    "frame": 15,
+    "strain": 0.14125,
+    "stress": 18.954295272481048
+  },
+  {
+    "state": "C",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "peak_load",
+    "frame": 16,
+    "strain": 0.14625,
+    "stress": 19.382607714764703
+  },
+  {
+    "state": "C",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "post_peak",
+    "frame": 18,
+    "strain": 0.15625,
+    "stress": 11.83463945122707
+  },
+  {
+    "state": "C",
+    "name": "S7_H2_veinsX_W12_ellipseX",
+    "event": "final",
+    "frame": 31,
+    "strain": 0.22125000000000006,
+    "stress": 1.5609172214231208
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "reviewed_utc": "2026-09-24T16:10:09.669087+00:00",
+  "production_approved": false,
+  "reason": "Only two of six pilot extensions and one of two controls have completed; numerical issues remain.",
+  "queue": {
+    "updated_utc": "2026-09-24T16:10:05.158832+00:00",
+    "queue_pid": 43715,
+    "active_stage": "pilot",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 3,
+      "running": 3,
+      "pending": 34
+    },
+    "running": [
+      {
+        "case_id": "ext__S7_slit_20deg",
+        "pid": 44500,
+        "elapsed_s": 17601.323175907135,
+        "updated_utc": "2026-09-24T16:07:37.647355+00:00",
+        "frames": 121,
+        "attempted_step": 123,
+        "strain": 0.6200000000000004,
+        "stress_N_m": 3.493835547031313,
+        "force_residual_eV_A": 1.5272215604782104,
+        "transverse_stress_N_m": -0.06025469224890894,
+        "wall_time_s": 17452.681524038315,
+        "virtual_original_stop": {
+          "index": 35,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 332
+      },
+      {
+        "case_id": "ext__S5_H2_D40_W8_ellipseX",
+        "pid": 80313,
+        "elapsed_s": 6553.534266233444,
+        "updated_utc": "2026-09-24T16:05:59.609503+00:00",
+        "frames": 31,
+        "attempted_step": 33,
+        "strain": 0.19875000000000007,
+        "stress_N_m": 4.585118939931285,
+        "force_residual_eV_A": 0.7099593281745911,
+        "transverse_stress_N_m": -0.054798051164490824,
+        "wall_time_s": 6306.967978954315,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 123
+      },
+      {
+        "case_id": "ext__P1_slit_35deg",
+        "pid": 94683,
+        "elapsed_s": 2320.7875039577484,
+        "updated_utc": "2026-09-24T16:06:45.152253+00:00",
+        "frames": 18,
+        "attempted_step": 20,
+        "strain": 0.12125000000000004,
+        "stress_N_m": 1.241570868739505,
+        "force_residual_eV_A": 0.019646240398287773,
+        "transverse_stress_N_m": -0.045660740290664366,
+        "wall_time_s": 2119.8346400260925,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 5
+      }
+    ]
+  },
+  "execution_checksum_review": {
+    "execution_code_checksums.json": {
+      "checked": 61,
+      "mismatches": []
+    },
+    "verified_code_checksums.json": {
+      "checked": 61,
+      "mismatches": []
+    }
+  },
+  "paired_integral_review": [
+    {
+      "case_id": "ctrl__S1_pristine_zz",
+      "integrals_match": true
+    },
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "integrals_match": true
+    },
+    {
+      "case_id": "ext__S7_slit_0deg_armchair",
+      "integrals_match": true
+    },
+    {
+      "case_id": "quality__S1_pristine_zz_transverse15",
+      "integrals_match": true
+    },
+    {
+      "case_id": "quality__S1_pristine_zz_verified_Q4",
+      "integrals_match": true
+    }
+  ],
+  "Q4_live": {
+    "status": "running",
+    "frames": 54,
+    "last_accepted_strain": 0.2850000000000002,
+    "all_accepted_residuals_pass": true,
+    "note": "Process alive and consuming CPU; long candidate relaxation is bounded by existing frozen Q4 correction budgets. No duplicate or interruption.",
+    "activity_sample": "logs/Q4_activity_sample_20260924T1611.txt"
+  },
+  "figure_review": {
+    "primary_available": 2,
+    "rendered_pages": 5,
+    "source_pdf_sha256": {
+      "figures/si_curve_atlas.pdf": "7d985a0fa1b4d5f39fbf00091cab9b52f96721d88db31fe2280998f1f9560ef2",
+      "figures/loading_horizon_comparison.pdf": "bd3990f2c3a1be08554656adba829859dd0c3e18137a652954ba19744f8243cd",
+      "figures/si_property_shifts.pdf": "2d10ab7c2c4b36caf56c2c2a2233fd6a4e0ed97ae6fbb6c03bfcdcd45db12000",
+      "figures/si_disorder_work_shifts.pdf": "71bd49c6e8f922d916c7767e5ed7435847b78a621bb5dc4f269a908b8230357e"
+    },
+    "render_directory": "tests/results/pdf_review_20260924T1608",
+    "visual_assessment": "Five pages reviewed. Labels legible, no clipping/overlap; pending cases, archived censoring and above-tolerance flags explicit. All plots remain interim.",
+    "full_cohort_review_complete": false
+  }
+}

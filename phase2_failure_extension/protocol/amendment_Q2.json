@@ -1,0 +1,29 @@
+{
+  "id": "Q2",
+  "recorded_utc": "2026-09-24T12:27:24.038016+00:00",
+  "reason": "Independent CPU float64 evaluations confirmed residual forces of 1.01\u20132.55 eV/Angstrom in accepted pilot frames; some inherited FIRE flags describe a prior relaxation rather than the final recorded state.",
+  "scope": "Three fixed-cell relaxation probes and a static force audit of the eight archived pilot parents. These are diagnostics, not loading trajectories or primary cohort replacements.",
+  "method": "For each selected new frame, preserve saved positions/cell, relax coordinates at fixed cell with the unchanged FIRE and potential, MPS float32, 8000 iterations maximum, fmax 0.02 and stall shortcut disabled. Report stress and force changes. Do not splice relaxed frames into trajectories or infer a continued failure strain.",
+  "production_policy": "Keep primary frozen execution unchanged. Production remains gated until all pilots, controls and numerical diagnostics are reviewed.",
+  "frames": [
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "frame_index": 37,
+      "strain": 0.26625
+    },
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "frame_index": 20,
+      "strain": 0.12
+    },
+    {
+      "case_id": "ext__S7_slit_0deg_armchair",
+      "frame_index": 27,
+      "strain": 0.19375
+    }
+  ],
+  "script_checksums": {
+    "scripts/relax_saved_frames_Q2.py": "f0577c540171212ed2f46c6f295545ae6af0a4f050e10a3d16cf79b7e89bce4d",
+    "scripts/audit_archived_pilot_forces.py": "78c56fab64018eb68b796df12f5fff8775d237388e1febacaf2710878052384a"
+  }
+}

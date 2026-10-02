@@ -1,0 +1,63 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "306_T3_H3_2L_r1",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H3_2L_r1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 100,
+    "vein_w": 30,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.631
+   },
+   "seed": 0,
+   "reason": "T3 scale separation (300 A cell), registry 1: two-level mesh: 30 A veins along the load every 100 A (level ratio 100/12 = 8, eight pore rows per domain), elongated fine pores",
+   "hypothesis": "column class rule (veins 0.302 x 28.9 + fine 0.533 x 16.5) = 17.5 N/m; one-level trend of phase 1 at A = 0.53: 22.1 N/m (scatter 1.9). Hypothesis under test: the two-level design shows a W or crack-retention premium beyond the one-level scatter (0.35 J/m2, 1.9 N/m) even though its strength does not",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "2L",
+    "registry1",
+    "uncracked"
+   ],
+   "parent": "S7_H2_veinsX_W12_ellipseX",
+   "prediction": {
+    "strength_Nm_rule": 17.5,
+    "strength_Nm_trend": 22.1,
+    "alignment_A": 0.53,
+    "one_level_scatter_Nm": 1.92,
+    "one_level_W_scatter": 0.35,
+    "work_to_failure_J_m2": 1.98,
+    "modulus_2d_Nm": 178,
+    "fracture_mode_class": "stepwise"
+   },
+   "notes": null
+  }
+ ]
+}

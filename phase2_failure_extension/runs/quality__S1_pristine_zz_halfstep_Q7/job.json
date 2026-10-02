@@ -1,0 +1,24 @@
+{
+  "case_id": "quality__S1_pristine_zz_halfstep_Q7",
+  "parent_run_id": "run_20260905_000440_9f82a7",
+  "source_phase": "I",
+  "role": "quality",
+  "stage": "quality",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000,
+    "max_fire_steps": 4000,
+    "transverse_fire_steps": 4000,
+    "max_transverse_iter": 15,
+    "d_strain": 0.0025,
+    "d_strain_elastic": 0.005,
+    "d_strain_min": 0.000625
+  },
+  "amendment": "Q7",
+  "comparison_case_id": "quality__S1_pristine_zz_verified_Q4",
+  "numerical_branch": "Q4",
+  "resolution_factor": 0.5
+}

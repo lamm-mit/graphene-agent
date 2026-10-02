@@ -1,0 +1,68 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "504_T5_H5_VF_R_r0",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H5_VF_R_r0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    }
+   },
+   "seed": 0,
+   "reason": "T5 composite hierarchy, registry 0: fibrous veins + domains of round pores",
+   "hypothesis": "column class rule with straight 28.9 / fine_round 16.5 N/m (rule_b: aligned elongated-pore regions at 24.1 N/m); graceful veins with a weaker (round-pore) domain filler that fails first: two-stage failure with residual >= 0.6 and post-peak energy >= 1.5 x VS_R",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_R",
+    "registry0",
+    "uncracked"
+   ],
+   "parent": "H5_VS_R_r0",
+   "prediction": {
+    "strength_Nm_rule": 16.2,
+    "strength_Nm_rule_b": 16.2,
+    "fracture_mode_class": "progressive",
+    "residual_fraction_hypothesis": 0.6,
+    "work_to_failure_J_m2": 1.29,
+    "modulus_2d_Nm": 127.0
+   },
+   "notes": null
+  }
+ ]
+}

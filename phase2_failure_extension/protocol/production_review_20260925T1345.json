@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-09-25T13:43:46.494458+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T13:43:36.376063+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 23,
+      "running": 3,
+      "pending": 14
+    },
+    "running": [
+      {
+        "case_id": "ext__S2_mesh_jitter2.0",
+        "pid": 24986,
+        "elapsed_s": 6863.113517045975,
+        "updated_utc": "2026-09-25T13:43:21.139421+00:00",
+        "frames": 45,
+        "attempted_step": 47,
+        "strain": 0.2712500000000001,
+        "stress_N_m": 2.278682298867145,
+        "force_residual_eV_A": 0.01962934620678425,
+        "transverse_stress_N_m": -0.07523106560429442,
+        "wall_time_s": 6846.993855953217,
+        "virtual_original_stop": {
+          "index": 38,
+          "reason": "post-peak strain limit reached (load still carried)",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 86
+      },
+      {
+        "case_id": "ext__S2_mesh_phi0.4",
+        "pid": 56537,
+        "elapsed_s": 1722.4174540042877,
+        "updated_utc": "2026-09-25T13:43:18.167886+00:00",
+        "frames": 30,
+        "attempted_step": 32,
+        "strain": 0.19250000000000006,
+        "stress_N_m": 3.8014677394919842,
+        "force_residual_eV_A": 0.20180873572826385,
+        "transverse_stress_N_m": -0.006933928663380638,
+        "wall_time_s": 1703.0508742332458,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 46
+      },
+      {
+        "case_id": "ext__S2_mesh_sizedis0.3",
+        "pid": 65762,
+        "elapsed_s": 409.6363580226898,
+        "updated_utc": "2026-09-25T13:40:47.359485+00:00",
+        "frames": 13,
+        "attempted_step": 15,
+        "strain": 0.10125,
+        "stress_N_m": 11.359652767644231,
+        "force_residual_eV_A": 0.01927054487168789,
+        "transverse_stress_N_m": -0.019240146619873656,
+        "wall_time_s": 239.71698307991028,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 3
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n24986 43715    01:54:33  37:01.24  36.4 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-02:32:19   0:14.46   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-02:32:19   0:00.09   0.0 S    /usr/bin/caffeinate\n56537 43715       28:53  11:58.62  42.5 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n65762 43715       07:00   2:51.66  37.3 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__S2_H2_D40_W4.json",
+    "results/review_ext__S2_mesh_p16_armchair.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T1345.json",
+  "execution_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "21/34 extensions complete (7/20 Phase-I, 14/14 earlier-Phase-II). Both new peaks reproduce within 0.12%; H2 adds 4.2224% integral B-to-C and armchair has B=C. Both paths and endpoints retain residual flags. Controls 2/2 complete; resolution 0/4. All three active workers are alive."
+}

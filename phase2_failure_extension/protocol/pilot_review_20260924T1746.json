@@ -1,0 +1,43 @@
+{
+  "reviewed_utc": "2026-09-24T17:46:04.734989+00:00",
+  "queue_counts": {
+    "completed": 3,
+    "running": 3,
+    "pending": 34
+  },
+  "queue_pid": 43715,
+  "active_children": [
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "pid": 44500,
+      "alive": true,
+      "record_status": "running"
+    },
+    {
+      "case_id": "ext__S5_H2_D40_W8_ellipseX",
+      "pid": 80313,
+      "alive": true,
+      "record_status": "running"
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "pid": 94683,
+      "alive": true,
+      "record_status": "running"
+    }
+  ],
+  "execution_hashes_verified": {
+    "execution_code_checksums": 61,
+    "verified_code_checksums": 61,
+    "refinement_code_checksums": 61
+  },
+  "Q4_slit_review": "results/Q4_slit_review.json",
+  "Q7_review": "results/Q7_control_review.json",
+  "Q8_review": "results/Q8_control_review.json",
+  "Q4_slit_and_Q7_Q8_complete": true,
+  "all_independent_static_residual_checks_pass": true,
+  "increment_stability_screen_pass": false,
+  "additional_control_refinement_planned": false,
+  "production_approved": false,
+  "reason": "Only two of six pilot extensions and one of two controls are complete. Numerical limitations remain in original-setting extensions, and strict control increment convergence remains unresolved. All main pilots must be reviewed before a gate decision."
+}

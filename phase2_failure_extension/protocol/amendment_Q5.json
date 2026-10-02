@@ -1,0 +1,27 @@
+{
+  "id": "Q5",
+  "recorded_utc": "2026-09-24T14:33:07.883441+00:00",
+  "reason": "The first completed pilot stopped by stress collapse while spanning; its final frame has force residual 0.27796 eV/Angstrom despite a true inherited FIRE flag. Check whether the criterion survives further relaxation of this recorded endpoint.",
+  "scope": "One fixed-cell endpoint diagnostic. Preserve the original trajectory and termination; do not splice relaxed states into it or infer a corrected loading path.",
+  "frames": [
+    {
+      "case_id": "ext__S2_slit_45deg",
+      "frame_index": 116,
+      "strain": 0.6612500000000004,
+      "source": "runs/ext__S2_slit_45deg/frames/00116.npz"
+    }
+  ],
+  "minimizer_settings": {
+    "fmax": 0.02,
+    "max_steps": 4000,
+    "skin": 0.3,
+    "stall_iters": 1000000000,
+    "dt": 0.05,
+    "dt_max": 0.2,
+    "maxstep": 0.05
+  },
+  "running_peak_stress_N_m": 12.204642277152937,
+  "stress_fraction_threshold": 0.1,
+  "interpretation": "Compare topology, force/transverse residuals and stress against the frozen preceding running peak. Passing fixed-cell checks does not validate the full loading path or a zero-transverse-stress endpoint.",
+  "script_sha256": "636856fb1da74ba15cfca55ee6eff67376b7c59689b31c9bbf26971336f933f8"
+}

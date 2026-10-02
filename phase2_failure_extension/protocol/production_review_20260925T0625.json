@@ -1,0 +1,118 @@
+{
+  "recorded_utc": "2026-09-25T06:24:34.380828+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T06:24:24.265672+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 14,
+      "running": 3,
+      "pending": 23
+    },
+    "running": [
+      {
+        "case_id": "ext__P1_slit_30deg",
+        "pid": 6635,
+        "elapsed_s": 17553.262684822083,
+        "updated_utc": "2026-09-25T06:21:59.500910+00:00",
+        "frames": 110,
+        "attempted_step": 112,
+        "strain": 0.5737500000000004,
+        "stress_N_m": 3.1098428633476467,
+        "force_residual_eV_A": 0.3249010741710663,
+        "transverse_stress_N_m": -0.04344066612633641,
+        "wall_time_s": 17407.62201309204,
+        "virtual_original_stop": {
+          "index": 59,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 199
+      },
+      {
+        "case_id": "ext__P1_slit_60deg",
+        "pid": 19330,
+        "elapsed_s": 14194.065160036087,
+        "updated_utc": "2026-09-25T06:22:02.441323+00:00",
+        "frames": 104,
+        "attempted_step": 106,
+        "strain": 0.5812500000000004,
+        "stress_N_m": 2.1918839670835344,
+        "force_residual_eV_A": 0.5410218238830566,
+        "transverse_stress_N_m": -0.09750611598212318,
+        "wall_time_s": 14051.202670812607,
+        "virtual_original_stop": {
+          "index": 51,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 89
+      },
+      {
+        "case_id": "ext__P2_slit_20deg_phi0.30",
+        "pid": 51127,
+        "elapsed_s": 3780.958039045334,
+        "updated_utc": "2026-09-25T06:23:06.499381+00:00",
+        "frames": 46,
+        "attempted_step": 48,
+        "strain": 0.25375000000000014,
+        "stress_N_m": 7.436973814070189,
+        "force_residual_eV_A": 0.09938643872737885,
+        "transverse_stress_N_m": -0.03236539315439779,
+        "wall_time_s": 3702.26922082901,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 120
+      }
+    ]
+  },
+  "process_snapshot": " 6635 43715 04:52:43 108:49.45 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_30deg\n19330 43715 03:56:44  89:22.46 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_60deg\n43715     1 19:13:07   0:09.33 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_study.py\n51127 43715 01:03:11  24:33.11 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P2_slit_20deg_phi0.30\n",
+  "all_expected_processes_alive": true,
+  "progress_since_previous_review": [
+    {
+      "case_id": "ext__P1_slit_30deg",
+      "additional_saved_frames": 10,
+      "strain": 0.5737500000000004,
+      "updated_utc": "2026-09-25T06:21:59.500910+00:00",
+      "virtual_original_stop": {
+        "index": 59,
+        "reason": "max strain reached",
+        "failure_observed": false
+      }
+    },
+    {
+      "case_id": "ext__P1_slit_60deg",
+      "additional_saved_frames": 15,
+      "strain": 0.5812500000000004,
+      "updated_utc": "2026-09-25T06:22:02.441323+00:00",
+      "virtual_original_stop": {
+        "index": 51,
+        "reason": "max strain reached",
+        "failure_observed": false
+      }
+    },
+    {
+      "case_id": "ext__P2_slit_20deg_phi0.30",
+      "additional_saved_frames": 15,
+      "strain": 0.25375000000000014,
+      "updated_utc": "2026-09-25T06:23:06.499381+00:00",
+      "virtual_original_stop": null
+    }
+  ],
+  "new_main_completions": 0,
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "completed_figures_unchanged_since_visual_review": true,
+  "figure_review": "results/figure_review_20260925T0555.json",
+  "actions": {
+    "recovery": false,
+    "scheduler_launch": false,
+    "additional_loading_runs": false,
+    "protocol_amendment": false,
+    "figure_regeneration": false
+  },
+  "scientific_status": "Twelve of 34 extensions and both controls complete; four resolution checks pending. The three active workers continue advancing; their extended endpoints remain unavailable. Previously reported residual tolerance limitations are retained."
+}

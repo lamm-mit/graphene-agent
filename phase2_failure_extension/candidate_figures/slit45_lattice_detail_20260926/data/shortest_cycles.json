@@ -1,0 +1,2250 @@
+[
+  {
+    "frame": 36,
+    "atom_i": 122,
+    "atom_j": 281,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      122,
+      123,
+      124,
+      283,
+      282,
+      281
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 124,
+    "atom_j": 283,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      124,
+      123,
+      122,
+      281,
+      282,
+      283
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 125,
+    "atom_j": 3062,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      125,
+      51,
+      52,
+      3067,
+      3066,
+      3065,
+      3064,
+      2910,
+      2911,
+      2983,
+      2984,
+      2985,
+      3061,
+      3062
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 230,
+    "atom_j": 309,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      230,
+      231,
+      310,
+      309
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 231,
+    "atom_j": 310,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      231,
+      230,
+      309,
+      310
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 280,
+    "atom_j": 436,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      280,
+      279,
+      278,
+      277,
+      202,
+      203,
+      124,
+      283,
+      284,
+      360,
+      361,
+      362,
+      435,
+      436
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 385,
+    "atom_j": 389,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      385,
+      386,
+      462,
+      463,
+      390,
+      389
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 386,
+    "atom_j": 462,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      386,
+      385,
+      389,
+      390,
+      463,
+      462
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 461,
+    "atom_j": 541,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      461,
+      460,
+      459,
+      386,
+      462,
+      541
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 538,
+    "atom_j": 543,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      538,
+      537,
+      461,
+      541,
+      542,
+      543
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 540,
+    "atom_j": 616,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      540,
+      539,
+      538,
+      543,
+      544,
+      616
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 615,
+    "atom_j": 694,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      615,
+      540,
+      616,
+      617,
+      618,
+      694
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 691,
+    "atom_j": 773,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      691,
+      690,
+      614,
+      615,
+      694,
+      695,
+      773
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 693,
+    "atom_j": 772,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      693,
+      769,
+      770,
+      771,
+      772
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 719,
+    "atom_j": 800,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      719,
+      795,
+      796,
+      797,
+      799,
+      800
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 769,
+    "atom_j": 770,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      769,
+      693,
+      772,
+      771,
+      770
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 771,
+    "atom_j": 855,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      771,
+      772,
+      774,
+      775,
+      776,
+      855
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 772,
+    "atom_j": 774,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      772,
+      771,
+      855,
+      776,
+      775,
+      774
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 797,
+    "atom_j": 799,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      797,
+      796,
+      795,
+      719,
+      800,
+      799
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 798,
+    "atom_j": 883,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      798,
+      879,
+      880,
+      957,
+      958,
+      884,
+      883
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 799,
+    "atom_j": 881,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      799,
+      800,
+      801,
+      802,
+      881
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 801,
+    "atom_j": 802,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      801,
+      800,
+      799,
+      881,
+      802
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 880,
+    "atom_j": 957,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      880,
+      954,
+      955,
+      956,
+      1031,
+      957
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 956,
+    "atom_j": 1031,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      956,
+      955,
+      954,
+      880,
+      957,
+      1031
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1028,
+    "atom_j": 1033,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1028,
+      1027,
+      956,
+      1031,
+      1032,
+      1033
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1030,
+    "atom_j": 1107,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1030,
+      1029,
+      1028,
+      1033,
+      1034,
+      1107
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1106,
+    "atom_j": 1181,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1106,
+      1030,
+      1107,
+      1108,
+      1109,
+      1181
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1131,
+    "atom_j": 1287,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      1131,
+      1132,
+      1205,
+      1206,
+      1207,
+      1283,
+      1284,
+      1443,
+      1364,
+      1365,
+      1290,
+      1289,
+      1288,
+      1287
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1178,
+    "atom_j": 1182,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1178,
+      1177,
+      1105,
+      1106,
+      1181,
+      1182
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1257,
+    "atom_j": 1336,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      1257,
+      1258,
+      1337,
+      1336
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1258,
+    "atom_j": 1337,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      1258,
+      1257,
+      1336,
+      1337
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1284,
+    "atom_j": 1443,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1284,
+      1285,
+      1286,
+      1445,
+      1444,
+      1443
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1286,
+    "atom_j": 1445,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1286,
+      1285,
+      1284,
+      1443,
+      1444,
+      1445
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1442,
+    "atom_j": 1598,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      1442,
+      1441,
+      1440,
+      1439,
+      1362,
+      1363,
+      1286,
+      1445,
+      1446,
+      1518,
+      1519,
+      1520,
+      1597,
+      1598
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1596,
+    "atom_j": 1752,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1596,
+      1672,
+      1673,
+      1830,
+      1753,
+      1752
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1673,
+    "atom_j": 1830,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1673,
+      1672,
+      1596,
+      1752,
+      1753,
+      1830
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1777,
+    "atom_j": 1855,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      1777,
+      1854,
+      1932,
+      1855
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1828,
+    "atom_j": 1983,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      1828,
+      1827,
+      1750,
+      1749,
+      1748,
+      1674,
+      1673,
+      1830,
+      1831,
+      1832,
+      1833,
+      1908,
+      1907,
+      1983
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1854,
+    "atom_j": 1932,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      1854,
+      1777,
+      1855,
+      1932
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 1931,
+    "atom_j": 2008,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1931,
+      2007,
+      2081,
+      2010,
+      2009,
+      2008
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2007,
+    "atom_j": 2081,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2007,
+      1931,
+      2008,
+      2009,
+      2010,
+      2081
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2078,
+    "atom_j": 2082,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2078,
+      2077,
+      2006,
+      2007,
+      2081,
+      2082
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2080,
+    "atom_j": 2158,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2080,
+      2079,
+      2078,
+      2082,
+      2083,
+      2158
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2156,
+    "atom_j": 2160,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2156,
+      2155,
+      2080,
+      2158,
+      2159,
+      2160
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2157,
+    "atom_j": 2234,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2157,
+      2156,
+      2160,
+      2161,
+      2235,
+      2234
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2233,
+    "atom_j": 2313,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      2233,
+      2232,
+      2231,
+      2157,
+      2234,
+      2314,
+      2313
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2259,
+    "atom_j": 2260,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2259,
+      2258,
+      2338,
+      2339,
+      2343,
+      2260
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2261,
+    "atom_j": 2344,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2261,
+      2260,
+      2343,
+      2345,
+      2344
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2310,
+    "atom_j": 2312,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2310,
+      2311,
+      2394,
+      2395,
+      2312
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2311,
+    "atom_j": 2394,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2311,
+      2310,
+      2312,
+      2395,
+      2394
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2312,
+    "atom_j": 2316,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2312,
+      2395,
+      2396,
+      2397,
+      2317,
+      2316
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2339,
+    "atom_j": 2343,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2339,
+      2338,
+      2258,
+      2259,
+      2260,
+      2343
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2342,
+    "atom_j": 2422,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      2342,
+      2341,
+      2421,
+      2499,
+      2424,
+      2423,
+      2422
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2343,
+    "atom_j": 2345,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2343,
+      2260,
+      2261,
+      2344,
+      2345
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2395,
+    "atom_j": 2396,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2395,
+      2312,
+      2316,
+      2317,
+      2397,
+      2396
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2421,
+    "atom_j": 2499,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2421,
+      2420,
+      2495,
+      2496,
+      2500,
+      2499
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2496,
+    "atom_j": 2500,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2496,
+      2495,
+      2420,
+      2421,
+      2499,
+      2500
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2498,
+    "atom_j": 2577,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2498,
+      2497,
+      2496,
+      2500,
+      2501,
+      2577
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2575,
+    "atom_j": 2579,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2575,
+      2574,
+      2498,
+      2577,
+      2578,
+      2579
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2576,
+    "atom_j": 2653,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2576,
+      2575,
+      2579,
+      2580,
+      2654,
+      2653
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2652,
+    "atom_j": 2731,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2652,
+      2651,
+      2650,
+      2576,
+      2653,
+      2731
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2677,
+    "atom_j": 2832,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      2677,
+      2755,
+      2754,
+      2827,
+      2828,
+      2829,
+      2830,
+      2987,
+      2986,
+      2914,
+      2913,
+      2912,
+      2833,
+      2832
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2730,
+    "atom_j": 2806,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      2730,
+      2805,
+      2885,
+      2806
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2805,
+    "atom_j": 2885,
+    "shortest_cycle_size": 4,
+    "cycle_atom_ids": [
+      2805,
+      2730,
+      2806,
+      2885
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2830,
+    "atom_j": 2987,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2830,
+      2909,
+      2910,
+      3064,
+      2988,
+      2987
+    ]
+  },
+  {
+    "frame": 36,
+    "atom_i": 2910,
+    "atom_j": 3064,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2910,
+      2909,
+      2830,
+      2987,
+      2988,
+      3064
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 122,
+    "atom_j": 281,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      122,
+      123,
+      124,
+      283,
+      282,
+      281
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 124,
+    "atom_j": 283,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      124,
+      123,
+      122,
+      281,
+      282,
+      283
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 125,
+    "atom_j": 3062,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      125,
+      51,
+      52,
+      3067,
+      3066,
+      3065,
+      3064,
+      2910,
+      2911,
+      2983,
+      2984,
+      2985,
+      3061,
+      3062
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 230,
+    "atom_j": 309,
+    "shortest_cycle_size": null,
+    "cycle_atom_ids": null
+  },
+  {
+    "frame": 44,
+    "atom_i": 231,
+    "atom_j": 310,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      231,
+      306,
+      307,
+      308,
+      387,
+      311,
+      310
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 280,
+    "atom_j": 436,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      280,
+      359,
+      513,
+      437,
+      436
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 308,
+    "atom_j": 387,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      308,
+      384,
+      385,
+      389,
+      388,
+      387
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 359,
+    "atom_j": 513,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      359,
+      280,
+      436,
+      437,
+      513
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 385,
+    "atom_j": 389,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      385,
+      384,
+      308,
+      387,
+      388,
+      389
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 386,
+    "atom_j": 462,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      386,
+      385,
+      389,
+      390,
+      463,
+      462
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 434,
+    "atom_j": 666,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      434,
+      510,
+      511,
+      668,
+      667,
+      666
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 461,
+    "atom_j": 541,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      461,
+      460,
+      459,
+      386,
+      462,
+      541
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 511,
+    "atom_j": 668,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      511,
+      510,
+      434,
+      666,
+      667,
+      668
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 512,
+    "atom_j": 744,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      512,
+      511,
+      668,
+      669,
+      745,
+      744
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 538,
+    "atom_j": 543,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      538,
+      537,
+      461,
+      541,
+      542,
+      543
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 540,
+    "atom_j": 616,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      540,
+      539,
+      538,
+      543,
+      544,
+      616
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 589,
+    "atom_j": 827,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      589,
+      588,
+      587,
+      512,
+      744,
+      827
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 615,
+    "atom_j": 694,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      615,
+      540,
+      616,
+      617,
+      618,
+      694
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 664,
+    "atom_j": 829,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      664,
+      663,
+      589,
+      827,
+      828,
+      829
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 691,
+    "atom_j": 773,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      691,
+      690,
+      614,
+      615,
+      694,
+      695,
+      773
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 693,
+    "atom_j": 772,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      693,
+      769,
+      770,
+      771,
+      772
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 719,
+    "atom_j": 800,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      719,
+      795,
+      796,
+      797,
+      799,
+      800
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 769,
+    "atom_j": 770,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      769,
+      693,
+      772,
+      771,
+      770
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 771,
+    "atom_j": 855,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      771,
+      772,
+      774,
+      775,
+      776,
+      855
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 772,
+    "atom_j": 774,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      772,
+      771,
+      855,
+      776,
+      775,
+      774
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 797,
+    "atom_j": 799,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      797,
+      796,
+      795,
+      719,
+      800,
+      799
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 798,
+    "atom_j": 883,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      798,
+      879,
+      880,
+      957,
+      958,
+      884,
+      883
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 799,
+    "atom_j": 881,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      799,
+      800,
+      801,
+      802,
+      881
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 801,
+    "atom_j": 802,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      801,
+      800,
+      799,
+      881,
+      802
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 824,
+    "atom_j": 908,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      824,
+      825,
+      826,
+      982,
+      909,
+      908
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 826,
+    "atom_j": 982,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      826,
+      825,
+      824,
+      908,
+      909,
+      982
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 880,
+    "atom_j": 957,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      880,
+      954,
+      955,
+      956,
+      1031,
+      957
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 905,
+    "atom_j": 1056,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      905,
+      826,
+      982,
+      983,
+      984,
+      1056
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 956,
+    "atom_j": 1031,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      956,
+      955,
+      954,
+      880,
+      957,
+      1031
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 979,
+    "atom_j": 1057,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      979,
+      978,
+      904,
+      905,
+      1056,
+      1057
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 981,
+    "atom_j": 1133,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      981,
+      980,
+      979,
+      1057,
+      1058,
+      1133
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1028,
+    "atom_j": 1033,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1028,
+      1027,
+      956,
+      1031,
+      1032,
+      1033
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1030,
+    "atom_j": 1107,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1030,
+      1029,
+      1028,
+      1033,
+      1034,
+      1107
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1106,
+    "atom_j": 1181,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1106,
+      1030,
+      1107,
+      1108,
+      1109,
+      1181
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1130,
+    "atom_j": 1208,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      1130,
+      1204,
+      1131,
+      1287,
+      1208
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1131,
+    "atom_j": 1287,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      1131,
+      1204,
+      1130,
+      1208,
+      1287
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1178,
+    "atom_j": 1182,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1178,
+      1177,
+      1105,
+      1106,
+      1181,
+      1182
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1180,
+    "atom_j": 1259,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1180,
+      1179,
+      1178,
+      1182,
+      1183,
+      1259
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1257,
+    "atom_j": 1336,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      1257,
+      1256,
+      1180,
+      1259,
+      1260,
+      1261,
+      1336
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1258,
+    "atom_j": 1337,
+    "shortest_cycle_size": null,
+    "cycle_atom_ids": null
+  },
+  {
+    "frame": 44,
+    "atom_i": 1284,
+    "atom_j": 1443,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1284,
+      1285,
+      1286,
+      1445,
+      1444,
+      1443
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1286,
+    "atom_j": 1445,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1286,
+      1285,
+      1284,
+      1443,
+      1444,
+      1445
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1442,
+    "atom_j": 1598,
+    "shortest_cycle_size": 14,
+    "cycle_atom_ids": [
+      1442,
+      1441,
+      1440,
+      1439,
+      1362,
+      1363,
+      1286,
+      1445,
+      1446,
+      1518,
+      1519,
+      1520,
+      1597,
+      1598
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1596,
+    "atom_j": 1752,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1596,
+      1672,
+      1673,
+      1830,
+      1753,
+      1752
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1673,
+    "atom_j": 1830,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1673,
+      1672,
+      1596,
+      1752,
+      1753,
+      1830
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1777,
+    "atom_j": 1855,
+    "shortest_cycle_size": null,
+    "cycle_atom_ids": null
+  },
+  {
+    "frame": 44,
+    "atom_i": 1828,
+    "atom_j": 1983,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      1828,
+      1829,
+      1985,
+      1984,
+      1983
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1829,
+    "atom_j": 1985,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      1829,
+      1828,
+      1983,
+      1984,
+      1985
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1854,
+    "atom_j": 1932,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      1854,
+      1853,
+      1928,
+      1929,
+      1934,
+      1933,
+      1932
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1929,
+    "atom_j": 1934,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1929,
+      1930,
+      1931,
+      2008,
+      1935,
+      1934
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1931,
+    "atom_j": 2008,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1931,
+      1930,
+      1929,
+      1934,
+      1935,
+      2008
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1980,
+    "atom_j": 2133,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1980,
+      1981,
+      1982,
+      2210,
+      2134,
+      2133
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 1982,
+    "atom_j": 2210,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      1982,
+      1981,
+      1980,
+      2133,
+      2134,
+      2210
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2007,
+    "atom_j": 2081,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2007,
+      1931,
+      2008,
+      2009,
+      2010,
+      2081
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2056,
+    "atom_j": 2286,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2056,
+      1982,
+      2210,
+      2211,
+      2212,
+      2286
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2078,
+    "atom_j": 2082,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2078,
+      2077,
+      2006,
+      2007,
+      2081,
+      2082
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2080,
+    "atom_j": 2158,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2080,
+      2079,
+      2078,
+      2082,
+      2083,
+      2158
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2129,
+    "atom_j": 2287,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2129,
+      2128,
+      2055,
+      2056,
+      2286,
+      2287
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2131,
+    "atom_j": 2370,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2131,
+      2130,
+      2129,
+      2287,
+      2288,
+      2370
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2156,
+    "atom_j": 2160,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2156,
+      2155,
+      2080,
+      2158,
+      2159,
+      2160
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2157,
+    "atom_j": 2234,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2157,
+      2156,
+      2160,
+      2161,
+      2235,
+      2234
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2233,
+    "atom_j": 2313,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      2233,
+      2232,
+      2231,
+      2157,
+      2234,
+      2314,
+      2313
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2259,
+    "atom_j": 2260,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2259,
+      2258,
+      2338,
+      2339,
+      2343,
+      2260
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2261,
+    "atom_j": 2344,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2261,
+      2260,
+      2343,
+      2345,
+      2344
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2285,
+    "atom_j": 2525,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2285,
+      2367,
+      2368,
+      2527,
+      2526,
+      2525
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2310,
+    "atom_j": 2312,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2310,
+      2311,
+      2394,
+      2395,
+      2312
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2311,
+    "atom_j": 2394,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2311,
+      2310,
+      2312,
+      2395,
+      2394
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2312,
+    "atom_j": 2316,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2312,
+      2395,
+      2396,
+      2397,
+      2317,
+      2316
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2339,
+    "atom_j": 2343,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2339,
+      2338,
+      2258,
+      2259,
+      2260,
+      2343
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2342,
+    "atom_j": 2422,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      2342,
+      2341,
+      2421,
+      2499,
+      2424,
+      2423,
+      2422
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2343,
+    "atom_j": 2345,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2343,
+      2260,
+      2261,
+      2344,
+      2345
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2368,
+    "atom_j": 2527,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2368,
+      2367,
+      2285,
+      2525,
+      2526,
+      2527
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2369,
+    "atom_j": 2601,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2369,
+      2368,
+      2527,
+      2528,
+      2602,
+      2601
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2395,
+    "atom_j": 2396,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2395,
+      2312,
+      2316,
+      2317,
+      2397,
+      2396
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2421,
+    "atom_j": 2499,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2421,
+      2420,
+      2495,
+      2496,
+      2500,
+      2499
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2445,
+    "atom_j": 2678,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2445,
+      2444,
+      2443,
+      2369,
+      2601,
+      2678
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2496,
+    "atom_j": 2500,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2496,
+      2495,
+      2420,
+      2421,
+      2499,
+      2500
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2498,
+    "atom_j": 2577,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2498,
+      2497,
+      2496,
+      2500,
+      2501,
+      2577
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2523,
+    "atom_j": 2680,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2523,
+      2522,
+      2445,
+      2678,
+      2679,
+      2680
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2575,
+    "atom_j": 2579,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2575,
+      2574,
+      2498,
+      2577,
+      2578,
+      2579
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2576,
+    "atom_j": 2653,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2576,
+      2575,
+      2579,
+      2580,
+      2654,
+      2653
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2652,
+    "atom_j": 2731,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2652,
+      2651,
+      2650,
+      2576,
+      2653,
+      2731
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2675,
+    "atom_j": 2831,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2675,
+      2676,
+      2677,
+      2832,
+      2831
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2677,
+    "atom_j": 2832,
+    "shortest_cycle_size": 5,
+    "cycle_atom_ids": [
+      2677,
+      2676,
+      2675,
+      2831,
+      2832
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2728,
+    "atom_j": 2733,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2728,
+      2727,
+      2652,
+      2731,
+      2732,
+      2733
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2730,
+    "atom_j": 2806,
+    "shortest_cycle_size": 7,
+    "cycle_atom_ids": [
+      2730,
+      2729,
+      2728,
+      2733,
+      2734,
+      2807,
+      2806
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2805,
+    "atom_j": 2885,
+    "shortest_cycle_size": null,
+    "cycle_atom_ids": null
+  },
+  {
+    "frame": 44,
+    "atom_i": 2830,
+    "atom_j": 2987,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2830,
+      2909,
+      2910,
+      3064,
+      2988,
+      2987
+    ]
+  },
+  {
+    "frame": 44,
+    "atom_i": 2910,
+    "atom_j": 3064,
+    "shortest_cycle_size": 6,
+    "cycle_atom_ids": [
+      2910,
+      2909,
+      2830,
+      2987,
+      2988,
+      3064
+    ]
+  }
+]

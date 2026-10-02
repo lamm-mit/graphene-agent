@@ -1,0 +1,17 @@
+{
+  "updated_utc": "2026-09-25T13:53:26.668071+00:00",
+  "frames": 51,
+  "attempted_step": 53,
+  "strain": 0.30125000000000013,
+  "stress_N_m": 1.1322996656848356,
+  "force_residual_eV_A": 0.0178571455180645,
+  "transverse_stress_N_m": -0.006023868621463349,
+  "wall_time_s": 7452.522500038147,
+  "virtual_original_stop": {
+    "index": 38,
+    "reason": "post-peak strain limit reached (load still carried)",
+    "failure_observed": false
+  },
+  "spanning": true,
+  "cumulative_broken": 89
+}

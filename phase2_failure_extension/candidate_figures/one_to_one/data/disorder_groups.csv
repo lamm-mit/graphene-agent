@@ -1,0 +1,127 @@
+group,level,state,metric,n,mean,sd,names,rerun_n
+Positional disorder (Å),0,A,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Positional disorder (Å),0,A,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Positional disorder (Å),0,B,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Positional disorder (Å),0,B,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Positional disorder (Å),0,C,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Positional disorder (Å),0,C,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Positional disorder (Å),1,A,strength,1,12.661237160977596,0.0,S2_mesh_jitter1.0,0
+Positional disorder (Å),1,A,integral,1,1.2176800354819433,0.0,S2_mesh_jitter1.0,0
+Positional disorder (Å),1,B,strength,1,12.661237160977596,0.0,S2_mesh_jitter1.0,0
+Positional disorder (Å),1,B,integral,1,1.2176800354819433,0.0,S2_mesh_jitter1.0,0
+Positional disorder (Å),1,C,strength,1,12.661237160977596,0.0,S2_mesh_jitter1.0,0
+Positional disorder (Å),1,C,integral,1,1.2176800354819433,0.0,S2_mesh_jitter1.0,0
+Positional disorder (Å),2,A,strength,3,10.917912150117852,0.6251515160642507,S2_mesh_jitter2.0;S6_mesh_jitter2.0_s2;S6_mesh_jitter2.0_s3,1
+Positional disorder (Å),2,A,integral,3,1.068646846440094,0.25598882973000775,S2_mesh_jitter2.0;S6_mesh_jitter2.0_s2;S6_mesh_jitter2.0_s3,1
+Positional disorder (Å),2,B,strength,3,10.922665680861726,0.6318661000985222,S2_mesh_jitter2.0;S6_mesh_jitter2.0_s2;S6_mesh_jitter2.0_s3,1
+Positional disorder (Å),2,B,integral,3,1.0551684247495514,0.23697978245369788,S2_mesh_jitter2.0;S6_mesh_jitter2.0_s2;S6_mesh_jitter2.0_s3,1
+Positional disorder (Å),2,C,strength,3,10.922665680861726,0.6318661000985222,S2_mesh_jitter2.0;S6_mesh_jitter2.0_s2;S6_mesh_jitter2.0_s3,1
+Positional disorder (Å),2,C,integral,3,1.101481385138405,0.3023240006510409,S2_mesh_jitter2.0;S6_mesh_jitter2.0_s2;S6_mesh_jitter2.0_s3,1
+Positional disorder (Å),3,A,strength,1,11.090511186593979,0.0,S2_mesh_jitter3.0,1
+Positional disorder (Å),3,A,integral,1,1.1816823447778524,0.0,S2_mesh_jitter3.0,1
+Positional disorder (Å),3,B,strength,1,11.104436583762771,0.0,S2_mesh_jitter3.0,1
+Positional disorder (Å),3,B,integral,1,0.9108552869207444,0.0,S2_mesh_jitter3.0,1
+Positional disorder (Å),3,C,strength,1,11.104436583762771,0.0,S2_mesh_jitter3.0,1
+Positional disorder (Å),3,C,integral,1,0.9108552869207444,0.0,S2_mesh_jitter3.0,1
+Pore-size dispersion,0,A,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size dispersion,0,A,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size dispersion,0,B,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size dispersion,0,B,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size dispersion,0,C,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size dispersion,0,C,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size dispersion,0.15,A,strength,3,11.669254589213436,0.2898695536398923,S2_mesh_sizedis0.15;S6_mesh_sizedis0.15_s2;S6_mesh_sizedis0.15_s3,0
+Pore-size dispersion,0.15,A,integral,3,1.0007949599890942,0.0779124181197771,S2_mesh_sizedis0.15;S6_mesh_sizedis0.15_s2;S6_mesh_sizedis0.15_s3,0
+Pore-size dispersion,0.15,B,strength,3,11.669254589213436,0.2898695536398923,S2_mesh_sizedis0.15;S6_mesh_sizedis0.15_s2;S6_mesh_sizedis0.15_s3,0
+Pore-size dispersion,0.15,B,integral,3,1.0007949599890942,0.0779124181197771,S2_mesh_sizedis0.15;S6_mesh_sizedis0.15_s2;S6_mesh_sizedis0.15_s3,0
+Pore-size dispersion,0.15,C,strength,3,11.669254589213436,0.2898695536398923,S2_mesh_sizedis0.15;S6_mesh_sizedis0.15_s2;S6_mesh_sizedis0.15_s3,0
+Pore-size dispersion,0.15,C,integral,3,1.0007949599890942,0.0779124181197771,S2_mesh_sizedis0.15;S6_mesh_sizedis0.15_s2;S6_mesh_sizedis0.15_s3,0
+Pore-size dispersion,0.3,A,strength,1,11.338211743283122,0.0,S2_mesh_sizedis0.3,1
+Pore-size dispersion,0.3,A,integral,1,0.9356668560622985,0.0,S2_mesh_sizedis0.3,1
+Pore-size dispersion,0.3,B,strength,1,11.359652767644231,0.0,S2_mesh_sizedis0.3,1
+Pore-size dispersion,0.3,B,integral,1,0.9731358422570502,0.0,S2_mesh_sizedis0.3,1
+Pore-size dispersion,0.3,C,strength,1,11.359652767644231,0.0,S2_mesh_sizedis0.3,1
+Pore-size dispersion,0.3,C,integral,1,1.0313933681919167,0.0,S2_mesh_sizedis0.3,1
+Voronoi regularity,0,A,strength,4,8.956596149718184,0.5552960870421271,S2_voronoi_n25_reg0.0;S6_voronoi_n25_reg0.0_s2;S6_voronoi_n25_reg0.0_s3;S2_voronoi_n50_reg0.0,2
+Voronoi regularity,0,A,integral,4,0.6154597805501925,0.10014541721724066,S2_voronoi_n25_reg0.0;S6_voronoi_n25_reg0.0_s2;S6_voronoi_n25_reg0.0_s3;S2_voronoi_n50_reg0.0,2
+Voronoi regularity,0,B,strength,4,8.95902726889542,0.5551750922461314,S2_voronoi_n25_reg0.0;S6_voronoi_n25_reg0.0_s2;S6_voronoi_n25_reg0.0_s3;S2_voronoi_n50_reg0.0,2
+Voronoi regularity,0,B,integral,4,0.614750500853684,0.10020153899372625,S2_voronoi_n25_reg0.0;S6_voronoi_n25_reg0.0_s2;S6_voronoi_n25_reg0.0_s3;S2_voronoi_n50_reg0.0,2
+Voronoi regularity,0,C,strength,4,8.95902726889542,0.5551750922461314,S2_voronoi_n25_reg0.0;S6_voronoi_n25_reg0.0_s2;S6_voronoi_n25_reg0.0_s3;S2_voronoi_n50_reg0.0,2
+Voronoi regularity,0,C,integral,4,0.6648204199276484,0.15960791937860852,S2_voronoi_n25_reg0.0;S6_voronoi_n25_reg0.0_s2;S6_voronoi_n25_reg0.0_s3;S2_voronoi_n50_reg0.0,2
+Voronoi regularity,0.3,A,strength,1,10.453618602860486,0.0,S5_voronoi_n25_reg0.3,0
+Voronoi regularity,0.3,A,integral,1,0.6161393038702841,0.0,S5_voronoi_n25_reg0.3,0
+Voronoi regularity,0.3,B,strength,1,10.453618602860486,0.0,S5_voronoi_n25_reg0.3,0
+Voronoi regularity,0.3,B,integral,1,0.6161393038702841,0.0,S5_voronoi_n25_reg0.3,0
+Voronoi regularity,0.3,C,strength,1,10.453618602860486,0.0,S5_voronoi_n25_reg0.3,0
+Voronoi regularity,0.3,C,integral,1,0.6161393038702841,0.0,S5_voronoi_n25_reg0.3,0
+Voronoi regularity,0.6,A,strength,3,11.154374281647115,2.2908156857920967,S2_voronoi_n25_reg0.6;S6_voronoi_n25_reg0.6_s2;S6_voronoi_n25_reg0.6_s3,1
+Voronoi regularity,0.6,A,integral,3,0.9103053069884183,0.46425259540486347,S2_voronoi_n25_reg0.6;S6_voronoi_n25_reg0.6_s2;S6_voronoi_n25_reg0.6_s3,1
+Voronoi regularity,0.6,B,strength,3,11.16422767953407,2.304664568991634,S2_voronoi_n25_reg0.6;S6_voronoi_n25_reg0.6_s2;S6_voronoi_n25_reg0.6_s3,1
+Voronoi regularity,0.6,B,integral,3,0.9130944037319207,0.46817981863247987,S2_voronoi_n25_reg0.6;S6_voronoi_n25_reg0.6_s2;S6_voronoi_n25_reg0.6_s3,1
+Voronoi regularity,0.6,C,strength,3,11.16422767953407,2.304664568991634,S2_voronoi_n25_reg0.6;S6_voronoi_n25_reg0.6_s2;S6_voronoi_n25_reg0.6_s3,1
+Voronoi regularity,0.6,C,integral,3,0.9759232425611156,0.5567110465968486,S2_voronoi_n25_reg0.6;S6_voronoi_n25_reg0.6_s2;S6_voronoi_n25_reg0.6_s3,1
+Voronoi regularity,0.8,A,strength,2,6.9711054389167115,0.36165708959289944,S5_voronoi_n25_reg0.8;S7_voronoi_n35_reg0.8_s7,1
+Voronoi regularity,0.8,A,integral,2,0.5239130908093368,0.12761657660772543,S5_voronoi_n25_reg0.8;S7_voronoi_n35_reg0.8_s7,1
+Voronoi regularity,0.8,B,strength,2,6.980366754356496,0.3709184050326839,S5_voronoi_n25_reg0.8;S7_voronoi_n35_reg0.8_s7,1
+Voronoi regularity,0.8,B,integral,2,0.5105599632555795,0.11426344905396815,S5_voronoi_n25_reg0.8;S7_voronoi_n35_reg0.8_s7,1
+Voronoi regularity,0.8,C,strength,2,6.980366754356496,0.3709184050326839,S5_voronoi_n25_reg0.8;S7_voronoi_n35_reg0.8_s7,1
+Voronoi regularity,0.8,C,integral,2,0.5575129655656351,0.16121645136402382,S5_voronoi_n25_reg0.8;S7_voronoi_n35_reg0.8_s7,1
+Voronoi regularity,1,A,strength,1,13.324087785161101,0.0,S2_voronoi_n25_reg1.0,0
+Voronoi regularity,1,A,integral,1,1.2012742536654364,0.0,S2_voronoi_n25_reg1.0,0
+Voronoi regularity,1,B,strength,1,13.324087785161101,0.0,S2_voronoi_n25_reg1.0,0
+Voronoi regularity,1,B,integral,1,1.2012742536654364,0.0,S2_voronoi_n25_reg1.0,0
+Voronoi regularity,1,C,strength,1,13.324087785161101,0.0,S2_voronoi_n25_reg1.0,0
+Voronoi regularity,1,C,integral,1,1.2012742536654364,0.0,S2_voronoi_n25_reg1.0,0
+Pore-size gradient,uniform,A,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size gradient,uniform,A,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size gradient,uniform,B,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size gradient,uniform,B,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size gradient,uniform,C,strength,5,12.639915508077607,0.6574137086304602,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size gradient,uniform,C,integral,5,1.2011160965898844,0.1952089730620932,S2_H1_p16;S1_mesh_p16_phi0.2;S6_mesh_p16_offset1;S6_mesh_p16_offset2;S6_mesh_p16_offset3,0
+Pore-size gradient,along load,A,strength,1,10.093572311763984,0.0,S2_graded_x,0
+Pore-size gradient,along load,A,integral,1,0.5099577096791301,0.0,S2_graded_x,0
+Pore-size gradient,along load,B,strength,1,10.093572311763984,0.0,S2_graded_x,0
+Pore-size gradient,along load,B,integral,1,0.5099577096791301,0.0,S2_graded_x,0
+Pore-size gradient,along load,C,strength,1,10.093572311763984,0.0,S2_graded_x,0
+Pore-size gradient,along load,C,integral,1,0.5099577096791301,0.0,S2_graded_x,0
+Pore-size gradient,radial,A,strength,1,9.967150294660973,0.0,S2_graded_radial,0
+Pore-size gradient,radial,A,integral,1,0.7637188881663172,0.0,S2_graded_radial,0
+Pore-size gradient,radial,B,strength,1,9.967150294660973,0.0,S2_graded_radial,0
+Pore-size gradient,radial,B,integral,1,0.7637188881663172,0.0,S2_graded_radial,0
+Pore-size gradient,radial,C,strength,1,9.967150294660973,0.0,S2_graded_radial,0
+Pore-size gradient,radial,C,integral,1,0.7637188881663172,0.0,S2_graded_radial,0
+Pore-size gradient,weak band,A,strength,1,10.606103707299297,0.0,S7_graded_x_weak,0
+Pore-size gradient,weak band,A,integral,1,0.8310315962440205,0.0,S7_graded_x_weak,0
+Pore-size gradient,weak band,B,strength,1,10.606103707299297,0.0,S7_graded_x_weak,0
+Pore-size gradient,weak band,B,integral,1,0.8310315962440205,0.0,S7_graded_x_weak,0
+Pore-size gradient,weak band,C,strength,1,10.606103707299297,0.0,S7_graded_x_weak,0
+Pore-size gradient,weak band,C,integral,1,0.8310315962440205,0.0,S7_graded_x_weak,0
+Flaw halo,hole 20,A,strength,1,19.06248592506963,0.0,S1_hole_d20,0
+Flaw halo,hole 20,A,integral,1,0.993441735915588,0.0,S1_hole_d20,0
+Flaw halo,hole 20,B,strength,1,19.06248592506963,0.0,S1_hole_d20,0
+Flaw halo,hole 20,B,integral,1,0.993441735915588,0.0,S1_hole_d20,0
+Flaw halo,hole 20,C,strength,1,19.06248592506963,0.0,S1_hole_d20,0
+Flaw halo,hole 20,C,integral,1,0.993441735915588,0.0,S1_hole_d20,0
+Flaw halo,+2 rings,A,strength,1,16.24465478226591,0.0,S2_hole20_rings2,0
+Flaw halo,+2 rings,A,integral,1,1.0247833761839253,0.0,S2_hole20_rings2,0
+Flaw halo,+2 rings,B,strength,1,16.24465478226591,0.0,S2_hole20_rings2,0
+Flaw halo,+2 rings,B,integral,1,1.0247833761839253,0.0,S2_hole20_rings2,0
+Flaw halo,+2 rings,C,strength,1,16.24465478226591,0.0,S2_hole20_rings2,0
+Flaw halo,+2 rings,C,integral,1,1.0247833761839253,0.0,S2_hole20_rings2,0
+Flaw halo,+far pores,A,strength,1,13.214099875853847,0.0,S2_hole20_background,0
+Flaw halo,+far pores,A,integral,1,0.9158296051591206,0.0,S2_hole20_background,0
+Flaw halo,+far pores,B,strength,1,13.214099875853847,0.0,S2_hole20_background,0
+Flaw halo,+far pores,B,integral,1,0.9158296051591206,0.0,S2_hole20_background,0
+Flaw halo,+far pores,C,strength,1,13.214099875853847,0.0,S2_hole20_background,0
+Flaw halo,+far pores,C,integral,1,0.9158296051591206,0.0,S2_hole20_background,0
+Flaw halo,hole 30,A,strength,1,18.54962028944317,0.0,S4_hole_d30,0
+Flaw halo,hole 30,A,integral,1,1.079456964825038,0.0,S4_hole_d30,0
+Flaw halo,hole 30,B,strength,1,18.54962028944317,0.0,S4_hole_d30,0
+Flaw halo,hole 30,B,integral,1,1.079456964825038,0.0,S4_hole_d30,0
+Flaw halo,hole 30,C,strength,1,18.54962028944317,0.0,S4_hole_d30,0
+Flaw halo,hole 30,C,integral,1,1.079456964825038,0.0,S4_hole_d30,0
+Flaw halo,+3 rings,A,strength,1,8.916578299834155,0.0,S7_hole30_rings3,0
+Flaw halo,+3 rings,A,integral,1,0.6826776718576737,0.0,S7_hole30_rings3,0
+Flaw halo,+3 rings,B,strength,1,8.916578299834155,0.0,S7_hole30_rings3,0
+Flaw halo,+3 rings,B,integral,1,0.6826776718576737,0.0,S7_hole30_rings3,0
+Flaw halo,+3 rings,C,strength,1,8.916578299834155,0.0,S7_hole30_rings3,0
+Flaw halo,+3 rings,C,integral,1,0.6826776718576737,0.0,S7_hole30_rings3,0

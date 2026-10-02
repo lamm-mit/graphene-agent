@@ -1,0 +1,11 @@
+--- frozen_single_shot/experiments/stage_tools.py
++++ Q9_copy/experiments/stage_tools.py
+@@ -66,7 +66,7 @@
+ 
+ 
+ def spec(campaign, stage, batch_name, structures, aqs):
+-    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "mps", "dtype": "float32", "aqs": aqs, "structures": structures}
++    return {"campaign": campaign, "stage": stage, "batch_name": batch_name, "device": "auto", "dtype": "float32", "aqs": aqs, "structures": structures}
+ 
+ 
+ def write_specs(stage_dir, batches):

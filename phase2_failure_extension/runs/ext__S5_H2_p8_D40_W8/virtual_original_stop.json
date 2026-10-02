@@ -1,0 +1,25 @@
+{
+  "event": {
+    "index": 25,
+    "reason": "stress collapsed",
+    "failure_observed": true
+  },
+  "metrics": {
+    "endpoint_index": 25,
+    "end_strain": 0.17750000000000002,
+    "end_stress_N_m": 1.251582195069527,
+    "failure_observed": true,
+    "failure_strain_if_observed": 0.17750000000000002,
+    "last_nonfailed_strain": 0.17250000000000001,
+    "termination_reason": "stress collapsed",
+    "maximum_recorded_stress_N_m": 12.663328548976475,
+    "strain_at_recorded_maximum": 0.13749999999999998,
+    "peak_at_last_frame": false,
+    "stress_strain_integral_J_m2": 1.3173968678197794,
+    "end_stress_fraction_of_maximum": 0.09883516724918957,
+    "spanning_at_end": true,
+    "first_damage_strain": 0.12749999999999997,
+    "recorded_frames": 26,
+    "cumulative_broken_bond_events": 86
+  }
+}

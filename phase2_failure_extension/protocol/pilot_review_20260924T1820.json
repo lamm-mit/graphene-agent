@@ -1,0 +1,59 @@
+{
+  "reviewed_utc": "2026-09-24T18:19:39.373484+00:00",
+  "queue_pid": 43715,
+  "queue_counts": {
+    "completed": 3,
+    "running": 3,
+    "pending": 34
+  },
+  "active_children": [
+    {
+      "case_id": "ext__S7_slit_20deg",
+      "pid": 44500,
+      "alive": true,
+      "status": "running",
+      "accepted_strain": 0.7900000000000006,
+      "last_frame_utc": "2026-09-24T18:18:36.765512+00:00"
+    },
+    {
+      "case_id": "ext__S5_H2_D40_W8_ellipseX",
+      "pid": 80313,
+      "alive": true,
+      "status": "running",
+      "accepted_strain": 0.32875000000000015,
+      "last_frame_utc": "2026-09-24T18:13:53.171072+00:00"
+    },
+    {
+      "case_id": "ext__P1_slit_35deg",
+      "pid": 94683,
+      "alive": true,
+      "status": "running",
+      "accepted_strain": 0.3012500000000002,
+      "last_frame_utc": "2026-09-24T18:13:51.183289+00:00"
+    }
+  ],
+  "checksums": {
+    "input_checksums": {
+      "verified": 772,
+      "mismatches": []
+    },
+    "execution_code_checksums": {
+      "verified": 61,
+      "mismatches": []
+    },
+    "verified_code_checksums": {
+      "verified": 61,
+      "mismatches": []
+    },
+    "refinement_code_checksums": {
+      "verified": 61,
+      "mismatches": []
+    }
+  },
+  "new_completed_pilots_since_last_review": [],
+  "production_approved": false,
+  "reason": "Six pilot extensions and two controls are not yet complete and reviewed. Original-setting residual limitations and Q4 control step sensitivity remain documented.",
+  "Q4_Q7_Q8_diagnostics": "Complete and reviewed previously; no additional diagnostic run scheduled.",
+  "plots_and_tables": "No new completed primary trajectories; existing four PDFs and SI interpretations remain current for the completed cohort. Pending results remain explicit.",
+  "action": "No intervention or duplicate launch. Continue waiting for active pilot outcomes."
+}

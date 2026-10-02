@@ -1,0 +1,17 @@
+{
+  "reviewed_utc": "2026-09-24T14:36:42.597705+00:00",
+  "production_approved": false,
+  "primary_counts": {
+    "completed": 2,
+    "running": 3,
+    "pending": 35
+  },
+  "completed_extension_review": "results/review_ext__S2_slit_45deg.json",
+  "Q4_slit": "Running beyond archived endpoint; virtual original-protocol stop has not yet triggered.",
+  "Q5": "Fixed-cell endpoint check running; no loading trajectory replacement.",
+  "blockers_to_production": [
+    "Remaining five pilot extensions and second control not all complete",
+    "Numerical/reproduction review unresolved"
+  ],
+  "figure_review": "results/figure_review_20260924T1435.json"
+}

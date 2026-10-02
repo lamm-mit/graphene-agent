@@ -1,0 +1,2992 @@
+[
+  {
+    "figure": "fig2_design_space",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.22,
+      0.44,
+      0.56,
+      0.42
+    ],
+    "xlim": [
+      0.48,
+      1.08
+    ],
+    "ylim": [
+      3.0,
+      48.0
+    ],
+    "xlabel": "areal density relative to pristine graphene, $\\bar\\rho$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig2_design_space",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.08,
+      0.05,
+      0.24,
+      0.28
+    ],
+    "xlim": [
+      0.48,
+      1.08
+    ],
+    "ylim": [
+      1.5,
+      400.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$",
+    "ylabel": "2D modulus $Y$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig2_design_space",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.42,
+      0.05,
+      0.23999999999999994,
+      0.28
+    ],
+    "xlim": [
+      0.27,
+      5.8
+    ],
+    "ylim": [
+      3.0,
+      48.0
+    ],
+    "xlabel": "endpoint integral $W$ (J/m$^2$)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig2_design_space",
+    "state": "A",
+    "panel_axis": 3,
+    "bounds": [
+      0.75,
+      0.05,
+      0.24,
+      0.28
+    ],
+    "xlim": [
+      0.08,
+      0.9
+    ],
+    "ylim": [
+      3.0,
+      48.0
+    ],
+    "xlabel": "recorded ending strain $\\varepsilon_{\\mathrm{end}}$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig2_design_space",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.22,
+      0.44,
+      0.56,
+      0.42
+    ],
+    "xlim": [
+      0.48,
+      1.08
+    ],
+    "ylim": [
+      3.0,
+      48.0
+    ],
+    "xlabel": "areal density relative to pristine graphene, $\\bar\\rho$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig2_design_space",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.08,
+      0.05,
+      0.24,
+      0.28
+    ],
+    "xlim": [
+      0.48,
+      1.08
+    ],
+    "ylim": [
+      1.5,
+      400.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$",
+    "ylabel": "2D modulus $Y$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig2_design_space",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.42,
+      0.05,
+      0.23999999999999994,
+      0.28
+    ],
+    "xlim": [
+      0.27,
+      5.8
+    ],
+    "ylim": [
+      3.0,
+      48.0
+    ],
+    "xlabel": "endpoint integral $W$ (J/m$^2$)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig2_design_space",
+    "state": "C",
+    "panel_axis": 3,
+    "bounds": [
+      0.75,
+      0.05,
+      0.24,
+      0.28
+    ],
+    "xlim": [
+      0.08,
+      0.9
+    ],
+    "ylim": [
+      3.0,
+      48.0
+    ],
+    "xlabel": "recorded ending strain $\\varepsilon_{\\mathrm{end}}$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "log",
+    "yscale": "log"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.7635870542403356,
+      0.9199999999999999,
+      0.2064129457596644
+    ],
+    "xlim": [
+      0.0,
+      1.0
+    ],
+    "ylim": [
+      0.0,
+      1.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.07,
+      0.15000000000000002,
+      0.29396449704142014,
+      0.4914593946658675
+    ],
+    "xlim": [
+      -3.0,
+      93.0
+    ],
+    "ylim": [
+      0.0,
+      35.0
+    ],
+    "xlabel": "slit angle to the load \u03b8 (\u00b0)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.4701183431952663,
+      0.15000000000000002,
+      0.21775147928994082,
+      0.4914593946658675
+    ],
+    "xlim": [
+      -3.0,
+      93.0
+    ],
+    "ylim": [
+      -20.0,
+      24.0
+    ],
+    "xlabel": "slit angle \u03b8 (\u00b0)",
+    "ylabel": "length (\u00c5)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "A",
+    "panel_axis": 3,
+    "bounds": [
+      0.7940236686390532,
+      0.15000000000000002,
+      0.19597633136094683,
+      0.4914593946658675
+    ],
+    "xlim": [
+      -0.529,
+      2.5289999999999995
+    ],
+    "ylim": [
+      0.0,
+      35.0
+    ],
+    "xlabel": "",
+    "ylabel": "2D strength at \u03b8 = 20\u00b0 (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.7635870542403356,
+      0.9199999999999999,
+      0.2064129457596644
+    ],
+    "xlim": [
+      0.0,
+      1.0
+    ],
+    "ylim": [
+      0.0,
+      1.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.07,
+      0.15000000000000002,
+      0.29396449704142014,
+      0.4914593946658675
+    ],
+    "xlim": [
+      -3.0,
+      93.0
+    ],
+    "ylim": [
+      0.0,
+      35.0
+    ],
+    "xlabel": "slit angle to the load \u03b8 (\u00b0)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.4701183431952663,
+      0.15000000000000002,
+      0.21775147928994082,
+      0.4914593946658675
+    ],
+    "xlim": [
+      -3.0,
+      93.0
+    ],
+    "ylim": [
+      -20.0,
+      24.0
+    ],
+    "xlabel": "slit angle \u03b8 (\u00b0)",
+    "ylabel": "length (\u00c5)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig3_alignment_cliff",
+    "state": "C",
+    "panel_axis": 3,
+    "bounds": [
+      0.7940236686390532,
+      0.15000000000000002,
+      0.19597633136094683,
+      0.4914593946658675
+    ],
+    "xlim": [
+      -0.529,
+      2.5289999999999995
+    ],
+    "ylim": [
+      0.0,
+      35.0
+    ],
+    "xlabel": "",
+    "ylabel": "2D strength at \u03b8 = 20\u00b0 (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.6709302325581394,
+      0.23958333333333331,
+      0.2790697674418605
+    ],
+    "xlim": [
+      0.0,
+      1.0
+    ],
+    "ylim": [
+      0.0,
+      1.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.41020833333333334,
+      0.6709302325581394,
+      0.5797916666666667,
+      0.2790697674418605
+    ],
+    "xlim": [
+      -0.3,
+      0.75
+    ],
+    "ylim": [
+      4.0,
+      24.0
+    ],
+    "xlabel": "load-path alignment index A  (n = 40 meshes at porosity 0.17\u20130.23)",
+    "ylabel": "2D strength (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.07,
+      0.09999999999999987,
+      0.5797916666666667,
+      0.3875968992248062
+    ],
+    "xlim": [
+      -1.44,
+      21.44
+    ],
+    "ylim": [
+      -5.159128186201947,
+      2.06195719733659
+    ],
+    "xlabel": "",
+    "ylabel": "hierarchy premium (N/m)\n$\\sigma$ \u2212 single-level trend at the same A",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "A",
+    "panel_axis": 3,
+    "bounds": [
+      0.7504166666666667,
+      0.09999999999999987,
+      0.23958333333333326,
+      0.3875968992248062
+    ],
+    "xlim": [
+      -0.2762740330561503,
+      0.6257133523851462
+    ],
+    "ylim": [
+      0.3,
+      3.25
+    ],
+    "xlabel": "alignment index A",
+    "ylabel": "endpoint integral (J/m$^2$)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.6709302325581394,
+      0.23958333333333331,
+      0.2790697674418605
+    ],
+    "xlim": [
+      0.0,
+      1.0
+    ],
+    "ylim": [
+      0.0,
+      1.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.41020833333333334,
+      0.6709302325581394,
+      0.5797916666666667,
+      0.2790697674418605
+    ],
+    "xlim": [
+      -0.3,
+      0.75
+    ],
+    "ylim": [
+      4.0,
+      24.0
+    ],
+    "xlabel": "load-path alignment index A  (n = 40 meshes at porosity 0.17\u20130.23)",
+    "ylabel": "2D strength (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.07,
+      0.09999999999999987,
+      0.5797916666666667,
+      0.3875968992248062
+    ],
+    "xlim": [
+      -1.44,
+      21.44
+    ],
+    "ylim": [
+      -5.159128186201947,
+      2.06195719733659
+    ],
+    "xlabel": "",
+    "ylabel": "hierarchy premium (N/m)\n$\\sigma$ \u2212 single-level trend at the same A",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig4_hierarchy_alignment",
+    "state": "C",
+    "panel_axis": 3,
+    "bounds": [
+      0.7504166666666667,
+      0.09999999999999987,
+      0.23958333333333326,
+      0.3875968992248062
+    ],
+    "xlim": [
+      -0.2762740330561503,
+      0.6257133523851462
+    ],
+    "ylim": [
+      0.3,
+      3.25
+    ],
+    "xlabel": "alignment index A",
+    "ylabel": "endpoint integral (J/m$^2$)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.6138775510204082,
+      0.12169312169312169,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "2D strength (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.2574074074074074,
+      0.6138775510204082,
+      0.10952380952380952,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.375,
+      2.375
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.43264550264550267,
+      0.6138775510204082,
+      0.146031746031746,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 3,
+    "bounds": [
+      0.6443915343915343,
+      0.6138775510204082,
+      0.12777777777777777,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 4,
+    "bounds": [
+      0.8378835978835979,
+      0.6138775510204082,
+      0.1521164021164021,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 5,
+    "bounds": [
+      0.07,
+      0.17000000000000015,
+      0.12169312169312169,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "endpoint integral (J/m$^2$)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 6,
+    "bounds": [
+      0.2574074074074074,
+      0.17000000000000015,
+      0.10952380952380952,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.375,
+      2.375
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 7,
+    "bounds": [
+      0.43264550264550267,
+      0.17000000000000015,
+      0.146031746031746,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 8,
+    "bounds": [
+      0.6443915343915343,
+      0.17000000000000015,
+      0.12777777777777777,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "A",
+    "panel_axis": 9,
+    "bounds": [
+      0.8378835978835979,
+      0.17000000000000015,
+      0.1521164021164021,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.6138775510204082,
+      0.12169312169312169,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "2D strength (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.2574074074074074,
+      0.6138775510204082,
+      0.10952380952380952,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.375,
+      2.375
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.43264550264550267,
+      0.6138775510204082,
+      0.146031746031746,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 3,
+    "bounds": [
+      0.6443915343915343,
+      0.6138775510204082,
+      0.12777777777777777,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 4,
+    "bounds": [
+      0.8378835978835979,
+      0.6138775510204082,
+      0.1521164021164021,
+      0.30612244897959184
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      22.0
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 5,
+    "bounds": [
+      0.07,
+      0.17000000000000015,
+      0.12169312169312169,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "endpoint integral (J/m$^2$)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 6,
+    "bounds": [
+      0.2574074074074074,
+      0.17000000000000015,
+      0.10952380952380952,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.375,
+      2.375
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 7,
+    "bounds": [
+      0.43264550264550267,
+      0.17000000000000015,
+      0.146031746031746,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 8,
+    "bounds": [
+      0.6443915343915343,
+      0.17000000000000015,
+      0.12777777777777777,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.42500000000000004,
+      3.425
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig5_costs",
+    "state": "C",
+    "panel_axis": 9,
+    "bounds": [
+      0.8378835978835979,
+      0.17000000000000015,
+      0.1521164021164021,
+      0.3061224489795918
+    ],
+    "xlim": [
+      -0.475,
+      4.475
+    ],
+    "ylim": [
+      0.0,
+      2.6
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.03,
+      0.7967366645418511,
+      0.13897161008536826,
+      0.12507505801307195
+    ],
+    "xlim": [
+      -2.0,
+      104.0662612915039
+    ],
+    "ylim": [
+      -2.0,
+      98.91496276855469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.17679769704189,
+      0.8084635939552967,
+      0.13897161008536826,
+      0.10162119918618095
+    ],
+    "xlim": [
+      -2.0,
+      124.73469543457031
+    ],
+    "ylim": [
+      -2.0,
+      95.96871948242188
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.32359539408378,
+      0.8079310907478789,
+      0.1389716100853683,
+      0.10268620560101638
+    ],
+    "xlim": [
+      -2.0,
+      124.8622817993164
+    ],
+    "ylim": [
+      -2.0,
+      97.09510803222656
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 3,
+    "bounds": [
+      0.47039309112567007,
+      0.8082368306745585,
+      0.1389716100853683,
+      0.10207472574765708
+    ],
+    "xlim": [
+      -2.0,
+      125.37261962890625
+    ],
+    "ylim": [
+      -2.0,
+      96.90127563476562
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 4,
+    "bounds": [
+      0.6171907881675601,
+      0.8083448650602074,
+      0.1389716100853683,
+      0.10185865697635921
+    ],
+    "xlim": [
+      -2.0,
+      126.39329528808594
+    ],
+    "ylim": [
+      -2.0,
+      97.48277282714844
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 5,
+    "bounds": [
+      0.8162854873932898,
+      0.7685483870967742,
+      0.17371451260671034,
+      0.18145161290322576
+    ],
+    "xlim": [
+      -0.010937500000000003,
+      0.22968750000000004
+    ],
+    "ylim": [
+      -1.3042697125449179,
+      26.67379372888739
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 6,
+    "bounds": [
+      0.03,
+      0.5565216928284287,
+      0.13897161008536826,
+      0.12647274337540082
+    ],
+    "xlim": [
+      -2.0,
+      103.64997100830078
+    ],
+    "ylim": [
+      -2.0,
+      99.64216613769531
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 7,
+    "bounds": [
+      0.17679769704189,
+      0.562238904131473,
+      0.13897161008536826,
+      0.11503832076931197
+    ],
+    "xlim": [
+      -2.0,
+      110.25721740722656
+    ],
+    "ylim": [
+      -2.0,
+      96.23458099365234
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 8,
+    "bounds": [
+      0.32359539408378,
+      0.5717732941841025,
+      0.1389716100853683,
+      0.09596954066405294
+    ],
+    "xlim": [
+      -2.0,
+      131.60372924804688
+    ],
+    "ylim": [
+      -2.0,
+      95.53479766845703
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 9,
+    "bounds": [
+      0.47039309112567007,
+      0.5756823711277115,
+      0.1389716100853683,
+      0.0881513867768351
+    ],
+    "xlim": [
+      -2.0,
+      138.21099853515625
+    ],
+    "ylim": [
+      -2.0,
+      92.01969146728516
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 10,
+    "bounds": [
+      0.6171907881675601,
+      0.5898877029968022,
+      0.1389716100853683,
+      0.05974072303865374
+    ],
+    "xlim": [
+      -2.0,
+      187.0030517578125
+    ],
+    "ylim": [
+      -2.0,
+      83.8908462524414
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 11,
+    "bounds": [
+      0.8162854873932898,
+      0.5290322580645161,
+      0.17371451260671034,
+      0.18145161290322576
+    ],
+    "xlim": [
+      -0.041000000000000036,
+      0.8610000000000007
+    ],
+    "ylim": [
+      -0.8095248176616494,
+      15.747269105663236
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 12,
+    "bounds": [
+      0.03,
+      0.31595745906410777,
+      0.13897161008536826,
+      0.12856895283952652
+    ],
+    "xlim": [
+      -2.0,
+      123.62615203857422
+    ],
+    "ylim": [
+      -2.0,
+      120.8637466430664
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 13,
+    "bounds": [
+      0.17679769704189,
+      0.3238758490197314,
+      0.13897161008536826,
+      0.11273217292827925
+    ],
+    "xlim": [
+      -2.0,
+      138.0692901611328
+    ],
+    "ylim": [
+      -2.0,
+      118.11531829833984
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 14,
+    "bounds": [
+      0.32359539408378,
+      0.3248806668658022,
+      0.1389716100853683,
+      0.11072253723613767
+    ],
+    "xlim": [
+      -2.0,
+      140.50181579589844
+    ],
+    "ylim": [
+      -2.0,
+      118.02287292480469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 15,
+    "bounds": [
+      0.47039309112567007,
+      0.3253491962719823,
+      0.1389716100853683,
+      0.10978547842377745
+    ],
+    "xlim": [
+      -2.0,
+      143.54251098632812
+    ],
+    "ylim": [
+      -2.0,
+      119.54647064208984
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 16,
+    "bounds": [
+      0.6171907881675601,
+      0.340073247680508,
+      0.1389716100853683,
+      0.08033737560672599
+    ],
+    "xlim": [
+      -2.0,
+      197.65948486328125
+    ],
+    "ylim": [
+      -2.0,
+      120.01554870605469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 17,
+    "bounds": [
+      0.8162854873932898,
+      0.2895161290322581,
+      0.17371451260671034,
+      0.1814516129032258
+    ],
+    "xlim": [
+      -0.03043750000000002,
+      0.6391875000000004
+    ],
+    "ylim": [
+      -0.8546789513466209,
+      18.38811583906011
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 18,
+    "bounds": [
+      0.03,
+      0.07629307708743421,
+      0.13897161008536826,
+      0.12886545872835742
+    ],
+    "xlim": [
+      -2.0,
+      123.57978057861328
+    ],
+    "ylim": [
+      -2.0,
+      121.10163879394531
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 19,
+    "bounds": [
+      0.17679769704189,
+      0.08553592692297995,
+      0.13897161008536826,
+      0.11037975905726594
+    ],
+    "xlim": [
+      -2.0,
+      140.75291442871094
+    ],
+    "ylim": [
+      -2.0,
+      117.86213684082031
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 20,
+    "bounds": [
+      0.32359539408378,
+      0.08578539660890397,
+      0.1389716100853683,
+      0.10988081968541791
+    ],
+    "xlim": [
+      -2.0,
+      141.36080932617188
+    ],
+    "ylim": [
+      -2.0,
+      117.82844543457031
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 21,
+    "bounds": [
+      0.47039309112567007,
+      0.08573504432374479,
+      0.1389716100853683,
+      0.10998152425573626
+    ],
+    "xlim": [
+      -2.0,
+      142.57662963867188
+    ],
+    "ylim": [
+      -2.0,
+      118.9554443359375
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 22,
+    "bounds": [
+      0.6171907881675601,
+      0.0885520278549196,
+      0.1389716100853683,
+      0.10434755719338663
+    ],
+    "xlim": [
+      -2.0,
+      150.4792938232422
+    ],
+    "ylim": [
+      -2.0,
+      119.03215026855469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "A",
+    "panel_axis": 23,
+    "bounds": [
+      0.8162854873932898,
+      0.050000000000000044,
+      0.17371451260671034,
+      0.18145161290322576
+    ],
+    "xlim": [
+      -0.011062500000000003,
+      0.23231250000000006
+    ],
+    "ylim": [
+      -1.049770748213323,
+      20.355578117763656
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.03,
+      0.7967366645418511,
+      0.13897161008536826,
+      0.12507505801307195
+    ],
+    "xlim": [
+      -2.0,
+      104.0662612915039
+    ],
+    "ylim": [
+      -2.0,
+      98.91496276855469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.17679769704189,
+      0.8084635939552967,
+      0.13897161008536826,
+      0.10162119918618095
+    ],
+    "xlim": [
+      -2.0,
+      124.73469543457031
+    ],
+    "ylim": [
+      -2.0,
+      95.96871948242188
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.32359539408378,
+      0.8079310907478789,
+      0.1389716100853683,
+      0.10268620560101638
+    ],
+    "xlim": [
+      -2.0,
+      124.8622817993164
+    ],
+    "ylim": [
+      -2.0,
+      97.09510803222656
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 3,
+    "bounds": [
+      0.47039309112567007,
+      0.8082368306745585,
+      0.1389716100853683,
+      0.10207472574765708
+    ],
+    "xlim": [
+      -2.0,
+      125.37261962890625
+    ],
+    "ylim": [
+      -2.0,
+      96.90127563476562
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 4,
+    "bounds": [
+      0.6171907881675601,
+      0.8083448650602074,
+      0.1389716100853683,
+      0.10185865697635921
+    ],
+    "xlim": [
+      -2.0,
+      126.39329528808594
+    ],
+    "ylim": [
+      -2.0,
+      97.48277282714844
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 5,
+    "bounds": [
+      0.8162854873932898,
+      0.7685483870967742,
+      0.17371451260671034,
+      0.18145161290322576
+    ],
+    "xlim": [
+      -0.010937500000000003,
+      0.22968750000000004
+    ],
+    "ylim": [
+      -1.3042697125449179,
+      26.67379372888739
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 6,
+    "bounds": [
+      0.03,
+      0.5565216928284287,
+      0.13897161008536826,
+      0.12647274337540082
+    ],
+    "xlim": [
+      -2.0,
+      103.64997100830078
+    ],
+    "ylim": [
+      -2.0,
+      99.64216613769531
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 7,
+    "bounds": [
+      0.17679769704189,
+      0.562238904131473,
+      0.13897161008536826,
+      0.11503832076931197
+    ],
+    "xlim": [
+      -2.0,
+      110.25721740722656
+    ],
+    "ylim": [
+      -2.0,
+      96.23458099365234
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 8,
+    "bounds": [
+      0.32359539408378,
+      0.5717732941841025,
+      0.1389716100853683,
+      0.09596954066405294
+    ],
+    "xlim": [
+      -2.0,
+      131.60372924804688
+    ],
+    "ylim": [
+      -2.0,
+      95.53479766845703
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 9,
+    "bounds": [
+      0.47039309112567007,
+      0.5756823711277115,
+      0.1389716100853683,
+      0.0881513867768351
+    ],
+    "xlim": [
+      -2.0,
+      138.21099853515625
+    ],
+    "ylim": [
+      -2.0,
+      92.01969146728516
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 10,
+    "bounds": [
+      0.6171907881675601,
+      0.5898877029968022,
+      0.1389716100853683,
+      0.05974072303865374
+    ],
+    "xlim": [
+      -2.0,
+      187.0030517578125
+    ],
+    "ylim": [
+      -2.0,
+      83.8908462524414
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 11,
+    "bounds": [
+      0.8162854873932898,
+      0.5290322580645161,
+      0.17371451260671034,
+      0.18145161290322576
+    ],
+    "xlim": [
+      -0.041000000000000036,
+      0.8610000000000007
+    ],
+    "ylim": [
+      -0.8095248176616494,
+      15.747269105663236
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 12,
+    "bounds": [
+      0.03,
+      0.31595745906410777,
+      0.13897161008536826,
+      0.12856895283952652
+    ],
+    "xlim": [
+      -2.0,
+      123.62615203857422
+    ],
+    "ylim": [
+      -2.0,
+      120.8637466430664
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 13,
+    "bounds": [
+      0.17679769704189,
+      0.3238758490197314,
+      0.13897161008536826,
+      0.11273217292827925
+    ],
+    "xlim": [
+      -2.0,
+      138.0692901611328
+    ],
+    "ylim": [
+      -2.0,
+      118.11531829833984
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 14,
+    "bounds": [
+      0.32359539408378,
+      0.3248806668658022,
+      0.1389716100853683,
+      0.11072253723613767
+    ],
+    "xlim": [
+      -2.0,
+      140.50181579589844
+    ],
+    "ylim": [
+      -2.0,
+      118.02287292480469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 15,
+    "bounds": [
+      0.47039309112567007,
+      0.3253491962719823,
+      0.1389716100853683,
+      0.10978547842377745
+    ],
+    "xlim": [
+      -2.0,
+      143.54251098632812
+    ],
+    "ylim": [
+      -2.0,
+      119.54647064208984
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 16,
+    "bounds": [
+      0.6171907881675601,
+      0.340073247680508,
+      0.1389716100853683,
+      0.08033737560672599
+    ],
+    "xlim": [
+      -2.0,
+      197.65948486328125
+    ],
+    "ylim": [
+      -2.0,
+      120.01554870605469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 17,
+    "bounds": [
+      0.8162854873932898,
+      0.2895161290322581,
+      0.17371451260671034,
+      0.1814516129032258
+    ],
+    "xlim": [
+      -0.03043750000000002,
+      0.6391875000000004
+    ],
+    "ylim": [
+      -0.8546789513466209,
+      18.38811583906011
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 18,
+    "bounds": [
+      0.03,
+      0.07629307708743421,
+      0.13897161008536826,
+      0.12886545872835742
+    ],
+    "xlim": [
+      -2.0,
+      123.57978057861328
+    ],
+    "ylim": [
+      -2.0,
+      121.10163879394531
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 19,
+    "bounds": [
+      0.17679769704189,
+      0.08553592692297995,
+      0.13897161008536826,
+      0.11037975905726594
+    ],
+    "xlim": [
+      -2.0,
+      140.75291442871094
+    ],
+    "ylim": [
+      -2.0,
+      117.86213684082031
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 20,
+    "bounds": [
+      0.32359539408378,
+      0.08578539660890397,
+      0.1389716100853683,
+      0.10988081968541791
+    ],
+    "xlim": [
+      -2.0,
+      141.36080932617188
+    ],
+    "ylim": [
+      -2.0,
+      117.82844543457031
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 21,
+    "bounds": [
+      0.47039309112567007,
+      0.08573504432374479,
+      0.1389716100853683,
+      0.10998152425573626
+    ],
+    "xlim": [
+      -2.0,
+      142.57662963867188
+    ],
+    "ylim": [
+      -2.0,
+      118.9554443359375
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 22,
+    "bounds": [
+      0.6171907881675601,
+      0.0885520278549196,
+      0.1389716100853683,
+      0.10434755719338663
+    ],
+    "xlim": [
+      -2.0,
+      150.4792938232422
+    ],
+    "ylim": [
+      -2.0,
+      119.03215026855469
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig7_progression",
+    "state": "C",
+    "panel_axis": 23,
+    "bounds": [
+      0.8162854873932898,
+      0.050000000000000044,
+      0.17371451260671034,
+      0.18145161290322576
+    ],
+    "xlim": [
+      -0.011062500000000003,
+      0.23231250000000006
+    ],
+    "ylim": [
+      -1.049770748213323,
+      20.355578117763656
+    ],
+    "xlabel": "strain",
+    "ylabel": "2D stress (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.011111111111111112,
+      0.7443820224719101,
+      0.3263888888888889,
+      0.2106741573033708
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      6.382978723404255
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.3741620828387662,
+      0.7696629213483146,
+      0.20445361210024537,
+      0.1825842696629214
+    ],
+    "xlim": [
+      -1.5,
+      112.74462127685547
+    ],
+    "ylim": [
+      -1.5,
+      99.39086151123047
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.6916666666666668,
+      0.7837078651685393,
+      0.2944444444444444,
+      0.1629213483146067
+    ],
+    "xlim": [
+      -0.55,
+      3.75
+    ],
+    "ylim": [
+      0.0,
+      46.0
+    ],
+    "xlabel": "",
+    "ylabel": "ligament strength $\\sigma_\\mathrm{lig}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 3,
+    "bounds": [
+      0.011111111111111112,
+      0.47050561797752805,
+      0.1796296296296296,
+      0.15730337078651674
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      8.659793814432991
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 4,
+    "bounds": [
+      0.011111111111111112,
+      0.37443941328523994,
+      0.1796296296296296,
+      0.08202126087206335
+    ],
+    "xlim": [
+      -1.5,
+      186.5030517578125
+    ],
+    "ylim": [
+      -1.5,
+      83.3908462524414
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 5,
+    "bounds": [
+      0.21018518518518517,
+      0.47050561797752805,
+      0.1796296296296296,
+      0.15730337078651674
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      8.659793814432991
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 6,
+    "bounds": [
+      0.21018518518518517,
+      0.3558751433791415,
+      0.1796296296296296,
+      0.10058553077816179
+    ],
+    "xlim": [
+      -1.5,
+      135.87904357910156
+    ],
+    "ylim": [
+      -1.5,
+      74.5721206665039
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 7,
+    "bounds": [
+      0.4092592592592592,
+      0.47050561797752805,
+      0.17962962962962958,
+      0.15730337078651674
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      8.659793814432991
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 8,
+    "bounds": [
+      0.4166056156875325,
+      0.3160112359550561,
+      0.16493691677308298,
+      0.1404494382022472
+    ],
+    "xlim": [
+      -1.5,
+      118.99641418457031
+    ],
+    "ylim": [
+      -1.5,
+      99.96675109863281
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 9,
+    "bounds": [
+      0.6916666666666668,
+      0.3370786516853932,
+      0.2944444444444444,
+      0.2907303370786517
+    ],
+    "xlim": [
+      -4.0,
+      94.0
+    ],
+    "ylim": [
+      0.0,
+      35.0
+    ],
+    "xlabel": "slit angle to the load \u03b8 (\u00b0)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 10,
+    "bounds": [
+      0.011111111111111112,
+      0.008426966292134797,
+      0.3263888888888889,
+      0.21067415730337077
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      6.382978723404255
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 11,
+    "bounds": [
+      0.3683339428515701,
+      0.03370786516853941,
+      0.21610989207463754,
+      0.18258426966292135
+    ],
+    "xlim": [
+      -1.5,
+      142.07662963867188
+    ],
+    "ylim": [
+      -1.5,
+      118.4554443359375
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "A",
+    "panel_axis": 12,
+    "bounds": [
+      0.6916666666666668,
+      0.05617977528089879,
+      0.2944444444444444,
+      0.15449438202247193
+    ],
+    "xlim": [
+      -0.32,
+      0.72
+    ],
+    "ylim": [
+      4.0,
+      24.0
+    ],
+    "xlabel": "load-path alignment index $A$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.011111111111111112,
+      0.7443820224719101,
+      0.3263888888888889,
+      0.2106741573033708
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      6.382978723404255
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.3741620828387662,
+      0.7696629213483146,
+      0.20445361210024537,
+      0.1825842696629214
+    ],
+    "xlim": [
+      -1.5,
+      112.74462127685547
+    ],
+    "ylim": [
+      -1.5,
+      99.39086151123047
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.6916666666666668,
+      0.7837078651685393,
+      0.2944444444444444,
+      0.1629213483146067
+    ],
+    "xlim": [
+      -0.55,
+      3.75
+    ],
+    "ylim": [
+      0.0,
+      46.0
+    ],
+    "xlabel": "",
+    "ylabel": "ligament strength $\\sigma_\\mathrm{lig}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 3,
+    "bounds": [
+      0.011111111111111112,
+      0.47050561797752805,
+      0.1796296296296296,
+      0.15730337078651674
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      8.659793814432991
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 4,
+    "bounds": [
+      0.011111111111111112,
+      0.37443941328523994,
+      0.1796296296296296,
+      0.08202126087206335
+    ],
+    "xlim": [
+      -1.5,
+      186.5030517578125
+    ],
+    "ylim": [
+      -1.5,
+      83.3908462524414
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 5,
+    "bounds": [
+      0.21018518518518517,
+      0.47050561797752805,
+      0.1796296296296296,
+      0.15730337078651674
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      8.659793814432991
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 6,
+    "bounds": [
+      0.21018518518518517,
+      0.3558751433791415,
+      0.1796296296296296,
+      0.10058553077816179
+    ],
+    "xlim": [
+      -1.5,
+      135.87904357910156
+    ],
+    "ylim": [
+      -1.5,
+      74.5721206665039
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 7,
+    "bounds": [
+      0.4092592592592592,
+      0.47050561797752805,
+      0.17962962962962958,
+      0.15730337078651674
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      8.659793814432991
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 8,
+    "bounds": [
+      0.4166056156875325,
+      0.3160112359550561,
+      0.16493691677308298,
+      0.1404494382022472
+    ],
+    "xlim": [
+      -1.5,
+      118.99641418457031
+    ],
+    "ylim": [
+      -1.5,
+      99.96675109863281
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 9,
+    "bounds": [
+      0.6916666666666668,
+      0.3370786516853932,
+      0.2944444444444444,
+      0.2907303370786517
+    ],
+    "xlim": [
+      -4.0,
+      94.0
+    ],
+    "ylim": [
+      0.0,
+      35.0
+    ],
+    "xlabel": "slit angle to the load \u03b8 (\u00b0)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 10,
+    "bounds": [
+      0.011111111111111112,
+      0.008426966292134797,
+      0.3263888888888889,
+      0.21067415730337077
+    ],
+    "xlim": [
+      0.0,
+      10.0
+    ],
+    "ylim": [
+      0.0,
+      6.382978723404255
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 11,
+    "bounds": [
+      0.3683339428515701,
+      0.03370786516853941,
+      0.21610989207463754,
+      0.18258426966292135
+    ],
+    "xlim": [
+      -1.5,
+      142.07662963867188
+    ],
+    "ylim": [
+      -1.5,
+      118.4554443359375
+    ],
+    "xlabel": "",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig_mechanisms",
+    "state": "C",
+    "panel_axis": 12,
+    "bounds": [
+      0.6916666666666668,
+      0.05617977528089879,
+      0.2944444444444444,
+      0.15449438202247193
+    ],
+    "xlim": [
+      -0.32,
+      0.72
+    ],
+    "ylim": [
+      4.0,
+      24.0
+    ],
+    "xlabel": "load-path alignment index $A$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig1_rule_of_mixtures",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.29999999999999993,
+      0.23958333333333331,
+      0.6200000000000001
+    ],
+    "xlim": [
+      0.45,
+      1.04
+    ],
+    "ylim": [
+      0.0,
+      42.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig1_rule_of_mixtures",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.41020833333333334,
+      0.29999999999999993,
+      0.23958333333333343,
+      0.6200000000000001
+    ],
+    "xlim": [
+      0.45,
+      1.04
+    ],
+    "ylim": [
+      0.0,
+      300.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$",
+    "ylabel": "2D modulus $Y$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig1_rule_of_mixtures",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.7504166666666667,
+      0.29999999999999993,
+      0.23958333333333326,
+      0.6200000000000001
+    ],
+    "xlim": [
+      0.0,
+      1.2
+    ],
+    "ylim": [
+      0.0,
+      1.15
+    ],
+    "xlabel": "modulus efficiency $Y/(\\bar\\rho\\,Y_0)$",
+    "ylabel": "strength efficiency $\\sigma_\\mathrm{max}/(\\bar\\rho\\,\\sigma_0)$",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig1_rule_of_mixtures",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.07,
+      0.29999999999999993,
+      0.23958333333333331,
+      0.6200000000000001
+    ],
+    "xlim": [
+      0.45,
+      1.04
+    ],
+    "ylim": [
+      0.0,
+      42.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig1_rule_of_mixtures",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.41020833333333334,
+      0.29999999999999993,
+      0.23958333333333343,
+      0.6200000000000001
+    ],
+    "xlim": [
+      0.45,
+      1.04
+    ],
+    "ylim": [
+      0.0,
+      300.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$",
+    "ylabel": "2D modulus $Y$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig1_rule_of_mixtures",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.7504166666666667,
+      0.29999999999999993,
+      0.23958333333333326,
+      0.6200000000000001
+    ],
+    "xlim": [
+      0.0,
+      1.2
+    ],
+    "ylim": [
+      0.0,
+      1.15
+    ],
+    "xlabel": "modulus efficiency $Y/(\\bar\\rho\\,Y_0)$",
+    "ylabel": "strength efficiency $\\sigma_\\mathrm{max}/(\\bar\\rho\\,\\sigma_0)$",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig2_load_paths",
+    "state": "A",
+    "panel_axis": 0,
+    "bounds": [
+      0.065,
+      0.20000000000000007,
+      0.2013788098693759,
+      0.7
+    ],
+    "xlim": [
+      0.5088829405460528,
+      0.9883782107872091
+    ],
+    "ylim": [
+      0.0,
+      30.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$ (mass)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig2_load_paths",
+    "state": "A",
+    "panel_axis": 1,
+    "bounds": [
+      0.40163824383164004,
+      0.20000000000000007,
+      0.20137880986937595,
+      0.7
+    ],
+    "xlim": [
+      0.1,
+      1.05
+    ],
+    "ylim": [
+      0.0,
+      30.0
+    ],
+    "xlabel": "minimum load-bearing section $A_\\mathrm{min}/A$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig2_load_paths",
+    "state": "A",
+    "panel_axis": 2,
+    "bounds": [
+      0.7382764876632801,
+      0.20000000000000007,
+      0.25172351233671986,
+      0.7
+    ],
+    "xlim": [
+      0.0,
+      1.05
+    ],
+    "ylim": [
+      -1.1,
+      8.6
+    ],
+    "xlabel": "best specific strength in the family, $\\sigma_\\mathrm{max}/(\\bar\\rho\\,\\sigma_0)$",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig2_load_paths",
+    "state": "C",
+    "panel_axis": 0,
+    "bounds": [
+      0.065,
+      0.20000000000000007,
+      0.2013788098693759,
+      0.7
+    ],
+    "xlim": [
+      0.5088829405460528,
+      0.9883782107872091
+    ],
+    "ylim": [
+      0.0,
+      30.0
+    ],
+    "xlabel": "relative areal density $\\bar\\rho$ (mass)",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig2_load_paths",
+    "state": "C",
+    "panel_axis": 1,
+    "bounds": [
+      0.40163824383164004,
+      0.20000000000000007,
+      0.20137880986937595,
+      0.7
+    ],
+    "xlim": [
+      0.1,
+      1.05
+    ],
+    "ylim": [
+      0.0,
+      30.0
+    ],
+    "xlabel": "minimum load-bearing section $A_\\mathrm{min}/A$",
+    "ylabel": "2D strength $\\sigma_\\mathrm{max}$ (N/m)",
+    "xscale": "linear",
+    "yscale": "linear"
+  },
+  {
+    "figure": "fig2_load_paths",
+    "state": "C",
+    "panel_axis": 2,
+    "bounds": [
+      0.7382764876632801,
+      0.20000000000000007,
+      0.25172351233671986,
+      0.7
+    ],
+    "xlim": [
+      0.0,
+      1.05
+    ],
+    "ylim": [
+      -1.1,
+      8.6
+    ],
+    "xlabel": "best specific strength in the family, $\\sigma_\\mathrm{max}/(\\bar\\rho\\,\\sigma_0)$",
+    "ylabel": "",
+    "xscale": "linear",
+    "yscale": "linear"
+  }
+]

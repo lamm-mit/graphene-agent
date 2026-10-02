@@ -1,0 +1,25 @@
+{
+  "event": {
+    "index": 111,
+    "reason": "max strain reached",
+    "failure_observed": false
+  },
+  "metrics": {
+    "endpoint_index": 111,
+    "end_strain": 0.32000000000000023,
+    "end_stress_N_m": 6.229590215567609,
+    "failure_observed": false,
+    "failure_strain_if_observed": null,
+    "last_nonfailed_strain": null,
+    "termination_reason": "max strain reached",
+    "maximum_recorded_stress_N_m": 15.28079326182732,
+    "strain_at_recorded_maximum": 0.2900000000000002,
+    "peak_at_last_frame": false,
+    "stress_strain_integral_J_m2": 2.637673822781924,
+    "end_stress_fraction_of_maximum": 0.40767453029612266,
+    "spanning_at_end": true,
+    "first_damage_strain": 0.065,
+    "recorded_frames": 112,
+    "cumulative_broken_bond_events": 163
+  }
+}

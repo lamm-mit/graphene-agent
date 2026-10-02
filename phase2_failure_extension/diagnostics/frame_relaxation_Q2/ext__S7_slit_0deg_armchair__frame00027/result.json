@@ -1,0 +1,37 @@
+{
+  "case_id": "ext__S7_slit_0deg_armchair",
+  "frame_index": 27,
+  "strain": 0.19375,
+  "source_sha256": "38e9722e76f61d60b78611fc76a442d9c0e7b70a9f063e4cf594f19bd2b4ab51",
+  "before": {
+    "max_force_eV_A": 2.545562744140625,
+    "sigma_xx_N_m": 7.0533366203308105,
+    "sigma_yy_N_m": -0.006586108356714249,
+    "energy_eV": -20853.837890625
+  },
+  "after": {
+    "max_force_eV_A": 0.016828378662467003,
+    "sigma_xx_N_m": 6.935912609100342,
+    "sigma_yy_N_m": 0.00847434252500534,
+    "energy_eV": -20859.830078125
+  },
+  "force_converged": true,
+  "minimizer": {
+    "converged": [
+      true
+    ],
+    "iterations": 1310,
+    "fmax": [
+      0.016828378662467003
+    ],
+    "n_evaluations": 1312,
+    "n_rebuilds": 9,
+    "wall_time": 125.2653923749458,
+    "failed": [
+      false
+    ],
+    "soft": [
+      false
+    ]
+  }
+}

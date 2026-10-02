@@ -1,0 +1,42 @@
+[
+  {
+    "frame": 0,
+    "strain": 0.0,
+    "new_pairs_present": 0,
+    "transverse_strain": 0.0,
+    "max_force_eV_A": 0.008316012099385262,
+    "transverse_stress_N_m": -0.03282928184339714
+  },
+  {
+    "frame": 17,
+    "strain": 0.17,
+    "new_pairs_present": 4,
+    "transverse_strain": -0.19522283895418785,
+    "max_force_eV_A": 0.019941318780183792,
+    "transverse_stress_N_m": -0.01862497698604958
+  },
+  {
+    "frame": 36,
+    "strain": 0.2612500000000001,
+    "new_pairs_present": 66,
+    "transverse_strain": -0.2592487100461537,
+    "max_force_eV_A": 0.015579481609165668,
+    "transverse_stress_N_m": -0.05979247103000716
+  },
+  {
+    "frame": 44,
+    "strain": 0.30125000000000013,
+    "new_pairs_present": 94,
+    "transverse_strain": -0.26649815069048416,
+    "max_force_eV_A": 0.01841088943183422,
+    "transverse_stress_N_m": -0.01636408151237564
+  },
+  {
+    "frame": 116,
+    "strain": 0.6612500000000004,
+    "new_pairs_present": 106,
+    "transverse_strain": -0.28155118977199917,
+    "max_force_eV_A": 0.2779600918292999,
+    "transverse_stress_N_m": -0.026435155123868664
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source_files_verified_unchanged": 6701,
+  "scientific_source_changes": 0,
+  "ported_files": 27,
+  "curated_python_files_parsed": 420,
+  "original_public_platform_diff": [],
+  "original_git_checkout_status": "clean",
+  "data_bundles_verified": 4,
+  "data_members_verified_during_restore": 4804,
+  "literal_credential_scan_matches": 0,
+  "credential_scan_scope": "Selected source formats and literal HF/GitHub token/private-key patterns; not a general security certification"
+}

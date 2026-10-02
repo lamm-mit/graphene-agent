@@ -1,0 +1,78 @@
+{
+  "recorded_utc": "2026-09-25T03:15:33.863976+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T03:15:24.319651+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 12,
+      "running": 3,
+      "pending": 25
+    },
+    "running": [
+      {
+        "case_id": "ext__P1_slit_30deg",
+        "pid": 6635,
+        "elapsed_s": 6213.316670894623,
+        "updated_utc": "2026-09-25T03:13:12.255154+00:00",
+        "frames": 55,
+        "attempted_step": 57,
+        "strain": 0.2987500000000002,
+        "stress_N_m": 14.172819828718941,
+        "force_residual_eV_A": 0.016818758100271225,
+        "transverse_stress_N_m": -0.06151154317200093,
+        "wall_time_s": 6080.376254081726,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 83
+      },
+      {
+        "case_id": "ext__P1_slit_60deg",
+        "pid": 19330,
+        "elapsed_s": 2854.119141101837,
+        "updated_utc": "2026-09-25T03:14:07.468110+00:00",
+        "frames": 28,
+        "attempted_step": 30,
+        "strain": 0.20125000000000004,
+        "stress_N_m": 5.56312263611207,
+        "force_residual_eV_A": 0.04199325293302536,
+        "transverse_stress_N_m": -0.0018036450735941872,
+        "wall_time_s": 2776.229455947876,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 32
+      },
+      {
+        "case_id": "ext__P1_slit_75deg",
+        "pid": 26384,
+        "elapsed_s": 620.1311311721802,
+        "updated_utc": "2026-09-25T03:14:40.333459+00:00",
+        "frames": 30,
+        "attempted_step": 32,
+        "strain": 0.21625000000000005,
+        "stress_N_m": 3.9988334096551403,
+        "force_residual_eV_A": 0.014227545820176601,
+        "transverse_stress_N_m": -0.005716379394979164,
+        "wall_time_s": 575.3118777275085,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 40
+      }
+    ]
+  },
+  "process_snapshot": " 6635 43715 01:43:42  38:29.64 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_30deg\n19330 43715    47:43  17:58.35 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_60deg\n26384 43715    10:29   4:03.12 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_case.py ext__P1_slit_75deg\n43715     1 16:04:06   0:07.38 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python -u /Users/mbuehler/MIT LAMM Dropbox/Markus J. Buehler/Research MIT/Publications/2026/Intellligence Becomes Science BLOG/Fable 5.1 - nano material with REBO2/RESULTS_nano_v2/phase2_failure_extension/scripts/run_study.py\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__P1_slit_25deg.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T0315.json",
+  "analysis_script_sha256": "dfd9cc8315cc3490f2720af47ed091229082683500d4e02b716a8eb934d4de91",
+  "code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "Ten of 34 extensions and both controls complete; four resolution checks pending. All completed primary extension trajectories retain residual tolerance flags. Twentyfive-degree B=C is the third completed extension with no added loading interval; its A-to-C shifts are reproduction differences."
+}

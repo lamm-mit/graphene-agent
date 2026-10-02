@@ -1,0 +1,72 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "016_T1_H1_veinsX_L20_r1",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H1_veinsX_L20_r1",
+   "family": "nanomesh_hier",
+   "params": {
+    "Lx": 120.0,
+    "Ly": 120.0,
+    "levels": 2,
+    "period": 12,
+    "domain": 40,
+    "vein_w": 12,
+    "vein_dirs": "x",
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "vein_offset": 0.0,
+    "offset": [
+     1.23,
+     0.0
+    ],
+    "pore_d": 4.722,
+    "crack_len": 20.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.51025,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "reason": "T1 cracked, registry 1: two-level mesh, 12 A veins along the load, elongated fine pores (S7_H2_veinsX_W12_ellipseX parameters) + 20 A crack perpendicular to the load centred mid-domain (tips point at the veins)",
+   "hypothesis": "net-section scaling from the uncracked design of the same registry: SF_col 0.754 / 0.830 = 0.909; crack arrest: the crack tips face load-parallel veins (Y ~ 250 N/m) that are stiffer than the fine-pored domain (~100 N/m); retention 15 % above the net-section rule with the crack arrested at the first vein at peak load; tips 4 A from the vein edges",
+   "tags": [
+    "hierarchy",
+    "T1",
+    "veinsX",
+    "registry1",
+    "cracked",
+    "L20"
+   ],
+   "parent": "H1_veinsX_r1",
+   "prediction": {
+    "strength_Nm_rule": 17.6,
+    "strength_Nm_mechanism": 20.3,
+    "strength_Nm_class_rule": 16.2,
+    "retention_rule": 0.909,
+    "retention_mechanism": 1.045,
+    "modulus_2d_Nm": 167.0,
+    "work_to_failure_J_m2": 2.07,
+    "failure_strain": 0.201,
+    "fracture_mode_class": "stepwise"
+   },
+   "notes": null
+  }
+ ]
+}

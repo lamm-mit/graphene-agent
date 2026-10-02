@@ -1,0 +1,64 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "304_T3_H3_1L_fine_L60_r0",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H3_1L_fine_L60_r0",
+   "family": "nanomesh_single",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "period": 12,
+    "aspect": 2.0,
+    "angle_deg": 90,
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "pore_d": 3.816,
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.5
+    ]
+   },
+   "seed": 0,
+   "reason": "T3 cracked (300 A cell), registry 0: one-level fine mesh + 60 A crack (the cracked control without a barrier)",
+   "hypothesis": "net-section scaling from the uncracked rule value: SF_col 0.687 / 0.841 = 0.817",
+   "tags": [
+    "hierarchy",
+    "T3",
+    "1L_fine",
+    "registry0",
+    "cracked",
+    "L60"
+   ],
+   "parent": "H3_1L_fine_r0",
+   "prediction": {
+    "strength_Nm_rule": 11.4,
+    "strength_Nm_mechanism": 11.4,
+    "retention_rule": 0.817,
+    "retention_mechanism": 0.817,
+    "work_to_failure_J_m2": 1.19,
+    "fracture_mode_class": "progressive"
+   },
+   "notes": null
+  }
+ ]
+}

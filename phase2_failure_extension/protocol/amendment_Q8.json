@@ -1,0 +1,26 @@
+{
+  "id": "Q8",
+  "recorded_utc": "2026-09-24T17:36:24.741433+00:00",
+  "reason": "The Q7 half-increment control passes all 53 CPU/float64 saved-state residual checks, but shifts integrated response by +5.39% versus Q4. One more resolution level is needed to check whether this sensitivity is diminishing.",
+  "scope": "Exactly one final quarter-increment pristine control; no automatic finer control or slit diagnostic is authorized by this amendment.",
+  "changes": {
+    "d_strain": 0.00125,
+    "d_strain_elastic": 0.0025,
+    "d_strain_min": 0.0003125
+  },
+  "unchanged": "All Q4 scientific code, FIRE and transverse budgets, tolerances, MPS/float32, potential, initial geometry and loading caps. Reuses the unchanged frozen Q7 execution wrapper with Q8 amendment metadata.",
+  "comparison_reference": "quality__S1_pristine_zz_halfstep_Q7",
+  "screening_before_outcome": {
+    "maximum_stress_relative_percent": 2.0,
+    "integral_relative_percent": 2.0,
+    "end_strain_absolute": 0.00125,
+    "both_runs_require_recorded_residual_checks": true,
+    "interpretation": "Diagnostic stability screen based on the existing 2% study trigger and one finer post-damage increment, not an uncertainty bound or proof of asymptotic convergence."
+  },
+  "stopping_policy": "After this single further control, report the three-level sensitivity, including any unresolved or nonmonotonic behavior. Do not launch progressively finer controls without a new scientific reason and separately logged amendment.",
+  "jobs": [
+    "quality__S1_pristine_zz_quarterstep_Q8"
+  ],
+  "execution_checksums": "ecb793bcfcc068497a9d8b4ceee4df4436f4ce95023b71e4231cce0e6604526e",
+  "production_gate_released": false
+}

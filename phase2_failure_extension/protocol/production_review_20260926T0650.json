@@ -1,0 +1,51 @@
+{
+  "recorded_utc": "2026-09-26T06:50:47.195445+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T06:50:35.646270+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 39,
+      "running": 1
+    },
+    "running": [
+      {
+        "case_id": "res__S7_slit_20deg",
+        "pid": 46173,
+        "elapsed_s": 16150.988306760788,
+        "updated_utc": "2026-09-26T06:49:06.275220+00:00",
+        "frames": 190,
+        "attempted_step": 192,
+        "strain": 0.515,
+        "stress_N_m": 1.6178384283165819,
+        "force_residual_eV_A": 0.11854811012744904,
+        "transverse_stress_N_m": -0.0023422412957447942,
+        "wall_time_s": 16060.54721570015,
+        "virtual_original_stop": {
+          "index": 111,
+          "reason": "max strain reached",
+          "failure_observed": false
+        },
+        "spanning": true,
+        "cumulative_broken": 205
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n43715     1 01-19:39:20   0:27.58   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-19:39:20   0:00.09   0.0 S    /usr/bin/caffeinate\n46173 43715    04:29:23 110:50.59  48.4 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "remaining_worker_has_new_accepted_frames": true,
+  "figures_and_analysis_unchanged_from_last_review": true,
+  "last_figure_review": "results/figure_review_20260926T0620.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "new_completed_cases": [],
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "34/34 primary extensions, 2/2 controls and 3/4 resolution checks complete. Final 20-degree resolution check advances normally beyond its virtual original stop. Final endpoint and candidate manuscript review package remain pending; numerical limitations retained."
+}

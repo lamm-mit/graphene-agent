@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-09-26T00:26:24.842899+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-26T00:26:14.360296+00:00",
+    "queue_pid": 43715,
+    "active_stage": "resolution",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 36,
+      "running": 3,
+      "pending": 1
+    },
+    "running": [
+      {
+        "case_id": "res__S2_slit_45deg",
+        "pid": 23606,
+        "elapsed_s": 741.164705991745,
+        "updated_utc": "2026-09-26T00:24:45.583064+00:00",
+        "frames": 16,
+        "attempted_step": 15,
+        "strain": 0.15,
+        "stress_N_m": 1.5662784324850871,
+        "force_residual_eV_A": 0.07212584465742111,
+        "transverse_stress_N_m": -0.06025005168335777,
+        "wall_time_s": 649.4603819847107,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 0
+      },
+      {
+        "case_id": "res__S5_H2_D40_W8_ellipseX",
+        "pid": 23607,
+        "elapsed_s": 741.1621000766754,
+        "updated_utc": "2026-09-26T00:24:42.433380+00:00",
+        "frames": 3,
+        "attempted_step": 2,
+        "strain": 0.02,
+        "stress_N_m": 3.4844995050568652,
+        "force_residual_eV_A": 0.0503157414495945,
+        "transverse_stress_N_m": 0.0725729466723003,
+        "wall_time_s": 646.3106949329376,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 0
+      },
+      {
+        "case_id": "res__S7_slit_0deg_armchair",
+        "pid": 23608,
+        "elapsed_s": 741.1596930027008,
+        "updated_utc": "2026-09-26T00:24:24.939796+00:00",
+        "frames": 27,
+        "attempted_step": 29,
+        "strain": 0.16,
+        "stress_N_m": 8.148900433350676,
+        "force_residual_eV_A": 0.01855410635471344,
+        "transverse_stress_N_m": 0.011149103288053797,
+        "wall_time_s": 628.8171117305756,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 168
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n23606 43715       12:31   4:13.23  36.0 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n23607 43715       12:31   4:25.90  36.6 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n23608 43715       12:31   4:20.77  36.5 R    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-13:14:57   0:20.82   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-13:14:57   0:00.09   0.0 S    /usr/bin/caffeinate\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__S7_mesh_p24_phi0.3.json",
+    "results/review_ext__S7_voronoi_n35_reg0.8_s7.json"
+  ],
+  "primary_cohort_review": "results/primary_cohort_review_20260926T0025.json",
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260926T0025.json",
+  "input_checksum_entries_verified": 772,
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "All 34 primary extensions and both controls complete. Final mesh and Voronoi add 12.1647% and 15.0292% integral B-to-C without new peaks; both retain residual flags. Twenty-five primary cases continue beyond B, 23 with no higher peak; nine have B=C. Stops: 18 spanning-loss, 15 stress-collapse, one capped/censored 30-degree slit. Thirty-three primary trajectories retain residual flags. Three planned resolution jobs active, one queued. Candidate package follows the checks."
+}

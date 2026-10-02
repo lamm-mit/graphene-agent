@@ -1,0 +1,48 @@
+{
+  "updated_utc": "2026-09-26T06:53:06.817374+00:00",
+  "primary_available": 34,
+  "primary_planned": 34,
+  "controls_available": 2,
+  "resolution_available": 4,
+  "source_cohorts": [
+    {
+      "source_phase": "I",
+      "planned": 20,
+      "available": 20,
+      "failure_observed": 20,
+      "remaining_censored": 0,
+      "residual_quality_flagged": 19,
+      "failure_criterion_and_residual_checks_pass": 1,
+      "original_stop_reached": 20,
+      "median_added_integral_J_m2": 0.11546652824441478,
+      "median_added_strain": 0.07000000000000005,
+      "reproduction_flagged": 14
+    },
+    {
+      "source_phase": "II",
+      "planned": 14,
+      "available": 14,
+      "failure_observed": 13,
+      "remaining_censored": 1,
+      "residual_quality_flagged": 14,
+      "failure_criterion_and_residual_checks_pass": 0,
+      "original_stop_reached": 14,
+      "median_added_integral_J_m2": 0.1550441986260167,
+      "median_added_strain": 0.05500000000000005,
+      "reproduction_flagged": 11
+    }
+  ],
+  "alignment_integral_comparison": {
+    "n": 40,
+    "original_endpoint_integral_pearson_r": 0.47153347465418566,
+    "currently_available_endpoint_integral_pearson_r": 0.4884142194450267,
+    "extensions_available": 8,
+    "extensions_planned": 8,
+    "interpretation": "Correlation of integrals to stated endpoints, not automatically work to observed failure."
+  },
+  "all_scheduled_cases_have_results": true,
+  "additional_quality_checks_available": 5,
+  "scope": "Standalone Phase-II results; manuscript integration deferred.",
+  "production_released": true,
+  "scientific_review_status": "Pilot review complete; final study review pending, with numerical limitations retained."
+}

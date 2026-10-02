@@ -1,0 +1,55 @@
+{
+  "reviewed_utc": "2026-09-24T23:54:15.092067+00:00",
+  "queue_pid": 43715,
+  "queue_counts": {
+    "completed": 7,
+    "running": 1,
+    "pending": 32
+  },
+  "active_children": [
+    {
+      "case_id": "ext__P3_H2_square_W8_ellipse_30deg",
+      "pid": 56060,
+      "elapsed_s": 9243.55282998085,
+      "updated_utc": "2026-09-24T23:53:35.333948+00:00",
+      "frames": 61,
+      "attempted_step": 63,
+      "strain": 0.3562500000000002,
+      "stress_N_m": 1.8842991650929295,
+      "force_residual_eV_A": 0.46723663806915283,
+      "transverse_stress_N_m": -0.04482577049333083,
+      "wall_time_s": 9210.562037944794,
+      "virtual_original_stop": {
+        "index": 40,
+        "reason": "post-peak strain limit reached (load still carried)",
+        "failure_observed": false
+      },
+      "spanning": true,
+      "cumulative_broken": 51
+    }
+  ],
+  "new_pilot_completions": [
+    "ext__P1_slit_35deg",
+    "ext__S5_H2_D40_W8_ellipseX",
+    "ctrl__S2_slit_0deg"
+  ],
+  "completed_pilot_extensions": 5,
+  "planned_pilot_extensions": 6,
+  "completed_pilot_controls": 2,
+  "planned_pilot_controls": 2,
+  "new_result_reviews": [
+    "results/review_ext__P1_slit_35deg.json",
+    "results/review_ext__S5_H2_D40_W8_ellipseX.json",
+    "results/review_ctrl__S2_slit_0deg.json"
+  ],
+  "figure_review": "results/figure_review_20260924T2350.json",
+  "tests": "13 existing tests passed; independent quadrature/stopping chronology, selected CPU static checks and SI percentages checked.",
+  "integrity": {
+    "input_checksums.json": 772,
+    "execution_code_checksums.json": 61,
+    "verified_code_checksums.json": 61,
+    "refinement_code_checksums.json": 61
+  },
+  "production_approved": false,
+  "action": "Continue the last pilot under the existing scheduler. Both controls and five extensions now reviewed. Keep the gate absent until final pilot and full numerical implications are reviewed. No extra loading diagnostic, duplicate worker or scientific-protocol change."
+}

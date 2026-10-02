@@ -23,3 +23,7 @@ figure to SVG), huggingface_hub (Apache-2.0).
 
 **AI agent.** The code, analyses and text in this repository were produced by Claude Fable 5.1 (Anthropic) in Claude
 Code, in the two phases described in `README.md` and `PROVENANCE.md`.
+
+## Geometry explorer
+
+`atlas/explorer/plotly.min.js` is Plotly.js, distributed under the MIT license reproduced in `atlas/explorer/PLOTLY_LICENSE`. The authored geometry atlas code/data are Apache-2.0. No model weights or licensed simulation executables are bundled.

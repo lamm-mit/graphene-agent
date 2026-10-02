@@ -1,0 +1,22 @@
+{
+  "reviewed_utc": "2026-09-24T12:31:32.961336+00:00",
+  "stage": "incomplete pilot review",
+  "production_approved": false,
+  "completed_pilot_case_ids": [
+    "ctrl__S1_pristine_zz"
+  ],
+  "frozen_execution_files_verified": 61,
+  "queue_pid": 43715,
+  "queue_counts": {
+    "completed": 1,
+    "running": 3,
+    "pending": 36
+  },
+  "fixed_cell_probe_status": "running",
+  "unresolved": [
+    "Remaining six pilot extensions and second control incomplete",
+    "Q1 transverse-budget sensitivity: ending strain and integral changed",
+    "Archived and new pilot force residual exceedances confirmed independently",
+    "Q2 relaxation-probe results pending; assess corrected convergence branch separately"
+  ]
+}

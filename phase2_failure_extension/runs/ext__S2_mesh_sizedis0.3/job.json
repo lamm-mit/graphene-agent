@@ -1,0 +1,14 @@
+{
+  "case_id": "ext__S2_mesh_sizedis0.3",
+  "parent_run_id": "run_20260905_084045_6ac365",
+  "source_phase": "I",
+  "role": "extension",
+  "stage": "production",
+  "device": "mps",
+  "precision": "float32",
+  "overrides": {
+    "max_strain": 1.0,
+    "post_peak_strain_limit": null,
+    "max_steps": 2000
+  }
+}

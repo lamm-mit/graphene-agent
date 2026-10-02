@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "frozen_utc": "2026-09-24T11:11:08.577285+00:00",
+  "authorization": "User requested execution of the plan on 2026-09-24; all code, inputs and results isolated; no manuscript integration.",
+  "primary_cases": 34,
+  "source_phase_counts": {
+    "I": 20,
+    "II": 14
+  },
+  "controls": 2,
+  "resolution_checks": 4,
+  "max_engineering_strain": 1.0,
+  "post_peak_administrative_cap": null,
+  "max_attempted_steps": 2000,
+  "numerical_settings": "Full per-parent configuration, with only explicitly listed job overrides.",
+  "primary_metric": "Integral of the recorded stress with respect to engineering strain to a stated endpoint; not fracture toughness.",
+  "primary_comparison": "B-to-C: new trajectory at virtual original stop versus extended endpoint. A-to-B reproduction and A-to-C total shifts also reported.",
+  "failure_definition": "Chronological driver criterion: lost spanning connectivity or stress below parent stop fraction of running peak after damage.",
+  "reproduction_diagnostic_triggers": {
+    "maximum_stress_relative": 0.02,
+    "integral_relative": 0.02,
+    "first_damage_and_stop_strain": "one parent post-damage increment"
+  },
+  "pilot_policy": "Six extensions and two controls precede production. Agent reviews gate, reproduction flags and numerical quality before release.",
+  "unresolved_cases": "Remain censored or numerically limited; no cap is substituted for an observed failure strain.",
+  "input_checksums_sha256": "1b1cbc569f16d5c1af73d87f4fe3cb9604ddf7d0662dd5890de0c4dd4545376b",
+  "execution_checksums_sha256": "e4649d0cbe72063fd1bdf4785024f8c6839aec2df358bb195b149c53a4550c80",
+  "job_manifest_sha256": "53602272897de4b2bbf22d4889a5918956d24902f14947ce3ef36d6e0cf9305e",
+  "planned_figure_examples": [
+    "S2_slit_45deg",
+    "S7_slit_20deg"
+  ]
+}

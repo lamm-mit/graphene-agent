@@ -1,0 +1,42 @@
+{
+  "case_id": "ext__S2_slit_45deg",
+  "frame_index": 116,
+  "strain": 0.6612500000000004,
+  "source": "runs/ext__S2_slit_45deg/frames/00116.npz",
+  "source_sha256": "35f60f376044f1c53c7efbcdcfec75d9efae00ef2c1b425e6b7ca911a9938438",
+  "before": {
+    "max_force_eV_A": 0.2779600918292999,
+    "sigma_xx_N_m": 1.0565288694797887,
+    "sigma_yy_N_m": -0.02643527263015071,
+    "energy_eV": -21731.91796875,
+    "spanning": true,
+    "below_frozen_running_peak_threshold": true
+  },
+  "after": {
+    "max_force_eV_A": 0.3435761630535126,
+    "sigma_xx_N_m": 0.7509454494063758,
+    "sigma_yy_N_m": -0.21848858450180506,
+    "energy_eV": -21738.43359375,
+    "spanning": true,
+    "below_frozen_running_peak_threshold": true
+  },
+  "force_converged": false,
+  "minimizer": {
+    "converged": [
+      false
+    ],
+    "iterations": 4000,
+    "fmax": [
+      0.3435761630535126
+    ],
+    "n_evaluations": 4001,
+    "n_rebuilds": 4,
+    "wall_time": 427.66501449991483,
+    "failed": [
+      false
+    ],
+    "soft": [
+      false
+    ]
+  }
+}

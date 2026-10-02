@@ -1,0 +1,24 @@
+{
+  "id": "Q6b",
+  "recorded_utc": "2026-09-24T15:11:31.577562+00:00",
+  "reason": "Q5 still failed force convergence at the 45-degree endpoint after 4000 conservative FIRE steps. Test an independent optimizer and double precision at the same original endpoint geometry.",
+  "source": "runs/ext__S2_slit_45deg/frames/00116.npz",
+  "case_id": "ext__S2_slit_45deg",
+  "frame_index": 116,
+  "strain": 0.66125,
+  "running_peak_stress_N_m": 12.204642277152937,
+  "stress_fraction_threshold": 0.1,
+  "optimizer_options": {
+    "maxiter": 2000,
+    "maxfun": 12000,
+    "maxls": 50,
+    "maxcor": 20,
+    "gtol": 0.005,
+    "ftol": 1e-15
+  },
+  "scope": "One CPU/float64 L-BFGS-B fixed-cell diagnostic with analytic forces and a local directional finite-difference check. No change to potential, source loading trajectories or primary queue.",
+  "interpretation": "Optimizer and numerical precision both differ from Q5. This checks whether a lower-residual state is obtainable, not which individual change causes a difference. It cannot establish a corrected loading path or transverse-equilibrated failure endpoint.",
+  "script_sha256": "6196d1a709201d0bb39637ff4267747a97fb9e8c7662c957f05b2168fed5f9f9",
+  "technical_correction": "Q6 failed before optimization because the diagnostic adapter did not initialize its neighbor list. Q6 output and original script are preserved. Q6b initializes that list; scientific optimizer, precision, geometry and budgets are unchanged.",
+  "predecessor": "diagnostics/endpoint_lbfgs_Q6/record.json"
+}

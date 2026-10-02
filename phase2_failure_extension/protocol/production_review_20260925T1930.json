@@ -1,0 +1,81 @@
+{
+  "recorded_utc": "2026-09-25T19:27:37.766684+00:00",
+  "queue_status": {
+    "updated_utc": "2026-09-25T19:27:35.753527+00:00",
+    "queue_pid": 43715,
+    "active_stage": "production",
+    "blocked": null,
+    "max_workers": 3,
+    "counts": {
+      "completed": 30,
+      "running": 3,
+      "pending": 7
+    },
+    "running": [
+      {
+        "case_id": "ext__S5_H2_D40_W8_jitter2",
+        "pid": 97586,
+        "elapsed_s": 12105.454317808151,
+        "updated_utc": "2026-09-25T19:25:53.605986+00:00",
+        "frames": 35,
+        "attempted_step": 37,
+        "strain": 0.19500000000000012,
+        "stress_N_m": 3.4752785371709405,
+        "force_residual_eV_A": 0.07652579247951508,
+        "transverse_stress_N_m": 0.00657787949954734,
+        "wall_time_s": 12002.203959226608,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 71
+      },
+      {
+        "case_id": "ext__S5_H2_p8_D40_W8",
+        "pid": 5020,
+        "elapsed_s": 2776.2464170455933,
+        "updated_utc": "2026-09-25T19:25:34.950445+00:00",
+        "frames": 24,
+        "attempted_step": 26,
+        "strain": 0.1675,
+        "stress_N_m": 2.3331956640182896,
+        "force_residual_eV_A": 0.746945321559906,
+        "transverse_stress_N_m": 0.012066777923565392,
+        "wall_time_s": 2654.3351349830627,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 81
+      },
+      {
+        "case_id": "ext__S6_voronoi_n25_reg0.0_s2",
+        "pid": 5407,
+        "elapsed_s": 1794.5975201129913,
+        "updated_utc": "2026-09-25T19:25:56.924727+00:00",
+        "frames": 20,
+        "attempted_step": 22,
+        "strain": 0.12375000000000005,
+        "stress_N_m": 2.3468431644255863,
+        "force_residual_eV_A": 0.01620016247034073,
+        "transverse_stress_N_m": -0.007464237312010119,
+        "wall_time_s": 1694.9690239429474,
+        "virtual_original_stop": null,
+        "spanning": true,
+        "cumulative_broken": 31
+      }
+    ]
+  },
+  "process_snapshot": "  PID  PPID     ELAPSED      TIME  %CPU STAT COMM\n 5020 43715       46:18  15:12.80  31.5 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n 5407 43715       29:56   9:36.38  27.8 U    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43715     1 01-08:16:10   0:18.30   0.0 Ss   /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n43716 43715 01-08:16:10   0:00.09   0.0 S    /usr/bin/caffeinate\n97586 43715    03:21:47  33:51.04  31.7 S    /opt/homebrew/Caskroom/miniconda/base/envs/PyTorch/bin/python\n",
+  "all_expected_processes_alive": true,
+  "new_case_reviews": [
+    "results/review_ext__S2_strut_090.json"
+  ],
+  "production_gate_sha256": "af34553c625f341502741d7fb6d2b9a417887f044d4ae08a6d873b06271c7ec7",
+  "figure_review": "results/figure_review_20260925T1930.json",
+  "execution_checksum_entries_verified": 61,
+  "verified_branch_checksum_entries_verified": 61,
+  "refinement_branch_checksum_entries_verified": 61,
+  "scientific_driver_changed": false,
+  "analysis_code_changed": false,
+  "additional_static_audits": false,
+  "additional_loading_runs": false,
+  "scheduler_restarted": false,
+  "scientific_status": "28/34 extensions complete (14/20 Phase-I, 14/14 earlier Phase-II). Strut_090 adds 28.1916% integral B-to-C with no peak increase; A-to-B peak +0.0136% and integral -0.6774% pass scalar reproduction screens. Sixty-four frames retain residual flags despite a passing endpoint residual screen. Controls 2/2 complete; resolution 0/4. Three workers remain alive and advancing; no intervention needed."
+}

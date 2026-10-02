@@ -1,0 +1,16 @@
+[
+  {
+    "population": "96 discovery designs",
+    "n": 96,
+    "strength": 0.9752034725990233,
+    "integral": 0.9692349430276723,
+    "ending_strain": 0.9601568223132647
+  },
+  {
+    "population": "20 rerun discovery designs",
+    "n": 20,
+    "strength": 0.8150375939849623,
+    "integral": 0.837593984962406,
+    "ending_strain": 0.30236933315446324
+  }
+]

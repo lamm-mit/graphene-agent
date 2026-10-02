@@ -1,0 +1,275 @@
+{
+  "reviewed_utc": "2026-09-26T04:42:20.716041+00:00",
+  "resolution_case": "res__S5_H2_D40_W8_ellipseX",
+  "primary_case": "ext__S5_H2_D40_W8_ellipseX",
+  "parent_run_id": "run_20260905_211848_7105d7",
+  "source_hashes": {
+    "primary": {
+      "record.json": "ae5b41a297cd3b02605ae915b792245179a09fcccbaa912f71df8d16bddd2d37",
+      "stress_strain.csv": "ce7c37cc1c42c844454dd659087ec5d8eee10a93a8d40c9acfbb99dcb76ecd8c",
+      "initial.extxyz": "97b6cdd98587955cdbd464076154002c6541350ec560e84f894a0a6f3985998d"
+    },
+    "half_post_damage_step": {
+      "record.json": "266e527aa897c177577ee51dee9aad0ca6c3f832f2a28e940d5dfe079d0623b3",
+      "stress_strain.csv": "76dfd092d1d10d7e6f13124c1c7a4ab64de9ddce054cb34b515f8dd702d2d614",
+      "initial.extxyz": "97b6cdd98587955cdbd464076154002c6541350ec560e84f894a0a6f3985998d"
+    }
+  },
+  "script_sha256": "548f647ec831d5cc8765e3b06a215e8b473ef559eac79ed1abb84a3e694da4e4",
+  "initial_geometry_hash_equal": true,
+  "configuration_differences": {
+    "d_strain": [
+      0.005,
+      0.0025
+    ]
+  },
+  "comparisons": {
+    "B_original_protocol_on_rerun": {
+      "end_strain": {
+        "primary": 0.2587500000000001,
+        "half_post_damage_step": 0.2587500000000001,
+        "difference": 0.0,
+        "relative_change_percent": 0.0
+      },
+      "maximum_recorded_stress_N_m": {
+        "primary": 17.51349510632733,
+        "half_post_damage_step": 17.447661268032025,
+        "difference": -0.06583383829530476,
+        "relative_change_percent": -0.37590348411676855
+      },
+      "strain_at_recorded_maximum": {
+        "primary": 0.13875,
+        "half_post_damage_step": 0.13875,
+        "difference": 0.0,
+        "relative_change_percent": 0.0
+      },
+      "stress_strain_integral_J_m2": {
+        "primary": 2.145116424099098,
+        "half_post_damage_step": 1.914646744414858,
+        "difference": -0.23046967968423981,
+        "relative_change_percent": -10.743924063750153
+      },
+      "termination_reason": [
+        "post-peak strain limit reached (load still carried)",
+        "post-peak strain limit reached (load still carried)"
+      ],
+      "spanning_at_end": [
+        true,
+        true
+      ]
+    },
+    "C_extended": {
+      "end_strain": {
+        "primary": 0.6087500000000003,
+        "half_post_damage_step": 0.2862500000000001,
+        "difference": -0.32250000000000023,
+        "relative_change_percent": -52.97741273100617
+      },
+      "maximum_recorded_stress_N_m": {
+        "primary": 17.51349510632733,
+        "half_post_damage_step": 17.447661268032025,
+        "difference": -0.06583383829530476,
+        "relative_change_percent": -0.37590348411676855
+      },
+      "strain_at_recorded_maximum": {
+        "primary": 0.13875,
+        "half_post_damage_step": 0.13875,
+        "difference": 0.0,
+        "relative_change_percent": 0.0
+      },
+      "stress_strain_integral_J_m2": {
+        "primary": 3.0340602872124336,
+        "half_post_damage_step": 1.9661079185822619,
+        "difference": -1.0679523686301717,
+        "relative_change_percent": -35.1987853745438
+      },
+      "termination_reason": [
+        "not spanning (fractured)",
+        "not spanning (fractured)"
+      ],
+      "spanning_at_end": [
+        false,
+        false
+      ]
+    }
+  },
+  "paired": {
+    "primary": {
+      "A_archived": {
+        "endpoint_index": 42,
+        "end_strain": 0.2587500000000001,
+        "end_stress_N_m": 2.5841268899312717,
+        "failure_observed": false,
+        "failure_strain_if_observed": null,
+        "last_nonfailed_strain": null,
+        "termination_reason": "post-peak strain limit reached (load still carried)",
+        "maximum_recorded_stress_N_m": 17.460201956251787,
+        "strain_at_recorded_maximum": 0.13875,
+        "peak_at_last_frame": false,
+        "stress_strain_integral_J_m2": 2.0205639645747024,
+        "end_stress_fraction_of_maximum": 0.1480009736660578,
+        "spanning_at_end": true,
+        "first_damage_strain": 0.11875,
+        "recorded_frames": 43,
+        "cumulative_broken_bond_events": 114,
+        "archived_reported_failure_strain": 0.2587500000000001,
+        "archived_reported_work_to_failure_J_m2": 2.020563964574702
+      },
+      "B_original_protocol_on_rerun": {
+        "endpoint_index": 42,
+        "end_strain": 0.2587500000000001,
+        "end_stress_N_m": 3.250417799624349,
+        "failure_observed": false,
+        "failure_strain_if_observed": null,
+        "last_nonfailed_strain": null,
+        "termination_reason": "post-peak strain limit reached (load still carried)",
+        "maximum_recorded_stress_N_m": 17.51349510632733,
+        "strain_at_recorded_maximum": 0.13875,
+        "peak_at_last_frame": false,
+        "stress_strain_integral_J_m2": 2.145116424099098,
+        "end_stress_fraction_of_maximum": 0.18559503856257842,
+        "spanning_at_end": true,
+        "first_damage_strain": 0.11875,
+        "recorded_frames": 43,
+        "cumulative_broken_bond_events": 139
+      },
+      "C_extended": {
+        "endpoint_index": 112,
+        "end_strain": 0.6087500000000003,
+        "end_stress_N_m": 2.011859866563594,
+        "failure_observed": true,
+        "failure_strain_if_observed": 0.6087500000000003,
+        "last_nonfailed_strain": 0.6037500000000003,
+        "termination_reason": "not spanning (fractured)",
+        "maximum_recorded_stress_N_m": 17.51349510632733,
+        "strain_at_recorded_maximum": 0.13875,
+        "peak_at_last_frame": false,
+        "stress_strain_integral_J_m2": 3.0340602872124336,
+        "end_stress_fraction_of_maximum": 0.11487483533979137,
+        "spanning_at_end": false,
+        "first_damage_strain": 0.11875,
+        "recorded_frames": 113,
+        "cumulative_broken_bond_events": 152
+      },
+      "virtual_stop_found": true,
+      "reproduction": {
+        "maximum_stress_relative": 0.0030522642412198486,
+        "integral_relative": 0.06164242345607307,
+        "stop_strain_difference": 0.0,
+        "first_damage_strain_difference": 0.0,
+        "shared_interval_normalized_stress_rmse": 0.06576647155316256,
+        "curve_rmse_note": "Linear interpolation is a diagnostic over the shared strain interval; event locations are also compared separately."
+      },
+      "reproduction_flags": [
+        "integral_relative exceeds 2% diagnostic trigger"
+      ],
+      "changes": {
+        "additional_strain_B_to_C": 0.35000000000000026,
+        "additional_integral_B_to_C_J_m2": 0.8889438631133357,
+        "maximum_stress_change_B_to_C_N_m": 0.0,
+        "integral_change_A_to_C_J_m2": 1.0134963226377312
+      }
+    },
+    "half_post_damage_step": {
+      "A_archived": {
+        "endpoint_index": 42,
+        "end_strain": 0.2587500000000001,
+        "end_stress_N_m": 2.5841268899312717,
+        "failure_observed": false,
+        "failure_strain_if_observed": null,
+        "last_nonfailed_strain": null,
+        "termination_reason": "post-peak strain limit reached (load still carried)",
+        "maximum_recorded_stress_N_m": 17.460201956251787,
+        "strain_at_recorded_maximum": 0.13875,
+        "peak_at_last_frame": false,
+        "stress_strain_integral_J_m2": 2.0205639645747024,
+        "end_stress_fraction_of_maximum": 0.1480009736660578,
+        "spanning_at_end": true,
+        "first_damage_strain": 0.11875,
+        "recorded_frames": 43,
+        "cumulative_broken_bond_events": 114,
+        "archived_reported_failure_strain": 0.2587500000000001,
+        "archived_reported_work_to_failure_J_m2": 2.020563964574702
+      },
+      "B_original_protocol_on_rerun": {
+        "endpoint_index": 70,
+        "end_strain": 0.2587500000000001,
+        "end_stress_N_m": 1.9202191120880587,
+        "failure_observed": false,
+        "failure_strain_if_observed": null,
+        "last_nonfailed_strain": null,
+        "termination_reason": "post-peak strain limit reached (load still carried)",
+        "maximum_recorded_stress_N_m": 17.447661268032025,
+        "strain_at_recorded_maximum": 0.13875,
+        "peak_at_last_frame": false,
+        "stress_strain_integral_J_m2": 1.914646744414858,
+        "end_stress_fraction_of_maximum": 0.1100559600848238,
+        "spanning_at_end": true,
+        "first_damage_strain": 0.11875,
+        "recorded_frames": 71,
+        "cumulative_broken_bond_events": 141
+      },
+      "C_extended": {
+        "endpoint_index": 81,
+        "end_strain": 0.2862500000000001,
+        "end_stress_N_m": 1.5056938348212152,
+        "failure_observed": true,
+        "failure_strain_if_observed": 0.2862500000000001,
+        "last_nonfailed_strain": 0.2837500000000001,
+        "termination_reason": "not spanning (fractured)",
+        "maximum_recorded_stress_N_m": 17.447661268032025,
+        "strain_at_recorded_maximum": 0.13875,
+        "peak_at_last_frame": false,
+        "stress_strain_integral_J_m2": 1.9661079185822619,
+        "end_stress_fraction_of_maximum": 0.08629774568010323,
+        "spanning_at_end": false,
+        "first_damage_strain": 0.11875,
+        "recorded_frames": 82,
+        "cumulative_broken_bond_events": 143
+      },
+      "virtual_stop_found": true,
+      "reproduction": {
+        "maximum_stress_relative": -0.000718244167575155,
+        "integral_relative": -0.05241963234860436,
+        "stop_strain_difference": 0.0,
+        "first_damage_strain_difference": 0.0,
+        "shared_interval_normalized_stress_rmse": 0.06911361671956699,
+        "curve_rmse_note": "Linear interpolation is a diagnostic over the shared strain interval; event locations are also compared separately."
+      },
+      "reproduction_flags": [
+        "integral_relative exceeds 2% diagnostic trigger"
+      ],
+      "changes": {
+        "additional_strain_B_to_C": 0.027500000000000024,
+        "additional_integral_B_to_C_J_m2": 0.05146117416740381,
+        "maximum_stress_change_B_to_C_N_m": 0.0,
+        "integral_change_A_to_C_J_m2": -0.05445604599244058
+      }
+    }
+  },
+  "quality": {
+    "primary": {
+      "all_recorded_values_finite": true,
+      "force_tolerance_eV_A": 0.02,
+      "frames_above_force_tolerance": 94,
+      "maximum_recorded_force_residual_eV_A": 5.321005821228027,
+      "frames_above_transverse_tolerance": 3,
+      "maximum_transverse_stress_residual_N_m": 0.10573894183430262,
+      "numerical_termination": false,
+      "driver_and_chronological_metric_agree": true
+    },
+    "half_post_damage_step": {
+      "all_recorded_values_finite": true,
+      "force_tolerance_eV_A": 0.02,
+      "frames_above_force_tolerance": 60,
+      "maximum_recorded_force_residual_eV_A": 8.716043472290039,
+      "frames_above_transverse_tolerance": 5,
+      "maximum_transverse_stress_residual_N_m": 0.13441113119587414,
+      "numerical_termination": false,
+      "driver_and_chronological_metric_agree": true
+    }
+  },
+  "independently_recomputed_metrics_and_stop_pass": true,
+  "increment_convergence_established": false,
+  "interpretation": "Independent reruns with only the post-damage strain increment changed. Elastic and minimum refinement increments are unchanged. Differences include path sensitivity and potentially floating-point variability; this is not a deterministic error estimate or a converged replacement. Retain residual flags and both branches."
+}

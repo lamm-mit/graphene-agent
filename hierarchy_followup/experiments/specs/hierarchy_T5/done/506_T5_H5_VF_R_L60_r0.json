@@ -1,0 +1,75 @@
+{
+ "campaign": "hierarchy",
+ "stage": "hierarchy_followup",
+ "batch_name": "506_T5_H5_VF_R_L60_r0",
+ "device": "auto",
+ "dtype": "float32",
+ "aqs": {
+  "d_strain": 0.005,
+  "d_strain_elastic": 0.01,
+  "d_strain_min": 0.00125,
+  "max_strain": 0.35,
+  "fmax": 0.02,
+  "max_steps": 220,
+  "max_fire_steps": 2000,
+  "stop_stress_fraction": 0.1,
+  "post_peak_strain_limit": 0.2
+ },
+ "structures": [
+  {
+   "name": "H5_VF_R_L60_r0",
+   "family": "composite",
+   "params": {
+    "Lx": 300.0,
+    "Ly": 300.0,
+    "coarse": "veins_x",
+    "domain": 100.0,
+    "vein_w": 30.0,
+    "bar_w": 65.0,
+    "fill_solid": "slits_x",
+    "fill_domain": "round",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "vein_offset": 0.0,
+    "solid_params": {
+     "slit_len": 26.0,
+     "slit_w": 3.0,
+     "period_y": 12.0
+    },
+    "domain_params": {
+     "period": 12.0,
+     "pore_d": 4.938
+    },
+    "crack_len": 60.0,
+    "crack_w": 3.0,
+    "crack_angle_deg": 90.0,
+    "crack_center": [
+     0.5,
+     0.166667
+    ]
+   },
+   "seed": 0,
+   "reason": "T5 cracked, registry 0: fibrous veins + domains of round pores + 60 A crack perpendicular to the load centred mid-domain (tips 5 A from the veins)",
+   "hypothesis": "net-section scaling from the uncracked rule value (same registry); mechanism factor 1.15: graceful veins with a weaker (round-pore) domain filler that fails first: two-stage failure with residual >= 0.6 and post-peak energy >= 1.5 x VS_R",
+   "tags": [
+    "hierarchy",
+    "T5",
+    "VF_R",
+    "registry0",
+    "cracked",
+    "L60"
+   ],
+   "parent": "H5_VF_R_r0",
+   "prediction": {
+    "strength_Nm_rule": 13.5,
+    "strength_Nm_mechanism": 15.5,
+    "retention_rule": 0.832,
+    "retention_mechanism": 0.956,
+    "fracture_mode_class": "progressive"
+   },
+   "notes": null
+  }
+ ]
+}

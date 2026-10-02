@@ -1,0 +1,19 @@
+{
+  "id": "Q7",
+  "recorded_utc": "2026-09-24T16:59:48.239001+00:00",
+  "reason": "Q4 passes force/transverse residual checks but changes the pristine control endpoint and integral. Test strain-increment sensitivity separately before interpreting Q4 as converged.",
+  "scope": "One 576-atom pristine control from original initial geometry, compared with completed Q4 control. No extra slit run is prepared or automatically released by this amendment.",
+  "changes": {
+    "d_strain": 0.0025,
+    "d_strain_elastic": 0.005,
+    "d_strain_min": 0.000625
+  },
+  "preserved": "Q4 potential, MPS/float32, conservative FIRE, iteration budgets, tolerances, zero-stress reference and acceptance rules unchanged. All three strain increments are halved; loading cap remains 1.0 with no post-peak cap.",
+  "driver": "The Q4 scientific source is unchanged. A separate execution wrapper changes only manifest/checksum routing and amendment metadata. Both original wrappers are preserved.",
+  "execution_checksums": "ecb793bcfcc068497a9d8b4ceee4df4436f4ce95023b71e4231cce0e6604526e",
+  "jobs": [
+    "quality__S1_pristine_zz_halfstep_Q7"
+  ],
+  "interpretation": "One increment refinement diagnoses sensitivity, not a proof of asymptotic convergence. Original-setting four resolution checks remain pending under the production gate.",
+  "production_gate_released": false
+}

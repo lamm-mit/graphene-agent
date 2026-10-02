@@ -1,0 +1,21 @@
+{
+  "time": "2026-09-26T14:43:36.075982+00:00",
+  "status": "single_replay_complete_reviewed",
+  "case": "R2_original_single",
+  "returncode": 0,
+  "supervisor_pid": 75852,
+  "suspended_batch": [
+    55231,
+    55233
+  ],
+  "deferred": [
+    "R3_original_single_repeat"
+  ],
+  "amendment": "amendment_Q9a.json",
+  "note": "Q9a complete. R2 finished and reviewed. R1 and its scheduler remain deliberately suspended; R3 deferred. No further simulation starts automatically. Follow-up paused on completion; no manuscript changes.",
+  "review_report": "results/single_replay_report.md",
+  "review_validation": "results/final_review_validation.json",
+  "required_case_ids": [
+    "R2_original_single"
+  ]
+}
